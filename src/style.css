@@ -1,0 +1,75 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  font-family: omens-variable, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Informa Pro Regular
+font-family: "informapro", sans-serif;
+font-weight: 400;
+font-style: normal;
+Informa Pro Italic
+font-family: "informapro", sans-serif;
+font-weight: 400;
+font-style: italic;
+Informa Pro Bold
+font-family: "informapro", sans-serif;
+font-weight: 700;
+font-style: normal;
+Informa Pro Bold Italic
+font-family: "informapro", sans-serif;
+font-weight: 700;
+font-style: italic;
+Informa Pro Condensed
+font-family: "informapro-cond", sans-serif;
+font-weight: 400;
+font-style: normal;
+Informa Pro Bold Condensed
+font-family: "informapro-cond", sans-serif;
+font-weight: 700;
+font-style: normal;
+ */
+
+/* add layer to inject classes in css */
+html {
+  overflow-y: scroll;
+}
+@layer base {
+  h1 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-family: informapro, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.07rem;
+    /* @apply text-2xl; or other tailwind classes*/
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+button {
+  font-family: omens-variable , sans-serif;
+  font-weight: 500;
+}
+
+
+/* font-family: mestiza-sans, sans-serif; */
+/* darker-grotesque; */
+/* main {
+  background: rgb(2,0,36);
+background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(96,96,153,1) 50%, rgba(160,214,225,1) 100%);
+} */

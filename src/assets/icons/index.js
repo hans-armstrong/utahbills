@@ -1,0 +1,14 @@
+export { default as anvil } from './anvil.png';
+export { default as billsigned } from './billsigned.png';
+export { default as billsponsor_1 } from './billsponsor_1.png';
+export { default as buildingicon } from './buildingicon.png';
+export { default as celebrate } from './celebrate.png';
+export { default as debate } from './debate.png';
+export { default as equal } from './equal.png';
+export { default as floorsponsor } from './floorsponsor.png';
+export { default as megaphone } from './megaphone.png';
+export { default as selectedtoserve } from './selectedtoserve.png';
+export { default as shake } from './shake.png';
+export { default as talking } from './talking.png';
+export { default as transmitted } from './transmitted.png';
+export { default as vote } from './vote.png';
