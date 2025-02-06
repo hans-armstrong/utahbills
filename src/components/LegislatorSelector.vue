@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-wrap">
         <Combobox as="div" class="relative rounded-md  w-fit h-fit mb-4" v-model="selectedPerson">
-            <ComboboxInput class="bg-white rounded-md p-2 text-blue-950 drop-shadow-sm" @change="query = $event.target.value" @keyup.enter="addLegislator(selectedPerson)"/>
+            <ComboboxInput class="bg-white rounded-md p-2 text-blue-950 drop-shadow-sm" @change="sanitizeInput($event.target.value)" @keyup.enter="addLegislator(selectedPerson)"/>
             <ComboboxButton class="absolute inset-y-0 right-0 flex items-center pr-2">
                 <i class="fa-solid fa-arrows-up-down"></i>
             </ComboboxButton> 
@@ -31,6 +31,11 @@ import {
 } from '@headlessui/vue'
 import { ref, computed } from 'vue'
 import { useLegStore } from '../stores/legisatorstore'
+import DOMPurify from 'dompurify'
+
+const sanitizeInput = (input) => {
+    query.value = DOMPurify.sanitize(input)
+}
 
 // Complete list of 104 representatives
 const people = [
