@@ -3,7 +3,6 @@
         <h1 class="py-4">2025 General Session Bills</h1>
         <div class="flex flex-col">
             <span>Last updated: 2/5/25 11:59 P.M. MDT</span>
-            <span>Links and refreshing pages is a bit buggy, always go to the home page first, thank you!</span>
         </div>
 
         <div></div>
