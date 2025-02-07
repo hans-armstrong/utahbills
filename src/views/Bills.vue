@@ -3,6 +3,7 @@
         <h1 class="py-4">2025 General Session Bills</h1>
         <div class="flex flex-col">
             <span>Last updated: 2/7/25 12:00 A.M. MDT</span>
+            <span>Small bug where the resolution bills don't show the correct status, will fix soon!</span>
         </div>
 
         <div></div>
@@ -130,15 +131,15 @@
                 hover:from-zinc-300 hover:to-neutral-100 hover:shadow-md hover:shadow-zinc-300 flex flex-wrap justify-between items-center border-l-8 border-[#A644A1]"
                     @click="updateStatus(1)">
                     <div class="rounded-full h-4 w-4 m-1 mb-1.5"></div>
-                    <div class="m-1">Introduced</div>
+                    <div class="m-1">Introduced (1st)</div>
                     <div class="rounded-full h-4 w-4 m-1 mb-1.5"></div>
                 </button>
                 <button
                     class="statusButton button-1 bg-gradient-to-tl from-neutral-100 to-zinc-200 shadow-zinc-200
-                hover:from-zinc-300 hover:to-neutral-100 hover:shadow-md hover:shadow-zinc-300 flex flex-wrap justify-between items-center border-l-8 border-[#A14364]"
+                hover:from-zinc-300 hover:to-neutral-100 hover:shadow-md hover:shadow-zinc-300 flex flex-wrap justify-between items-center border-l-8 border-[#0fabc1]"
                     @click="updateStatus(2)">
                     <div class="rounded-full h-4 w-4 m-1 mb-1.5"></div>
-                    <div class="m-1">Engrossed</div>
+                    <div class="m-1">Engrossed (2nd)</div>
                     <div class="rounded-full h-4 w-4 m-1 mb-1.5"></div>
                 </button>
                 <button
@@ -146,7 +147,7 @@
                 hover:from-zinc-300 hover:to-neutral-100 hover:shadow-md hover:shadow-zinc-300 flex flex-wrap justify-between items-center border-l-8 border-[#78589C]"
                     @click="updateStatus(3)">
                     <div class="rounded-full h-4 w-4 m-1 mb-1.5"></div>
-                    <div class="m-1">Enrolled</div>
+                    <div class="m-1">Enrolled (Passed)</div>
                     <div class="rounded-full h-4 w-4 m-1 mb-1.5"></div>
                 </button>
                 <button

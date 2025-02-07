@@ -526,7 +526,7 @@ function selectCircleFill(num) {
         case 1:
             return "#A644A1";
         case 2:
-            return "#A14364"
+            return "#0fabc1"
         case 3:
             return "#78589C"
         case 4:
@@ -566,7 +566,7 @@ function selectBGColor(num) {
         case 1:
             return "bg-[#A644A1]";
         case 2:
-            return "bg-[#A14364]"
+            return "bg-[#0fabc1]"
         case 3:
             return "bg-[#78589C]"
         case 4:
