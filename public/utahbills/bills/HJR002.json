@@ -1,6 +1,6 @@
 {
   "bill_id": 1903004,
-  "change_hash": "cb7535585e06acd063c986f1a06320b7",
+  "change_hash": "650fe3d041c3403f487d31f753e4cda8",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HJR002/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HJR002.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2025-02-05",
   "progress": [
     {
@@ -45,14 +45,26 @@
   "current_body_id": 94,
   "title": "Joint Rules Resolution - Fiscal Note Process",
   "description": "Joint Rules Resolution - Fiscal Note Process",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-01-21",
       "committee_id": 2116,
       "chamber": "H",
       "chamber_id": 93,
+      "name": "Rules"
+    },
+    {
+      "date": "2025-02-06",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
       "name": "Rules"
     }
   ],
@@ -147,6 +159,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-06",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -316,9 +335,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate/ received from House",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/5/2025",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "2/6/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -486,6 +505,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/6/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1898037,
-  "change_hash": "3f89c6a76411afaca1a5f694d8bbcbf4",
+  "change_hash": "ba83df9c3a85aae2dc9673b5b88c45b7",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -45,8 +45,8 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Mineral Surety Study",
   "description": "Mineral Surety Study",
   "pending_committee_id": 0,
@@ -178,6 +178,34 @@
       "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "House/ passed 3rd reading in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "House/ signed by Speaker/ returned to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "House/ to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -349,9 +377,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House 3rd Reading Calendar for Senate bills",
-  "last_action_time": "2/4/2025",
+  "last_action": "House/ to Senate",
+  "last_action_owner": "Senate President",
+  "last_action_time": "2/6/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -545,6 +573,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2/6/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "House Speaker",
+      "actionDate": "2/6/2025",
+      "actionClass": "H",
+      "voteID": "198",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "73-0-2",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ returned to Senate",
+      "owner": "Senate President",
+      "actionDate": "2/6/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGNS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "2/6/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
       "parm1": "",
       "parm2": ""
     }

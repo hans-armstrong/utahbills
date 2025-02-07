@@ -1,6 +1,6 @@
 {
   "bill_id": 1958011,
-  "change_hash": "29d976180c194ce8518a97a91718e451",
+  "change_hash": "4d7aa9a063952e81631228f9945c34cc",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0423/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0423.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-06",
+  "progress": [
+    {
+      "date": "2025-02-06",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0423",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Voting Registration Amendments",
   "description": "Voting Registration Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-06",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-05",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -85,6 +117,30 @@
     {
       "subject_id": 11851,
       "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 332627,
+      "subject_name": "Election Law"
+    },
+    {
+      "subject_id": 332842,
+      "subject_name": "Voting and Voter Registration"
+    },
+    {
+      "subject_id": 11898,
+      "subject_name": "Natural Resources"
+    },
+    {
+      "subject_id": 11899,
+      "subject_name": "Wildlife"
+    },
+    {
+      "subject_id": 338153,
+      "subject_name": "Fishing"
+    },
+    {
+      "subject_id": 334992,
+      "subject_name": "Hunting"
     }
   ],
   "texts": [
@@ -115,13 +171,13 @@
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>enables an individual to register or preregister to vote when purchasing a hunting or fishing license; and<hr><ltbullet>requires a county clerk to provide copies of the voter registration form to Division of Wildlife Resources offices in the county.",
   "monies": "None",
   "attorney": "Paige Nelson",
-  "fiscal_analyst": "Ivan D. Djambov",
+  "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "YETKTUQLYH",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/5/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/6/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -146,6 +202,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2/6/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/6/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

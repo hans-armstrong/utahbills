@@ -1,6 +1,6 @@
 {
   "bill_id": 1942268,
-  "change_hash": "461c587be3014105d49400b8c30c69a4",
+  "change_hash": "43501baf838b638579ce8a0fd7324b2f",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-01-29",
       "event": 9
+    },
+    {
+      "date": "2025-02-06",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Indigent Defense Amendments",
   "description": "Indigent Defense Amendments",
-  "pending_committee_id": 2124,
-  "committee": {
-    "committee_id": 2124,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Judiciary, Law Enforcement, and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-28",
@@ -99,6 +98,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-05",
+      "action": "Senate Comm - Substitute Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-05",
+      "action": "Senate Comm - Favorable Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "Senate/ comm rpt/ substituted in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-06",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -135,6 +162,34 @@
     {
       "subject_id": 332528,
       "subject_name": "Judicial Operations"
+    },
+    {
+      "subject_id": 11867,
+      "subject_name": "Juveniles"
+    },
+    {
+      "subject_id": 131917,
+      "subject_name": "Abuse, Neglect, or Dependency"
+    },
+    {
+      "subject_id": 374638,
+      "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 11941,
+      "subject_name": "Child Welfare"
+    },
+    {
+      "subject_id": 340447,
+      "subject_name": "Juvenile Justice"
+    },
+    {
+      "subject_id": 334918,
+      "subject_name": "Indigent Counsel"
+    },
+    {
+      "subject_id": 345528,
+      "subject_name": "Parental Defense"
     }
   ],
   "texts": [
@@ -217,6 +272,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 506630,
+      "date": "2025-02-05",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0171",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0171/id/506630",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB171S10.pdf",
+      "supplement_size": 129965,
+      "supplement_hash": "2d46664f974df2513391754558c3b737",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -251,9 +326,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate Comm - Favorable Recommendation",
-  "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-  "last_action_time": "2/5/2025",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/6/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -343,6 +418,32 @@
       "voteHouse": "",
       "voteStr": "6-0-3",
       "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ substituted",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/6/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/6/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1909609,
-  "change_hash": "28867af378d99fe45cf78ed5a58af7b0",
+  "change_hash": "fe93f839b2af476c3d009122069cc7b3",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SJR002/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SJR002.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2025-01-21",
+  "status": 2,
+  "status_date": "2025-02-05",
   "progress": [
     {
       "date": "2025-01-21",
@@ -32,6 +32,10 @@
     {
       "date": "2025-01-30",
       "event": 10
+    },
+    {
+      "date": "2025-02-05",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,12 +45,17 @@
   "bill_type_id": "4",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Proposal to Amend Utah Constitution - Statewide Initiatives",
   "description": "Proposal to Amend Utah Constitution - Statewide Initiatives",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-01-21",
@@ -61,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Revenue and Taxation"
+    },
+    {
+      "date": "2025-02-06",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -153,6 +169,41 @@
       "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-05",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-05",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-05",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-05",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-06",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -339,9 +390,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "House/ received from Senate",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/5/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/6/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -561,6 +612,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/6/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

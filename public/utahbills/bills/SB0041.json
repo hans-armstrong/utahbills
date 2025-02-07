@@ -1,6 +1,6 @@
 {
   "bill_id": 1898322,
-  "change_hash": "76c0e2d63539b49bdab1582913432222",
+  "change_hash": "c4117e59d7a982849d6cd52e674e3abd",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -45,8 +45,8 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Sex, Kidnap, and Child Abuse Offender Registry Amendments",
   "description": "Sex, Kidnap, and Child Abuse Offender Registry Amendments",
   "pending_committee_id": 0,
@@ -206,6 +206,27 @@
       "action": "House/ 2nd reading in House Consent Calendar",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "House/ 3rd reading in House Consent Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -627,9 +648,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House Consent Calendar",
-  "last_action_time": "2/4/2025",
+  "last_action": "House/ to Senate",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "2/6/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -875,6 +896,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House Consent Calendar",
+      "actionDate": "2/6/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "2/6/2025",
+      "actionClass": "H",
+      "voteID": "196",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "74-0-1",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2/6/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
       "parm1": "",
       "parm2": ""
     }

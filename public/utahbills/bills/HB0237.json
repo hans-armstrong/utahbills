@@ -1,6 +1,6 @@
 {
   "bill_id": 1923471,
-  "change_hash": "3cd57f4011b668f327dbf9acc5329ea9",
+  "change_hash": "c08fcda206fcbdc56d019a62fb4c9729",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,13 +53,8 @@
   "current_body_id": 94,
   "title": "Rollback Tax Amendments",
   "description": "Rollback Tax Amendments",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -202,6 +197,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-06",
+      "action": "Senate Comm - Not Considered in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -456,11 +458,23 @@
       "minutesURL": "/interim/2025/html/00000346.htm",
       "agendaURL": "/~2025/agenda/HREV0122.ag.htm",
       "billSession": "2025GS"
+    },
+    {
+      "mtgID": "19651",
+      "committeeID": "SSTREV",
+      "mtgDate": "2025-02-06 15:40:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SREV0206.ag.htm",
+      "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate/ to standing committee",
+  "last_action": "Senate Comm - Not Considered",
   "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "2/4/2025",
+  "last_action_time": "2/6/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -667,6 +681,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Not Considered",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2/6/2025",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCANOCNSDR",
       "parm1": "",
       "parm2": ""
     }

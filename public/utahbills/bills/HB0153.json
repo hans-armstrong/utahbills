@@ -1,6 +1,6 @@
 {
   "bill_id": 1908840,
-  "change_hash": "8cd15684489b7194085497393ff4b0bb",
+  "change_hash": "c937dd4100b164820ef9dc28a22977f3",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Hunting Amendments",
   "description": "Hunting Amendments",
-  "pending_committee_id": 2111,
-  "committee": {
-    "committee_id": 2111,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Natural Resources, Agriculture, and Environment"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -113,6 +108,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-06",
+      "action": "House Comm - Favorable Recommendation in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -263,6 +265,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 507663,
+      "date": "2025-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0153",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0153/id/507663",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB153H10.pdf",
+      "supplement_size": 142404,
+      "supplement_hash": "46d9731e8f146897e9d13d1b01b16add",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -283,10 +305,23 @@
   "fiscal_analyst": "Ivan D. Djambov",
   "gov_tracking_id": "MQJSWGFREL",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19686",
+      "committeeID": "HSTNAE",
+      "mtgDate": "2025-02-06 15:40:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HNAE0206.ag.htm",
+      "billSession": "2025GS"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "2/5/2025",
+  "last_action_time": "2/6/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -376,6 +411,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/6/2025",
+      "actionClass": "A",
+      "voteID": "34971",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-1-4",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1952348,
-  "change_hash": "5d08cd223c497fd83b3e0594f8abd214",
+  "change_hash": "e9dc84e187b1dc9f62bd4cf2918f5970",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-04",
       "event": 9
+    },
+    {
+      "date": "2025-02-06",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Motor Vehicle Registration Services Amendments",
   "description": "Motor Vehicle Registration Services Amendments",
-  "pending_committee_id": 3583,
-  "committee": {
-    "committee_id": 3583,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Transportation, Public Utilities, Energy, and Technology"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-04",
@@ -99,6 +98,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-05",
+      "action": "Senate Comm - Favorable Recommendation in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "Senate/ committee report favorable in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-06",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -187,7 +207,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 506635,
+      "date": "2025-02-05",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0210",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0210/id/506635",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB210S10.pdf",
+      "supplement_size": 126802,
+      "supplement_hash": "afcdcdc4c6a92cbea741bb3c6747dc80",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [
     {
       "type_id": 1,
@@ -220,9 +261,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate Comm - Favorable Recommendation",
-  "last_action_owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
-  "last_action_time": "2/5/2025",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/6/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -299,6 +340,32 @@
       "voteHouse": "",
       "voteStr": "6-1-1",
       "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "2/6/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/6/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

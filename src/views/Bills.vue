@@ -2,7 +2,7 @@
     <div class="bills py-12 px-4 max-w-screen-2xl">
         <h1 class="py-4">2025 General Session Bills</h1>
         <div class="flex flex-col">
-            <span>Last updated: 2/5/25 11:59 P.M. MDT</span>
+            <span>Last updated: 2/7/25 12:00 A.M. MDT</span>
         </div>
 
         <div></div>
@@ -390,7 +390,7 @@ function filterBills(list) {
         filteredBills = emptyList(filteredBills)
         return filteredBills
     } else if (currentStatus.value == "other") {
-        filteredBills = list.filter((bill) => [7, 8, 9, 10, 11, 12].includes(bill.status)) // will refactor this
+        filteredBills = list.filter((bill) => [7, 8, 9, 10, 11, 12, 13].includes(bill.status)) // will refactor this
         filteredBills = emptyList(filteredBills)
         return filteredBills
     } else {

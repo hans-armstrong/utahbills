@@ -1,6 +1,6 @@
 {
   "bill_id": 1957581,
-  "change_hash": "4cec9b4bfd70fb2c4d2b86082f0f1a79",
+  "change_hash": "ba6b2197eb76295e350b8625b0da65d6",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HJR006/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HJR006.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-06",
+  "progress": [
+    {
+      "date": "2025-02-06",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HJR006",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Joint Rules Resolution - Legislative Process Amendments",
   "description": "Joint Rules Resolution - Legislative Process Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-06",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-05",
@@ -48,6 +66,27 @@
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-06",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -112,6 +151,14 @@
     {
       "subject_id": 332524,
       "subject_name": "Legislative Operations"
+    },
+    {
+      "subject_id": 11987,
+      "subject_name": "Resolutions"
+    },
+    {
+      "subject_id": 12067,
+      "subject_name": "Resolutions, Rules"
     }
   ],
   "texts": [
@@ -136,7 +183,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 506996,
+      "date": "2025-02-06",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HJR006",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HJR006/id/506996",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HJR006.fn.pdf",
+      "supplement_size": 1608365,
+      "supplement_hash": "95aa828b7d78a337b9551899bbb21623",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This joint rules resolution modifies legislative processes and procedures. ",
   "hilighted_provisions": "This resolution:<hr><ltbullet>defines terms;<hr><ltbullet>removes the requirement that the Senate and House Rules committees meet annually to review joint rules;<hr><ltbullet>addresses the process to direct a roll call vote during an electronic meeting;<hr><ltbullet>modifies legislative staff offices' reporting requirement related to performance measures;<hr><ltbullet>requires the Executive Appropriations Committee to meet annually to approve legislative staff offices' budgets and certify the Legislature's budget to the governor;<hr><ltbullet>provides legislators the right to attend appropriations committee meetings, subject to certain restrictions;<hr><ltbullet>clarifies how requests for legislation, priority request designations, and legislation are treated when the chief sponsor is:<hr><ltbullet1>unable to serve in the next annual general session; or<hr><ltbullet1>elected or appointed to serve in the opposite chamber;<hr><ltbullet>addresses the circumstances under which the Office of Legislative Research and General Counsel removes a committee note;<hr><ltbullet>clarifies the order in which the Office of Legislative Research and General Counsel numbers legislation;<hr><ltbullet>clarifies the days of the week the Senate and House give preference for the other chamber's legislation;<hr><ltbullet>prohibits transferring sponsorship on legislation more than once;<hr><ltbullet>modifies the consideration of an amendment or substitute legislation made in the other chamber;<hr><ltbullet>modifies deadlines related to the passage of the final appropriations bill and fiscal note bills;<hr><ltbullet>clarifies reimbursement procedures related to legislative travel;<hr><ltbullet>requires that when a legislative committee creates a subcommittee, the members must include at least one senator and one representative;<hr><ltbullet>authorizes the chairs of the Legislative Process Committee to independently open a committee bill file, subject to certain requirements;<hr><ltbullet>prohibits the chief sponsor of a committee bill from altering the bill before the bill is numbered for introduction, except altering to make a technical correction; and<hr><ltbullet>makes technical and conforming changes.",
@@ -146,9 +214,9 @@
   "gov_tracking_id": "MKNNFJIWCG",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "",
-  "last_action_owner": "",
-  "last_action_time": "",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/6/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -173,6 +241,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2/6/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/6/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/6/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm1": "",
       "parm2": ""
     }

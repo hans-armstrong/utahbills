@@ -1,6 +1,6 @@
 {
   "bill_id": 1899977,
-  "change_hash": "96890736586507275b140edde05e9c90",
+  "change_hash": "565f73e6801a0d7c83707a2fdebe1842",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-01-29",
       "event": 9
+    },
+    {
+      "date": "2025-02-06",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -229,6 +233,20 @@
     {
       "date": "2025-02-05",
       "action": "House Comm - Favorable Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "House/ committee report favorable in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-06",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -499,9 +517,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "House Comm - Favorable Recommendation",
-  "last_action_owner": "House Business, Labor, and Commerce Committee",
-  "last_action_time": "2/5/2025",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for Senate bills",
+  "last_action_time": "2/6/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -773,6 +791,32 @@
       "voteHouse": "",
       "voteStr": "14-0-2",
       "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2/6/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2/6/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

@@ -509,6 +509,8 @@ function convertBillStatus(num) {
             return "Report DNP"
         case 12:
             return "Draft"
+        case 13: 
+            return "Reconsidered"
     }
 }
 
@@ -546,6 +548,8 @@ function selectCircleFill(num) {
             return "#06556B"
         case 12:
             return "#06556B"
+        case 13:
+            return "#000000"
     }
 }
 
@@ -584,6 +588,8 @@ function selectBGColor(num) {
             return "bg-[#06556B]"
         case 12:
             return "bg-[#06556B]"
+        case 13:
+            return "bg-[#000000]"
     }
 }
 

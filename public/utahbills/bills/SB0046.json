@@ -1,6 +1,6 @@
 {
   "bill_id": 1899741,
-  "change_hash": "cf1e190dbb81b864e90e798f86ae120f",
+  "change_hash": "492f9c3586405ab9837b51fcdf0f9605",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -204,6 +204,20 @@
     {
       "date": "2025-02-05",
       "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "Senate/ received from House in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "Senate/ placed on Concurrence Calendar in Senate Concurrence Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -411,9 +425,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "House/ to Senate",
-  "last_action_owner": "Senate Secretary",
-  "last_action_time": "2/5/2025",
+  "last_action": "Senate/ placed on Concurrence Calendar",
+  "last_action_owner": "Senate Concurrence Calendar",
+  "last_action_time": "2/6/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -659,6 +673,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate Secretary",
+      "actionDate": "2/6/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on Concurrence Calendar",
+      "owner": "Senate Concurrence Calendar",
+      "actionDate": "2/6/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SONCURCAL",
       "parm1": "",
       "parm2": ""
     }
