@@ -1,6 +1,6 @@
 {
   "bill_id": 1898358,
-  "change_hash": "67eb56b08c0669b515c4637c128e2d45",
+  "change_hash": "c6fefdc9565245f9a1296bc004de07b5",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -45,8 +45,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Civil Commitment Modifications",
   "description": "Civil Commitment Modifications",
   "pending_committee_id": 0,
@@ -213,6 +213,41 @@
       "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-06",
+      "action": "Senate/ to House with amendments in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ placed on Concurrence Calendar in House Concurrence Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -466,9 +501,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate/ to House with amendments",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/6/2025",
+  "last_action": "House/ placed on Concurrence Calendar",
+  "last_action_owner": "House Concurrence Calendar",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -766,6 +801,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOHAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ placed on Concurrence Calendar",
+      "owner": "House Concurrence Calendar",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HONCURCAL",
       "parm1": "",
       "parm2": ""
     }

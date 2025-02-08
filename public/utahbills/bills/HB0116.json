@@ -1,6 +1,6 @@
 {
   "bill_id": 1903098,
-  "change_hash": "8ac0f6c3e78c4e11b0e6b69ee47336d7",
+  "change_hash": "d314edf493cbf9ef4ea338edc38b1498",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Public Safety Answering Point Amendments",
   "description": "Public Safety Answering Point Amendments",
-  "pending_committee_id": 2115,
-  "committee": {
-    "committee_id": 2115,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -106,6 +101,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House Comm - Amendment Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House Comm - Held in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -240,10 +249,23 @@
   "fiscal_analyst": "Gary R. Syphus",
   "gov_tracking_id": "JTBUOEGQRN",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19670",
+      "committeeID": "HSTREV",
+      "mtgDate": "2025-02-07 15:40:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HREV0207.ag.htm",
+      "billSession": "2025GS"
+    }
+  ],
+  "last_action": "House Comm - Held",
   "last_action_owner": "House Revenue and Taxation Committee",
-  "last_action_time": "2/5/2025",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -320,6 +342,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Amendment Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "A",
+      "voteID": "35048",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-0",
+      "actionCode": "HCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "A",
+      "voteID": "35049",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-0",
+      "actionCode": "HCAHELD",
       "parm1": "",
       "parm2": ""
     }

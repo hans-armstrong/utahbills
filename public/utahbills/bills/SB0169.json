@@ -1,6 +1,6 @@
 {
   "bill_id": 1941656,
-  "change_hash": "952129b88800534ba76b82a4ff81af33",
+  "change_hash": "c5cb009b94b6c656b29471572be0a977",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -130,6 +130,20 @@
     {
       "date": "2025-01-31",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -329,9 +343,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "1/31/2025",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -460,6 +474,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/7/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/7/2025",
+      "actionClass": "S",
+      "voteID": "332",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "24-0-5",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

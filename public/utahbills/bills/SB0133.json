@@ -1,6 +1,6 @@
 {
   "bill_id": 1925636,
-  "change_hash": "a4c2f8fec016a5332d9944a66e4ad7bf",
+  "change_hash": "b5af5c0a33552836493d1b3d5a6d76b1",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -130,6 +130,20 @@
     {
       "date": "2025-01-30",
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -345,9 +359,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "1/30/2025",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -476,6 +490,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/7/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/7/2025",
+      "actionClass": "S",
+      "voteID": "326",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "24-0-5",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

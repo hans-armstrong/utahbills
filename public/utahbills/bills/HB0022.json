@@ -1,6 +1,6 @@
 {
   "bill_id": 1898011,
-  "change_hash": "376016e484f73c53c061503ea880fea8",
+  "change_hash": "c60ce5d16091442f014da65e8a53eb3a",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -218,6 +218,20 @@
     {
       "date": "2025-02-06",
       "action": "Senate/ to House with amendments in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ placed on Concurrence Calendar in House Concurrence Calendar",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -735,6 +749,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOHAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ placed on Concurrence Calendar",
+      "owner": "House Concurrence Calendar",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HONCURCAL",
       "parm1": "",
       "parm2": ""
     }

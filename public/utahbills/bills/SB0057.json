@@ -1,6 +1,6 @@
 {
   "bill_id": 1901100,
-  "change_hash": "21e044d0a6c2c421cb4f21a7a4ba46b8",
+  "change_hash": "e46b2cc7b4ece03841930ec2f035cb3a",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Newborn Relinquishment Amendments",
   "description": "Newborn Relinquishment Amendments",
-  "pending_committee_id": 2123,
-  "committee": {
-    "committee_id": 2123,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -106,6 +101,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate Comm - Substitute Recommendation in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate Comm - Favorable Recommendation in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -169,6 +178,26 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 12052,
+      "subject_name": "Health Care Facilities"
+    },
+    {
+      "subject_id": 11941,
+      "subject_name": "Child Welfare"
+    },
+    {
+      "subject_id": 332644,
+      "subject_name": "Health Care Professionals"
+    },
+    {
+      "subject_id": 362639,
+      "subject_name": "Department of Health and Human Services"
+    },
+    {
+      "subject_id": 334874,
+      "subject_name": "Hospitals"
     }
   ],
   "texts": [
@@ -251,6 +280,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 509372,
+      "date": "2025-02-07",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0057",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0057/id/509372",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB057S10.pdf",
+      "supplement_size": 132131,
+      "supplement_hash": "6b9982bd2f933158c421aa84dc7687e2",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -265,16 +314,29 @@
     }
   ],
   "general_provisions": "This bill amends provisions related to the safe relinquishment of a newborn child.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>modifies the locations where an individual may safely relinquish a newborn child;<hr><ltbullet>permits certain facilities to utilize a newborn safety device to facilitate the safe and anonymous relinquishment of a newborn child; and<hr><ltbullet>makes technical corrections.",
-  "monies": "None",
+  "hilighted_provisions": "This bill:<hr><ltbullet>amends the definition of \"newborn child\" as that term is used in provisions concerning the safe relinquishment of a newborn child.",
+  "monies": "",
   "attorney": "Alan Houston",
   "fiscal_analyst": "Kevin Edminster",
   "gov_tracking_id": "VNRQXTVOJU",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19636",
+      "committeeID": "SSTHHS",
+      "mtgDate": "2025-02-07 15:40:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SHHS0207.ag.htm",
+      "billSession": "2025GS"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Health and Human Services Committee",
-  "last_action_time": "1/21/2025",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -351,6 +413,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "A",
+      "voteID": "35035",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-0-4",
+      "actionCode": "SCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "A",
+      "voteID": "35044",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1925181,
-  "change_hash": "efe4e3a67f9fa9a6e48b8e4322383840",
+  "change_hash": "27b2c1362dcff87939293530e0f7748e",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0253/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0253.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2025-02-06",
   "progress": [
     {
@@ -49,8 +49,13 @@
   "current_body_id": 94,
   "title": "Agriculture and Food Amendments",
   "description": "Agriculture and Food Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-01-21",
@@ -65,6 +70,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Health and Human Services"
+    },
+    {
+      "date": "2025-02-07",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -165,6 +177,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -228,6 +247,26 @@
     {
       "subject_id": 334440,
       "subject_name": "Agriculture & Food"
+    },
+    {
+      "subject_id": 11900,
+      "subject_name": "Agriculture"
+    },
+    {
+      "subject_id": 23952,
+      "subject_name": "Department of Agriculture and Food"
+    },
+    {
+      "subject_id": 11901,
+      "subject_name": "Livestock"
+    },
+    {
+      "subject_id": 128952,
+      "subject_name": "Animals"
+    },
+    {
+      "subject_id": 11918,
+      "subject_name": "Sales and Use Tax"
     }
   ],
   "texts": [
@@ -330,6 +369,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 508639,
+      "date": "2025-02-07",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0253S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0253/id/508639",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0253S01.fn.pdf",
+      "supplement_size": 1610421,
+      "supplement_hash": "03a2f54458343d5108337df0835a79e3",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -364,9 +423,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate/ received from House",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/6/2025",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -547,6 +606,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }

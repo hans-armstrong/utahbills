@@ -1,6 +1,6 @@
 {
   "bill_id": 1927243,
-  "change_hash": "e5f843c5ca2b3692bbb9753d9a7a8759",
+  "change_hash": "b61146539d6469662bdfb37ca376bd3f",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Educational Medical Services Amendments",
   "description": "Educational Medical Services Amendments",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -106,6 +101,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate Comm - Held in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -218,10 +220,23 @@
   "fiscal_analyst": "Kyra Hudson",
   "gov_tracking_id": "RVMNPUBMMV",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19620",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2025-02-07 15:40:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SEDU0207.ag.htm",
+      "billSession": "2025GS"
+    }
+  ],
+  "last_action": "Senate Comm - Held",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "1/23/2025",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -298,6 +313,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Held",
+      "owner": "Senate Education Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "A",
+      "voteID": "35065",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "2-1-4",
+      "actionCode": "SCAHELD",
       "parm1": "",
       "parm2": ""
     }

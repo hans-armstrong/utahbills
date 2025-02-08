@@ -1,6 +1,6 @@
 {
   "bill_id": 1928336,
-  "change_hash": "7f016c5e9460dcc11e1f91f800c2a323",
+  "change_hash": "579c4605b065cea7930b62f2a5bf518c",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -133,6 +133,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -169,22 +183,6 @@
     {
       "subject_id": 11851,
       "subject_name": "Government Operations (State Issues)"
-    },
-    {
-      "subject_id": 12025,
-      "subject_name": "Lobbying"
-    },
-    {
-      "subject_id": 332524,
-      "subject_name": "Legislative Operations"
-    },
-    {
-      "subject_id": 332525,
-      "subject_name": "Legislative Committees and Task Forces"
-    },
-    {
-      "subject_id": 334468,
-      "subject_name": "Legislative Organization"
     }
   ],
   "texts": [
@@ -217,6 +215,24 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/introduced/SB0143S01.pdf",
       "text_size": 84861,
       "text_hash": "a69001689b525f3dfa4e64405e85fe64",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3110033,
+      "date": "2025-02-07",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0143/id/3110033",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/SB0143S02.pdf",
+      "text_size": 84925,
+      "text_hash": "844604a3ace53af6751b488ceabb2c20",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -307,6 +323,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 509313,
+      "date": "2025-02-07",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #0",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0143/id/509313",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20SB0143%20To%20SB0143S02.pdf",
+      "supplement_size": 83817,
+      "supplement_hash": "13b2dbe020b67793c038895462cfa6ce",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 509314,
+      "date": "2025-02-07",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0143/id/509314",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20SB0143S01%20To%20SB0143S02.pdf",
+      "supplement_size": 83240,
+      "supplement_hash": "9830eeeff4792946f17ea68388005c93",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -341,9 +397,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "1/30/2025",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -472,6 +528,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/7/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/7/2025",
+      "actionClass": "S",
+      "voteID": "331",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "24-0-5",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

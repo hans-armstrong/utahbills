@@ -1,6 +1,6 @@
 {
   "bill_id": 1957667,
-  "change_hash": "f59baca1a4bfe3886c2b2c6b8bbdddd3",
+  "change_hash": "137800459956af3b903defc26c2d03c3",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-06",
       "event": 1
+    },
+    {
+      "date": "2025-02-06",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Health Care Services Platforms",
   "description": "Health Care Services Platforms",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2119,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2119,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Business and Labor"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-06",
+      "committee_id": 2119,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Business and Labor"
     }
   ],
   "history": [
@@ -81,6 +92,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-06",
+      "action": "Senate/ to standing committee in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -141,7 +166,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 507980,
+      "date": "2025-02-06",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0228",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0228/id/507980",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SB0228.fn.pdf",
+      "supplement_size": 1610142,
+      "supplement_hash": "ab8afe62acf79694ab9511a8ca0e5988",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill addresses health care staffing.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>establishes a registration program, administered by the Division of Occupational Licensing (division), for health care services platforms;<hr><ltbullet>establishes registration and operational requirements for health care services platforms; and<hr><ltbullet>authorizes the division to:<hr><ltbullet1>collect fees;<hr><ltbullet1>adopt rules; and<hr><ltbullet1>deny, place restrictions on, or suspend a registration for violations of statute or rule.",
@@ -151,9 +197,9 @@
   "gov_tracking_id": "YNPSTQRYND",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/6/2025",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -217,6 +263,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

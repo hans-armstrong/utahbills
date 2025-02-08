@@ -1,6 +1,6 @@
 {
   "bill_id": 1916251,
-  "change_hash": "cac1beb5077b8fbc943683dae24f0079",
+  "change_hash": "3648bab937b9ddd4336ecb5f82b072d2",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Student Privacy and Modesty in Public Education",
   "description": "Student Privacy and Modesty in Public Education",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -106,6 +101,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate Comm - Not Considered in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -218,10 +220,23 @@
   "fiscal_analyst": "Ben Leishman",
   "gov_tracking_id": "GWQFLLXQRO",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19620",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2025-02-07 15:40:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SEDU0207.ag.htm",
+      "billSession": "2025GS"
+    }
+  ],
+  "last_action": "Senate Comm - Not Considered",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "1/23/2025",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -298,6 +313,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Not Considered",
+      "owner": "Senate Education Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCANOCNSDR",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1960664,
-  "change_hash": "211b61c0f4adf90b9e5b39654bd8f5e1",
+  "change_hash": "f755114e858086a955b656d10e5ab2d3",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0437/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0437.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-07",
+  "progress": [
+    {
+      "date": "2025-02-07",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0437",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Interdicted Person Amendments",
   "description": "Interdicted Person Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-07",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-06",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -85,6 +117,50 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 11871,
+      "subject_name": "Business"
+    },
+    {
+      "subject_id": 333595,
+      "subject_name": "Alcohol"
+    },
+    {
+      "subject_id": 366608,
+      "subject_name": "Department of Alcoholic Beverage Services"
+    },
+    {
+      "subject_id": 11868,
+      "subject_name": "Courts"
+    },
+    {
+      "subject_id": 332736,
+      "subject_name": "Crimes"
+    },
+    {
+      "subject_id": 332528,
+      "subject_name": "Judicial Operations"
+    },
+    {
+      "subject_id": 11866,
+      "subject_name": "Law Enforcement and Criminal Justice"
+    },
+    {
+      "subject_id": 12020,
+      "subject_name": "Driver License"
+    },
+    {
+      "subject_id": 11903,
+      "subject_name": "Driving Under the Influence (DUI)"
+    },
+    {
+      "subject_id": 11874,
+      "subject_name": "Motor Vehicles"
+    },
+    {
+      "subject_id": 11875,
+      "subject_name": "Transportation"
     }
   ],
   "texts": [
@@ -115,13 +191,13 @@
   "hilighted_provisions": "This bill:<hr><ltbullet>provides that a person convicted of driving under the influence may be designated as an interdicted person and is prohibited from purchasing alcohol for a certain time period;<hr><ltbullet>allows the court to determine the time period of interdiction;<hr><ltbullet>requires the Department of Alcoholic Beverage Services to provide training on verification of whether a person is an interdicted person, including inspection of the person's identification card or driver license;<hr><ltbullet>requires a person designated as an interdicted person to obtain a unique driver license or identification card with security features indicating that the person is an interdicted person;<hr><ltbullet>allows a person to voluntarily obtain a unique driver license or identification card with security features indicating that the person is an interdicted person;<hr><ltbullet>provides relevant definitions; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
   "attorney": "Kurt P. Gasser",
-  "fiscal_analyst": "Gary R. Syphus",
+  "fiscal_analyst": "Josh Pittman",
   "gov_tracking_id": "TRPWLSSCGH",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/6/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -146,6 +222,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

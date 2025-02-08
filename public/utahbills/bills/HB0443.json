@@ -1,6 +1,6 @@
 {
   "bill_id": 1960717,
-  "change_hash": "aa057664cbc6d8ad5f44e09b583b16a6",
+  "change_hash": "362f21ad332031333a906401576566d9",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0443/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0443.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-07",
+  "progress": [
+    {
+      "date": "2025-02-07",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0443",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Candidate Disclosure Amendments",
   "description": "Candidate Disclosure Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-07",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-06",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -127,13 +159,13 @@
   "hilighted_provisions": "This bill:<hr><ltbullet>requires a candidate for local elective office to file a conflict of interest disclosure statement at the time the candidate files a declaration of candidacy; <hr><ltbullet>creates an exception to the disclosure requirement described above if the candidate is seeking reelection to the same office and already, that same year, filed a conflict of interest disclosure statement;<hr><ltbullet>requires an election official to post the candidate's disclosure statement on the political subdivision's website;  <hr><ltbullet>subject to certain exceptions, requires state and local candidates and officeholders to annually disclose any misdemeanor or felony offense for which the candidate or officeholder has been convicted by a court located within or outside of this state;<hr><ltbullet>for purposes of laws governing when a public employer may ask a question about a job applicant's criminal history, specifies that a candidate or officeholder described above is not an applicant for a job with a public employer;<hr><ltbullet>creates deadlines and procedures related to the processes described above; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
   "attorney": "Michael Cipriano",
-  "fiscal_analyst": "Ivan D. Djambov",
+  "fiscal_analyst": "Alejandra G Rodriguez",
   "gov_tracking_id": "OMTNKWPXRI",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/6/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -158,6 +190,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

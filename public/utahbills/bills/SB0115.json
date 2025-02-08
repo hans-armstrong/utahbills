@@ -1,6 +1,6 @@
 {
   "bill_id": 1918807,
-  "change_hash": "1cc14bb6250f8f926da8080a11c7b43a",
+  "change_hash": "2de2f5a7d05410831a85be6117abb77a",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -123,6 +123,27 @@
     {
       "date": "2025-01-30",
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate/ substituted in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -330,7 +351,7 @@
     }
   ],
   "general_provisions": "This bill addresses substance use disorder screening in state correctional facilities and county jails.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>requires state correctional facilities and county jails to:<hr><ltbullet1>assess inmates for substance use disorders;<hr><ltbullet1>report data related to the assessments; and<hr><ltbullet1>use the assessments to assist with treatment and programming decisions for inmates; and <hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>requires state correctional facilities and county jails to:<hr><ltbullet1>screen inmates for substance use disorders;<hr><ltbullet1>report data related to the screenings; and<hr><ltbullet1>use the screenings to assist with treatment and programming decisions for inmates; and <hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Alan Houston",
   "fiscal_analyst": "Kevin Edminster",
@@ -350,9 +371,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "1/30/2025",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -468,6 +489,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/7/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ substituted",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/7/2025",
+      "actionClass": "S",
+      "voteID": "320",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SSUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/7/2025",
+      "actionClass": "S",
+      "voteID": "321",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "25-0-4",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

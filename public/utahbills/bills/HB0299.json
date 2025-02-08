@@ -1,6 +1,6 @@
 {
   "bill_id": 1934630,
-  "change_hash": "272d4b65825fea010baa4edc8331b682",
+  "change_hash": "d946447711ae67eab42e371a00155e2b",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Election Code Time Computation Revisions",
   "description": "Election Code Time Computation Revisions",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-23",
@@ -99,6 +94,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House Comm - Not Considered in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -207,10 +209,23 @@
   "fiscal_analyst": "Ivan D. Djambov",
   "gov_tracking_id": "QMCKKPGVDC",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19604",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2025-02-07 15:40:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HGOC0207.ag.htm",
+      "billSession": "2025GS"
+    }
+  ],
+  "last_action": "House Comm - Not Considered",
   "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "2/3/2025",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -274,6 +289,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
       "parm1": "",
       "parm2": ""
     }

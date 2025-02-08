@@ -1,6 +1,6 @@
 {
   "bill_id": 1947287,
-  "change_hash": "3c52cf3d032e2b8367d2184b62ed6735",
+  "change_hash": "265b2564d4d89d3f2fe189ac98e5d43a",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Medicaid Provider Reimbursement Amendments",
   "description": "Medicaid Provider Reimbursement Amendments",
-  "pending_committee_id": 2123,
-  "committee": {
-    "committee_id": 2123,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-30",
@@ -106,6 +101,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate Comm - Substitute Recommendation in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate Comm - Favorable Recommendation in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -314,6 +323,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 509179,
+      "date": "2025-02-07",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0193",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0193/id/509179",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB193S10.pdf",
+      "supplement_size": 131300,
+      "supplement_hash": "278237f9a5e1fac4bdcccd85bda969e1",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -334,10 +363,23 @@
   "fiscal_analyst": "Russell T. Frandsen",
   "gov_tracking_id": "STNVOVTUKN",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19636",
+      "committeeID": "SSTHHS",
+      "mtgDate": "2025-02-07 15:40:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SHHS0207.ag.htm",
+      "billSession": "2025GS"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Health and Human Services Committee",
-  "last_action_time": "2/4/2025",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -414,6 +456,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "A",
+      "voteID": "35032",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-0-4",
+      "actionCode": "SCASUB",
+      "parm1": "2",
+      "parm2": "0"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "A",
+      "voteID": "35034",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-0-4",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

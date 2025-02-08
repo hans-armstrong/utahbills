@@ -1,6 +1,6 @@
 {
   "bill_id": 1901639,
-  "change_hash": "9673eb33bec06fd48aa1479118bdcafe",
+  "change_hash": "3258ec427ef0fdb3ef70cc218fba2569",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Housing Policy Amendments",
   "description": "Housing Policy Amendments",
-  "pending_committee_id": 2112,
-  "committee": {
-    "committee_id": 2112,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Political Subdivisions"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House Comm - Held in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -249,10 +251,23 @@
   "fiscal_analyst": "Kyra Hudson",
   "gov_tracking_id": "JJRNUGWQMI",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19631",
+      "committeeID": "HSTPOL",
+      "mtgDate": "2025-02-07 15:40:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "House Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HPOL0207.ag.htm",
+      "billSession": "2025GS"
+    }
+  ],
+  "last_action": "House Comm - Held",
   "last_action_owner": "House Political Subdivisions Committee",
-  "last_action_time": "1/28/2025",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -329,6 +344,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "A",
+      "voteID": "35056",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-1-2",
+      "actionCode": "HCAHELD",
       "parm1": "",
       "parm2": ""
     }

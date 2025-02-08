@@ -1,6 +1,6 @@
 {
   "bill_id": 1898009,
-  "change_hash": "6daa210197a8ade24aa8e26352d7b632",
+  "change_hash": "fdc208a57e7f1bf9b1717ccc2d9018a6",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-04",
       "event": 9
+    },
+    {
+      "date": "2025-02-07",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -208,6 +212,20 @@
     {
       "date": "2025-02-06",
       "action": "Senate Comm - Consent Calendar Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate/ comm rpt/ placed on Consent Calendar in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate/ 2nd reading in Senate Consent Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -486,9 +504,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate Comm - Consent Calendar Recommendation",
-  "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "2/6/2025",
+  "last_action": "Senate/ 2nd reading",
+  "last_action_owner": "Senate Consent Calendar",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -721,6 +739,32 @@
       "voteHouse": "",
       "voteStr": "4-0-3",
       "actionCode": "SCACONCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ placed on Consent Calendar",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRCON",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate Consent Calendar",
+      "actionDate": "2/7/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1899728,
-  "change_hash": "ec223dcfdc14131b3b392bea9357dc9a",
+  "change_hash": "0075e9ecd900525fca443a87fa242e85",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0071/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0071.html",
   "completed": 0,
-  "status": 2,
+  "status": 3,
   "status_date": "2025-01-28",
   "progress": [
     {
@@ -220,6 +220,20 @@
       "action": "Senate/ to House in House Speaker",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ received from Senate in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ signed by Speaker/ sent for enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     }
   ],
@@ -665,6 +679,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "House Speaker",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ sent for enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGN",
       "parm1": "",
       "parm2": ""
     }

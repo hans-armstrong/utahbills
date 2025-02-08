@@ -1,6 +1,6 @@
 {
   "bill_id": 1899734,
-  "change_hash": "89934b0377c129092c6d6a22ea689701",
+  "change_hash": "9c3af4b0977130e34946bfcaf0732c48",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Decommissioned Asset Disposition Amendments",
   "description": "Decommissioned Asset Disposition Amendments",
-  "pending_committee_id": 5049,
-  "committee": {
-    "committee_id": 5049,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Public Utilities and Energy"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -106,6 +101,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House Comm - Substitute Recommendation in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House Comm - Favorable Recommendation in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -279,6 +288,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 508757,
+      "date": "2025-02-07",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0070",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0070/id/508757",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB070H10.pdf",
+      "supplement_size": 141607,
+      "supplement_hash": "085a7169307923e161c747dc4c877e9b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -304,10 +333,23 @@
       "name": "Public Utilities, Energy, and Technology Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19663",
+      "committeeID": "HSTPUT",
+      "mtgDate": "2025-02-07 15:40:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Public Utilities and Energy Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HPUT0207.ag.htm",
+      "billSession": "2025GS"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Public Utilities and Energy Committee",
-  "last_action_time": "2/3/2025",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -384,6 +426,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "A",
+      "voteID": "35050",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-3",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "A",
+      "voteID": "35051",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-3",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

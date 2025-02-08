@@ -1,6 +1,6 @@
 {
   "bill_id": 1907736,
-  "change_hash": "281ac2107e4cc071a76987524c948c27",
+  "change_hash": "36e30b2907679c9e0512c4b2b64a42a4",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,13 +53,8 @@
   "current_body_id": 94,
   "title": "Mammography Amendments",
   "description": "Mammography Amendments",
-  "pending_committee_id": 2123,
-  "committee": {
-    "committee_id": 2123,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -195,6 +190,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate Comm - Favorable Recommendation in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "Senate Comm - Consent Calendar Recommendation in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -338,6 +347,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 509361,
+      "date": "2025-02-07",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0146",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0146/id/509361",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB146S10.pdf",
+      "supplement_size": 128721,
+      "supplement_hash": "d66a8036b3a052e345a8d419ac8c7de3",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -379,11 +408,23 @@
       "minutesURL": "/interim/2025/html/00000289.htm",
       "agendaURL": "/~2025/agenda/HHHS0123.ag.htm",
       "billSession": "2025GS"
+    },
+    {
+      "mtgID": "19636",
+      "committeeID": "SSTHHS",
+      "mtgDate": "2025-02-07 15:40:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SHHS0207.ag.htm",
+      "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate/ to standing committee",
+  "last_action": "Senate Comm - Consent Calendar Recommendation",
   "last_action_owner": "Senate Health and Human Services Committee",
-  "last_action_time": "2/4/2025",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -577,6 +618,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "A",
+      "voteID": "35045",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Consent Calendar Recommendation",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "A",
+      "voteID": "35046",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCACONCAL",
       "parm1": "",
       "parm2": ""
     }

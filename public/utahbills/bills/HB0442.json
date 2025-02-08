@@ -1,6 +1,6 @@
 {
   "bill_id": 1960614,
-  "change_hash": "84c4d135270669b7300c33f2ded2f702",
+  "change_hash": "48e3b4bcb7c9478cbe59a53a04b84508",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,18 @@
   "url": "https://legiscan.com/UT/bill/HB0442/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0442.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-07",
+  "progress": [
+    {
+      "date": "2025-02-07",
+      "event": 1
+    },
+    {
+      "date": "2025-02-07",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0442",
@@ -32,9 +41,29 @@
   "current_body_id": 93,
   "title": "Construction Trades Licensing Amendments",
   "description": "Construction Trades Licensing Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2860,
+  "committee": {
+    "committee_id": 2860,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Economic Development and Workforce Services"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-07",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    },
+    {
+      "date": "2025-02-07",
+      "committee_id": 2860,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Economic Development and Workforce Services"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-06",
@@ -48,6 +77,34 @@
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ to standing committee in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -85,6 +142,14 @@
     {
       "subject_id": 11871,
       "subject_name": "Business"
+    },
+    {
+      "subject_id": 332843,
+      "subject_name": "Construction"
+    },
+    {
+      "subject_id": 81259,
+      "subject_name": "Occupational and Professional Licensing"
     }
   ],
   "texts": [
@@ -109,8 +174,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 508661,
+      "date": "2025-02-07",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0442",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0442/id/508661",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0442.fn.pdf",
+      "supplement_size": 1609304,
+      "supplement_hash": "d48f43d249f17652152d693ab1e33012",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "1be32162",
+      "type": "Hearing",
+      "date": "2025-02-10",
+      "time": "15:40",
+      "location": "",
+      "description": "House Economic Development and Workforce Services Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies requirements for construction trade licenses. ",
   "hilighted_provisions": "This bill:<hr><ltbullet>provides requirements for a general engineering contractor license for electrical utilities;<hr><ltbullet>authorizes a journeyman lineman to obtain a general engineering contractor license; and<hr><ltbullet>provides the requirements for an HVAC contractor license. ",
   "monies": "None",
@@ -119,9 +215,9 @@
   "gov_tracking_id": "SSJIKPSNVV",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/6/2025",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "House Economic Development and Workforce Services Committee",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -146,6 +242,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm1": "",
       "parm2": ""
     }

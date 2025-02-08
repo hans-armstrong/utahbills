@@ -1,6 +1,6 @@
 {
   "bill_id": 1960408,
-  "change_hash": "500fae3dbbb7f86abb64dcd15e8b8641",
+  "change_hash": "827e686919ff2431d2dc79fdfeb264b3",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0436/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0436.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-07",
+  "progress": [
+    {
+      "date": "2025-02-07",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0436",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Impaired Driving Amendments",
   "description": "Impaired Driving Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-07",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-06",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -147,13 +179,13 @@
   "hilighted_provisions": "This bill:<hr><ltbullet>requires the State Commission on Criminal and Juvenile Justice (the commission) to include certain DUI crash and arrest data in an annual DUI report;<hr><ltbullet>requires the Department of Public Safety's Criminal Investigations and Technical Services Division to collect certain DUI crash and arrest data and provide the data to the commission;<hr><ltbullet>establishes law enforcement agency reporting requirements concerning the collection and reporting of certain DUI crash and arrest data;<hr><ltbullet>provides that the public safety data portal is the repository for the statutorily required DUI crash and arrest data; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Jackie Rogers",
-  "fiscal_analyst": "Gary R. Syphus",
+  "fiscal_analyst": "Rachel Boe",
   "gov_tracking_id": "DBEJUAHXAA",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/6/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -178,6 +210,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

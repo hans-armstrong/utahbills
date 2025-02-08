@@ -1,6 +1,6 @@
 {
   "bill_id": 1908723,
-  "change_hash": "7195eb609e76de80949fe026edf8126c",
+  "change_hash": "b5d7840d4a28af2efbf95224b6eaec32",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,13 +53,8 @@
   "current_body_id": 93,
   "title": "Technical Code Amendments",
   "description": "Technical Code Amendments",
-  "pending_committee_id": 2115,
-  "committee": {
-    "committee_id": 2115,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -216,6 +211,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House Comm - Substitute Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House Comm - Favorable Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -279,6 +288,14 @@
     {
       "subject_id": 11851,
       "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 12028,
+      "subject_name": "Revisor Legislation"
+    },
+    {
+      "subject_id": 332524,
+      "subject_name": "Legislative Operations"
     }
   ],
   "texts": [
@@ -421,6 +438,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 508281,
+      "date": "2025-02-06",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0079S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0079/id/508281",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SB0079S01.fn.pdf",
+      "supplement_size": 1608347,
+      "supplement_hash": "4c95fe688e846efcce419fa5b2020574",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 509162,
+      "date": "2025-02-07",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0079",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0079/id/509162",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB079H10.pdf",
+      "supplement_size": 144520,
+      "supplement_hash": "e8e2cb64277b7f8c700ad0873285b5ad",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -444,13 +501,25 @@
     }
   ],
   "general_provisions": "This bill amends provisions to modify gender-specific language.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>amends provisions to modify gender-specific language;<hr><ltbullet>enacts changes to conform with legislative drafting standards; and<hr><ltbullet>makes other technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>amends provisions to modify gender-specific language;<hr><ltbullet>enacts changes to conform with legislative drafting standards;<hr><ltbullet>includes a coordination clause to address conflicts with any other legislation; and<hr><ltbullet>makes other technical and conforming changes.",
   "monies": "None",
   "attorney": "Victoria Ashby",
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "AQGVTWXVYF",
   "comrecommend": [],
   "agendas": [
+    {
+      "mtgID": "19670",
+      "committeeID": "HSTREV",
+      "mtgDate": "2025-02-07 15:40:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HREV0207.ag.htm",
+      "billSession": "2025GS"
+    },
     {
       "mtgID": "19638",
       "committeeID": "SSTGOP",
@@ -464,9 +533,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "House/ to standing committee",
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Revenue and Taxation Committee",
-  "last_action_time": "2/5/2025",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -699,6 +768,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "A",
+      "voteID": "35057",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-0",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "A",
+      "voteID": "35058",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-0",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

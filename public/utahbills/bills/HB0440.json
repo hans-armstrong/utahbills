@@ -1,6 +1,6 @@
 {
   "bill_id": 1960561,
-  "change_hash": "a8d0bafd5bf9911bde9686172c13a26e",
+  "change_hash": "ebf679d26cab1484db0c2ef4b69b5e79",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0440/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0440.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-07",
+  "progress": [
+    {
+      "date": "2025-02-07",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0440",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Uniform Mortgage Modification Act",
   "description": "Uniform Mortgage Modification Act",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-07",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-06",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -115,13 +147,13 @@
   "hilighted_provisions": "This bill:<hr><ltbullet>codifies the types of modifications that may be made to a mortgage loan that will not materially prejudice interest holders; and<hr><ltbullet>contains safe harbor provisions for mortgage modifications that do not materially prejudice the holders of a junior interest. ",
   "monies": "None",
   "attorney": "Tyler Moore",
-  "fiscal_analyst": "",
+  "fiscal_analyst": "Alejandra G Rodriguez",
   "gov_tracking_id": "UYGRCVENCE",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/6/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -146,6 +178,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

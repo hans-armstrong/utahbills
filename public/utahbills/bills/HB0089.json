@@ -1,6 +1,6 @@
 {
   "bill_id": 1901556,
-  "change_hash": "a89b74dc28ed956074d8cd1f7d56cf8b",
+  "change_hash": "af9ad8d49a516428fdf73f035de7c95b",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,8 +41,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Water Transfer Amendments",
   "description": "Water Transfer Amendments",
   "pending_committee_id": 0,
@@ -140,6 +140,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -193,6 +214,33 @@
       "bioguide_id": "",
       "sponsor_type_id": 3,
       "sponsor_order": 2,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
+    {
+      "people_id": 25719,
+      "person_hash": "20hlqqd9",
+      "party_id": "1",
+      "state_id": 44,
+      "party": "D",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Grant Miller",
+      "first_name": "Grant",
+      "middle_name": "Amjad",
+      "last_name": "Miller",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-024",
+      "ftm_eid": 59517084,
+      "votesmart_id": 214295,
+      "opensecrets_id": "",
+      "knowwho_pid": 0,
+      "ballotpedia": "Grant_Miller_(Utah)",
+      "bioguide_id": "",
+      "sponsor_type_id": 2,
+      "sponsor_order": 3,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -392,9 +440,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "1/30/2025",
+  "last_action": "House/ to Senate",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -536,6 +584,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "241",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "71-0-4",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
       "parm1": "",
       "parm2": ""
     }

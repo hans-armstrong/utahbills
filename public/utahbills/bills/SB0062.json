@@ -1,6 +1,6 @@
 {
   "bill_id": 1901617,
-  "change_hash": "17eeef1edecbb58524110058ac49f271",
+  "change_hash": "cbf0d75e48cd4bce1b814337e4fbddfc",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-04",
       "event": 9
+    },
+    {
+      "date": "2025-02-07",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 93,
   "title": "Spaceport Exploration Committee",
   "description": "Spaceport Exploration Committee",
-  "pending_committee_id": 2117,
-  "committee": {
-    "committee_id": 2117,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Transportation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -223,6 +222,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-06",
+      "action": "House Comm - Favorable Recommendation in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ committee report favorable in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-07",
+      "action": "House/ return to Rules due to fiscal impact in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -500,6 +520,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 508044,
+      "date": "2025-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0062",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0062/id/508044",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB062H10.pdf",
+      "supplement_size": 143679,
+      "supplement_hash": "95bc99fb698f1abf4a85ac77906391a4",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -555,9 +595,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "House Comm - Favorable Recommendation",
-  "last_action_owner": "House Transportation Committee",
-  "last_action_time": "2/6/2025",
+  "last_action": "House/ return to Rules due to fiscal impact",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -816,6 +856,32 @@
       "voteHouse": "",
       "voteStr": "11-0-1",
       "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Transportation Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ return to Rules due to fiscal impact",
+      "owner": "House Rules Committee",
+      "actionDate": "2/7/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRETRULFIS",
       "parm1": "",
       "parm2": ""
     }
