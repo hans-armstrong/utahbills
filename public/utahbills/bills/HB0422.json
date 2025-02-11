@@ -1,6 +1,6 @@
 {
   "bill_id": 1957624,
-  "change_hash": "7953dc40501b7aba68ca2731c350cd78",
+  "change_hash": "45393e51d51463b378ed35f8e9e59ddb",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Municipality Regulation of Open House Amendments",
   "description": "Municipality Regulation of Open House Amendments",
-  "pending_committee_id": 5042,
-  "committee": {
-    "committee_id": 5042,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Business, Labor, and Commerce"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-06",
@@ -106,6 +101,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House Comm - Amendment Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House Comm - Favorable Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -185,7 +194,29 @@
     }
   ],
   "votes": [],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 226370,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2025-02-10",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0422/id/226370",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/HB0422.Hamd.1.pdf",
+      "amendment_size": 6906,
+      "amendment_hash": "70b9f9e60a42a26e4a30e7b3a5a549de",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 507728,
@@ -206,9 +237,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 510957,
+      "date": "2025-02-10",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0422",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0422/id/510957",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB422H10.pdf",
+      "supplement_size": 157285,
+      "supplement_hash": "e97e7556a2a8cf1a0ae6ec7a1d3f671b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "68391748",
+      "type": "Hearing",
+      "date": "2025-02-10",
+      "time": "15:40",
+      "location": "",
+      "description": "House Business, Labor, and Commerce Hearing"
+    }
+  ],
   "general_provisions": "This bill prohibits a municipality from regulating an open house.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines the term \"open house\";<hr><ltbullet>provides that the governing body of a municipality may not regulate an open house;<hr><ltbullet>provides that any ordinance regulating an open house, other than a generally applicable building code or fire code ordinance, is void;<hr><ltbullet>provides that an affirmative defense in an action for punitive damages over the enforcement of an invalid ordinance is not available if the invalid ordinance relates to an open house; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -216,10 +277,23 @@
   "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "OLRJTJCDWT",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19854",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2025-02-10 15:40:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HBUS0210.ag.htm",
+      "billSession": "2025GS"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Business, Labor, and Commerce Committee",
-  "last_action_time": "2/7/2025",
+  "last_action_time": "2/10/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -296,6 +370,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Amendment Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2/10/2025",
+      "actionClass": "A",
+      "voteID": "35155",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-6",
+      "actionCode": "HCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2/10/2025",
+      "actionClass": "A",
+      "voteID": "35156",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-6",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

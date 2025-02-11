@@ -1,6 +1,6 @@
 {
   "bill_id": 1927302,
-  "change_hash": "3ce4c7acd44f105b3953d343958024e5",
+  "change_hash": "d548839590894a18513df8bdd1e86f80",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -126,6 +126,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate/ circled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -152,6 +166,33 @@
       "bioguide_id": "",
       "sponsor_type_id": 1,
       "sponsor_order": 1,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
+    {
+      "people_id": 19072,
+      "person_hash": "6mjz9s8d",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Jefferson Moss",
+      "first_name": "Jefferson",
+      "middle_name": "",
+      "last_name": "Moss",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-051",
+      "ftm_eid": 10886568,
+      "votesmart_id": 159373,
+      "opensecrets_id": "",
+      "knowwho_pid": 574872,
+      "ballotpedia": "Jefferson_Moss",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -205,7 +246,29 @@
     }
   ],
   "votes": [],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 226242,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2025-02-10",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0137/id/226242",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/SB0137.Samd.1.pdf",
+      "amendment_size": 7450,
+      "amendment_hash": "3840c7aa696e85050d54c7f1bf3834b0",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 498209,
@@ -289,9 +352,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action": "Senate/ circled",
   "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "1/31/2025",
+  "last_action_time": "2/10/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -407,6 +470,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/10/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/10/2025",
+      "actionClass": "S",
+      "voteID": "363",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
       "parm1": "",
       "parm2": ""
     }

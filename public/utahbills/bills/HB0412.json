@@ -1,6 +1,6 @@
 {
   "bill_id": 1954503,
-  "change_hash": "10d77e47f2ded27b3dc8994e740d473c",
+  "change_hash": "35e139a95188aa1432244b960daf075d",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-04",
       "event": 1
+    },
+    {
+      "date": "2025-02-10",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Boards and Commissions Revisions",
   "description": "Boards and Commissions Revisions",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2107,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2107,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Government Operations"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-10",
+      "committee_id": 2107,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Government Operations"
     }
   ],
   "history": [
@@ -88,6 +99,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Bill Substituted by Sponsor in House Rules Comm in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ to standing committee in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -117,6 +142,33 @@
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
+    },
+    {
+      "people_id": 20380,
+      "person_hash": "pdkejcsb",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 2,
+      "role": "Sen",
+      "name": "Calvin Musselman",
+      "first_name": "Calvin",
+      "middle_name": "R.",
+      "last_name": "Musselman",
+      "suffix": "",
+      "nickname": "",
+      "district": "SD-004",
+      "ftm_eid": 19172124,
+      "votesmart_id": 182138,
+      "opensecrets_id": "",
+      "knowwho_pid": 659114,
+      "ballotpedia": "Calvin_Musselman",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
     }
   ],
   "sasts": [],
@@ -124,6 +176,10 @@
     {
       "subject_id": 11851,
       "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 332726,
+      "subject_name": "Boards and Committees"
     }
   ],
   "texts": [
@@ -206,6 +262,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 510018,
+      "date": "2025-02-10",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0412S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0412/id/510018",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0412S01.fn.pdf",
+      "supplement_size": 1608355,
+      "supplement_hash": "8cf538879ce093f188175bb5daa42c99",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [],
@@ -217,9 +293,9 @@
   "gov_tracking_id": "JOUEIACQIK",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/5/2025",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Government Operations Committee",
+  "last_action_time": "2/10/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -283,6 +359,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Substituted by Sponsor in House Rules Comm",
+      "owner": "House Rules Committee",
+      "actionDate": "2/10/2025",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRULSUBH",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/10/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

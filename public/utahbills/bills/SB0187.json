@@ -1,6 +1,6 @@
 {
   "bill_id": 1944305,
-  "change_hash": "e12014c523038195acc7da7fc079e9f5",
+  "change_hash": "36bf1196e00c6596bc3e8b7acb8c3149",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -126,6 +126,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate/ floor amendment in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -184,6 +205,24 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/introduced/SB0187.pdf",
       "text_size": 29886,
       "text_hash": "934b094ece0828ae5841c6b5f633e90c",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3111668,
+      "date": "2025-02-10",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0187/id/3111668",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/AV_SB0187_2025-02-10_15-27-45.pdf",
+      "text_size": 41348,
+      "text_hash": "1976f5d8f74459fab4417e3a6f7731e0",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -290,9 +329,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/3/2025",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/10/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -408,6 +447,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/10/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ floor amendment",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/10/2025",
+      "actionClass": "S",
+      "voteID": "380",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SAMEND",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/10/2025",
+      "actionClass": "S",
+      "voteID": "381",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "27-0-2",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

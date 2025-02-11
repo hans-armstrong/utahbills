@@ -1,6 +1,6 @@
 {
   "bill_id": 1930135,
-  "change_hash": "59eb391238cdc3ba844eedb4299d7917",
+  "change_hash": "aba825a8226c8dd0686fc5208cde63f9",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -137,6 +137,20 @@
     {
       "date": "2025-02-03",
       "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ circled in House 3rd Reading Calendar for House bills",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -455,6 +469,48 @@
       "alt_state_link": "",
       "alt_amendment_size": 0,
       "alt_amendment_hash": ""
+    },
+    {
+      "amendment_id": 226225,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2025-02-10",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0281/id/226225",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/HB0281S02.Hamd.1.pdf",
+      "amendment_size": 6741,
+      "amendment_hash": "d2908f3588b2a11218064eddbb2510af",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    },
+    {
+      "amendment_id": 226279,
+      "adopted": 0,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2025-02-10",
+      "title": "House Amendment 2",
+      "description": "House Amendment 2",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0281/id/226279",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/HB0281S02.Hamd.2.pdf",
+      "amendment_size": 7802,
+      "amendment_hash": "70c54c5a083ab8843d2c3ecfcafd7b01",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
     }
   ],
   "supplements": [
@@ -577,6 +633,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 510064,
+      "date": "2025-02-10",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0281S02",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0281/id/510064",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0281S02.fn.pdf",
+      "supplement_size": 1609449,
+      "supplement_hash": "f8ebd963e3bbebb6da15bf863afbdff4",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -611,9 +687,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "House/ 2nd reading",
+  "last_action": "House/ circled",
   "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "2/3/2025",
+  "last_action_time": "2/10/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -755,6 +831,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/10/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ circled",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/10/2025",
+      "actionClass": "H",
+      "voteID": "283",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HCIRCLED",
       "parm1": "",
       "parm2": ""
     }

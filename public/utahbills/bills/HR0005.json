@@ -1,6 +1,6 @@
 {
   "bill_id": 1962914,
-  "change_hash": "b3c6761f068f0ffe7850a56e392ae305",
+  "change_hash": "c52b277a6759ab29e8faf78b81f86a7b",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HR0005/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HR0005.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 2,
+  "status_date": "2025-02-10",
+  "progress": [
+    {
+      "date": "2025-02-10",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HR0005",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "House Rules Resolution - House Procedures Amendments",
   "description": "House Rules Resolution - House Procedures Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-10",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-07",
@@ -48,6 +66,27 @@
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -85,6 +124,14 @@
     {
       "subject_id": 332524,
       "subject_name": "Legislative Operations"
+    },
+    {
+      "subject_id": 11987,
+      "subject_name": "Resolutions"
+    },
+    {
+      "subject_id": 12067,
+      "subject_name": "Resolutions, Rules"
     }
   ],
   "texts": [
@@ -109,19 +156,50 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 510577,
+      "date": "2025-02-10",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HR0005",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HR0005/id/510577",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HR0005.fn.pdf",
+      "supplement_size": 1608362,
+      "supplement_hash": "cbe74678cc4c6699bc984a869628db70",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "8d31b951",
+      "type": "Hearing",
+      "date": "2025-02-12",
+      "time": "10:00",
+      "location": "Room 30 House Building",
+      "description": "House Rules Hearing"
+    }
+  ],
   "general_provisions": "This resolution addresses House procedures.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>modifies the duties and appointment of the sergeant-at-arms and the chief clerk; and<hr><ltbullet>clarifies that a motion to saunter is in order during floor debate.",
   "monies": "None",
   "attorney": "Megan L. Bolin",
-  "fiscal_analyst": "Joseph Ryan Fitzgerald",
+  "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "DODSOFIDPF",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/7/2025",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/10/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -146,6 +224,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2/10/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/10/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/10/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm1": "",
       "parm2": ""
     }

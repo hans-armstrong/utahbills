@@ -1,6 +1,6 @@
 {
   "bill_id": 1901608,
-  "change_hash": "af32261042eb04f11db1e94a947c8f27",
+  "change_hash": "95066c3772d6d61636f7922143acc79a",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -133,6 +133,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate/ floor amendment in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -223,10 +244,50 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3111207,
+      "date": "2025-02-10",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0064/id/3111207",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/AV_SB0064S01_2025-02-10_14-47-35.pdf",
+      "text_size": 224081,
+      "text_hash": "f9fa329f3c44cf1c7e2ce6864a1172a5",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 226340,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2025-02-10",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0064/id/226340",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/SB0064S01.Samd.1.pdf",
+      "amendment_size": 6104,
+      "amendment_hash": "ec3f84a4c2e4b5709809af882b9225a5",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 497695,
@@ -336,14 +397,14 @@
       "mtgPlace": "215 Senate Building",
       "committeeName": "Senate Health and Human Services Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2025/html/00001270.htm",
       "agendaURL": "/~2025/agenda/SHHS0130.ag.htm",
       "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "1/31/2025",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/10/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -472,6 +533,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/10/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ floor amendment",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/10/2025",
+      "actionClass": "S",
+      "voteID": "365",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SAMEND",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/10/2025",
+      "actionClass": "S",
+      "voteID": "366",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "23-2-4",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

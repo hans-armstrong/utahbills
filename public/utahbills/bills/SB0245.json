@@ -1,6 +1,6 @@
 {
   "bill_id": 1963244,
-  "change_hash": "394f1edcf883e9d4fb45b801a945db1b",
+  "change_hash": "96da4c48601b89f0e1362271647c303d",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/SB0245/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0245.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-10",
+  "progress": [
+    {
+      "date": "2025-02-10",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0245",
@@ -32,9 +37,22 @@
   "current_body_id": 94,
   "title": "Newborn Child Insurance Notification Amendments",
   "description": "Newborn Child Insurance Notification Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-10",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-07",
@@ -56,6 +74,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -126,9 +151,9 @@
   "gov_tracking_id": "CAHQQJCLHK",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ received bill from Legislative Research",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/7/2025",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Business and Labor Committee",
+  "last_action_time": "2/10/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -166,6 +191,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/10/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/10/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

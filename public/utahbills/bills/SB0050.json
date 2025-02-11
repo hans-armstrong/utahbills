@@ -1,6 +1,6 @@
 {
   "bill_id": 1900943,
-  "change_hash": "388e5f6f5114a06f207f85fd40e10b30",
+  "change_hash": "3e7f2149c4952fa9c0d464ccfa91012f",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-05",
       "event": 9
+    },
+    {
+      "date": "2025-02-10",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -208,6 +212,20 @@
     {
       "date": "2025-02-07",
       "action": "House Comm - Favorable Recommendation in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ committee report favorable in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -434,9 +452,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "House Comm - Favorable Recommendation",
-  "last_action_owner": "House Political Subdivisions Committee",
-  "last_action_time": "2/7/2025",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for Senate bills",
+  "last_action_time": "2/10/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -669,6 +687,32 @@
       "voteHouse": "",
       "voteStr": "5-0-5",
       "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2/10/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2/10/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

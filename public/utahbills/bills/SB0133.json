@@ -1,6 +1,6 @@
 {
   "bill_id": 1925636,
-  "change_hash": "b5af5c0a33552836493d1b3d5a6d76b1",
+  "change_hash": "78fcffc3a073094acffe675b2fbfdac2",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -144,6 +144,20 @@
     {
       "date": "2025-02-07",
       "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate/ circled in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -359,9 +373,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate/ passed 2nd reading",
+  "last_action": "Senate/ circled",
   "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/7/2025",
+  "last_action_time": "2/10/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -516,6 +530,32 @@
       "voteHouse": "S",
       "voteStr": "24-0-5",
       "actionCode": "SPASS2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/10/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/10/2025",
+      "actionClass": "S",
+      "voteID": "349",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
       "parm1": "",
       "parm2": ""
     }

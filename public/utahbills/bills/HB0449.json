@@ -1,6 +1,6 @@
 {
   "bill_id": 1962701,
-  "change_hash": "7038810d5138e3eb66982aad032e9eb5",
+  "change_hash": "02af516f69613a2bc8fcb4d6f16ca6ee",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0449/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0449.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-10",
+  "progress": [
+    {
+      "date": "2025-02-10",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0449",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Student Athlete Amendments",
   "description": "Student Athlete Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-10",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-07",
@@ -56,6 +74,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -126,9 +151,9 @@
   "gov_tracking_id": "DOKHRBHHJJ",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received bill from Legislative Research",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/7/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/10/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -166,6 +191,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/10/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

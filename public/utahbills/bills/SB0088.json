@@ -1,6 +1,6 @@
 {
   "bill_id": 1911190,
-  "change_hash": "3da302c9e478460445236698a657c086",
+  "change_hash": "4c59ebf12208a6f670701d122f1449fd",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-01-31",
       "event": 9
+    },
+    {
+      "date": "2025-02-10",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -215,6 +219,20 @@
     {
       "date": "2025-02-07",
       "action": "House Comm - Favorable Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ committee report favorable in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ return to Rules due to fiscal impact in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -461,9 +479,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "House Comm - Favorable Recommendation",
-  "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "2/7/2025",
+  "last_action": "House/ return to Rules due to fiscal impact",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/10/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -709,6 +727,32 @@
       "voteHouse": "",
       "voteStr": "11-0-2",
       "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/10/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ return to Rules due to fiscal impact",
+      "owner": "House Rules Committee",
+      "actionDate": "2/10/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRETRULFIS",
       "parm1": "",
       "parm2": ""
     }

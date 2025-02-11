@@ -1,6 +1,6 @@
 {
   "bill_id": 1962804,
-  "change_hash": "c402142047c03da9610e0206ce9db4b4",
+  "change_hash": "930cb44b47ad843b432fe1fc9e0f048f",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0455/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0455.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-10",
+  "progress": [
+    {
+      "date": "2025-02-10",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0455",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Utah Fits All Scholarship Program Amendments",
   "description": "Utah Fits All Scholarship Program Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-10",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-07",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -123,13 +155,13 @@
   "hilighted_provisions": "This bill:<hr><ltbullet>strengthens residency requirements and income verification process;<hr><ltbullet>amends the definition of the program manager;<hr><ltbullet>creates a financial administrator to process payments and fund expenditures from a scholarship account;<hr><ltbullet>prohibits the program manager from charging processing fees to families;<hr><ltbullet>establishes deadlines for scholarship acceptance or denial;<hr><ltbullet>limits extracurricular and physical education expenses each to 20% of the scholarship amount;<hr><ltbullet>creates procedures for students with special needs;<hr><ltbullet>enhances program manager accountability through audits and transparency;<hr><ltbullet>adds requirements for a local education agency acting as qualified providers;<hr><ltbullet>allows for scholarship amount rollovers;<hr><ltbullet>creates a Utah Fits All Scholarship Restricted Account (the account);<hr><ltbullet>allows funds within the account to accrue interest and be invested;<hr><ltbullet>allows for rollover amounts of unused scholarship awards;<hr><ltbullet>clarifies the State Tax Commission's role in income verification; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
   "attorney": "Jeff Van Hulten",
-  "fiscal_analyst": "",
+  "fiscal_analyst": "Ben Leishman",
   "gov_tracking_id": "YNGOHMSFKF",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/7/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/10/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -154,6 +186,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2/10/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/10/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }
