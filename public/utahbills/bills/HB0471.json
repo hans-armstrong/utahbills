@@ -1,6 +1,6 @@
 {
   "bill_id": 1964445,
-  "change_hash": "89db2c642632c770e07271843899ace4",
+  "change_hash": "1f7bc1728c421a201c23404df8ed199b",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0471/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0471.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-11",
+  "progress": [
+    {
+      "date": "2025-02-11",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0471",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Transportation Procurement Amendments",
   "description": "Transportation Procurement Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-11",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-10",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -85,6 +117,26 @@
     {
       "subject_id": 11871,
       "subject_name": "Business"
+    },
+    {
+      "subject_id": 11851,
+      "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 11875,
+      "subject_name": "Transportation"
+    },
+    {
+      "subject_id": 11928,
+      "subject_name": "Department of Transportation"
+    },
+    {
+      "subject_id": 335117,
+      "subject_name": "Public Transit"
+    },
+    {
+      "subject_id": 354115,
+      "subject_name": "Procurement"
     }
   ],
   "texts": [
@@ -115,13 +167,13 @@
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms; and<hr><ltbullet>authorizes the Department of Transportation to enter into interstate compacts and cooperative agreements for the procurement of transit vehicles, as defined.",
   "monies": "None",
   "attorney": "Greg Gunn",
-  "fiscal_analyst": "Ivan D. Djambov",
+  "fiscal_analyst": "Rachel Boe",
   "gov_tracking_id": "JAEHABHAYT",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/10/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/11/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -146,6 +198,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2/11/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/11/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

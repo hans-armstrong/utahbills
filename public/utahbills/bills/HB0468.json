@@ -1,6 +1,6 @@
 {
   "bill_id": 1964266,
-  "change_hash": "aa3dd0dc1548f721072b08dd17869e11",
+  "change_hash": "0d746d174a9e2f02f7b5e0a18d265448",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0468/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0468.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-11",
+  "progress": [
+    {
+      "date": "2025-02-11",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0468",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Automatic License Plate Reader Amendments",
   "description": "Automatic License Plate Reader Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-11",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-10",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -115,13 +147,13 @@
   "hilighted_provisions": "This bill:<hr><ltbullet> defines terms;  <hr><ltbullet>provides for authorized uses for automatic license plate reader systems by:<hr><ltbullet1>law enforcement agencies; and<hr><ltbullet1>other governmental entities;<hr><ltbullet>establishes reporting requirements regarding the use of automatic license plate reader systems for:<hr><ltbullet1>law enforcement agencies; and<hr><ltbullet1>other governmental entities;<hr><ltbullet>creates standards for data obtained from an automatic license plate reader system, including:<hr><ltbullet1>data security;<hr><ltbullet1>retention; and<hr><ltbullet1>sharing; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
   "attorney": "Scott Elder",
-  "fiscal_analyst": "Nate Osborne",
+  "fiscal_analyst": "Ivan D. Djambov",
   "gov_tracking_id": "ARHUYTIXKO",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/10/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/11/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -146,6 +178,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2/11/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/11/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

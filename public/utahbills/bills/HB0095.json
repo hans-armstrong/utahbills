@@ -1,6 +1,6 @@
 {
   "bill_id": 1901623,
-  "change_hash": "ec6d17664297ba624be4bdd741dac070",
+  "change_hash": "47f421338144f67af19f41c182327c3b",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,10 +41,10 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
-  "title": "Campaign Contribution Revisions",
-  "description": "Campaign Contribution Revisions",
+  "current_body": "S",
+  "current_body_id": 94,
+  "title": "Financial Disclosure Revisions",
+  "description": "Financial Disclosure Revisions",
   "pending_committee_id": 0,
   "committee": [],
   "referrals": [
@@ -147,6 +147,41 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ uncircled in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ substituted in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ held in House Docket Clerk",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -173,6 +208,33 @@
       "bioguide_id": "",
       "sponsor_type_id": 1,
       "sponsor_order": 1,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
+    {
+      "people_id": 15461,
+      "person_hash": "itrxvsgt",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 2,
+      "role": "Sen",
+      "name": "Keven Stratton",
+      "first_name": "Keven",
+      "middle_name": "J.",
+      "last_name": "Stratton",
+      "suffix": "",
+      "nickname": "",
+      "district": "SD-024",
+      "ftm_eid": 10886401,
+      "votesmart_id": 137509,
+      "opensecrets_id": "",
+      "knowwho_pid": 404894,
+      "ballotpedia": "Keven_Stratton",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -425,9 +487,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "House/ held",
-  "last_action_owner": "House Docket Clerk",
-  "last_action_time": "2/10/2025",
+  "last_action": "Senate/ received from House",
+  "last_action_owner": "Waiting for Introduction in the Senate",
+  "last_action_time": "2/11/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -634,6 +696,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HHOLD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2/11/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "2/11/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
       "parm1": "",
       "parm2": ""
     }

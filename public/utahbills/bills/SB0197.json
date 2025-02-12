@@ -1,6 +1,6 @@
 {
   "bill_id": 1949038,
-  "change_hash": "fce42a7e10657addc8b42c98d95ea2f3",
+  "change_hash": "ccd38fcf4f845f709d9730e826f3c3d0",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -123,6 +123,34 @@
     {
       "date": "2025-02-04",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Senate/ circled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Senate/ uncircled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -283,14 +311,14 @@
       "mtgPlace": "210 Senate Building",
       "committeeName": "Senate Revenue and Taxation Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2025/html/00001423.htm",
       "agendaURL": "/~2025/agenda/SREV0203.ag.htm",
       "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/4/2025",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/11/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -406,6 +434,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/11/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/11/2025",
+      "actionClass": "S",
+      "voteID": "426",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/11/2025",
+      "actionClass": "S",
+      "voteID": "435",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/11/2025",
+      "actionClass": "S",
+      "voteID": "436",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "16-9-4",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1947358,
-  "change_hash": "1b72778794c4508820e86fbde6d82d1b",
+  "change_hash": "f85d721a8ef61de01b1499d1a857a395",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-01-30",
       "event": 1
+    },
+    {
+      "date": "2025-02-11",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Housing Attainability Amendments",
   "description": "Housing Attainability Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2112,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2112,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Political Subdivisions"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-11",
+      "committee_id": 2112,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Political Subdivisions"
     }
   ],
   "history": [
@@ -88,6 +99,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "House/ to standing committee in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -233,7 +251,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "ff577e77",
+      "type": "Hearing",
+      "date": "2025-02-13",
+      "time": "08:00",
+      "location": "Room 30 House Building",
+      "description": "House Political Subdivisions Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions related to affordable housing.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>provides that a closed meeting may be held under certain circumstances by a political subdivision; <hr><ltbullet>repeals the sunset date for the Utah Housing Corporation; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -242,9 +270,9 @@
   "gov_tracking_id": "EEVNGEBPGQ",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/31/2025",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Political Subdivisions Committee",
+  "last_action_time": "2/11/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -308,6 +336,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2/11/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

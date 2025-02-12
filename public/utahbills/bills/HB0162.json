@@ -1,6 +1,6 @@
 {
   "bill_id": 1909532,
-  "change_hash": "a5d4695b781b10ded88e9c4e575dee02",
+  "change_hash": "57b2179cde3b0e9407d40529610fcee0",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-01-21",
       "event": 1
+    },
+    {
+      "date": "2025-02-11",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Transportation Funding Amendments",
   "description": "Transportation Funding Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2115,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2115,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Revenue and Taxation"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-11",
+      "committee_id": 2115,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -85,6 +96,20 @@
     {
       "date": "2025-01-21",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Bill Substituted by Sponsor in House Rules Comm in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "House/ to standing committee in House Revenue and Taxation Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -221,7 +246,29 @@
     }
   ],
   "votes": [],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 226774,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2025-02-11",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0162/id/226774",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/HB0162S02.Hamd.1.pdf",
+      "amendment_size": 20597,
+      "amendment_hash": "cc7196192f6e97f41ffa9efc42dd3053",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 497663,
@@ -402,9 +449,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 512096,
+      "date": "2025-02-06",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0162S03",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0162/id/512096",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0162S03.fn.pdf",
+      "supplement_size": 1609094,
+      "supplement_hash": "3ae116913e34736ad8b908a5291f1a38",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "be723da8",
+      "type": "Hearing",
+      "date": "2025-02-13",
+      "time": "08:00",
+      "location": "Room 30 House Building",
+      "description": "House Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill limits certain uses of local option sales and use taxes for transportation.",
   "hilighted_provisions": "This bill:<hr><ltbullet>amends provisions related to the allowed uses of certain local option sales and uses taxes for public safety purposes to:<hr><ltbullet1>allow funds to be used for infrastructure, vehicles, and equipment; and<hr><ltbullet1>prohibit the use of funds for salaries or operations and maintenance; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -413,9 +490,9 @@
   "gov_tracking_id": "IRCXUIJXDA",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/21/2025",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Revenue and Taxation Committee",
+  "last_action_time": "2/11/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -479,6 +556,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Substituted by Sponsor in House Rules Comm",
+      "owner": "House Rules Committee",
+      "actionDate": "2/11/2025",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRULSUBH",
+      "parm1": "2",
+      "parm2": "0"
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/11/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

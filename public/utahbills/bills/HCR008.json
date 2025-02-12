@@ -1,6 +1,6 @@
 {
   "bill_id": 1964109,
-  "change_hash": "54de99c0579f1aba0449ba4010bd2024",
+  "change_hash": "a953174b36009a78fa776a6a9646264d",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HCR008/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HCR008.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-11",
+  "progress": [
+    {
+      "date": "2025-02-11",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HCR008",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Concurrent Resolution on State Innovation for Transition from Government Benefits to Self-reliance",
   "description": "Concurrent Resolution on State Innovation for Transition from Government Benefits to Self-reliance",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-11",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-10",
@@ -48,6 +66,27 @@
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-11",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -125,7 +164,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 512454,
+      "date": "2025-02-11",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HCR008",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HCR008/id/512454",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HCR008.fn.pdf",
+      "supplement_size": 1608393,
+      "supplement_hash": "b7d914c582964fa2b4178ea61139aaf9",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This resolution urges the federal government to give more flexibility and autonomy to states to allow for greater innovation and experimentation to help families who receive government benefits more successfully transition off of welfare programs and into work-based self-reliance.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>articulates the strength of Utah's economy and nation-leading upward mobility; <hr><ltbullet>establishes Utah's track record as an innovative leader already showcasing the successes and advantages of state-driven approaches to work and welfare;<hr><ltbullet>identifies evidence of families in Utah who still struggle to fully realize the American Dream due to perceived or actual disincentives in the social safety net in the form of the \"benefits cliff\" and \"benefits plateau\"; and<hr><ltbullet>urges the federal government to increase flexibility and autonomy to allow states the ability to innovate through experiments and pilots to better transition families off of federally funded safety net programs and into work-based self-reliance.",
@@ -135,9 +195,9 @@
   "gov_tracking_id": "OLIHQCXXIP",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/10/2025",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/11/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -162,6 +222,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2/11/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/11/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/11/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm1": "",
       "parm2": ""
     }

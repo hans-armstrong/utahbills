@@ -1,6 +1,6 @@
 {
   "bill_id": 1963734,
-  "change_hash": "cda46f0171d9d6fceaba10ea76741007",
+  "change_hash": "e5d515377870d4b23cd89d65946ff47a",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0463/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0463.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-11",
+  "progress": [
+    {
+      "date": "2025-02-11",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0463",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Child Support Modifications",
   "description": "Child Support Modifications",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-11",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-10",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -115,13 +147,13 @@
   "hilighted_provisions": "This bill:<hr><ltbullet>requires certain independent contractors to report payments for personal services to the new hire registry maintained by the Department of Workforce Services;<hr><ltbullet>creates a rebuttable presumption that an order terminating parental rights shall state the amount of any child support arrears and permit collection of arrears;<hr><ltbullet>requires that a divorce decree provide information about the Office of Recovery Services (office);<hr><ltbullet>beginning July 1, 2026, creates a rebuttable presumption that a child support order shall include an order for an obligor parent to pay an amount as a child support advance to assist with child care costs;<hr><ltbullet>requires the office to study and prepare a proposed method for calculating the amount of a child support advance; and<hr><ltbullet>gives reporting requirements to the office.",
   "monies": "None",
   "attorney": "Eric N. Weeks",
-  "fiscal_analyst": "Gary R. Syphus",
+  "fiscal_analyst": "Josh Pittman",
   "gov_tracking_id": "TAPLFWCUWL",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/10/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/11/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -146,6 +178,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2/11/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/11/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1950843,
-  "change_hash": "c085c445428dfe619674660299c3c04a",
+  "change_hash": "145e21e03974049b51cd4e87eabc425f",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-04",
       "event": 9
+    },
+    {
+      "date": "2025-02-11",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -105,6 +109,34 @@
     {
       "date": "2025-02-05",
       "action": "Senate Comm - Motion to Recommend Failed in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate Comm - Substitute Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate Comm - Favorable Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Senate/ comm rpt/ substituted in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -226,6 +258,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 511654,
+      "date": "2025-02-10",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0203",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0203/id/511654",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB203S10.pdf",
+      "supplement_size": 130994,
+      "supplement_hash": "1058b2e81d2504844ffb3b8c7312e0aa",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -281,9 +333,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate Comm - Favorable Recommendation",
-  "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-  "last_action_time": "2/10/2025",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/11/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -399,6 +451,32 @@
       "voteHouse": "",
       "voteStr": "7-2-0",
       "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ substituted",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/11/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/11/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

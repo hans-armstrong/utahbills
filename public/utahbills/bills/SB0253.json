@@ -1,6 +1,6 @@
 {
   "bill_id": 1964127,
-  "change_hash": "59d8464d08cfed9141c35f082f7287fe",
+  "change_hash": "b9b929f266a13912b48f16da2968083d",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/SB0253/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0253.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-11",
+  "progress": [
+    {
+      "date": "2025-02-11",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0253",
@@ -32,9 +37,22 @@
   "current_body_id": 94,
   "title": "Railroad and Transportation Amendments",
   "description": "Railroad and Transportation Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-11",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-10",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -85,6 +117,30 @@
     {
       "subject_id": 11875,
       "subject_name": "Transportation"
+    },
+    {
+      "subject_id": 23952,
+      "subject_name": "Department of Agriculture and Food"
+    },
+    {
+      "subject_id": 11901,
+      "subject_name": "Livestock"
+    },
+    {
+      "subject_id": 128952,
+      "subject_name": "Animals"
+    },
+    {
+      "subject_id": 11964,
+      "subject_name": "Railroads"
+    },
+    {
+      "subject_id": 11928,
+      "subject_name": "Department of Transportation"
+    },
+    {
+      "subject_id": 334440,
+      "subject_name": "Agriculture & Food"
     }
   ],
   "texts": [
@@ -119,9 +175,9 @@
   "gov_tracking_id": "TRMYBNMEDM",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/10/2025",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "2/11/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -146,6 +202,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received bill from Legislative Research",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "2/11/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/11/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1901608,
-  "change_hash": "95066c3772d6d61636f7922143acc79a",
+  "change_hash": "8a387d9c9741d4b150278c773f086e58",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,8 +41,8 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Medical Cannabis Amendments",
   "description": "Medical Cannabis Amendments",
   "pending_committee_id": 0,
@@ -154,6 +154,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Senate/ floor amendment in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -180,6 +208,33 @@
       "bioguide_id": "",
       "sponsor_type_id": 1,
       "sponsor_order": 1,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
+    {
+      "people_id": 17986,
+      "person_hash": "lo1j2jzr",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Walt Brooks",
+      "first_name": "Walt",
+      "middle_name": "",
+      "last_name": "Brooks",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-075",
+      "ftm_eid": 39715810,
+      "votesmart_id": 168715,
+      "opensecrets_id": "",
+      "knowwho_pid": 574030,
+      "ballotpedia": "Walt_Brooks",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -280,6 +335,27 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/amended/SB0064S01.Samd.1.pdf",
       "amendment_size": 6104,
       "amendment_hash": "ec3f84a4c2e4b5709809af882b9225a5",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    },
+    {
+      "amendment_id": 226670,
+      "adopted": 0,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2025-02-11",
+      "title": "Senate Amendment 2",
+      "description": "Senate Amendment 2",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0064/id/226670",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/SB0064S01.Samd.2.pdf",
+      "amendment_size": 10580,
+      "amendment_hash": "d3b241fde5db7142ecd73f93297dbed8",
       "alt_amendment": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -402,9 +478,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "Senate/ passed 2nd reading",
-  "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/10/2025",
+  "last_action": "House/ received from Senate",
+  "last_action_owner": "Clerk of the House",
+  "last_action_time": "2/11/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -572,6 +648,71 @@
       "voteHouse": "S",
       "voteStr": "23-2-4",
       "actionCode": "SPASS2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/11/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ floor amendment",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/11/2025",
+      "actionClass": "S",
+      "voteID": "388",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SAMEND",
+      "parm1": "2",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Clerk of the House",
+      "actionDate": "2/11/2025",
+      "actionClass": "S",
+      "voteID": "389",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "21-6-2",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2/11/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2/11/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
       "parm1": "",
       "parm2": ""
     }

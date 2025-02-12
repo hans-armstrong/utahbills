@@ -1,6 +1,6 @@
 {
   "bill_id": 1964246,
-  "change_hash": "b7dda045a210645354606c6966b3cab7",
+  "change_hash": "49c1d7c3ed122e5660242200d9305392",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/SB0255/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0255.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-11",
+  "progress": [
+    {
+      "date": "2025-02-11",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0255",
@@ -32,9 +37,22 @@
   "current_body_id": 94,
   "title": "Line-of-Duty Death Benefit Amendments",
   "description": "Line-of-Duty Death Benefit Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-11",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-10",
@@ -42,6 +60,27 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -104,17 +143,17 @@
   "amendments": [],
   "supplements": [],
   "calendar": [],
-  "general_provisions": "",
-  "hilighted_provisions": "",
-  "monies": "",
+  "general_provisions": "This bill modifies provisions relating to benefits resulting from a line-of-duty death.  ",
+  "hilighted_provisions": "This bill:<hr><ltbullet>provides that the health, dental, and vision benefits available to a public safety employee or fire service employee who dies in the line of duty remain available to the employee's surviving spouse and children;<hr><ltbullet>subject to legislative appropriation, directs the Department of Public Safety to reimburse an employer for amounts paid for the first 12 months of certain benefits provided to the surviving spouse and children of a public safety service employee or fire service employee who dies in the line of duty; and<hr><ltbullet>makes technical and conforming changes.",
+  "monies": "None",
   "attorney": "Christine R. Gilbert",
-  "fiscal_analyst": "Gary R. Syphus",
+  "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "XTIRIINUKB",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "",
-  "last_action_owner": "",
-  "last_action_time": "",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "2/11/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -126,6 +165,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "2/10/2025",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received bill from Legislative Research",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "2/11/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/11/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }

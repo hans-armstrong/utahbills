@@ -1,6 +1,6 @@
 {
   "bill_id": 1930997,
-  "change_hash": "91996e27d30584959c8acaf3f10e6268",
+  "change_hash": "372877d3a27c7e1cdc9a2e87ac96c3bd",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -19,7 +19,7 @@
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0287.html",
   "completed": 0,
   "status": 2,
-  "status_date": "2025-01-22",
+  "status_date": "2025-02-10",
   "progress": [
     {
       "date": "2025-01-22",
@@ -32,6 +32,10 @@
     {
       "date": "2025-02-07",
       "event": 10
+    },
+    {
+      "date": "2025-02-10",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,12 +45,17 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Stalking Amendments",
   "description": "Stalking Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-01-22",
@@ -61,6 +70,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Judiciary"
+    },
+    {
+      "date": "2025-02-10",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -132,6 +148,41 @@
       "action": "House/ 2nd reading in House Consent Calendar",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ 3rd reading in House Consent Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],

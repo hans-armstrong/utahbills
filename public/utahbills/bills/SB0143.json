@@ -1,6 +1,6 @@
 {
   "bill_id": 1928336,
-  "change_hash": "dd004d199f0a1c4bc0d28b7648a6aeaa",
+  "change_hash": "e8a6c6c0f9ed7f706cf0eac20ba3b286",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SB0143/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0143.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2025-01-21",
+  "status": 2,
+  "status_date": "2025-02-10",
   "progress": [
     {
       "date": "2025-01-21",
@@ -32,6 +32,10 @@
     {
       "date": "2025-01-30",
       "event": 10
+    },
+    {
+      "date": "2025-02-10",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,12 +45,17 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Legislative Activities Amendments",
   "description": "Legislative Activities Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-01-21",
@@ -61,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Government Operations and Political Subdivisions"
+    },
+    {
+      "date": "2025-02-11",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -160,6 +176,48 @@
       "action": "Senate/ circled in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate/ uncircled in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate/ substituted in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-10",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-11",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -474,9 +532,9 @@
       "billSession": "2025GS"
     }
   ],
-  "last_action": "House/ received from Senate",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/10/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/11/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -722,6 +780,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/11/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

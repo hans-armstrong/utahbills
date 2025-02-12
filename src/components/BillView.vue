@@ -399,6 +399,7 @@ function convertSponsors(sponsors) {
         sponsorArray.push({ sponsor: "Bill Sponsor", name: "No Sponsor" })
     }
 
+    console.log(sponsors)
     for (let i = 0; i < sponsors.length; i++) {
 
         if (sponsors[i].role_id == 0) {
