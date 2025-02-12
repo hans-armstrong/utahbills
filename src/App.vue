@@ -30,7 +30,7 @@ All information is gathered from two public sources (the official Utah State dev
 <br>
 During sessions, data displayed may not be complete as changes are not immediatley reflected in the data from the official Utah State Developer API (usually takes a day for them to update it). 
 <br>
-Along with Legiscan api data being sometimes days behind. Visit https://le.utah.gov/~2025/2025.HTM for your source of truth if you find a bill you want to track!
+Along with Legiscan api data being sometimes days behind. Visit <a class="link" href="https://le.utah.gov/~2025/2025.HTML">Utah State Legislature Website</a> for your source of truth if you find a bill you want to track!
 <br>
 When the general sessions ends, you can expect all data to be inputted and reflected here. 
 <br>
@@ -38,7 +38,7 @@ Both API's data sources and website may be subject to human error
 <br>
 Thanks for visiting! <br><br>
 </div>
-<div class="mt-1">This website was created for educational purposes.</div>
+<div class="mt-1">This website was created by a college student as apart of a school project, new features and improvements will be continually added!</div>
 <div class="mt-1">Icons provided by (© Icongeek26 - stock.adobe.com)</div>
 <div class="mt-1">Copyright <i class="fa-regular fa-copyright"></i> 2025</div>
     </div></footer>
@@ -75,4 +75,11 @@ function stopAnimationRose() {
 
 
 
-<style scoped></style>
+<style scoped>
+
+.link {
+    text-decoration: underline;
+    @apply hover:text-rose-500
+}
+
+</style>
