@@ -1,6 +1,6 @@
 {
   "bill_id": 1964809,
-  "change_hash": "dd4f6ffa30e1d06e868167e815d20c1f",
+  "change_hash": "246a75a5daaa28656b13cd540f2e2ae8",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -19,8 +19,13 @@
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0258.html",
   "completed": 0,
   "status": 1,
-  "status_date": null,
-  "progress": [],
+  "status_date": "2025-02-11",
+  "progress": [
+    {
+      "date": "2025-02-11",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0258",
@@ -32,9 +37,22 @@
   "current_body_id": 94,
   "title": "Inmate Education Funding Amendments",
   "description": "Inmate Education Funding Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-11",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-11",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -85,6 +117,34 @@
     {
       "subject_id": 11866,
       "subject_name": "Law Enforcement and Criminal Justice"
+    },
+    {
+      "subject_id": 11973,
+      "subject_name": "Higher Education"
+    },
+    {
+      "subject_id": 334545,
+      "subject_name": "Technical Colleges"
+    },
+    {
+      "subject_id": 333595,
+      "subject_name": "Alcohol"
+    },
+    {
+      "subject_id": 366608,
+      "subject_name": "Department of Alcoholic Beverage Services"
+    },
+    {
+      "subject_id": 11882,
+      "subject_name": "Department of Corrections"
+    },
+    {
+      "subject_id": 11856,
+      "subject_name": "Inmates"
+    },
+    {
+      "subject_id": 11888,
+      "subject_name": "Revenue and Taxation"
     }
   ],
   "texts": [
@@ -110,7 +170,17 @@
   "votes": [],
   "amendments": [],
   "supplements": [],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "4093d3b9",
+      "type": "Hearing",
+      "date": "2025-02-14",
+      "time": "08:00",
+      "location": "Room 30 House Building",
+      "description": "Senate Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill enacts provisions increasing the markup on certain types of alcohol to fund inmate education.",
   "hilighted_provisions": "This bill:<hr><ltbullet>increases the state markup on spirituous liquor and wine to fund the Inmate Education Restricted Account;<hr><ltbullet>creates the Inmate Education Restricted Account;<hr><ltbullet>defines the uses for the funds in the Inmate Education Restricted Account; and <hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -119,9 +189,9 @@
   "gov_tracking_id": "FLJMGJMBWQ",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/11/2025",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Revenue and Taxation Committee",
+  "last_action_time": "2/13/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -133,8 +203,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -146,8 +216,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -159,8 +229,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -172,8 +242,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2/13/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1904625,
-  "change_hash": "4fce532f9e7c3d2fee472abe2634ad1e",
+  "change_hash": "186a6affccfcfae3f431a58c74a1141c",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -105,6 +105,13 @@
     {
       "date": "2025-01-29",
       "action": "House Comm - Not Considered in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-12",
+      "action": "House Comm - Held in House Law Enforcement and Criminal Justice Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -304,6 +311,15 @@
       "time": "14:00",
       "location": "Room 30 House Building",
       "description": "House Law Enforcement and Criminal Justice Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "51003626",
+      "type": "Hearing",
+      "date": "2025-02-14",
+      "time": "08:00",
+      "location": "Room 30 House Building",
+      "description": "House Law Enforcement and Criminal Justice Hearing"
     }
   ],
   "general_provisions": "This bill addresses the storage of firearms.",
@@ -324,12 +340,26 @@
       "upcomming": false,
       "minutesURL": "/interim/2025/html/00000991.htm",
       "agendaURL": "/~2025/agenda/HLAW0129.ag.htm",
-      "billSession": "2025GS"
+      "billSession": "2025GS",
+      "markerID": "265867"
+    },
+    {
+      "mtgID": "19831",
+      "committeeID": "HSTLAW",
+      "mtgDate": "2025-02-12 14:00:00.0",
+      "agendaItem": "7",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Law Enforcement and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HLAW0212.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "270814"
     }
   ],
-  "last_action": "House Comm - Not Considered",
+  "last_action": "House Comm - Held",
   "last_action_owner": "House Law Enforcement and Criminal Justice Committee",
-  "last_action_time": "1/29/2025",
+  "last_action_time": "2/12/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -341,8 +371,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -354,8 +384,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -367,8 +397,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -380,8 +410,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -393,8 +423,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ to standing committee",
@@ -406,8 +436,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House Comm - Not Considered",
@@ -419,8 +449,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCANOCNSDR",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2/12/2025",
+      "actionClass": "A",
+      "voteID": "35373",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-4-1",
+      "actionCode": "HCAHELD",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1958930,
-  "change_hash": "7ad1fd2d595c539a40b9a53c6d92bce8",
+  "change_hash": "ec99bd3e685f3a9128f8bbcaf9b91cc0",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "State Parks Amendments",
   "description": "State Parks Amendments",
-  "pending_committee_id": 2861,
-  "committee": {
-    "committee_id": 2861,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Economic Development and Workforce Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-06",
@@ -103,6 +98,13 @@
     {
       "date": "2025-02-11",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-12",
+      "action": "Senate Comm - Not Considered in Senate Economic Development and Workforce Services Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -218,10 +220,24 @@
   "fiscal_analyst": "Ivan D. Djambov",
   "gov_tracking_id": "JWFNKQADOP",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "agendas": [
+    {
+      "mtgID": "19762",
+      "committeeID": "SSTEDW",
+      "mtgDate": "2025-02-12 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Economic Development and Workforce Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SEDW0212.ag.htm",
+      "billSession": "2025GS",
+      "markerID": ""
+    }
+  ],
+  "last_action": "Senate Comm - Not Considered",
   "last_action_owner": "Senate Economic Development and Workforce Services Committee",
-  "last_action_time": "2/11/2025",
+  "last_action_time": "2/12/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -233,8 +249,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -246,8 +262,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -259,8 +275,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -272,8 +288,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -285,8 +301,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -298,8 +314,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Not Considered",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "2/12/2025",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCANOCNSDR",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

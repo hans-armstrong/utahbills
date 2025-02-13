@@ -1,6 +1,6 @@
 {
   "bill_id": 1931713,
-  "change_hash": "8aefd7053338eca55e266db2fa34af28",
+  "change_hash": "3ae97359f0f4f1e42ab965d32db4e798",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-10",
       "event": 9
+    },
+    {
+      "date": "2025-02-13",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Vehicle Sales Tax Amendments",
   "description": "Vehicle Sales Tax Amendments",
-  "pending_committee_id": 2115,
-  "committee": {
-    "committee_id": 2115,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-22",
@@ -106,6 +105,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-13",
+      "action": "House Comm - Substitute Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-13",
+      "action": "House Comm - Favorable Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-13",
+      "action": "House/ comm rpt/ substituted in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-13",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -135,29 +162,40 @@
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
+    },
+    {
+      "people_id": 13830,
+      "person_hash": "lb2wdz95",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 2,
+      "role": "Sen",
+      "name": "Daniel McCay",
+      "first_name": "Daniel",
+      "middle_name": "",
+      "last_name": "McCay",
+      "suffix": "",
+      "nickname": "Dan",
+      "district": "SD-018",
+      "ftm_eid": 10886383,
+      "votesmart_id": 135315,
+      "opensecrets_id": "",
+      "knowwho_pid": 391021,
+      "ballotpedia": "Dan_McCay",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
     }
   ],
   "sasts": [],
   "subjects": [
     {
-      "subject_id": 11918,
-      "subject_name": "Sales and Use Tax"
-    },
-    {
-      "subject_id": 11917,
-      "subject_name": "State Tax Commission"
-    },
-    {
       "subject_id": 11888,
       "subject_name": "Revenue and Taxation"
-    },
-    {
-      "subject_id": 340950,
-      "subject_name": "Division of Motor Vehicles"
-    },
-    {
-      "subject_id": 334449,
-      "subject_name": "Sales Tax Exemptions"
     }
   ],
   "texts": [
@@ -172,6 +210,24 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0293.pdf",
       "text_size": 81670,
       "text_hash": "c331183661fcf0dd0d0c805287396570",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3115246,
+      "date": "2025-02-12",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0293/id/3115246",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0293S01.pdf",
+      "text_size": 82190,
+      "text_hash": "4618e3ba463412cfb41a9d87cc89ac48",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -202,6 +258,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 513680,
+      "date": "2025-02-12",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #0",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0293/id/513680",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0293%20To%20HB0293S01.pdf",
+      "supplement_size": 81506,
+      "supplement_hash": "554c33ee6e755da543f8a7202fde9cc3",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -222,10 +298,24 @@
   "fiscal_analyst": "Andrea Wilko",
   "gov_tracking_id": "AMRUKTWUQY",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Revenue and Taxation Committee",
-  "last_action_time": "2/10/2025",
+  "agendas": [
+    {
+      "mtgID": "19773",
+      "committeeID": "HSTREV",
+      "mtgDate": "2025-02-13 08:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HREV0213.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "271134"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/13/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -237,8 +327,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -250,8 +340,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -263,8 +353,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -276,8 +366,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -289,8 +379,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ to standing committee",
@@ -302,8 +392,60 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/13/2025",
+      "actionClass": "A",
+      "voteID": "35459",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-1",
+      "actionCode": "HCASUB",
+      "parm2": "0",
+      "parm1": "1"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/13/2025",
+      "actionClass": "A",
+      "voteID": "35461",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-1",
+      "actionCode": "HCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/13/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/13/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

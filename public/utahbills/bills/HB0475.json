@@ -1,6 +1,6 @@
 {
   "bill_id": 1964907,
-  "change_hash": "6033848ffcfcc65498d3b2bab06b2fca",
+  "change_hash": "5445fc2458dee7f729041a0456f14888",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -19,8 +19,13 @@
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0475.html",
   "completed": 0,
   "status": 1,
-  "status_date": null,
-  "progress": [],
+  "status_date": "2025-02-11",
+  "progress": [
+    {
+      "date": "2025-02-11",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0475",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Public Funds Reporting Amendments",
   "description": "Public Funds Reporting Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-11",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-11",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -85,6 +117,30 @@
     {
       "subject_id": 11851,
       "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 11966,
+      "subject_name": "Public Funds and Accounts"
+    },
+    {
+      "subject_id": 332535,
+      "subject_name": "Public Budgeting"
+    },
+    {
+      "subject_id": 11849,
+      "subject_name": "Appropriations"
+    },
+    {
+      "subject_id": 334140,
+      "subject_name": "Constitutional Officers"
+    },
+    {
+      "subject_id": 340429,
+      "subject_name": "State Auditor"
+    },
+    {
+      "subject_id": 340614,
+      "subject_name": "State Treasurer"
     }
   ],
   "texts": [
@@ -115,7 +171,7 @@
   "hilighted_provisions": "This bill:<hr><ltbullet>directs the state auditor to annually prepare a report that states, for each entity that holds public funds, the entity's total balance of cash and investments.",
   "monies": "None",
   "attorney": "Christine R. Gilbert",
-  "fiscal_analyst": "Alejandra G Rodriguez",
+  "fiscal_analyst": "Joseph Ryan Fitzgerald",
   "gov_tracking_id": "VXNALPFRHG",
   "comrecommend": [],
   "agendas": [],
@@ -133,8 +189,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -146,8 +202,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -159,8 +215,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -172,8 +228,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

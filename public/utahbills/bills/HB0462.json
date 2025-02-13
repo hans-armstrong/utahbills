@@ -1,6 +1,6 @@
 {
   "bill_id": 1963550,
-  "change_hash": "00177d09619848c0daa279a9a6984602",
+  "change_hash": "aa20adc14378a92da9158bc9743e20de",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -19,8 +19,13 @@
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0462.html",
   "completed": 0,
   "status": 1,
-  "status_date": null,
-  "progress": [],
+  "status_date": "2025-02-11",
+  "progress": [
+    {
+      "date": "2025-02-11",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0462",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Rural School Funding Amendments",
   "description": "Rural School Funding Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-11",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-10",
@@ -53,6 +71,20 @@
     {
       "date": "2025-02-11",
       "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-12",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -92,6 +124,22 @@
     {
       "subject_id": 11846,
       "subject_name": "Education"
+    },
+    {
+      "subject_id": 332526,
+      "subject_name": "K-12 Education"
+    },
+    {
+      "subject_id": 11848,
+      "subject_name": "School Finance"
+    },
+    {
+      "subject_id": 383611,
+      "subject_name": "Local Education Agencies (LEAs)"
+    },
+    {
+      "subject_id": 334987,
+      "subject_name": "School Facilities"
     }
   ],
   "texts": [
@@ -138,7 +186,28 @@
       "alt_amendment_hash": ""
     }
   ],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 513595,
+      "date": "2025-02-12",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0462",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0462/id/513595",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0462.fn.pdf",
+      "supplement_size": 1609847,
+      "supplement_hash": "b7bc2845a388d80c8c27b72c53aadd8c",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill creates the Rural School Sports Facilities Grant Program.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>creates the Rural School Sports Facilities Grant Program to fund the construction or refurbishment of sports facilities in rural public schools;<hr><ltbullet>requires the Utah State Board of Education to administer the program;<hr><ltbullet>allows a local education agency to apply for funds from the program;<hr><ltbullet>requires the state board to report on the program upon request; and<hr><ltbullet>makes technical changes.",
@@ -148,9 +217,9 @@
   "gov_tracking_id": "SOLOEMKMBN",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/11/2025",
+  "last_action_time": "2/12/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -162,8 +231,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -175,8 +244,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -188,8 +257,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -201,8 +270,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/12/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

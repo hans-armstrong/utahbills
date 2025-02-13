@@ -1,6 +1,6 @@
 {
   "bill_id": 1952780,
-  "change_hash": "e737970d2454cabbcffbacc457a035e5",
+  "change_hash": "cc8714ef0448b2b57c0011a535c8d999",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Voter Information Amendments",
   "description": "Voter Information Amendments",
-  "pending_committee_id": 2122,
-  "committee": {
-    "committee_id": 2122,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Government Operations and Political Subdivisions"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-04",
@@ -103,6 +98,20 @@
     {
       "date": "2025-02-06",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-12",
+      "action": "Senate Comm - Motion to Recommend Failed in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-12",
+      "action": "Senate Comm - Held in Senate Government Operations and Political Subdivisions Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -214,10 +223,24 @@
   "fiscal_analyst": "Ivan D. Djambov",
   "gov_tracking_id": "JPCQYBTXTN",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "agendas": [
+    {
+      "mtgID": "19814",
+      "committeeID": "SSTGOP",
+      "mtgDate": "2025-02-12 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Government Operations and Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SGOP0212.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "270675"
+    }
+  ],
+  "last_action": "Senate Comm - Held",
   "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
-  "last_action_time": "2/6/2025",
+  "last_action_time": "2/12/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -229,8 +252,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -242,8 +265,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -255,8 +278,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -268,8 +291,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -281,8 +304,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -294,8 +317,34 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Motion to Recommend Failed",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2/12/2025",
+      "actionClass": "A",
+      "voteID": "35337",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "2-2-3",
+      "actionCode": "SCAFAVFAIL",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Held",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2/12/2025",
+      "actionClass": "A",
+      "voteID": "35335",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCAHELD",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

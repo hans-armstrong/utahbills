@@ -1,6 +1,6 @@
 {
   "bill_id": 1952371,
-  "change_hash": "a08033e0a00ad4e5936550a460a2101b",
+  "change_hash": "fdb656524c19d43cc88321ab40a22a2e",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-04",
       "event": 1
+    },
+    {
+      "date": "2025-02-12",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Budgetary Amendments",
   "description": "Budgetary Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2108,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2108,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Health and Human Services"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-12",
+      "committee_id": 2108,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Health and Human Services"
     }
   ],
   "history": [
@@ -88,6 +99,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-02-12",
+      "action": "House/ to standing committee in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -214,7 +232,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "d5ec7de9",
+      "type": "Hearing",
+      "date": "2025-02-13",
+      "time": "14:00",
+      "location": "Room 30 House Building",
+      "description": "House Health and Human Services Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies provisions related to the governor's proposed budget.",
   "hilighted_provisions": "This bill:<hr><ltbullet>requires the governor, when preparing the governor's proposed budget, to consider including employee wages and benefits increases for:<hr><ltbullet1>local health departments, local mental health authorities, local substance abuse authorities, and local area agencies; and<hr><ltbullet1>corporations that provide direct services under contract with the Utah State Office of Rehabilitation, the Division of Services for People with Disabilities, the Division of Child and Family Services, and the Division of Juvenile Justice and Youth Services; and<hr><ltbullet>directs the governor to provide with the governor's budget additional related information.   ",
   "monies": "None",
@@ -222,10 +250,24 @@
   "fiscal_analyst": "Steven M. Allred",
   "gov_tracking_id": "WOVUAIJWSV",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/6/2025",
+  "agendas": [
+    {
+      "mtgID": "19761",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2025-02-13 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HHHS0213.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "271359"
+    }
+  ],
+  "last_action": "House Comm - Consent Calendar Recommendation",
+  "last_action_owner": "House Health and Human Services Committee",
+  "last_action_time": "2/13/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -237,8 +279,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -250,8 +292,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -263,8 +305,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -276,8 +318,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -289,8 +331,47 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/12/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/13/2025",
+      "actionClass": "A",
+      "voteID": "35524",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-3",
+      "actionCode": "HCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Consent Calendar Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/13/2025",
+      "actionClass": "A",
+      "voteID": "35526",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-3",
+      "actionCode": "HCACONCAL",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1965082,
-  "change_hash": "f634258730bb9be37617289457fa521d",
+  "change_hash": "db8995532f10cb1ac502484ff6bf912c",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -19,8 +19,13 @@
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0484.html",
   "completed": 0,
   "status": 1,
-  "status_date": null,
-  "progress": [],
+  "status_date": "2025-02-11",
+  "progress": [
+    {
+      "date": "2025-02-11",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0484",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "State Purchasing Reserve Funding",
   "description": "State Purchasing Reserve Funding",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-11",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-11",
@@ -56,6 +74,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -92,6 +117,46 @@
     {
       "subject_id": 335216,
       "subject_name": "Fiscal Procedures"
+    },
+    {
+      "subject_id": 11966,
+      "subject_name": "Public Funds and Accounts"
+    },
+    {
+      "subject_id": 332535,
+      "subject_name": "Public Budgeting"
+    },
+    {
+      "subject_id": 11871,
+      "subject_name": "Business"
+    },
+    {
+      "subject_id": 354066,
+      "subject_name": "Department of Government Operations"
+    },
+    {
+      "subject_id": 11851,
+      "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 11849,
+      "subject_name": "Appropriations"
+    },
+    {
+      "subject_id": 334140,
+      "subject_name": "Constitutional Officers"
+    },
+    {
+      "subject_id": 375054,
+      "subject_name": "Division of Finance"
+    },
+    {
+      "subject_id": 340614,
+      "subject_name": "State Treasurer"
+    },
+    {
+      "subject_id": 354115,
+      "subject_name": "Procurement"
     }
   ],
   "texts": [
@@ -140,8 +205,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -153,8 +218,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -166,8 +231,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -179,8 +244,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

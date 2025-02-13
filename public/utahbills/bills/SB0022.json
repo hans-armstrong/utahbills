@@ -1,6 +1,6 @@
 {
   "bill_id": 1897974,
-  "change_hash": "dfca58572ebc79b800b871e92ea50fb2",
+  "change_hash": "be3ee2424f9a025fa1645a23d87c902c",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,13 +53,8 @@
   "current_body_id": 93,
   "title": "State Employee Benefit Amendments",
   "description": "State Employee Benefit Amendments",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -216,6 +211,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-13",
+      "action": "House Comm - Amendment Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-13",
+      "action": "House Comm - Favorable Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -435,6 +444,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 515029,
+      "date": "2025-02-13",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0022",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0022/id/515029",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB022H10.pdf",
+      "supplement_size": 153590,
+      "supplement_hash": "f29fa91c850aeaa6163867e896610bac",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -471,6 +500,19 @@
   ],
   "agendas": [
     {
+      "mtgID": "19806",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2025-02-13 08:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HGOC0213.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "271064"
+    },
+    {
       "mtgID": "19595",
       "committeeID": "SSTBUS",
       "mtgDate": "2025-01-22 14:00:00.0",
@@ -480,12 +522,13 @@
       "upcomming": false,
       "minutesURL": "/interim/2025/html/00000299.htm",
       "agendaURL": "/~2025/agenda/SBUS0122.ag.htm",
-      "billSession": "2025GS"
+      "billSession": "2025GS",
+      "markerID": "263005"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "2/4/2025",
+  "last_action": "House/ return to Rules due to fiscal impact",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/13/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -497,8 +540,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -510,8 +553,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -523,8 +566,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -536,8 +579,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -549,8 +592,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -562,8 +605,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate Comm - Substitute Recommendation",
@@ -575,8 +618,8 @@
       "voteHouse": "",
       "voteStr": "5-0-3",
       "actionCode": "SCASUB",
-      "parm1": "1",
-      "parm2": "0"
+      "parm2": "0",
+      "parm1": "1"
     },
     {
       "description": "Senate Comm - Favorable Recommendation",
@@ -588,8 +631,8 @@
       "voteHouse": "",
       "voteStr": "5-0-3",
       "actionCode": "SCAFAV",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ comm rpt/ substituted",
@@ -601,8 +644,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCRSUB",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ placed on 2nd Reading Calendar",
@@ -614,8 +657,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 2nd reading",
@@ -627,8 +670,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ passed 2nd reading",
@@ -640,8 +683,8 @@
       "voteHouse": "S",
       "voteStr": "27-0-2",
       "actionCode": "SPASS2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 3rd reading",
@@ -653,8 +696,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ passed 3rd reading",
@@ -666,8 +709,8 @@
       "voteHouse": "S",
       "voteStr": "25-0-4",
       "actionCode": "SPASS3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ to House",
@@ -679,8 +722,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOHOU",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received from Senate",
@@ -692,8 +735,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -705,8 +748,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ to standing committee",
@@ -718,8 +761,60 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Amendment Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/13/2025",
+      "actionClass": "A",
+      "voteID": "35442",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-3",
+      "actionCode": "HCAAMD",
+      "parm2": "",
+      "parm1": "1"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/13/2025",
+      "actionClass": "A",
+      "voteID": "35443",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-3",
+      "actionCode": "HCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ comm rpt/ amended",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/13/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRAMD",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ return to Rules due to fiscal impact",
+      "owner": "House Rules Committee",
+      "actionDate": "2/13/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRETRULFIS",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

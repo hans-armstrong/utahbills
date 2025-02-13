@@ -1,6 +1,6 @@
 {
   "bill_id": 1933953,
-  "change_hash": "193df0d770cca3e49b77f3260a101bb1",
+  "change_hash": "8b0897cad43b1a6ad7d25429e12dc571",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-01-22",
       "event": 1
+    },
+    {
+      "date": "2025-02-11",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Municipal Services Fees and Political Subdivision Lien Amendments",
   "description": "Municipal Services Fees and Political Subdivision Lien Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2112,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2112,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Political Subdivisions"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-11",
+      "committee_id": 2112,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Political Subdivisions"
     }
   ],
   "history": [
@@ -88,6 +99,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Bill Substituted by Sponsor in House Rules Comm in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "House/ to standing committee in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -151,30 +176,6 @@
     {
       "subject_id": 11910,
       "subject_name": "Political Subdivisions (Local Issues)"
-    },
-    {
-      "subject_id": 11979,
-      "subject_name": "Liens"
-    },
-    {
-      "subject_id": 332648,
-      "subject_name": "Water Utilities, Irrigation, and Sewer"
-    },
-    {
-      "subject_id": 332649,
-      "subject_name": "Municipalities"
-    },
-    {
-      "subject_id": 334683,
-      "subject_name": "County and Municipal Finance"
-    },
-    {
-      "subject_id": 334448,
-      "subject_name": "Local Government Infrastructure and Utilities"
-    },
-    {
-      "subject_id": 334516,
-      "subject_name": "Real Property"
     }
   ],
   "texts": [
@@ -207,6 +208,24 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0295S01.pdf",
       "text_size": 42422,
       "text_hash": "385d8c13bd69951ee95430c7a8a480df",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3117268,
+      "date": "2025-02-12",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0295/id/3117268",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0295S02.pdf",
+      "text_size": 42251,
+      "text_hash": "19fb0b75e239b1320c9b32eab87db2d8",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -299,6 +318,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 514578,
+      "date": "2025-02-12",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #0",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0295/id/514578",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0295%20To%20HB0295S02.pdf",
+      "supplement_size": 51098,
+      "supplement_hash": "520a05671b158a25acd83ce2b385ef76",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 514579,
+      "date": "2025-02-12",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0295/id/514579",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0295S01%20To%20HB0295S02.pdf",
+      "supplement_size": 41233,
+      "supplement_hash": "cc7a44df459fe45e02c890d178f7d1d7",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [],
@@ -329,8 +388,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -342,8 +401,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -355,8 +414,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -368,8 +427,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -381,8 +440,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Bill Substituted by Sponsor in House Rules Comm",
@@ -394,8 +453,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LRULSUBH",
-      "parm1": "1",
-      "parm2": "0"
+      "parm2": "0",
+      "parm1": "1"
     },
     {
       "description": "House/ to standing committee",
@@ -407,8 +466,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

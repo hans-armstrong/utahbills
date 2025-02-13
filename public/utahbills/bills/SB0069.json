@@ -1,6 +1,6 @@
 {
   "bill_id": 1904600,
-  "change_hash": "2f4ef4652c8d1a86effa4cc7de8c923c",
+  "change_hash": "7fb89483191335e2a793513af0317c5b",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Medication Amendments",
   "description": "Medication Amendments",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -106,6 +101,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-13",
+      "action": "Senate Comm - Substitute Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-13",
+      "action": "Senate Comm - Motion to Recommend Failed in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -289,17 +298,31 @@
       "description": "Senate Business and Labor Hearing"
     }
   ],
-  "general_provisions": "This bill addresses the acquisition of certain drugs by pharmaceutical entities.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms, including \"340B drug\" and \"pharmaceutical entity\"; and<hr><ltbullet>bans interfering with a pharmaceutical entity's acquisition of a 340B drug.",
+  "general_provisions": "This bill addresses interference of pharmacy participation in a federal drug discount program.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms; and<hr><ltbullet>prohibits interfering with a pharmacy's ability to acquire or dispense certain drugs under a federal discount program.",
   "monies": "None",
   "attorney": "Greg Gunn",
   "fiscal_analyst": "Sean C. Faherty",
   "gov_tracking_id": "PVRELWJKHC",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19792",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2025-02-13 08:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SBUS0213.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "271049"
+    }
+  ],
+  "last_action": "Senate Comm - Motion to Recommend Failed",
   "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/4/2025",
+  "last_action_time": "2/13/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -311,8 +334,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -324,8 +347,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -337,8 +360,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -350,8 +373,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -363,8 +386,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -376,8 +399,34 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/13/2025",
+      "actionClass": "A",
+      "voteID": "35440",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-1",
+      "actionCode": "SCASUB",
+      "parm2": "0",
+      "parm1": "1"
+    },
+    {
+      "description": "Senate Comm - Motion to Recommend Failed",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/13/2025",
+      "actionClass": "A",
+      "voteID": "35477",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-4-0",
+      "actionCode": "SCAFAVFAIL",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

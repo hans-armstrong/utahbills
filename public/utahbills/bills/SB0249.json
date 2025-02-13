@@ -1,6 +1,6 @@
 {
   "bill_id": 1963919,
-  "change_hash": "8498c758a3ac60b9f5ad0e339d8d14cc",
+  "change_hash": "3c80c47b91e466e4880df57fa3890837",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -19,8 +19,17 @@
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0249.html",
   "completed": 0,
   "status": 1,
-  "status_date": null,
-  "progress": [],
+  "status_date": "2025-02-11",
+  "progress": [
+    {
+      "date": "2025-02-11",
+      "event": 1
+    },
+    {
+      "date": "2025-02-11",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0249",
@@ -32,9 +41,29 @@
   "current_body_id": 94,
   "title": "Student Integration Amendments",
   "description": "Student Integration Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2120,
+  "committee": {
+    "committee_id": 2120,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Education"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-11",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2025-02-11",
+      "committee_id": 2120,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Education"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-10",
@@ -53,6 +82,27 @@
     {
       "date": "2025-02-10",
       "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-11",
+      "action": "Senate/ to standing committee in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-12",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Education Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -92,6 +142,26 @@
     {
       "subject_id": 332528,
       "subject_name": "Judicial Operations"
+    },
+    {
+      "subject_id": 11867,
+      "subject_name": "Juveniles"
+    },
+    {
+      "subject_id": 11846,
+      "subject_name": "Education"
+    },
+    {
+      "subject_id": 332526,
+      "subject_name": "K-12 Education"
+    },
+    {
+      "subject_id": 340447,
+      "subject_name": "Juvenile Justice"
+    },
+    {
+      "subject_id": 338150,
+      "subject_name": "Student Discipline"
     }
   ],
   "texts": [
@@ -116,7 +186,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 512993,
+      "date": "2025-02-11",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0249",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0249/id/512993",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SB0249.fn.pdf",
+      "supplement_size": 1608339,
+      "supplement_hash": "1b5cf8e8df16701b34e0ea8332d14166",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill addresses the integration of a student into a school upon the commission of a crime by the student.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines the term, \"forcible felony\";<hr><ltbullet>addresses a school integration plan for a student who commits a forcible felony; and<hr><ltbullet>makes technical and conforming changes.",
@@ -126,9 +217,9 @@
   "gov_tracking_id": "RAPQPYMIPH",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/11/2025",
+  "last_action_time": "2/12/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -140,8 +231,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -153,8 +244,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -166,8 +257,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -179,8 +270,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -192,8 +283,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Education Committee",
+      "actionDate": "2/12/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

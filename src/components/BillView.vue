@@ -90,7 +90,7 @@
                                 </DisclosurePanel>
                             </Disclosure>
                         </div>
-                        <div v-else class="p-2 px-3 rounded-md bg-stone-100 w-fit">No Budget Allocated</div>
+                        <div v-else class="p-2 px-3 rounded-md bg-stone-100 w-fit">No Budget Data</div>
                     </div>
                     <div class="pb-2">
                         <div class="mt-8 mb-3 text-2xl">Votes</div>

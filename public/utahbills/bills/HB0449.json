@@ -1,6 +1,6 @@
 {
   "bill_id": 1962701,
-  "change_hash": "02af516f69613a2bc8fcb4d6f16ca6ee",
+  "change_hash": "545601954654ed14710573e05b7792bc",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-10",
       "event": 1
+    },
+    {
+      "date": "2025-02-12",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Student Athlete Amendments",
   "description": "Student Athlete Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2105,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2105,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Education"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-12",
+      "committee_id": 2105,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Education"
     }
   ],
   "history": [
@@ -78,6 +89,20 @@
     {
       "date": "2025-02-10",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-12",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-12",
+      "action": "House/ to standing committee in House Education Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -165,7 +190,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 512838,
+      "date": "2025-02-11",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0449",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0449/id/512838",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0449.fn.pdf",
+      "supplement_size": 1609225,
+      "supplement_hash": "7038ebdb71b2cc03eea80e8b86f3fd0d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill creates provisions related to an institution compensating a student athlete for the use of the student athlete's name, image, or likeness.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>makes technical and conforming changes;<hr><ltbullet>allows an institution of higher education to use certain funds to compensate a student athlete directly for the use of the student athlete's name, image, or likeness;<hr><ltbullet>provides certain protections to institutions and student athletes; and<hr><ltbullet>creates an audit requirement for the Utah Board of Higher Education.",
@@ -175,9 +221,9 @@
   "gov_tracking_id": "DOKHRBHHJJ",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/10/2025",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Education Committee",
+  "last_action_time": "2/12/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -189,8 +235,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -202,8 +248,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -215,8 +261,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -228,8 +274,34 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/12/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Education Committee",
+      "actionDate": "2/12/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }
