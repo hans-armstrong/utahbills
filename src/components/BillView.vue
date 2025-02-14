@@ -230,7 +230,7 @@ let committeeRec = ref()
 loadBillData(props.billlist)
     .then(loaded.value = true)
     .catch(error => {
-        console.log(error)
+        // console.log(error)
     })
 
 // Function creates a promise that checks to see when the billList is an array or if needed I can pass in the billDetail to see if it is a valid object
@@ -399,7 +399,7 @@ function convertSponsors(sponsors) {
         sponsorArray.push({ sponsor: "Bill Sponsor", name: "No Sponsor" })
     }
 
-    console.log(sponsors)
+    // console.log(sponsors)
     for (let i = 0; i < sponsors.length; i++) {
 
         if (sponsors[i].role_id == 0) {

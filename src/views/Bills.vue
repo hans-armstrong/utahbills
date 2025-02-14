@@ -383,7 +383,7 @@ function emptyList(list) {
 function filterBills(list) {
     let filteredBills
     if (list === null) {
-        console.log('Nothing to return')
+        // console.log('Nothing to return')
         return []
     } else if (currentStatus.value == "all") {
         billList.value = JSON.parse(JSON.stringify(list)) // deep copy of billList
@@ -707,7 +707,7 @@ function filterBySubjects(list, subjects) {
         }
     })
 
-    console.log(filteredBills, "filtered")
+    // console.log(filteredBills, "filtered")
     let removedDups = removeDuplicates(filteredBills)
     return removedDups
     // return filteredBills

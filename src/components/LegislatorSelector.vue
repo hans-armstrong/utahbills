@@ -154,13 +154,13 @@ const legStore =  useLegStore()
 // Gets the people array from local storage if it exists, if not creates an empty array
 function getPeople() {
     let storageItems = localStorage.getItem('people')
-    console.log(storageItems)
+    // console.log(storageItems)
     if(!storageItems) {
         localStorage.setItem('people',  JSON.stringify([]))
         return []
     } else {
         let array = JSON.parse(storageItems)
-        console.log(array)
+        // console.log(array)
         return array
     }
 }
