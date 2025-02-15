@@ -1,6 +1,6 @@
 {
   "bill_id": 1928091,
-  "change_hash": "3fa6e96b01d295c346626a4435e21a9c",
+  "change_hash": "825e4053eae44cf48a95917433a8a72d",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Towing Modifications",
   "description": "Towing Modifications",
-  "pending_committee_id": 2117,
-  "committee": {
-    "committee_id": 2117,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Transportation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-14",
+      "action": "House Comm - Not Considered in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -142,26 +144,6 @@
     {
       "subject_id": 11875,
       "subject_name": "Transportation"
-    },
-    {
-      "subject_id": 11917,
-      "subject_name": "State Tax Commission"
-    },
-    {
-      "subject_id": 11928,
-      "subject_name": "Department of Transportation"
-    },
-    {
-      "subject_id": 332732,
-      "subject_name": "Towing"
-    },
-    {
-      "subject_id": 340812,
-      "subject_name": "Commercial Motor Vehicle Regulation"
-    },
-    {
-      "subject_id": 340950,
-      "subject_name": "Division of Motor Vehicles"
     }
   ],
   "texts": [
@@ -176,6 +158,24 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0261.pdf",
       "text_size": 74333,
       "text_hash": "0e1f6c0e8848565a3acfe2c27f9d5612",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3120415,
+      "date": "2025-02-13",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0261/id/3120415",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0261S01.pdf",
+      "text_size": 84733,
+      "text_hash": "6c24cc0c3aa18d6e87aa1f1f5a251aa2",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -206,6 +206,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 516112,
+      "date": "2025-02-13",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #0",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0261/id/516112",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0261%20To%20HB0261S01.pdf",
+      "supplement_size": 97727,
+      "supplement_hash": "5a1e44674bfd396ca86ef67b66cd1d3a",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -217,6 +237,15 @@
       "time": "08:00",
       "location": "Room 30 House Building",
       "description": "House Transportation Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "462ddd99",
+      "type": "Hearing",
+      "date": "2025-02-18",
+      "time": "16:00",
+      "location": "Room 30 House Building",
+      "description": "House Transportation Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions related to the towing and impoundment of vehicles.",
@@ -226,10 +255,24 @@
   "fiscal_analyst": "Rachel Boe",
   "gov_tracking_id": "NDOBJYHRYG",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19797",
+      "committeeID": "HSTTRA",
+      "mtgDate": "2025-02-14 08:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Transportation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HTRA0214.ag.htm",
+      "billSession": "2025GS",
+      "markerID": ""
+    }
+  ],
+  "last_action": "House Comm - Not Considered",
   "last_action_owner": "House Transportation Committee",
-  "last_action_time": "1/31/2025",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -306,6 +349,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Transportation Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
       "parm2": "",
       "parm1": ""
     }

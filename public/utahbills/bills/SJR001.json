@@ -1,6 +1,6 @@
 {
   "bill_id": 1904553,
-  "change_hash": "ffe4c9b816fc80c0a2c3cd1080b7ab9f",
+  "change_hash": "751eb300ff0b19896d4ad2d344892fec",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SJR001/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SJR001.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2025-02-13",
   "progress": [
     {
@@ -49,8 +49,13 @@
   "current_body_id": 93,
   "title": "Joint Resolution Dissolving the North Logan and Hyde Park Justice Courts",
   "description": "Joint Resolution Dissolving the North Logan and Hyde Park Justice Courts",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-01-22",
@@ -65,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Judiciary, Law Enforcement, and Criminal Justice"
+    },
+    {
+      "date": "2025-02-14",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -179,6 +191,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-14",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -379,9 +398,9 @@
       "markerID": "268575"
     }
   ],
-  "last_action": "House/ received from Senate",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/13/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -588,6 +607,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm2": "",
       "parm1": ""
     }

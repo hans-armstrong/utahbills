@@ -1,6 +1,6 @@
 {
   "bill_id": 1949285,
-  "change_hash": "94fc44a8224760015a97aecd380a27e9",
+  "change_hash": "248530d8fe1a5efafa69a8270d3a31ae",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "National Guard Amendments",
   "description": "National Guard Amendments",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-31",
@@ -106,6 +101,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-14",
+      "action": "House Comm - Substitute Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "House Comm - Favorable Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -260,9 +269,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 518830,
+      "date": "2025-02-14",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0376",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0376/id/518830",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB376H10.pdf",
+      "supplement_size": 143306,
+      "supplement_hash": "482fe95c075788d1ae87c9946e04d4e8",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "3fbb1b42",
+      "type": "Hearing",
+      "date": "2025-02-14",
+      "time": "14:00",
+      "location": "Room 30 House Building",
+      "description": "House Government Operations Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions related to the National Guard.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>amends provisions related to the appointment of the adjutant general;<hr><ltbullet>amends provisions related to the management of the State Armory Board;<hr><ltbullet>clarifies what electronic means the State Armory Board may use in conducting meetings and taking official action;<hr><ltbullet>allows for the National Guard to repay student loans for active members of the National Guard using current funds;<hr><ltbullet>addresses the appointment and responsibilities of certain judge advocates;<hr><ltbullet>addresses the use of force by a military service member or a member of the National Guard in certain circumstances;<hr><ltbullet>provides that a military chaplain may solemnize a marriage; and<hr><ltbullet>makes technical and conforming changes. ",
   "monies": "None",
@@ -270,10 +309,24 @@
   "fiscal_analyst": "Steven M. Allred",
   "gov_tracking_id": "XNHPQCRWTA",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19807",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2025-02-14 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HGOC0214.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "272131"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "2/4/2025",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -350,6 +403,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "35717",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-2",
+      "actionCode": "HCASUB",
+      "parm2": "0",
+      "parm1": "1"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "35718",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-2",
+      "actionCode": "HCAFAV",
       "parm2": "",
       "parm1": ""
     }

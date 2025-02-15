@@ -1,6 +1,6 @@
 {
   "bill_id": 1903280,
-  "change_hash": "da153d811238f975499c148a5e9d20e7",
+  "change_hash": "352b05b64f5594306011469616ddbdd1",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -36,6 +36,10 @@
     {
       "date": "2025-02-06",
       "event": 2
+    },
+    {
+      "date": "2025-02-13",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,13 +53,8 @@
   "current_body_id": 94,
   "title": "Sexual Abuse Statutes of Limitation Amendments",
   "description": "Sexual Abuse Statutes of Limitation Amendments",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -77,6 +76,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-13",
+      "committee_id": 2124,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Judiciary, Law Enforcement, and Criminal Justice"
     }
   ],
   "history": [
@@ -181,6 +187,27 @@
     {
       "date": "2025-02-07",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-13",
+      "action": "Senate/ to standing committee in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-13",
+      "action": "Senate Comm - Amendment Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-13",
+      "action": "Senate Comm - Motion to Recommend Failed in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -515,9 +542,22 @@
       "agendaURL": "/~2025/agenda/HJUD0129.ag.htm",
       "billSession": "2025GS",
       "markerID": "265718"
+    },
+    {
+      "mtgID": "19779",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2025-02-13 14:00:00.0",
+      "agendaItem": "13",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SJLC0213.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "271611"
     }
   ],
-  "last_action": "Senate/ to standing committee",
+  "last_action": "Senate Comm - Motion to Recommend Failed",
   "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
   "last_action_time": "2/13/2025",
   "action_history": [
@@ -726,6 +766,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Amendment Recommendation",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/13/2025",
+      "actionClass": "A",
+      "voteID": "35580",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-3",
+      "actionCode": "SCAAMD",
+      "parm2": "",
+      "parm1": "2"
+    },
+    {
+      "description": "Senate Comm - Motion to Recommend Failed",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/13/2025",
+      "actionClass": "A",
+      "voteID": "35585",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-3-3",
+      "actionCode": "SCAFAVFAIL",
       "parm2": "",
       "parm1": ""
     }

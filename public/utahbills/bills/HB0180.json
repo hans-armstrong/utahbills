@@ -1,6 +1,6 @@
 {
   "bill_id": 1912161,
-  "change_hash": "361d83f73b9f590a36d37f36b01b73e3",
+  "change_hash": "42598a563630680db42970f20be68d61",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -45,13 +45,8 @@
   "current_body_id": 93,
   "title": "Employee Compensation Amendments",
   "description": "Employee Compensation Amendments",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -131,6 +126,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-14",
+      "action": "House Comm - Held in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -253,6 +255,15 @@
       "time": "14:00",
       "location": "",
       "description": "House Business, Labor, and Commerce Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "3fbb1b42",
+      "type": "Hearing",
+      "date": "2025-02-14",
+      "time": "14:00",
+      "location": "Room 30 House Building",
+      "description": "House Government Operations Hearing"
     }
   ],
   "general_provisions": "This bill modifies requirements related to compensation of executive branch employees.",
@@ -262,10 +273,24 @@
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "PKRXWLXKHA",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19807",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2025-02-14 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HGOC0214.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "271975"
+    }
+  ],
+  "last_action": "House Comm - Held",
   "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "1/31/2025",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -368,6 +393,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "35692",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-0-1",
+      "actionCode": "HCAHELD",
       "parm2": "",
       "parm1": ""
     }

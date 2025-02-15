@@ -1,6 +1,6 @@
 {
   "bill_id": 1941420,
-  "change_hash": "e70f2fb9b78f31f2aa0ff641bc8c642b",
+  "change_hash": "2d0332bb55fa551aadeb18fcc812cb60",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Water Usage Amendments",
   "description": "Water Usage Amendments",
-  "pending_committee_id": 2112,
-  "committee": {
-    "committee_id": 2112,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Political Subdivisions"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-27",
@@ -106,6 +101,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-13",
+      "action": "House Comm - Not Considered in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "House Comm - Amendment Recommendation in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "House Comm - Favorable Recommendation in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -224,6 +240,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 518597,
+      "date": "2025-02-14",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0328",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0328/id/518597",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB328H10.pdf",
+      "supplement_size": 155228,
+      "supplement_hash": "03c3b9c945de69a097769ee998d5367a",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -233,6 +269,15 @@
       "type": "Hearing",
       "date": "2025-02-13",
       "time": "08:00",
+      "location": "Room 30 House Building",
+      "description": "House Political Subdivisions Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "f3b1ad3d",
+      "type": "Hearing",
+      "date": "2025-02-14",
+      "time": "14:00",
       "location": "Room 30 House Building",
       "description": "House Political Subdivisions Hearing"
     }
@@ -256,12 +301,25 @@
       "minutesURL": "/",
       "agendaURL": "/~2025/agenda/HPOL0213.ag.htm",
       "billSession": "2025GS",
-      "markerID": "271223"
+      "markerID": ""
+    },
+    {
+      "mtgID": "19811",
+      "committeeID": "HSTPOL",
+      "mtgDate": "2025-02-14 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "House Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HPOL0214.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "271990"
     }
   ],
-  "last_action": "House Comm - Not Considered",
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Political Subdivisions Committee",
-  "last_action_time": "2/13/2025",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -351,6 +409,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCANOCNSDR",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Amendment Recommendation",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "35693",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-2",
+      "actionCode": "HCAAMD",
+      "parm2": "",
+      "parm1": "1"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "35694",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-2",
+      "actionCode": "HCAFAV",
       "parm2": "",
       "parm1": ""
     }

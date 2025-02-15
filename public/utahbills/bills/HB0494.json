@@ -1,6 +1,6 @@
 {
   "bill_id": 1967694,
-  "change_hash": "da7dd5ef8bcd676ba8661581ffbab8e0",
+  "change_hash": "04c2feab8f4cb7c3ab71d5861f3a8227",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -19,8 +19,13 @@
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0494.html",
   "completed": 0,
   "status": 1,
-  "status_date": null,
-  "progress": [],
+  "status_date": "2025-02-13",
+  "progress": [
+    {
+      "date": "2025-02-13",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0494",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Boards and Committee Amendments",
   "description": "Boards and Committee Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-13",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-12",
@@ -48,6 +66,27 @@
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-13",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-13",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-14",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -85,6 +124,10 @@
     {
       "subject_id": 11851,
       "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 332726,
+      "subject_name": "Boards and Committees"
     }
   ],
   "texts": [
@@ -109,7 +152,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 516742,
+      "date": "2025-02-14",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0494",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0494/id/516742",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0494.fn.pdf",
+      "supplement_size": 1609116,
+      "supplement_hash": "1c373111d726ea19607aac6c0a280252",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill modifies the membership of certain boards and committees.",
   "hilighted_provisions": "This bill:<hr><ltbullet>removes members who are legislators from certain entities; <hr><ltbullet>modifies appointment provisions for certain entities to which the Legislature appoints members;<hr><ltbullet>provides that if a legislator is appointed under the preceding paragraph, the legislator serves as a member of the public and not in the legislator's legislative capacity;<hr><ltbullet>modifies the membership and quorum requirements of the Rules Review and General Oversight Committee;<hr><ltbullet>authorizes the Rules Review and General Oversight Committee to review an individual child welfare case, subject to certain conditions; and<hr><ltbullet>makes technical and conforming changes.",
@@ -119,9 +183,9 @@
   "gov_tracking_id": "POKCPOLQOR",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received bill from Legislative Research",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/13/2025",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -172,6 +236,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm2": "",
       "parm1": ""
     }

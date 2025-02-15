@@ -1,6 +1,6 @@
 {
   "bill_id": 1953796,
-  "change_hash": "243082a846d2d2340772ba6f9994e9db",
+  "change_hash": "1200f28db352d40c3a93d5522464f363",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Construction Modifications",
   "description": "Construction Modifications",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-04",
@@ -99,6 +94,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate Comm - Substitute Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -162,18 +171,6 @@
     {
       "subject_id": 11871,
       "subject_name": "Business"
-    },
-    {
-      "subject_id": 332843,
-      "subject_name": "Construction"
-    },
-    {
-      "subject_id": 12042,
-      "subject_name": "Department of Environmental Quality"
-    },
-    {
-      "subject_id": 12103,
-      "subject_name": "Water Quality"
     }
   ],
   "texts": [
@@ -194,12 +191,81 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3120619,
+      "date": "2025-02-13",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0220/id/3120619",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/SB0220S01.pdf",
+      "text_size": 60561,
+      "text_hash": "02de36e48daf5388ac6da4c7a70f35ee",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 516375,
+      "date": "2025-02-13",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #0",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0220/id/516375",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20SB0220%20To%20SB0220S01.pdf",
+      "supplement_size": 70480,
+      "supplement_hash": "3a04eaeb7223fd1c8dcb0a839c6bbeff",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 518827,
+      "date": "2025-02-14",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0220",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0220/id/518827",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB220S10.pdf",
+      "supplement_size": 127279,
+      "supplement_hash": "df9b1ea896574beb32e24cc1a070535d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "40dcce60",
+      "type": "Hearing",
+      "date": "2025-02-14",
+      "time": "14:00",
+      "location": "Room 30 House Building",
+      "description": "Senate Business and Labor Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses construction site storm water runoff controls.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>establishes standards for how the Division of Water Quality:<hr><ltbullet1>regulates controls for storm water runoff;<hr><ltbullet1>imposes a fine for violation; and<hr><ltbullet1>inspects construction sites impacting storm water runoff; <hr><ltbullet>establishes exceptions for the Department of Transportation;<hr><ltbullet>establishes penalties for non-compliance; and  <hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -207,10 +273,24 @@
   "fiscal_analyst": "",
   "gov_tracking_id": "RUQQWUKPFG",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19789",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2025-02-14 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SBUS0214.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "272003"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/5/2025",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -274,6 +354,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "35689",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-2",
+      "actionCode": "SCASUB",
+      "parm2": "0",
+      "parm1": "1"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "35690",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-1",
+      "actionCode": "SCAFAV",
       "parm2": "",
       "parm1": ""
     }

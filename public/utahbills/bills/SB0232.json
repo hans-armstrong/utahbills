@@ -1,6 +1,6 @@
 {
   "bill_id": 1958097,
-  "change_hash": "9afb638375cc5710aa9be6656d94ea89",
+  "change_hash": "f27ddfb182e10cc13324ed39f8855adf",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "School District Seismic Safety and Maintenance",
   "description": "School District Seismic Safety and Maintenance",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-06",
@@ -103,6 +98,13 @@
     {
       "date": "2025-02-10",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate Comm - Not Considered in Senate Education Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -196,7 +198,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "932b8a78",
+      "type": "Hearing",
+      "date": "2025-02-14",
+      "time": "14:00",
+      "location": "Room 30 House Building",
+      "description": "Senate Education Hearing"
+    }
+  ],
   "general_provisions": "This bill enacts provisions for the transition from a divided school district to new and reorganized new school districts regarding certain seismic safety and deferred maintenance evaluations.",
   "hilighted_provisions": "This bill:<hr><ltbullet>enacts provisions for the transition from a divided school district to new and reorganized new school districts regarding certain seismic safety and deferred maintenance evaluations.",
   "monies": "None",
@@ -204,10 +216,24 @@
   "fiscal_analyst": "Kyra Hudson",
   "gov_tracking_id": "BKQCODNTAA",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "agendas": [
+    {
+      "mtgID": "19770",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2025-02-14 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SEDU0214.ag.htm",
+      "billSession": "2025GS",
+      "markerID": ""
+    }
+  ],
+  "last_action": "Senate Comm - Not Considered",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/10/2025",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -284,6 +310,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Not Considered",
+      "owner": "Senate Education Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCANOCNSDR",
       "parm2": "",
       "parm1": ""
     }

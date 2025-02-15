@@ -1,6 +1,6 @@
 {
   "bill_id": 1898079,
-  "change_hash": "589b539e81c06f77594a696ca0586648",
+  "change_hash": "2edc9cab4a7723ab986e16f57cce2ae8",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,13 +53,8 @@
   "current_body_id": 94,
   "title": "Insurance Modifications",
   "description": "Insurance Modifications",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -230,6 +225,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate Comm - Substitute Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -293,22 +302,6 @@
     {
       "subject_id": 11871,
       "subject_name": "Business"
-    },
-    {
-      "subject_id": 334430,
-      "subject_name": "Health Insurance"
-    },
-    {
-      "subject_id": 11907,
-      "subject_name": "Insurance"
-    },
-    {
-      "subject_id": 11905,
-      "subject_name": "Insurance Department"
-    },
-    {
-      "subject_id": 82869,
-      "subject_name": "Title and Escrow"
     }
   ],
   "texts": [
@@ -359,6 +352,24 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/amended/AV_HB0023S01_2025-02-10_15-19-11.pdf",
       "text_size": 251534,
       "text_hash": "6e677622c68f2dc425ccf766f6ccf225",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3119902,
+      "date": "2025-02-13",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0023/id/3119902",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0023S02.pdf",
+      "text_size": 241989,
+      "text_hash": "248467d8cb51281557fd5d3ab22f43c2",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -492,6 +503,66 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 515696,
+      "date": "2025-02-13",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #0",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0023/id/515696",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0023%20To%20HB0023S02.pdf",
+      "supplement_size": 255655,
+      "supplement_hash": "2bcf8a8a8d1cb8c0655709bef5c4113f",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 515697,
+      "date": "2025-02-13",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0023/id/515697",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0023S01%20To%20HB0023S02.pdf",
+      "supplement_size": 249014,
+      "supplement_hash": "2251e4ad6beee6c0d60ea232afce27be",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 517176,
+      "date": "2025-02-14",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0023",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0023/id/517176",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB023S10.pdf",
+      "supplement_size": 131230,
+      "supplement_hash": "1a5098e4c8019b97f0b18192e49798d5",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -503,6 +574,15 @@
       "time": "14:00",
       "location": "",
       "description": "House Business, Labor, and Commerce Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "40dcce60",
+      "type": "Hearing",
+      "date": "2025-02-14",
+      "time": "14:00",
+      "location": "Room 30 House Building",
+      "description": "Senate Business and Labor Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions relating to insurance.",
@@ -530,11 +610,24 @@
       "agendaURL": "/~2025/agenda/HBUS0131.ag.htm",
       "billSession": "2025GS",
       "markerID": "266879"
+    },
+    {
+      "mtgID": "19789",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2025-02-14 14:00:00.0",
+      "agendaItem": "7",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SBUS0214.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "272116"
     }
   ],
-  "last_action": "Senate/ to standing committee",
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/11/2025",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -793,6 +886,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "35714",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-1",
+      "actionCode": "SCASUB",
+      "parm2": "1",
+      "parm1": "2"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "35724",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-1",
+      "actionCode": "SCAFAV",
       "parm2": "",
       "parm1": ""
     }

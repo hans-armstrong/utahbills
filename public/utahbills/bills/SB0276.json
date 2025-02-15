@@ -1,6 +1,6 @@
 {
   "bill_id": 1968648,
-  "change_hash": "b306a13fa84bacef0938df535a6a723d",
+  "change_hash": "d4366da2174fac191485ecf46ec9aaa1",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/SB0276/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0276.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-14",
+  "progress": [
+    {
+      "date": "2025-02-14",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0276",
@@ -32,9 +37,22 @@
   "current_body_id": 94,
   "title": "Utah Horse Racing Commission Amendments",
   "description": "Utah Horse Racing Commission Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-14",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-13",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-13",
+      "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -119,13 +151,13 @@
   "hilighted_provisions": "This bill:<hr><ltbullet>establishes that a person may appeal a final order or ruling by the Utah Horse Racing Commission (commission) to a court;<hr><ltbullet>awards costs and fees, attorney fees, and court costs to the Department of Agriculture and Food if the commission prevails upon an appeal to a court;<hr><ltbullet>requires the commission to adopt rules for a proceeding before the board of stewards; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Ryan C. Williams",
-  "fiscal_analyst": "Lacey K. Moore",
+  "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "IYCTVGVFEJ",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ received bill from Legislative Research",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/13/2025",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -163,6 +195,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm2": "",
       "parm1": ""
     }

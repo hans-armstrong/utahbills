@@ -1,6 +1,6 @@
 {
   "bill_id": 1951179,
-  "change_hash": "084b3bf9f2165ea470514b880a84626e",
+  "change_hash": "b171d714f4a1051da5a277cd9a785052",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-11",
       "event": 9
+    },
+    {
+      "date": "2025-02-14",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Concurrent Resolution Recognizing Patriots' Day",
   "description": "Concurrent Resolution Recognizing Patriots' Day",
-  "pending_committee_id": 2860,
-  "committee": {
-    "committee_id": 2860,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Economic Development and Workforce Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-03",
@@ -106,6 +105,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-13",
+      "action": "House Comm - Favorable Recommendation in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "House/ committee report favorable in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-14",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -190,6 +210,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 516384,
+      "date": "2025-02-13",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HCR007",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HCR007/id/516384",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HC007H10.pdf",
+      "supplement_size": 142097,
+      "supplement_hash": "0fae83264692d630c4ab32bd1074bedd",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -210,10 +250,24 @@
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "VLYWSTYOKM",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Economic Development and Workforce Services Committee",
-  "last_action_time": "2/11/2025",
+  "agendas": [
+    {
+      "mtgID": "19756",
+      "committeeID": "HSTEDW",
+      "mtgDate": "2025-02-13 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Economic Development and Workforce Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HEDW0213.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "271416"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -290,6 +344,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "2/13/2025",
+      "actionClass": "A",
+      "voteID": "35538",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-0",
+      "actionCode": "HCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/14/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm2": "",
       "parm1": ""
     }

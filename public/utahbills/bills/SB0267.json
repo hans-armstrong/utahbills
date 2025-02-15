@@ -1,6 +1,6 @@
 {
   "bill_id": 1967306,
-  "change_hash": "7356e8dd1d470f036be592578159ac70",
+  "change_hash": "f82e53b7d85c4bb25e3781bb75a84e62",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -19,8 +19,17 @@
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0267.html",
   "completed": 0,
   "status": 1,
-  "status_date": null,
-  "progress": [],
+  "status_date": "2025-02-13",
+  "progress": [
+    {
+      "date": "2025-02-13",
+      "event": 1
+    },
+    {
+      "date": "2025-02-14",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0267",
@@ -34,7 +43,22 @@
   "description": "Charter School Authorizer Amendments",
   "pending_committee_id": 0,
   "committee": [],
-  "referrals": [],
+  "referrals": [
+    {
+      "date": "2025-02-13",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2025-02-14",
+      "committee_id": 2120,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Education"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-12",
@@ -53,6 +77,34 @@
     {
       "date": "2025-02-13",
       "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-13",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate/ to standing committee in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -128,8 +180,59 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 516824,
+      "date": "2025-02-14",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0267",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0267/id/516824",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SB0267.fn.pdf",
+      "supplement_size": 1610553,
+      "supplement_hash": "e2cd8dd23e8694a94e4f1a4b83527459",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 518787,
+      "date": "2025-02-14",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0267",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0267/id/518787",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB267S10.pdf",
+      "supplement_size": 129409,
+      "supplement_hash": "ad7bb9a220e2d3ed83922d20248b8743",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "932b8a78",
+      "type": "Hearing",
+      "date": "2025-02-14",
+      "time": "14:00",
+      "location": "Room 30 House Building",
+      "description": "Senate Education Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies provisions related to charter school authorization and funding.",
   "hilighted_provisions": "This bill:<hr><ltbullet>establishes a uniform funding mechanism for charter school authorizers (authorizers);<hr><ltbullet>creates startup funding for a new authorizer;<hr><ltbullet>modifies provisions for the State Charter School Board;<hr><ltbullet>creates procedures for charter schools to transfer between authorizers;<hr><ltbullet>reallocates administrative funding;<hr><ltbullet>adds fee payment compliance to charter school requirements;<hr><ltbullet>modifies asset distribution priorities in school closures;<hr><ltbullet>includes authorizer fees in grounds for termination; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -137,10 +240,24 @@
   "fiscal_analyst": "Ben Leishman",
   "gov_tracking_id": "PCGLERSMBF",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/13/2025",
+  "agendas": [
+    {
+      "mtgID": "19770",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2025-02-14 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SEDU0214.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "271951"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
+  "last_action_owner": "Senate Education Committee",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -191,6 +308,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Education Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Education Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "35691",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-1-3",
+      "actionCode": "SCAFAV",
       "parm2": "",
       "parm1": ""
     }

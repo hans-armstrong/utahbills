@@ -1,6 +1,6 @@
 {
   "bill_id": 1936821,
-  "change_hash": "8d1ac04224a9387a15662258deab0831",
+  "change_hash": "4fd1f5ce414e1bb6b867032610d49a81",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Public School Directory Sharing Amendments",
   "description": "Public School Directory Sharing Amendments",
-  "pending_committee_id": 2105,
-  "committee": {
-    "committee_id": 2105,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-23",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-13",
+      "action": "House Comm - Held in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -218,10 +220,24 @@
   "fiscal_analyst": "Kyra Hudson",
   "gov_tracking_id": "LDMIHNRCQR",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19819",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2025-02-13 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HEDU0213.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "271361"
+    }
+  ],
+  "last_action": "House Comm - Held",
   "last_action_owner": "House Education Committee",
-  "last_action_time": "1/31/2025",
+  "last_action_time": "2/13/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -298,6 +314,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Education Committee",
+      "actionDate": "2/13/2025",
+      "actionClass": "A",
+      "voteID": "35534",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-6-3",
+      "actionCode": "HCAHELD",
       "parm2": "",
       "parm1": ""
     }

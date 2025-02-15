@@ -1,6 +1,6 @@
 {
   "bill_id": 1904769,
-  "change_hash": "5720d89f273c17360b74e58ee51bdfe0",
+  "change_hash": "5576a3ab98c3d72e90ff3809e736bdb6",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,8 +53,8 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Child Welfare Worker Protections",
   "description": "Child Welfare Worker Protections",
   "pending_committee_id": 0,
@@ -270,6 +270,20 @@
       "action": "Senate/ placed on Concurrence Calendar in Senate Concurrence Calendar",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate/ concurs with House amendment in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate/ to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -535,9 +549,9 @@
       "markerID": "263501"
     }
   ],
-  "last_action": "Senate/ placed on Concurrence Calendar",
-  "last_action_owner": "Senate Concurrence Calendar",
-  "last_action_time": "2/13/2025",
+  "last_action": "Senate/ to House",
+  "last_action_owner": "House Speaker",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -874,6 +888,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SONCURCAL",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ concurs with House amendment",
+      "owner": "House Speaker",
+      "actionDate": "2/14/2025",
+      "actionClass": "S",
+      "voteID": "535",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "23-0-6",
+      "actionCode": "SCONCUR",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "House Speaker",
+      "actionDate": "2/14/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
       "parm2": "",
       "parm1": ""
     }

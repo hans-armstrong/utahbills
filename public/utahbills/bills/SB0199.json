@@ -1,6 +1,6 @@
 {
   "bill_id": 1948376,
-  "change_hash": "badeaffaa8ff5290b9374a0003c96778",
+  "change_hash": "4b4fc2771f26ac86b978c12bc1f3f8eb",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-03",
       "event": 9
+    },
+    {
+      "date": "2025-02-14",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Guardianship Amendments",
   "description": "Guardianship Amendments",
-  "pending_committee_id": 2124,
-  "committee": {
-    "committee_id": 2124,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Judiciary, Law Enforcement, and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-31",
@@ -106,6 +105,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-13",
+      "action": "Senate Comm - Substitute Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-13",
+      "action": "Senate Comm - Favorable Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate/ comm rpt/ substituted in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -142,6 +169,22 @@
     {
       "subject_id": 332528,
       "subject_name": "Judicial Operations"
+    },
+    {
+      "subject_id": 374638,
+      "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 11868,
+      "subject_name": "Courts"
+    },
+    {
+      "subject_id": 11876,
+      "subject_name": "Disabilities"
+    },
+    {
+      "subject_id": 383723,
+      "subject_name": "Guardianship/Conservatorship"
     }
   ],
   "texts": [
@@ -224,6 +267,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 516324,
+      "date": "2025-02-13",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0199",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0199/id/516324",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB199S10.pdf",
+      "supplement_size": 131362,
+      "supplement_hash": "36eb6e73aca5dd119267f362db1fe9d2",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -238,16 +301,30 @@
     }
   ],
   "general_provisions": "This bill addresses a guardianship for an individual with a severe intellectual disability.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms for guardianship;<hr><ltbullet>clarifies court jurisdiction for guardianships;<hr><ltbullet>enacts a guardianship proceeding for an individual with a severe intellectual disability;<hr><ltbullet>addresses the applicability of a guardianship proceeding for an individual with a severe intellectual disability;<hr><ltbullet>enacts certain rights for an individual with a severe intellectual disability for which a full guardianship is imposed;<hr><ltbullet>provides the requirements for a guardianship proceeding for an individual with a severe intellectual disability, including the requirements for the petition, venue, and in-person hearings;<hr><ltbullet>addresses the appointment of:<hr><ltbullet1>an attorney for a respondent in a guardianship proceeding for an individual with a severe intellectual disability;<hr><ltbullet1>a physician, psychologist, physician assistant, or court visitor to examine the respondent; and<hr><ltbullet1>an emergency or temporary guardian while guardianship proceedings are pending;  <hr><ltbullet>provides that a court may appoint a guardian for a respondent if the court makes certain findings;<hr><ltbullet>provides that the court shall prefer a full guardianship for an individual with a severe intellectual disability;<hr><ltbullet>requires the court to include certain provisions in an order of appointment;<hr><ltbullet>provides who may be a guardian for an individual with a severe intellectual disability;<hr><ltbullet>addresses the duties, powers, and rights of a guardian for an individual with a severe intellectual disability in a full guardianship;<hr><ltbullet>addresses the removal or resignation of a guardian for an individual with a severe intellectual disability;<hr><ltbullet>addresses the termination of a guardianship for an individual with a severe intellectual disability;<hr><ltbullet>provides that a fee for a petition for guardianship is $35 if the prospective ward is the child, grandchild, or sibling of the petitioner; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms for guardianship;<hr><ltbullet>clarifies court jurisdiction for guardianships;<hr><ltbullet>enacts a guardianship proceeding for an individual with a severe intellectual disability;<hr><ltbullet>addresses the applicability of a guardianship proceeding for an individual with a severe intellectual disability;<hr><ltbullet>enacts certain rights for an individual with a severe intellectual disability for which a full guardianship is imposed;<hr><ltbullet>provides the requirements for a guardianship proceeding for an individual with a severe intellectual disability, including the requirements for the petition, venue, and in-person hearings;<hr><ltbullet>addresses the appointment of:<hr><ltbullet1>an attorney for a respondent in a guardianship proceeding for an individual with a severe intellectual disability;<hr><ltbullet1>a physician, psychologist, physician assistant, or court visitor to examine the respondent; and<hr><ltbullet1>an emergency or temporary guardian while guardianship proceedings are pending;<hr><ltbullet>provides that a court may appoint a guardian for a respondent if the court makes certain findings;<hr><ltbullet>provides that the court shall prefer a full guardianship for an individual with a severe intellectual disability;<hr><ltbullet>requires the court to include certain provisions in an order of appointment;<hr><ltbullet>provides who may be a guardian for an individual with a severe intellectual disability;<hr><ltbullet>addresses the duties, powers, and rights of a guardian for an individual with a severe intellectual disability in a full guardianship;<hr><ltbullet>addresses the removal or resignation of a guardian for an individual with a severe intellectual disability;<hr><ltbullet>addresses the termination of a guardianship for an individual with a severe intellectual disability; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Jacqueline Carlton",
   "fiscal_analyst": "Sean C. Faherty",
   "gov_tracking_id": "MOGPRNWSLM",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-  "last_action_time": "2/5/2025",
+  "agendas": [
+    {
+      "mtgID": "19779",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2025-02-13 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SJLC0213.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "271365"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -324,6 +401,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/13/2025",
+      "actionClass": "A",
+      "voteID": "35520",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-2",
+      "actionCode": "SCASUB",
+      "parm2": "0",
+      "parm1": "1"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/13/2025",
+      "actionClass": "A",
+      "voteID": "35539",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-2",
+      "actionCode": "SCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ substituted",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRSUB",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/14/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm2": "",
       "parm1": ""
     }

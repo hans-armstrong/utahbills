@@ -1,6 +1,6 @@
 {
   "bill_id": 1936861,
-  "change_hash": "d3f5f6cde887ff98a7ef199667716087",
+  "change_hash": "c304181ceeaa6408f9773d2421a09927",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Pari-mutuel Horse Racing",
   "description": "Pari-mutuel Horse Racing",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-24",
@@ -106,6 +101,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate Comm - Substitute Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -260,9 +269,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 517936,
+      "date": "2025-02-14",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0156",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0156/id/517936",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB156S10.pdf",
+      "supplement_size": 132347,
+      "supplement_hash": "1a823287a29888e85c2a10fd71cbb43d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "40dcce60",
+      "type": "Hearing",
+      "date": "2025-02-14",
+      "time": "14:00",
+      "location": "Room 30 House Building",
+      "description": "Senate Business and Labor Hearing"
+    }
+  ],
   "general_provisions": "This bill creates the Pari-mutuel Horse Racing Commission and allows for pari-mutuel horse racing and wagering.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>creates the Pari-mutuel Horse Racing Commission (commission);<hr><ltbullet>provides for the commission's membership, authority, and duties;<hr><ltbullet>requires the state auditor to audit the commission's accounting;<hr><ltbullet>allows the commission to issue licenses and permits for pari-mutuel events;<hr><ltbullet>allows the commission to enforce fines and penalties for permit and license violations;<hr><ltbullet>requires voters to approve pari-mutuel horse racing and wagering within a county before the commission issues permits in the county; <hr><ltbullet>requires a permittee other than a political subdivision to post a bond or other financial assurance;<hr><ltbullet>provides for simulcasting and advance deposit pari-mutuel wagering;<hr><ltbullet>provides for takeouts of certain percentages from the winning wagers for certain purposes;<hr><ltbullet>prohibits bribery, touting, and wagering involving minors;<hr><ltbullet>requires the identification of horses;<hr><ltbullet>prohibits certain treatment of animals in relation to pari-mutuel events; and<hr><ltbullet>creates restricted accounts.",
   "monies": "None",
@@ -270,10 +309,24 @@
   "fiscal_analyst": "Ivan D. Djambov",
   "gov_tracking_id": "JEJQKYXTTF",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19789",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2025-02-14 14:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SBUS0214.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "272024"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/6/2025",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -350,6 +403,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "35700",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-1",
+      "actionCode": "SCASUB",
+      "parm2": "0",
+      "parm1": "1"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "35701",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-3-1",
+      "actionCode": "SCAFAV",
       "parm2": "",
       "parm1": ""
     }

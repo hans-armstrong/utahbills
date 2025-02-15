@@ -1,6 +1,6 @@
 {
   "bill_id": 1949216,
-  "change_hash": "59eacb47753f32353a25cfd43caa5c43",
+  "change_hash": "3c4d1cec878d17a046291d139bcb0c31",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Signature Collection Amendments",
   "description": "Signature Collection Amendments",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-31",
@@ -106,6 +101,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-14",
+      "action": "House Comm - Amendment Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "House Comm - Favorable Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -204,7 +213,29 @@
     }
   ],
   "votes": [],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 228396,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2025-02-14",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0374/id/228396",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/HB0374.Hamd.1.pdf",
+      "amendment_size": 22835,
+      "amendment_hash": "efeff1c1a662e77db706cc04679f7cf8",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 505156,
@@ -225,9 +256,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 517241,
+      "date": "2025-02-14",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0374",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0374/id/517241",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB374H10.pdf",
+      "supplement_size": 165307,
+      "supplement_hash": "c90ee5d70aa55b3f5800ff3fab4a7631",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "3fbb1b42",
+      "type": "Hearing",
+      "date": "2025-02-14",
+      "time": "14:00",
+      "location": "Room 30 House Building",
+      "description": "House Government Operations Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions related to nominations for elective office.",
   "hilighted_provisions": "This bill:<hr><ltbullet>establishes a process for a voter who signs a petition on behalf of a candidate for elective office who is seeking the nomination of a registered political party that is not a qualified political party to have the voter's signature removed from the petition;<hr><ltbullet>requires an election official to post on the lieutenant governor's website the name, voter identification number, and date of signature of each voter who signs a petition to nominate a candidate for elective office who is:<hr><ltbullet1>a member of a political party; or<hr><ltbullet1>an unaffiliated candidate;<hr><ltbullet>prohibits an election official from removing a voter's name from a petition described above if the election official has already verified the voter's signature;  <hr><ltbullet>describes deadlines and procedures related to the processes described above; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -235,10 +296,24 @@
   "fiscal_analyst": "Ivan D. Djambov",
   "gov_tracking_id": "VVBBFKRMUE",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19807",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2025-02-14 14:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HGOC0214.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "272078"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "2/6/2025",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -315,6 +390,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Amendment Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "35715",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-0-1",
+      "actionCode": "HCAAMD",
+      "parm2": "",
+      "parm1": "1"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "35716",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-2-1",
+      "actionCode": "HCAFAV",
       "parm2": "",
       "parm1": ""
     }

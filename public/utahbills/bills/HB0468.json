@@ -1,6 +1,6 @@
 {
   "bill_id": 1964266,
-  "change_hash": "0ff99f8f542f37d090e68eecbc6f560b",
+  "change_hash": "a7a937d44ed7de3f2ee9b04b18ad9772",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-11",
       "event": 1
+    },
+    {
+      "date": "2025-02-14",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Automatic License Plate Reader Amendments",
   "description": "Automatic License Plate Reader Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2117,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2117,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Transportation"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-14",
+      "committee_id": 2117,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Transportation"
     }
   ],
   "history": [
@@ -88,6 +99,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "House/ to standing committee in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -124,6 +142,18 @@
     {
       "subject_id": 360912,
       "subject_name": "Public Utilities and Technology"
+    },
+    {
+      "subject_id": 11866,
+      "subject_name": "Law Enforcement and Criminal Justice"
+    },
+    {
+      "subject_id": 11928,
+      "subject_name": "Department of Transportation"
+    },
+    {
+      "subject_id": 334547,
+      "subject_name": "Data and Cyber Security"
     }
   ],
   "texts": [
@@ -170,7 +200,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "462ddd99",
+      "type": "Hearing",
+      "date": "2025-02-18",
+      "time": "16:00",
+      "location": "Room 30 House Building",
+      "description": "House Transportation Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies and establishes requirements for the use of automatic license plate reader systems.",
   "hilighted_provisions": "This bill:<hr><ltbullet> defines terms;  <hr><ltbullet>provides for authorized uses for automatic license plate reader systems by:<hr><ltbullet1>law enforcement agencies; and<hr><ltbullet1>other governmental entities;<hr><ltbullet>establishes reporting requirements regarding the use of automatic license plate reader systems for:<hr><ltbullet1>law enforcement agencies; and<hr><ltbullet1>other governmental entities;<hr><ltbullet>creates standards for data obtained from an automatic license plate reader system, including:<hr><ltbullet1>data security;<hr><ltbullet1>retention; and<hr><ltbullet1>sharing; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -179,9 +219,9 @@
   "gov_tracking_id": "ARHUYTIXKO",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/12/2025",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Transportation Committee",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -245,6 +285,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Transportation Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm2": "",
       "parm1": ""
     }

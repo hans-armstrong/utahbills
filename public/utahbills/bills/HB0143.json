@@ -1,6 +1,6 @@
 {
   "bill_id": 1907932,
-  "change_hash": "1757c1ad2499b3819368a1ea7b4120a7",
+  "change_hash": "e689045d8cd0dbb10825113ab5a3efd0",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-01-21",
       "event": 1
+    },
+    {
+      "date": "2025-02-13",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Firearm Safety Incentives",
   "description": "Firearm Safety Incentives",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -51,6 +50,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-13",
+      "committee_id": 2115,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -81,6 +87,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-13",
+      "action": "House/ to standing committee in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-14",
+      "action": "House Comm - Substitute Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "House Comm - Favorable Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -262,20 +289,64 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 517875,
+      "date": "2025-02-14",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0143",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0143/id/517875",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB143H10.pdf",
+      "supplement_size": 142285,
+      "supplement_hash": "0c8d6d8470a16c1629b56a8f61a1842b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
-  "general_provisions": "This bill establishes an income tax credit for the purchase of a firearm safety device.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>enacts a nonrefundable income tax credit for the purchase of a firearm safety device within a certain period of time;<hr><ltbullet>prohibits a taxpayer from claiming the tax credit more than once and limits the tax credit to one per household; and<hr><ltbullet>provides for a sunset review of the tax credit.",
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "6a2f724d",
+      "type": "Hearing",
+      "date": "2025-02-14",
+      "time": "14:00",
+      "location": "Room 30 House Building",
+      "description": "House Revenue and Taxation Hearing"
+    }
+  ],
+  "general_provisions": "This bill establishes an annual sales tax holiday for firearm safety and storage devices.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>establishes a sales and use tax exemption for sales of firearm safety devices and firearm storage devices, applicable for one week each year; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
   "attorney": "Gus Harb",
   "fiscal_analyst": "Jared Gibbs",
   "gov_tracking_id": "IUXGDOYOUV",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19774",
+      "committeeID": "HSTREV",
+      "mtgDate": "2025-02-14 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HREV0214.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "271940"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Revenue and Taxation Committee",
-  "last_action_time": "2/13/2025",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -339,6 +410,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "35675",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-1",
+      "actionCode": "HCASUB",
+      "parm2": "0",
+      "parm1": "1"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "35676",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-1",
+      "actionCode": "HCAFAV",
       "parm2": "",
       "parm1": ""
     }

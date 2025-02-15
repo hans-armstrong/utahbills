@@ -1,6 +1,6 @@
 {
   "bill_id": 1964426,
-  "change_hash": "7050d73dbd93abcba912cdc6898ad356",
+  "change_hash": "c29abbb33b3e53e3c18f7df5bbccf4d7",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-11",
       "event": 9
+    },
+    {
+      "date": "2025-02-14",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Commercial Vehicle Registration Amendments",
   "description": "Commercial Vehicle Registration Amendments",
-  "pending_committee_id": 3583,
-  "committee": {
-    "committee_id": 3583,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Transportation, Public Utilities, Energy, and Technology"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-11",
@@ -106,6 +105,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-13",
+      "action": "Senate Comm - Favorable Recommendation in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-13",
+      "action": "Senate Comm - Consent Calendar Recommendation in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate/ comm rpt/ placed on Consent Calendar in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate/ 2nd reading in Senate Consent Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -132,6 +159,33 @@
       "bioguide_id": "",
       "sponsor_type_id": 1,
       "sponsor_order": 1,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
+    {
+      "people_id": 15452,
+      "person_hash": "yc7f7s0h",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Kay Christofferson",
+      "first_name": "Kay",
+      "middle_name": "J.",
+      "last_name": "Christofferson",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-053",
+      "ftm_eid": 13007246,
+      "votesmart_id": 137523,
+      "opensecrets_id": "",
+      "knowwho_pid": 404922,
+      "ballotpedia": "Kay_Christofferson",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -210,6 +264,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 515890,
+      "date": "2025-02-13",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0251",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0251/id/515890",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB251S10.pdf",
+      "supplement_size": 127923,
+      "supplement_hash": "d72fe36e5c89c1d2965c6f0c0215c031",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -245,9 +319,9 @@
       "markerID": "271273"
     }
   ],
-  "last_action": "Senate Comm - Consent Calendar Recommendation",
-  "last_action_owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
-  "last_action_time": "2/13/2025",
+  "last_action": "Senate/ 2nd reading",
+  "last_action_owner": "Senate Consent Calendar",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -350,6 +424,32 @@
       "voteHouse": "",
       "voteStr": "3-0-5",
       "actionCode": "SCACONCAL",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ placed on Consent Calendar",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRCON",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate Consent Calendar",
+      "actionDate": "2/14/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
       "parm2": "",
       "parm1": ""
     }

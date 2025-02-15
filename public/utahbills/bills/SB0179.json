@@ -1,6 +1,6 @@
 {
   "bill_id": 1943749,
-  "change_hash": "67511969e2f201679e52deebaa7950f3",
+  "change_hash": "ba60b8322a3e9e2ef704633422ef9976",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Local Regulation of Business Entities Amendments",
   "description": "Local Regulation of Business Entities Amendments",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-29",
@@ -103,6 +98,20 @@
     {
       "date": "2025-02-05",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate Comm - Amendment Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -212,7 +221,29 @@
     }
   ],
   "votes": [],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 227872,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2025-02-13",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0179/id/227872",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/SB0179.Samd.1.pdf",
+      "amendment_size": 7252,
+      "amendment_hash": "6ecb2dba778adc98ae000a74d77acaa0",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 505027,
@@ -233,9 +264,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 518764,
+      "date": "2025-02-14",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0179",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0179/id/518764",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB179S10.pdf",
+      "supplement_size": 148965,
+      "supplement_hash": "3c9600af555818ec89fd912c01ea4765",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "40dcce60",
+      "type": "Hearing",
+      "date": "2025-02-14",
+      "time": "14:00",
+      "location": "Room 30 House Building",
+      "description": "Senate Business and Labor Hearing"
+    }
+  ],
   "general_provisions": "This bill enacts provisions related to local classification and approval of new and unlisted business uses.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms; and<hr><ltbullet>requires each municipality and county to enact a land use regulation establishing a process for reviewing a business use not listed as an approved use in existing ordinances.",
   "monies": "None",
@@ -243,10 +304,24 @@
   "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "ELXQKRJQRW",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "agendas": [
+    {
+      "mtgID": "19789",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2025-02-14 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SBUS0214.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "271988"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/5/2025",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -323,6 +398,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Amendment Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "35684",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-2",
+      "actionCode": "SCAAMD",
+      "parm2": "",
+      "parm1": "1"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "A",
+      "voteID": "35686",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-2",
+      "actionCode": "SCAFAV",
       "parm2": "",
       "parm1": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1945883,
-  "change_hash": "d55a209423b3a58bcaa30749ed504067",
+  "change_hash": "5ab52e744910e24e121304bb8fd65540",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SB0190/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0190.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2025-01-30",
+  "status": 2,
+  "status_date": "2025-02-13",
   "progress": [
     {
       "date": "2025-01-30",
@@ -32,6 +32,10 @@
     {
       "date": "2025-02-05",
       "event": 10
+    },
+    {
+      "date": "2025-02-13",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,12 +45,17 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Workers' Compensation Modifications",
   "description": "Workers' Compensation Modifications",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-01-30",
@@ -61,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Business and Labor"
+    },
+    {
+      "date": "2025-02-14",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -171,9 +187,16 @@
     },
     {
       "date": "2025-02-13",
-      "action": "Senate / held in Senate Secretary",
-      "chamber": "S",
-      "chamber_id": 94,
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-14",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -201,6 +224,33 @@
       "bioguide_id": "",
       "sponsor_type_id": 1,
       "sponsor_order": 1,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
+    {
+      "people_id": 8123,
+      "person_hash": "2rc1pg7x",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "James Dunnigan",
+      "first_name": "James",
+      "middle_name": "A.",
+      "last_name": "Dunnigan",
+      "suffix": "",
+      "nickname": "Jim",
+      "district": "HD-036",
+      "ftm_eid": 6606637,
+      "votesmart_id": 50739,
+      "opensecrets_id": "",
+      "knowwho_pid": 214111,
+      "ballotpedia": "Jim_Dunnigan",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -366,9 +416,9 @@
       "markerID": "267982"
     }
   ],
-  "last_action": "House/ received from Senate",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/13/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -575,6 +625,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/14/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm2": "",
       "parm1": ""
     }
