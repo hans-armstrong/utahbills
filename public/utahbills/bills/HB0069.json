@@ -1,6 +1,6 @@
 {
   "bill_id": 1899745,
-  "change_hash": "05483243a483ed7ae641d6da33bec904",
+  "change_hash": "444adb27a5ba07b4f39d78ce9e166ed9",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,8 +53,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Government Records and Information Amendments",
   "description": "Government Records and Information Amendments",
   "pending_committee_id": 0,
@@ -285,6 +285,41 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ uncircled in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ to House with amendments in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "House/ placed on Concurrence Calendar in House Concurrence Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -348,6 +383,18 @@
     {
       "subject_id": 11851,
       "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 332627,
+      "subject_name": "Election Law"
+    },
+    {
+      "subject_id": 11982,
+      "subject_name": "Government Records"
+    },
+    {
+      "subject_id": 339963,
+      "subject_name": "Election Administration"
     }
   ],
   "texts": [
@@ -764,6 +811,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 522120,
+      "date": "2025-02-18",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0069S04",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0069/id/522120",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0069S04.fn.pdf",
+      "supplement_size": 1609597,
+      "supplement_hash": "a80dbec7a6720f767bac5b24d1fc6c90",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -800,19 +867,6 @@
   ],
   "agendas": [
     {
-      "mtgID": "19599",
-      "committeeID": "HSTGOC",
-      "mtgDate": "2025-01-22 14:00:00.0",
-      "agendaItem": "1",
-      "mtgPlace": "30 House Building",
-      "committeeName": "House Government Operations Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2025/html/00000354.htm",
-      "agendaURL": "/~2025/agenda/HGOC0122.ag.htm",
-      "billSession": "2025GS",
-      "markerID": "262974"
-    },
-    {
       "mtgID": "19641",
       "committeeID": "SSTGOP",
       "mtgDate": "2025-02-03 14:00:00.0",
@@ -824,11 +878,24 @@
       "agendaURL": "/~2025/agenda/SGOP0203.ag.htm",
       "billSession": "2025GS",
       "markerID": "267395"
+    },
+    {
+      "mtgID": "19599",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2025-01-22 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2025/html/00000354.htm",
+      "agendaURL": "/~2025/agenda/HGOC0122.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "262974"
     }
   ],
-  "last_action": "Senate/ circled",
-  "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/14/2025",
+  "last_action": "House/ placed on Concurrence Calendar",
+  "last_action_owner": "House Concurrence Calendar",
+  "last_action_time": "2/18/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -840,8 +907,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -853,8 +920,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -866,8 +933,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -879,8 +946,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -892,8 +959,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ to standing committee",
@@ -905,8 +972,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House Comm - Substitute Recommendation",
@@ -918,8 +985,8 @@
       "voteHouse": "",
       "voteStr": "10-0-3",
       "actionCode": "HCASUB",
-      "parm2": "0",
-      "parm1": "1"
+      "parm1": "1",
+      "parm2": "0"
     },
     {
       "description": "House Comm - Favorable Recommendation",
@@ -931,8 +998,8 @@
       "voteHouse": "",
       "voteStr": "10-0-3",
       "actionCode": "HCAFAV",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ comm rpt/ substituted",
@@ -944,8 +1011,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCRSUB",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 2nd reading",
@@ -957,8 +1024,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 3rd reading",
@@ -970,8 +1037,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD3",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ substituted",
@@ -983,8 +1050,8 @@
       "voteHouse": "H",
       "voteStr": "0-0-75",
       "actionCode": "HSUB",
-      "parm2": "1",
-      "parm1": "2"
+      "parm1": "2",
+      "parm2": "1"
     },
     {
       "description": "House/ passed 3rd reading",
@@ -996,8 +1063,8 @@
       "voteHouse": "H",
       "voteStr": "72-0-3",
       "actionCode": "HPASS3",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ to Senate",
@@ -1009,8 +1076,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSEN",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received from House",
@@ -1022,8 +1089,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -1035,8 +1102,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -1048,8 +1115,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate Comm - Favorable Recommendation",
@@ -1061,8 +1128,8 @@
       "voteHouse": "",
       "voteStr": "4-0-3",
       "actionCode": "SCAFAV",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ committee report favorable",
@@ -1074,8 +1141,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCR",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ placed on 2nd Reading Calendar",
@@ -1087,8 +1154,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 2nd reading",
@@ -1100,8 +1167,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD2",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ substituted",
@@ -1113,8 +1180,8 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SSUB",
-      "parm2": "2",
-      "parm1": "3"
+      "parm1": "3",
+      "parm2": "2"
     },
     {
       "description": "Senate/ passed 2nd reading",
@@ -1126,8 +1193,8 @@
       "voteHouse": "S",
       "voteStr": "27-0-2",
       "actionCode": "SPASS2",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 3rd reading",
@@ -1139,8 +1206,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD3",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ circled",
@@ -1152,8 +1219,8 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SCIRCLED",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ uncircled",
@@ -1165,8 +1232,8 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SUNCIRCLED",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ substituted",
@@ -1178,8 +1245,8 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SSUB",
-      "parm2": "3",
-      "parm1": "4"
+      "parm1": "4",
+      "parm2": "3"
     },
     {
       "description": "Senate/ circled",
@@ -1191,8 +1258,73 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SCIRCLED",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "592",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Clerk of the House",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "593",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "27-0-2",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House with amendments",
+      "owner": "Clerk of the House",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2/18/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ placed on Concurrence Calendar",
+      "owner": "House Concurrence Calendar",
+      "actionDate": "2/18/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HONCURCAL",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

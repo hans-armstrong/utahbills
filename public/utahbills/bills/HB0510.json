@@ -1,6 +1,6 @@
 {
   "bill_id": 1971279,
-  "change_hash": "b25393240597f626bf3964c810edc6fd",
+  "change_hash": "87722cc852a8c29999d4d6b755fdd897",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0510/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0510.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-18",
+  "progress": [
+    {
+      "date": "2025-02-18",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0510",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Agricultural Amendments",
   "description": "Agricultural Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-18",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-14",
@@ -56,6 +74,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "House/ received fiscal note from Fiscal Analyst in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -92,6 +124,18 @@
     {
       "subject_id": 334440,
       "subject_name": "Agriculture & Food"
+    },
+    {
+      "subject_id": 11900,
+      "subject_name": "Agriculture"
+    },
+    {
+      "subject_id": 23952,
+      "subject_name": "Department of Agriculture and Food"
+    },
+    {
+      "subject_id": 334993,
+      "subject_name": "Food"
     }
   ],
   "texts": [
@@ -116,7 +160,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 521403,
+      "date": "2025-02-18",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0510",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0510/id/521403",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0510.fn.pdf",
+      "supplement_size": 1609121,
+      "supplement_hash": "c97e7342c499c81e79ae0d9cffd28711",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill creates a requirement for the Department of Agriculture and Food to study issues related to local food availability. ",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines \"local food supply\";<hr><ltbullet>requires the Department of Agriculture and Food (department) to study the barriers and gaps related to increasing the availability of local food in the state, including issues related to: <hr><ltbullet1>the intrastate food supply;<hr><ltbullet1>crop production and optimization;<hr><ltbullet1>the agricultural workforce; and<hr><ltbullet1>the capital funding of local food production;<hr><ltbullet>requires the department to report the findings and recommendations of the study to the Natural Resources, Agriculture, and Environment Interim Committee; and<hr><ltbullet>implements a sunset date for the study.",
@@ -126,9 +191,9 @@
   "gov_tracking_id": "CMEBBPBIST",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received bill from Legislative Research",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/14/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/18/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -140,8 +205,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -153,8 +218,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -166,8 +231,34 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "Clerk of the House",
+      "actionDate": "2/18/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

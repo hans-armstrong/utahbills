@@ -1,6 +1,6 @@
 {
   "bill_id": 1962500,
-  "change_hash": "0bf9cbf3e265b80201cd2801dcde9e6b",
+  "change_hash": "dc76cc1a6af210002e3b8a6f7b387635",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Victim Privacy Amendments",
   "description": "Victim Privacy Amendments",
-  "pending_committee_id": 2109,
-  "committee": {
-    "committee_id": 2109,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Judiciary"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-10",
@@ -106,6 +101,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-18",
+      "action": "House Comm - Substitute Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "House Comm - Favorable Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -272,20 +281,64 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 522373,
+      "date": "2025-02-18",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0450",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0450/id/522373",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB450H10.pdf",
+      "supplement_size": 143123,
+      "supplement_hash": "c30ecfbeb36c896b211a2330bc84ed65",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "1b812a54",
+      "type": "Hearing",
+      "date": "2025-02-18",
+      "time": "16:00",
+      "location": "Room 30 House Building",
+      "description": "House Judiciary Hearing"
+    }
+  ],
   "general_provisions": "This bill allows a victim of a crime to have the victim's initials used instead of the victim's name in publicly available criminal justice documents.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>allows a victim of a crime to have the victim's initials used instead of the victim's name in publicly available criminal justice documents; <hr><ltbullet>requires a database of victim names that is searchable in response to a court order; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>allows a victim of a crime to request to have the victim's initials used instead of the victim's name in publicly available criminal justice documents; <hr><ltbullet>requires a database of victim names that is searchable in response to a court order; <hr><ltbullet>provides that a database of victim names is a protected record under the Government Records Access and Management Act; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Jackie Rogers",
   "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "DBOTLIGESN",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19827",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2025-02-18 16:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HJUD0218.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "272709"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Judiciary Committee",
-  "last_action_time": "2/13/2025",
+  "last_action_time": "2/18/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -362,6 +415,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "A",
+      "voteID": "35902",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-3",
+      "actionCode": "HCASUB",
+      "parm2": "0",
+      "parm1": "1"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "A",
+      "voteID": "35903",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-3",
+      "actionCode": "HCAFAV",
       "parm2": "",
       "parm1": ""
     }

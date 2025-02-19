@@ -1,6 +1,6 @@
 {
   "bill_id": 1952824,
-  "change_hash": "cef587d5cb47c7d35bae3c3e0b9df556",
+  "change_hash": "07b579529e3bdd84943430471dbc1276",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SB0212/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0212.html",
   "completed": 0,
-  "status": 1,
+  "status": 6,
   "status_date": "2025-02-04",
   "progress": [
     {
@@ -130,6 +130,55 @@
     {
       "date": "2025-02-06",
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ substituted in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ floor amendment failed in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ circled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ uncircled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ failed in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ filed in Senate Secretary",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -282,7 +331,29 @@
     }
   ],
   "votes": [],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 229662,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2025-02-18",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0212/id/229662",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/SB0212S03.Samd.1.pdf",
+      "amendment_size": 6097,
+      "amendment_hash": "2c9c9dc9995c5522b156be4992958c91",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 505397,
@@ -538,9 +609,9 @@
       "markerID": "268576"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/6/2025",
+  "last_action": "Senate/ filed",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "2/18/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -669,6 +740,97 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ substituted",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "606",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SSUB",
+      "parm1": "3",
+      "parm2": "2"
+    },
+    {
+      "description": "Senate/ floor amendment failed",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "607",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "10-14-5",
+      "actionCode": "SAMENDFAIL",
+      "parm1": "v",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "608",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "611",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ failed",
+      "owner": "Senate Secretary",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "612",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "11-13-5",
+      "actionCode": "SFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ filed",
+      "owner": "Senate Secretary",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SFILED",
       "parm1": "",
       "parm2": ""
     }

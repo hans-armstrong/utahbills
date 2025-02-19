@@ -1,6 +1,6 @@
 {
   "bill_id": 1942710,
-  "change_hash": "ba410574586162edcabb38bbab102ac1",
+  "change_hash": "ae0872ce5f44b037c0a10e6b6e1d4bc1",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Commitment Amendments",
   "description": "Commitment Amendments",
-  "pending_committee_id": 2108,
-  "committee": {
-    "committee_id": 2108,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-28",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-18",
+      "action": "House Comm - Not Considered in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -245,6 +247,15 @@
       "time": "08:00",
       "location": "Room 30 House Building",
       "description": "House Health and Human Services Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "cbba6232",
+      "type": "Hearing",
+      "date": "2025-02-19",
+      "time": "16:00",
+      "location": "Room 30 House Building",
+      "description": "House Health and Human Services Hearing"
     }
   ],
   "general_provisions": "This bill addresses the commitment of individuals in relation to civil, criminal, and juvenile proceedings.",
@@ -254,10 +265,24 @@
   "fiscal_analyst": "Jared Gibbs",
   "gov_tracking_id": "MJIDXNHHTI",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19763",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2025-02-18 08:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2025/html/00001643.htm",
+      "agendaURL": "/~2025/agenda/HHHS0218.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "272359"
+    }
+  ],
+  "last_action": "House Comm - Not Considered",
   "last_action_owner": "House Health and Human Services Committee",
-  "last_action_time": "2/7/2025",
+  "last_action_time": "2/18/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -269,8 +294,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -282,8 +307,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -295,8 +320,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -308,8 +333,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -321,8 +346,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ to standing committee",
@@ -334,8 +359,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

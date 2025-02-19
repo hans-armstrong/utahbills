@@ -1,6 +1,6 @@
 {
   "bill_id": 1943669,
-  "change_hash": "26405d4004da41cac930c2d1454a7170",
+  "change_hash": "c8255cb1b7e48518b4be66302b7d0326",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0341/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0341.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2025-02-14",
   "progress": [
     {
@@ -49,8 +49,13 @@
   "current_body_id": 94,
   "title": "Higher Education Revisions",
   "description": "Higher Education Revisions",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-01-28",
@@ -65,6 +70,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Education"
+    },
+    {
+      "date": "2025-02-18",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -179,6 +191,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -242,6 +261,18 @@
     {
       "subject_id": 11846,
       "subject_name": "Education"
+    },
+    {
+      "subject_id": 11973,
+      "subject_name": "Higher Education"
+    },
+    {
+      "subject_id": 334359,
+      "subject_name": "Colleges and Universities"
+    },
+    {
+      "subject_id": 334644,
+      "subject_name": "Utah System of Higher Education"
     }
   ],
   "texts": [
@@ -334,6 +365,27 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/amended/HB0341S02.Hamd.1.pdf",
       "amendment_size": 6900,
       "amendment_hash": "ab863860350d95e35644a5d1260cb2e6",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    },
+    {
+      "amendment_id": 229341,
+      "adopted": 0,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2025-02-17",
+      "title": "House Amendment 2",
+      "description": "House Amendment 2",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0341/id/229341",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/HB0341S02.Hamd.2.pdf",
+      "amendment_size": 6682,
+      "amendment_hash": "0a7d9fae8d6e2da3dd3498c3eb51a722",
       "alt_amendment": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -517,9 +569,9 @@
       "markerID": "268822"
     }
   ],
-  "last_action": "Senate/ received from House",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/14/2025",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "2/18/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -531,8 +583,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -544,8 +596,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -557,8 +609,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -570,8 +622,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -583,8 +635,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ to standing committee",
@@ -596,8 +648,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House Comm - Substitute Recommendation",
@@ -609,8 +661,8 @@
       "voteHouse": "",
       "voteStr": "10-0-6",
       "actionCode": "HCASUB",
-      "parm2": "0",
-      "parm1": "1"
+      "parm1": "1",
+      "parm2": "0"
     },
     {
       "description": "House Comm - Favorable Recommendation",
@@ -622,8 +674,8 @@
       "voteHouse": "",
       "voteStr": "10-0-6",
       "actionCode": "HCAFAV",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ comm rpt/ substituted",
@@ -635,8 +687,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCRSUB",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 2nd reading",
@@ -648,8 +700,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 3rd reading",
@@ -661,8 +713,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD3",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ substituted",
@@ -674,8 +726,8 @@
       "voteHouse": "H",
       "voteStr": "0-0-75",
       "actionCode": "HSUB",
-      "parm2": "1",
-      "parm1": "2"
+      "parm1": "2",
+      "parm2": "1"
     },
     {
       "description": "House/ floor amendment",
@@ -687,8 +739,8 @@
       "voteHouse": "H",
       "voteStr": "0-0-75",
       "actionCode": "HAMEND",
-      "parm2": "",
-      "parm1": "1"
+      "parm1": "1",
+      "parm2": ""
     },
     {
       "description": "House/ passed 3rd reading",
@@ -700,8 +752,8 @@
       "voteHouse": "H",
       "voteStr": "70-0-5",
       "actionCode": "HPASS3",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ to Senate",
@@ -713,8 +765,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSEN",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received from House",
@@ -726,8 +778,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

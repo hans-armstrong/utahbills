@@ -1,6 +1,6 @@
 {
   "bill_id": 1969722,
-  "change_hash": "718548002d4859c44ef5e5025c2181fb",
+  "change_hash": "e6bd76de15e7b8453ab09bbbbda27b26",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-14",
       "event": 1
+    },
+    {
+      "date": "2025-02-18",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "State Debt Collection Amendments",
   "description": "State Debt Collection Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2123,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2123,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Health and Human Services"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-18",
+      "committee_id": 2123,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Health and Human Services"
     }
   ],
   "history": [
@@ -78,6 +89,13 @@
     {
       "date": "2025-02-14",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ to standing committee in Senate Health and Human Services Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -190,18 +208,28 @@
   "votes": [],
   "amendments": [],
   "supplements": [],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "c5e741f4",
+      "type": "Hearing",
+      "date": "2025-02-19",
+      "time": "08:30",
+      "location": "Room 30 House Building",
+      "description": "Senate Health and Human Services Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies provisions related to state debt collection.",
   "hilighted_provisions": "This bill:<hr><ltbullet>modifies the duties of the Office of State Debt Collection (office);<hr><ltbullet>allows the office to hold title to real property or dispose or acquire surplus property, if doing so is incidental to execution or collection proceedings;<hr><ltbullet>provides that the Department of Health and Human Services may enforce certain rights to recovery against a decedent's estate regardless of any contrary provisions in the Utah Uniform Probate Code;<hr><ltbullet>requires notice to the office when a person files an application or a petition for probate;<hr><ltbullet>exempts proceedings to enforce or collect a criminal account receivable, civil judgment of restitution, or civil account receivable from certain time limitations in the Utah Uniform Probate Code;<hr><ltbullet>addresses enforcement of a civil judgment of restitution or civil account receivable; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Christine R. Gilbert",
-  "fiscal_analyst": "Gary R. Syphus",
+  "fiscal_analyst": "Nate Osborne",
   "gov_tracking_id": "GXWYTWVQGQ",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/14/2025",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Health and Human Services Committee",
+  "last_action_time": "2/18/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -213,8 +241,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -226,8 +254,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -239,8 +267,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -252,8 +280,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

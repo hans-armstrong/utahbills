@@ -1,6 +1,6 @@
 {
   "bill_id": 1968605,
-  "change_hash": "eea56aff2cf74a7cd1bef1b888848478",
+  "change_hash": "826ab8beeaa650f58599397fd312e056",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-14",
       "event": 1
+    },
+    {
+      "date": "2025-02-18",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Placental Tissue Amendments",
   "description": "Placental Tissue Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2123,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2123,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Health and Human Services"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-18",
+      "committee_id": 2123,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Health and Human Services"
     }
   ],
   "history": [
@@ -85,6 +96,13 @@
     {
       "date": "2025-02-14",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ to standing committee in Senate Health and Human Services Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -174,7 +192,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "c5e741f4",
+      "type": "Hearing",
+      "date": "2025-02-19",
+      "time": "08:30",
+      "location": "Room 30 House Building",
+      "description": "Senate Health and Human Services Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses stem cell therapy.",
   "hilighted_provisions": "This bill:<hr><ltbullet>imposes a notice requirement on persons who supply or provide human cells, tissues, or cellular or tissue-based products for utilization in stem cell therapy; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -183,9 +211,9 @@
   "gov_tracking_id": "BMVFILIJJN",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/14/2025",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Health and Human Services Committee",
+  "last_action_time": "2/18/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -197,8 +225,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -210,8 +238,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -223,8 +251,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -236,8 +264,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -249,8 +277,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

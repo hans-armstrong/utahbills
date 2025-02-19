@@ -1,6 +1,6 @@
 {
   "bill_id": 1967563,
-  "change_hash": "6919a05d75822790c69bc4d62e522095",
+  "change_hash": "0c31737193559224b64d9b53abb917f6",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Rules Review and General Oversight Committee Amendments",
   "description": "Rules Review and General Oversight Committee Amendments",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-13",
@@ -106,6 +101,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate Comm - Favorable Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate Comm - Consent Calendar Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -142,6 +151,18 @@
     {
       "subject_id": 332696,
       "subject_name": "Administrative Rulemaking and Procedures"
+    },
+    {
+      "subject_id": 332524,
+      "subject_name": "Legislative Operations"
+    },
+    {
+      "subject_id": 332525,
+      "subject_name": "Legislative Committees and Task Forces"
+    },
+    {
+      "subject_id": 334468,
+      "subject_name": "Legislative Organization"
     }
   ],
   "texts": [
@@ -186,6 +207,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 522342,
+      "date": "2025-02-18",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0268",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0268/id/522342",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB268S10.pdf",
+      "supplement_size": 131290,
+      "supplement_hash": "c7aeabb3172f74a67a385b2471455233",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -206,10 +247,24 @@
   "fiscal_analyst": "Steven M. Allred",
   "gov_tracking_id": "LLPGJIVMNC",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19852",
+      "committeeID": "SSTREV",
+      "mtgDate": "2025-02-18 16:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SREV0218.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "272543"
+    }
+  ],
+  "last_action": "Senate Comm - Consent Calendar Recommendation",
   "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "2/14/2025",
+  "last_action_time": "2/18/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -221,8 +276,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -234,8 +289,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -247,8 +302,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -260,8 +315,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -273,8 +328,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -286,8 +341,34 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "A",
+      "voteID": "35847",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Consent Calendar Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "A",
+      "voteID": "35848",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCACONCAL",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

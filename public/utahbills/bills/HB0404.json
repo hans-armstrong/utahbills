@@ -1,6 +1,6 @@
 {
   "bill_id": 1952577,
-  "change_hash": "ad4e7cc2b9288a3d37d0cfd9d410e3b1",
+  "change_hash": "195a8ad982a5ced22d4075dc99e374d0",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-04",
       "event": 1
+    },
+    {
+      "date": "2025-02-18",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Pay for Performance Management System Amendments",
   "description": "Pay for Performance Management System Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2107,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2107,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Government Operations"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-18",
+      "committee_id": 2107,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Government Operations"
     }
   ],
   "history": [
@@ -88,6 +99,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "House/ to standing committee in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -122,20 +140,8 @@
   "sasts": [],
   "subjects": [
     {
-      "subject_id": 354065,
-      "subject_name": "Division of Human Resource Management"
-    },
-    {
-      "subject_id": 354066,
-      "subject_name": "Department of Government Operations"
-    },
-    {
       "subject_id": 11851,
       "subject_name": "Government Operations (State Issues)"
-    },
-    {
-      "subject_id": 11965,
-      "subject_name": "Independent Entities"
     }
   ],
   "texts": [
@@ -150,6 +156,24 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0404.pdf",
       "text_size": 46921,
       "text_hash": "870adcded02e33f9adaeac54b0c554b3",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3128433,
+      "date": "2025-02-18",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0404/id/3128433",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0404S01.pdf",
+      "text_size": 47464,
+      "text_hash": "ba1fe908344a431e75d535267e852a94",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -180,6 +204,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 521774,
+      "date": "2025-02-18",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #0",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0404/id/521774",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0404%20To%20HB0404S01.pdf",
+      "supplement_size": 46964,
+      "supplement_hash": "5dccab46d8d71b21d196ccb0b435c764",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [],
@@ -191,9 +235,9 @@
   "gov_tracking_id": "FLRNUDQHYI",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/7/2025",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Government Operations Committee",
+  "last_action_time": "2/18/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -257,6 +301,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

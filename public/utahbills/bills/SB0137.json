@@ -1,6 +1,6 @@
 {
   "bill_id": 1927302,
-  "change_hash": "d548839590894a18513df8bdd1e86f80",
+  "change_hash": "d8538120c4cb8c80a33fda0fc7221572",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SB0137/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0137.html",
   "completed": 0,
-  "status": 1,
+  "status": 6,
   "status_date": "2025-01-21",
   "progress": [
     {
@@ -137,6 +137,27 @@
     {
       "date": "2025-02-10",
       "action": "Senate/ circled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ uncircled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ failed in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ filed in Senate Secretary",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -353,9 +374,9 @@
       "markerID": "266289"
     }
   ],
-  "last_action": "Senate/ circled",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/10/2025",
+  "last_action": "Senate/ filed",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "2/18/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -497,6 +518,45 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "598",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ failed",
+      "owner": "Senate Secretary",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "599",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "12-13-4",
+      "actionCode": "SFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ filed",
+      "owner": "Senate Secretary",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SFILED",
       "parm1": "",
       "parm2": ""
     }

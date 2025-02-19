@@ -1,6 +1,6 @@
 {
   "bill_id": 1918807,
-  "change_hash": "fc27ab2297d656a0cde2d131120e930f",
+  "change_hash": "e01af13eaf95a2e2e76d76aed175ecd2",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,13 +53,8 @@
   "current_body_id": 93,
   "title": "Substance Use Disorder Revisions",
   "description": "Substance Use Disorder Revisions",
-  "pending_committee_id": 2109,
-  "committee": {
-    "committee_id": 2109,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Judiciary"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -216,6 +211,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-18",
+      "action": "House Comm - Amendment Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "House Comm - Favorable Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -455,6 +464,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 522153,
+      "date": "2025-02-18",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0115",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0115/id/522153",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB115H10.pdf",
+      "supplement_size": 156205,
+      "supplement_hash": "6c70d6ec44d3b0ff77a816b203b67183",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -466,6 +495,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "1b812a54",
+      "type": "Hearing",
+      "date": "2025-02-18",
+      "time": "16:00",
+      "location": "Room 30 House Building",
+      "description": "House Judiciary Hearing"
     }
   ],
   "general_provisions": "This bill addresses substance use disorder screening in state correctional facilities and county jails.",
@@ -488,11 +526,24 @@
       "agendaURL": "/~2025/agenda/SJLC0128.ag.htm",
       "billSession": "2025GS",
       "markerID": "265101"
+    },
+    {
+      "mtgID": "19827",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2025-02-18 16:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HJUD0218.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "272626"
     }
   ],
-  "last_action": "House/ to standing committee",
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Judiciary Committee",
-  "last_action_time": "2/11/2025",
+  "last_action_time": "2/18/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -725,6 +776,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Amendment Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "A",
+      "voteID": "35889",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-3",
+      "actionCode": "HCAAMD",
+      "parm2": "",
+      "parm1": "1"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "A",
+      "voteID": "35892",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-1-3",
+      "actionCode": "HCAFAV",
       "parm2": "",
       "parm1": ""
     }

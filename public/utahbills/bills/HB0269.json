@@ -1,6 +1,6 @@
 {
   "bill_id": 1929961,
-  "change_hash": "b47db7002f55ff04c170daa354038d0f",
+  "change_hash": "06bb79cf0cb81bfe36d31b5c71b55a1a",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0269/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0269.html",
-  "completed": 0,
-  "status": 3,
-  "status_date": "2025-02-13",
+  "completed": 1,
+  "status": 4,
+  "status_date": "2025-02-14",
   "progress": [
     {
       "date": "2025-01-21",
@@ -48,6 +48,10 @@
     {
       "date": "2025-02-13",
       "event": 3
+    },
+    {
+      "date": "2025-02-14",
+      "event": 4
     }
   ],
   "state": "UT",
@@ -394,6 +398,13 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-14",
+      "action": "Governor Signed in Lieutenant Governor's office for filing",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -733,19 +744,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "19623",
-      "committeeID": "HSTBUS",
-      "mtgDate": "2025-01-23 14:00:00.0",
-      "agendaItem": "2",
-      "mtgPlace": "445 State Capitol",
-      "committeeName": "House Business, Labor, and Commerce Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2025/html/00000566.htm",
-      "agendaURL": "/~2025/agenda/HBUS0123.ag.htm",
-      "billSession": "2025GS",
-      "markerID": "263582"
-    },
-    {
       "mtgID": "19795",
       "committeeID": "SSTEDU",
       "mtgDate": "2025-01-30 15:00:00.0",
@@ -757,11 +755,24 @@
       "agendaURL": "/~2025/agenda/SEDU0130.ag.htm",
       "billSession": "2025GS",
       "markerID": "266306"
+    },
+    {
+      "mtgID": "19623",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2025-01-23 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2025/html/00000566.htm",
+      "agendaURL": "/~2025/agenda/HBUS0123.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "263582"
     }
   ],
-  "last_action": "House/ to Governor",
-  "last_action_owner": "Executive Branch - Governor",
-  "last_action_time": "2/13/2025",
+  "last_action": "Governor Signed",
+  "last_action_owner": "Lieutenant Governor's office for filing",
+  "last_action_time": "2/14/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1319,6 +1330,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOGOV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Governor Signed",
+      "owner": "Lieutenant Governor's office for filing",
+      "actionDate": "2/14/2025",
+      "actionClass": "G",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "GSIGN",
       "parm2": "",
       "parm1": ""
     }

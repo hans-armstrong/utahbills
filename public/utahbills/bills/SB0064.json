@@ -1,6 +1,6 @@
 {
   "bill_id": 1901608,
-  "change_hash": "25df67498b88c73d3554c97a974bcb1a",
+  "change_hash": "d6c624f9a4a413158f89321cc415454f",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-13",
       "event": 9
+    },
+    {
+      "date": "2025-02-18",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 93,
   "title": "Medical Cannabis Amendments",
   "description": "Medical Cannabis Amendments",
-  "pending_committee_id": 2108,
-  "committee": {
-    "committee_id": 2108,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -230,6 +229,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-18",
+      "action": "House Comm - Substitute Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "House Comm - Favorable Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "House/ comm rpt/ substituted in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-18",
+      "action": "House/ return to Rules due to fiscal impact in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -293,22 +320,6 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
-    },
-    {
-      "subject_id": 11900,
-      "subject_name": "Agriculture"
-    },
-    {
-      "subject_id": 11865,
-      "subject_name": "Controlled Substances"
-    },
-    {
-      "subject_id": 334440,
-      "subject_name": "Agriculture & Food"
-    },
-    {
-      "subject_id": 338149,
-      "subject_name": "Medical Cannabis"
     }
   ],
   "texts": [
@@ -377,6 +388,24 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/amended/AV_SB0064S01_2025-02-11_14-46-48.pdf",
       "text_size": 226560,
       "text_hash": "f4754112728b73a0bee38d56070abaf3",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3126647,
+      "date": "2025-02-17",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0064/id/3126647",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/SB0064S02.pdf",
+      "text_size": 242787,
+      "text_hash": "4ed10761b29f93d5939c3f6ee0e36114",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -510,6 +539,66 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 520478,
+      "date": "2025-02-17",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #0",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0064/id/520478",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20SB0064%20To%20SB0064S02.pdf",
+      "supplement_size": 251529,
+      "supplement_hash": "af30fd8f732ec1d142a5b5e6a9594d08",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 520479,
+      "date": "2025-02-17",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0064/id/520479",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20SB0064S01%20To%20SB0064S02.pdf",
+      "supplement_size": 257174,
+      "supplement_hash": "8a8bfcd25b93bb7b4995d8b8426f2a53",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 521441,
+      "date": "2025-02-18",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0064",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0064/id/521441",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB064H10.pdf",
+      "supplement_size": 145647,
+      "supplement_hash": "5c150471c88e598bf4450fdadd7691f4",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -533,7 +622,7 @@
     }
   ],
   "general_provisions": "This bill amends provisions related to medical cannabis.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>amends surveillance requirements; <hr><ltbullet>allows the Cannabis Production Establishment and Pharmacy Licensing Advisory Board (licensing board) to renew or approve medical cannabis courier licenses;<hr><ltbullet>allows the licensing board to renew licenses as necessary instead of only in December; <hr><ltbullet>amends reporting requirements;<hr><ltbullet>allows the Department of Agriculture and Food to issue letters of concern;<hr><ltbullet>removes the requirement that pharmacy and courier agent registration cards include the agent's employer on the card;<hr><ltbullet>allows for medical cannabis cardholders to bring their own opaque bag or box to transport medical cannabis from the pharmacy;<hr><ltbullet>requires medical cannabis pharmacies and couriers to report a change in ownership at least 45 days before the change occurs;<hr><ltbullet>requires qualified medical provider employee proxies to complete a course on health information privacy;<hr><ltbullet>removes certain information from the medical cannabis card;<hr><ltbullet>repeals provisions related to the Division of Finance and the medical cannabis program;<hr><ltbullet>aligns continuing education provisions of qualified medical providers and pharmacy medical providers;<hr><ltbullet>includes a coordination clause with H.B. 21, Criminal Code Recodification and Cross References, to align a definition and cross reference; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>amends surveillance requirements; <hr><ltbullet>allows the Cannabis Production Establishment and Pharmacy Licensing Advisory Board (licensing board) to renew or approve medical cannabis courier licenses;<hr><ltbullet>allows the licensing board to renew licenses as necessary instead of only in December; <hr><ltbullet>amends reporting requirements;<hr><ltbullet>limits the number of licenses that the Department of Agriculture and Food (department) may issue for cannabis processing facilities;<hr><ltbullet>allows the department to issue letters of concern;<hr><ltbullet>removes the requirement that pharmacy and courier agent registration cards include the agent's employer on the card;<hr><ltbullet>allows for medical cannabis cardholders to bring their own opaque bag or box to transport medical cannabis from the pharmacy;<hr><ltbullet>requires medical cannabis pharmacies and couriers to report a change in ownership at least 45 days before the change occurs;<hr><ltbullet>requires qualified medical provider employee proxies to complete a course on health information privacy;<hr><ltbullet>removes certain information from the medical cannabis card;<hr><ltbullet>repeals provisions related to the Division of Finance and the medical cannabis program;<hr><ltbullet>aligns continuing education provisions of qualified medical providers and pharmacy medical providers;<hr><ltbullet>authorizes the creation of patient product information inserts;<hr><ltbullet>moves the repeal date for the Cannabis Research Review Board earlier one year;<hr><ltbullet>extends the repeal date for the Medical Cannabis Governance Structure Working Group;<hr><ltbullet>includes a coordination clause with H.B. 21, Criminal Code Recodification and Cross References, to align a definition and cross reference; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Christopher Williams",
   "fiscal_analyst": "Lacey K. Moore",
@@ -552,11 +641,24 @@
       "agendaURL": "/~2025/agenda/SHHS0130.ag.htm",
       "billSession": "2025GS",
       "markerID": "266232"
+    },
+    {
+      "mtgID": "19763",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2025-02-18 08:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2025/html/00001643.htm",
+      "agendaURL": "/~2025/agenda/HHHS0218.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "272430"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Health and Human Services Committee",
-  "last_action_time": "2/13/2025",
+  "last_action": "House/ return to Rules due to fiscal impact",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/18/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -568,8 +670,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -581,8 +683,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -594,8 +696,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -607,8 +709,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -620,8 +722,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -633,8 +735,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate Comm - Substitute Recommendation",
@@ -646,8 +748,8 @@
       "voteHouse": "",
       "voteStr": "4-0-3",
       "actionCode": "SCASUB",
-      "parm2": "0",
-      "parm1": "1"
+      "parm1": "1",
+      "parm2": "0"
     },
     {
       "description": "Senate Comm - Favorable Recommendation",
@@ -659,8 +761,8 @@
       "voteHouse": "",
       "voteStr": "4-0-3",
       "actionCode": "SCAFAV",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ comm rpt/ substituted",
@@ -672,8 +774,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCRSUB",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ placed on 2nd Reading Calendar",
@@ -685,8 +787,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 2nd reading",
@@ -698,8 +800,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD2",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ floor amendment",
@@ -711,8 +813,8 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SAMEND",
-      "parm2": "",
-      "parm1": "1"
+      "parm1": "1",
+      "parm2": ""
     },
     {
       "description": "Senate/ passed 2nd reading",
@@ -724,8 +826,8 @@
       "voteHouse": "S",
       "voteStr": "23-2-4",
       "actionCode": "SPASS2",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 3rd reading",
@@ -737,8 +839,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD3",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ floor amendment",
@@ -750,8 +852,8 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SAMEND",
-      "parm2": "",
-      "parm1": "2"
+      "parm1": "2",
+      "parm2": ""
     },
     {
       "description": "Senate/ passed 3rd reading",
@@ -763,8 +865,8 @@
       "voteHouse": "S",
       "voteStr": "21-6-2",
       "actionCode": "SPASS3",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ to House",
@@ -776,8 +878,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOHOU",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received from Senate",
@@ -789,8 +891,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -802,8 +904,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ to standing committee",
@@ -815,8 +917,60 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "A",
+      "voteID": "35810",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-3",
+      "actionCode": "HCASUB",
+      "parm1": "2",
+      "parm2": "1"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "A",
+      "voteID": "35811",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-3",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ return to Rules due to fiscal impact",
+      "owner": "House Rules Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRETRULFIS",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

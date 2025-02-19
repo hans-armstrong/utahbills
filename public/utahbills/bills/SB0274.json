@@ -1,6 +1,6 @@
 {
   "bill_id": 1968823,
-  "change_hash": "b93bbd2937cbb5cb42cdd2af3bfa4708",
+  "change_hash": "cc5ecd71369d78045ef938590a8e8fc8",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-14",
       "event": 1
+    },
+    {
+      "date": "2025-02-18",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Health Insurance Preauthorization Revisions",
   "description": "Health Insurance Preauthorization Revisions",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2119,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2119,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Business and Labor"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-18",
+      "committee_id": 2119,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Business and Labor"
     }
   ],
   "history": [
@@ -78,6 +89,13 @@
     {
       "date": "2025-02-14",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ to standing committee in Senate Business and Labor Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -117,6 +135,34 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 334430,
+      "subject_name": "Health Insurance"
+    },
+    {
+      "subject_id": 11907,
+      "subject_name": "Insurance"
+    },
+    {
+      "subject_id": 11905,
+      "subject_name": "Insurance Department"
+    },
+    {
+      "subject_id": 11871,
+      "subject_name": "Business"
+    },
+    {
+      "subject_id": 334137,
+      "subject_name": "Administrative Rulemaking"
+    },
+    {
+      "subject_id": 332696,
+      "subject_name": "Administrative Rulemaking and Procedures"
+    },
+    {
+      "subject_id": 334594,
+      "subject_name": "Commercial Health Insurance\\Managed Care Contracts"
     }
   ],
   "texts": [
@@ -141,8 +187,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 522228,
+      "date": "2025-02-18",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0274",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0274/id/522228",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SB0274.fn.pdf",
+      "supplement_size": 1609962,
+      "supplement_hash": "e12002071993b86a2514926a732b7060",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "a5f7a1fc",
+      "type": "Hearing",
+      "date": "2025-02-19",
+      "time": "08:00",
+      "location": "Room 30 House Building",
+      "description": "Senate Business and Labor Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions related to health insurance preauthorization.",
   "hilighted_provisions": "This bill:<hr><ltbullet>requires health insurers to provide information related to preauthorization to the Department of Insurance, patients, and health care providers.",
   "monies": "None",
@@ -151,9 +228,9 @@
   "gov_tracking_id": "MJDQFYTBRT",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/14/2025",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Business and Labor Committee",
+  "last_action_time": "2/18/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -165,8 +242,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -178,8 +255,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -191,8 +268,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -204,8 +281,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

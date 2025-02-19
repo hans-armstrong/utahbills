@@ -1,6 +1,6 @@
 {
   "bill_id": 1971601,
-  "change_hash": "cb4063041d85b61244941a6f7d5762b5",
+  "change_hash": "69582a6ac790b5ada43f20ff58549c69",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,18 @@
   "url": "https://legiscan.com/UT/bill/SCR004/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SCR004.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-18",
+  "progress": [
+    {
+      "date": "2025-02-18",
+      "event": 1
+    },
+    {
+      "date": "2025-02-18",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SCR004",
@@ -32,9 +41,29 @@
   "current_body_id": 94,
   "title": "Concurrent Resolution Fostering Social Connection and Establishing Utah Community Health Day",
   "description": "Concurrent Resolution Fostering Social Connection and Establishing Utah Community Health Day",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2124,
+  "committee": {
+    "committee_id": 2124,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Judiciary, Law Enforcement, and Criminal Justice"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-18",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2025-02-18",
+      "committee_id": 2124,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Judiciary, Law Enforcement, and Criminal Justice"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-14",
@@ -49,6 +78,27 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-18",
+      "action": "Senate/ to standing committee in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -85,6 +135,14 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 11987,
+      "subject_name": "Resolutions"
+    },
+    {
+      "subject_id": 332524,
+      "subject_name": "Legislative Operations"
     }
   ],
   "texts": [
@@ -109,8 +167,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 521870,
+      "date": "2025-02-18",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SCR004",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SCR004/id/521870",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SCR004.fn.pdf",
+      "supplement_size": 1608388,
+      "supplement_hash": "921e1090284daf7674b89aade5d60940",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "7fc666e4",
+      "type": "Hearing",
+      "date": "2025-02-19",
+      "time": "16:00",
+      "location": "Room 30 House Building",
+      "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
+    }
+  ],
   "general_provisions": "This resolution addresses the growing epidemics of loneliness and social isolation. ",
   "hilighted_provisions": "This resolution:<hr><ltbullet>recognizes loneliness and social isolation as critical, public health priorities;<hr><ltbullet>urges individuals to prioritize building positive relationships and fostering social connection; and<hr><ltbullet>establishes Utah Community Health Day.",
   "monies": "None",
@@ -119,9 +208,9 @@
   "gov_tracking_id": "DCXTYMWGTB",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/14/2025",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+  "last_action_time": "2/18/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -133,8 +222,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -146,8 +235,60 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received bill from Legislative Research",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/18/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }
