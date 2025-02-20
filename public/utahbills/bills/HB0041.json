@@ -1,6 +1,6 @@
 {
   "bill_id": 1897995,
-  "change_hash": "95430c3111bf6d4db66103a703f9ee45",
+  "change_hash": "577bf9a37a779430e0a4daa09c8607e3",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -19,7 +19,7 @@
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0041.html",
   "completed": 0,
   "status": 3,
-  "status_date": "2025-02-04",
+  "status_date": "2025-02-19",
   "progress": [
     {
       "date": "2025-01-21",
@@ -44,6 +44,10 @@
     {
       "date": "2025-02-11",
       "event": 10
+    },
+    {
+      "date": "2025-02-19",
+      "event": 3
     }
   ],
   "state": "UT",
@@ -292,6 +296,34 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Bill Received from House for Enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Draft of Enrolled Bill Prepared in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Enrolled Bill Returned to House or Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ enrolled bill to Printing in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -391,6 +423,24 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0041S01.pdf",
       "text_size": 28122,
       "text_hash": "0a5b06bed599a550cb3ea0f297cc5acd",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3131822,
+      "date": "2025-02-19",
+      "type": "Enrolled",
+      "type_id": 5,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0041/id/3131822",
+      "state_link": "https://le.utah.gov/Session/2025/bills/enrolled/HB0041.pdf",
+      "text_size": 28319,
+      "text_hash": "80fa7bebe7ca3ba7df25fa72f392e921",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -563,9 +613,9 @@
       "markerID": "270149"
     }
   ],
-  "last_action": "House/ signed by Speaker/ sent for enrolling",
-  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
-  "last_action_time": "2/18/2025",
+  "last_action": "Enrolled Bill Returned to House or Senate",
+  "last_action_owner": "Clerk of the House",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -941,6 +991,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HSIGN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Received from House for Enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2/19/2025",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRGCRH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Draft of Enrolled Bill Prepared",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2/19/2025",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LENROLL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Enrolled Bill Returned to House or Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2/19/2025",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LPASSREV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ enrolled bill to Printing",
+      "owner": "Clerk of the House",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOPRINTEN",
       "parm1": "",
       "parm2": ""
     }

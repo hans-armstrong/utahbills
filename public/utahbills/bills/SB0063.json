@@ -1,6 +1,6 @@
 {
   "bill_id": 1901586,
-  "change_hash": "bc57cac6260bcad32d6bd9d7199880e6",
+  "change_hash": "96cb5557609ffe019333ac8c492096cb",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SB0063/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0063.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2025-01-21",
+  "status": 2,
+  "status_date": "2025-02-19",
   "progress": [
     {
       "date": "2025-01-21",
@@ -32,6 +32,10 @@
     {
       "date": "2025-02-03",
       "event": 10
+    },
+    {
+      "date": "2025-02-19",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,12 +45,17 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Waste Tire Recycling Amendments",
   "description": "Waste Tire Recycling Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-01-21",
@@ -61,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Natural Resources, Agriculture, and Environment"
+    },
+    {
+      "date": "2025-02-19",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -174,6 +190,41 @@
       "action": "Senate/ circled in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ uncircled in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -430,6 +481,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 524099,
+      "date": "2025-02-19",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0063S02",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0063/id/524099",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SB0063S02.fn.pdf",
+      "supplement_size": 1608358,
+      "supplement_hash": "f37a6fcc8008403aa2e8433719da85a7",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -465,9 +536,9 @@
       "markerID": "266641"
     }
   ],
-  "last_action": "Senate/ circled",
-  "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/18/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -674,6 +745,71 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "673",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Clerk of the House",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "674",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "24-0-5",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

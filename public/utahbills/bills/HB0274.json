@@ -1,6 +1,6 @@
 {
   "bill_id": 1930198,
-  "change_hash": "cb18c25c28589c6a5793a711474b121f",
+  "change_hash": "2af811dfd66372ded0566b7ee6dc41d3",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -147,6 +147,41 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ uncircled in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ substituted in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ floor amendment failed in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ held in House Docket Clerk",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -183,6 +218,22 @@
     {
       "subject_id": 11898,
       "subject_name": "Natural Resources"
+    },
+    {
+      "subject_id": 332648,
+      "subject_name": "Water Utilities, Irrigation, and Sewer"
+    },
+    {
+      "subject_id": 332649,
+      "subject_name": "Municipalities"
+    },
+    {
+      "subject_id": 334139,
+      "subject_name": "Water"
+    },
+    {
+      "subject_id": 374636,
+      "subject_name": "Water Conservation"
     }
   ],
   "texts": [
@@ -455,7 +506,7 @@
     }
   ],
   "general_provisions": "This bill addresses regulations related to water.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>provides circumstances of when a municipality may set different water rates based in part on water conservation;<hr><ltbullet>defines terms;<hr><ltbullet>addresses rate setting by a retail water supplier;<hr><ltbullet>provides for how revenues from retail rates may be spent;<hr><ltbullet>creates a presumption regarding the reasonableness of certain water rates that include water conservation as an element in determining the rate; <hr><ltbullet>modifies provisions related to the Board of Water Resources;<hr><ltbullet>addresses tiered rates for secondary water; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>provides circumstances of when a municipality may set different water rates based in part on water conservation;<hr><ltbullet>addresses special district fees;<hr><ltbullet>defines terms;<hr><ltbullet>addresses rate setting by a retail water supplier and public water systems;<hr><ltbullet>provides for how revenues from retail rates may be spent;<hr><ltbullet>creates a presumption regarding the reasonableness of certain water rates that include water conservation as an element in determining the rate; <hr><ltbullet>modifies provisions related to the Board of Water Resources;<hr><ltbullet>addresses tiered rates for secondary water; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Patricia Owen",
   "fiscal_analyst": "Lacey K. Moore",
@@ -476,9 +527,9 @@
       "markerID": "269362"
     }
   ],
-  "last_action": "House/ circled",
-  "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "2/18/2025",
+  "last_action": "House/ held",
+  "last_action_owner": "House Docket Clerk",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -633,6 +684,71 @@
       "voteHouse": "H",
       "voteStr": "0-0-75",
       "actionCode": "HCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ uncircled",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "507",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ substituted",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "508",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HSUB",
+      "parm1": "3",
+      "parm2": "2"
+    },
+    {
+      "description": "House/ floor amendment failed",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "509",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HAMENDFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "510",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "67-2-6",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ held",
+      "owner": "House Docket Clerk",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HHOLD",
       "parm1": "",
       "parm2": ""
     }

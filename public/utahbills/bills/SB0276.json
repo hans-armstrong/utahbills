@@ -1,6 +1,6 @@
 {
   "bill_id": 1968648,
-  "change_hash": "ef9c11e87d7997eaab9c55ae7144d7e8",
+  "change_hash": "31eeed45f6c4187ab6c33f3bbbef4987",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Utah Horse Racing Commission Amendments",
   "description": "Utah Horse Racing Commission Amendments",
-  "pending_committee_id": 2125,
-  "committee": {
-    "committee_id": 2125,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Natural Resources, Agriculture, and Environment"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-14",
@@ -106,6 +101,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate Comm - Favorable Recommendation in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -142,10 +144,6 @@
     {
       "subject_id": 11885,
       "subject_name": "Economic Development"
-    },
-    {
-      "subject_id": 334440,
-      "subject_name": "Agriculture & Food"
     }
   ],
   "texts": [
@@ -160,6 +158,24 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/introduced/SB0276.pdf",
       "text_size": 24439,
       "text_hash": "cd433076a3efbcc960709a198e34f7d6",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3132106,
+      "date": "2025-02-19",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0276/id/3132106",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/SB0276S01.pdf",
+      "text_size": 25166,
+      "text_hash": "d2c4df3d5bb3732b38ee1ea189de6654",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -190,6 +206,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 524088,
+      "date": "2025-02-19",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #0",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0276/id/524088",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20SB0276%20To%20SB0276S01.pdf",
+      "supplement_size": 25733,
+      "supplement_hash": "905363c91a97ecdb2490f12ab6d35393",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 524089,
+      "date": "2025-02-19",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0276",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0276/id/524089",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB276S10.pdf",
+      "supplement_size": 130078,
+      "supplement_hash": "1a490397007bc045cc04cc9c32571721",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -210,10 +266,24 @@
   "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "IYCTVGVFEJ",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19838",
+      "committeeID": "SSTNAE",
+      "mtgDate": "2025-02-19 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SNAE0219.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "273070"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "2/18/2025",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -290,6 +360,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "A",
+      "voteID": "35995",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

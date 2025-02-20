@@ -1,6 +1,6 @@
 {
   "bill_id": 1904426,
-  "change_hash": "b07c0402963c6665ca0413763bd36274",
+  "change_hash": "7bdd337efe69f02849bd04bc847710d2",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-11",
       "event": 9
+    },
+    {
+      "date": "2025-02-19",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Food Cart Amendments",
   "description": "Food Cart Amendments",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -202,6 +201,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ committee report favorable in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -365,6 +385,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 523874,
+      "date": "2025-02-19",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0134",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0134/id/523874",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB134S10.pdf",
+      "supplement_size": 128213,
+      "supplement_hash": "b6557112a95b3b4b5e8e8f0a4ec1648f",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -429,11 +469,24 @@
       "agendaURL": "/~2025/agenda/HEDW0123.ag.htm",
       "billSession": "2025GS",
       "markerID": ""
+    },
+    {
+      "mtgID": "19790",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2025-02-19 08:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SBUS0219.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "272795"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/11/2025",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -445,8 +498,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -458,8 +511,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -471,8 +524,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -484,8 +537,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -497,8 +550,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ to standing committee",
@@ -510,8 +563,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House Comm - Not Considered",
@@ -523,8 +576,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCANOCNSDR",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House Comm - Favorable Recommendation",
@@ -536,8 +589,8 @@
       "voteHouse": "",
       "voteStr": "7-0-3",
       "actionCode": "HCAFAV",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ committee report favorable",
@@ -549,8 +602,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCR",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 2nd reading",
@@ -562,8 +615,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 3rd reading",
@@ -575,8 +628,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ passed 3rd reading",
@@ -588,8 +641,8 @@
       "voteHouse": "H",
       "voteStr": "72-0-3",
       "actionCode": "HPASS3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ to Senate",
@@ -601,8 +654,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSEN",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received from House",
@@ -614,8 +667,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -627,8 +680,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -640,8 +693,47 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "A",
+      "voteID": "35918",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-3",
+      "actionCode": "SCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

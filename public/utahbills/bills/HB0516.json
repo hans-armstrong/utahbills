@@ -1,6 +1,6 @@
 {
   "bill_id": 1972606,
-  "change_hash": "ba2627badc776d6a07625a6394c0121d",
+  "change_hash": "0abfbcb1daa5777efb25847eb37a05c1",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-18",
       "event": 1
+    },
+    {
+      "date": "2025-02-19",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Automobile Franchise Amendments",
   "description": "Automobile Franchise Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 5042,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 5042,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Business, Labor, and Commerce"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-19",
+      "committee_id": 5042,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Business, Labor, and Commerce"
     }
   ],
   "history": [
@@ -78,6 +89,20 @@
     {
       "date": "2025-02-18",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ to standing committee in House Business, Labor, and Commerce Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -117,6 +142,22 @@
     {
       "subject_id": 11871,
       "subject_name": "Business"
+    },
+    {
+      "subject_id": 11935,
+      "subject_name": "Commerce and Trade"
+    },
+    {
+      "subject_id": 334872,
+      "subject_name": "Franchises"
+    },
+    {
+      "subject_id": 11874,
+      "subject_name": "Motor Vehicles"
+    },
+    {
+      "subject_id": 11875,
+      "subject_name": "Transportation"
     }
   ],
   "texts": [
@@ -141,8 +182,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 522965,
+      "date": "2025-02-19",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0516",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0516/id/522965",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0516.fn.pdf",
+      "supplement_size": 1608361,
+      "supplement_hash": "5216f54cb815d83b2ed62c261a057a8e",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "1f4c718c",
+      "type": "Hearing",
+      "date": "2025-02-21",
+      "time": "08:00",
+      "location": "Room 30 House Building",
+      "description": "House Business, Labor, and Commerce Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions related to an automobile franchise.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines \"affiliate\";<hr><ltbullet>repeals provisions relating to a franchisor's ability to engage in certain activities;<hr><ltbullet>amends the definition of \"franchise holder\" to include a manufacturer that:<hr><ltbullet1>is an affiliate or is owned by another manufacturer; and<hr><ltbullet1>had control over the manufacturer's line-make or the manufacturer's affiliate line-make and acquires an interest in a manufacturer of electric vehicles or a dealership that exclusively sells electric vehicles under certain circumstances;<hr><ltbullet>excludes a dealership from the definition of \"franchise holder\"; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -151,9 +223,9 @@
   "gov_tracking_id": "IHGHSUIRTU",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/18/2025",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Business, Labor, and Commerce Committee",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -204,6 +276,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

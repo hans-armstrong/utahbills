@@ -1,6 +1,6 @@
 {
   "bill_id": 1898088,
-  "change_hash": "2876de5f2e97e050a17ebe51766b1b68",
+  "change_hash": "6c66ca287ecb1e8ec5fc502ea181a19d",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,13 +53,8 @@
   "current_body_id": 94,
   "title": "Limitations on the Use of Polygraphs",
   "description": "Limitations on the Use of Polygraphs",
-  "pending_committee_id": 2124,
-  "committee": {
-    "committee_id": 2124,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Judiciary, Law Enforcement, and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -195,6 +190,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate Comm - Amendment Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate Comm - Held in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -301,7 +310,29 @@
     }
   ],
   "votes": [],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 230401,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2025-02-19",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0017/id/230401",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/HB0017.Samd.1.pdf",
+      "amendment_size": 6623,
+      "amendment_hash": "d594147fdff4786ea44b5ac9e273c4b3",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 497541,
@@ -362,6 +393,15 @@
       "time": "16:00",
       "location": "Room 30 House Building",
       "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "1effaa61",
+      "type": "Hearing",
+      "date": "2025-02-21",
+      "time": "08:00",
+      "location": "Room 30 House Building",
+      "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
     }
   ],
   "general_provisions": "This bill limits the use of a polygraph on a victim of a sexual offense.",
@@ -389,11 +429,24 @@
       "agendaURL": "/~2025/agenda/HJUD0124.ag.htm",
       "billSession": "2025GS",
       "markerID": "264027"
+    },
+    {
+      "mtgID": "19781",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2025-02-19 16:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SJLC0219.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "273137"
     }
   ],
-  "last_action": "Senate/ to standing committee",
+  "last_action": "Senate Comm - Held",
   "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-  "last_action_time": "2/18/2025",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -587,6 +640,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Amendment Recommendation",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "A",
+      "voteID": "36019",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-2-4",
+      "actionCode": "SCAAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Held",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCAHELD",
       "parm1": "",
       "parm2": ""
     }

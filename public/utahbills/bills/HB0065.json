@@ -1,6 +1,6 @@
 {
   "bill_id": 1898437,
-  "change_hash": "6e094af0bb484d24549a05eb95e74b4d",
+  "change_hash": "c928d0454ef7a1a3eaf91cced940356e",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/HB0065/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0065.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2025-01-21",
+  "status": 2,
+  "status_date": "2025-02-19",
   "progress": [
     {
       "date": "2025-01-21",
@@ -32,6 +32,10 @@
     {
       "date": "2025-02-07",
       "event": 10
+    },
+    {
+      "date": "2025-02-19",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,12 +45,17 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Firefighter Cancer Amendments",
   "description": "Firefighter Cancer Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-01-21",
@@ -61,6 +70,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Law Enforcement and Criminal Justice"
+    },
+    {
+      "date": "2025-02-19",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -154,6 +170,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -183,6 +220,33 @@
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
+    },
+    {
+      "people_id": 15458,
+      "person_hash": "tlx2w3at",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 2,
+      "role": "Sen",
+      "name": "Mike McKell",
+      "first_name": "Michael",
+      "middle_name": "K.",
+      "last_name": "McKell",
+      "suffix": "",
+      "nickname": "Mike",
+      "district": "SD-025",
+      "ftm_eid": 10886452,
+      "votesmart_id": 137542,
+      "opensecrets_id": "",
+      "knowwho_pid": 404960,
+      "ballotpedia": "Mike_McKell",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
     }
   ],
   "sasts": [],
@@ -190,6 +254,18 @@
     {
       "subject_id": 360925,
       "subject_name": "Labor and Employment"
+    },
+    {
+      "subject_id": 12002,
+      "subject_name": "Workers' Compensation"
+    },
+    {
+      "subject_id": 332650,
+      "subject_name": "Workplace Safety and Health"
+    },
+    {
+      "subject_id": 362620,
+      "subject_name": "Occupational Disease"
     }
   ],
   "texts": [
@@ -410,9 +486,9 @@
       "markerID": "269216"
     }
   ],
-  "last_action": "House/ held",
-  "last_action_owner": "House Docket Clerk",
-  "last_action_time": "2/18/2025",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -424,8 +500,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -437,8 +513,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -450,8 +526,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -463,8 +539,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -476,8 +552,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ to standing committee",
@@ -489,8 +565,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House Comm - Substitute Recommendation",
@@ -502,8 +578,8 @@
       "voteHouse": "",
       "voteStr": "7-0-4",
       "actionCode": "HCASUB",
-      "parm1": "1",
-      "parm2": "0"
+      "parm2": "0",
+      "parm1": "1"
     },
     {
       "description": "House Comm - Favorable Recommendation",
@@ -515,8 +591,8 @@
       "voteHouse": "",
       "voteStr": "8-0-3",
       "actionCode": "HCAFAV",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ comm rpt/ substituted",
@@ -528,8 +604,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCRSUB",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 2nd reading",
@@ -541,8 +617,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 3rd reading",
@@ -554,8 +630,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ passed 3rd reading",
@@ -567,8 +643,8 @@
       "voteHouse": "H",
       "voteStr": "66-0-9",
       "actionCode": "HPASS3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ held",
@@ -580,8 +656,47 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HHOLD",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

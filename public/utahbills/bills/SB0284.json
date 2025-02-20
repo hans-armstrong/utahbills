@@ -1,6 +1,6 @@
 {
   "bill_id": 1972084,
-  "change_hash": "8f922d36043cbbf9af990bd51e136533",
+  "change_hash": "3322d471ea09f805d556c0d488c77577",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-18",
       "event": 1
+    },
+    {
+      "date": "2025-02-19",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Medicaid Doula Services",
   "description": "Medicaid Doula Services",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2123,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2123,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Health and Human Services"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-19",
+      "committee_id": 2123,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Health and Human Services"
     }
   ],
   "history": [
@@ -78,6 +89,13 @@
     {
       "date": "2025-02-18",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ to standing committee in Senate Health and Human Services Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -117,6 +135,22 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 334430,
+      "subject_name": "Health Insurance"
+    },
+    {
+      "subject_id": 334137,
+      "subject_name": "Administrative Rulemaking"
+    },
+    {
+      "subject_id": 332696,
+      "subject_name": "Administrative Rulemaking and Procedures"
+    },
+    {
+      "subject_id": 11952,
+      "subject_name": "Medicaid"
     }
   ],
   "texts": [
@@ -142,7 +176,17 @@
   "votes": [],
   "amendments": [],
   "supplements": [],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "5a1f1758",
+      "type": "Hearing",
+      "date": "2025-02-20",
+      "time": "16:00",
+      "location": "Room 30 House Building",
+      "description": "Senate Health and Human Services Hearing"
+    }
+  ],
   "general_provisions": "This bill authorizes the Medicaid program to cover doula services.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>requires the Department of Health and Human Services (department) to apply for a Medicaid state plan amendment authorizing coverage of doula services;<hr><ltbullet>requires the department to develop the state plan amendment in consultation with certain stakeholders; and<hr><ltbullet>requires the department to establish training and registration requirements for doulas providing services to Medicaid program enrollees.",
   "monies": "None",
@@ -151,9 +195,9 @@
   "gov_tracking_id": "XMKOHBTGYL",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/18/2025",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Health and Human Services Committee",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -165,8 +209,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -178,8 +222,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -191,8 +235,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -204,8 +248,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

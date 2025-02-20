@@ -1,6 +1,6 @@
 {
   "bill_id": 1918093,
-  "change_hash": "3ea4569c659136ad7e29488fedde820d",
+  "change_hash": "63ae0f6e0621b8681720a98ec28e4a04",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -226,6 +226,27 @@
     {
       "date": "2025-02-18",
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ substituted in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -669,15 +690,15 @@
       "mtgPlace": "215 Senate Building",
       "committeeName": "Senate Natural Resources, Agriculture, and Environment Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2025/html/00001689.htm",
       "agendaURL": "/~2025/agenda/SNAE0218.ag.htm",
       "billSession": "2025GS",
       "markerID": "272311"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/18/2025",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -936,6 +957,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ substituted",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "749",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SSUB",
+      "parm1": "3",
+      "parm2": "2"
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "750",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "26-1-2",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

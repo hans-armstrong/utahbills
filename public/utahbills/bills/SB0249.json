@@ -1,6 +1,6 @@
 {
   "bill_id": 1963919,
-  "change_hash": "005784f922d14a39dc6a013be28a58e7",
+  "change_hash": "f83e69e7dea499269149ce18f12f9383",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-11",
       "event": 9
+    },
+    {
+      "date": "2025-02-19",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -105,6 +109,27 @@
     {
       "date": "2025-02-14",
       "action": "Senate Comm - Not Considered in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ committee report favorable in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -208,6 +233,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 523820,
+      "date": "2025-02-19",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0249",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0249/id/523820",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB249S10.pdf",
+      "supplement_size": 128265,
+      "supplement_hash": "753a98fcb68bbdceaad2e2c7b1d2e24d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -246,15 +291,28 @@
       "mtgPlace": "210 Senate Building",
       "committeeName": "Senate Education Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2025/html/00001641.htm",
       "agendaURL": "/~2025/agenda/SEDU0214.ag.htm",
       "billSession": "2025GS",
       "markerID": ""
+    },
+    {
+      "mtgID": "19771",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2025-02-19 08:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SEDU0219.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "272943"
     }
   ],
-  "last_action": "Senate Comm - Not Considered",
-  "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/14/2025",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -344,6 +402,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCANOCNSDR",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "A",
+      "voteID": "35960",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-1",
+      "actionCode": "SCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Education Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm2": "",
       "parm1": ""
     }

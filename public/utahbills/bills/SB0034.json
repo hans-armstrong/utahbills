@@ -1,6 +1,6 @@
 {
   "bill_id": 1898037,
-  "change_hash": "e258452be8f48d065823a9fde49f3a01",
+  "change_hash": "058376f4f3e2cffa6b24a3ab1611dae4",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -19,7 +19,7 @@
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0034.html",
   "completed": 0,
   "status": 3,
-  "status_date": "2025-01-23",
+  "status_date": "2025-02-19",
   "progress": [
     {
       "date": "2025-01-21",
@@ -36,6 +36,10 @@
     {
       "date": "2025-02-04",
       "event": 10
+    },
+    {
+      "date": "2025-02-19",
+      "event": 3
     }
   ],
   "state": "UT",
@@ -242,6 +246,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Enrolled Bill Returned to House or Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ enrolled bill to Printing in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -323,6 +341,24 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/introduced/SB0034.pdf",
       "text_size": 23427,
       "text_hash": "6504060cac20dd63efdb1b0b896e0edb",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3130915,
+      "date": "2025-02-19",
+      "type": "Enrolled",
+      "type_id": 5,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0034/id/3130915",
+      "state_link": "https://le.utah.gov/Session/2025/bills/enrolled/SB0034.pdf",
+      "text_size": 23479,
+      "text_hash": "2ffad05b5281ea2e6602c2a79b1f3e3e",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -413,9 +449,9 @@
       "markerID": "267471"
     }
   ],
-  "last_action": "Bill Received from Senate for Enrolling",
-  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
-  "last_action_time": "2/10/2025",
+  "last_action": "Senate/ enrolled bill to Printing",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -726,6 +762,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LRGCRS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Enrolled Bill Returned to House or Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2/19/2025",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LPASSREV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ enrolled bill to Printing",
+      "owner": "Senate Secretary",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOPRINTEN",
       "parm1": "",
       "parm2": ""
     }

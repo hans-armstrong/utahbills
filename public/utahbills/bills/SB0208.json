@@ -1,6 +1,6 @@
 {
   "bill_id": 1951234,
-  "change_hash": "60d7b41d5fef39e6d2c58a0ad56a0a90",
+  "change_hash": "0a75554eb3011bc44c1c763c76377c30",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SB0208/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0208.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2025-02-03",
+  "status": 2,
+  "status_date": "2025-02-19",
   "progress": [
     {
       "date": "2025-02-03",
@@ -32,6 +32,10 @@
     {
       "date": "2025-02-11",
       "event": 10
+    },
+    {
+      "date": "2025-02-19",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,12 +45,17 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Parent-time and Custody Amendments",
   "description": "Parent-time and Custody Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-02-03",
@@ -61,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Judiciary, Law Enforcement, and Criminal Justice"
+    },
+    {
+      "date": "2025-02-19",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -168,6 +184,55 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ circled in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ uncircled in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -194,6 +259,33 @@
       "bioguide_id": "",
       "sponsor_type_id": 1,
       "sponsor_order": 1,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
+    {
+      "people_id": 23786,
+      "person_hash": "oaeh8x4i",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Anthony Loubet",
+      "first_name": "Anthony",
+      "middle_name": "E.",
+      "last_name": "Loubet",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-027",
+      "ftm_eid": 55399284,
+      "votesmart_id": 192305,
+      "opensecrets_id": "",
+      "knowwho_pid": 0,
+      "ballotpedia": "Anthony_Loubet",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -451,9 +543,9 @@
       "markerID": "270283"
     }
   ],
-  "last_action": "Senate/ passed 2nd reading",
-  "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/18/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -647,6 +739,97 @@
       "voteHouse": "S",
       "voteStr": "23-0-6",
       "actionCode": "SPASS2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "689",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "691",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Clerk of the House",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "692",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "23-0-6",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

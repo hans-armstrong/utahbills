@@ -1,6 +1,6 @@
 {
   "bill_id": 1969147,
-  "change_hash": "d06be28b2fd0104867caba67d11b3ffe",
+  "change_hash": "abfe7c1cb11ee27bbb591ec94cd0d16d",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-14",
       "event": 9
+    },
+    {
+      "date": "2025-02-19",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -105,6 +109,20 @@
     {
       "date": "2025-02-18",
       "action": "House Comm - Favorable Recommendation in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ committee report favorable in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -247,9 +265,9 @@
       "markerID": "272589"
     }
   ],
-  "last_action": "House Comm - Favorable Recommendation",
-  "last_action_owner": "House Transportation Committee",
-  "last_action_time": "2/18/2025",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -261,8 +279,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -274,8 +292,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -287,8 +305,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -300,8 +318,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -313,8 +331,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ to standing committee",
@@ -326,8 +344,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House Comm - Favorable Recommendation",
@@ -339,8 +357,34 @@
       "voteHouse": "",
       "voteStr": "11-0-1",
       "actionCode": "HCAFAV",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Transportation Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

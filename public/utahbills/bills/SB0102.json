@@ -1,6 +1,6 @@
 {
   "bill_id": 1916541,
-  "change_hash": "48034d3a2514329d176fcda300f468cd",
+  "change_hash": "f99a9e180724cbf8ec0395838bd90639",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,8 +41,8 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Public Education Reporting Amendments",
   "description": "Public Education Reporting Amendments",
   "pending_committee_id": 0,
@@ -175,6 +175,41 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ circled in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ uncircled in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -201,6 +236,33 @@
       "bioguide_id": "",
       "sponsor_type_id": 1,
       "sponsor_order": 1,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
+    {
+      "people_id": 24965,
+      "person_hash": "ejxtri6b",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Matt MacPherson",
+      "first_name": "Matt",
+      "middle_name": "",
+      "last_name": "MacPherson",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-026",
+      "ftm_eid": 0,
+      "votesmart_id": 192312,
+      "opensecrets_id": "",
+      "knowwho_pid": 0,
+      "ballotpedia": "Matt_MacPherson",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -1136,9 +1198,9 @@
       "markerID": "264417"
     }
   ],
-  "last_action": "Senate/ passed 2nd reading",
-  "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/18/2025",
+  "last_action": "Senate/ to House",
+  "last_action_owner": "Clerk of the House",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1345,6 +1407,71 @@
       "voteHouse": "S",
       "voteStr": "21-3-5",
       "actionCode": "SPASS2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "666",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "682",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Clerk of the House",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "683",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "19-6-4",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
       "parm1": "",
       "parm2": ""
     }

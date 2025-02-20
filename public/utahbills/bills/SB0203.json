@@ -1,6 +1,6 @@
 {
   "bill_id": 1950843,
-  "change_hash": "cc3806fe479793988468c42832475220",
+  "change_hash": "9c84270d47611e2a73f64a0567789cc9",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -151,6 +151,20 @@
     {
       "date": "2025-02-18",
       "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ circled in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -381,9 +395,9 @@
       "markerID": "270152"
     }
   ],
-  "last_action": "Senate/ passed 2nd reading",
+  "last_action": "Senate/ circled",
   "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/18/2025",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -395,8 +409,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -408,8 +422,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -421,8 +435,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -434,8 +448,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -447,8 +461,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -460,8 +474,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate Comm - Motion to Recommend Failed",
@@ -473,8 +487,8 @@
       "voteHouse": "",
       "voteStr": "3-3-3",
       "actionCode": "SCAFAVFAIL",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate Comm - Substitute Recommendation",
@@ -486,8 +500,8 @@
       "voteHouse": "",
       "voteStr": "5-0-4",
       "actionCode": "SCASUB",
-      "parm1": "1",
-      "parm2": "0"
+      "parm2": "0",
+      "parm1": "1"
     },
     {
       "description": "Senate Comm - Favorable Recommendation",
@@ -499,8 +513,8 @@
       "voteHouse": "",
       "voteStr": "7-2-0",
       "actionCode": "SCAFAV",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ comm rpt/ substituted",
@@ -512,8 +526,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCRSUB",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ placed on 2nd Reading Calendar",
@@ -525,8 +539,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 2nd reading",
@@ -538,8 +552,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ passed 2nd reading",
@@ -551,8 +565,34 @@
       "voteHouse": "S",
       "voteStr": "19-6-4",
       "actionCode": "SPASS2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "685",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

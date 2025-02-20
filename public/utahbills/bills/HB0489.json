@@ -1,6 +1,6 @@
 {
   "bill_id": 1967418,
-  "change_hash": "c7088fdbcc3b06cf460e62bd46ce1b57",
+  "change_hash": "c250af22bd0c1fe5306366c91bbbda59",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-13",
       "event": 1
+    },
+    {
+      "date": "2025-02-19",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Eyewear Sales Tax Amendments",
   "description": "Eyewear Sales Tax Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2115,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2115,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Revenue and Taxation"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-19",
+      "committee_id": 2115,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -88,6 +99,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ to standing committee in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -182,7 +200,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "e5b6f6fb",
+      "type": "Hearing",
+      "date": "2025-02-20",
+      "time": "16:00",
+      "location": "Room 30 House Building",
+      "description": "House Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions related to the sales and use tax on corrective eyeglasses and contact lenses.",
   "hilighted_provisions": "This bill:<hr><ltbullet>amends definitions to include corrective eyeglasses and contact lenses within the definition of \"prosthetic device,\" which has the effect of exempting these items from sales and use tax.",
   "monies": "None",
@@ -191,9 +219,9 @@
   "gov_tracking_id": "DOMKPEYGMD",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/18/2025",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Revenue and Taxation Committee",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -205,8 +233,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -218,8 +246,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -231,8 +259,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -244,8 +272,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -257,8 +285,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

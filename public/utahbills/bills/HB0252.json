@@ -1,6 +1,6 @@
 {
   "bill_id": 1924875,
-  "change_hash": "99a9ea7cb962c5fd787aff0651bf0169",
+  "change_hash": "c1dbc573cc0e9028f4918e8fa1abb770",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -261,6 +261,20 @@
     {
       "date": "2025-02-13",
       "action": "Senate/ circled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ uncircled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -808,9 +822,9 @@
       "markerID": "270138"
     }
   ],
-  "last_action": "Senate/ circled",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/13/2025",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1134,6 +1148,32 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SCIRCLED",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "712",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "713",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "16-7-6",
+      "actionCode": "SPASS2",
       "parm2": "",
       "parm1": ""
     }

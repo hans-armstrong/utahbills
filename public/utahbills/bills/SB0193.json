@@ -1,6 +1,6 @@
 {
   "bill_id": 1947287,
-  "change_hash": "9482abd0b764d764229af4916ad0a093",
+  "change_hash": "da0e58f1dba48e2ca8c921da051a66fc",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -154,6 +154,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate / held in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -190,6 +218,18 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 334430,
+      "subject_name": "Health Insurance"
+    },
+    {
+      "subject_id": 362639,
+      "subject_name": "Department of Health and Human Services"
+    },
+    {
+      "subject_id": 11952,
+      "subject_name": "Medicaid"
     }
   ],
   "texts": [
@@ -523,9 +563,9 @@
       "markerID": "269757"
     }
   ],
-  "last_action": "Senate/ passed 2nd reading",
-  "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/18/2025",
+  "last_action": "Senate / held",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -693,6 +733,58 @@
       "voteHouse": "S",
       "voteStr": "23-0-6",
       "actionCode": "SPASS2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Clerk of the House",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "680",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "25-0-4",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate / held",
+      "owner": "Senate Secretary",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SHOLD",
       "parm1": "",
       "parm2": ""
     }

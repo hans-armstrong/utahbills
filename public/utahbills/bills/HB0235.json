@@ -1,6 +1,6 @@
 {
   "bill_id": 1920907,
-  "change_hash": "6544dd4fd8ff7d4128c722e0b79aa2cb",
+  "change_hash": "af10848a8f2aa12199cd51407b15cd8d",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -226,6 +226,20 @@
     {
       "date": "2025-02-13",
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -601,15 +615,15 @@
       "mtgPlace": "220 Senate Building",
       "committeeName": "Senate Government Operations and Political Subdivisions Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2025/html/00001577.htm",
       "agendaURL": "/~2025/agenda/SGOP0212.ag.htm",
       "billSession": "2025GS",
       "markerID": "270837"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/13/2025",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -868,6 +882,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "716",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "23-0-6",
+      "actionCode": "SPASS2",
       "parm2": "",
       "parm1": ""
     }

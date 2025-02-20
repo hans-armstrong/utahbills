@@ -1,6 +1,6 @@
 {
   "bill_id": 1910966,
-  "change_hash": "0138d1255b599362eb54e768302de3c3",
+  "change_hash": "70a3fa7c31ce11b2938f4a9869a9cfbd",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SB0095/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0095.html",
   "completed": 0,
-  "status": 2,
+  "status": 3,
   "status_date": "2025-02-04",
   "progress": [
     {
@@ -53,8 +53,8 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Truth in Taxation Amendments",
   "description": "Truth in Taxation Amendments",
   "pending_committee_id": 0,
@@ -228,6 +228,48 @@
       "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ passed 3rd reading in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ signed by Speaker/ returned to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ received from House in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ signed by President/ sent for enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     }
   ],
@@ -467,19 +509,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "19670",
-      "committeeID": "HSTREV",
-      "mtgDate": "2025-02-07 15:40:00.0",
-      "agendaItem": "4",
-      "mtgPlace": "445 State Capitol",
-      "committeeName": "House Revenue and Taxation Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2025/html/00001476.htm",
-      "agendaURL": "/~2025/agenda/HREV0207.ag.htm",
-      "billSession": "2025GS",
-      "markerID": "269880"
-    },
-    {
       "mtgID": "19638",
       "committeeID": "SSTGOP",
       "mtgDate": "2025-01-24 14:00:00.0",
@@ -491,11 +520,24 @@
       "agendaURL": "/~2025/agenda/SGOP0124.ag.htm",
       "billSession": "2025GS",
       "markerID": "264053"
+    },
+    {
+      "mtgID": "19670",
+      "committeeID": "HSTREV",
+      "mtgDate": "2025-02-07 15:40:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2025/html/00001476.htm",
+      "agendaURL": "/~2025/agenda/HREV0207.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "269880"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House 3rd Reading Calendar for Senate bills",
-  "last_action_time": "2/10/2025",
+  "last_action": "Senate/ signed by President/ sent for enrolling",
+  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -754,6 +796,84 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "House Speaker",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "483",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "69-0-6",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ returned to Senate",
+      "owner": "Senate President",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGNS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate President",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ sent for enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGN",
       "parm1": "",
       "parm2": ""
     }

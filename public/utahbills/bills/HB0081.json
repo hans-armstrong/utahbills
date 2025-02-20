@@ -1,6 +1,6 @@
 {
   "bill_id": 1901087,
-  "change_hash": "d01a2f29191311fbca67b2c7ce6ac7b1",
+  "change_hash": "134afb73fea6dce4d842407f027a2830",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -219,6 +219,20 @@
     {
       "date": "2025-02-14",
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ circled in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -1428,15 +1442,15 @@
       "mtgPlace": "215 Senate Building",
       "committeeName": "Senate Natural Resources, Agriculture, and Environment Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2025/html/00001610.htm",
       "agendaURL": "/~2025/agenda/SNAE0213.ag.htm",
       "billSession": "2025GS",
       "markerID": "271374"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action": "Senate/ circled",
   "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/14/2025",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1682,6 +1696,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "732",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
       "parm2": "",
       "parm1": ""
     }

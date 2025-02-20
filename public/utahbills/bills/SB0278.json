@@ -1,6 +1,6 @@
 {
   "bill_id": 1969722,
-  "change_hash": "e6bd76de15e7b8453ab09bbbbda27b26",
+  "change_hash": "f5ae295bcb303af6349389a24cab7bf2",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-18",
       "event": 9
+    },
+    {
+      "date": "2025-02-19",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "State Debt Collection Amendments",
   "description": "State Debt Collection Amendments",
-  "pending_committee_id": 2123,
-  "committee": {
-    "committee_id": 2123,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-14",
@@ -99,6 +98,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate Comm - Favorable Recommendation in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ committee report favorable in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -207,7 +234,48 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 523675,
+      "date": "2025-02-19",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0278",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0278/id/523675",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SB0278.fn.pdf",
+      "supplement_size": 1609055,
+      "supplement_hash": "4f80e552c76606a917f48d5e4e9e49aa",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 523676,
+      "date": "2025-02-19",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0278",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0278/id/523676",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB278S10.pdf",
+      "supplement_size": 129289,
+      "supplement_hash": "7e2b088d2ae7460d7a0d1ae2632ebae8",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [
     {
       "type_id": 1,
@@ -226,10 +294,24 @@
   "fiscal_analyst": "Nate Osborne",
   "gov_tracking_id": "GXWYTWVQGQ",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Health and Human Services Committee",
-  "last_action_time": "2/18/2025",
+  "agendas": [
+    {
+      "mtgID": "19837",
+      "committeeID": "SSTHHS",
+      "mtgDate": "2025-02-19 08:30:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2025/html/00001693.htm",
+      "agendaURL": "/~2025/agenda/SHHS0219.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "272868"
+    }
+  ],
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -293,6 +375,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "A",
+      "voteID": "35936",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-1",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

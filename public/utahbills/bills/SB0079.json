@@ -1,6 +1,6 @@
 {
   "bill_id": 1908723,
-  "change_hash": "321a1af51251e77ae6e815c382330f6e",
+  "change_hash": "41cddad1ebb50c1edb3c734a7b693ed6",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SB0079/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0079.html",
   "completed": 0,
-  "status": 2,
+  "status": 3,
   "status_date": "2025-02-04",
   "progress": [
     {
@@ -312,6 +312,20 @@
       "action": "House/ to Senate in Senate President",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ received from House in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ signed by President/ sent for enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     }
   ],
@@ -623,9 +637,9 @@
       "markerID": "269838"
     }
   ],
-  "last_action": "House/ to Senate",
-  "last_action_owner": "Senate President",
-  "last_action_time": "2/18/2025",
+  "last_action": "Senate/ signed by President/ sent for enrolling",
+  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1040,6 +1054,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate President",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ sent for enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGN",
       "parm1": "",
       "parm2": ""
     }

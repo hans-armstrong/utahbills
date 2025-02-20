@@ -1,6 +1,6 @@
 {
   "bill_id": 1968605,
-  "change_hash": "826ab8beeaa650f58599397fd312e056",
+  "change_hash": "b4293dafddf1797b497f9437bba30dc5",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-18",
       "event": 9
+    },
+    {
+      "date": "2025-02-19",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Placental Tissue Amendments",
   "description": "Placental Tissue Amendments",
-  "pending_committee_id": 2123,
-  "committee": {
-    "committee_id": 2123,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-14",
@@ -106,6 +105,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate Comm - Favorable Recommendation in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ committee report favorable in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -190,6 +210,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 523152,
+      "date": "2025-02-19",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0275",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0275/id/523152",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB275S10.pdf",
+      "supplement_size": 127973,
+      "supplement_hash": "bf3a9dbb4f2a2b3dd1bb6e95c97bbe01",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -210,10 +250,24 @@
   "fiscal_analyst": "Andrea Wilko",
   "gov_tracking_id": "BMVFILIJJN",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Health and Human Services Committee",
-  "last_action_time": "2/18/2025",
+  "agendas": [
+    {
+      "mtgID": "19837",
+      "committeeID": "SSTHHS",
+      "mtgDate": "2025-02-19 08:30:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SHHS0219.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "272949"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -225,8 +279,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -238,8 +292,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -251,8 +305,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -264,8 +318,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -277,8 +331,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -290,8 +344,47 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "A",
+      "voteID": "35955",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-1",
+      "actionCode": "SCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1944922,
-  "change_hash": "351bb838f209f38da4347636e8ff6433",
+  "change_hash": "c1f15fac7a2b7a75e87a323d858205e0",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -144,6 +144,34 @@
     {
       "date": "2025-02-18",
       "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate / held in Senate Secretary",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -379,9 +407,9 @@
       "markerID": "269266"
     }
   ],
-  "last_action": "Senate/ passed 2nd reading",
-  "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/18/2025",
+  "last_action": "Senate / held",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -536,6 +564,58 @@
       "voteHouse": "S",
       "voteStr": "17-6-6",
       "actionCode": "SPASS2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Clerk of the House",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "669",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "17-7-5",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate / held",
+      "owner": "Senate Secretary",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SHOLD",
       "parm1": "",
       "parm2": ""
     }

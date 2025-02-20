@@ -1,6 +1,6 @@
 {
   "bill_id": 1973429,
-  "change_hash": "59042ce1895768f20e31a65bf127c7d3",
+  "change_hash": "74312affcd561c741c90f3d6c79b9bd4",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-18",
       "event": 1
+    },
+    {
+      "date": "2025-02-19",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Property Rate Amendments",
   "description": "Property Rate Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2127,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2127,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Revenue and Taxation"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-19",
+      "committee_id": 2127,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -78,6 +89,13 @@
     {
       "date": "2025-02-18",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ to standing committee in Senate Revenue and Taxation Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -141,7 +159,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 523964,
+      "date": "2025-02-19",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0295",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0295/id/523964",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SB0295.fn.pdf",
+      "supplement_size": 1609234,
+      "supplement_hash": "c3de76cbcfc9467cc55620ef1df39b2c",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [
     {
       "type_id": 1,
@@ -161,9 +200,9 @@
   "gov_tracking_id": "PVVWWARGUN",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/18/2025",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Revenue and Taxation Committee",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -214,6 +253,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

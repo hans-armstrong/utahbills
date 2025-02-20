@@ -1,6 +1,6 @@
 {
   "bill_id": 1940149,
-  "change_hash": "88344c888f3835830dbd8713a3c63f20",
+  "change_hash": "c6c803495f99f3916ec925c0289b8504",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-14",
       "event": 9
+    },
+    {
+      "date": "2025-02-19",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Child Tax Credit Amendments",
   "description": "Child Tax Credit Amendments",
-  "pending_committee_id": 2115,
-  "committee": {
-    "committee_id": 2115,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-27",
@@ -106,6 +105,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House Comm - Favorable Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ committee report favorable in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -198,6 +218,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 523884,
+      "date": "2025-02-19",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0316",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0316/id/523884",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB316H10.pdf",
+      "supplement_size": 141112,
+      "supplement_hash": "d11ebe73b73a4e2a88558559a628d03e",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -218,10 +258,24 @@
   "fiscal_analyst": "Andrea Wilko",
   "gov_tracking_id": "FIWPIGYBEE",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Revenue and Taxation Committee",
-  "last_action_time": "2/14/2025",
+  "agendas": [
+    {
+      "mtgID": "19775",
+      "committeeID": "HSTREV",
+      "mtgDate": "2025-02-19 08:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HREV0219.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "272870"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -233,8 +287,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -246,8 +300,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -259,8 +313,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -272,8 +326,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -285,8 +339,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ to standing committee",
@@ -298,8 +352,47 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "A",
+      "voteID": "35938",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-3-3",
+      "actionCode": "HCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/19/2025",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1944263,
-  "change_hash": "a4978f0f088406836fc9bb8f5c265d1b",
+  "change_hash": "5e5f6d9b651bbb27f5947ee54d5e353d",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0347/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0347.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2025-02-18",
   "progress": [
     {
@@ -49,8 +49,13 @@
   "current_body_id": 94,
   "title": "Social Services Program Amendments",
   "description": "Social Services Program Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-01-29",
@@ -65,6 +70,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Business, Labor, and Commerce"
+    },
+    {
+      "date": "2025-02-19",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -165,6 +177,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -413,9 +432,9 @@
       "markerID": "270130"
     }
   ],
-  "last_action": "Senate/ received from House",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/18/2025",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -596,6 +615,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }

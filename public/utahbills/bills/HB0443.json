@@ -1,6 +1,6 @@
 {
   "bill_id": 1960717,
-  "change_hash": "66c88eeed24f1afd4b3eaf2eb55dc384",
+  "change_hash": "ffd2da8d3738cd431fa169824b40e0a3",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Candidate Disclosure Amendments",
   "description": "Candidate Disclosure Amendments",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-07",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-19",
+      "action": "House Comm - Not Considered in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -298,10 +300,24 @@
   "fiscal_analyst": "Alejandra G Rodriguez",
   "gov_tracking_id": "OMTNKWPXRI",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19808",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2025-02-19 08:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HGOC0219.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "272789"
+    }
+  ],
+  "last_action": "House Comm - Not Considered",
   "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "2/12/2025",
+  "last_action_time": "2/19/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -313,8 +329,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -326,8 +342,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -339,8 +355,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -352,8 +368,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -365,8 +381,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ to standing committee",
@@ -378,8 +394,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/19/2025",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }
