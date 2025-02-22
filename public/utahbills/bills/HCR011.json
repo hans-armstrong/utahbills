@@ -1,6 +1,6 @@
 {
   "bill_id": 1975437,
-  "change_hash": "8afaa0c25d007a319005ab18cdc4b71d",
+  "change_hash": "e0fdce95f3700d26fec7bc867a22ea6a",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HCR011/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HCR011.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-20",
+  "progress": [
+    {
+      "date": "2025-02-20",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HCR011",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Concurrent Resolution Regarding State Parks",
   "description": "Concurrent Resolution Regarding State Parks",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-20",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-19",
@@ -48,6 +66,27 @@
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-20",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-20",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-21",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -85,6 +124,18 @@
     {
       "subject_id": 11898,
       "subject_name": "Natural Resources"
+    },
+    {
+      "subject_id": 12080,
+      "subject_name": "State Lands"
+    },
+    {
+      "subject_id": 334138,
+      "subject_name": "Outdoor Recreation"
+    },
+    {
+      "subject_id": 354085,
+      "subject_name": "Division of State Parks"
     }
   ],
   "texts": [
@@ -109,7 +160,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 526082,
+      "date": "2025-02-21",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HCR011",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HCR011/id/526082",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HCR011.fn.pdf",
+      "supplement_size": 1609164,
+      "supplement_hash": "ae87e864f04eae3a295619277da0f9ec",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This resolution encourages the Division of State Parks to work with federal agencies to transfer ownership or management of properties suitable for a state park, monument, or campground, back to the state. ",
   "hilighted_provisions": "This resolution:<hr><ltbullet>requests that the Division of State Parks (division) petition the Bureau of Land Management to transfer title to the state of Utah for the creation of the Little Sahara State Park;<hr><ltbullet>requests that the division negotiate with the United States Forest Service to transfer the Antelope Flat Campground for the creation of the Flaming Gorge State Park;<hr><ltbullet>encourages the division to work with federal agencies to acquire, lease, or manage any other properties considered suitable for a state park, monument, or campground; <hr><ltbullet>urges the division to study the feasibility of a Davis County Skyline Drive state park or state campground; and<hr><ltbullet>requests that the division update the Natural Resources, Agriculture, and Environment Interim Committee on the division's progress.",
@@ -119,35 +191,74 @@
   "gov_tracking_id": "LIIJSHGFJY",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/19/2025",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/21/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/19/2025",
+      "actionDate": "2/19/2025 2:02 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/19/2025",
+      "actionDate": "2/19/2025 2:02 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2/20/2025 8:54 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/20/2025 10:16 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/21/2025 8:59 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

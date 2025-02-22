@@ -1,6 +1,6 @@
 {
   "bill_id": 1923347,
-  "change_hash": "579d24e06e0ec91979eccc5c60ddd89d",
+  "change_hash": "2a1180e888ccecd1f15ceeafc3033cec",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -144,6 +144,27 @@
     {
       "date": "2025-02-14",
       "action": "Senate/ circled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-21",
+      "action": "Senate/ uncircled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-21",
+      "action": "Senate/ floor amendment in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-21",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -452,14 +473,14 @@
       "markerID": "268661"
     }
   ],
-  "last_action": "Senate/ circled",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/14/2025",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/21/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/16/2025",
+      "actionDate": "1/16/2025 12:46 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -472,7 +493,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/16/2025",
+      "actionDate": "1/16/2025 12:46 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -485,7 +506,7 @@
     {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "1/20/2025",
+      "actionDate": "1/20/2025 1:57 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -498,7 +519,7 @@
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "1/21/2025",
+      "actionDate": "1/21/2025 8:18 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -511,7 +532,7 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "1/21/2025",
+      "actionDate": "1/21/2025 11:20 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -524,7 +545,7 @@
     {
       "description": "Senate/ to standing committee",
       "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
-      "actionDate": "1/30/2025",
+      "actionDate": "1/30/2025 11:07 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -537,7 +558,7 @@
     {
       "description": "Senate Comm - Substitute Recommendation",
       "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
-      "actionDate": "2/5/2025",
+      "actionDate": "2/5/2025 4:33 PM",
       "actionClass": "A",
       "voteID": "34878",
       "voiceVote": "",
@@ -550,7 +571,7 @@
     {
       "description": "Senate Comm - Favorable Recommendation",
       "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
-      "actionDate": "2/5/2025",
+      "actionDate": "2/5/2025 5:02 PM",
       "actionClass": "A",
       "voteID": "34890",
       "voiceVote": "",
@@ -563,7 +584,7 @@
     {
       "description": "Senate/ comm rpt/ substituted",
       "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
-      "actionDate": "2/6/2025",
+      "actionDate": "2/6/2025 11:13 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -576,7 +597,7 @@
     {
       "description": "Senate/ placed on 2nd Reading Calendar",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "2/6/2025",
+      "actionDate": "2/6/2025 11:13 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -589,7 +610,7 @@
     {
       "description": "Senate/ 2nd reading",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "2/14/2025",
+      "actionDate": "2/14/2025 11:58 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -602,13 +623,52 @@
     {
       "description": "Senate/ circled",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "2/14/2025",
+      "actionDate": "2/14/2025 11:58 AM",
       "actionClass": "S",
       "voteID": "580",
       "voiceVote": "1",
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/21/2025 3:12 PM",
+      "actionClass": "S",
+      "voteID": "920",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ floor amendment",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/21/2025 3:13 PM",
+      "actionClass": "S",
+      "voteID": "921",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SAMEND",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/21/2025 3:17 PM",
+      "actionClass": "S",
+      "voteID": "922",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "19-3-7",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

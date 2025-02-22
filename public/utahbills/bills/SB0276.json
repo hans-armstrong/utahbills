@@ -1,6 +1,6 @@
 {
   "bill_id": 1968648,
-  "change_hash": "31eeed45f6c4187ab6c33f3bbbef4987",
+  "change_hash": "eda17b74fafedd37bc219750ab1fc0df",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-18",
       "event": 9
+    },
+    {
+      "date": "2025-02-20",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -108,6 +112,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-20",
+      "action": "Senate/ committee report favorable in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-20",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -144,6 +162,14 @@
     {
       "subject_id": 11885,
       "subject_name": "Economic Development"
+    },
+    {
+      "subject_id": 332726,
+      "subject_name": "Boards and Committees"
+    },
+    {
+      "subject_id": 334440,
+      "subject_name": "Agriculture & Food"
     }
   ],
   "texts": [
@@ -246,6 +272,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 524947,
+      "date": "2025-02-20",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0276S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0276/id/524947",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SB0276S01.fn.pdf",
+      "supplement_size": 1609171,
+      "supplement_hash": "a79a293ed16ea67d846a0fa56665a1de",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -281,14 +327,14 @@
       "markerID": "273070"
     }
   ],
-  "last_action": "Senate Comm - Favorable Recommendation",
-  "last_action_owner": "Senate Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "2/19/2025",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/20/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/13/2025",
+      "actionDate": "2/13/2025 9:58 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -301,7 +347,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/13/2025",
+      "actionDate": "2/13/2025 9:58 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -314,7 +360,7 @@
     {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "2/13/2025",
+      "actionDate": "2/13/2025 10:44 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -327,7 +373,7 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "2/14/2025",
+      "actionDate": "2/14/2025 10:39 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -340,7 +386,7 @@
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
       "owner": "Senate Rules Committee",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 9:29 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -353,7 +399,7 @@
     {
       "description": "Senate/ to standing committee",
       "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 10:15 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -366,13 +412,39 @@
     {
       "description": "Senate Comm - Favorable Recommendation",
       "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
-      "actionDate": "2/19/2025",
+      "actionDate": "2/19/2025 4:21 PM",
       "actionClass": "A",
       "voteID": "35995",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "5-0-2",
       "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/20/2025 10:21 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/20/2025 10:21 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

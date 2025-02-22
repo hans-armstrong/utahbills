@@ -1,6 +1,6 @@
 {
   "bill_id": 1975417,
-  "change_hash": "4ce80fc7bb6b3041f2ee5f310130c38d",
+  "change_hash": "7fbc081304e74a65392404e3d7a1edf9",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/SB0301/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0301.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-20",
+  "progress": [
+    {
+      "date": "2025-02-20",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0301",
@@ -32,9 +37,22 @@
   "current_body_id": 94,
   "title": "Strategic Lawsuit Against Public Participation Protections",
   "description": "Strategic Lawsuit Against Public Participation Protections",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-20",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-19",
@@ -56,6 +74,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-20",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -92,6 +117,22 @@
     {
       "subject_id": 332528,
       "subject_name": "Judicial Operations"
+    },
+    {
+      "subject_id": 12074,
+      "subject_name": "Attorneys"
+    },
+    {
+      "subject_id": 12018,
+      "subject_name": "Uniform Laws"
+    },
+    {
+      "subject_id": 367572,
+      "subject_name": "Civil Litigation"
+    },
+    {
+      "subject_id": 367573,
+      "subject_name": "Civil Procedure"
     }
   ],
   "texts": [
@@ -126,9 +167,9 @@
   "gov_tracking_id": "NIEOXMOFWO",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ received bill from Legislative Research",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/19/2025",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "2/20/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -166,6 +207,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/20/2025",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm2": "",
       "parm1": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1961834,
-  "change_hash": "67616e298a0c5b6e0cbfbbda8bfa5d78",
+  "change_hash": "8dcf9781102f89372272188edb27fae0",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-07",
       "event": 1
+    },
+    {
+      "date": "2025-02-21",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Data Privacy Amendments",
   "description": "Data Privacy Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2860,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2860,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Economic Development and Workforce Services"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-21",
+      "committee_id": 2860,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Economic Development and Workforce Services"
     }
   ],
   "history": [
@@ -78,6 +89,20 @@
     {
       "date": "2025-02-07",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-21",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-21",
+      "action": "House/ to standing committee in House Economic Development and Workforce Services Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -117,18 +142,6 @@
     {
       "subject_id": 360912,
       "subject_name": "Public Utilities and Technology"
-    },
-    {
-      "subject_id": 12076,
-      "subject_name": "Electronic Privacy"
-    },
-    {
-      "subject_id": 334137,
-      "subject_name": "Administrative Rulemaking"
-    },
-    {
-      "subject_id": 334547,
-      "subject_name": "Data and Cyber Security"
     }
   ],
   "texts": [
@@ -149,11 +162,128 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3136258,
+      "date": "2025-02-21",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0444/id/3136258",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0444S01.pdf",
+      "text_size": 186676,
+      "text_hash": "508542d1ff1acda11d33d4bbc1e5b854",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3136443,
+      "date": "2025-02-21",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0444/id/3136443",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0444S02.pdf",
+      "text_size": 182977,
+      "text_hash": "7d32515a386bcb9ffd6cd088db614cd5",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 525200,
+      "date": "2025-02-20",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0444",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0444/id/525200",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0444.fn.pdf",
+      "supplement_size": 1609707,
+      "supplement_hash": "a7b44a6b0f01507f6a3238975f53ebf8",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 526035,
+      "date": "2025-02-21",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #0",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0444/id/526035",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0444%20To%20HB0444S01.pdf",
+      "supplement_size": 182037,
+      "supplement_hash": "3faebeebf8adc88b79672d2d95b33249",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 526386,
+      "date": "2025-02-21",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #0",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0444/id/526386",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0444%20To%20HB0444S02.pdf",
+      "supplement_size": 183005,
+      "supplement_hash": "23a013a9c4ab26ae1c64cd535b8823bc",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 526387,
+      "date": "2025-02-21",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0444/id/526387",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0444S01%20To%20HB0444S02.pdf",
+      "supplement_size": 177071,
+      "supplement_hash": "0ac9e24d2befd7c6172bc90266545313",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill modifies provisions related to governmental data privacy and privacy oversight.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>modifies requirements for privacy annotations and privacy notices;<hr><ltbullet>modifies requirements for government website privacy notices;<hr><ltbullet>modifies provisions related to data breach notification requirements;<hr><ltbullet>renames and modifies duties of the state privacy auditor;<hr><ltbullet>modifies enforcement provisions related to privacy requirements; and<hr><ltbullet>makes technical and conforming changes.",
@@ -163,14 +293,14 @@
   "gov_tracking_id": "IIEXLPTXIU",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/7/2025",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Economic Development and Workforce Services Committee",
+  "last_action_time": "2/21/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/7/2025",
+      "actionDate": "2/7/2025 12:28 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -183,7 +313,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/7/2025",
+      "actionDate": "2/7/2025 12:28 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -196,7 +326,7 @@
     {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "2/7/2025",
+      "actionDate": "2/7/2025 1:52 PM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -209,13 +339,39 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "2/7/2025",
+      "actionDate": "2/7/2025 2:22 PM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/21/2025 8:59 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "2/21/2025 11:12 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

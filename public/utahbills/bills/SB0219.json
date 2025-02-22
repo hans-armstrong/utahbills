@@ -1,6 +1,6 @@
 {
   "bill_id": 1953625,
-  "change_hash": "4243f2497f390f4f8d64cb34071e3357",
+  "change_hash": "9a945a93568f88465d0b91b7b9699297",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -123,6 +123,20 @@
     {
       "date": "2025-02-14",
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-21",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-21",
+      "action": "Senate/ circled in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -343,14 +357,14 @@
       "markerID": "271729"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action": "Senate/ circled",
   "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/14/2025",
+  "last_action_time": "2/21/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/4/2025",
+      "actionDate": "2/4/2025 9:52 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -363,7 +377,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/4/2025",
+      "actionDate": "2/4/2025 9:52 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -376,7 +390,7 @@
     {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "2/4/2025",
+      "actionDate": "2/4/2025 12:11 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -389,7 +403,7 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "2/4/2025",
+      "actionDate": "2/4/2025 2:21 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -402,7 +416,7 @@
     {
       "description": "Senate/ to standing committee",
       "owner": "Senate Revenue and Taxation Committee",
-      "actionDate": "2/5/2025",
+      "actionDate": "2/5/2025 2:08 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -415,7 +429,7 @@
     {
       "description": "Senate Comm - Substitute Recommendation",
       "owner": "Senate Revenue and Taxation Committee",
-      "actionDate": "2/14/2025",
+      "actionDate": "2/14/2025 8:35 AM",
       "actionClass": "A",
       "voteID": "35620",
       "voiceVote": "",
@@ -428,7 +442,7 @@
     {
       "description": "Senate Comm - Favorable Recommendation",
       "owner": "Senate Revenue and Taxation Committee",
-      "actionDate": "2/14/2025",
+      "actionDate": "2/14/2025 8:36 AM",
       "actionClass": "A",
       "voteID": "35621",
       "voiceVote": "",
@@ -441,7 +455,7 @@
     {
       "description": "Senate/ comm rpt/ substituted",
       "owner": "Senate Revenue and Taxation Committee",
-      "actionDate": "2/14/2025",
+      "actionDate": "2/14/2025 10:27 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -454,13 +468,39 @@
     {
       "description": "Senate/ placed on 2nd Reading Calendar",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "2/14/2025",
+      "actionDate": "2/14/2025 10:27 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/21/2025 2:56 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/21/2025 2:56 PM",
+      "actionClass": "S",
+      "voteID": "916",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
       "parm1": "",
       "parm2": ""
     }

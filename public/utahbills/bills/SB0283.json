@@ -1,6 +1,6 @@
 {
   "bill_id": 1971544,
-  "change_hash": "21d616f31a3696ef46f12a521d791d5c",
+  "change_hash": "76bdd003eec5a5c925478c653eccda9e",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-18",
       "event": 9
+    },
+    {
+      "date": "2025-02-20",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Funds Amendments",
   "description": "Funds Amendments",
-  "pending_committee_id": 2122,
-  "committee": {
-    "committee_id": 2122,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Government Operations and Political Subdivisions"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-18",
@@ -106,6 +105,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-20",
+      "action": "Senate Comm - Favorable Recommendation in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-20",
+      "action": "Senate/ committee report favorable in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-20",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -230,6 +250,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 524710,
+      "date": "2025-02-20",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0283",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0283/id/524710",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB283S10.pdf",
+      "supplement_size": 127154,
+      "supplement_hash": "4a7765fa2fe7b0a90a44d1c422d060e2",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -250,15 +290,29 @@
   "fiscal_analyst": "Steven M. Allred",
   "gov_tracking_id": "SVIPFUNXQV",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
-  "last_action_time": "2/18/2025",
+  "agendas": [
+    {
+      "mtgID": "19817",
+      "committeeID": "SSTGOP",
+      "mtgDate": "2025-02-20 08:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Government Operations and Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SGOP0220.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "273368"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/20/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/14/2025",
+      "actionDate": "2/14/2025 10:42 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -271,7 +325,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/14/2025",
+      "actionDate": "2/14/2025 10:42 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -284,7 +338,7 @@
     {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "2/14/2025",
+      "actionDate": "2/14/2025 12:34 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -297,7 +351,7 @@
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 9:50 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -310,7 +364,7 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 10:19 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -323,13 +377,52 @@
     {
       "description": "Senate/ to standing committee",
       "owner": "Senate Government Operations and Political Subdivisions Committee",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 12:02 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2/20/2025 8:42 AM",
+      "actionClass": "A",
+      "voteID": "36072",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2/20/2025 10:59 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/20/2025 10:59 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

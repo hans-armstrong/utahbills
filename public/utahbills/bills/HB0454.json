@@ -1,6 +1,6 @@
 {
   "bill_id": 1963280,
-  "change_hash": "7b04512907a41a8e9759559438230328",
+  "change_hash": "520ecd6ab748a48d187dfcfb8242da2c",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-14",
       "event": 9
+    },
+    {
+      "date": "2025-02-21",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Local Government Fees Modifications",
   "description": "Local Government Fees Modifications",
-  "pending_committee_id": 2112,
-  "committee": {
-    "committee_id": 2112,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Political Subdivisions"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-10",
@@ -106,6 +105,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-20",
+      "action": "House Comm - Favorable Recommendation in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-21",
+      "action": "House/ committee report favorable in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-21",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -210,6 +230,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 525493,
+      "date": "2025-02-20",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0454",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0454/id/525493",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB454H10.pdf",
+      "supplement_size": 139888,
+      "supplement_hash": "4b8383ec259eae320572b74a94b3b651",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -239,15 +279,29 @@
   "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "VVANRGMILW",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Political Subdivisions Committee",
-  "last_action_time": "2/14/2025",
+  "agendas": [
+    {
+      "mtgID": "19813",
+      "committeeID": "HSTPOL",
+      "mtgDate": "2025-02-20 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "House Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HPOL0220.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "273493"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/21/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/7/2025",
+      "actionDate": "2/7/2025 4:31 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -260,7 +314,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/7/2025",
+      "actionDate": "2/7/2025 4:31 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -273,7 +327,7 @@
     {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "2/10/2025",
+      "actionDate": "2/10/2025 9:58 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -286,7 +340,7 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "2/10/2025",
+      "actionDate": "2/10/2025 11:11 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -299,7 +353,7 @@
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "House Rules Committee",
-      "actionDate": "2/12/2025",
+      "actionDate": "2/12/2025 11:02 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -312,13 +366,52 @@
     {
       "description": "House/ to standing committee",
       "owner": "House Political Subdivisions Committee",
-      "actionDate": "2/14/2025",
+      "actionDate": "2/14/2025 11:19 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2/20/2025 4:35 PM",
+      "actionClass": "A",
+      "voteID": "36121",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-2",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2/21/2025 10:17 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/21/2025 10:17 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

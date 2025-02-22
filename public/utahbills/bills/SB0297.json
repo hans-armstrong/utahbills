@@ -1,6 +1,6 @@
 {
   "bill_id": 1975588,
-  "change_hash": "3cafde457fdaaf536931328c17dd4223",
+  "change_hash": "ef660e4df84b65926c7ac736792796f3",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,22 @@
   "url": "https://legiscan.com/UT/bill/SB0297/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0297.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-20",
+  "progress": [
+    {
+      "date": "2025-02-20",
+      "event": 1
+    },
+    {
+      "date": "2025-02-20",
+      "event": 9
+    },
+    {
+      "date": "2025-02-21",
+      "event": 10
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0297",
@@ -34,7 +47,22 @@
   "description": "Congregate Care Amendments",
   "pending_committee_id": 0,
   "committee": [],
-  "referrals": [],
+  "referrals": [
+    {
+      "date": "2025-02-20",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2025-02-20",
+      "committee_id": 2124,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Judiciary, Law Enforcement, and Criminal Justice"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-19",
@@ -53,6 +81,48 @@
     {
       "date": "2025-02-19",
       "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-20",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-20",
+      "action": "Senate/ to standing committee in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-21",
+      "action": "Senate Comm - Substitute Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-21",
+      "action": "Senate Comm - Favorable Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-21",
+      "action": "Senate/ comm rpt/ substituted in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-21",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -90,12 +160,12 @@
   "sasts": [],
   "subjects": [
     {
-      "subject_id": 11966,
-      "subject_name": "Public Funds and Accounts"
-    },
-    {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 11966,
+      "subject_name": "Public Funds and Accounts"
     },
     {
       "subject_id": 12052,
@@ -140,11 +210,70 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3135215,
+      "date": "2025-02-20",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0297/id/3135215",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/SB0297S01.pdf",
+      "text_size": 151314,
+      "text_hash": "c3a4701e7794d5711e0b484bb2b19af6",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 525546,
+      "date": "2025-02-20",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #0",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0297/id/525546",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20SB0297%20To%20SB0297S01.pdf",
+      "supplement_size": 169588,
+      "supplement_hash": "c894500024e0d37300902e700a8f175d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 525810,
+      "date": "2025-02-21",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0297",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0297/id/525810",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB297S10.pdf",
+      "supplement_size": 132026,
+      "supplement_hash": "c0f8b556259bf3a58edac8dc4032cc60",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [
     {
       "type_id": 1,
@@ -157,21 +286,35 @@
     }
   ],
   "general_provisions": "This bill addresses congregate care programs.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>creates the Congregate Care Admissions Committee (committee);<hr><ltbullet>authorizes and directs the committee to:<hr><ltbullet1>set minimum safety requirements for congregate care programs;<hr><ltbullet1>review proposed admissions criteria a program submits in connection with the program's application for or renewal of licensure;<hr><ltbullet1>deny or accept proposed admissions criteria;<hr><ltbullet>creates the position of congregate care ombudsman (ombudsman);<hr><ltbullet>authorizes and directs the ombudsman to receive and investigate reported concerns regarding congregate care programs;<hr><ltbullet>creates the Licensed Provider Civil Money Penalty Fund;<hr><ltbullet>authorizes and directs the Division of Licensing and Background Processing (division) to regulate congregate care programs;<hr><ltbullet>denies direct access qualified status for individuals who are or have been under investigation for sexual misconduct within the past three years;<hr><ltbullet>establishes requirements for congregate care programs, including that the programs:<hr><ltbullet1>adopt admissions criteria by which to determine whether an individual child is a qualified candidate for the congregate care program;<hr><ltbullet1>maintain a list of a child's authorized contacts who may contact the child if the child is in crisis;<hr><ltbullet1>notify the authorized contacts and the parent or guardian of a child who is in crisis;<hr><ltbullet1>post notice within the program stating that clients and staff may report a complaint or concern regarding the congregate care program to the ombudsman;<hr><ltbullet1>provide a dedicated telephone from which a child or staff at a program may contact the ombudsman at any time;<hr><ltbullet1>provide disclosures to a child, the child's parent or guardian, and the child's authorized contacts;<hr><ltbullet>establishes responsibility for payment to a health care facility that provides services to a child, including transportation costs;<hr><ltbullet>authorizes the office to collect a fee; and<hr><ltbullet>establishes whistleblower protections for individuals who report a concern to, or who facilitate or cooperate with, the ombudsman; and <hr><ltbullet>makes technical changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>creates the Congregate Care Advisory Committee (committee);<hr><ltbullet>authorizes and directs the Office of Licensing (office), in consultation with the committee, to:<hr><ltbullet1>set minimum safety requirements for congregate care programs;<hr><ltbullet1>review proposed admissions criteria that a program submits in connection with an application for or renewal of licensure;<hr><ltbullet1>deny or accept programs' proposed admissions criteria;<hr><ltbullet>creates the position of congregate care ombudsman (ombudsman);<hr><ltbullet>authorizes and directs the ombudsman to receive and investigate reports regarding congregate care programs;<hr><ltbullet>creates the Licensed Provider Civil Money Penalty Fund;<hr><ltbullet>denies direct access qualified status for certain individuals;<hr><ltbullet>establishes requirements for congregate care programs, including that the programs:<hr><ltbullet1>adopt admissions criteria by which to determine whether an individual child is a qualified candidate for the program;<hr><ltbullet1>maintain a list of a child's authorized contacts who may contact the child if the child is in crisis;<hr><ltbullet1>notify the authorized contacts and the parent or guardian of a child who is in crisis;<hr><ltbullet1>post notice within the program regarding the ombudsman;<hr><ltbullet1>provide a dedicated telephone from which a child or staff may contact the ombudsman at any time;<hr><ltbullet1>provide disclosures to a child, the child's parent or guardian, and the child's authorized contacts;<hr><ltbullet>establishes responsibility for payment to a health care facility that provides services to a child, including transportation costs; and<hr><ltbullet>establishes whistleblower protections for individuals who report a concern to, or who facilitate or cooperate with, the ombudsman; and <hr><ltbullet>makes technical changes.",
   "monies": "None",
   "attorney": "Greg Gunn",
   "fiscal_analyst": "Sean C. Faherty",
   "gov_tracking_id": "WATKYYPRIO",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received bill from Legislative Research",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/19/2025",
+  "agendas": [
+    {
+      "mtgID": "19782",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2025-02-21 08:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SJLC0221.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "273739"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/21/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/19/2025",
+      "actionDate": "2/19/2025 11:35 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -184,7 +327,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/19/2025",
+      "actionDate": "2/19/2025 11:35 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -197,13 +340,91 @@
     {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "2/19/2025",
+      "actionDate": "2/19/2025 1:57 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/20/2025 10:24 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/20/2025 2:23 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/21/2025 9:01 AM",
+      "actionClass": "A",
+      "voteID": "36188",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-2",
+      "actionCode": "SCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/21/2025 9:19 AM",
+      "actionClass": "A",
+      "voteID": "36193",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-1",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ substituted",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/21/2025 2:15 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/21/2025 2:15 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

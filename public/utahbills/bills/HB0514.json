@@ -1,6 +1,6 @@
 {
   "bill_id": 1972171,
-  "change_hash": "1e690b05b75dafd97cce99880c1e4fa6",
+  "change_hash": "d7e298cf5bdd3ff493a83c0c1ea83af3",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-18",
       "event": 1
+    },
+    {
+      "date": "2025-02-21",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Vehicle Registration Changes",
   "description": "Vehicle Registration Changes",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2117,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2117,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Transportation"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-21",
+      "committee_id": 2117,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Transportation"
     }
   ],
   "history": [
@@ -78,6 +89,20 @@
     {
       "date": "2025-02-18",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-20",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-21",
+      "action": "House/ to standing committee in House Transportation Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -173,8 +198,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 524382,
+      "date": "2025-02-20",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0514",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0514/id/524382",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0514.fn.pdf",
+      "supplement_size": 1609785,
+      "supplement_hash": "936f853b3a6828726552d13a7e85265a",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "b547f7b2",
+      "type": "Hearing",
+      "date": "2025-02-24",
+      "time": "08:00",
+      "location": "Room 30 House Building",
+      "description": "House Transportation Hearing"
+    }
+  ],
   "general_provisions": "This bill amends vehicle registration notification requirements and provides an option for a two-year registration period for certain vehicles.  ",
   "hilighted_provisions": "This bill:<hr><ltbullet>changes the default notification for vehicle registration reminders to electronic notification;<hr><ltbullet>allows a person to select a mail option for notification of vehicle registration;<hr><ltbullet>provides an option for a two-year vehicle registration period for a trailer, off-highway vehicle, street-legal all-terrain vehicle, or electric motor vehicle; <hr><ltbullet>provides for the calculation and deposit of registration and various other fees and taxes due at the time of registration to account for a 24-month vehicle registration period; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -183,14 +239,14 @@
   "gov_tracking_id": "YUXLRYTHCR",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/18/2025",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Transportation Committee",
+  "last_action_time": "2/21/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/17/2025",
+      "actionDate": "2/17/2025 10:25 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -203,7 +259,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/17/2025",
+      "actionDate": "2/17/2025 10:25 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -216,7 +272,7 @@
     {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 9:15 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -229,13 +285,39 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 10:19 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/20/2025 11:50 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Transportation Committee",
+      "actionDate": "2/21/2025 11:14 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

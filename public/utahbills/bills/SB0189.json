@@ -1,6 +1,6 @@
 {
   "bill_id": 1944922,
-  "change_hash": "c1f15fac7a2b7a75e87a323d858205e0",
+  "change_hash": "d029d907f7487529d0b58dba7f0d6efd",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SB0189/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0189.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2025-01-29",
+  "status": 2,
+  "status_date": "2025-02-21",
   "progress": [
     {
       "date": "2025-01-29",
@@ -32,6 +32,10 @@
     {
       "date": "2025-02-07",
       "event": 10
+    },
+    {
+      "date": "2025-02-21",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,12 +45,17 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Child Care Services Amendments",
   "description": "Child Care Services Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-01-29",
@@ -61,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Economic Development and Workforce Services"
+    },
+    {
+      "date": "2025-02-21",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -170,10 +186,17 @@
       "importance": 0
     },
     {
-      "date": "2025-02-19",
-      "action": "Senate / held in Senate Secretary",
-      "chamber": "S",
-      "chamber_id": 94,
+      "date": "2025-02-21",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-21",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -201,6 +224,33 @@
       "bioguide_id": "",
       "sponsor_type_id": 1,
       "sponsor_order": 1,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
+    {
+      "people_id": 19091,
+      "person_hash": "9ba2xwuh",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Karianne Lisonbee",
+      "first_name": "Karianne",
+      "middle_name": "",
+      "last_name": "Lisonbee",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-014",
+      "ftm_eid": 9853475,
+      "votesmart_id": 168623,
+      "opensecrets_id": "",
+      "knowwho_pid": 575080,
+      "ballotpedia": "Karianne_Lisonbee",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -407,14 +457,14 @@
       "markerID": "269266"
     }
   ],
-  "last_action": "Senate / held",
-  "last_action_owner": "Senate Secretary",
-  "last_action_time": "2/19/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/21/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/28/2025",
+      "actionDate": "1/28/2025 2:24 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -427,7 +477,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/28/2025",
+      "actionDate": "1/28/2025 2:24 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -440,7 +490,7 @@
     {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "1/29/2025",
+      "actionDate": "1/29/2025 9:26 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -453,7 +503,7 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "1/29/2025",
+      "actionDate": "1/29/2025 11:24 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -466,7 +516,7 @@
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
       "owner": "Senate Rules Committee",
-      "actionDate": "2/3/2025",
+      "actionDate": "2/3/2025 8:13 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -479,7 +529,7 @@
     {
       "description": "Senate/ to standing committee",
       "owner": "Senate Economic Development and Workforce Services Committee",
-      "actionDate": "2/4/2025",
+      "actionDate": "2/4/2025 11:15 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -492,7 +542,7 @@
     {
       "description": "Senate Comm - Amendment Recommendation",
       "owner": "Senate Economic Development and Workforce Services Committee",
-      "actionDate": "2/6/2025",
+      "actionDate": "2/6/2025 4:18 PM",
       "actionClass": "A",
       "voteID": "34959",
       "voiceVote": "",
@@ -505,7 +555,7 @@
     {
       "description": "Senate Comm - Favorable Recommendation",
       "owner": "Senate Economic Development and Workforce Services Committee",
-      "actionDate": "2/6/2025",
+      "actionDate": "2/6/2025 4:27 PM",
       "actionClass": "A",
       "voteID": "34965",
       "voiceVote": "",
@@ -518,7 +568,7 @@
     {
       "description": "Senate/ comm rpt/ amended",
       "owner": "Senate Economic Development and Workforce Services Committee",
-      "actionDate": "2/7/2025",
+      "actionDate": "2/7/2025 11:26 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -531,7 +581,7 @@
     {
       "description": "Senate/ placed on 2nd Reading Calendar",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "2/7/2025",
+      "actionDate": "2/7/2025 11:26 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -544,7 +594,7 @@
     {
       "description": "Senate/ 2nd reading",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 11:24 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -557,7 +607,7 @@
     {
       "description": "Senate/ passed 2nd reading",
       "owner": "Senate 3rd Reading Calendar",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 11:28 AM",
       "actionClass": "S",
       "voteID": "610",
       "voiceVote": "0",
@@ -570,7 +620,7 @@
     {
       "description": "Senate/ 3rd reading",
       "owner": "Senate 3rd Reading Calendar",
-      "actionDate": "2/19/2025",
+      "actionDate": "2/19/2025 10:29 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -583,7 +633,7 @@
     {
       "description": "Senate/ passed 3rd reading",
       "owner": "Clerk of the House",
-      "actionDate": "2/19/2025",
+      "actionDate": "2/19/2025 10:39 AM",
       "actionClass": "S",
       "voteID": "669",
       "voiceVote": "0",
@@ -596,7 +646,7 @@
     {
       "description": "Senate/ to House",
       "owner": "Clerk of the House",
-      "actionDate": "2/19/2025",
+      "actionDate": "2/19/2025 10:39 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -607,15 +657,28 @@
       "parm2": ""
     },
     {
-      "description": "Senate / held",
-      "owner": "Senate Secretary",
-      "actionDate": "2/19/2025",
-      "actionClass": "S",
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2/21/2025 1:03 PM",
+      "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
-      "actionCode": "SHOLD",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/21/2025 2:15 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

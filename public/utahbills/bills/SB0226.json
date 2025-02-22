@@ -1,6 +1,6 @@
 {
   "bill_id": 1954171,
-  "change_hash": "d28bf0389070b42131b013f2b9db106f",
+  "change_hash": "668d6e9c8c9ddf668245cadd955a9e35",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -137,6 +137,20 @@
     {
       "date": "2025-02-18",
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-21",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-21",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -435,20 +449,20 @@
       "mtgPlace": "120 Senate Building",
       "committeeName": "Senate Business and Labor Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2025/html/00001649.htm",
       "agendaURL": "/~2025/agenda/SBUS0214.ag.htm",
       "billSession": "2025GS",
       "markerID": "271947"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/18/2025",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/21/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/4/2025",
+      "actionDate": "2/4/2025 1:28 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -461,7 +475,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/4/2025",
+      "actionDate": "2/4/2025 1:28 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -474,7 +488,7 @@
     {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "2/4/2025",
+      "actionDate": "2/4/2025 1:44 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -487,7 +501,7 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "2/4/2025",
+      "actionDate": "2/4/2025 2:21 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -500,7 +514,7 @@
     {
       "description": "Senate/ to standing committee",
       "owner": "Senate Business and Labor Committee",
-      "actionDate": "2/5/2025",
+      "actionDate": "2/5/2025 2:08 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -513,7 +527,7 @@
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
       "owner": "Senate Business and Labor Committee",
-      "actionDate": "2/7/2025",
+      "actionDate": "2/7/2025 9:51 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -526,7 +540,7 @@
     {
       "description": "Senate Comm - Not Considered",
       "owner": "Senate Business and Labor Committee",
-      "actionDate": "2/13/2025",
+      "actionDate": "2/13/2025 8:00 AM",
       "actionClass": "A",
       "voteID": "",
       "voiceVote": "",
@@ -539,7 +553,7 @@
     {
       "description": "Senate Comm - Substitute Recommendation",
       "owner": "Senate Business and Labor Committee",
-      "actionDate": "2/14/2025",
+      "actionDate": "2/14/2025 2:09 PM",
       "actionClass": "A",
       "voteID": "35671",
       "voiceVote": "",
@@ -552,7 +566,7 @@
     {
       "description": "Senate Comm - Favorable Recommendation",
       "owner": "Senate Business and Labor Committee",
-      "actionDate": "2/14/2025",
+      "actionDate": "2/14/2025 2:11 PM",
       "actionClass": "A",
       "voteID": "35672",
       "voiceVote": "",
@@ -565,7 +579,7 @@
     {
       "description": "Senate/ comm rpt/ substituted",
       "owner": "Senate Business and Labor Committee",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 2:21 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -578,13 +592,39 @@
     {
       "description": "Senate/ placed on 2nd Reading Calendar",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 2:21 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/21/2025 4:13 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/21/2025 4:16 PM",
+      "actionClass": "S",
+      "voteID": "941",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "22-0-7",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

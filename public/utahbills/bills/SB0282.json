@@ -1,6 +1,6 @@
 {
   "bill_id": 1970638,
-  "change_hash": "49f07215228ec54444f6a4bc84c7a9ec",
+  "change_hash": "298adb2131c2dae4aedb392695b09afb",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-18",
       "event": 9
+    },
+    {
+      "date": "2025-02-21",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Higher Education Hiring Amendments",
   "description": "Higher Education Hiring Amendments",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-18",
@@ -106,6 +105,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-20",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-21",
+      "action": "Senate/ committee report favorable in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-21",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -206,6 +226,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 525151,
+      "date": "2025-02-20",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0282",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0282/id/525151",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB282S10.pdf",
+      "supplement_size": 128245,
+      "supplement_hash": "a4708cb80e35a2f1c233a189d0d8ec17",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -226,15 +266,29 @@
   "fiscal_analyst": "Joseph Ryan Fitzgerald",
   "gov_tracking_id": "WJSUAOATLE",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/18/2025",
+  "agendas": [
+    {
+      "mtgID": "19772",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2025-02-20 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SEDU0220.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "273483"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/21/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/14/2025",
+      "actionDate": "2/14/2025 10:04 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -247,7 +301,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/14/2025",
+      "actionDate": "2/14/2025 10:04 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -260,7 +314,7 @@
     {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "2/14/2025",
+      "actionDate": "2/14/2025 10:32 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -273,7 +327,7 @@
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 9:35 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -286,7 +340,7 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 10:19 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -299,13 +353,52 @@
     {
       "description": "Senate/ to standing committee",
       "owner": "Senate Education Committee",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 12:02 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "2/20/2025 4:33 PM",
+      "actionClass": "A",
+      "voteID": "36117",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-1",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Education Committee",
+      "actionDate": "2/21/2025 10:23 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/21/2025 10:23 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }
