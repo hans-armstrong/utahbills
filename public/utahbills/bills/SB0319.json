@@ -1,6 +1,6 @@
 {
   "bill_id": 1979949,
-  "change_hash": "7c4f661a3139854d30249e964c971833",
+  "change_hash": "dea1f13d755e279d36038eaccfdea4ab",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,18 @@
   "url": "https://legiscan.com/UT/bill/SB0319/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0319.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-24",
+  "progress": [
+    {
+      "date": "2025-02-24",
+      "event": 1
+    },
+    {
+      "date": "2025-02-24",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0319",
@@ -32,9 +41,29 @@
   "current_body_id": 94,
   "title": "Utah Lake Authority Amendments",
   "description": "Utah Lake Authority Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2125,
+  "committee": {
+    "committee_id": 2125,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Natural Resources, Agriculture, and Environment"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-24",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2025-02-24",
+      "committee_id": 2125,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Natural Resources, Agriculture, and Environment"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-21",
@@ -56,6 +85,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-24",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-24",
+      "action": "Senate/ to standing committee in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -137,7 +180,17 @@
   "votes": [],
   "amendments": [],
   "supplements": [],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "f7cf3dc2",
+      "type": "Hearing",
+      "date": "2025-02-25",
+      "time": "16:00",
+      "location": "Room 30 House Building",
+      "description": "Senate Natural Resources, Agriculture, and Environment Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions related to the Utah Lake Authority (lake authority).",
   "hilighted_provisions": "This bill:<hr><ltbullet>modifies certain definitions;<hr><ltbullet>establishes the lake authority's funding sources;<hr><ltbullet>establishes a Utah Lake nature and research center with Utah Valley University;<hr><ltbullet>restructures the appointment process for certain lake authority board members;<hr><ltbullet>creates requirements for when and how lake authority project area plans must be prepared; and<hr><ltbullet>makes technical changes and corrections. ",
   "monies": "",
@@ -146,9 +199,9 @@
   "gov_tracking_id": "WQYOQRTXCS",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ received bill from Legislative Research",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/21/2025",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+  "last_action_time": "2/24/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -160,8 +213,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -173,8 +226,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -186,8 +239,34 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/24/2025 10:21 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/24/2025 2:20 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

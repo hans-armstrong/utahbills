@@ -1,6 +1,6 @@
 {
   "bill_id": 1941597,
-  "change_hash": "afbf2accc6193b38f437cfdade0c5189",
+  "change_hash": "3262732fff6511cdefaa85d9f710091f",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -130,6 +130,27 @@
     {
       "date": "2025-02-18",
       "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-24",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-24",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-24",
+      "action": "House/ held in House Docket Clerk",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -330,14 +351,14 @@
       "markerID": "272235"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "2/18/2025",
+  "last_action": "Senate/ received from House",
+  "last_action_owner": "Waiting for Introduction in the Senate",
+  "last_action_time": "2/25/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/24/2025",
+      "actionDate": "1/24/2025 2:15 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -350,7 +371,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/24/2025",
+      "actionDate": "1/24/2025 2:15 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -363,7 +384,7 @@
     {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "1/27/2025",
+      "actionDate": "1/27/2025 10:03 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -376,7 +397,7 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "1/27/2025",
+      "actionDate": "1/27/2025 11:20 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -389,7 +410,7 @@
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "House Rules Committee",
-      "actionDate": "1/30/2025",
+      "actionDate": "1/30/2025 10:06 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -402,7 +423,7 @@
     {
       "description": "House/ to standing committee",
       "owner": "House Economic Development and Workforce Services Committee",
-      "actionDate": "2/4/2025",
+      "actionDate": "2/4/2025 11:54 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -415,7 +436,7 @@
     {
       "description": "House Comm - Substitute Recommendation",
       "owner": "House Economic Development and Workforce Services Committee",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 8:18 AM",
       "actionClass": "A",
       "voteID": "35746",
       "voiceVote": "",
@@ -428,7 +449,7 @@
     {
       "description": "House Comm - Favorable Recommendation",
       "owner": "House Economic Development and Workforce Services Committee",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 8:18 AM",
       "actionClass": "A",
       "voteID": "35747",
       "voiceVote": "",
@@ -441,7 +462,7 @@
     {
       "description": "House/ comm rpt/ substituted",
       "owner": "House Economic Development and Workforce Services Committee",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 2:13 PM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -454,13 +475,78 @@
     {
       "description": "House/ 2nd reading",
       "owner": "House 3rd Reading Calendar for House bills",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 2:13 PM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/24/2025 3:20 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "2/24/2025 3:23 PM",
+      "actionClass": "H",
+      "voteID": "704",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "69-0-6",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ held",
+      "owner": "House Docket Clerk",
+      "actionDate": "2/24/2025 3:23 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HHOLD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2/25/2025 10:19 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "2/25/2025 12:10 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
       "parm1": "",
       "parm2": ""
     }

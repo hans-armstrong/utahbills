@@ -1,6 +1,6 @@
 {
   "bill_id": 1947141,
-  "change_hash": "40abffd8eb7d5fbd4c3d837ce27a4996",
+  "change_hash": "581c4a688d5639eac7ce85906f3fbad8",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SB0192/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0192.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2025-02-21",
   "progress": [
     {
@@ -49,8 +49,13 @@
   "current_body_id": 93,
   "title": "Commercial Wind and Solar Incentives Amendments",
   "description": "Commercial Wind and Solar Incentives Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-01-30",
@@ -65,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Transportation, Public Utilities, Energy, and Technology"
+    },
+    {
+      "date": "2025-02-24",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -179,6 +191,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-24",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -847,9 +866,9 @@
       "markerID": "266669"
     }
   ],
-  "last_action": "House/ received from Senate",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/21/2025",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Public Utilities and Energy Committee",
+  "last_action_time": "2/25/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1056,6 +1075,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/24/2025 10:14 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "2/25/2025 11:58 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

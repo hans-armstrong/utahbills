@@ -1,6 +1,6 @@
 {
   "bill_id": 1979856,
-  "change_hash": "8ed51afcaf5391f720caf947a1692bc7",
+  "change_hash": "e80c45bdd05b76df7e51fc78bc2a9f3f",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0541/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0541.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-24",
+  "progress": [
+    {
+      "date": "2025-02-24",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0541",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Olympic Legacy Liability Amendments",
   "description": "Olympic Legacy Liability Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-24",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-21",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-24",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-24",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -109,19 +141,40 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 528574,
+      "date": "2025-02-25",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0541",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0541/id/528574",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0541.fn.pdf",
+      "supplement_size": 1608362,
+      "supplement_hash": "3de171729c93dee46ed966002a39d132",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill modifies provisions related to the Olympic and Paralympic Winter Games Act and winter sports activities.",
   "hilighted_provisions": "This bill:<hr><ltbullet>provides public policy considerations;<hr><ltbullet>provides definitions;<hr><ltbullet>establishes limitations on liability for claims against the operator of a specified winter sports area;<hr><ltbullet>requires a specified winter sports area to give notice of the liability limitations;<hr><ltbullet>permits a winter sports area operator to enter into a contract with a winter sports participant to limit the operator's liability;<hr><ltbullet>specifies the amount of liability caps and provides for adjustment of the liability caps; and<hr><ltbullet>makes conforming changes.",
   "monies": "None",
   "attorney": "Eric N. Weeks",
-  "fiscal_analyst": "Gary R. Syphus",
+  "fiscal_analyst": "Alejandra G Rodriguez",
   "gov_tracking_id": "QXSNPWMIYQ",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/21/2025",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Economic Development and Workforce Services Committee",
+  "last_action_time": "2/25/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -146,6 +199,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2/24/2025 9:05 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/24/2025 10:15 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "2/25/2025 11:57 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

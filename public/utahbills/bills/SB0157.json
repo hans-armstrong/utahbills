@@ -1,6 +1,6 @@
 {
   "bill_id": 1937119,
-  "change_hash": "8c250c279e254f3f25bf251b1355b3a3",
+  "change_hash": "54b15c0a5cf600dac6f5362d6acf6ad1",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-20",
       "event": 9
+    },
+    {
+      "date": "2025-02-24",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 93,
   "title": "Nonjudicial Adjustment Amendments",
   "description": "Nonjudicial Adjustment Amendments",
-  "pending_committee_id": 2109,
-  "committee": {
-    "committee_id": 2109,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Judiciary"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-24",
@@ -216,6 +215,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-24",
+      "action": "House Comm - Favorable Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-24",
+      "action": "House/ committee report favorable in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-24",
+      "action": "House/ return to Rules due to fiscal impact in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -413,6 +433,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 527948,
+      "date": "2025-02-24",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0157",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0157/id/527948",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB157H10.pdf",
+      "supplement_size": 141280,
+      "supplement_hash": "4f720943955a1629af93fb71d752989e",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -424,6 +464,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "e76a27db",
+      "type": "Hearing",
+      "date": "2025-02-24",
+      "time": "08:00",
+      "location": "Room 30 House Building",
+      "description": "House Judiciary Hearing"
     }
   ],
   "general_provisions": "This bill modifies the provisions of the Indigent Defense Act in relation to nonjudicial adjustments and access to legal counsel.",
@@ -434,6 +483,19 @@
   "gov_tracking_id": "UQENTFAVXK",
   "comrecommend": [],
   "agendas": [
+    {
+      "mtgID": "19916",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2025-02-24 08:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HJUD0224.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "274114"
+    },
     {
       "mtgID": "19621",
       "committeeID": "SSTJLC",
@@ -448,243 +510,282 @@
       "markerID": "266689"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Judiciary Committee",
-  "last_action_time": "2/20/2025",
+  "last_action": "House/ return to Rules due to fiscal impact",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/24/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/23/2025",
+      "actionDate": "1/23/2025 9:19 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/23/2025",
+      "actionDate": "1/23/2025 9:19 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "1/23/2025",
+      "actionDate": "1/23/2025 12:01 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "1/24/2025",
+      "actionDate": "1/24/2025 11:35 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ to standing committee",
       "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-      "actionDate": "1/28/2025",
+      "actionDate": "1/28/2025 11:16 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
       "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-      "actionDate": "1/29/2025",
+      "actionDate": "1/29/2025 9:03 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate Comm - Substitute Recommendation",
       "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-      "actionDate": "1/31/2025",
+      "actionDate": "1/31/2025 2:20 PM",
       "actionClass": "A",
       "voteID": "34589",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "6-0-3",
       "actionCode": "SCASUB",
-      "parm1": "1",
-      "parm2": "0"
+      "parm2": "0",
+      "parm1": "1"
     },
     {
       "description": "Senate Comm - Favorable Recommendation",
       "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-      "actionDate": "1/31/2025",
+      "actionDate": "1/31/2025 2:24 PM",
       "actionClass": "A",
       "voteID": "34592",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "7-0-2",
       "actionCode": "SCAFAV",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ comm rpt/ substituted",
       "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-      "actionDate": "2/3/2025",
+      "actionDate": "2/3/2025 11:20 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCRSUB",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ placed on 2nd Reading Calendar",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "2/3/2025",
+      "actionDate": "2/3/2025 11:20 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 2nd reading",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "2/11/2025",
+      "actionDate": "2/11/2025 2:29 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ passed 2nd reading",
       "owner": "Senate 3rd Reading Calendar",
-      "actionDate": "2/11/2025",
+      "actionDate": "2/11/2025 2:31 PM",
       "actionClass": "S",
       "voteID": "416",
       "voiceVote": "0",
       "voteHouse": "S",
       "voteStr": "21-0-8",
       "actionCode": "SPASS2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 3rd reading",
       "owner": "Senate 3rd Reading Calendar",
-      "actionDate": "2/12/2025",
+      "actionDate": "2/12/2025 11:23 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ passed 3rd reading",
       "owner": "Clerk of the House",
-      "actionDate": "2/12/2025",
+      "actionDate": "2/12/2025 11:25 AM",
       "actionClass": "S",
       "voteID": "462",
       "voiceVote": "0",
       "voteHouse": "S",
       "voteStr": "29-0-0",
       "actionCode": "SPASS3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ to House",
       "owner": "Clerk of the House",
-      "actionDate": "2/12/2025",
+      "actionDate": "2/12/2025 11:25 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOHOU",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received from Senate",
       "owner": "Clerk of the House",
-      "actionDate": "2/12/2025",
+      "actionDate": "2/12/2025 1:01 PM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "2/13/2025",
+      "actionDate": "2/13/2025 10:17 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ to standing committee",
       "owner": "House Judiciary Committee",
-      "actionDate": "2/20/2025",
+      "actionDate": "2/20/2025 11:37 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/24/2025 9:57 AM",
+      "actionClass": "A",
+      "voteID": "36304",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-1",
+      "actionCode": "HCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/24/2025 2:12 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ return to Rules due to fiscal impact",
+      "owner": "House Rules Committee",
+      "actionDate": "2/24/2025 2:12 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRETRULFIS",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

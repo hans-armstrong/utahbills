@@ -1,6 +1,6 @@
 {
   "bill_id": 1968563,
-  "change_hash": "6d4d3a0fdf20450d10aaf38425871016",
+  "change_hash": "cb09a592560adeec45139fb78fd8dd8b",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-20",
       "event": 9
+    },
+    {
+      "date": "2025-02-24",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Department of Environmental Quality Amendments",
   "description": "Department of Environmental Quality Amendments",
-  "pending_committee_id": 2111,
-  "committee": {
-    "committee_id": 2111,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Natural Resources, Agriculture, and Environment"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-14",
@@ -106,6 +105,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-24",
+      "action": "House Comm - Substitute Recommendation in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-24",
+      "action": "House Comm - Favorable Recommendation in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-24",
+      "action": "House/ comm rpt/ substituted in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-24",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -144,20 +171,16 @@
       "subject_name": "Environment"
     },
     {
-      "subject_id": 15385,
-      "subject_name": "Asbestos"
+      "subject_id": 332738,
+      "subject_name": "Air Quality"
+    },
+    {
+      "subject_id": 12055,
+      "subject_name": "Emissions Control"
     },
     {
       "subject_id": 12042,
       "subject_name": "Department of Environmental Quality"
-    },
-    {
-      "subject_id": 332639,
-      "subject_name": "Hazardous Materials"
-    },
-    {
-      "subject_id": 11851,
-      "subject_name": "Government Operations (State Issues)"
     }
   ],
   "texts": [
@@ -172,6 +195,24 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0499.pdf",
       "text_size": 55304,
       "text_hash": "d21f70f5cc1e9dbe6bef89bf09dd22f4",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3137659,
+      "date": "2025-02-22",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0499/id/3137659",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0499S01.pdf",
+      "text_size": 34931,
+      "text_hash": "5c423aa9ac3dc1f28d09630cffe90ee9",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -202,6 +243,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 527017,
+      "date": "2025-02-22",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #0",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0499/id/527017",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0499%20To%20HB0499S01.pdf",
+      "supplement_size": 75141,
+      "supplement_hash": "9c21294c2737b552eefb573a9828144d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 528070,
+      "date": "2025-02-24",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0499",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0499/id/528070",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB499H10.pdf",
+      "supplement_size": 143174,
+      "supplement_hash": "9b187ea2951188e489b79fcbd9650bef",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -216,16 +297,30 @@
     }
   ],
   "general_provisions": "This bill addresses the Department of Environmental Quality.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>modifies rulemaking processes for policy boards within the Department of Environmental Quality;<hr><ltbullet>modifies the qualifications of Air Quality Board members; <hr><ltbullet>provides a transition for the Air Quality Board; <hr><ltbullet>modifies powers of the Air Quality Board related to asbestos; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>modifies the qualifications of Air Quality Board members; <hr><ltbullet>provides a transition for the Air Quality Board; <hr><ltbullet>addresses adjacency between certain generation facilities;<hr><ltbullet>removes regulations for water heaters in certain areas; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Patricia Owen",
   "fiscal_analyst": "Lacey K. Moore",
   "gov_tracking_id": "NGBLVVYBUA",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "2/20/2025",
+  "agendas": [
+    {
+      "mtgID": "19913",
+      "committeeID": "HSTNAE",
+      "mtgDate": "2025-02-24 08:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HNAE0224.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "274070"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/24/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -237,8 +332,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -250,8 +345,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -263,8 +358,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -276,8 +371,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -289,8 +384,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ to standing committee",
@@ -302,8 +397,60 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/24/2025 9:21 AM",
+      "actionClass": "A",
+      "voteID": "36293",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-0-2",
+      "actionCode": "HCASUB",
+      "parm2": "0",
+      "parm1": "1"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/24/2025 9:21 AM",
+      "actionClass": "A",
+      "voteID": "36294",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-1-2",
+      "actionCode": "HCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/24/2025 2:16 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/24/2025 2:16 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

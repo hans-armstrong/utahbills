@@ -1,6 +1,6 @@
 {
   "bill_id": 1979379,
-  "change_hash": "682f7b6af56359ac079ce3401e699440",
+  "change_hash": "8df8d02f361f253f5698ccc9a87893da",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,18 @@
   "url": "https://legiscan.com/UT/bill/SB0318/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0318.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-24",
+  "progress": [
+    {
+      "date": "2025-02-24",
+      "event": 1
+    },
+    {
+      "date": "2025-02-24",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0318",
@@ -32,9 +41,29 @@
   "current_body_id": 94,
   "title": "Prosecutorial Misconduct Amendments",
   "description": "Prosecutorial Misconduct Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2124,
+  "committee": {
+    "committee_id": 2124,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Judiciary, Law Enforcement, and Criminal Justice"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-24",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2025-02-24",
+      "committee_id": 2124,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Judiciary, Law Enforcement, and Criminal Justice"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-21",
@@ -49,6 +78,27 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-21",
+      "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-24",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-24",
+      "action": "Senate/ to standing committee in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -85,6 +135,22 @@
     {
       "subject_id": 332528,
       "subject_name": "Judicial Operations"
+    },
+    {
+      "subject_id": 11982,
+      "subject_name": "Government Records"
+    },
+    {
+      "subject_id": 12074,
+      "subject_name": "Attorneys"
+    },
+    {
+      "subject_id": 11977,
+      "subject_name": "Ethics"
+    },
+    {
+      "subject_id": 11851,
+      "subject_name": "Government Operations (State Issues)"
     }
   ],
   "texts": [
@@ -115,13 +181,13 @@
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>provides that certain records of the Prosecutorial Misconduct Commission are protected;<hr><ltbullet>creates an independent commission called the Prosecutorial Misconduct Commission (commission);<hr><ltbullet>provides the membership of the commission;<hr><ltbullet>addresses terms, vacancies, and compensation for members of the commission;<hr><ltbullet>allows the commission to select a chair and vice chair for a two-year term;<hr><ltbullet>addresses staff and expenses for the commission;<hr><ltbullet>addresses the duties and functions of the commission;<hr><ltbullet>addresses the complaint and investigation process for the commission;<hr><ltbullet>allows the commission to hold a hearing on a complaint;<hr><ltbullet>provides the action that the commission may take upon a determination that prosecutorial misconduct occurred;<hr><ltbullet>addresses the confidentiality of records of the commission; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Jacqueline Carlton",
-  "fiscal_analyst": "Ivan D. Djambov",
+  "fiscal_analyst": "Nate Osborne",
   "gov_tracking_id": "QYGNEMPUKY",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/21/2025",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+  "last_action_time": "2/24/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -159,6 +225,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/24/2025 10:21 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/24/2025 2:20 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

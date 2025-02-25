@@ -1,6 +1,6 @@
 {
   "bill_id": 1903076,
-  "change_hash": "3c7cca22cd8fed696661b654507df93d",
+  "change_hash": "f96393544efce0d8abdf8802da3434d6",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-01-21",
       "event": 1
+    },
+    {
+      "date": "2025-02-24",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Income Tax Revisions",
   "description": "Income Tax Revisions",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2115,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2115,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Revenue and Taxation"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-24",
+      "committee_id": 2115,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -85,6 +96,13 @@
     {
       "date": "2025-01-21",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-24",
+      "action": "House/ to standing committee in House Revenue and Taxation Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -124,18 +142,6 @@
     {
       "subject_id": 11888,
       "subject_name": "Revenue and Taxation"
-    },
-    {
-      "subject_id": 11886,
-      "subject_name": "Corporate Tax"
-    },
-    {
-      "subject_id": 11887,
-      "subject_name": "Income Tax"
-    },
-    {
-      "subject_id": 175352,
-      "subject_name": "Individual Income Tax"
     }
   ],
   "texts": [
@@ -150,6 +156,24 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0106.pdf",
       "text_size": 22195,
       "text_hash": "8395296a71a68afdac3d0110cb3b6b27",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3139648,
+      "date": "2025-02-24",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0106/id/3139648",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0106S01.pdf",
+      "text_size": 22386,
+      "text_hash": "9ea34ff4105e9518ba5bcdf48489fca9",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -180,9 +204,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 528353,
+      "date": "2025-02-24",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #0",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0106/id/528353",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0106%20To%20HB0106S01.pdf",
+      "supplement_size": 23691,
+      "supplement_hash": "a41efef098b8a784a27ab3bd57dbfe87",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "f7566ed7",
+      "type": "Hearing",
+      "date": "2025-02-25",
+      "time": "08:00",
+      "location": "Room 30 House Building",
+      "description": "House Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill amends income tax provisions.",
   "hilighted_provisions": "This bill:<hr><ltbullet>amends the corporate franchise and income tax rates; and<hr><ltbullet>amends the individual income tax rate.",
   "monies": "None",
@@ -190,75 +244,128 @@
   "fiscal_analyst": "Andrea Wilko",
   "gov_tracking_id": "EMHFTEWXNN",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/21/2025",
+  "agendas": [
+    {
+      "mtgID": "19884",
+      "committeeID": "HSTREV",
+      "mtgDate": "2025-02-25 08:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HREV0225.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "274185"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
+  "last_action_owner": "House Revenue and Taxation Committee",
+  "last_action_time": "2/25/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/6/2025",
+      "actionDate": "1/6/2025 2:04 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/6/2025",
+      "actionDate": "1/6/2025 2:04 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "1/15/2025",
+      "actionDate": "1/15/2025 12:51 PM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "Clerk of the House",
-      "actionDate": "1/21/2025",
+      "actionDate": "1/21/2025 9:08 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "1/21/2025",
+      "actionDate": "1/21/2025 3:27 PM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/24/2025 11:02 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/25/2025 8:32 AM",
+      "actionClass": "A",
+      "voteID": "36326",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-1",
+      "actionCode": "HCASUB",
+      "parm2": "0",
+      "parm1": "1"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/25/2025 8:34 AM",
+      "actionClass": "A",
+      "voteID": "36327",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-2-1",
+      "actionCode": "HCAFAV",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

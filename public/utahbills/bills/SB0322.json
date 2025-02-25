@@ -1,6 +1,6 @@
 {
   "bill_id": 1979902,
-  "change_hash": "dbea557999ae69a052c66a2b3921814e",
+  "change_hash": "7ec419bf5e8b4d9ee6f09623610f380a",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,18 @@
   "url": "https://legiscan.com/UT/bill/SB0322/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0322.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-24",
+  "progress": [
+    {
+      "date": "2025-02-24",
+      "event": 1
+    },
+    {
+      "date": "2025-02-24",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0322",
@@ -32,9 +41,29 @@
   "current_body_id": 94,
   "title": "Municipality Annexation and Incorporation Amendments",
   "description": "Municipality Annexation and Incorporation Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2122,
+  "committee": {
+    "committee_id": 2122,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Government Operations and Political Subdivisions"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-24",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2025-02-24",
+      "committee_id": 2122,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Government Operations and Political Subdivisions"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-21",
@@ -56,6 +85,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-24",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-24",
+      "action": "Senate/ to standing committee in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -138,13 +181,13 @@
   "hilighted_provisions": "This bill:<hr><ltbullet>requires an annexation policy plan to include a statement regarding: <hr><ltbullet1>the current county zoning of an unincorporated area proposed for annexation; and<hr><ltbullet1>the zoning likely to be applied, should the unincorporated area be annexed to the municipality, to the unincorporated area proposed for annexation; <hr><ltbullet>prohibits a municipality from zoning in an affected area in a manner that results in the affected area being utilized in a more restrictive way than before the affected area was annexed into the municipality, for at least one year following the date of annexation;<hr><ltbullet>requires a municipal legislative body to establish by ordinance a process to compensate a property owner for a reduction in property value following an annexation or incorporation and subsequent zoning for a more restrictive use of the property; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "RuthAnne Oakey-Frost",
-  "fiscal_analyst": "Timothy Kevin Bereece",
+  "fiscal_analyst": "Travis D Eisenbacher",
   "gov_tracking_id": "JKHTJKVSOE",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ received bill from Legislative Research",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/21/2025",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
+  "last_action_time": "2/24/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -156,8 +199,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -169,8 +212,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -182,8 +225,34 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/24/2025 10:21 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2/24/2025 2:20 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }
