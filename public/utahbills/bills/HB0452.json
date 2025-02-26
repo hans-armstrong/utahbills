@@ -1,6 +1,6 @@
 {
   "bill_id": 1963098,
-  "change_hash": "11056489e50a13334d9f489a49f89e27",
+  "change_hash": "2d8f27c6d83ed14bebb8929102e6ccd3",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Artificial Intelligence Amendments",
   "description": "Artificial Intelligence Amendments",
-  "pending_committee_id": 2860,
-  "committee": {
-    "committee_id": 2860,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Economic Development and Workforce Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-10",
@@ -103,6 +98,20 @@
     {
       "date": "2025-02-20",
       "action": "House/ received fiscal note from Fiscal Analyst in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-25",
+      "action": "House Comm - Substitute Recommendation in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-25",
+      "action": "House Comm - Favorable Recommendation in House Economic Development and Workforce Services Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -221,7 +230,29 @@
     }
   ],
   "votes": [],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 231807,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2025-02-25",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0452/id/231807",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/HB0452S02.Hamd.1.pdf",
+      "amendment_size": 9365,
+      "amendment_hash": "86473d5282a75729c0e41f24383d99f8",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 521542,
@@ -342,6 +373,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 529423,
+      "date": "2025-02-25",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0452",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0452/id/529423",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB452H10.pdf",
+      "supplement_size": 144412,
+      "supplement_hash": "171a24e5249ff578fd5d612f14aee15c",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -362,10 +413,24 @@
   "fiscal_analyst": "Alejandra G Rodriguez",
   "gov_tracking_id": "AFSELELURK",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
+  "agendas": [
+    {
+      "mtgID": "19888",
+      "committeeID": "HSTEDW",
+      "mtgDate": "2025-02-25 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Economic Development and Workforce Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HEDW0225.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "274493"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Economic Development and Workforce Services Committee",
-  "last_action_time": "2/20/2025",
+  "last_action_time": "2/25/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -442,6 +507,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "2/25/2025 4:40 PM",
+      "actionClass": "A",
+      "voteID": "36424",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-1",
+      "actionCode": "HCASUB",
+      "parm2": "0",
+      "parm1": "2"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "2/25/2025 4:40 PM",
+      "actionClass": "A",
+      "voteID": "36426",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-1",
+      "actionCode": "HCAFAV",
       "parm2": "",
       "parm1": ""
     }

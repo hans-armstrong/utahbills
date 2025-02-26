@@ -1,6 +1,6 @@
 {
   "bill_id": 1972608,
-  "change_hash": "b36233addc2fda683796e1ee2ca4503d",
+  "change_hash": "9cec8ba40bc01572289ffc70080761b5",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Health Care Access Amendments",
   "description": "Health Care Access Amendments",
-  "pending_committee_id": 2108,
-  "committee": {
-    "committee_id": 2108,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-18",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-25",
+      "action": "House Comm - Favorable Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -1344,6 +1346,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 529415,
+      "date": "2025-02-25",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0519",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0519/id/529415",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB519H10.pdf",
+      "supplement_size": 137409,
+      "supplement_hash": "33e2df8eca0445074efc8d0a1c8e1bc1",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -1364,10 +1386,24 @@
   "fiscal_analyst": "Sean C. Faherty",
   "gov_tracking_id": "LTIVUTOUMP",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19863",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2025-02-25 16:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HHHS0225.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "274518"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Health and Human Services Committee",
-  "last_action_time": "2/24/2025",
+  "last_action_time": "2/25/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1444,6 +1480,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/25/2025 4:50 PM",
+      "actionClass": "A",
+      "voteID": "36428",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-0-2",
+      "actionCode": "HCAFAV",
       "parm2": "",
       "parm1": ""
     }

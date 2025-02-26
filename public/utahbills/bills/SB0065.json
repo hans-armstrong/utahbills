@@ -1,6 +1,6 @@
 {
   "bill_id": 1901569,
-  "change_hash": "e9df0a543dfde75eafaeaa3aaf8c7c72",
+  "change_hash": "b583ad21e5ef350db323a63348040cdb",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SB0065/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0065.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2025-01-21",
+  "status": 2,
+  "status_date": "2025-02-25",
   "progress": [
     {
       "date": "2025-01-21",
@@ -32,6 +32,10 @@
     {
       "date": "2025-01-28",
       "event": 10
+    },
+    {
+      "date": "2025-02-25",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -45,8 +49,13 @@
   "current_body_id": 93,
   "title": "Medication Assisted Treatment Amendments",
   "description": "Medication Assisted Treatment Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-01-21",
@@ -61,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Health and Human Services"
+    },
+    {
+      "date": "2025-02-25",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -200,6 +216,20 @@
     {
       "date": "2025-02-24",
       "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-25",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-25",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -585,8 +615,8 @@
       "markerID": "264515"
     }
   ],
-  "last_action": "House/ received from Senate",
-  "last_action_owner": "Clerk of the House",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
   "last_action_time": "2/25/2025",
   "action_history": [
     {
@@ -859,6 +889,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/25/2025 2:08 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

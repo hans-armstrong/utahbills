@@ -1,6 +1,6 @@
 {
   "bill_id": 1899804,
-  "change_hash": "40bd4134cbaaf4708b46a5c64d5c4d03",
+  "change_hash": "cd8a5cb1b7abe806330ac1295db186e1",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,13 +53,8 @@
   "current_body_id": 94,
   "title": "Electricity Rate Amendments",
   "description": "Electricity Rate Amendments",
-  "pending_committee_id": 3583,
-  "committee": {
-    "committee_id": 3583,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Transportation, Public Utilities, Energy, and Technology"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -195,6 +190,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-25",
+      "action": "Senate Comm - Not Considered in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -307,7 +309,29 @@
     }
   ],
   "votes": [],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 231819,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2025-02-25",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0072/id/231819",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/HB0072S01.Hamd.1.pdf",
+      "amendment_size": 7140,
+      "amendment_hash": "86ecdd7759b56363c58e860fc916618f",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 497458,
@@ -362,6 +386,26 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0072%20To%20HB0072S01.pdf",
       "supplement_size": 46642,
       "supplement_hash": "fa9cf3a0f55a55fc77e74cd4a28f0db2",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 529161,
+      "date": "2025-02-25",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0072S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0072/id/529161",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0072S01.fn.pdf",
+      "supplement_size": 1608377,
+      "supplement_hash": "50b6457e98944751cbd2f83320948804",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -424,11 +468,24 @@
       "agendaURL": "/~2025/agenda/HPUT0122.ag.htm",
       "billSession": "2025GS",
       "markerID": "262979"
+    },
+    {
+      "mtgID": "19927",
+      "committeeID": "SSTTPT",
+      "mtgDate": "2025-02-25 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/STPT0225.ag.htm",
+      "billSession": "2025GS",
+      "markerID": ""
     }
   ],
-  "last_action": "Senate/ to standing committee",
+  "last_action": "Senate Comm - Not Considered",
   "last_action_owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
-  "last_action_time": "2/3/2025",
+  "last_action_time": "2/25/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -622,6 +679,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Not Considered",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "2/25/2025 4:00 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCANOCNSDR",
       "parm2": "",
       "parm1": ""
     }

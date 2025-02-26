@@ -1,6 +1,6 @@
 {
   "bill_id": 1971601,
-  "change_hash": "a4758769d1d6dbd0cdcc79b596e8ff9c",
+  "change_hash": "28fbf5f5f92c984bf51ec0b4afac9002",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -19,7 +19,7 @@
   "state_link": "https://le.utah.gov/~2025/bills/static/SCR004.html",
   "completed": 0,
   "status": 1,
-  "status_date": "2025-02-18",
+  "status_date": "2025-02-25",
   "progress": [
     {
       "date": "2025-02-18",
@@ -32,6 +32,10 @@
     {
       "date": "2025-02-20",
       "event": 10
+    },
+    {
+      "date": "2025-02-25",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,8 +45,8 @@
   "bill_type_id": "3",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Concurrent Resolution Fostering Social Connection and Establishing Utah Community Health Day",
   "description": "Concurrent Resolution Fostering Social Connection and Establishing Utah Community Health Day",
   "pending_committee_id": 0,
@@ -147,6 +151,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-25",
+      "action": "Senate/ uncircled in Senate Consent Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-25",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-25",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-25",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -173,6 +205,33 @@
       "bioguide_id": "",
       "sponsor_type_id": 1,
       "sponsor_order": 1,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
+    {
+      "people_id": 12088,
+      "person_hash": "qmo5dy34",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Steve Eliason",
+      "first_name": "Steve",
+      "middle_name": "",
+      "last_name": "Eliason",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-043",
+      "ftm_eid": 6684185,
+      "votesmart_id": 121355,
+      "opensecrets_id": "",
+      "knowwho_pid": 293061,
+      "ballotpedia": "Steven_Eliason",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -290,8 +349,8 @@
       "markerID": "273191"
     }
   ],
-  "last_action": "Senate/ circled",
-  "last_action_owner": "Senate Consent Calendar",
+  "last_action": "House/ received from Senate",
+  "last_action_owner": "Clerk of the House",
   "last_action_time": "2/25/2025",
   "action_history": [
     {
@@ -447,6 +506,58 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SCIRCLED",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate Consent Calendar",
+      "actionDate": "2/25/2025 3:34 PM",
+      "actionClass": "S",
+      "voteID": "1154",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Clerk of the House",
+      "actionDate": "2/25/2025 3:36 PM",
+      "actionClass": "S",
+      "voteID": "1155",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "24-0-5",
+      "actionCode": "SPASS3",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2/25/2025 3:36 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2/25/2025 3:49 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
       "parm2": "",
       "parm1": ""
     }

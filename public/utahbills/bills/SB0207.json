@@ -1,6 +1,6 @@
 {
   "bill_id": 1950958,
-  "change_hash": "8cdb2200f4ee270eee933fad0adadd42",
+  "change_hash": "eb94e159cc57ece749c288e3e376401d",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SB0207/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0207.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2025-02-25",
   "progress": [
     {
@@ -49,8 +49,13 @@
   "current_body_id": 93,
   "title": "Local Impact Mitigation Amendments",
   "description": "Local Impact Mitigation Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-02-03",
@@ -65,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Revenue and Taxation"
+    },
+    {
+      "date": "2025-02-25",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -179,6 +191,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-25",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -435,8 +454,8 @@
       "markerID": "270720"
     }
   ],
-  "last_action": "House/ received from Senate",
-  "last_action_owner": "Clerk of the House",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
   "last_action_time": "2/25/2025",
   "action_history": [
     {
@@ -644,6 +663,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/25/2025 2:08 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

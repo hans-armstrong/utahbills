@@ -1,6 +1,6 @@
 {
   "bill_id": 1982665,
-  "change_hash": "1806b888036d5041935cc308695b3202",
+  "change_hash": "df6e8670621783d1139df34794310fcf",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0553/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0553.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2025-02-25",
+  "progress": [
+    {
+      "date": "2025-02-25",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0553",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "State Grant Process Amendments",
   "description": "State Grant Process Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-02-25",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-02-25",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-25",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-25",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -85,6 +117,18 @@
     {
       "subject_id": 11851,
       "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 11966,
+      "subject_name": "Public Funds and Accounts"
+    },
+    {
+      "subject_id": 332524,
+      "subject_name": "Legislative Operations"
+    },
+    {
+      "subject_id": 11849,
+      "subject_name": "Appropriations"
     }
   ],
   "texts": [
@@ -115,12 +159,12 @@
   "hilighted_provisions": "This bill:<hr><ltbullet>for direct award grants, prohibits an administering agency from using grant funds to administer the grant, unless otherwise provided in the grant appropriation's intent language;<hr><ltbullet>modifies certain reporting requirements for competitive grants; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Christine R. Gilbert",
-  "fiscal_analyst": "Ivan D. Djambov",
+  "fiscal_analyst": "Andrea Wilko",
   "gov_tracking_id": "NUMTBWKBRM",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received bill from Legislative Research",
-  "last_action_owner": "Clerk of the House",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
   "last_action_time": "2/25/2025",
   "action_history": [
     {
@@ -133,8 +177,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -146,8 +190,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -159,8 +203,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/25/2025 2:08 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

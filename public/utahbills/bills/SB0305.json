@@ -1,6 +1,6 @@
 {
   "bill_id": 1975650,
-  "change_hash": "2cf28a493fe31df86da02f7e5bba3e05",
+  "change_hash": "67886fa3b7a20b45dfb3dc46ca66f5e4",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Water Wise Landscaping Amendments",
   "description": "Water Wise Landscaping Amendments",
-  "pending_committee_id": 2125,
-  "committee": {
-    "committee_id": 2125,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Natural Resources, Agriculture, and Environment"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-20",
@@ -103,6 +98,20 @@
     {
       "date": "2025-02-21",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-25",
+      "action": "Senate Comm - Amendment Recommendation in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-25",
+      "action": "Senate Comm - Motion to Recommend Failed in Senate Natural Resources, Agriculture, and Environment Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -177,7 +186,29 @@
     }
   ],
   "votes": [],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 231941,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2025-02-25",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0305/id/231941",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/SB0305.Samd.1.pdf",
+      "amendment_size": 6417,
+      "amendment_hash": "d4f1bd56b1e7be20b841d6ed1655c78d",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 526078,
@@ -218,7 +249,21 @@
   "fiscal_analyst": "Sean C. Faherty",
   "gov_tracking_id": "DUCQIMQIOR",
   "comrecommend": [],
-  "agendas": [],
+  "agendas": [
+    {
+      "mtgID": "19901",
+      "committeeID": "SSTNAE",
+      "mtgDate": "2025-02-25 16:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SNAE0225.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "274536"
+    }
+  ],
   "last_action": "Senate/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "Senate Natural Resources, Agriculture, and Environment Committee",
   "last_action_time": "2/21/2025",
@@ -298,6 +343,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Amendment Recommendation",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/25/2025 4:38 PM",
+      "actionClass": "A",
+      "voteID": "36423",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-1",
+      "actionCode": "SCAAMD",
+      "parm2": "",
+      "parm1": "1"
+    },
+    {
+      "description": "Senate Comm - Motion to Recommend Failed",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/25/2025 4:55 PM",
+      "actionClass": "A",
+      "voteID": "36432",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-3-1",
+      "actionCode": "SCAFAVFAIL",
       "parm2": "",
       "parm1": ""
     }

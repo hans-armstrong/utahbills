@@ -1,6 +1,6 @@
 {
   "bill_id": 1979912,
-  "change_hash": "61d597065ffac2206686fb4c3c9710b9",
+  "change_hash": "c9834d3a5f5694e7e6ae325a76abe8c1",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -99,6 +99,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-25",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -125,6 +132,33 @@
       "bioguide_id": "",
       "sponsor_type_id": 1,
       "sponsor_order": 1,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
+    {
+      "people_id": 21414,
+      "person_hash": "wdbunkq2",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Candice Pierucci",
+      "first_name": "Candice",
+      "middle_name": "B.",
+      "last_name": "Pierucci",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-049",
+      "ftm_eid": 49322668,
+      "votesmart_id": 187653,
+      "opensecrets_id": "",
+      "knowwho_pid": 576095,
+      "ballotpedia": "Candice_Pierucci",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -179,8 +213,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 528907,
+      "date": "2025-02-25",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0321",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0321/id/528907",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SB0321.fn.pdf",
+      "supplement_size": 1609602,
+      "supplement_hash": "4e366e7e3932f3bb18cf6a900f0f3a57",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "3ab8603a",
+      "type": "Hearing",
+      "date": "2025-02-26",
+      "time": "16:00",
+      "location": "Room 30 House Building",
+      "description": "Senate Education Hearing"
+    }
+  ],
   "general_provisions": "This bill removes a hold harmless provision.",
   "hilighted_provisions": "This bill:<hr><ltbullet>removes a hold harmless provision related to voted and board levies; <hr><ltbullet>provides for a graduated phase out of the hold harmless provision; and<hr><ltbullet>makes technical corrections.",
   "monies": "None",
@@ -189,9 +254,9 @@
   "gov_tracking_id": "AYARJFHVDQ",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/24/2025",
+  "last_action_time": "2/25/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -255,6 +320,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Education Committee",
+      "actionDate": "2/25/2025 2:09 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1972084,
-  "change_hash": "0220a0ad7487f595dbcd2ab9054210ca",
+  "change_hash": "e42adf82e6d44197f098cbf08e5e85ad",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SB0284/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0284.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2025-02-18",
+  "status": 2,
+  "status_date": "2025-02-25",
   "progress": [
     {
       "date": "2025-02-18",
@@ -32,6 +32,10 @@
     {
       "date": "2025-02-21",
       "event": 10
+    },
+    {
+      "date": "2025-02-25",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -45,8 +49,13 @@
   "current_body_id": 93,
   "title": "Medicaid Doula Services",
   "description": "Medicaid Doula Services",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-02-18",
@@ -61,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Health and Human Services"
+    },
+    {
+      "date": "2025-02-25",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -158,6 +174,20 @@
     {
       "date": "2025-02-25",
       "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-25",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-25",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -339,8 +369,8 @@
       "markerID": "273499"
     }
   ],
-  "last_action": "House/ received from Senate",
-  "last_action_owner": "Clerk of the House",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
   "last_action_time": "2/25/2025",
   "action_history": [
     {
@@ -535,6 +565,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/25/2025 2:08 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

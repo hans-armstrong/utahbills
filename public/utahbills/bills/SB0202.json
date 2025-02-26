@@ -1,6 +1,6 @@
 {
   "bill_id": 1950786,
-  "change_hash": "c82d7d428456bd4260dc50d4536b0053",
+  "change_hash": "f359f0300d158bf379e2853031a5e8a3",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-21",
       "event": 9
+    },
+    {
+      "date": "2025-02-25",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -229,6 +233,20 @@
     {
       "date": "2025-02-25",
       "action": "House Comm - Favorable Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-25",
+      "action": "House/ comm rpt/ substituted in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-25",
+      "action": "House/ return to Rules due to fiscal impact in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -523,6 +541,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 529224,
+      "date": "2025-02-25",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0202S02",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0202/id/529224",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SB0202S02.fn.pdf",
+      "supplement_size": 1609527,
+      "supplement_hash": "88354ee3a18ee6c2d64401db57397911",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -602,8 +640,8 @@
       "markerID": "270686"
     }
   ],
-  "last_action": "House Comm - Favorable Recommendation",
-  "last_action_owner": "House Revenue and Taxation Committee",
+  "last_action": "House/ return to Rules due to fiscal impact",
+  "last_action_owner": "House Rules Committee",
   "last_action_time": "2/25/2025",
   "action_history": [
     {
@@ -876,6 +914,32 @@
       "voteHouse": "",
       "voteStr": "9-0-2",
       "actionCode": "HCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/25/2025 2:16 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ return to Rules due to fiscal impact",
+      "owner": "House Rules Committee",
+      "actionDate": "2/25/2025 2:16 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRETRULFIS",
       "parm2": "",
       "parm1": ""
     }
