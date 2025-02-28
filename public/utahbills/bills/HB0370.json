@@ -1,6 +1,6 @@
 {
   "bill_id": 1949457,
-  "change_hash": "406da0f00021d6d350f62ea858db119c",
+  "change_hash": "eeec27fa2ae29312c360c17d26ce0b8f",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,13 +53,8 @@
   "current_body_id": 94,
   "title": "State Holiday Modifications",
   "description": "State Holiday Modifications",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-31",
@@ -216,6 +211,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-27",
+      "action": "Senate Comm - Motion to Recommend Failed in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -416,6 +418,15 @@
       "time": "15:40",
       "location": "",
       "description": "House Economic Development and Workforce Services Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "62c6a5f0",
+      "type": "Hearing",
+      "date": "2025-02-27",
+      "time": "16:10",
+      "location": "Room 30 House Building",
+      "description": "Senate Revenue and Taxation Hearing"
     }
   ],
   "general_provisions": "This bill modifies the day on which Juneteenth National Freedom Day is recognized in Utah.",
@@ -438,11 +449,24 @@
       "agendaURL": "/~2025/agenda/HEDW0210.ag.htm",
       "billSession": "2025GS",
       "markerID": "270299"
+    },
+    {
+      "mtgID": "19934",
+      "committeeID": "SSTREV",
+      "mtgDate": "2025-02-27 16:10:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SREV0227.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "275701"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/21/2025",
+  "last_action": "Senate Comm - Motion to Recommend Failed",
+  "last_action_owner": "Senate Revenue and Taxation Committee",
+  "last_action_time": "2/27/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -675,6 +699,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Motion to Recommend Failed",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2/27/2025 5:06 PM",
+      "actionClass": "A",
+      "voteID": "36750",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "1-2-4",
+      "actionCode": "SCAFAVFAIL",
       "parm2": "",
       "parm1": ""
     }

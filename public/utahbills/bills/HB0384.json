@@ -1,6 +1,6 @@
 {
   "bill_id": 1950727,
-  "change_hash": "8e10d6b7a4bb961ad5e454dadaed29f9",
+  "change_hash": "48579a25cd2adbf7e0027b0d02c1eda6",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -112,6 +112,13 @@
     {
       "date": "2025-02-24",
       "action": "House Comm - Not Considered in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-26",
+      "action": "House Comm - Held in House Judiciary Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -263,6 +270,32 @@
   "comrecommend": [],
   "agendas": [
     {
+      "mtgID": "19916",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2025-02-24 08:00:00.0",
+      "agendaItem": "8",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2025/html/00001778.htm",
+      "agendaURL": "/~2025/agenda/HJUD0224.ag.htm",
+      "billSession": "2025GS",
+      "markerID": ""
+    },
+    {
+      "mtgID": "19917",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2025-02-26 08:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2025/html/00001808.htm",
+      "agendaURL": "/~2025/agenda/HJUD0226.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "274844"
+    },
+    {
       "mtgID": "19826",
       "committeeID": "HSTJUD",
       "mtgDate": "2025-02-14 08:00:00.0",
@@ -274,24 +307,11 @@
       "agendaURL": "/~2025/agenda/HJUD0214.ag.htm",
       "billSession": "2025GS",
       "markerID": ""
-    },
-    {
-      "mtgID": "19916",
-      "committeeID": "HSTJUD",
-      "mtgDate": "2025-02-24 08:00:00.0",
-      "agendaItem": "8",
-      "mtgPlace": "110 Senate Building",
-      "committeeName": "House Judiciary Committee",
-      "upcomming": false,
-      "minutesURL": "/",
-      "agendaURL": "/~2025/agenda/HJUD0224.ag.htm",
-      "billSession": "2025GS",
-      "markerID": ""
     }
   ],
-  "last_action": "House Comm - Not Considered",
+  "last_action": "House Comm - Held",
   "last_action_owner": "House Judiciary Committee",
-  "last_action_time": "2/24/2025",
+  "last_action_time": "2/26/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -394,6 +414,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCANOCNSDR",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/26/2025 8:15 AM",
+      "actionClass": "A",
+      "voteID": "36513",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-2-0",
+      "actionCode": "HCAHELD",
       "parm2": "",
       "parm1": ""
     }

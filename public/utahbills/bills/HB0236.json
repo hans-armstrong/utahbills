@@ -1,6 +1,6 @@
 {
   "bill_id": 1921468,
-  "change_hash": "9eda296e736a11438dafca847c906c77",
+  "change_hash": "bd6c177f372a5f81552a0a1195c2964b",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "County Career Service Council Amendments",
   "description": "County Career Service Council Amendments",
-  "pending_committee_id": 2112,
-  "committee": {
-    "committee_id": 2112,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Political Subdivisions"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-26",
+      "action": "House Comm - Held in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -214,10 +216,24 @@
   "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "LBLWDISCJS",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19958",
+      "committeeID": "HSTPOL",
+      "mtgDate": "2025-02-26 17:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "House Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HPOL0226.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "275233"
+    }
+  ],
+  "last_action": "House Comm - Held",
   "last_action_owner": "House Political Subdivisions Committee",
-  "last_action_time": "2/19/2025",
+  "last_action_time": "2/26/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -294,6 +310,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2/26/2025 5:52 PM",
+      "actionClass": "A",
+      "voteID": "36624",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-2",
+      "actionCode": "HCAHELD",
       "parm2": "",
       "parm1": ""
     }

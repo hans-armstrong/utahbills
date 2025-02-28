@@ -1,6 +1,6 @@
 {
   "bill_id": 1927544,
-  "change_hash": "184a8fc84d81212f5a519e7bd4f69ca4",
+  "change_hash": "7be7617faac9ccd162be08d8d13caf67",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-19",
       "event": 9
+    },
+    {
+      "date": "2025-02-26",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Municipal and County Zoning Amendments",
   "description": "Municipal and County Zoning Amendments",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -202,6 +201,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-26",
+      "action": "Senate Comm - Substitute Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-26",
+      "action": "Senate/ comm rpt/ substituted in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-26",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -258,33 +285,6 @@
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
-    },
-    {
-      "people_id": 23789,
-      "person_hash": "o0tz8gsu",
-      "party_id": "2",
-      "state_id": 44,
-      "party": "R",
-      "role_id": 1,
-      "role": "Rep",
-      "name": "Paul Cutler",
-      "first_name": "Paul",
-      "middle_name": "A.",
-      "last_name": "Cutler",
-      "suffix": "",
-      "nickname": "",
-      "district": "HD-018",
-      "ftm_eid": 55399262,
-      "votesmart_id": 204606,
-      "opensecrets_id": "",
-      "knowwho_pid": 0,
-      "ballotpedia": "Paul_Cutler",
-      "bioguide_id": "",
-      "sponsor_type_id": 2,
-      "sponsor_order": 3,
-      "committee_sponsor": 0,
-      "committee_id": 0,
-      "state_federal": 0
     }
   ],
   "sasts": [],
@@ -292,6 +292,26 @@
     {
       "subject_id": 11910,
       "subject_name": "Political Subdivisions (Local Issues)"
+    },
+    {
+      "subject_id": 11909,
+      "subject_name": "Counties"
+    },
+    {
+      "subject_id": 11871,
+      "subject_name": "Business"
+    },
+    {
+      "subject_id": 332649,
+      "subject_name": "Municipalities"
+    },
+    {
+      "subject_id": 334387,
+      "subject_name": "Local Government Ordinances"
+    },
+    {
+      "subject_id": 334524,
+      "subject_name": "Rental and Leasing Services"
     }
   ],
   "texts": [
@@ -550,6 +570,66 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 530706,
+      "date": "2025-02-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0256",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0256/id/530706",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB256S10.pdf",
+      "supplement_size": 133779,
+      "supplement_hash": "a67826e30c9be804ba17b611c3fd64ca",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 531966,
+      "date": "2025-02-27",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0256S02",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0256/id/531966",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0256S02.fn.pdf",
+      "supplement_size": 1609140,
+      "supplement_hash": "cb536c59a728687a1d3ea16dff0eca26",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 531967,
+      "date": "2025-02-27",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0256S03",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0256/id/531967",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0256S03.fn.pdf",
+      "supplement_size": 1609145,
+      "supplement_hash": "2210a667455cf77572393b0e3e0244ee",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -573,7 +653,7 @@
     }
   ],
   "general_provisions": "This bill modifies provisions related to the authority of municipalities and counties regarding short-term rentals. ",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms and modifies definitions;<hr><ltbullet>clarifies that a municipality or county that regulates short-term rentals may use a listing or offering on a short-term rental website as evidence that a short-term rental took place so long as the municipality or county has additional information to support its position that a property owner violated a municipality or county ordinance;<hr><ltbullet>provides that a municipality or county may provide notice to a short-term rental website indicating that a listing or offering violates business licensing requirements or zoning requirements;<hr><ltbullet>provides that a short-term rental website is not obligated to remove a listing or offering unless it has received notice from a municipality or county; <hr><ltbullet>provides that a municipality or county that imposes transient room tax on short-term rentals may provide a listing or offering on a short-term rental website to the county auditor as evidence that a short-term rental owner may be subject to the transient room tax; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms and modifies definitions;<hr><ltbullet>clarifies that a municipality or county that regulates short-term rentals may use a listing or offering on a short-term rental website as evidence that a short-term rental took place so long as the municipality or county has additional information to support its position that an owner or lessee violated a municipality or county ordinance;<hr><ltbullet>provides that a municipality or county may require the owner of a short-term rental to obtain a business license or other permit from the municipality or county to operate a short-term rental in the municipality or in an unincorporated area of the county;<hr><ltbullet>provides that a municipality or county may request a short-term rental website remove a listing or offering that violates business licensing requirements or zoning requirements;<hr><ltbullet>provides that a municipality or county that imposes transient room tax on short-term rentals may provide a listing or offering on a short-term rental website to the county auditor as evidence that a short-term rental owner or lessee may be subject to the transient room tax; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "RuthAnne Oakey-Frost",
   "fiscal_analyst": "Timothy Kevin Bereece",
@@ -592,11 +672,24 @@
       "agendaURL": "/~2025/agenda/HPOL0130.ag.htm",
       "billSession": "2025GS",
       "markerID": "266202"
+    },
+    {
+      "mtgID": "19933",
+      "committeeID": "SSTREV",
+      "mtgDate": "2025-02-26 09:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SREV0226.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "274944"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "2/19/2025",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/26/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -608,8 +701,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -621,8 +714,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -634,8 +727,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -647,8 +740,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -660,8 +753,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ to standing committee",
@@ -673,8 +766,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House Comm - Favorable Recommendation",
@@ -686,8 +779,8 @@
       "voteHouse": "",
       "voteStr": "8-0-2",
       "actionCode": "HCAFAV",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ committee report favorable",
@@ -699,8 +792,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCR",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 2nd reading",
@@ -712,8 +805,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 3rd reading",
@@ -725,8 +818,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ substituted",
@@ -738,8 +831,8 @@
       "voteHouse": "H",
       "voteStr": "0-0-75",
       "actionCode": "HSUB",
-      "parm1": "1",
-      "parm2": "0"
+      "parm2": "0",
+      "parm1": "1"
     },
     {
       "description": "House/ passed 3rd reading",
@@ -751,8 +844,8 @@
       "voteHouse": "H",
       "voteStr": "48-23-4",
       "actionCode": "HPASS3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ to Senate",
@@ -764,8 +857,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSEN",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received from House",
@@ -777,8 +870,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -790,8 +883,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -803,8 +896,60 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2/26/2025 9:25 AM",
+      "actionClass": "A",
+      "voteID": "36550",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCASUB",
+      "parm2": "1",
+      "parm1": "3"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2/26/2025 9:26 AM",
+      "actionClass": "A",
+      "voteID": "36551",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-2-2",
+      "actionCode": "SCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ substituted",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2/26/2025 3:00 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRSUB",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/26/2025 3:00 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

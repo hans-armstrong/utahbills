@@ -1,6 +1,6 @@
 {
   "bill_id": 1981228,
-  "change_hash": "fe7a9dbf6465303045d0355d178a3cbd",
+  "change_hash": "b7eabb2fcd87d93ca6ae0fc1f6754228",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-24",
       "event": 1
+    },
+    {
+      "date": "2025-02-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Joint Resolution Regarding Price Fixing In Rental Housing",
   "description": "Joint Resolution Regarding Price Fixing In Rental Housing",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2124,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2124,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Judiciary, Law Enforcement, and Criminal Justice"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-27",
+      "committee_id": 2124,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Judiciary, Law Enforcement, and Criminal Justice"
     }
   ],
   "history": [
@@ -78,6 +89,20 @@
     {
       "date": "2025-02-24",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-26",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "Senate/ to standing committee in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -153,8 +178,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 530834,
+      "date": "2025-02-26",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SJR014",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SJR014/id/530834",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SJR014.fn.pdf",
+      "supplement_size": 1608361,
+      "supplement_hash": "ff7ba8d34c492df5512be3bb31136694",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "65a68a6c",
+      "type": "Hearing",
+      "date": "2025-02-28",
+      "time": "16:06",
+      "location": "Room 30 House Building",
+      "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
+    }
+  ],
   "general_provisions": "This joint resolution calls on the Utah Attorney General to join the antitrust lawsuit against RealPage and landlords engaged in alleged price fixing actions. ",
   "hilighted_provisions": "This resolution:<hr><ltbullet>highlights the U.S. Department of Justice case filed against RealPage and other landlords;<hr><ltbullet>outlines how the alleged collusion impacts Utah;<hr><ltbullet>lists the states already participating in the action;<hr><ltbullet>calls for a study; and<hr><ltbullet>urges the Utah Attorney General to join the antitrust lawsuit.",
   "monies": "None",
@@ -163,9 +219,9 @@
   "gov_tracking_id": "LWTWEPAPFL",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/24/2025",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+  "last_action_time": "2/27/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -216,6 +272,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/26/2025 1:46 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/27/2025 2:35 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm2": "",
       "parm1": ""
     }

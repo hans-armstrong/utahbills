@@ -1,6 +1,6 @@
 {
   "bill_id": 1952392,
-  "change_hash": "b03b78f40e7d090c7a0f1b96d72ed9e4",
+  "change_hash": "63ed0360cd1f2bf667ec3fe4f121c070",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-11",
       "event": 9
+    },
+    {
+      "date": "2025-02-26",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -119,6 +123,20 @@
     {
       "date": "2025-02-25",
       "action": "House Comm - Favorable Recommendation in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-26",
+      "action": "House/ comm rpt/ substituted in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-26",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -278,7 +296,29 @@
     }
   ],
   "votes": [],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 232858,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2025-02-27",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0402/id/232858",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/HB0402S03.Hamd.1.pdf",
+      "amendment_size": 6409,
+      "amendment_hash": "e4db3e7e1211644f111fb3a17a682c23",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 506251,
@@ -479,6 +519,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 531402,
+      "date": "2025-02-27",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0402S03",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0402/id/531402",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0402S03.fn.pdf",
+      "supplement_size": 1608433,
+      "supplement_hash": "0a5b44404b38a01d63017b00dd853eb0",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -510,6 +570,19 @@
   "comrecommend": [],
   "agendas": [
     {
+      "mtgID": "19907",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2025-02-25 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2025/html/00001811.htm",
+      "agendaURL": "/~2025/agenda/HEDU0225.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "274499"
+    },
+    {
       "mtgID": "19821",
       "committeeID": "HSTEDU",
       "mtgDate": "2025-02-19 16:00:00.0",
@@ -521,24 +594,11 @@
       "agendaURL": "/~2025/agenda/HEDU0219.ag.htm",
       "billSession": "2025GS",
       "markerID": "273165"
-    },
-    {
-      "mtgID": "19907",
-      "committeeID": "HSTEDU",
-      "mtgDate": "2025-02-25 16:00:00.0",
-      "agendaItem": "1",
-      "mtgPlace": "120 Senate Building",
-      "committeeName": "House Education Committee",
-      "upcomming": false,
-      "minutesURL": "/",
-      "agendaURL": "/~2025/agenda/HEDU0225.ag.htm",
-      "billSession": "2025GS",
-      "markerID": "274499"
     }
   ],
-  "last_action": "House Comm - Favorable Recommendation",
-  "last_action_owner": "House Education Committee",
-  "last_action_time": "2/25/2025",
+  "last_action": "House/ to Senate",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "2/27/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -550,8 +610,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -563,8 +623,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -576,8 +636,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -589,8 +649,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -602,8 +662,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ to standing committee",
@@ -615,8 +675,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House Comm - Held",
@@ -628,8 +688,8 @@
       "voteHouse": "",
       "voteStr": "7-2-7",
       "actionCode": "HCAHELD",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House Comm - Substitute Recommendation",
@@ -641,8 +701,8 @@
       "voteHouse": "",
       "voteStr": "10-0-6",
       "actionCode": "HCASUB",
-      "parm2": "0",
-      "parm1": "3"
+      "parm1": "3",
+      "parm2": "0"
     },
     {
       "description": "House Comm - Favorable Recommendation",
@@ -654,8 +714,86 @@
       "voteHouse": "",
       "voteStr": "8-3-5",
       "actionCode": "HCAFAV",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Education Committee",
+      "actionDate": "2/26/2025 10:21 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/26/2025 10:21 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/27/2025 8:47 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ floor amendment",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/27/2025 8:48 PM",
+      "actionClass": "H",
+      "voteID": "947",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HAMEND",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "2/27/2025 9:01 PM",
+      "actionClass": "H",
+      "voteID": "948",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "38-34-3",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2/27/2025 9:01 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

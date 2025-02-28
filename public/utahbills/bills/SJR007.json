@@ -1,6 +1,6 @@
 {
   "bill_id": 1954569,
-  "change_hash": "f3da58abb7665f1280ee026412c420bd",
+  "change_hash": "c3c6bd6959fdf9feba2a1f3c81424a70",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -36,6 +36,10 @@
     {
       "date": "2025-02-25",
       "event": 2
+    },
+    {
+      "date": "2025-02-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,8 +53,13 @@
   "current_body_id": 93,
   "title": "Joint Resolution Emphasizing State Authority in Election Governance",
   "description": "Joint Resolution Emphasizing State Authority in Election Governance",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2107,
+  "committee": {
+    "committee_id": 2107,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Government Operations"
+  },
   "referrals": [
     {
       "date": "2025-02-04",
@@ -65,6 +74,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Revenue and Taxation"
+    },
+    {
+      "date": "2025-02-25",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    },
+    {
+      "date": "2025-02-27",
+      "committee_id": 2107,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Government Operations"
     }
   ],
   "history": [
@@ -169,6 +192,20 @@
     {
       "date": "2025-02-25",
       "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-25",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "House/ to standing committee in House Government Operations Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -404,9 +441,9 @@
       "markerID": "273435"
     }
   ],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/25/2025",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Government Operations Committee",
+  "last_action_time": "2/27/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -418,8 +455,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -431,8 +468,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -444,8 +481,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -457,8 +494,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -470,8 +507,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -483,8 +520,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate Comm - Substitute Recommendation",
@@ -496,8 +533,8 @@
       "voteHouse": "",
       "voteStr": "3-0-4",
       "actionCode": "SCASUB",
-      "parm1": "1",
-      "parm2": "0"
+      "parm2": "0",
+      "parm1": "1"
     },
     {
       "description": "Senate Comm - Favorable Recommendation",
@@ -509,8 +546,8 @@
       "voteHouse": "",
       "voteStr": "6-0-1",
       "actionCode": "SCAFAV",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate Comm - Consent Calendar Recommendation",
@@ -522,8 +559,8 @@
       "voteHouse": "",
       "voteStr": "6-0-1",
       "actionCode": "SCACONCAL",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ comm rpt/ substituted/ Consent Calendar",
@@ -535,8 +572,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCRSUBCON",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 2nd reading",
@@ -548,8 +585,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 3rd reading",
@@ -561,8 +598,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ passed 3rd reading",
@@ -574,8 +611,8 @@
       "voteHouse": "S",
       "voteStr": "20-4-5",
       "actionCode": "SPASS3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ to House",
@@ -587,8 +624,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOHOU",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received from Senate",
@@ -600,8 +637,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -613,8 +650,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/27/2025 11:17 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

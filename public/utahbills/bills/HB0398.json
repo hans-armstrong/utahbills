@@ -1,6 +1,6 @@
 {
   "bill_id": 1952326,
-  "change_hash": "0ce700f438b24b4418cfbdeffcf84552",
+  "change_hash": "d2ee7a018ebb9a20cc38e8c0a2bf551f",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Auxiliary Housing Amendments",
   "description": "Auxiliary Housing Amendments",
-  "pending_committee_id": 2112,
-  "committee": {
-    "committee_id": 2112,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Political Subdivisions"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-04",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-26",
+      "action": "House Comm - Not Considered in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -186,6 +188,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3145014,
+      "date": "2025-02-26",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0398/id/3145014",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0398S01.pdf",
+      "text_size": 49997,
+      "text_hash": "3fae7d0f61fc9f92a9a2b4cead9b9aec",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [],
@@ -204,6 +224,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0398.fn.pdf",
       "supplement_size": 1608337,
       "supplement_hash": "96e68ef66d19a31a468e8b76753cde44",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 531135,
+      "date": "2025-02-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #0",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0398/id/531135",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0398%20To%20HB0398S01.pdf",
+      "supplement_size": 59540,
+      "supplement_hash": "24464750478ed95c38d4a7bb815ddd13",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -230,10 +270,24 @@
   "fiscal_analyst": "Josh Pittman",
   "gov_tracking_id": "MQAKDJCTNA",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19877",
+      "committeeID": "HSTPOL",
+      "mtgDate": "2025-02-26 16:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "House Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HPOL0226.ag.htm",
+      "billSession": "2025GS",
+      "markerID": ""
+    }
+  ],
+  "last_action": "House Comm - Not Considered",
   "last_action_owner": "House Political Subdivisions Committee",
-  "last_action_time": "2/21/2025",
+  "last_action_time": "2/26/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -245,8 +299,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -258,8 +312,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -271,8 +325,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -284,8 +338,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -297,8 +351,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ to standing committee",
@@ -310,8 +364,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2/26/2025 4:00 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

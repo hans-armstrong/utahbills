@@ -1,6 +1,6 @@
 {
   "bill_id": 1979527,
-  "change_hash": "d2f37ef5aca9dbd99407905b51406a68",
+  "change_hash": "0dcad15190a3a10161b97aaf5d45bfbf",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-24",
       "event": 9
+    },
+    {
+      "date": "2025-02-27",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Dietitian Licensing Amendments",
   "description": "Dietitian Licensing Amendments",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-24",
@@ -106,6 +105,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "Senate/ committee report favorable in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-27",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -132,6 +152,33 @@
       "bioguide_id": "",
       "sponsor_type_id": 1,
       "sponsor_order": 1,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
+    {
+      "people_id": 12088,
+      "person_hash": "qmo5dy34",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Steve Eliason",
+      "first_name": "Steve",
+      "middle_name": "",
+      "last_name": "Eliason",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-043",
+      "ftm_eid": 6684185,
+      "votesmart_id": 121355,
+      "opensecrets_id": "",
+      "knowwho_pid": 293061,
+      "ballotpedia": "Steven_Eliason",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -198,6 +245,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 530901,
+      "date": "2025-02-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0317",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0317/id/530901",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB317S10.pdf",
+      "supplement_size": 125439,
+      "supplement_hash": "191bdf6ed1592f99d058639414940ef1",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -218,10 +285,24 @@
   "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "LJSDQLRQOB",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/25/2025",
+  "agendas": [
+    {
+      "mtgID": "19869",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2025-02-26 16:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SBUS0226.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "275258"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/27/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -298,6 +379,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/26/2025 5:58 PM",
+      "actionClass": "A",
+      "voteID": "36627",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-4",
+      "actionCode": "SCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/27/2025 10:43 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/27/2025 10:43 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm2": "",
       "parm1": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1909329,
-  "change_hash": "3aa1bc5fb44f73477f1ff83ae504720c",
+  "change_hash": "5c20b43aa5a280d0c346fc955cedc445",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-20",
       "event": 9
+    },
+    {
+      "date": "2025-02-26",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -229,6 +233,20 @@
     {
       "date": "2025-02-25",
       "action": "House Comm - Favorable Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-26",
+      "action": "House/ committee report favorable in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-26",
+      "action": "House/ return to Rules due to fiscal impact in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -514,9 +532,9 @@
       "markerID": "267287"
     }
   ],
-  "last_action": "House Comm - Favorable Recommendation",
-  "last_action_owner": "House Health and Human Services Committee",
-  "last_action_time": "2/25/2025",
+  "last_action": "House/ return to Rules due to fiscal impact",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/26/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -788,6 +806,32 @@
       "voteHouse": "",
       "voteStr": "11-0-3",
       "actionCode": "HCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/26/2025 10:24 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ return to Rules due to fiscal impact",
+      "owner": "House Rules Committee",
+      "actionDate": "2/26/2025 10:24 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRETRULFIS",
       "parm2": "",
       "parm1": ""
     }

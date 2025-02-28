@@ -1,6 +1,6 @@
 {
   "bill_id": 1963171,
-  "change_hash": "361f8fd678c126ade38b011a7a14b498",
+  "change_hash": "833d6cef87172632699f03a22bc03d39",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SB0246/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0246.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2025-02-10",
+  "status": 2,
+  "status_date": "2025-02-27",
   "progress": [
     {
       "date": "2025-02-10",
@@ -32,6 +32,10 @@
     {
       "date": "2025-02-13",
       "event": 10
+    },
+    {
+      "date": "2025-02-27",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,12 +45,17 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Medicaid Reimbursement Rate Modifications",
   "description": "Medicaid Reimbursement Rate Modifications",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-02-10",
@@ -61,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Health and Human Services"
+    },
+    {
+      "date": "2025-02-27",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -163,10 +179,17 @@
       "importance": 0
     },
     {
-      "date": "2025-02-24",
-      "action": "Senate / held in Senate Secretary",
-      "chamber": "S",
-      "chamber_id": 94,
+      "date": "2025-02-27",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-27",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -194,6 +217,33 @@
       "bioguide_id": "",
       "sponsor_type_id": 1,
       "sponsor_order": 1,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
+    {
+      "people_id": 25726,
+      "person_hash": "7ubd7fcm",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Doug Fiefia",
+      "first_name": "Doug",
+      "middle_name": "",
+      "last_name": "Fiefia",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-048",
+      "ftm_eid": 59517015,
+      "votesmart_id": 214334,
+      "opensecrets_id": "",
+      "knowwho_pid": 0,
+      "ballotpedia": "Doug_Fiefia",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -319,9 +369,9 @@
       "markerID": "271172"
     }
   ],
-  "last_action": "Senate / held",
-  "last_action_owner": "Senate Secretary",
-  "last_action_time": "2/24/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/27/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -506,15 +556,28 @@
       "parm1": ""
     },
     {
-      "description": "Senate / held",
-      "owner": "Senate Secretary",
-      "actionDate": "2/24/2025 5:08 PM",
-      "actionClass": "S",
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2/27/2025 5:50 PM",
+      "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
-      "actionCode": "SHOLD",
+      "actionCode": "HRECS",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/27/2025 7:10 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm2": "",
       "parm1": ""
     }

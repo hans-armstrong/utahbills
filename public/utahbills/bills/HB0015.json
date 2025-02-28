@@ -1,6 +1,6 @@
 {
   "bill_id": 1897847,
-  "change_hash": "fc3c446d4f8b7782ee2b4e49138d7498",
+  "change_hash": "d8e1a96498d42153a14349539f937280",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0015/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0015.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2025-02-25",
   "progress": [
     {
@@ -36,6 +36,10 @@
     {
       "date": "2025-02-25",
       "event": 2
+    },
+    {
+      "date": "2025-02-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,8 +53,13 @@
   "current_body_id": 94,
   "title": "Murdered and Missing Indigenous Relatives Task Force Amendments",
   "description": "Murdered and Missing Indigenous Relatives Task Force Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2127,
+  "committee": {
+    "committee_id": 2127,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Revenue and Taxation"
+  },
   "referrals": [
     {
       "date": "2025-01-21",
@@ -65,6 +74,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Law Enforcement and Criminal Justice"
+    },
+    {
+      "date": "2025-02-25",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2025-02-27",
+      "committee_id": 2127,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -162,6 +185,20 @@
     {
       "date": "2025-02-25",
       "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-25",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "Senate/ to standing committee in Senate Revenue and Taxation Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -380,9 +417,9 @@
       "markerID": "272640"
     }
   ],
-  "last_action": "Senate/ received from House",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/25/2025",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Revenue and Taxation Committee",
+  "last_action_time": "2/27/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -563,6 +600,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/25/2025 3:43 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2/27/2025 2:35 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm2": "",
       "parm1": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1899798,
-  "change_hash": "444d60e2e305057d4c9d019e1eb4307a",
+  "change_hash": "9011d745bd81618ec0133b06d65dd79b",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-01-21",
       "event": 1
+    },
+    {
+      "date": "2025-02-26",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Reauthorization of Administrative Rules",
   "description": "Reauthorization of Administrative Rules",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2107,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2107,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Government Operations"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-26",
+      "committee_id": 2107,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Government Operations"
     }
   ],
   "history": [
@@ -85,6 +96,13 @@
     {
       "date": "2025-01-21",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-26",
+      "action": "House/ to standing committee in House Government Operations Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -178,7 +196,29 @@
     }
   ],
   "votes": [],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 232321,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2025-02-26",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0075/id/232321",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/HB0075.Hamd.1.pdf",
+      "amendment_size": 19711,
+      "amendment_hash": "a118cb0e0a4e63e5faed4d294775fdb3",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 498856,
@@ -201,7 +241,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "ca58d0a6",
+      "type": "Hearing",
+      "date": "2025-02-28",
+      "time": "08:00",
+      "location": "Room 30 House Building",
+      "description": "House Government Operations Hearing"
+    }
+  ],
   "general_provisions": "This bill reauthorizes administrative rules.",
   "hilighted_provisions": "This bill:<hr><ltbullet>reauthorizes administrative rules except for rules specifically listed in this bill.",
   "monies": "None",
@@ -215,74 +265,87 @@
     }
   ],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/21/2025",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Government Operations Committee",
+  "last_action_time": "2/26/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "12/27/2024",
+      "actionDate": "12/27/2024 11:39 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "12/27/2024",
+      "actionDate": "12/27/2024 11:39 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "1/15/2025",
+      "actionDate": "1/15/2025 12:51 PM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "Clerk of the House",
-      "actionDate": "1/21/2025",
+      "actionDate": "1/21/2025 9:06 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "1/21/2025",
+      "actionDate": "1/21/2025 3:27 PM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/26/2025 12:08 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

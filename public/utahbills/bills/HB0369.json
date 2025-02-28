@@ -1,6 +1,6 @@
 {
   "bill_id": 1948482,
-  "change_hash": "02f02922cb5911855cb6f73b5f686c37",
+  "change_hash": "ae0b79180a854c0dce912bda62c8c0e8",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-07",
       "event": 9
+    },
+    {
+      "date": "2025-02-27",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Elections Office",
   "description": "Elections Office",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-31",
@@ -106,6 +105,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-26",
+      "action": "House Comm - Substitute Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-26",
+      "action": "House Comm - Favorable Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "House/ comm rpt/ substituted in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-27",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -180,6 +207,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3145722,
+      "date": "2025-02-27",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0369/id/3145722",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0369S02.pdf",
+      "text_size": 28624,
+      "text_hash": "26c1c06b29f1b879cf385aa6d1c078d5",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [],
@@ -224,6 +269,66 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 530598,
+      "date": "2025-02-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0369",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0369/id/530598",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB369H10.pdf",
+      "supplement_size": 146107,
+      "supplement_hash": "764f4dcd4e29f1cb24f628d48fd4883a",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 531418,
+      "date": "2025-02-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #0",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0369/id/531418",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0369%20To%20HB0369S02.pdf",
+      "supplement_size": 1741818,
+      "supplement_hash": "029818664deca86afa3ad9a1ac106132",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 531419,
+      "date": "2025-02-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0369/id/531419",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0369S01%20To%20HB0369S02.pdf",
+      "supplement_size": 29107,
+      "supplement_hash": "226d4dd049fe596b48cfdab565e0c139",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -246,17 +351,31 @@
       "description": "House Government Operations Hearing"
     }
   ],
-  "general_provisions": "This bill establishes the Elections Office, to assume all responsibility for elections currently under the authority of the lieutenant governor.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>creates the Elections Office, as an independent state agency, to assume all responsibility for elections currently under the authority of the lieutenant governor;<hr><ltbullet>provides for the appointment of a director of the Elections Office who will serve as the chief election officer of the state;<hr><ltbullet>transfers all duties and powers of the lieutenant governor in relation to elections to the Elections Office or the director of the Elections Office; and<hr><ltbullet>makes technical and conforming changes.",
+  "general_provisions": "This bill addresses issues relating to Utah's election system.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>provides for the appointment of a conflict of interest elections officer to act in the place of the lieutenant governor if a complaint or election controversy arises that has any connection to a race for office in which the governor or lieutenant governor is, or seeks to be, a candidate;<hr><ltbullet>describes the terms of service and authority of the conflict of interest elections officer; and <hr><ltbullet>creates the Elections Oversight Task Force and establishes the task force's:<hr><ltbullet1>membership;<hr><ltbullet1>duties; and<hr><ltbullet1>reporting requirements.",
   "monies": "None",
   "attorney": "Thomas R. Vaughn",
   "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "EGJIJPYQCY",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "2/7/2025",
+  "agendas": [
+    {
+      "mtgID": "19881",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2025-02-26 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HGOC0226.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "275030"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/27/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -333,6 +452,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/26/2025 4:27 PM",
+      "actionClass": "A",
+      "voteID": "36582",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-3",
+      "actionCode": "HCASUB",
+      "parm2": "0",
+      "parm1": "1"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/26/2025 4:27 PM",
+      "actionClass": "A",
+      "voteID": "36583",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-3",
+      "actionCode": "HCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/27/2025 10:18 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/27/2025 10:18 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm2": "",
       "parm1": ""
     }

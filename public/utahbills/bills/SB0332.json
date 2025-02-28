@@ -1,6 +1,6 @@
 {
   "bill_id": 1981617,
-  "change_hash": "06f8a52b82dc64465f81ea1286b6fd0b",
+  "change_hash": "1dedc51d4f0094fe3229a8dc861e547e",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-25",
       "event": 9
+    },
+    {
+      "date": "2025-02-27",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Artificial Intelligence Revisions",
   "description": "Artificial Intelligence Revisions",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-24",
@@ -99,6 +98,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "Senate/ committee report favorable in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-27",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -163,7 +190,48 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 530828,
+      "date": "2025-02-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0332",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0332/id/530828",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB332S10.pdf",
+      "supplement_size": 127996,
+      "supplement_hash": "718192c23ac179af6ad6d528de693249",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 531872,
+      "date": "2025-02-27",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0332",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0332/id/531872",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SB0332.fn.pdf",
+      "supplement_size": 1609623,
+      "supplement_hash": "3d402b6515fd0f728512c4a08699a3bb",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [
     {
       "type_id": 1,
@@ -182,10 +250,24 @@
   "fiscal_analyst": "Steven M. Allred",
   "gov_tracking_id": "CSBSHUBOJK",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/25/2025",
+  "agendas": [
+    {
+      "mtgID": "19869",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2025-02-26 16:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SBUS0226.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "275209"
+    }
+  ],
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/27/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -249,6 +331,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/26/2025 5:37 PM",
+      "actionClass": "A",
+      "voteID": "36618",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-1",
+      "actionCode": "SCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/27/2025 10:43 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/27/2025 10:43 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/27/2025 5:56 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm2": "",
       "parm1": ""
     }

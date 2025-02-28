@@ -1,6 +1,6 @@
 {
   "bill_id": 1981180,
-  "change_hash": "c386b90c8ca3fc79107a2442f08d67b1",
+  "change_hash": "1e228eb5ff3497c42bd0bd2cdb8bad7b",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-25",
       "event": 1
+    },
+    {
+      "date": "2025-02-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Genetic Information Amendments",
   "description": "Genetic Information Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2108,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2108,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Health and Human Services"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-27",
+      "committee_id": 2108,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Health and Human Services"
     }
   ],
   "history": [
@@ -78,6 +89,27 @@
     {
       "date": "2025-02-25",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-26",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "Bill Substituted by Sponsor in House Rules Comm in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "House/ to standing committee in House Health and Human Services Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -117,6 +149,34 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 11893,
+      "subject_name": "Health Care"
+    },
+    {
+      "subject_id": 12052,
+      "subject_name": "Health Care Facilities"
+    },
+    {
+      "subject_id": 14877,
+      "subject_name": "Medical Records"
+    },
+    {
+      "subject_id": 360925,
+      "subject_name": "Labor and Employment"
+    },
+    {
+      "subject_id": 11851,
+      "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 335074,
+      "subject_name": "Attorney General"
+    },
+    {
+      "subject_id": 334140,
+      "subject_name": "Constitutional Officers"
     }
   ],
   "texts": [
@@ -155,6 +215,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3146442,
+      "date": "2025-02-27",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0548/id/3146442",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0548S02.pdf",
+      "text_size": 28595,
+      "text_hash": "8867fa49fc1e146d061de1aaa402e784",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [],
@@ -179,20 +257,110 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 529851,
+      "date": "2025-02-26",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0548",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0548/id/529851",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0548.fn.pdf",
+      "supplement_size": 1608347,
+      "supplement_hash": "9e1541b1330d27c4b1205616a8610a93",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 529852,
+      "date": "2025-02-26",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0548S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0548/id/529852",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0548S01.fn.pdf",
+      "supplement_size": 1608363,
+      "supplement_hash": "98e33134ec5c8f6934da4985b9b06edd",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 531593,
+      "date": "2025-02-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #0",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0548/id/531593",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0548%20To%20HB0548S02.pdf",
+      "supplement_size": 33507,
+      "supplement_hash": "3edfb022d6cb3debd38dd44ff93601ca",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 531594,
+      "date": "2025-02-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0548/id/531594",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0548S01%20To%20HB0548S02.pdf",
+      "supplement_size": 31996,
+      "supplement_hash": "45cde72faac6a4b2c2e62da549abc385",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "338e77df",
+      "type": "Hearing",
+      "date": "2025-02-28",
+      "time": "16:00",
+      "location": "Room 30 House Building",
+      "description": "House Health and Human Services Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses the use of genetic sequencing tools and the storage of genetic sequencing data.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>prohibits the use of certain genetic sequencers and genetic sequencing software;<hr><ltbullet>requires genetic sequencing data to be stored within the United States;<hr><ltbullet>requires relevant entities to certify compliance with genetic sequencing requirements;<hr><ltbullet>creates civil penalties for violations of genetic sequencing requirements; and<hr><ltbullet>authorizes the attorney general to investigate alleged violations of genetic sequencing requirements. ",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>prohibits the use of certain genetic sequencers and genetic sequencing software;<hr><ltbullet>prohibits genetic sequencing data from being stored within the boundaries of a foreign adversary;<hr><ltbullet>requires relevant entities to certify compliance with genetic sequencing requirements and imposes security requirements for the storage of genetic data;<hr><ltbullet>authorizes the attorney general to investigate alleged violations of genetic sequencing requirements, and initiate civil actions for those violations; and<hr><ltbullet>provides protections for an employee who reports a suspected violation of genetic sequencing requirements to the attorney general.",
   "monies": "None",
   "attorney": "Alan Houston",
   "fiscal_analyst": "Sean C. Faherty",
   "gov_tracking_id": "VUOTRAIKWF",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/25/2025",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Health and Human Services Committee",
+  "last_action_time": "2/27/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -243,6 +411,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/26/2025 11:52 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Bill Substituted by Sponsor in House Rules Comm",
+      "owner": "House Rules Committee",
+      "actionDate": "2/27/2025 10:32 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRULSUBH",
+      "parm2": "0",
+      "parm1": "2"
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/27/2025 11:17 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm2": "",
       "parm1": ""
     }

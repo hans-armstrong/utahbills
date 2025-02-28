@@ -1,6 +1,6 @@
 {
   "bill_id": 1901518,
-  "change_hash": "510a8d4c75a781b0c79ab80fb161c709",
+  "change_hash": "3fd45c8061c3b901ecbb7a503806e82e",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -19,7 +19,7 @@
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0098.html",
   "completed": 0,
   "status": 3,
-  "status_date": "2025-02-06",
+  "status_date": "2025-02-26",
   "progress": [
     {
       "date": "2025-01-21",
@@ -44,6 +44,10 @@
     {
       "date": "2025-02-14",
       "event": 10
+    },
+    {
+      "date": "2025-02-26",
+      "event": 3
     }
   ],
   "state": "UT",
@@ -292,6 +296,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-02-26",
+      "action": "Enrolled Bill Returned to House or Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-26",
+      "action": "House/ enrolled bill to Printing in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -377,6 +395,24 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0098.pdf",
       "text_size": 23802,
       "text_hash": "3cd2e44e583d8914a11827bfd1a636aa",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3143754,
+      "date": "2025-02-26",
+      "type": "Enrolled",
+      "type_id": 5,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0098/id/3143754",
+      "state_link": "https://le.utah.gov/Session/2025/bills/enrolled/HB0098.pdf",
+      "text_size": 24112,
+      "text_hash": "4a496187820c9026a86ef89ff98f0401",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -504,9 +540,9 @@
       "markerID": "271686"
     }
   ],
-  "last_action": "Draft of Enrolled Bill Prepared",
-  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
-  "last_action_time": "2/24/2025",
+  "last_action": "House/ enrolled bill to Printing",
+  "last_action_owner": "Clerk of the House",
+  "last_action_time": "2/26/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -882,6 +918,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LENROLL",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Enrolled Bill Returned to House or Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2/26/2025 11:24 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LPASSREV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ enrolled bill to Printing",
+      "owner": "Clerk of the House",
+      "actionDate": "2/26/2025 11:24 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOPRINTEN",
       "parm2": "",
       "parm1": ""
     }

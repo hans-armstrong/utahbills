@@ -1,6 +1,6 @@
 {
   "bill_id": 1979677,
-  "change_hash": "5727fecb035987119102424581c9827c",
+  "change_hash": "5ded15d27ca0a96107d2863e0b82d081",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Judgment Information Amendments",
   "description": "Judgment Information Amendments",
-  "pending_committee_id": 2109,
-  "committee": {
-    "committee_id": 2109,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Judiciary"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-21",
@@ -106,6 +101,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-27",
+      "action": "House Comm - Favorable Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "House Comm - Consent Calendar Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -204,7 +213,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "ade6cb40",
+      "type": "Hearing",
+      "date": "2025-02-27",
+      "time": "16:00",
+      "location": "Room 30 House Building",
+      "description": "House Judiciary Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses information necessary to file a judgment lien against real property. ",
   "hilighted_provisions": "This bill:<hr><ltbullet>provides that to record a judgment, a person shall include a copy of the judgment that contains, if known, the last four digits of the judgment debtor's social security number, the month and year of the judgment debtor's birth, and the judgment debtor's driver license number if a natural person.",
   "monies": "None",
@@ -212,10 +231,24 @@
   "fiscal_analyst": "Nate Osborne",
   "gov_tracking_id": "MWWTYMUVXS",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19919",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2025-02-27 16:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HJUD0227.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "275526"
+    }
+  ],
+  "last_action": "House Comm - Consent Calendar Recommendation",
   "last_action_owner": "House Judiciary Committee",
-  "last_action_time": "2/25/2025",
+  "last_action_time": "2/27/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -292,6 +325,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/27/2025 4:09 PM",
+      "actionClass": "A",
+      "voteID": "36702",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-4",
+      "actionCode": "HCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Consent Calendar Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/27/2025 4:10 PM",
+      "actionClass": "A",
+      "voteID": "36705",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-4",
+      "actionCode": "HCACONCAL",
       "parm2": "",
       "parm1": ""
     }

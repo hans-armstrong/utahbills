@@ -1,6 +1,6 @@
 {
   "bill_id": 1969430,
-  "change_hash": "31f51be5adaf5fef8851710ec99232cc",
+  "change_hash": "5e70ee1b63aa0dc915b852fb5fea791d",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SB0277/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0277.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2025-02-14",
+  "status": 2,
+  "status_date": "2025-02-27",
   "progress": [
     {
       "date": "2025-02-14",
@@ -32,6 +32,10 @@
     {
       "date": "2025-02-19",
       "event": 10
+    },
+    {
+      "date": "2025-02-27",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,12 +45,17 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Government Records Management Amendments",
   "description": "Government Records Management Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-02-14",
@@ -61,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Government Operations and Political Subdivisions"
+    },
+    {
+      "date": "2025-02-27",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -140,6 +156,62 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-26",
+      "action": "Senate/ uncircled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-26",
+      "action": "Senate/ substituted in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-26",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-27",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -166,6 +238,33 @@
       "bioguide_id": "",
       "sponsor_type_id": 1,
       "sponsor_order": 1,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
+    {
+      "people_id": 19072,
+      "person_hash": "6mjz9s8d",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Jefferson Moss",
+      "first_name": "Jefferson",
+      "middle_name": "",
+      "last_name": "Moss",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-051",
+      "ftm_eid": 10886568,
+      "votesmart_id": 159373,
+      "opensecrets_id": "",
+      "knowwho_pid": 574872,
+      "ballotpedia": "Jefferson_Moss",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -356,6 +455,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 532374,
+      "date": "2025-02-27",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0277S02",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0277/id/532374",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SB0277S02.fn.pdf",
+      "supplement_size": 1609220,
+      "supplement_hash": "f69d3a4db05962334ed053608aa3de19",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -370,7 +489,7 @@
     }
   ],
   "general_provisions": "This bill creates the Government Records Office (the office) within the Division of Archives and Records Service (the division), and replaces the State Records Committee (the committee) with the director of the office, who is an attorney with knowledge and experience relating to government records law and makes other changes relating to government records.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>creates the office within the division and describes the functions of the office;<hr><ltbullet>requires the governor to appoint the director of the office, in consultation with the executive director of the department, and with the advice and consent of the Senate;<hr><ltbullet>describes the term of office, qualifications, and duties of the director;<hr><ltbullet>repeals the committee;<hr><ltbullet>provides that the director will replace the committee in fulfilling the duties currently assigned to the committee, including the duty to decide appeals under the Government Records Access and Management Act;  <hr><ltbullet>makes the government records ombudsman an employee of the office;<hr><ltbullet>grants rulemaking authority to the director of the office;<hr><ltbullet>provides for the transition from the committee to the director of the office; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>creates the office within the division and describes the functions of the office;<hr><ltbullet>requires the governor to appoint the director of the office, in consultation with the executive director of the department, and with the advice and consent of the Senate;<hr><ltbullet>describes the term of office, qualifications, and duties of the director;<hr><ltbullet>repeals the committee;<hr><ltbullet>provides that the director will replace the committee in fulfilling the duties currently assigned to the committee, including the duty to decide appeals under the Government Records Access and Management Act;  <hr><ltbullet>makes the government records ombudsman an employee of the office;<hr><ltbullet>grants rulemaking authority to the director of the office;<hr><ltbullet>provides for the transition from the committee to the director of the office;<hr><ltbullet>provides that an individual in an executive branch management position is subject to the record amendment or retention policy created by the governor; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Thomas R. Vaughn",
   "fiscal_analyst": "Jared Gibbs",
@@ -391,9 +510,9 @@
       "markerID": "272522"
     }
   ],
-  "last_action": "Senate/ circled",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/21/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/27/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -535,6 +654,110 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SCIRCLED",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/26/2025 3:53 PM",
+      "actionClass": "S",
+      "voteID": "1241",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ substituted",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/26/2025 3:54 PM",
+      "actionClass": "S",
+      "voteID": "1242",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SSUB",
+      "parm2": "1",
+      "parm1": "2"
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/26/2025 4:05 PM",
+      "actionClass": "S",
+      "voteID": "1243",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "18-7-4",
+      "actionCode": "SPASS2",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/27/2025 11:50 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Clerk of the House",
+      "actionDate": "2/27/2025 12:08 PM",
+      "actionClass": "S",
+      "voteID": "1291",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "21-8-0",
+      "actionCode": "SPASS3",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2/27/2025 12:08 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2/27/2025 1:16 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/27/2025 2:07 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm2": "",
       "parm1": ""
     }

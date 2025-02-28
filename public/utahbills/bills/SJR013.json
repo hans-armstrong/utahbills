@@ -1,6 +1,6 @@
 {
   "bill_id": 1977424,
-  "change_hash": "e9ea74f6035027241e64250e62a27334",
+  "change_hash": "045b003e01b0eb05ac12fecdbc206877",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-21",
       "event": 1
+    },
+    {
+      "date": "2025-02-26",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 94,
   "title": "Joint Resolution Concerning Federal Term Limits",
   "description": "Joint Resolution Concerning Federal Term Limits",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-21",
@@ -51,6 +50,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-26",
+      "committee_id": 2122,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Government Operations and Political Subdivisions"
     }
   ],
   "history": [
@@ -88,6 +94,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-26",
+      "action": "Senate/ to standing committee in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-27",
+      "action": "Senate Comm - Held in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -182,7 +202,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "18b8943b",
+      "type": "Hearing",
+      "date": "2025-02-27",
+      "time": "16:00",
+      "location": "Room 30 House Building",
+      "description": "Senate Government Operations and Political Subdivisions Hearing"
+    }
+  ],
   "general_provisions": "This resolution makes an application to Congress to call a convention for proposing amendments to the United States Constitution.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>makes an application to Congress to call a convention for proposing amendments to the United States Constitution in accordance with Article V of the Constitution; and <hr><ltbullet>limits the scope of the convention to establishing a limit on the number of terms that a person may be elected as a member of the United States House of Representatives and the United States Senate.",
   "monies": "None",
@@ -190,10 +220,24 @@
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "BRMVGHJSNP",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/21/2025",
+  "agendas": [
+    {
+      "mtgID": "19873",
+      "committeeID": "SSTGOP",
+      "mtgDate": "2025-02-27 16:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Government Operations and Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SGOP0227.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "275660"
+    }
+  ],
+  "last_action": "Senate Comm - Held",
+  "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
+  "last_action_time": "2/27/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -257,6 +301,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2/26/2025 2:51 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Held",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2/27/2025 5:10 PM",
+      "actionClass": "A",
+      "voteID": "36757",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCAHELD",
       "parm2": "",
       "parm1": ""
     }

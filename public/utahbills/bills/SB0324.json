@@ -1,6 +1,6 @@
 {
   "bill_id": 1979865,
-  "change_hash": "814daf9192b38164ad9d3e2e4917b36a",
+  "change_hash": "e148d738f70053ddecb61582b672dd94",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Ticket Resale Amendments",
   "description": "Ticket Resale Amendments",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-24",
@@ -99,6 +94,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-26",
+      "action": "Senate Comm - Not Considered in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -167,7 +176,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 530869,
+      "date": "2025-02-26",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0324",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0324/id/530869",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SB0324.fn.pdf",
+      "supplement_size": 1609375,
+      "supplement_hash": "02f594034b3c95563f8c71d0f4463732",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [
     {
       "type_id": 1,
@@ -186,10 +216,24 @@
   "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "FNXRUEJGGD",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19869",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2025-02-26 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SBUS0226.ag.htm",
+      "billSession": "2025GS",
+      "markerID": ""
+    }
+  ],
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/24/2025",
+  "last_action_time": "2/27/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -253,6 +297,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Not Considered",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/26/2025 4:00 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCANOCNSDR",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/27/2025 9:22 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm2": "",
       "parm1": ""
     }

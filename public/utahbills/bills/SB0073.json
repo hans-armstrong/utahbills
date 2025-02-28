@@ -1,6 +1,6 @@
 {
   "bill_id": 1907563,
-  "change_hash": "532824191999f37ff97295ea37319363",
+  "change_hash": "da8edfaa1d737137346af7c01f48a577",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -44,6 +44,10 @@
     {
       "date": "2025-02-20",
       "event": 9
+    },
+    {
+      "date": "2025-02-27",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -57,13 +61,8 @@
   "current_body_id": 93,
   "title": "Statewide Initiatives Amendments",
   "description": "Statewide Initiatives Amendments",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -234,6 +233,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-26",
+      "action": "House Comm - Substitute Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-26",
+      "action": "House Comm - Favorable Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "House/ comm rpt/ substituted in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-27",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -587,6 +614,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 531141,
+      "date": "2025-02-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0073",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0073/id/531141",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB073H10.pdf",
+      "supplement_size": 144929,
+      "supplement_hash": "a21c361369a7d0777094b0c0580712f2",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -610,13 +657,26 @@
     }
   ],
   "general_provisions": "This bill amends provisions relating to a statewide initiative.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>modifies requirements for a statewide initiative application and a fiscal impact statement in relation to funding a law proposed by initiative; <hr><ltbullet>requires initiative petition sponsors to publish an initiative petition in the same manner required for publication of a proposed constitutional amendment;<hr><ltbullet>requires strict compliance with the publication requirement described above and prohibits submission of an initiative, or counting votes cast for or against an initiative, if the sponsors of the initiative petition fail to comply with the publication requirement; and <hr><ltbullet>makes technical changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>modifies requirements for a statewide initiative application and a fiscal impact statement in relation to funding a law proposed by initiative; <hr><ltbullet>requires initiative petition sponsors to publish the initiative application in the same manner required for publication of a proposed constitutional amendment;<hr><ltbullet>prohibits submission of an initiative, or counting votes cast for or against an initiative, if the sponsors of the initiative petition fail to comply with the publication requirement; and <hr><ltbullet>makes technical changes.",
   "monies": "None",
   "attorney": "Thomas R. Vaughn",
   "fiscal_analyst": "Travis D Eisenbacher",
   "gov_tracking_id": "MSHOWDNWWV",
   "comrecommend": [],
   "agendas": [
+    {
+      "mtgID": "19881",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2025-02-26 16:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HGOC0226.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "275123"
+    },
     {
       "mtgID": "19595",
       "committeeID": "SSTBUS",
@@ -631,9 +691,9 @@
       "markerID": "263119"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "2/20/2025",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for Senate bills",
+  "last_action_time": "2/27/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -879,6 +939,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/26/2025 4:55 PM",
+      "actionClass": "A",
+      "voteID": "36600",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-4",
+      "actionCode": "HCASUB",
+      "parm2": "1",
+      "parm1": "3"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/26/2025 4:56 PM",
+      "actionClass": "A",
+      "voteID": "36601",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-3-4",
+      "actionCode": "HCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/27/2025 10:19 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2/27/2025 10:19 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm2": "",
       "parm1": ""
     }

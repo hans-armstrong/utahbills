@@ -1,6 +1,6 @@
 {
   "bill_id": 1944135,
-  "change_hash": "bdb97971cde8957dd108ebb22f0dee1f",
+  "change_hash": "50ee8a1430d6bc98a1ce7d51477f928f",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-25",
       "event": 9
+    },
+    {
+      "date": "2025-02-27",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Department of Agriculture and Food Amendments",
   "description": "Department of Agriculture and Food Amendments",
-  "pending_committee_id": 2125,
-  "committee": {
-    "committee_id": 2125,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Natural Resources, Agriculture, and Environment"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-28",
@@ -195,6 +194,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-27",
+      "action": "Senate Comm - Favorable Recommendation in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "Senate/ committee report favorable in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-27",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -326,6 +346,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 531705,
+      "date": "2025-02-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0346",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0346/id/531705",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB346S10.pdf",
+      "supplement_size": 130637,
+      "supplement_hash": "42b2b84c5dd7e9eebc602ca81be10b52",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -368,11 +408,24 @@
       "agendaURL": "/~2025/agenda/HNAE0214.ag.htm",
       "billSession": "2025GS",
       "markerID": "271748"
+    },
+    {
+      "mtgID": "19902",
+      "committeeID": "SSTNAE",
+      "mtgDate": "2025-02-27 08:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SNAE0227.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "275455"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "2/25/2025",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/27/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -566,6 +619,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/27/2025 9:32 AM",
+      "actionClass": "A",
+      "voteID": "36689",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCAFAV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/27/2025 2:41 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/27/2025 2:41 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm2": "",
       "parm1": ""
     }

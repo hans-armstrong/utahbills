@@ -1,6 +1,6 @@
 {
   "bill_id": 1948376,
-  "change_hash": "526e4953cfa90d7a62aa731916993397",
+  "change_hash": "f958d5f3832abaefe8c9bfe10e762836",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -36,6 +36,10 @@
     {
       "date": "2025-02-24",
       "event": 2
+    },
+    {
+      "date": "2025-02-26",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,12 +53,12 @@
   "current_body_id": 93,
   "title": "Guardianship Amendments",
   "description": "Guardianship Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2109,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2109,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Judiciary"
   },
   "referrals": [
     {
@@ -77,6 +81,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-26",
+      "committee_id": 2109,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Judiciary"
     }
   ],
   "history": [
@@ -198,6 +209,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-02-26",
+      "action": "House/ to standing committee in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -410,6 +428,15 @@
       "time": "14:00",
       "location": "Room 30 House Building",
       "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "ade6cb40",
+      "type": "Hearing",
+      "date": "2025-02-27",
+      "time": "16:00",
+      "location": "Room 30 House Building",
+      "description": "House Judiciary Hearing"
     }
   ],
   "general_provisions": "This bill addresses a guardianship for an individual with a severe intellectual disability.",
@@ -420,6 +447,19 @@
   "gov_tracking_id": "MOGPRNWSLM",
   "comrecommend": [],
   "agendas": [
+    {
+      "mtgID": "19919",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2025-02-27 16:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HJUD0227.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "275563"
+    },
     {
       "mtgID": "19779",
       "committeeID": "SSTJLC",
@@ -434,9 +474,9 @@
       "markerID": "271365"
     }
   ],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/24/2025",
+  "last_action": "House Comm - Favorable Recommendation",
+  "last_action_owner": "House Judiciary Committee",
+  "last_action_time": "2/27/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -656,6 +696,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/26/2025 12:21 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/27/2025 5:08 PM",
+      "actionClass": "A",
+      "voteID": "36752",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-1-1",
+      "actionCode": "HCAFAV",
       "parm2": "",
       "parm1": ""
     }

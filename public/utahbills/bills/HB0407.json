@@ -1,6 +1,6 @@
 {
   "bill_id": 1953455,
-  "change_hash": "07c33e577cf42c7cf16af082d50c77a3",
+  "change_hash": "924f2551b2af7f4b46fb6b88d5967d57",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0407/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0407.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2025-02-25",
   "progress": [
     {
@@ -36,6 +36,10 @@
     {
       "date": "2025-02-25",
       "event": 2
+    },
+    {
+      "date": "2025-02-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,8 +53,13 @@
   "current_body_id": 94,
   "title": "Mini-motorcycle Amendments",
   "description": "Mini-motorcycle Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 3583,
+  "committee": {
+    "committee_id": 3583,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Transportation, Public Utilities, Energy, and Technology"
+  },
   "referrals": [
     {
       "date": "2025-02-04",
@@ -65,6 +74,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Transportation"
+    },
+    {
+      "date": "2025-02-26",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2025-02-27",
+      "committee_id": 3583,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Transportation, Public Utilities, Energy, and Technology"
     }
   ],
   "history": [
@@ -204,6 +227,20 @@
     {
       "date": "2025-02-25",
       "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-26",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "Senate/ to standing committee in Senate Transportation, Public Utilities, Energy, and Technology Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -645,6 +682,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 531403,
+      "date": "2025-02-27",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0407S03",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0407/id/531403",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0407S03.fn.pdf",
+      "supplement_size": 1609165,
+      "supplement_hash": "4a9bb4e585b06bcf57f11fa487abd539",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -674,6 +731,15 @@
       "time": "16:00",
       "location": "Room 30 House Building",
       "description": "House Transportation Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "73b90837",
+      "type": "Hearing",
+      "date": "2025-02-28",
+      "time": "16:00",
+      "location": "Room 30 House Building",
+      "description": "Senate Transportation, Public Utilities, Energy, and Technology Hearing"
     }
   ],
   "general_provisions": "This bill addresses the use of mini-motorcycles.",
@@ -724,9 +790,9 @@
       "markerID": "272555"
     }
   ],
-  "last_action": "Senate/ received from House",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/25/2025",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+  "last_action_time": "2/27/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -985,6 +1051,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/26/2025 10:35 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "2/27/2025 2:35 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm2": "",
       "parm1": ""
     }

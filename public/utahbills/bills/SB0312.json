@@ -1,6 +1,6 @@
 {
   "bill_id": 1977540,
-  "change_hash": "8a58b26b0dc76dd8b26cc168698ced0a",
+  "change_hash": "0a7d7316adaf15be25c2fefc69ccc187",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SB0312/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0312.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2025-02-21",
+  "status": 2,
+  "status_date": "2025-02-26",
   "progress": [
     {
       "date": "2025-02-21",
@@ -32,6 +32,10 @@
     {
       "date": "2025-02-25",
       "event": 10
+    },
+    {
+      "date": "2025-02-26",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,12 +45,17 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Pharmacy Practice Amendments",
   "description": "Pharmacy Practice Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-02-21",
@@ -61,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Health and Human Services"
+    },
+    {
+      "date": "2025-02-26",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -147,6 +163,41 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-26",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-26",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-26",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-26",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-26",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -176,6 +227,33 @@
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
+    },
+    {
+      "people_id": 24492,
+      "person_hash": "9lr73ykq",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Bridger Bolinder",
+      "first_name": "Bridger",
+      "middle_name": "",
+      "last_name": "Bolinder",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-029",
+      "ftm_eid": 55399288,
+      "votesmart_id": 204623,
+      "opensecrets_id": "",
+      "knowwho_pid": 801119,
+      "ballotpedia": "Bridger_Bolinder",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
     }
   ],
   "sasts": [],
@@ -183,6 +261,54 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 334430,
+      "subject_name": "Health Insurance"
+    },
+    {
+      "subject_id": 11905,
+      "subject_name": "Insurance Department"
+    },
+    {
+      "subject_id": 11871,
+      "subject_name": "Business"
+    },
+    {
+      "subject_id": 11893,
+      "subject_name": "Health Care"
+    },
+    {
+      "subject_id": 12052,
+      "subject_name": "Health Care Facilities"
+    },
+    {
+      "subject_id": 332644,
+      "subject_name": "Health Care Professionals"
+    },
+    {
+      "subject_id": 11967,
+      "subject_name": "Pharmacies"
+    },
+    {
+      "subject_id": 334594,
+      "subject_name": "Commercial Health Insurance\\Managed Care Contracts"
+    },
+    {
+      "subject_id": 354261,
+      "subject_name": "Pharmacists"
+    },
+    {
+      "subject_id": 356558,
+      "subject_name": "Pharmacy Benefit Managers"
+    },
+    {
+      "subject_id": 354262,
+      "subject_name": "Pharmaceuticals"
+    },
+    {
+      "subject_id": 81259,
+      "subject_name": "Occupational and Professional Licensing"
     }
   ],
   "texts": [
@@ -334,15 +460,15 @@
       "mtgPlace": "215 Senate Building",
       "committeeName": "Senate Health and Human Services Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2025/html/00001805.htm",
       "agendaURL": "/~2025/agenda/SHHS0225.ag.htm",
       "billSession": "2025GS",
       "markerID": "274259"
     }
   ],
-  "last_action": "Senate/ passed 2nd reading",
-  "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/25/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/26/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -497,6 +623,71 @@
       "voteHouse": "S",
       "voteStr": "22-0-7",
       "actionCode": "SPASS2",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/26/2025 11:05 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Clerk of the House",
+      "actionDate": "2/26/2025 11:07 AM",
+      "actionClass": "S",
+      "voteID": "1178",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "22-0-7",
+      "actionCode": "SPASS3",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2/26/2025 11:07 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2/26/2025 12:38 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/26/2025 2:19 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm2": "",
       "parm1": ""
     }

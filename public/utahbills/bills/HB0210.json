@@ -1,6 +1,6 @@
 {
   "bill_id": 1918569,
-  "change_hash": "dbd4b7e9f914f54e8098ff061a00a8c7",
+  "change_hash": "aa9c1fa9d8992c17c50a6a4d6b64b38d",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,13 +53,8 @@
   "current_body_id": 94,
   "title": "Higher Education Board of Trustees Amendments",
   "description": "Higher Education Board of Trustees Amendments",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -216,6 +211,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-26",
+      "action": "Senate Comm - Motion to Recommend Failed in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -555,11 +557,24 @@
       "agendaURL": "/~2025/agenda/HEDU0210.ag.htm",
       "billSession": "2025GS",
       "markerID": "270376"
+    },
+    {
+      "mtgID": "19869",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2025-02-26 16:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SBUS0226.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "275185"
     }
   ],
-  "last_action": "Senate/ to standing committee",
+  "last_action": "Senate Comm - Motion to Recommend Failed",
   "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/24/2025",
+  "last_action_time": "2/26/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -792,6 +807,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate Comm - Motion to Recommend Failed",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/26/2025 5:26 PM",
+      "actionClass": "A",
+      "voteID": "36612",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "0-6-2",
+      "actionCode": "SCAFAVFAIL",
       "parm2": "",
       "parm1": ""
     }

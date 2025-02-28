@@ -1,6 +1,6 @@
 {
   "bill_id": 1962985,
-  "change_hash": "2c988286e24f362bc041e65ccce1d31c",
+  "change_hash": "3dd352853d080adcfdce8e5c615fa983",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Candidate Petition Amendments",
   "description": "Candidate Petition Amendments",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-10",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-26",
+      "action": "House Comm - Held in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -241,10 +243,24 @@
   "fiscal_analyst": "Alejandra G Rodriguez",
   "gov_tracking_id": "JDHRLFYJWM",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "19881",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2025-02-26 16:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HGOC0226.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "275181"
+    }
+  ],
+  "last_action": "House Comm - Held",
   "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "2/19/2025",
+  "last_action_time": "2/26/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -321,6 +337,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/26/2025 5:51 PM",
+      "actionClass": "A",
+      "voteID": "36623",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-2-5",
+      "actionCode": "HCAHELD",
       "parm2": "",
       "parm1": ""
     }
