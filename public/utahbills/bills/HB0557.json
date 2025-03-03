@@ -1,6 +1,6 @@
 {
   "bill_id": 1984708,
-  "change_hash": "d33bc5463d9c9d909ebf2302058e967f",
+  "change_hash": "6cb2fa52ba7839081c62164e8ade9841",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Debate Committee Amendments",
   "description": "Debate Committee Amendments",
-  "pending_committee_id": 5042,
-  "committee": {
-    "committee_id": 5042,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Business, Labor, and Commerce"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-26",
@@ -99,6 +94,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-02-27",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-28",
+      "action": "House Comm - Held in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-28",
+      "action": "House Comm - Motion to Recommend Failed in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -207,10 +223,24 @@
   "fiscal_analyst": "Joseph Ryan Fitzgerald",
   "gov_tracking_id": "WEVCCBYYCX",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
+  "agendas": [
+    {
+      "mtgID": "19961",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2025-02-28 16:15:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HBUS0228.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "276203"
+    }
+  ],
+  "last_action": "House Comm - Motion to Recommend Failed",
   "last_action_owner": "House Business, Labor, and Commerce Committee",
-  "last_action_time": "2/27/2025",
+  "last_action_time": "2/28/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -287,6 +317,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2/28/2025 5:27 PM",
+      "actionClass": "A",
+      "voteID": "36907",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-4-5",
+      "actionCode": "HCAHELD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Motion to Recommend Failed",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2/28/2025 5:32 PM",
+      "actionClass": "A",
+      "voteID": "36908",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-6-5",
+      "actionCode": "HCAFAVFAIL",
       "parm1": "",
       "parm2": ""
     }

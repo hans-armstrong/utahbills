@@ -1,6 +1,6 @@
 {
   "bill_id": 1967343,
-  "change_hash": "444f99295552a8d6fedf19e9b028b2bb",
+  "change_hash": "334a0a4311baeed53a28cf108a7cad22",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,8 +41,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Residential Notification Amendments",
   "description": "Residential Notification Amendments",
   "pending_committee_id": 0,
@@ -140,6 +140,41 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "House/ substituted in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-27",
+      "action": "House/ held in House Docket Clerk",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-28",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -166,6 +201,33 @@
       "bioguide_id": "",
       "sponsor_type_id": 1,
       "sponsor_order": 1,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
+    {
+      "people_id": 8186,
+      "person_hash": "xpczbtsb",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 2,
+      "role": "Sen",
+      "name": "Evan Vickers",
+      "first_name": "Evan",
+      "middle_name": "J.",
+      "last_name": "Vickers",
+      "suffix": "",
+      "nickname": "",
+      "district": "SD-028",
+      "ftm_eid": 9838132,
+      "votesmart_id": 103758,
+      "opensecrets_id": "",
+      "knowwho_pid": 268712,
+      "ballotpedia": "Evan_Vickers",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -429,6 +491,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 533141,
+      "date": "2025-02-28",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0485S02",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0485/id/533141",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0485S02.fn.pdf",
+      "supplement_size": 1608365,
+      "supplement_hash": "5bf34dba6e7e9d944dbadf1d931ead57",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -473,9 +555,9 @@
       "markerID": "274806"
     }
   ],
-  "last_action": "House/ held",
-  "last_action_owner": "House Docket Clerk",
-  "last_action_time": "2/27/2025",
+  "last_action": "House/ to Senate",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "2/28/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -669,6 +751,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HHOLD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2/28/2025 2:07 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
       "parm1": "",
       "parm2": ""
     }

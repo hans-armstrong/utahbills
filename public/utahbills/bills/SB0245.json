@@ -1,6 +1,6 @@
 {
   "bill_id": 1963244,
-  "change_hash": "f8a1e4b4c3ccf5820b56d2c9d6d8e77d",
+  "change_hash": "300b2497484b48cbf37d3b928a40a52b",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SB0245/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0245.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2025-02-10",
+  "status": 2,
+  "status_date": "2025-02-28",
   "progress": [
     {
       "date": "2025-02-10",
@@ -32,6 +32,10 @@
     {
       "date": "2025-02-18",
       "event": 10
+    },
+    {
+      "date": "2025-02-28",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,12 +45,17 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Newborn Child Insurance Notification Amendments",
   "description": "Newborn Child Insurance Notification Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-02-10",
@@ -61,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Business and Labor"
+    },
+    {
+      "date": "2025-02-28",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -163,10 +179,17 @@
       "importance": 0
     },
     {
-      "date": "2025-02-24",
-      "action": "Senate / held in Senate Secretary",
-      "chamber": "S",
-      "chamber_id": 94,
+      "date": "2025-02-28",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-28",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -194,6 +217,33 @@
       "bioguide_id": "",
       "sponsor_type_id": 1,
       "sponsor_order": 1,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
+    {
+      "people_id": 23791,
+      "person_hash": "uct26719",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Stephanie Gricius",
+      "first_name": "Stephanie",
+      "middle_name": "",
+      "last_name": "Gricius",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-050",
+      "ftm_eid": 55399349,
+      "votesmart_id": 204518,
+      "opensecrets_id": "",
+      "knowwho_pid": 0,
+      "ballotpedia": "Stephanie_Gricius",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -327,9 +377,9 @@
       "markerID": "272074"
     }
   ],
-  "last_action": "Senate / held",
-  "last_action_owner": "Senate Secretary",
-  "last_action_time": "2/24/2025",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/28/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -341,8 +391,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -354,8 +404,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -367,8 +417,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -380,8 +430,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -393,8 +443,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -406,8 +456,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate Comm - Favorable Recommendation",
@@ -419,8 +469,8 @@
       "voteHouse": "",
       "voteStr": "7-0-1",
       "actionCode": "SCAFAV",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ committee report favorable",
@@ -432,8 +482,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCR",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ placed on 2nd Reading Calendar",
@@ -445,8 +495,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 2nd reading",
@@ -458,8 +508,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD2",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ passed 2nd reading",
@@ -471,8 +521,8 @@
       "voteHouse": "S",
       "voteStr": "25-0-4",
       "actionCode": "SPASS2",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 3rd reading",
@@ -484,8 +534,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD3",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ passed 3rd reading",
@@ -497,8 +547,8 @@
       "voteHouse": "S",
       "voteStr": "25-0-4",
       "actionCode": "SPASS3",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ to House",
@@ -510,21 +560,34 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOHOU",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
-      "description": "Senate / held",
-      "owner": "Senate Secretary",
-      "actionDate": "2/24/2025 5:09 PM",
-      "actionClass": "S",
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2/28/2025 12:54 PM",
+      "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
-      "actionCode": "SHOLD",
-      "parm2": "",
-      "parm1": ""
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/28/2025 2:19 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

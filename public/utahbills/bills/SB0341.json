@@ -1,6 +1,6 @@
 {
   "bill_id": 1986606,
-  "change_hash": "0a3650b755b6bc6dd2c0eacf75d2ebc5",
+  "change_hash": "305c6872ac667cabcbf94ace2a885be3",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -24,6 +24,10 @@
     {
       "date": "2025-02-27",
       "event": 1
+    },
+    {
+      "date": "2025-02-28",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Election Modifications",
   "description": "Election Modifications",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2122,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2122,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Government Operations and Political Subdivisions"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2025-02-28",
+      "committee_id": 2122,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Government Operations and Political Subdivisions"
     }
   ],
   "history": [
@@ -78,6 +89,13 @@
     {
       "date": "2025-02-27",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-28",
+      "action": "Senate/ to standing committee in Senate Government Operations and Political Subdivisions Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -162,7 +180,17 @@
   "votes": [],
   "amendments": [],
   "supplements": [],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "5f0cacc8",
+      "type": "Hearing",
+      "date": "2025-03-03",
+      "time": "08:00",
+      "location": "",
+      "description": "Senate Government Operations and Political Subdivisions Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions relating to elections.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>establishes requirements and procedures addressing circumstances when the lieutenant governor may have a real or perceived conflict of interest in certain matters relating to the administration of elections, the regulation of campaign finance requirements or reporting requirements, or the regulation of lobbying, including:<hr><ltbullet1>requiring, or in certain circumstances permitting, the lieutenant governor to delegate certain duties to a county clerk that relate to a race where the governor or lieutenant governor are running for office;<hr><ltbullet1>requiring, or in certain circumstances permitting, the attorney general to act in the place of the lieutenant governor in relation to matters requiring factual determinations, interpreting or applying the law, or imposing penalties; and<hr><ltbullet1>provides that the state board of canvassers shall canvass regular primary election results and presidential primary election results; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -171,9 +199,9 @@
   "gov_tracking_id": "ILXVGNSMVU",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/27/2025",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
+  "last_action_time": "2/28/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -185,8 +213,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -198,8 +226,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -211,8 +239,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -224,8 +252,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2/28/2025 2:35 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1968071,
-  "change_hash": "87bb316436543764cebfae70fe464d17",
+  "change_hash": "19589b98248107601fb6180dc814eed7",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/HB0495/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0495.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2025-02-13",
+  "status": 2,
+  "status_date": "2025-02-28",
   "progress": [
     {
       "date": "2025-02-13",
@@ -32,6 +32,14 @@
     {
       "date": "2025-02-26",
       "event": 10
+    },
+    {
+      "date": "2025-02-28",
+      "event": 2
+    },
+    {
+      "date": "2025-02-28",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -41,12 +49,17 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Health Care Amendments",
   "description": "Health Care Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2123,
+  "committee": {
+    "committee_id": 2123,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Health and Human Services"
+  },
   "referrals": [
     {
       "date": "2025-02-13",
@@ -61,6 +74,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Business, Labor, and Commerce"
+    },
+    {
+      "date": "2025-02-28",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2025-02-28",
+      "committee_id": 2123,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Health and Human Services"
     }
   ],
   "history": [
@@ -140,6 +167,48 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-02-28",
+      "action": "House/ 3rd reading in House Consent Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-28",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-28",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-28",
+      "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-28",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-28",
+      "action": "Senate/ to standing committee in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -166,6 +235,33 @@
       "bioguide_id": "",
       "sponsor_type_id": 1,
       "sponsor_order": 1,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
+    {
+      "people_id": 8186,
+      "person_hash": "xpczbtsb",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 2,
+      "role": "Sen",
+      "name": "Evan Vickers",
+      "first_name": "Evan",
+      "middle_name": "J.",
+      "last_name": "Vickers",
+      "suffix": "",
+      "nickname": "",
+      "district": "SD-028",
+      "ftm_eid": 9838132,
+      "votesmart_id": 103758,
+      "opensecrets_id": "",
+      "knowwho_pid": 268712,
+      "ballotpedia": "Evan_Vickers",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -336,6 +432,15 @@
       "time": "16:00",
       "location": "Room 30 House Building",
       "description": "House Business, Labor, and Commerce Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "779165b9",
+      "type": "Hearing",
+      "date": "2025-03-03",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Health and Human Services Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions related to health care practices.",
@@ -354,15 +459,15 @@
       "mtgPlace": "445 State Capitol",
       "committeeName": "House Business, Labor, and Commerce Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2025/html/00001854.htm",
       "agendaURL": "/~2025/agenda/HBUS0225.ag.htm",
       "billSession": "2025GS",
       "markerID": "274635"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House Consent Calendar",
-  "last_action_time": "2/26/2025",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Health and Human Services Committee",
+  "last_action_time": "2/28/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -504,6 +609,84 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House Consent Calendar",
+      "actionDate": "2/28/2025 10:36 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "2/28/2025 10:38 AM",
+      "actionClass": "H",
+      "voteID": "951",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "66-0-9",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2/28/2025 10:38 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "2/28/2025 12:50 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/28/2025 2:42 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "2/28/2025 3:59 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1909673,
-  "change_hash": "ca7af8dcccbf669605d74b70dbbc2dd6",
+  "change_hash": "bf89f2c750b5c88464274bc3dda71f5c",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -357,15 +357,22 @@
       "importance": 0
     },
     {
-      "date": "2025-02-27",
-      "action": "House Conference Committee Appointed in Conference Committee",
+      "date": "2025-02-28",
+      "action": "Senate/ received from House in Conference Committee",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
-      "date": "2025-02-27",
-      "action": "House/ to Senate in Conference Committee",
+      "date": "2025-02-28",
+      "action": "Senate Conference Committee Appointed in Conference Committee",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-28",
+      "action": "Senate/ to House in Conference Committee",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -432,6 +439,26 @@
     {
       "subject_id": 11898,
       "subject_name": "Natural Resources"
+    },
+    {
+      "subject_id": 12042,
+      "subject_name": "Department of Environmental Quality"
+    },
+    {
+      "subject_id": 332648,
+      "subject_name": "Water Utilities, Irrigation, and Sewer"
+    },
+    {
+      "subject_id": 334648,
+      "subject_name": "Drinking Water"
+    },
+    {
+      "subject_id": 334360,
+      "subject_name": "Local Taxation and Fees"
+    },
+    {
+      "subject_id": 334139,
+      "subject_name": "Water"
     }
   ],
   "texts": [
@@ -698,9 +725,9 @@
       "markerID": "265000"
     }
   ],
-  "last_action": "House/ to Senate",
+  "last_action": "Senate/ to House",
   "last_action_owner": "Conference Committee",
-  "last_action_time": "2/27/2025",
+  "last_action_time": "2/28/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1197,28 +1224,41 @@
       "parm2": ""
     },
     {
-      "description": "House Conference Committee Appointed",
+      "description": "Senate/ received from House",
       "owner": "Conference Committee",
-      "actionDate": "2/27/2025 8:01 PM",
+      "actionDate": "2/28/2025 1:34 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Conference Committee Appointed",
+      "owner": "Conference Committee",
+      "actionDate": "2/28/2025 1:34 PM",
       "actionClass": "C",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
-      "actionCode": "HCCOMAPP",
+      "actionCode": "SCCOMAPP",
       "parm1": "",
       "parm2": ""
     },
     {
-      "description": "House/ to Senate",
+      "description": "Senate/ to House",
       "owner": "Conference Committee",
-      "actionDate": "2/27/2025 8:01 PM",
-      "actionClass": "H",
+      "actionDate": "2/28/2025 1:34 PM",
+      "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
-      "actionCode": "HTOSEN",
+      "actionCode": "STOHOU",
       "parm1": "",
       "parm2": ""
     }

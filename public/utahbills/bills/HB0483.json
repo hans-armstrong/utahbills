@@ -1,6 +1,6 @@
 {
   "bill_id": 1965250,
-  "change_hash": "3c34c7c83073d8fdff2337774aeb5491",
+  "change_hash": "a54fa6d6c4ac9713ae2b438dd641e7f7",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/HB0483/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0483.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2025-02-11",
+  "status": 2,
+  "status_date": "2025-02-28",
   "progress": [
     {
       "date": "2025-02-11",
@@ -32,6 +32,14 @@
     {
       "date": "2025-02-24",
       "event": 10
+    },
+    {
+      "date": "2025-02-28",
+      "event": 2
+    },
+    {
+      "date": "2025-02-28",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -45,8 +53,13 @@
   "current_body_id": 94,
   "title": "School and Institutional Trust Lands Administration Modifications",
   "description": "School and Institutional Trust Lands Administration Modifications",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2120,
+  "committee": {
+    "committee_id": 2120,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Education"
+  },
   "referrals": [
     {
       "date": "2025-02-11",
@@ -61,6 +74,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Natural Resources, Agriculture, and Environment"
+    },
+    {
+      "date": "2025-02-28",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2025-02-28",
+      "committee_id": 2120,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Education"
     }
   ],
   "history": [
@@ -175,6 +202,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-28",
+      "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-28",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-02-28",
+      "action": "Senate/ to standing committee in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -613,6 +661,15 @@
       "time": "08:00",
       "location": "Room 30 House Building",
       "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "a1a91523",
+      "type": "Hearing",
+      "date": "2025-03-03",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Education Hearing"
     }
   ],
   "general_provisions": "This bill addresses provisions related to school and institutional trust lands.",
@@ -637,9 +694,9 @@
       "markerID": "273955"
     }
   ],
-  "last_action": "House/ to Senate",
-  "last_action_owner": "Senate Secretary",
-  "last_action_time": "2/27/2025",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Education Committee",
+  "last_action_time": "2/28/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -846,6 +903,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "2/28/2025 9:41 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/28/2025 10:28 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Education Committee",
+      "actionDate": "2/28/2025 2:35 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

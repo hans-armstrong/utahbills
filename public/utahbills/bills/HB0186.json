@@ -1,6 +1,6 @@
 {
   "bill_id": 1916316,
-  "change_hash": "9a37531908f575bf773510884a7175ae",
+  "change_hash": "40f15177ed1a5e6096c3048a843ab817",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,13 +53,8 @@
   "current_body_id": 94,
   "title": "Wage Payment Amendments",
   "description": "Wage Payment Amendments",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -223,6 +218,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-02-28",
+      "action": "Senate Comm - Motion to Recommend Failed in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -431,6 +433,27 @@
       "alt_state_link": "",
       "alt_amendment_size": 0,
       "alt_amendment_hash": ""
+    },
+    {
+      "amendment_id": 233149,
+      "adopted": 0,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2025-02-28",
+      "title": "House Amendment 2",
+      "description": "House Amendment 2",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0186/id/233149",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/HB0186S02.Hamd.2.pdf",
+      "amendment_size": 32378,
+      "amendment_hash": "acc4b87852f151f6a3c88e99fbac49fe",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
     }
   ],
   "supplements": [
@@ -593,6 +616,15 @@
       "time": "08:00",
       "location": "Room 30 House Building",
       "description": "Senate Business and Labor Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "b0fbe2bc",
+      "type": "Hearing",
+      "date": "2025-03-03",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Business and Labor Hearing"
     }
   ],
   "general_provisions": "This bill modifies the payment of wages provisions.",
@@ -615,11 +647,24 @@
       "agendaURL": "/~2025/agenda/HBUS0213.ag.htm",
       "billSession": "2025GS",
       "markerID": "271459"
+    },
+    {
+      "mtgID": "19868",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2025-02-28 08:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2025/html/00001851.htm",
+      "agendaURL": "/~2025/agenda/SBUS0228.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "276055"
     }
   ],
-  "last_action": "Senate/ to standing committee",
+  "last_action": "Senate Comm - Motion to Recommend Failed",
   "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/25/2025",
+  "last_action_time": "2/28/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -631,8 +676,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -644,8 +689,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -657,8 +702,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -670,8 +715,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -683,8 +728,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ to standing committee",
@@ -696,8 +741,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House Comm - Substitute Recommendation",
@@ -709,8 +754,8 @@
       "voteHouse": "",
       "voteStr": "9-0-7",
       "actionCode": "HCASUB",
-      "parm2": "0",
-      "parm1": "1"
+      "parm1": "1",
+      "parm2": "0"
     },
     {
       "description": "House Comm - Amendment Recommendation",
@@ -722,8 +767,8 @@
       "voteHouse": "",
       "voteStr": "9-0-7",
       "actionCode": "HCAAMD",
-      "parm2": "",
-      "parm1": "1"
+      "parm1": "1",
+      "parm2": ""
     },
     {
       "description": "House Comm - Favorable Recommendation",
@@ -735,8 +780,8 @@
       "voteHouse": "",
       "voteStr": "9-0-7",
       "actionCode": "HCAFAV",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ comm rpt/ substituted/ amended",
@@ -748,8 +793,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCRSUBAMD",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 2nd reading",
@@ -761,8 +806,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 3rd reading",
@@ -774,8 +819,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD3",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ substituted",
@@ -787,8 +832,8 @@
       "voteHouse": "H",
       "voteStr": "0-0-75",
       "actionCode": "HSUB",
-      "parm2": "1",
-      "parm1": "2"
+      "parm1": "2",
+      "parm2": "1"
     },
     {
       "description": "House/ floor amendment",
@@ -800,8 +845,8 @@
       "voteHouse": "H",
       "voteStr": "0-0-75",
       "actionCode": "HAMEND",
-      "parm2": "",
-      "parm1": "1"
+      "parm1": "1",
+      "parm2": ""
     },
     {
       "description": "House/ passed 3rd reading",
@@ -813,8 +858,8 @@
       "voteHouse": "H",
       "voteStr": "68-0-7",
       "actionCode": "HPASS3",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ to Senate",
@@ -826,8 +871,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSEN",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received from House",
@@ -839,8 +884,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -852,8 +897,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -865,8 +910,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Motion to Recommend Failed",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/28/2025 10:02 AM",
+      "actionClass": "A",
+      "voteID": "36856",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-3-2",
+      "actionCode": "SCAFAVFAIL",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

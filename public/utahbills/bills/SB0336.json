@@ -1,6 +1,6 @@
 {
   "bill_id": 1983572,
-  "change_hash": "990d4deb9006d563bf2d122e03be92f6",
+  "change_hash": "afc42819434d13f41f5bb1cf168750b8",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-26",
       "event": 9
+    },
+    {
+      "date": "2025-02-28",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -108,6 +112,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-02-28",
+      "action": "Senate/ comm rpt/ substituted in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-02-28",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -144,6 +162,54 @@
     {
       "subject_id": 332638,
       "subject_name": "Environment"
+    },
+    {
+      "subject_id": 334426,
+      "subject_name": "Community Reinvestment Agencies"
+    },
+    {
+      "subject_id": 11988,
+      "subject_name": "Land Use"
+    },
+    {
+      "subject_id": 332649,
+      "subject_name": "Municipalities"
+    },
+    {
+      "subject_id": 12012,
+      "subject_name": "Limited Purpose Local Government Entities"
+    },
+    {
+      "subject_id": 11910,
+      "subject_name": "Political Subdivisions (Local Issues)"
+    },
+    {
+      "subject_id": 11924,
+      "subject_name": "Property Tax"
+    },
+    {
+      "subject_id": 21249,
+      "subject_name": "Property Tax Collection"
+    },
+    {
+      "subject_id": 11888,
+      "subject_name": "Revenue and Taxation"
+    },
+    {
+      "subject_id": 334360,
+      "subject_name": "Local Taxation and Fees"
+    },
+    {
+      "subject_id": 334825,
+      "subject_name": "Planning and Zoning"
+    },
+    {
+      "subject_id": 335078,
+      "subject_name": "Tax Increment Financing"
+    },
+    {
+      "subject_id": 368147,
+      "subject_name": "Public Infrastructure District"
     }
   ],
   "texts": [
@@ -226,6 +292,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 533530,
+      "date": "2025-02-28",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0336",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0336/id/533530",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SB0336.fn.pdf",
+      "supplement_size": 1609596,
+      "supplement_hash": "60bfdf9631f2ce40ba084ba82cf18832",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -261,9 +347,9 @@
       "markerID": "275551"
     }
   ],
-  "last_action": "Senate Comm - Favorable Recommendation",
-  "last_action_owner": "Senate Economic Development and Workforce Services Committee",
-  "last_action_time": "2/27/2025",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/28/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -275,8 +361,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -288,8 +374,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -301,8 +387,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -314,8 +400,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -327,8 +413,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate Comm - Substitute Recommendation",
@@ -340,8 +426,8 @@
       "voteHouse": "",
       "voteStr": "3-0-3",
       "actionCode": "SCASUB",
-      "parm2": "0",
-      "parm1": "1"
+      "parm1": "1",
+      "parm2": "0"
     },
     {
       "description": "Senate Comm - Favorable Recommendation",
@@ -353,8 +439,34 @@
       "voteHouse": "",
       "voteStr": "2-1-3",
       "actionCode": "SCAFAV",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ substituted",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "2/28/2025 10:31 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/28/2025 10:31 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }
