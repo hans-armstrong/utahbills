@@ -1,6 +1,6 @@
 {
   "bill_id": 1981567,
-  "change_hash": "7d73f1249a2fdd9f7b2a1ee8cee23d85",
+  "change_hash": "5f35af604c6d4d798285054d06d3b184",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Deferred Deposit Lending Modifications",
   "description": "Deferred Deposit Lending Modifications",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-24",
@@ -106,6 +101,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate Comm - Amendment Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate Comm - Motion to Recommend Failed in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate Comm - Returned to Rules in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -174,6 +190,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3153304,
+      "date": "2025-03-04",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0329/id/3153304",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/AV_SB0329_2025-03-04_21-13-44.pdf",
+      "text_size": 49555,
+      "text_hash": "11f8a9762d28dcd1837b179dadddd51c",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [],
@@ -220,6 +254,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 536877,
+      "date": "2025-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0329",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0329/id/536877",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB329S10.pdf",
+      "supplement_size": 151593,
+      "supplement_hash": "50b3e524efeb4932d1ece34d51777190",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -249,10 +303,24 @@
   "fiscal_analyst": "Alejandra G Rodriguez",
   "gov_tracking_id": "DTLSWYOJLY",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "2/27/2025",
+  "agendas": [
+    {
+      "mtgID": "19935",
+      "committeeID": "SSTREV",
+      "mtgDate": "2025-03-03 08:10:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SREV0303.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "276610"
+    }
+  ],
+  "last_action": "Senate/ comm rpt/ sent to Rules/ amended",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "3/5/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -329,6 +397,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Amendment Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "3/3/2025 9:23 AM",
+      "actionClass": "A",
+      "voteID": "37014",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-1",
+      "actionCode": "SCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Motion to Recommend Failed",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "3/3/2025 9:29 AM",
+      "actionClass": "A",
+      "voteID": "37019",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-3-1",
+      "actionCode": "SCAFAVFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Returned to Rules",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "3/4/2025 6:06 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCARUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ sent to Rules/ amended",
+      "owner": "Senate Rules Committee",
+      "actionDate": "3/5/2025 10:03 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRRULAMD",
       "parm1": "",
       "parm2": ""
     }

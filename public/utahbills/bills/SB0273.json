@@ -1,6 +1,6 @@
 {
   "bill_id": 1968394,
-  "change_hash": "7309ffefbf9fa6c8f5319883733941db",
+  "change_hash": "8b6a119d27b76d0d42070dc02e58400b",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-18",
       "event": 9
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "State Facilities Amendments",
   "description": "State Facilities Amendments",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-14",
@@ -103,6 +102,20 @@
     {
       "date": "2025-02-18",
       "action": "Senate/ to standing committee in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate Comm - Returned to Rules in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ comm rpt/ sent to Rules in Senate Rules Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -194,6 +207,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 537100,
+      "date": "2025-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0273",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0273/id/537100",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB273S10.pdf",
+      "supplement_size": 128737,
+      "supplement_hash": "019ff32369bf7687766ec01f78c52472",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -215,14 +248,14 @@
   "gov_tracking_id": "HTQIUAFTXI",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/18/2025",
+  "last_action": "Senate/ comm rpt/ sent to Rules",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/13/2025",
+      "actionDate": "2/13/2025 9:08 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -235,7 +268,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/13/2025",
+      "actionDate": "2/13/2025 9:08 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -248,7 +281,7 @@
     {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "2/13/2025",
+      "actionDate": "2/13/2025 9:59 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -261,7 +294,7 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "2/14/2025",
+      "actionDate": "2/14/2025 10:39 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -274,7 +307,7 @@
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
       "owner": "Senate Rules Committee",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 9:29 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -287,13 +320,39 @@
     {
       "description": "Senate/ to standing committee",
       "owner": "Senate Business and Labor Committee",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 10:15 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Returned to Rules",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "3/3/2025 6:41 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCARUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ sent to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "3/4/2025 6:24 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRRUL",
       "parm1": "",
       "parm2": ""
     }

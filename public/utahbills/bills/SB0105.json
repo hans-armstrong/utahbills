@@ -1,6 +1,6 @@
 {
   "bill_id": 1916251,
-  "change_hash": "058e70ac97a9724ef9e1c0b42fb63cc1",
+  "change_hash": "a0d4968e1e687c6f5aafc534e361f09e",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,14 @@
     {
       "date": "2025-02-28",
       "event": 9
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +61,8 @@
   "current_body_id": 93,
   "title": "Student Privacy and Modesty in Public Education",
   "description": "Student Privacy and Modesty in Public Education",
-  "pending_committee_id": 2105,
-  "committee": {
-    "committee_id": 2105,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -216,6 +219,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House Comm - Favorable Recommendation in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ committee report favorable in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ comm rpt/ sent to Rules in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -355,6 +379,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 536660,
+      "date": "2025-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0105",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0105/id/536660",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB105H10.pdf",
+      "supplement_size": 140231,
+      "supplement_hash": "7a1c0f6d9e41d8ff5fdddce077f85dc6",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -375,6 +419,15 @@
       "time": "14:00",
       "location": "Room 30 House Building",
       "description": "Senate Education Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "4aadfcf6",
+      "type": "Hearing",
+      "date": "2025-03-04",
+      "time": "14:00",
+      "location": "",
+      "description": "House Education Hearing"
     }
   ],
   "general_provisions": "This bill enacts provisions regarding a student's reasonable expectation of individual privacy and personal modesty in the public education system.",
@@ -385,6 +438,19 @@
   "gov_tracking_id": "GWQFLLXQRO",
   "comrecommend": [],
   "agendas": [
+    {
+      "mtgID": "19910",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2025-03-04 14:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HEDU0304.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "277184"
+    },
     {
       "mtgID": "19770",
       "committeeID": "SSTEDU",
@@ -412,9 +478,9 @@
       "markerID": ""
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Education Committee",
-  "last_action_time": "2/28/2025",
+  "last_action": "House/ comm rpt/ sent to Rules",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -647,6 +713,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Education Committee",
+      "actionDate": "3/4/2025 2:36 PM",
+      "actionClass": "A",
+      "voteID": "37182",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-5",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Education Committee",
+      "actionDate": "3/4/2025 9:18 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ sent to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "3/4/2025 9:20 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRRUL",
       "parm1": "",
       "parm2": ""
     }

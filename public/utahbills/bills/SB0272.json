@@ -1,6 +1,6 @@
 {
   "bill_id": 1968481,
-  "change_hash": "06a1abc99222c224e5e9d766b8d247f1",
+  "change_hash": "294e579f6d44d8f92c5e7aca50995093",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-28",
       "event": 9
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 93,
   "title": "Micro-education Entity Amendments",
   "description": "Micro-education Entity Amendments",
-  "pending_committee_id": 2105,
-  "committee": {
-    "committee_id": 2105,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-14",
@@ -223,6 +222,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House Comm - Favorable Recommendation in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ committee report favorable in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ return to Rules due to fiscal impact in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -362,6 +382,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 536887,
+      "date": "2025-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0272",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0272/id/536887",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB272H10.pdf",
+      "supplement_size": 141065,
+      "supplement_hash": "249df662e16a8a1d066c7b0e96fe712b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -373,6 +413,15 @@
       "time": "16:00",
       "location": "Room 30 House Building",
       "description": "Senate Education Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "4aadfcf6",
+      "type": "Hearing",
+      "date": "2025-03-04",
+      "time": "14:00",
+      "location": "",
+      "description": "House Education Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions regarding a facility in which a micro-education entity or home-based microschool operates.",
@@ -383,6 +432,19 @@
   "gov_tracking_id": "LIGQBFUOPX",
   "comrecommend": [],
   "agendas": [
+    {
+      "mtgID": "19910",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2025-03-04 14:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HEDU0304.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "277239"
+    },
     {
       "mtgID": "19772",
       "committeeID": "SSTEDU",
@@ -397,9 +459,9 @@
       "markerID": "273627"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Education Committee",
-  "last_action_time": "2/28/2025",
+  "last_action": "House/ comm rpt/ sent to Rules",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -645,6 +707,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Education Committee",
+      "actionDate": "3/4/2025 2:41 PM",
+      "actionClass": "A",
+      "voteID": "37184",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-1-5",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Education Committee",
+      "actionDate": "3/4/2025 9:18 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ sent to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "3/4/2025 9:20 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRRUL",
       "parm1": "",
       "parm2": ""
     }

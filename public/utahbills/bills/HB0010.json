@@ -1,6 +1,6 @@
 {
   "bill_id": 1989328,
-  "change_hash": "429795bf41e1d8b4a41a38998787ee2b",
+  "change_hash": "1d5adadcd60062a6ec7d34c13b0f822c",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,9 +18,26 @@
   "url": "https://legiscan.com/UT/bill/HB0010/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0010.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 2,
+  "status_date": "2025-03-04",
+  "progress": [
+    {
+      "date": "2025-03-03",
+      "event": 1
+    },
+    {
+      "date": "2025-03-03",
+      "event": 9
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
+    },
+    {
+      "date": "2025-03-04",
+      "event": 2
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0010",
@@ -28,13 +45,40 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Fund and Account Modifications",
   "description": "Fund and Account Modifications",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2025-03-03",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    },
+    {
+      "date": "2025-03-03",
+      "committee_id": 2107,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Government Operations"
+    },
+    {
+      "date": "2025-03-04",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2025-03-02",
@@ -48,6 +92,97 @@
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ received fiscal note from Fiscal Analyst in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ to standing committee in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House Comm - Amendment Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House Comm - Favorable Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ comm rpt/ amended in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -112,6 +247,58 @@
     {
       "subject_id": 332524,
       "subject_name": "Legislative Operations"
+    },
+    {
+      "subject_id": 11966,
+      "subject_name": "Public Funds and Accounts"
+    },
+    {
+      "subject_id": 332535,
+      "subject_name": "Public Budgeting"
+    },
+    {
+      "subject_id": 11865,
+      "subject_name": "Controlled Substances"
+    },
+    {
+      "subject_id": 374638,
+      "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 332528,
+      "subject_name": "Judicial Operations"
+    },
+    {
+      "subject_id": 354066,
+      "subject_name": "Department of Government Operations"
+    },
+    {
+      "subject_id": 11851,
+      "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 11849,
+      "subject_name": "Appropriations"
+    },
+    {
+      "subject_id": 334140,
+      "subject_name": "Constitutional Officers"
+    },
+    {
+      "subject_id": 375054,
+      "subject_name": "Division of Finance"
+    },
+    {
+      "subject_id": 340422,
+      "subject_name": "Opioids"
+    },
+    {
+      "subject_id": 340614,
+      "subject_name": "State Treasurer"
+    },
+    {
+      "subject_id": 367572,
+      "subject_name": "Civil Litigation"
     }
   ],
   "texts": [
@@ -132,12 +319,103 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3151375,
+      "date": "2025-03-04",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0010/id/3151375",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/AV_HB0010_2025-03-04_09-36-25.pdf",
+      "text_size": 55487,
+      "text_hash": "c19476a64b27aaee7d3120b62a53d2cf",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [],
-  "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "amendments": [
+    {
+      "amendment_id": 233600,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2025-03-03",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0010/id/233600",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/HB0010.Hamd.1.pdf",
+      "amendment_size": 6814,
+      "amendment_hash": "960ae2a634fe942525d5f4d5e5f01785",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
+  "supplements": [
+    {
+      "supplement_id": 534584,
+      "date": "2025-03-03",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0010",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0010/id/534584",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0010.fn.pdf",
+      "supplement_size": 1609771,
+      "supplement_hash": "7c3f13be470478eb2d1b673917973e09",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 535819,
+      "date": "2025-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0010",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0010/id/535819",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB010H10.pdf",
+      "supplement_size": 155749,
+      "supplement_hash": "191b003d65195ec4b273b84086f04f58",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "a2051d1d",
+      "type": "Hearing",
+      "date": "2025-03-03",
+      "time": "16:00",
+      "location": "",
+      "description": "House Government Operations Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies provisions related to state funds. ",
   "hilighted_provisions": "This bill:<hr><ltbullet>modifies the amount that the Division of Finance annually transfers from the Liquor Control Fund to the General Fund;<hr><ltbullet>changes the Opioid Litigation Proceeds Restricted Account from a restricted account to a permanent fund called the Opioid Litigation Proceeds Fund;<hr><ltbullet>provides for the investment of the Opioid Litigation Proceeds Fund's principal;<hr><ltbullet>authorizes spending from the Opioid Litigation Proceeds Fund only from earnings derived from the fund's principal and for specified purposes;<hr><ltbullet>establishes the State Treasurer Investment Management Account and provides for the account's uses and funding; and<hr><ltbullet>makes technical and conforming changes. ",
   "monies": "None",
@@ -145,10 +423,24 @@
   "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "UREJORNQXJ",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "3/2/2025",
+  "agendas": [
+    {
+      "mtgID": "19883",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2025-03-03 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HGOC0303.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "276751"
+    }
+  ],
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -173,6 +465,175 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "3/3/2025 9:27 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "Clerk of the House",
+      "actionDate": "3/3/2025 9:29 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "3/3/2025 11:00 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Government Operations Committee",
+      "actionDate": "3/3/2025 11:24 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Amendment Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "3/3/2025 4:17 PM",
+      "actionClass": "A",
+      "voteID": "37056",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-2",
+      "actionCode": "HCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "3/3/2025 4:17 PM",
+      "actionClass": "A",
+      "voteID": "37058",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-0-1",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ amended",
+      "owner": "House Government Operations Committee",
+      "actionDate": "3/4/2025 9:52 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "3/4/2025 9:52 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "3/4/2025 11:41 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "3/4/2025 11:50 AM",
+      "actionClass": "H",
+      "voteID": "1107",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "73-0-2",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "3/4/2025 11:50 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "3/4/2025 5:30 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "3/4/2025 6:19 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }

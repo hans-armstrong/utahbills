@@ -1,6 +1,6 @@
 {
   "bill_id": 1935229,
-  "change_hash": "e7141c3ec528284cbd72f03f009e7ebf",
+  "change_hash": "a1fd65a7344f3ed1de943809f5574d40",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-01-28",
       "event": 9
+    },
+    {
+      "date": "2025-03-05",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Public Utility Expenditures Amendments",
   "description": "Public Utility Expenditures Amendments",
-  "pending_committee_id": 3583,
-  "committee": {
-    "committee_id": 3583,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Transportation, Public Utilities, Energy, and Technology"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-23",
@@ -103,6 +102,20 @@
     {
       "date": "2025-01-28",
       "action": "Senate/ to standing committee in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate Comm - Returned to Rules in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ comm rpt/ sent to Rules in Senate Rules Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -256,6 +269,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 536498,
+      "date": "2025-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0153",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0153/id/536498",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB153S10.pdf",
+      "supplement_size": 128341,
+      "supplement_hash": "f5773c427bb0dd61542202d6265dd837",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [],
@@ -267,14 +300,14 @@
   "gov_tracking_id": "MBUXEYUSNY",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
-  "last_action_time": "1/28/2025",
+  "last_action": "Senate/ comm rpt/ sent to Rules",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "3/5/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/22/2025",
+      "actionDate": "1/22/2025 10:16 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -287,7 +320,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/22/2025",
+      "actionDate": "1/22/2025 10:16 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -300,7 +333,7 @@
     {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "1/22/2025",
+      "actionDate": "1/22/2025 10:50 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -313,7 +346,7 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "1/23/2025",
+      "actionDate": "1/23/2025 11:28 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -326,7 +359,7 @@
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
       "owner": "Senate Rules Committee",
-      "actionDate": "1/24/2025",
+      "actionDate": "1/24/2025 12:14 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -339,13 +372,39 @@
     {
       "description": "Senate/ to standing committee",
       "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
-      "actionDate": "1/28/2025",
+      "actionDate": "1/28/2025 11:16 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Returned to Rules",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "3/4/2025 1:53 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCARUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ sent to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "3/5/2025 10:03 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRRUL",
       "parm1": "",
       "parm2": ""
     }

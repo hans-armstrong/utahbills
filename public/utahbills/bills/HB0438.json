@@ -1,6 +1,6 @@
 {
   "bill_id": 1960459,
-  "change_hash": "4788460ea2bbac6f24041a3470353a61",
+  "change_hash": "13b0842581eb5c0685efc721a0430b00",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-27",
       "event": 9
+    },
+    {
+      "date": "2025-03-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -201,6 +205,20 @@
     {
       "date": "2025-02-28",
       "action": "Senate Comm - Favorable Recommendation in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate/ committee report favorable in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -478,9 +496,9 @@
       "markerID": "276113"
     }
   ],
-  "last_action": "Senate Comm - Favorable Recommendation",
-  "last_action_owner": "Senate Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "2/28/2025",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "3/3/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -700,6 +718,32 @@
       "voteHouse": "",
       "voteStr": "6-0-1",
       "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "3/3/2025 10:29 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/3/2025 10:29 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

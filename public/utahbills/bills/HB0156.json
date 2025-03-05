@@ -1,6 +1,6 @@
 {
   "bill_id": 1909641,
-  "change_hash": "b18eaa9f218bff48d018090f7c09dda7",
+  "change_hash": "707dd6179cfc5d9e3db4bbadb6a0605f",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-28",
       "event": 9
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Education Board Amendments",
   "description": "Education Board Amendments",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -199,6 +198,27 @@
     {
       "date": "2025-02-28",
       "action": "Senate/ to standing committee in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate Comm - Held in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate Comm - Returned to Rules in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ comm rpt/ sent to Rules in Senate Rules Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -395,6 +415,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 535262,
+      "date": "2025-03-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0156",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0156/id/535262",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB156S10.pdf",
+      "supplement_size": 132553,
+      "supplement_hash": "0d68cf6fd606d8088564e9b85c435237",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -437,11 +477,24 @@
       "agendaURL": "/~2025/agenda/HEDU0221.ag.htm",
       "billSession": "2025GS",
       "markerID": "273720"
+    },
+    {
+      "mtgID": "19940",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2025-03-03 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SEDU0303.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "276722"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/28/2025",
+  "last_action": "Senate/ comm rpt/ sent to Rules",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -648,6 +701,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Held",
+      "owner": "Senate Education Committee",
+      "actionDate": "3/3/2025 4:11 PM",
+      "actionClass": "A",
+      "voteID": "37051",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-1-3",
+      "actionCode": "SCAHELD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Returned to Rules",
+      "owner": "Senate Education Committee",
+      "actionDate": "3/3/2025 6:13 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCARUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ sent to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "3/4/2025 6:25 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRRUL",
       "parm1": "",
       "parm2": ""
     }

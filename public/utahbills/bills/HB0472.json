@@ -1,6 +1,6 @@
 {
   "bill_id": 1964186,
-  "change_hash": "7827cf8a82f68c62faceb47a1c167e84",
+  "change_hash": "47fcc04762bfdcc695fc4563f8174ddb",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-27",
       "event": 9
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Senior Care Facility Amendments",
   "description": "Senior Care Facility Amendments",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-11",
@@ -216,6 +215,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ committee report favorable in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -482,6 +502,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 535543,
+      "date": "2025-03-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0472",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0472/id/535543",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB472S10.pdf",
+      "supplement_size": 131598,
+      "supplement_hash": "9349849f0c93586866611d758d54823d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -546,11 +586,24 @@
       "agendaURL": "/~2025/agenda/HBUS0219.ag.htm",
       "billSession": "2025GS",
       "markerID": "273093"
+    },
+    {
+      "mtgID": "19870",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2025-03-03 16:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SBUS0303.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "277005"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/27/2025",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -783,6 +836,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "3/3/2025 5:52 PM",
+      "actionClass": "A",
+      "voteID": "37119",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-4",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "3/4/2025 9:48 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/4/2025 9:48 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

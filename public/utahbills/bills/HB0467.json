@@ -1,6 +1,6 @@
 {
   "bill_id": 1964325,
-  "change_hash": "78f63c4562cd7c4b802bd05251e4bb5f",
+  "change_hash": "ad95d339b93141ddff9369b1fb584e73",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -28,6 +28,10 @@
     {
       "date": "2025-02-18",
       "event": 9
+    },
+    {
+      "date": "2025-03-05",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Dependent Workers",
   "description": "Dependent Workers",
-  "pending_committee_id": 5042,
-  "committee": {
-    "committee_id": 5042,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Business, Labor, and Commerce"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-11",
@@ -103,6 +102,20 @@
     {
       "date": "2025-02-18",
       "action": "House/ to standing committee in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House Comm - Returned to Rules in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "House/ comm rpt/ sent to Rules in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -206,6 +219,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 536823,
+      "date": "2025-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0467",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0467/id/536823",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB467H10.pdf",
+      "supplement_size": 144416,
+      "supplement_hash": "218331aeb08186e9ea58c08ba5f61764",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [],
@@ -217,14 +250,14 @@
   "gov_tracking_id": "HOJIFEVCQV",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Business, Labor, and Commerce Committee",
-  "last_action_time": "2/18/2025",
+  "last_action": "House/ comm rpt/ sent to Rules",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "3/5/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/10/2025",
+      "actionDate": "2/10/2025 3:29 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -237,7 +270,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/10/2025",
+      "actionDate": "2/10/2025 3:29 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -250,7 +283,7 @@
     {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "2/11/2025",
+      "actionDate": "2/11/2025 10:14 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -263,7 +296,7 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "2/11/2025",
+      "actionDate": "2/11/2025 11:20 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -276,7 +309,7 @@
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "House Rules Committee",
-      "actionDate": "2/14/2025",
+      "actionDate": "2/14/2025 9:03 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -289,13 +322,39 @@
     {
       "description": "House/ to standing committee",
       "owner": "House Business, Labor, and Commerce Committee",
-      "actionDate": "2/18/2025",
+      "actionDate": "2/18/2025 10:58 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Returned to Rules",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "3/4/2025 2:01 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCARUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ sent to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "3/5/2025 9:51 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRRUL",
       "parm1": "",
       "parm2": ""
     }

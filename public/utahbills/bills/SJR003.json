@@ -1,6 +1,6 @@
 {
   "bill_id": 1927665,
-  "change_hash": "a2023622c13bd61cbe001a0a4b9f50ab",
+  "change_hash": "09b32b33e6a24f00432b2f45b321e91a",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SJR003/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SJR003.html",
   "completed": 0,
-  "status": 2,
+  "status": 3,
   "status_date": "2025-02-24",
   "progress": [
     {
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-27",
       "event": 9
+    },
+    {
+      "date": "2025-03-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -49,17 +53,12 @@
   "bill_type_id": "4",
   "body": "S",
   "body_id": 94,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Joint Resolution Dissolving Salt Lake County Justice Court",
   "description": "Joint Resolution Dissolving Salt Lake County Justice Court",
-  "pending_committee_id": 2109,
-  "committee": {
-    "committee_id": 2109,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Judiciary"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -230,6 +229,69 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House Comm - Favorable Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ committee report favorable in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ return to Rules due to fiscal impact in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ Rules to 3rd Reading Calendar in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ passed 3rd reading in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ signed by Speaker/ returned to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -417,6 +479,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 534700,
+      "date": "2025-03-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SJR003",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SJR003/id/534700",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SJ003H10.pdf",
+      "supplement_size": 141024,
+      "supplement_hash": "5c06c42cf034119ad6c74197a3987056",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -457,6 +539,19 @@
   "comrecommend": [],
   "agendas": [
     {
+      "mtgID": "19920",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2025-03-03 08:10:00.0",
+      "agendaItem": "8",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2025/html/00001916.htm",
+      "agendaURL": "/~2025/agenda/HJUD0303.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "276644"
+    },
+    {
       "mtgID": "19779",
       "committeeID": "SSTJLC",
       "mtgDate": "2025-02-13 14:00:00.0",
@@ -470,9 +565,9 @@
       "markerID": "271450"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Judiciary Committee",
-  "last_action_time": "2/27/2025",
+  "last_action": "Draft of Enrolled Bill Prepared",
+  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
+  "last_action_time": "3/5/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -731,6 +826,175 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "3/3/2025 9:43 AM",
+      "actionClass": "A",
+      "voteID": "37029",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-3",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Judiciary Committee",
+      "actionDate": "3/3/2025 2:28 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ return to Rules due to fiscal impact",
+      "owner": "House Rules Committee",
+      "actionDate": "3/3/2025 2:28 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRETRULFIS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ Rules to 3rd Reading Calendar",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "3/4/2025 6:56 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRUL3RD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "3/4/2025 6:56 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "3/4/2025 7:49 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "House Speaker",
+      "actionDate": "3/4/2025 7:51 PM",
+      "actionClass": "H",
+      "voteID": "1128",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "71-0-4",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ returned to Senate",
+      "owner": "Senate President",
+      "actionDate": "3/4/2025 7:51 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGNS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "3/4/2025 7:51 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate President",
+      "actionDate": "3/5/2025 9:41 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ sent for enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/5/2025 9:41 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Received from Senate for Enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/5/2025 10:35 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRGCRS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Draft of Enrolled Bill Prepared",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/5/2025 10:35 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LENROLL",
       "parm1": "",
       "parm2": ""
     }

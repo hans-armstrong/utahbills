@@ -1,6 +1,6 @@
 {
   "bill_id": 1977199,
-  "change_hash": "b61f8b4751e609053feb70225466e91b",
+  "change_hash": "7235d3019686bd9a0d4fb92db3a9bb33",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -41,8 +41,8 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Transportation Utility Fee Amendments",
   "description": "Transportation Utility Fee Amendments",
   "pending_committee_id": 0,
@@ -139,6 +139,41 @@
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -306,6 +341,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 534931,
+      "date": "2025-03-03",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0310S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0310/id/534931",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SB0310S01.fn.pdf",
+      "supplement_size": 1609961,
+      "supplement_hash": "2fbafc23d9a1f06cdb4f43a5fd967a7f",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -363,9 +418,9 @@
       "markerID": "275613"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/28/2025",
+  "last_action": "Senate/ to House",
+  "last_action_owner": "Clerk of the House",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -507,6 +562,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/3/2025 11:47 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "3/3/2025 11:49 AM",
+      "actionClass": "S",
+      "voteID": "1497",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "23-0-6",
+      "actionCode": "SPASS2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "3/4/2025 10:20 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Clerk of the House",
+      "actionDate": "3/4/2025 10:22 AM",
+      "actionClass": "S",
+      "voteID": "1557",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "17-8-4",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "3/4/2025 10:22 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
       "parm1": "",
       "parm2": ""
     }

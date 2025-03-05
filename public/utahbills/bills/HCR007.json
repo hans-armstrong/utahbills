@@ -1,6 +1,6 @@
 {
   "bill_id": 1951179,
-  "change_hash": "90f89874238b3d5989a0e4bb652330fb",
+  "change_hash": "a5ab3404dd6d544f814d065ab7156040",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,8 +53,8 @@
   "bill_type_id": "3",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Concurrent Resolution Recognizing Patriots' Day",
   "description": "Concurrent Resolution Recognizing Patriots' Day",
   "pending_committee_id": 0,
@@ -235,6 +235,34 @@
       "action": "Senate/ 2nd reading in Senate Consent Calendar",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ 3rd reading in Senate Consent Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ passed 3rd reading in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ signed by President/ returned to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -438,15 +466,15 @@
       "mtgPlace": "215 Senate Building",
       "committeeName": "Senate Economic Development and Workforce Services Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2025/html/00001844.htm",
       "agendaURL": "/~2025/agenda/SEDW0227.ag.htm",
       "billSession": "2025GS",
       "markerID": "275520"
     }
   ],
-  "last_action": "Senate/ 2nd reading",
-  "last_action_owner": "Senate Consent Calendar",
-  "last_action_time": "2/28/2025",
+  "last_action": "Senate/ to House",
+  "last_action_owner": "House Speaker",
+  "last_action_time": "3/5/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -718,6 +746,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate Consent Calendar",
+      "actionDate": "3/5/2025 10:03 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Senate President",
+      "actionDate": "3/5/2025 10:06 AM",
+      "actionClass": "S",
+      "voteID": "1650",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "26-0-3",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ returned to House",
+      "owner": "House Speaker",
+      "actionDate": "3/5/2025 10:06 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGNH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "House Speaker",
+      "actionDate": "3/5/2025 10:07 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1972488,
-  "change_hash": "02c87660938010a735736ec5c80bad67",
+  "change_hash": "0bf336b56842c5754a0862b8a87a0860",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,14 @@
     {
       "date": "2025-02-28",
       "event": 9
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +61,8 @@
   "current_body_id": 93,
   "title": "Community Development Amendments",
   "description": "Community Development Amendments",
-  "pending_committee_id": 2860,
-  "committee": {
-    "committee_id": 2860,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Economic Development and Workforce Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-18",
@@ -206,6 +209,27 @@
     {
       "date": "2025-02-28",
       "action": "House/ to standing committee in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House Comm - Favorable Recommendation in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ committee report favorable in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ comm rpt/ sent to Rules in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -410,6 +434,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 536777,
+      "date": "2025-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0289",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0289/id/536777",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB289H10.pdf",
+      "supplement_size": 144266,
+      "supplement_hash": "57b293461db9d1d691e06bb661eb6031",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -421,6 +465,15 @@
       "time": "08:30",
       "location": "Room 30 House Building",
       "description": "Senate Economic Development and Workforce Services Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "1a740442",
+      "type": "Hearing",
+      "date": "2025-03-04",
+      "time": "14:00",
+      "location": "",
+      "description": "House Economic Development and Workforce Services Hearing"
     }
   ],
   "general_provisions": "This bill addresses community reinvestment agencies.",
@@ -431,6 +484,19 @@
   "gov_tracking_id": "EQVVJIWVNO",
   "comrecommend": [],
   "agendas": [
+    {
+      "mtgID": "19891",
+      "committeeID": "HSTEDW",
+      "mtgDate": "2025-03-04 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Economic Development and Workforce Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HEDW0304.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "277188"
+    },
     {
       "mtgID": "19892",
       "committeeID": "SSTEDW",
@@ -445,9 +511,9 @@
       "markerID": "273988"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Economic Development and Workforce Services Committee",
-  "last_action_time": "2/28/2025",
+  "last_action": "House/ comm rpt/ sent to Rules",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -667,6 +733,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "3/4/2025 2:29 PM",
+      "actionClass": "A",
+      "voteID": "37173",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-4",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "3/4/2025 9:17 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ sent to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "3/4/2025 9:20 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRRUL",
       "parm1": "",
       "parm2": ""
     }

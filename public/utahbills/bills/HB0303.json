@@ -1,6 +1,6 @@
 {
   "bill_id": 1936821,
-  "change_hash": "0c658a21ef02156c775763ccac9069fd",
+  "change_hash": "4ee8ed7ef03ba77f7dfdb7bb72d24ca0",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-28",
       "event": 9
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Public School Directory Sharing Amendments",
   "description": "Public School Directory Sharing Amendments",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-23",
@@ -206,6 +205,27 @@
     {
       "date": "2025-02-28",
       "action": "Senate/ to standing committee in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate Comm - Motion to Recommend Failed in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate Comm - Returned to Rules in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ comm rpt/ sent to Rules in Senate Rules Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -367,6 +387,27 @@
       "alt_state_link": "",
       "alt_amendment_size": 0,
       "alt_amendment_hash": ""
+    },
+    {
+      "amendment_id": 233491,
+      "adopted": 0,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2025-03-03",
+      "title": "Senate Amendment 3",
+      "description": "Senate Amendment 3",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0303/id/233491",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/HB0303.Samd.3.pdf",
+      "amendment_size": 31885,
+      "amendment_hash": "0e6fc49b8f9094ed5cced21a1266b72d",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
     }
   ],
   "supplements": [
@@ -403,6 +444,26 @@
       "state_link": "https://le.utah.gov/Session/2025/comreport/HB303H10.pdf",
       "supplement_size": 162006,
       "supplement_hash": "791b4e16793ba963b06427484ea0d12d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 535330,
+      "date": "2025-03-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0303",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0303/id/535330",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB303S10.pdf",
+      "supplement_size": 130449,
+      "supplement_hash": "9051ae8a925886aae924b8da80532c39",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -473,11 +534,24 @@
       "agendaURL": "/~2025/agenda/HEDU0221.ag.htm",
       "billSession": "2025GS",
       "markerID": "273797"
+    },
+    {
+      "mtgID": "19940",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2025-03-03 16:00:00.0",
+      "agendaItem": "8",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SEDU0303.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "276930"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/28/2025",
+  "last_action": "Senate/ comm rpt/ sent to Rules",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -697,6 +771,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Motion to Recommend Failed",
+      "owner": "Senate Education Committee",
+      "actionDate": "3/3/2025 5:27 PM",
+      "actionClass": "A",
+      "voteID": "37111",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "2-2-3",
+      "actionCode": "SCAFAVFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Returned to Rules",
+      "owner": "Senate Education Committee",
+      "actionDate": "3/3/2025 6:13 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCARUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ sent to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "3/4/2025 6:25 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRRUL",
       "parm1": "",
       "parm2": ""
     }

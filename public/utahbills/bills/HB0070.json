@@ -1,6 +1,6 @@
 {
   "bill_id": 1899734,
-  "change_hash": "f270ae162f463c9950229a8f6ee09cb1",
+  "change_hash": "b98cf216d3a61d8d357970f1fcafe969",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,13 +53,8 @@
   "current_body_id": 94,
   "title": "Decommissioned Asset Disposition Amendments",
   "description": "Decommissioned Asset Disposition Amendments",
-  "pending_committee_id": 3583,
-  "committee": {
-    "committee_id": 3583,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Transportation, Public Utilities, Energy, and Technology"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -223,6 +218,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate Comm - Amendment Recommendation in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate Comm - Favorable Recommendation in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -350,10 +359,50 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3152972,
+      "date": "2025-03-04",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0070/id/3152972",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/AV_HB0070S02_2025-03-04_19-48-14.pdf",
+      "text_size": 66799,
+      "text_hash": "ddb4f6c675e9663d922f3357e5a9bdec",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 233804,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2025-03-04",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0070/id/233804",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/HB0070S02.Hamd.1.pdf",
+      "amendment_size": 7187,
+      "amendment_hash": "c3dc5abf9b85b20383ef39a4f09a0829",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 497880,
@@ -474,6 +523,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 535994,
+      "date": "2025-03-04",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0070S02",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0070/id/535994",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0070S02.fn.pdf",
+      "supplement_size": 1610053,
+      "supplement_hash": "b11006f97f0a26aca9d499651ef17f8c",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 536630,
+      "date": "2025-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0070",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0070/id/536630",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB070S10.pdf",
+      "supplement_size": 146216,
+      "supplement_hash": "ccd1bef0df2ce88360ef2d92d476fc5b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -485,6 +574,15 @@
       "time": "15:40",
       "location": "",
       "description": "House Public Utilities and Energy Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "81b90c14",
+      "type": "Hearing",
+      "date": "2025-03-04",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Transportation, Public Utilities, Energy, and Technology Hearing"
     }
   ],
   "general_provisions": "This bill makes changes to the requirements related to the decommissioning and disposal of electrical generation facilities and equipment by a project entity.",
@@ -512,11 +610,24 @@
       "agendaURL": "/~2025/agenda/HPUT0207.ag.htm",
       "billSession": "2025GS",
       "markerID": "269795"
+    },
+    {
+      "mtgID": "19924",
+      "committeeID": "SSTTPT",
+      "mtgDate": "2025-03-04 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2025/html/00001932.htm",
+      "agendaURL": "/~2025/agenda/STPT0304.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "277201"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
-  "last_action_time": "2/28/2025",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "3/5/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -762,6 +873,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Amendment Recommendation",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "3/4/2025 2:35 PM",
+      "actionClass": "A",
+      "voteID": "37180",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-1",
+      "actionCode": "SCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "3/4/2025 2:36 PM",
+      "actionClass": "A",
+      "voteID": "37181",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-1-2",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ amended",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "3/5/2025 9:53 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/5/2025 9:53 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

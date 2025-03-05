@@ -1,6 +1,6 @@
 {
   "bill_id": 1963550,
-  "change_hash": "c6dbe1da9bb5b7f1c63f68176192ec84",
+  "change_hash": "16d6c6f9efc1589444a817000c3808a2",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-28",
       "event": 9
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Rural School Funding Amendments",
   "description": "Rural School Funding Amendments",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-11",
@@ -202,6 +201,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ committee report favorable in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -265,22 +285,6 @@
     {
       "subject_id": 11846,
       "subject_name": "Education"
-    },
-    {
-      "subject_id": 332526,
-      "subject_name": "K-12 Education"
-    },
-    {
-      "subject_id": 11848,
-      "subject_name": "School Finance"
-    },
-    {
-      "subject_id": 383611,
-      "subject_name": "Local Education Agencies (LEAs)"
-    },
-    {
-      "subject_id": 334987,
-      "subject_name": "School Facilities"
     }
   ],
   "texts": [
@@ -313,6 +317,24 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/amended/AV_HB0462_2025-02-26_10-51-56.pdf",
       "text_size": 44977,
       "text_hash": "b2f98dd8c55dacc1652a9e8f8a319068",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3152435,
+      "date": "2025-03-04",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0462/id/3152435",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0462S01.pdf",
+      "text_size": 35318,
+      "text_hash": "81c1e8a47686e7f0b935b99884181ed7",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -385,6 +407,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 535623,
+      "date": "2025-03-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0462",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0462/id/535623",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB462S10.pdf",
+      "supplement_size": 130042,
+      "supplement_hash": "f72c12dfae0452a0ca86aa40225ccf10",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 536196,
+      "date": "2025-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #0",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0462/id/536196",
+      "state_link": "https://le.utah.gov/Session/2025/bills/introduced/CP%20HB0462%20To%20HB0462S01.pdf",
+      "supplement_size": 35212,
+      "supplement_hash": "afbd3de03d3507965bab3af4b1214326",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -427,11 +489,24 @@
       "agendaURL": "/~2025/agenda/HEDU0225.ag.htm",
       "billSession": "2025GS",
       "markerID": "274776"
+    },
+    {
+      "mtgID": "19940",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2025-03-03 16:00:00.0",
+      "agendaItem": "14",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SEDU0303.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "277049"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/28/2025",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -638,6 +713,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "3/3/2025 6:11 PM",
+      "actionClass": "A",
+      "voteID": "37133",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Education Committee",
+      "actionDate": "3/4/2025 9:48 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/4/2025 9:48 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

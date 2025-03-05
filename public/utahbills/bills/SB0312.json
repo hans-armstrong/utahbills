@@ -1,6 +1,6 @@
 {
   "bill_id": 1977540,
-  "change_hash": "2c5efe63bcc29ca9454e53e2464065ca",
+  "change_hash": "46c579464102ea8a7d37af661c734431",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,14 @@
     {
       "date": "2025-02-28",
       "event": 9
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +61,8 @@
   "current_body_id": 93,
   "title": "Pharmacy Practice Amendments",
   "description": "Pharmacy Practice Amendments",
-  "pending_committee_id": 2108,
-  "committee": {
-    "committee_id": 2108,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-21",
@@ -213,6 +216,34 @@
     {
       "date": "2025-02-28",
       "action": "House/ to standing committee in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House Comm - Amendment Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House Comm - Favorable Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ comm rpt/ amended in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ comm rpt/ sent to Rules in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -471,6 +502,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 536756,
+      "date": "2025-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0312",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0312/id/536756",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB312H10.pdf",
+      "supplement_size": 159908,
+      "supplement_hash": "628bbbdff44c439fc82f2ae4141fade3",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -482,6 +533,15 @@
       "time": "08:45",
       "location": "Room 30 House Building",
       "description": "Senate Health and Human Services Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "d6b2897a",
+      "type": "Hearing",
+      "date": "2025-03-04",
+      "time": "14:00",
+      "location": "",
+      "description": "House Health and Human Services Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions related to pharmacists and pharmacies.",
@@ -492,6 +552,19 @@
   "gov_tracking_id": "SMMJFRDMBG",
   "comrecommend": [],
   "agendas": [
+    {
+      "mtgID": "19866",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2025-03-04 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HHHS0304.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "277266"
+    },
     {
       "mtgID": "19928",
       "committeeID": "SSTHHS",
@@ -506,9 +579,9 @@
       "markerID": "274259"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Health and Human Services Committee",
-  "last_action_time": "2/28/2025",
+  "last_action": "House/ comm rpt/ sent to Rules",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -741,6 +814,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Amendment Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "3/4/2025 2:48 PM",
+      "actionClass": "A",
+      "voteID": "37193",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-6",
+      "actionCode": "HCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "3/4/2025 2:49 PM",
+      "actionClass": "A",
+      "voteID": "37194",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-6",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ amended",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "3/4/2025 9:20 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ sent to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "3/4/2025 9:20 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRRUL",
       "parm1": "",
       "parm2": ""
     }

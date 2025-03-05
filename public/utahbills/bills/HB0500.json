@@ -1,6 +1,6 @@
 {
   "bill_id": 1968521,
-  "change_hash": "6a500e5bf4eafc042c776a564658025c",
+  "change_hash": "bae41f30f53f67c57e82ac106ea21219",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-27",
       "event": 9
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Controlled Substance Modifications",
   "description": "Controlled Substance Modifications",
-  "pending_committee_id": 2123,
-  "committee": {
-    "committee_id": 2123,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-14",
@@ -195,6 +194,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate Comm - Favorable Recommendation in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ committee report favorable in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -330,6 +350,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 535447,
+      "date": "2025-03-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0500",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0500/id/535447",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB500S10.pdf",
+      "supplement_size": 127691,
+      "supplement_hash": "724b8693a5811a73c0cf2d5172309609",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -372,11 +412,24 @@
       "agendaURL": "/~2025/agenda/HHHS0219.ag.htm",
       "billSession": "2025GS",
       "markerID": "273067"
+    },
+    {
+      "mtgID": "19931",
+      "committeeID": "SSTHHS",
+      "mtgDate": "2025-03-03 16:00:00.0",
+      "agendaItem": "13",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SHHS0303.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "277018"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Health and Human Services Committee",
-  "last_action_time": "2/27/2025",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -570,6 +623,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "3/3/2025 5:57 PM",
+      "actionClass": "A",
+      "voteID": "37120",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "3/4/2025 9:48 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/4/2025 9:48 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

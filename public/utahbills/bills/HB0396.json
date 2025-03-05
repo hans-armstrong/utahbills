@@ -1,6 +1,6 @@
 {
   "bill_id": 1952484,
-  "change_hash": "9c8d427649f7ee1fd70e32474b11bee9",
+  "change_hash": "a9714675e40dabac08420ba5af840e1d",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0396/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0396.html",
   "completed": 0,
-  "status": 2,
+  "status": 3,
   "status_date": "2025-02-25",
   "progress": [
     {
@@ -53,8 +53,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Small School District Scale of Operations Formula",
   "description": "Small School District Scale of Operations Formula",
   "pending_committee_id": 0,
@@ -214,6 +214,34 @@
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ 2nd & 3rd readings/ suspension in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ passed 2nd & 3rd readings/ suspension in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ signed by President/ returned to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -678,9 +706,9 @@
       "markerID": "275892"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/28/2025",
+  "last_action": "Draft of Enrolled Bill Prepared",
+  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
+  "last_action_time": "3/5/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -913,6 +941,110 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd & 3rd readings/ suspension",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/4/2025 6:59 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD23SP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd & 3rd readings/ suspension",
+      "owner": "Senate President",
+      "actionDate": "3/4/2025 7:02 PM",
+      "actionClass": "S",
+      "voteID": "1608",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "26-0-3",
+      "actionCode": "SPASS23SP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ returned to House",
+      "owner": "House Speaker",
+      "actionDate": "3/4/2025 7:02 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGNH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "House Speaker",
+      "actionDate": "3/4/2025 7:02 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "House Speaker",
+      "actionDate": "3/5/2025 8:58 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ sent for enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/5/2025 8:58 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Received from House for Enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/5/2025 11:20 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRGCRH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Draft of Enrolled Bill Prepared",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/5/2025 11:20 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LENROLL",
       "parm1": "",
       "parm2": ""
     }

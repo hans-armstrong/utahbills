@@ -1,6 +1,6 @@
 {
   "bill_id": 1954569,
-  "change_hash": "c3c6bd6959fdf9feba2a1f3c81424a70",
+  "change_hash": "8695505971adb62fcd9e234833d413ea",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-27",
       "event": 9
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 93,
   "title": "Joint Resolution Emphasizing State Authority in Election Governance",
   "description": "Joint Resolution Emphasizing State Authority in Election Governance",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-04",
@@ -209,6 +208,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House Comm - Favorable Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ committee report favorable in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -406,6 +426,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 536139,
+      "date": "2025-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SJR007",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SJR007/id/536139",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SJ007H10.pdf",
+      "supplement_size": 144102,
+      "supplement_hash": "8ace697bbc69089f375f23bc218e8792",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -437,6 +477,19 @@
   "comrecommend": [],
   "agendas": [
     {
+      "mtgID": "19883",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2025-03-03 16:00:00.0",
+      "agendaItem": "8",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HGOC0303.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "276946"
+    },
+    {
       "mtgID": "19853",
       "committeeID": "SSTREV",
       "mtgDate": "2025-02-20 09:00:00.0",
@@ -450,9 +503,9 @@
       "markerID": "273435"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "2/27/2025",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for Senate bills",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -672,6 +725,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "3/3/2025 5:33 PM",
+      "actionClass": "A",
+      "voteID": "37112",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-4",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Government Operations Committee",
+      "actionDate": "3/4/2025 9:52 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "3/4/2025 9:52 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

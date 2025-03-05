@@ -1,6 +1,6 @@
 {
   "bill_id": 1953291,
-  "change_hash": "1af4c43ec729d7e853473192de45f236",
+  "change_hash": "57d32a8f017cbe50095db054c3b0412a",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,13 +53,8 @@
   "current_body_id": 94,
   "title": "School Board Referendum Amendments",
   "description": "School Board Referendum Amendments",
-  "pending_committee_id": 2122,
-  "committee": {
-    "committee_id": 2122,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Government Operations and Political Subdivisions"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-04",
@@ -202,6 +197,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate Comm - Motion to Recommend Failed in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate Comm - Returned to Rules in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -489,6 +498,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 536817,
+      "date": "2025-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0408",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0408/id/536817",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB408S10.pdf",
+      "supplement_size": 132856,
+      "supplement_hash": "ecacbaa2c529528406cc8af5610091e4",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -531,11 +560,24 @@
       "agendaURL": "/~2025/agenda/HGOC0219.ag.htm",
       "billSession": "2025GS",
       "markerID": "272826"
+    },
+    {
+      "mtgID": "19874",
+      "committeeID": "SSTGOP",
+      "mtgDate": "2025-03-03 08:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Government Operations and Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2025/html/00001918.htm",
+      "agendaURL": "/~2025/agenda/SGOP0303.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "276494"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
-  "last_action_time": "2/27/2025",
+  "last_action": "Senate/ comm rpt/ sent to Rules",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "3/5/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -742,6 +784,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Motion to Recommend Failed",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "3/3/2025 8:59 AM",
+      "actionClass": "A",
+      "voteID": "36991",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-4-0",
+      "actionCode": "SCAFAVFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Returned to Rules",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "3/4/2025 6:18 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCARUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ sent to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "3/5/2025 10:03 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRRUL",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1948482,
-  "change_hash": "3c38cd45e2e2c3c44acc0b1f511f9d4f",
+  "change_hash": "38d9f88455659c61eddd6c41caeb1a35",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/HB0369/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0369.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2025-01-31",
+  "status": 2,
+  "status_date": "2025-03-03",
   "progress": [
     {
       "date": "2025-01-31",
@@ -32,6 +32,14 @@
     {
       "date": "2025-02-27",
       "event": 10
+    },
+    {
+      "date": "2025-03-03",
+      "event": 2
+    },
+    {
+      "date": "2025-03-03",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -61,6 +69,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Government Operations"
+    },
+    {
+      "date": "2025-03-03",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2025-03-03",
+      "committee_id": 2122,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Government Operations and Political Subdivisions"
     }
   ],
   "history": [
@@ -172,6 +194,41 @@
     {
       "date": "2025-02-28",
       "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate/ to standing committee in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate Comm - Motion to Recommend Failed in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate Comm - Returned to Rules in Senate Government Operations and Political Subdivisions Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -450,6 +507,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 534818,
+      "date": "2025-03-03",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0369S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0369/id/534818",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0369S01.fn.pdf",
+      "supplement_size": 1609679,
+      "supplement_hash": "660574fc636b279f683dfb016f4eeb94",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 536620,
+      "date": "2025-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0369",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0369/id/536620",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB369S10.pdf",
+      "supplement_size": 133946,
+      "supplement_hash": "0aa1d7294e9215e72564359b682bf89e",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -470,6 +567,15 @@
       "time": "16:00",
       "location": "Room 30 House Building",
       "description": "House Government Operations Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "ee54d9a0",
+      "type": "Hearing",
+      "date": "2025-03-04",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Government Operations and Political Subdivisions Hearing"
     }
   ],
   "general_provisions": "This bill addresses issues relating to Utah's election system.",
@@ -492,11 +598,24 @@
       "agendaURL": "/~2025/agenda/HGOC0226.ag.htm",
       "billSession": "2025GS",
       "markerID": "275030"
+    },
+    {
+      "mtgID": "19875",
+      "committeeID": "SSTGOP",
+      "mtgDate": "2025-03-04 16:00:00.0",
+      "agendaItem": "7",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Government Operations and Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SGOP0304.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "277740"
     }
   ],
-  "last_action": "House/ to Senate",
-  "last_action_owner": "Senate Secretary",
-  "last_action_time": "2/28/2025",
+  "last_action": "Senate/ comm rpt/ sent to Rules",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "3/5/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -703,6 +822,84 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "3/3/2025 8:12 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "3/3/2025 10:23 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "3/3/2025 2:20 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Motion to Recommend Failed",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "3/4/2025 5:55 PM",
+      "actionClass": "A",
+      "voteID": "37321",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "2-5-0",
+      "actionCode": "SCAFAVFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Returned to Rules",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "3/4/2025 6:18 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCARUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ sent to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "3/5/2025 10:03 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRRUL",
       "parm1": "",
       "parm2": ""
     }

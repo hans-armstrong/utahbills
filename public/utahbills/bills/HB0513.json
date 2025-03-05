@@ -1,6 +1,6 @@
 {
   "bill_id": 1972312,
-  "change_hash": "428b205da68170775d7f6f636eca78d1",
+  "change_hash": "d71b1fd9870f834d1d6e31897a9bd55d",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -36,6 +36,10 @@
     {
       "date": "2025-02-28",
       "event": 2
+    },
+    {
+      "date": "2025-03-03",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,13 +53,8 @@
   "current_body_id": 94,
   "title": "Utah Commission for Earthquake Preparedness",
   "description": "Utah Commission for Earthquake Preparedness",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-18",
@@ -77,6 +76,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2025-03-03",
+      "committee_id": 2127,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -181,6 +187,34 @@
     {
       "date": "2025-02-28",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate/ to standing committee in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate Comm - Substitute Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate Comm - Motion to Recommend Failed in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate Comm - Returned to Rules in Senate Revenue and Taxation Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -475,6 +509,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 537114,
+      "date": "2025-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0513",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0513/id/537114",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB513S10.pdf",
+      "supplement_size": 134184,
+      "supplement_hash": "02d6ebed50f82b6b353db90f7190d5dc",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -486,6 +540,15 @@
       "time": "08:30",
       "location": "Room 30 House Building",
       "description": "House Government Operations Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "799e7e4d",
+      "type": "Hearing",
+      "date": "2025-03-04",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
     }
   ],
   "general_provisions": "This bill creates the Utah Commission for Earthquake Preparedness.",
@@ -508,11 +571,24 @@
       "agendaURL": "/~2025/agenda/HGOC0225.ag.htm",
       "billSession": "2025GS",
       "markerID": "274315"
+    },
+    {
+      "mtgID": "19936",
+      "committeeID": "SSTREV",
+      "mtgDate": "2025-03-04 16:00:00.0",
+      "agendaItem": "12",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SREV0304.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "277749"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/28/2025",
+  "last_action": "Senate/ comm rpt/ sent to Rules/ substituted",
+  "last_action_owner": "Senate Revenue and Taxation Committee",
+  "last_action_time": "3/5/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -706,6 +782,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "3/3/2025 2:20 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "3/4/2025 6:01 PM",
+      "actionClass": "A",
+      "voteID": "37325",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCASUB",
+      "parm1": "2",
+      "parm2": "1"
+    },
+    {
+      "description": "Senate Comm - Motion to Recommend Failed",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "3/4/2025 6:01 PM",
+      "actionClass": "A",
+      "voteID": "37326",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "1-4-2",
+      "actionCode": "SCAFAVFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Returned to Rules",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "3/4/2025 6:10 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCARUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ sent to Rules/ substituted",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "3/5/2025 10:03 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRRULSUB",
       "parm1": "",
       "parm2": ""
     }

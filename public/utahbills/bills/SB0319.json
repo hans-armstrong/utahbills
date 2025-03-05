@@ -1,6 +1,6 @@
 {
   "bill_id": 1979949,
-  "change_hash": "cae7a727c0c5c0c9246b9cdf49386f66",
+  "change_hash": "a96d18391be415d9c20e61fda6f4bd7f",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -36,6 +36,18 @@
     {
       "date": "2025-02-28",
       "event": 2
+    },
+    {
+      "date": "2025-03-03",
+      "event": 9
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -49,13 +61,8 @@
   "current_body_id": 93,
   "title": "Utah Lake Authority Amendments",
   "description": "Utah Lake Authority Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-24",
@@ -77,6 +84,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2025-03-03",
+      "committee_id": 2111,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Natural Resources, Agriculture, and Environment"
     }
   ],
   "history": [
@@ -202,6 +216,48 @@
     {
       "date": "2025-02-28",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ to standing committee in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House Comm - Favorable Recommendation in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ committee report favorable in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ 2nd reading/ returned to Rules in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ committee report favorable in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ return to Rules due to fiscal impact in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -450,6 +506,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 536930,
+      "date": "2025-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0319",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0319/id/536930",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB319H10.pdf",
+      "supplement_size": 145280,
+      "supplement_hash": "101d3a127fd39bd773dbb778ae350462",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -461,6 +537,15 @@
       "time": "16:00",
       "location": "Room 30 House Building",
       "description": "Senate Natural Resources, Agriculture, and Environment Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "1dc92d47",
+      "type": "Hearing",
+      "date": "2025-03-04",
+      "time": "16:00",
+      "location": "",
+      "description": "House Natural Resources, Agriculture, and Environment Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions related to the Utah Lake Authority (lake authority).",
@@ -471,6 +556,19 @@
   "gov_tracking_id": "WQYOQRTXCS",
   "comrecommend": [],
   "agendas": [
+    {
+      "mtgID": "19923",
+      "committeeID": "HSTNAE",
+      "mtgDate": "2025-03-04 16:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HNAE0304.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "277563"
+    },
     {
       "mtgID": "19901",
       "committeeID": "SSTNAE",
@@ -485,9 +583,9 @@
       "markerID": "274440"
     }
   ],
-  "last_action": "House/ 1st reading (Introduced)",
+  "last_action": "House/ return to Rules due to fiscal impact",
   "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/28/2025",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -720,6 +818,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "3/3/2025 3:23 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "3/4/2025 4:40 PM",
+      "actionClass": "A",
+      "voteID": "37274",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-4",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "3/4/2025 9:23 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "3/4/2025 9:23 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ return to Rules due to fiscal impact",
+      "owner": "House Rules Committee",
+      "actionDate": "3/4/2025 9:23 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRETRULFIS",
       "parm1": "",
       "parm2": ""
     }

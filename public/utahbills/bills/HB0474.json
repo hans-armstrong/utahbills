@@ -1,6 +1,6 @@
 {
   "bill_id": 1964941,
-  "change_hash": "542839c223e2efce4b18a4a594d510a6",
+  "change_hash": "669b0cb0ffb86720874146b04b43f640",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-28",
       "event": 9
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Regulatory Oversight Amendments",
   "description": "Regulatory Oversight Amendments",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-11",
@@ -202,6 +201,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate Comm - Amendment Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ comm rpt/ amended in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -774,6 +801,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3151351,
+      "date": "2025-03-04",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0474/id/3151351",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/AV_HB0474_2025-03-04_08-07-40.pdf",
+      "text_size": 66416,
+      "text_hash": "54dac5be97b98543b0c5b5ca15e6c114",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [],
@@ -861,6 +906,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 535564,
+      "date": "2025-03-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0474",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0474/id/535564",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB474S10.pdf",
+      "supplement_size": 142935,
+      "supplement_hash": "cd67e102e00dc3e7dd0106ed501b57e5",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -903,11 +968,24 @@
       "agendaURL": "/~2025/agenda/HBUS0221.ag.htm",
       "billSession": "2025GS",
       "markerID": "273758"
+    },
+    {
+      "mtgID": "19870",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2025-03-03 16:00:00.0",
+      "agendaItem": "8",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SBUS0303.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "277071"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/28/2025",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1114,6 +1192,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Amendment Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "3/3/2025 6:19 PM",
+      "actionClass": "A",
+      "voteID": "37139",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-3",
+      "actionCode": "SCAAMD",
+      "parm1": "2",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "3/3/2025 6:24 PM",
+      "actionClass": "A",
+      "voteID": "37140",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-1-4",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ amended",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "3/4/2025 9:48 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/4/2025 9:48 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

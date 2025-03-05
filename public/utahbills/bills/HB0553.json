@@ -1,6 +1,6 @@
 {
   "bill_id": 1982665,
-  "change_hash": "dfe7750551fee9fc5677588a0b191ac0",
+  "change_hash": "b6cae96de4b62e51bb12d354f6987fb5",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/HB0553/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0553.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2025-02-25",
+  "status": 2,
+  "status_date": "2025-03-03",
   "progress": [
     {
       "date": "2025-02-25",
@@ -32,6 +32,10 @@
     {
       "date": "2025-02-28",
       "event": 10
+    },
+    {
+      "date": "2025-03-03",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,12 +45,17 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "State Grant Process Amendments",
   "description": "State Grant Process Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2025-02-25",
@@ -61,6 +70,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Revenue and Taxation"
+    },
+    {
+      "date": "2025-03-04",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -126,6 +142,41 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -152,6 +203,33 @@
       "bioguide_id": "",
       "sponsor_type_id": 1,
       "sponsor_order": 1,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
+    {
+      "people_id": 8131,
+      "person_hash": "6q2w1i6z",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 2,
+      "role": "Sen",
+      "name": "Jerry Stevenson",
+      "first_name": "Jerry",
+      "middle_name": "W.",
+      "last_name": "Stevenson",
+      "suffix": "",
+      "nickname": "",
+      "district": "SD-006",
+      "ftm_eid": 6684268,
+      "votesmart_id": 117513,
+      "opensecrets_id": "",
+      "knowwho_pid": 284089,
+      "ballotpedia": "Jerry_Stevenson",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -267,15 +345,15 @@
       "mtgPlace": "445 State Capitol",
       "committeeName": "House Revenue and Taxation Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2025/html/00001890.htm",
       "agendaURL": "/~2025/agenda/HREV0228.ag.htm",
       "billSession": "2025GS",
       "markerID": "275811"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "2/28/2025",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -391,6 +469,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "3/3/2025 3:04 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "3/3/2025 3:06 PM",
+      "actionClass": "H",
+      "voteID": "1067",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "74-0-1",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "3/3/2025 3:06 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "3/3/2025 3:47 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "3/4/2025 9:42 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1923471,
-  "change_hash": "cc0dc4e660cf19bf9dcac55a8dd36b2f",
+  "change_hash": "561d740b2370bfef5ca032dca047135a",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0237/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0237.html",
   "completed": 0,
-  "status": 2,
+  "status": 3,
   "status_date": "2025-01-30",
   "progress": [
     {
@@ -361,6 +361,55 @@
       "action": "House/ placed on Concurrence Calendar in House Concurrence Calendar",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ concurs with Senate amendment in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate/ received from House in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate/ signed by President/ returned to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate/ to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ received from Senate in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ signed by Speaker/ sent for enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     }
   ],
@@ -753,9 +802,9 @@
       "markerID": "270665"
     }
   ],
-  "last_action": "House/ placed on Concurrence Calendar",
-  "last_action_owner": "House Concurrence Calendar",
-  "last_action_time": "2/28/2025",
+  "last_action": "House/ signed by Speaker/ sent for enrolling",
+  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1261,6 +1310,97 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HONCURCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ concurs with Senate amendment",
+      "owner": "Senate President",
+      "actionDate": "3/3/2025 11:32 AM",
+      "actionClass": "H",
+      "voteID": "1046",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "68-0-7",
+      "actionCode": "HCONCUR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "3/3/2025 11:32 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate President",
+      "actionDate": "3/3/2025 2:22 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ returned to House",
+      "owner": "House Speaker",
+      "actionDate": "3/3/2025 2:22 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGNH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "House Speaker",
+      "actionDate": "3/3/2025 2:22 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "House Speaker",
+      "actionDate": "3/4/2025 8:14 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ sent for enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/4/2025 8:14 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGN",
       "parm1": "",
       "parm2": ""
     }

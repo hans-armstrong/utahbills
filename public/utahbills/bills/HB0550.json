@@ -1,6 +1,6 @@
 {
   "bill_id": 1981715,
-  "change_hash": "f6599ca0412929714b960b869b1ad0b0",
+  "change_hash": "ccc6f5126e27594909182a86439d8ae0",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -123,6 +123,27 @@
     {
       "date": "2025-02-28",
       "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ held in House Docket Clerk",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -307,9 +328,9 @@
       "markerID": "275886"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "2/28/2025",
+  "last_action": "House/ held",
+  "last_action_owner": "House Docket Clerk",
+  "last_action_time": "3/3/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -425,6 +446,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "3/3/2025 11:48 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "3/3/2025 11:50 AM",
+      "actionClass": "H",
+      "voteID": "1054",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "69-0-6",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ held",
+      "owner": "House Docket Clerk",
+      "actionDate": "3/3/2025 11:50 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HHOLD",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1972460,
-  "change_hash": "1fe0f6aaf1106e96e5206c0d7d890c91",
+  "change_hash": "4883630787d3d79b2e877b54e4648290",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -137,6 +137,20 @@
     {
       "date": "2025-02-27",
       "action": "House/ circled in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ uncircled in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ 3rd Reading Calendar to Rules in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -313,6 +327,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 535760,
+      "date": "2025-03-04",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0512S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0512/id/535760",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0512S01.fn.pdf",
+      "supplement_size": 1609152,
+      "supplement_hash": "2143ebfa31085f190c8d5894c2363ab7",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -348,9 +382,9 @@
       "markerID": "274051"
     }
   ],
-  "last_action": "House/ circled",
-  "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "2/27/2025",
+  "last_action": "House/ 3rd Reading Calendar to Rules",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "3/3/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -492,6 +526,32 @@
       "voteHouse": "H",
       "voteStr": "0-0-75",
       "actionCode": "HCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ uncircled",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "3/3/2025 3:42 PM",
+      "actionClass": "H",
+      "voteID": "1073",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd Reading Calendar to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "3/3/2025 3:45 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "H3RDTORUL",
       "parm1": "",
       "parm2": ""
     }

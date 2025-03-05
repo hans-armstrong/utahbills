@@ -1,6 +1,6 @@
 {
   "bill_id": 1907868,
-  "change_hash": "09bdd6f3d834754b742ea0c2950ff424",
+  "change_hash": "7f98115fef91dc1cd53075eced981c2f",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-28",
       "event": 9
+    },
+    {
+      "date": "2025-03-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Governmental Accounting Amendments",
   "description": "Governmental Accounting Amendments",
-  "pending_committee_id": 2122,
-  "committee": {
-    "committee_id": 2122,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Government Operations and Political Subdivisions"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -202,6 +201,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate Comm - Favorable Recommendation in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate/ committee report favorable in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -497,6 +517,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 535429,
+      "date": "2025-03-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0139",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0139/id/535429",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB139S10.pdf",
+      "supplement_size": 130905,
+      "supplement_hash": "92744b3cd0a0558583dd62fed1f68288",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -548,11 +588,24 @@
       "agendaURL": "/~2025/agenda/HPOL0225.ag.htm",
       "billSession": "2025GS",
       "markerID": "274219"
+    },
+    {
+      "mtgID": "19874",
+      "committeeID": "SSTGOP",
+      "mtgDate": "2025-03-03 08:00:00.0",
+      "agendaItem": "10",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Government Operations and Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SGOP0303.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "276588"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
-  "last_action_time": "2/28/2025",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "3/3/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -759,6 +812,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "3/3/2025 9:19 AM",
+      "actionClass": "A",
+      "voteID": "37009",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-0",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "3/3/2025 2:29 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/3/2025 2:29 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

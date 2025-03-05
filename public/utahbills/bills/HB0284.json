@@ -1,6 +1,6 @@
 {
   "bill_id": 1930173,
-  "change_hash": "4237f144a0d719be2b228b29942db198",
+  "change_hash": "e6c815d40a0e7a57bebfe4d5375c07a0",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-28",
       "event": 9
+    },
+    {
+      "date": "2025-03-05",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "International Money Transmission Amendments",
   "description": "International Money Transmission Amendments",
-  "pending_committee_id": 2122,
-  "committee": {
-    "committee_id": 2122,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Government Operations and Political Subdivisions"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -206,6 +205,27 @@
     {
       "date": "2025-02-28",
       "action": "Senate/ to standing committee in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate Comm - Not Considered in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate Comm - Returned to Rules in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ comm rpt/ sent to Rules in Senate Rules Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -496,6 +516,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 537086,
+      "date": "2025-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0284",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0284/id/537086",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB284S10.pdf",
+      "supplement_size": 131409,
+      "supplement_hash": "b7d41dedb08ea9df8209044ef0ee0441",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -516,6 +556,15 @@
       "time": "08:00",
       "location": "Room 30 House Building",
       "description": "House Revenue and Taxation Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "ee54d9a0",
+      "type": "Hearing",
+      "date": "2025-03-04",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Government Operations and Political Subdivisions Hearing"
     }
   ],
   "general_provisions": "This bill enacts a tax and income tax credit related to international money transmissions.",
@@ -538,11 +587,24 @@
       "agendaURL": "/~2025/agenda/HREV0219.ag.htm",
       "billSession": "2025GS",
       "markerID": "272785"
+    },
+    {
+      "mtgID": "19875",
+      "committeeID": "SSTGOP",
+      "mtgDate": "2025-03-04 16:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Government Operations and Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SGOP0304.ag.htm",
+      "billSession": "2025GS",
+      "markerID": ""
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
-  "last_action_time": "2/28/2025",
+  "last_action": "Senate/ comm rpt/ sent to Rules",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "3/5/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -762,6 +824,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Not Considered",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "3/4/2025 4:00 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Returned to Rules",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "3/4/2025 6:18 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCARUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ sent to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "3/5/2025 10:03 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRRUL",
       "parm1": "",
       "parm2": ""
     }

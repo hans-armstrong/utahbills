@@ -1,6 +1,6 @@
 {
   "bill_id": 1924798,
-  "change_hash": "afa9c5fe54969068bd75cfaa36a3b9fc",
+  "change_hash": "bd23775a970bf5dd75e38f8795d07060",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-27",
       "event": 9
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Statewide Online Education Program Amendments",
   "description": "Statewide Online Education Program Amendments",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -202,6 +201,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate Comm - Substitute Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ comm rpt/ substituted in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -399,6 +426,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 535344,
+      "date": "2025-03-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0246",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0246/id/535344",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/HB246S10.pdf",
+      "supplement_size": 132376,
+      "supplement_hash": "5896e1219ea9dc48ca786cbc5c9ddcc9",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -422,7 +469,7 @@
     }
   ],
   "general_provisions": "This bill makes changes to enhance quality, accountability, and transparency in the Statewide Online Education Program.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>authorizes the State Board of Education (state board) to conduct sample audits of online courses;<hr><ltbullet>expands performance reporting requirements for an authorized online course provider;<hr><ltbullet>requires the state board to establish a report card for an authorized online course provider;<hr><ltbullet>facilitates regular communication between an authorized online course provider and a primary LEA of enrollment;<hr><ltbullet>implements a model syllabus template for online courses;<hr><ltbullet>requires the state board to create a centralized registration system for parents and students; and<hr><ltbullet>requires more frequent progress reporting and student support from an authorized online course provider.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>authorizes the State Board of Education (state board) to conduct sample audits of online courses;<hr><ltbullet>expands performance reporting requirements for an authorized online course provider;<hr><ltbullet>requires the state board to establish a report card for an authorized online course provider;<hr><ltbullet>facilitates regular communication between an authorized online course provider and a primary LEA of enrollment;<hr><ltbullet>implements a model syllabus template for online courses;<hr><ltbullet>requires the state board to create a centralized registration system for parents and students; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
   "attorney": "Jeff Van Hulten",
   "fiscal_analyst": "Rachelle Gunderson",
@@ -441,11 +488,24 @@
       "agendaURL": "/~2025/agenda/HEDU0218.ag.htm",
       "billSession": "2025GS",
       "markerID": "272347"
+    },
+    {
+      "mtgID": "19940",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2025-03-03 16:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/SEDU0303.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "276843"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/27/2025",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -652,6 +712,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "3/3/2025 4:44 PM",
+      "actionClass": "A",
+      "voteID": "37083",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "3/3/2025 4:50 PM",
+      "actionClass": "A",
+      "voteID": "37087",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ substituted",
+      "owner": "Senate Education Committee",
+      "actionDate": "3/4/2025 9:48 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/4/2025 9:48 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1975609,
-  "change_hash": "8ba7758945e6ce25b43b18811b96d02e",
+  "change_hash": "1fde5dec5a7f1e18d8cd001fa72b4276",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-28",
       "event": 9
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 93,
   "title": "Mowing Ordinance Amendments",
   "description": "Mowing Ordinance Amendments",
-  "pending_committee_id": 2112,
-  "committee": {
-    "committee_id": 2112,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Political Subdivisions"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-20",
@@ -223,6 +222,41 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House Comm - Amendment Recommendation in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House Comm - Favorable Recommendation in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ comm rpt/ amended in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ 3rd Reading Calendar to Rules in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -318,10 +352,50 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3151953,
+      "date": "2025-03-04",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0298/id/3151953",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/AV_SB0298_2025-03-04_09-28-33.pdf",
+      "text_size": 34492,
+      "text_hash": "1152f741364f28a00cc2e58d48b8b811",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 233569,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2025-03-03",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0298/id/233569",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/SB0298.Hamd.1.pdf",
+      "amendment_size": 19914,
+      "amendment_hash": "d8ddf78dc167208be7f201e31d040703",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 525590,
@@ -362,6 +436,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 535380,
+      "date": "2025-03-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0298",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0298/id/535380",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB298H10.pdf",
+      "supplement_size": 155230,
+      "supplement_hash": "1ed7635aea2e93f1f6047a1554cef482",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -393,6 +487,19 @@
   "comrecommend": [],
   "agendas": [
     {
+      "mtgID": "19879",
+      "committeeID": "HSTPOL",
+      "mtgDate": "2025-03-03 16:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "House Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HPOL0303.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "276905"
+    },
+    {
       "mtgID": "19932",
       "committeeID": "SSTREV",
       "mtgDate": "2025-02-24 08:00:00.0",
@@ -406,9 +513,9 @@
       "markerID": "273925"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Political Subdivisions Committee",
-  "last_action_time": "2/28/2025",
+  "last_action": "House/ 3rd Reading Calendar to Rules",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -654,6 +761,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Amendment Recommendation",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "3/3/2025 5:19 PM",
+      "actionClass": "A",
+      "voteID": "37104",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-3",
+      "actionCode": "HCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "3/3/2025 5:21 PM",
+      "actionClass": "A",
+      "voteID": "37105",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-3",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ amended",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "3/4/2025 9:54 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "3/4/2025 9:54 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd Reading Calendar to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "3/4/2025 6:53 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "H3RDTORUL",
       "parm1": "",
       "parm2": ""
     }

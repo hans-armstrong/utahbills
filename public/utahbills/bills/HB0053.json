@@ -1,6 +1,6 @@
 {
   "bill_id": 1898333,
-  "change_hash": "b4a9003a9ca130510388e86c40c0b45b",
+  "change_hash": "75cdfe08e87256b14eac8ac989d8ee50",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0053/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0053.html",
   "completed": 0,
-  "status": 2,
+  "status": 3,
   "status_date": "2025-02-04",
   "progress": [
     {
@@ -319,6 +319,69 @@
       "action": "House/ placed on Concurrence Calendar in House Concurrence Calendar",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ concurs with Senate amendment in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate/ received from House in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate/ signed by President/ returned to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate/ to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ received from Senate in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ signed by Speaker/ sent for enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Bill Received from House for Enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Draft of Enrolled Bill Prepared in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     }
   ],
@@ -1115,9 +1178,9 @@
       "markerID": "270267"
     }
   ],
-  "last_action": "House/ placed on Concurrence Calendar",
-  "last_action_owner": "House Concurrence Calendar",
-  "last_action_time": "2/28/2025",
+  "last_action": "Draft of Enrolled Bill Prepared",
+  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
+  "last_action_time": "3/5/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1545,6 +1608,123 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HONCURCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ concurs with Senate amendment",
+      "owner": "Senate President",
+      "actionDate": "3/3/2025 11:31 AM",
+      "actionClass": "H",
+      "voteID": "1044",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "69-0-6",
+      "actionCode": "HCONCUR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "3/3/2025 11:31 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate President",
+      "actionDate": "3/3/2025 2:22 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ returned to House",
+      "owner": "House Speaker",
+      "actionDate": "3/3/2025 2:22 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGNH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "House Speaker",
+      "actionDate": "3/3/2025 2:22 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "House Speaker",
+      "actionDate": "3/4/2025 8:14 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ sent for enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/4/2025 8:14 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Received from House for Enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/5/2025 7:29 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRGCRH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Draft of Enrolled Bill Prepared",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/5/2025 7:29 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LENROLL",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1957667,
-  "change_hash": "8ce727b6ebe58367a7fcd81871cd1727",
+  "change_hash": "eb0f2885ecf1102404f0639250d6a279",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,14 @@
     {
       "date": "2025-02-26",
       "event": 9
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
+    },
+    {
+      "date": "2025-03-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +61,8 @@
   "current_body_id": 93,
   "title": "Health Care Services Platforms",
   "description": "Health Care Services Platforms",
-  "pending_committee_id": 2108,
-  "committee": {
-    "committee_id": 2108,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-06",
@@ -213,6 +216,27 @@
     {
       "date": "2025-02-26",
       "action": "House/ to standing committee in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House Comm - Favorable Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ committee report favorable in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ comm rpt/ sent to Rules in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -437,6 +461,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 536889,
+      "date": "2025-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0228",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0228/id/536889",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SB228H10.pdf",
+      "supplement_size": 140877,
+      "supplement_hash": "52e203df45adb4cd1e8ccdc4a129f4db",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -448,6 +492,15 @@
       "time": "08:00",
       "location": "Room 30 House Building",
       "description": "Senate Business and Labor Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "d6b2897a",
+      "type": "Hearing",
+      "date": "2025-03-04",
+      "time": "14:00",
+      "location": "",
+      "description": "House Health and Human Services Hearing"
     }
   ],
   "general_provisions": "This bill addresses health care staffing.",
@@ -458,6 +511,19 @@
   "gov_tracking_id": "YNPSTQRYND",
   "comrecommend": [],
   "agendas": [
+    {
+      "mtgID": "19866",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2025-03-04 14:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HHHS0304.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "277350"
+    },
     {
       "mtgID": "19792",
       "committeeID": "SSTBUS",
@@ -472,9 +538,9 @@
       "markerID": "271035"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Health and Human Services Committee",
-  "last_action_time": "2/26/2025",
+  "last_action": "House/ comm rpt/ sent to Rules",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -486,8 +552,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -499,8 +565,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -512,8 +578,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -525,8 +591,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -538,8 +604,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -551,8 +617,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate Comm - Favorable Recommendation",
@@ -564,8 +630,8 @@
       "voteHouse": "",
       "voteStr": "5-0-3",
       "actionCode": "SCAFAV",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ committee report favorable",
@@ -577,8 +643,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCR",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ placed on 2nd Reading Calendar",
@@ -590,8 +656,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 2nd reading",
@@ -603,8 +669,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD2",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ substituted",
@@ -616,8 +682,8 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SSUB",
-      "parm2": "0",
-      "parm1": "1"
+      "parm1": "1",
+      "parm2": "0"
     },
     {
       "description": "Senate/ passed 2nd reading",
@@ -629,8 +695,8 @@
       "voteHouse": "S",
       "voteStr": "24-0-5",
       "actionCode": "SPASS2",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 3rd reading",
@@ -642,8 +708,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD3",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ passed 3rd reading",
@@ -655,8 +721,8 @@
       "voteHouse": "S",
       "voteStr": "23-0-6",
       "actionCode": "SPASS3",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ to House",
@@ -668,8 +734,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOHOU",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received from Senate",
@@ -681,8 +747,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -694,8 +760,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ to standing committee",
@@ -707,8 +773,47 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "3/4/2025 3:15 PM",
+      "actionClass": "A",
+      "voteID": "37219",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-5",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "3/4/2025 9:20 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ sent to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "3/4/2025 9:20 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRRUL",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

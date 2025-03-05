@@ -1,6 +1,6 @@
 {
   "bill_id": 1916349,
-  "change_hash": "f7264a2650e5ad1c4e6121ea9162744a",
+  "change_hash": "d8a4087ab1ba8c6b796ae1eb15e68623",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -19,7 +19,7 @@
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0194.html",
   "completed": 0,
   "status": 3,
-  "status_date": "2025-02-13",
+  "status_date": "2025-03-03",
   "progress": [
     {
       "date": "2025-01-21",
@@ -44,6 +44,10 @@
     {
       "date": "2025-02-20",
       "event": 10
+    },
+    {
+      "date": "2025-03-03",
+      "event": 3
     }
   ],
   "state": "UT",
@@ -306,6 +310,34 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Enrolled Bill Returned to House or Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ enrolled bill to Printing in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ received enrolled bill from Printing in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ to Governor in Executive Branch - Governor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -409,6 +441,24 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/introduced/HB0194S01.pdf",
       "text_size": 21879,
       "text_hash": "f8d64025fbb3313891bd995de738c7a1",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3150835,
+      "date": "2025-03-03",
+      "type": "Enrolled",
+      "type_id": 5,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0194/id/3150835",
+      "state_link": "https://le.utah.gov/Session/2025/bills/enrolled/HB0194.pdf",
+      "text_size": 22014,
+      "text_hash": "a98c0af1a02980a245313c1eb5879373",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -576,9 +626,9 @@
       "markerID": "273120"
     }
   ],
-  "last_action": "Draft of Enrolled Bill Prepared",
-  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
-  "last_action_time": "2/28/2025",
+  "last_action": "House/ to Governor",
+  "last_action_owner": "Executive Branch - Governor",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -980,6 +1030,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LENROLL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Enrolled Bill Returned to House or Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "3/3/2025 4:27 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LPASSREV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ enrolled bill to Printing",
+      "owner": "Clerk of the House",
+      "actionDate": "3/3/2025 4:28 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOPRINTEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received enrolled bill from Printing",
+      "owner": "Clerk of the House",
+      "actionDate": "3/4/2025 2:35 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECENRP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Governor",
+      "owner": "Executive Branch - Governor",
+      "actionDate": "3/4/2025 2:35 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOGOV",
       "parm1": "",
       "parm2": ""
     }

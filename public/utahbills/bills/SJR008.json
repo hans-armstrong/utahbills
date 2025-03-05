@@ -1,6 +1,6 @@
 {
   "bill_id": 1963207,
-  "change_hash": "74528954313d0a9baae14476551ea040",
+  "change_hash": "c230466862decaf4eadb1d2c84d9c759",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -40,6 +40,10 @@
     {
       "date": "2025-02-28",
       "event": 9
+    },
+    {
+      "date": "2025-03-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 93,
   "title": "Joint Resolution Amending Rules of Evidence on Admissibility of Evidence of Crimes or Other Acts",
   "description": "Joint Resolution Amending Rules of Evidence on Admissibility of Evidence of Crimes or Other Acts",
-  "pending_committee_id": 2109,
-  "committee": {
-    "committee_id": 2109,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Judiciary"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-10",
@@ -209,6 +208,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House Comm - Favorable Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ committee report favorable in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ 3rd Reading Calendar to Rules in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -360,6 +387,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 534712,
+      "date": "2025-03-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SJR008",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SJR008/id/534712",
+      "state_link": "https://le.utah.gov/Session/2025/comreport/SJ008H10.pdf",
+      "supplement_size": 141120,
+      "supplement_hash": "3b8f686b6923ecc615caba99ea4bd4c4",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -391,6 +438,19 @@
   "comrecommend": [],
   "agendas": [
     {
+      "mtgID": "19920",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2025-03-03 08:10:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2025/html/00001916.htm",
+      "agendaURL": "/~2025/agenda/HJUD0303.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "276484"
+    },
+    {
       "mtgID": "19779",
       "committeeID": "SSTJLC",
       "mtgDate": "2025-02-13 14:00:00.0",
@@ -404,9 +464,9 @@
       "markerID": "271510"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Judiciary Committee",
-  "last_action_time": "2/28/2025",
+  "last_action": "House/ 3rd Reading Calendar to Rules",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "3/4/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -626,6 +686,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "3/3/2025 8:59 AM",
+      "actionClass": "A",
+      "voteID": "36990",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-1-3",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Judiciary Committee",
+      "actionDate": "3/3/2025 2:28 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "3/3/2025 2:28 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd Reading Calendar to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "3/4/2025 6:53 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "H3RDTORUL",
       "parm1": "",
       "parm2": ""
     }

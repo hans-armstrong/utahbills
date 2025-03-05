@@ -1,6 +1,6 @@
 {
   "bill_id": 1972256,
-  "change_hash": "028f5e4eab5faccea564425de99eb485",
+  "change_hash": "02a337fe99db11de6856a59f63dbc89d",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SB0292/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0292.html",
   "completed": 0,
-  "status": 1,
+  "status": 13,
   "status_date": "2025-02-18",
   "progress": [
     {
@@ -198,8 +198,15 @@
       "importance": 0
     },
     {
-      "date": "2025-02-28",
-      "action": "Senate / held in Senate Secretary",
+      "date": "2025-03-03",
+      "action": "Senate/ motion to reconsider in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "Senate/ circled in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -232,6 +239,33 @@
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
+    },
+    {
+      "people_id": 23789,
+      "person_hash": "o0tz8gsu",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Paul Cutler",
+      "first_name": "Paul",
+      "middle_name": "A.",
+      "last_name": "Cutler",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-018",
+      "ftm_eid": 55399262,
+      "votesmart_id": 204606,
+      "opensecrets_id": "",
+      "knowwho_pid": 0,
+      "ballotpedia": "Paul_Cutler",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
     }
   ],
   "sasts": [],
@@ -239,6 +273,14 @@
     {
       "subject_id": 11871,
       "subject_name": "Business"
+    },
+    {
+      "subject_id": 11935,
+      "subject_name": "Commerce and Trade"
+    },
+    {
+      "subject_id": 11963,
+      "subject_name": "Consumer Protection"
     }
   ],
   "texts": [
@@ -341,6 +383,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 534796,
+      "date": "2025-03-03",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0292S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0292/id/534796",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/SB0292S01.fn.pdf",
+      "supplement_size": 1609431,
+      "supplement_hash": "ab80b393f6ae001ee12d91395923959b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -376,9 +438,9 @@
       "markerID": "273478"
     }
   ],
-  "last_action": "Senate / held",
-  "last_action_owner": "Senate Secretary",
-  "last_action_time": "2/28/2025",
+  "last_action": "Senate/ circled",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "3/3/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -628,15 +690,28 @@
       "parm2": ""
     },
     {
-      "description": "Senate / held",
+      "description": "Senate/ motion to reconsider",
       "owner": "Senate Secretary",
-      "actionDate": "2/28/2025 4:15 PM",
+      "actionDate": "3/3/2025 2:37 PM",
       "actionClass": "S",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "SHOLD",
+      "voteID": "1506",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SMOTREC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "3/3/2025 3:23 PM",
+      "actionClass": "S",
+      "voteID": "1532",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
       "parm1": "",
       "parm2": ""
     }

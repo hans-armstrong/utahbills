@@ -1,6 +1,6 @@
 {
   "bill_id": 1899722,
-  "change_hash": "5b19068527778319667653328a9b6878",
+  "change_hash": "5f544dd7763ddf19b6f226a3351a8f5f",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0068/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0068.html",
   "completed": 0,
-  "status": 2,
+  "status": 3,
   "status_date": "2025-02-13",
   "progress": [
     {
@@ -306,6 +306,69 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ circled in House Concurrence Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ uncircled in House Concurrence Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ concurs with Senate amendment in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-03",
+      "action": "House/ to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ received from House in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ signed by President/ returned to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ received from Senate in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ signed by Speaker/ sent for enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -369,6 +432,14 @@
     {
       "subject_id": 11871,
       "subject_name": "Business"
+    },
+    {
+      "subject_id": 11907,
+      "subject_name": "Insurance"
+    },
+    {
+      "subject_id": 11966,
+      "subject_name": "Public Funds and Accounts"
     }
   ],
   "texts": [
@@ -667,6 +738,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 534940,
+      "date": "2025-03-03",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0068S03",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0068/id/534940",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0068S03.fn.pdf",
+      "supplement_size": 1609558,
+      "supplement_hash": "66903f4c97d0cfb7e2923e63c7cd6fd0",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -751,9 +842,9 @@
       "markerID": "273571"
     }
   ],
-  "last_action": "House/ placed on Concurrence Calendar",
-  "last_action_owner": "House Concurrence Calendar",
-  "last_action_time": "2/28/2025",
+  "last_action": "Draft of Enrolled Bill Prepared",
+  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
+  "last_action_time": "3/5/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1155,6 +1246,149 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HONCURCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ circled",
+      "owner": "House Concurrence Calendar",
+      "actionDate": "3/3/2025 11:15 AM",
+      "actionClass": "H",
+      "voteID": "1034",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ uncircled",
+      "owner": "House Concurrence Calendar",
+      "actionDate": "3/3/2025 2:33 PM",
+      "actionClass": "H",
+      "voteID": "1060",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ concurs with Senate amendment",
+      "owner": "Senate President",
+      "actionDate": "3/3/2025 2:34 PM",
+      "actionClass": "H",
+      "voteID": "1062",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "73-0-2",
+      "actionCode": "HCONCUR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "3/3/2025 2:35 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate President",
+      "actionDate": "3/4/2025 9:40 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ returned to House",
+      "owner": "House Speaker",
+      "actionDate": "3/4/2025 9:40 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGNH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "House Speaker",
+      "actionDate": "3/4/2025 9:40 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "House Speaker",
+      "actionDate": "3/4/2025 1:36 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ sent for enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/4/2025 1:36 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Received from House for Enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/5/2025 7:37 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRGCRH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Draft of Enrolled Bill Prepared",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/5/2025 7:37 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LENROLL",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1942476,
-  "change_hash": "a39964a4cfa11bb5cce0c1bc74dd5e5e",
+  "change_hash": "30eb6728e552eb344d8f1c987af64b0d",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0339/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0339.html",
   "completed": 0,
-  "status": 2,
+  "status": 3,
   "status_date": "2025-02-19",
   "progress": [
     {
@@ -53,8 +53,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Law Enforcement Investigation Modifications",
   "description": "Law Enforcement Investigation Modifications",
   "pending_committee_id": 0,
@@ -242,6 +242,62 @@
       "action": "Senate/ 2nd reading in Senate Consent Calendar",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ 3rd reading in Senate Consent Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ passed 3rd reading in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ signed by President/ returned to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "Senate/ to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ received from Senate in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-04",
+      "action": "House/ signed by Speaker/ sent for enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Bill Received from House for Enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Draft of Enrolled Bill Prepared in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     }
   ],
@@ -501,15 +557,15 @@
       "mtgPlace": "210 Senate Building",
       "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2025/html/00001899.htm",
       "agendaURL": "/~2025/agenda/SJLC0227.ag.htm",
       "billSession": "2025GS",
       "markerID": "275345"
     }
   ],
-  "last_action": "Senate/ 2nd reading",
-  "last_action_owner": "Senate Consent Calendar",
-  "last_action_time": "2/27/2025",
+  "last_action": "Draft of Enrolled Bill Prepared",
+  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
+  "last_action_time": "3/5/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -794,6 +850,110 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate Consent Calendar",
+      "actionDate": "3/4/2025 9:54 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Senate President",
+      "actionDate": "3/4/2025 9:56 AM",
+      "actionClass": "S",
+      "voteID": "1552",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "29-0-0",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ returned to House",
+      "owner": "House Speaker",
+      "actionDate": "3/4/2025 9:56 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGNH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "House Speaker",
+      "actionDate": "3/4/2025 9:56 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "House Speaker",
+      "actionDate": "3/4/2025 1:36 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ sent for enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/4/2025 1:36 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Received from House for Enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/5/2025 11:12 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRGCRH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Draft of Enrolled Bill Prepared",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/5/2025 11:12 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LENROLL",
       "parm1": "",
       "parm2": ""
     }
