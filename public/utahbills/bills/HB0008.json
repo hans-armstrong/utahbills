@@ -1,6 +1,6 @@
 {
   "bill_id": 1940618,
-  "change_hash": "2fcd920d4d1780f0678413e966c1cc6a",
+  "change_hash": "2c4ace80aca9bb248290e1e932a15d6a",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0008/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0008.html",
   "completed": 0,
-  "status": 2,
+  "status": 3,
   "status_date": "2025-03-04",
   "progress": [
     {
@@ -37,8 +37,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "State Agency and Higher Education Compensation Appropriations",
   "description": "State Agency and Higher Education Compensation Appropriations",
   "pending_committee_id": 0,
@@ -153,7 +153,7 @@
     },
     {
       "date": "2025-03-04",
-      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "action": "Senate/ 2nd & 3rd readings/ suspension in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -163,6 +163,55 @@
       "action": "Senate/ circled in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ uncircled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ passed 2nd & 3rd readings/ suspension in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ signed by President/ returned to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "House/ received from Senate in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "House/ signed by Speaker/ sent for enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Bill Received from House for Enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     }
   ],
@@ -474,8 +523,8 @@
   "gov_tracking_id": "PUAKHYPYIH",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ to House",
-  "last_action_owner": "House Speaker",
+  "last_action": "Bill Received from House for Enrolling",
+  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
   "last_action_time": "3/5/2025",
   "action_history": [
     {
@@ -722,6 +771,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "House Speaker",
+      "actionDate": "3/5/2025 1:22 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ sent for enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/5/2025 1:22 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Received from House for Enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/5/2025 2:24 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRGCRH",
       "parm1": "",
       "parm2": ""
     }

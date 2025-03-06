@@ -1,6 +1,6 @@
 {
   "bill_id": 1962309,
-  "change_hash": "4541be3e96c16a73d6c266dafc65d67e",
+  "change_hash": "fe79d0036e8c16433c6c66f09d51c410",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,8 +53,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Statewide Catalyst Campus Model",
   "description": "Statewide Catalyst Campus Model",
   "pending_committee_id": 0,
@@ -222,6 +222,62 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ 2nd Reading Calendar to Rules in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ Rules to 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ 2nd & 3rd readings/ suspension in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ substituted in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ passed 2nd & 3rd readings/ suspension in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ to House with amendments in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "House/ placed on Concurrence Calendar in House Concurrence Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -285,6 +341,14 @@
     {
       "subject_id": 11846,
       "subject_name": "Education"
+    },
+    {
+      "subject_id": 332526,
+      "subject_name": "K-12 Education"
+    },
+    {
+      "subject_id": 383611,
+      "subject_name": "Local Education Agencies (LEAs)"
     }
   ],
   "texts": [
@@ -562,9 +626,9 @@
       "markerID": "274153"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/25/2025",
+  "last_action": "House/ to Senate",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "3/5/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -810,6 +874,136 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd Reading Calendar to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "3/5/2025 2:43 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "S2NDTORUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ Rules to 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/5/2025 4:47 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRUL2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd & 3rd readings/ suspension",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/5/2025 5:00 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD23SP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ substituted",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/5/2025 5:01 PM",
+      "actionClass": "S",
+      "voteID": "1741",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SSUB",
+      "parm1": "2",
+      "parm2": "1"
+    },
+    {
+      "description": "Senate/ passed 2nd & 3rd readings/ suspension",
+      "owner": "Clerk of the House",
+      "actionDate": "3/5/2025 5:03 PM",
+      "actionClass": "S",
+      "voteID": "1742",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "25-0-4",
+      "actionCode": "SPASS23SP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House with amendments",
+      "owner": "Clerk of the House",
+      "actionDate": "3/5/2025 5:03 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "3/5/2025 7:34 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ placed on Concurrence Calendar",
+      "owner": "House Concurrence Calendar",
+      "actionDate": "3/5/2025 7:34 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HONCURCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ refuse to concur with Senate amendment",
+      "owner": "Senate Secretary",
+      "actionDate": "3/5/2025 9:16 PM",
+      "actionClass": "H",
+      "voteID": "1286",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HRECONCUR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "3/5/2025 9:16 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
       "parm1": "",
       "parm2": ""
     }

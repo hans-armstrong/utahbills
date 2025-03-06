@@ -1,6 +1,6 @@
 {
   "bill_id": 1928573,
-  "change_hash": "d419c62705089cac72d03ada0b48cce4",
+  "change_hash": "89d244ee9fc2bf2adc2860288d2a57c5",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -324,6 +324,41 @@
     {
       "date": "2025-03-05",
       "action": "House/ placed on Concurrence Calendar in House Concurrence Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "House/ concurs with Senate amendment in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "House/ to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ received from House in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ signed by President/ returned to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ to House in House Speaker",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -1540,8 +1575,8 @@
       "markerID": "272807"
     }
   ],
-  "last_action": "House/ placed on Concurrence Calendar",
-  "last_action_owner": "House Concurrence Calendar",
+  "last_action": "Senate/ to House",
+  "last_action_owner": "House Speaker",
   "last_action_time": "3/5/2025",
   "action_history": [
     {
@@ -1983,6 +2018,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HONCURCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ concurs with Senate amendment",
+      "owner": "Senate President",
+      "actionDate": "3/5/2025 2:38 PM",
+      "actionClass": "H",
+      "voteID": "1187",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "65-9-1",
+      "actionCode": "HCONCUR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "3/5/2025 2:38 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate President",
+      "actionDate": "3/5/2025 6:02 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ returned to House",
+      "owner": "House Speaker",
+      "actionDate": "3/5/2025 6:02 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGNH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "House Speaker",
+      "actionDate": "3/5/2025 6:02 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
       "parm1": "",
       "parm2": ""
     }

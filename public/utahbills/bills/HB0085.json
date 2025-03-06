@@ -1,6 +1,6 @@
 {
   "bill_id": 1901108,
-  "change_hash": "2fea7dac2d27611275071d2d7d7705fc",
+  "change_hash": "f20b75be1fec0dda50058528bad48f9e",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0085/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0085.html",
   "completed": 0,
-  "status": 2,
+  "status": 3,
   "status_date": "2025-02-04",
   "progress": [
     {
@@ -53,8 +53,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Environmental Permitting Modifications",
   "description": "Environmental Permitting Modifications",
   "pending_committee_id": 0,
@@ -232,7 +232,7 @@
     },
     {
       "date": "2025-02-19",
-      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "action": "Senate/ 2nd & 3rd readings/ suspension in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -256,6 +256,62 @@
       "action": "Senate/ placed on 3rd Reading Calendar table in Senate 3rd Reading Calendar Table",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ passed 2nd & 3rd readings/ suspension in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ signed by President/ returned to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "House/ received from Senate in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "House/ signed by Speaker/ sent for enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Bill Received from House for Enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Draft of Enrolled Bill Prepared in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     }
   ],
@@ -557,8 +613,8 @@
       "markerID": "272371"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action": "Draft of Enrolled Bill Prepared",
+  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
   "last_action_time": "3/5/2025",
   "action_history": [
     {
@@ -822,7 +878,7 @@
       "parm2": ""
     },
     {
-      "description": "Senate/ 2nd reading",
+      "description": "Senate/ 2nd & 3rd readings/ suspension",
       "owner": "Senate 2nd Reading Calendar",
       "actionDate": "2/19/2025 3:32 PM",
       "actionClass": "S",
@@ -830,7 +886,7 @@
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
-      "actionCode": "SREAD2",
+      "actionCode": "SREAD23SP",
       "parm1": "",
       "parm2": ""
     },
@@ -883,6 +939,97 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd & 3rd readings/ suspension",
+      "owner": "Senate President",
+      "actionDate": "3/5/2025 2:51 PM",
+      "actionClass": "S",
+      "voteID": "1714",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "23-1-5",
+      "actionCode": "SPASS23SP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ returned to House",
+      "owner": "House Speaker",
+      "actionDate": "3/5/2025 2:51 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGNH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "House Speaker",
+      "actionDate": "3/5/2025 2:51 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "House Speaker",
+      "actionDate": "3/5/2025 4:14 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ sent for enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/5/2025 4:14 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Received from House for Enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/5/2025 8:26 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRGCRH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Draft of Enrolled Bill Prepared",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/5/2025 8:26 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LENROLL",
       "parm1": "",
       "parm2": ""
     }

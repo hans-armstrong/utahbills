@@ -1,6 +1,6 @@
 {
   "bill_id": 1937782,
-  "change_hash": "577a8c9031a8580167f59ca41f628550",
+  "change_hash": "75ec819bbba1ed89ffa6b7df48997643",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,8 +53,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Criminal Justice Amendments",
   "description": "Criminal Justice Amendments",
   "pending_committee_id": 0,
@@ -263,6 +263,27 @@
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ 2nd & 3rd readings/ suspension in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ passed 2nd & 3rd readings/ suspension in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ to House with amendments in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -1139,8 +1160,8 @@
       "markerID": "275295"
     }
   ],
-  "last_action": "Senate/ to House with amendments",
-  "last_action_owner": "Clerk of the House",
+  "last_action": "Senate/ to House",
+  "last_action_owner": "House Speaker",
   "last_action_time": "3/5/2025",
   "action_history": [
     {
@@ -1504,6 +1525,97 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOHAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "3/5/2025 2:34 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ placed on Concurrence Calendar",
+      "owner": "House Concurrence Calendar",
+      "actionDate": "3/5/2025 2:34 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HONCURCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ concurs with Senate amendment",
+      "owner": "Senate President",
+      "actionDate": "3/5/2025 6:01 PM",
+      "actionClass": "H",
+      "voteID": "1221",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "57-15-3",
+      "actionCode": "HCONCUR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "3/5/2025 6:01 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate President",
+      "actionDate": "3/5/2025 7:57 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ returned to House",
+      "owner": "House Speaker",
+      "actionDate": "3/5/2025 7:58 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGNH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "House Speaker",
+      "actionDate": "3/5/2025 7:58 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
       "parm1": "",
       "parm2": ""
     }

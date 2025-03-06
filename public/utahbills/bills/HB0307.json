@@ -1,6 +1,6 @@
 {
   "bill_id": 1937991,
-  "change_hash": "b326663e81ac144fa0c886c4033a1f61",
+  "change_hash": "c0ce1ac1ac26f5af3bbad58ffdb14ee8",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -51,6 +51,10 @@
     },
     {
       "date": "2025-03-04",
+      "event": 10
+    },
+    {
+      "date": "2025-03-05",
       "event": 10
     }
   ],
@@ -481,6 +485,34 @@
       "action": "Senate/ to House in Conference Committee",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "House/ received from Senate in Conference Committee",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "House Motion to Adopt Joint Conference Comm Rpt in Conference Committee",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-05",
+      "action": "House Conference Committee - Final Passage in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "House/ to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -960,9 +992,9 @@
       "markerID": "272649"
     }
   ],
-  "last_action": "Senate Conference Committee - Final Passage",
-  "last_action_owner": "Conference Committee",
-  "last_action_time": "3/4/2025",
+  "last_action": "Senate/ to House",
+  "last_action_owner": "House Speaker",
+  "last_action_time": "3/5/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1670,6 +1702,97 @@
       "description": "Senate/ to House",
       "owner": "Conference Committee",
       "actionDate": "3/4/2025 6:29 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Conference Committee",
+      "actionDate": "3/5/2025 3:43 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Motion to Adopt Joint Conference Comm Rpt",
+      "owner": "Conference Committee",
+      "actionDate": "3/5/2025 3:43 PM",
+      "actionClass": "C",
+      "voteID": "1211",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HCOMREPADP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Conference Committee - Final Passage",
+      "owner": "Senate President",
+      "actionDate": "3/5/2025 3:45 PM",
+      "actionClass": "C",
+      "voteID": "1212",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "70-0-5",
+      "actionCode": "HCOMFINALP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "3/5/2025 3:45 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate President",
+      "actionDate": "3/5/2025 6:22 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ returned to House",
+      "owner": "House Speaker",
+      "actionDate": "3/5/2025 6:22 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGNH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "House Speaker",
+      "actionDate": "3/5/2025 6:22 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",

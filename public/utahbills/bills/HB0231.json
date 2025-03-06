@@ -1,6 +1,6 @@
 {
   "bill_id": 1921972,
-  "change_hash": "70454318e891f277694e5a74495b957b",
+  "change_hash": "4cb4fab5afdadbf7bc6ed4a88fdf1010",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -49,13 +49,8 @@
   "current_body_id": 94,
   "title": "Primary Election Amendments",
   "description": "Primary Election Amendments",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -195,6 +190,41 @@
     {
       "date": "2025-03-04",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ Rules to 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ circled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ uncircled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ 2nd Reading Calendar to Rules in Senate Rules Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -488,9 +518,9 @@
       "markerID": "266272"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action": "Senate/ 2nd Reading Calendar to Rules",
   "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "3/4/2025",
+  "last_action_time": "3/5/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -710,6 +740,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ Rules to 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/5/2025 4:47 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRUL2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/5/2025 7:16 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/5/2025 7:17 PM",
+      "actionClass": "S",
+      "voteID": "1775",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/5/2025 8:12 PM",
+      "actionClass": "S",
+      "voteID": "1793",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd Reading Calendar to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "3/5/2025 8:12 PM",
+      "actionClass": "S",
+      "voteID": "1794",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "S2NDTORUL",
       "parm1": "",
       "parm2": ""
     }

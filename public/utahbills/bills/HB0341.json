@@ -1,6 +1,6 @@
 {
   "bill_id": 1943669,
-  "change_hash": "8a61c9d9d91624a350850d9834c5e30c",
+  "change_hash": "55391456ae29c0fa4ca10c02e9553031",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,8 +53,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Higher Education Revisions",
   "description": "Higher Education Revisions",
   "pending_committee_id": 0,
@@ -246,7 +246,7 @@
     },
     {
       "date": "2025-03-03",
-      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "action": "Senate/ 2nd & 3rd readings/ suspension in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -256,6 +256,27 @@
       "action": "Senate/ circled in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ uncircled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ passed 2nd & 3rd readings/ suspension in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ to House with amendments in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -688,9 +709,9 @@
       "markerID": "273638"
     }
   ],
-  "last_action": "Senate/ circled",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "3/3/2025",
+  "last_action": "House/ to Senate",
+  "last_action_owner": "Senate President",
+  "last_action_time": "3/5/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -979,7 +1000,7 @@
       "parm2": ""
     },
     {
-      "description": "Senate/ 2nd reading",
+      "description": "Senate/ 2nd & 3rd readings/ suspension",
       "owner": "Senate 2nd Reading Calendar",
       "actionDate": "3/3/2025 2:56 PM",
       "actionClass": "S",
@@ -987,7 +1008,7 @@
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
-      "actionCode": "SREAD2",
+      "actionCode": "SREAD23SP",
       "parm1": "",
       "parm2": ""
     },
@@ -1001,6 +1022,97 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/5/2025 3:46 PM",
+      "actionClass": "S",
+      "voteID": "1730",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd & 3rd readings/ suspension",
+      "owner": "Clerk of the House",
+      "actionDate": "3/5/2025 3:48 PM",
+      "actionClass": "S",
+      "voteID": "1731",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "25-0-4",
+      "actionCode": "SPASS23SP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House with amendments",
+      "owner": "Clerk of the House",
+      "actionDate": "3/5/2025 3:48 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "3/5/2025 7:34 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ placed on Concurrence Calendar",
+      "owner": "House Concurrence Calendar",
+      "actionDate": "3/5/2025 7:34 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HONCURCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ concurs with Senate amendment",
+      "owner": "Senate President",
+      "actionDate": "3/5/2025 9:09 PM",
+      "actionClass": "H",
+      "voteID": "1281",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "74-0-1",
+      "actionCode": "HCONCUR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "3/5/2025 9:10 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
       "parm1": "",
       "parm2": ""
     }
