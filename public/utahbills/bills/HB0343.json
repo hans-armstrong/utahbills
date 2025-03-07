@@ -1,6 +1,6 @@
 {
   "bill_id": 1944517,
-  "change_hash": "91c1fb331df32a4f76f3bb068db5c6f4",
+  "change_hash": "6dba5ffc41f3edb204741977f6994c44",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -226,6 +226,13 @@
     {
       "date": "2025-03-05",
       "action": "Senate/ 2nd Reading Calendar to Rules in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "Senate/ Rules to 2nd Reading Calendar in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -526,9 +533,9 @@
       "markerID": "275146"
     }
   ],
-  "last_action": "Senate/ 2nd Reading Calendar to Rules",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "3/5/2025",
+  "last_action": "Senate/ to House",
+  "last_action_owner": "House Speaker",
+  "last_action_time": "3/6/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -787,6 +794,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "S2NDTORUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ Rules to 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/6/2025 10:07 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRUL2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd & 3rd readings/ suspension",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/6/2025 6:01 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD23SP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd & 3rd readings/ suspension",
+      "owner": "Senate President",
+      "actionDate": "3/6/2025 6:04 PM",
+      "actionClass": "S",
+      "voteID": "1933",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "21-0-8",
+      "actionCode": "SPASS23SP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ returned to House",
+      "owner": "House Speaker",
+      "actionDate": "3/6/2025 6:04 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGNH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "House Speaker",
+      "actionDate": "3/6/2025 6:04 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
       "parm1": "",
       "parm2": ""
     }

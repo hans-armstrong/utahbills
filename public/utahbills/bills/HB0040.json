@@ -1,6 +1,6 @@
 {
   "bill_id": 1898043,
-  "change_hash": "cbd6cdab9785f63ca264551e06a73b64",
+  "change_hash": "edfc46cd671afc01adfbce47f4f50482",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,8 +53,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "School Safety Amendments",
   "description": "School Safety Amendments",
   "pending_committee_id": 0,
@@ -326,6 +326,34 @@
       "action": "Senate/ to House with amendments in Clerk of the House",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "House/ placed on Concurrence Calendar in House Concurrence Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "House/ refuse to concur with Senate amendment in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -1242,9 +1270,9 @@
       "markerID": "274878"
     }
   ],
-  "last_action": "Senate/ to House with amendments",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "3/5/2025",
+  "last_action": "House/ to Senate",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "3/6/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1685,6 +1713,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOHAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "3/6/2025 10:29 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ placed on Concurrence Calendar",
+      "owner": "House Concurrence Calendar",
+      "actionDate": "3/6/2025 10:29 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HONCURCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ refuse to concur with Senate amendment",
+      "owner": "Senate Secretary",
+      "actionDate": "3/6/2025 2:59 PM",
+      "actionClass": "H",
+      "voteID": "1332",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HRECONCUR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "3/6/2025 2:59 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
       "parm1": "",
       "parm2": ""
     }

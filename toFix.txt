@@ -13,3 +13,21 @@
 28. Budget and monies section isn't showing on budget bills 
 29. Need to remember to update the billlist because thats how the display is updated. 
 30. as seen in 2025 hb.166, the house can motion to reconsider without it having to be filed, so it may not deserve a 13 status.
+31. H.B.0038 has alot of bill sponsors listed for some reason, probably a lot more sponsors on the state api. Same with Fluoride amendments. 
+32. Some bills which are enrolled, are instead showing that they are engrossed. S.B.0286, S.B.0334, S.B.0332
+ 
+ {
+            "date": "2025-03-05",
+            "action": "Senate/ signed by President/ sent for enrolling in Legislative Research and General Counsel / Enrolling",
+            "chamber": "",
+            "chamber_id": 0,
+            "importance": 0
+        }
+
+They combined the action and the location with in. this is history
+33.HB.0052 says there is no data for the last action when there is on the gov site, the status is fine and the bill has the data, must be in the code. No, the problem is the data. The Legiscan API is being sent more up to date information about the bills then what is available through the governments own website. What?????? Can fix if I check the last status and dates on both bill. Now I need to process the differences in bill action as well, I just assumed that the gov api would be the most up to date. Along with having a different signed by governor script. 
+Never mind, was looking at hb32 and hb52. 
+
+billDetail.last_action === "" ? billDetail.history[billDetail.history.length - 1].action:
+
+Need to clean up bill processing so that last_action and the others aren't blank because I use them in the code. I need to standardize all my data. 

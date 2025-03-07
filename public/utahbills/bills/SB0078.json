@@ -1,6 +1,6 @@
 {
   "bill_id": 1909329,
-  "change_hash": "ed5c1c08eed5f62926da821da4af2e04",
+  "change_hash": "edfd0357de7716213f31801db816dc57",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,8 +53,8 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Homeless Individuals Protection Amendments",
   "description": "Homeless Individuals Protection Amendments",
   "pending_committee_id": 0,
@@ -284,6 +284,20 @@
       "action": "House/ to Senate in Senate Secretary",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "House/ recalled by House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -568,8 +582,8 @@
     }
   ],
   "last_action": "House/ to Senate",
-  "last_action_owner": "Senate Secretary",
-  "last_action_time": "3/5/2025",
+  "last_action_owner": "Senate President",
+  "last_action_time": "3/6/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -926,6 +940,84 @@
       "description": "House/ to Senate",
       "owner": "Senate Secretary",
       "actionDate": "3/5/2025 11:04 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ recalled by House",
+      "owner": "Clerk of the House",
+      "actionDate": "3/6/2025 10:58 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECALL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "3/6/2025 11:27 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ motion to reconsider",
+      "owner": "Clerk of the House",
+      "actionDate": "3/6/2025 5:47 PM",
+      "actionClass": "H",
+      "voteID": "1372",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "51-22-2",
+      "actionCode": "HMOTREC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "House Speaker",
+      "actionDate": "3/6/2025 5:49 PM",
+      "actionClass": "H",
+      "voteID": "1373",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "43-28-4",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ returned to Senate",
+      "owner": "Senate President",
+      "actionDate": "3/6/2025 5:49 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGNS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "3/6/2025 5:49 PM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",

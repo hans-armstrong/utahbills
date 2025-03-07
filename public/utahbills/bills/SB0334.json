@@ -1,6 +1,6 @@
 {
   "bill_id": 1982335,
-  "change_hash": "1097ce4d11894f61caa7da2a0d3dbd4c",
+  "change_hash": "79d467ac03f92bc3451da8e0230e139f",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -19,7 +19,7 @@
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0334.html",
   "completed": 0,
   "status": 3,
-  "status_date": "2025-03-04",
+  "status_date": "2025-03-06",
   "progress": [
     {
       "date": "2025-02-25",
@@ -36,6 +36,10 @@
     {
       "date": "2025-03-04",
       "event": 2
+    },
+    {
+      "date": "2025-03-06",
+      "event": 3
     }
   ],
   "state": "UT",
@@ -249,6 +253,48 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ received from House in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-05",
+      "action": "Senate/ signed by President/ sent for enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "Bill Received from Senate for Enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "Draft of Enrolled Bill Prepared in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "Enrolled Bill Returned to House or Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "Senate/ enrolled bill to Printing in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -366,6 +412,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3157191,
+      "date": "2025-03-06",
+      "type": "Enrolled",
+      "type_id": 5,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0334/id/3157191",
+      "state_link": "https://le.utah.gov/Session/2025/bills/enrolled/SB0334.pdf",
+      "text_size": 43072,
+      "text_hash": "f1ff7839915941a83c2b636c33948f25",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [],
@@ -467,9 +531,9 @@
       "markerID": "275054"
     }
   ],
-  "last_action": "Senate/ signed by President/ sent for enrolling",
-  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
-  "last_action_time": "3/5/2025",
+  "last_action": "Senate/ enrolled bill to Printing",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "3/6/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -819,6 +883,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SSIGN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Received from Senate for Enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/6/2025 7:31 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRGCRS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Draft of Enrolled Bill Prepared",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/6/2025 7:31 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LENROLL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Enrolled Bill Returned to House or Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "3/6/2025 2:05 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LPASSREV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ enrolled bill to Printing",
+      "owner": "Senate Secretary",
+      "actionDate": "3/6/2025 2:05 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOPRINTEN",
       "parm1": "",
       "parm2": ""
     }

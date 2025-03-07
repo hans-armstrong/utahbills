@@ -1,6 +1,6 @@
 {
   "bill_id": 1964345,
-  "change_hash": "b1dc5b710a29c49e1f676e048734d52c",
+  "change_hash": "25e84b7c4e33f8060a62fc05f075686c",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -282,6 +282,55 @@
     {
       "date": "2025-03-05",
       "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "Senate/ received from House in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "Senate/ placed on Concurrence Calendar in Senate Concurrence Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "Senate/ concurs with House amendment in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "Senate/ to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "House/ received from Senate in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "House/ signed by Speaker/ returned to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "House/ to Senate in Senate President",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -725,8 +774,8 @@
     }
   ],
   "last_action": "House/ to Senate",
-  "last_action_owner": "Senate Secretary",
-  "last_action_time": "3/5/2025",
+  "last_action_owner": "Senate President",
+  "last_action_time": "3/6/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1083,6 +1132,97 @@
       "description": "House/ to Senate",
       "owner": "Senate Secretary",
       "actionDate": "3/5/2025 5:57 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate Secretary",
+      "actionDate": "3/6/2025 10:05 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on Concurrence Calendar",
+      "owner": "Senate Concurrence Calendar",
+      "actionDate": "3/6/2025 10:05 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SONCURCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ concurs with House amendment",
+      "owner": "House Speaker",
+      "actionDate": "3/6/2025 2:22 PM",
+      "actionClass": "S",
+      "voteID": "1871",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "25-0-4",
+      "actionCode": "SCONCUR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "House Speaker",
+      "actionDate": "3/6/2025 2:22 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "House Speaker",
+      "actionDate": "3/6/2025 3:49 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ returned to Senate",
+      "owner": "Senate President",
+      "actionDate": "3/6/2025 3:49 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGNS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "3/6/2025 3:49 PM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",

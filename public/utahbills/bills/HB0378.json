@@ -1,6 +1,6 @@
 {
   "bill_id": 1949355,
-  "change_hash": "775851ce076394cfa99fd444bc04815e",
+  "change_hash": "4311a64e604e08045d1897238a33f0a3",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -57,8 +57,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Department of Natural Resources Funding Amendments",
   "description": "Department of Natural Resources Funding Amendments",
   "pending_committee_id": 0,
@@ -264,7 +264,7 @@
     },
     {
       "date": "2025-03-05",
-      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "action": "Senate/ 2nd & 3rd readings/ suspension in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -274,6 +274,41 @@
       "action": "Senate/ circled in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "Senate/ uncircled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "Senate/ substituted in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "Senate/ floor amendment in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "Senate/ passed 2nd & 3rd readings/ suspension in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-06",
+      "action": "Senate/ to House with amendments in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -338,6 +373,14 @@
     {
       "subject_id": 11898,
       "subject_name": "Natural Resources"
+    },
+    {
+      "subject_id": 20875,
+      "subject_name": "Department of Natural Resources"
+    },
+    {
+      "subject_id": 11888,
+      "subject_name": "Revenue and Taxation"
     }
   ],
   "texts": [
@@ -412,10 +455,50 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3157406,
+      "date": "2025-03-06",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0378/id/3157406",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/AV_HB0378S03_2025-03-06_18-01-34.pdf",
+      "text_size": 118153,
+      "text_hash": "5da49a21ebe96d257e56ee1db6c90b21",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 235179,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2025-03-06",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0378/id/235179",
+      "state_link": "https://le.utah.gov/Session/2025/bills/amended/HB0378S03.Samd.1.pdf",
+      "amendment_size": 10135,
+      "amendment_hash": "7798db2d4796259cdbb47615eccc1594",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 505019,
@@ -636,6 +719,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 539133,
+      "date": "2025-03-06",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0378S03",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0378/id/539133",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2025GS/fiscal-notes/HB0378S03.fn.pdf",
+      "supplement_size": 1610701,
+      "supplement_hash": "63fda086ecaca8dfe6d72fad4edb3957",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -668,7 +771,7 @@
     }
   ],
   "general_provisions": "This bill addresses revenue and expenditures related to funding state accounts within the Department of Natural Resources.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>requires counties to remit to the state money calculated based on certain new transmission facilities for deposit into the Species Protection Account;<hr><ltbullet>expands resources to be deposited into the Species Protection Account;<hr><ltbullet>addresses the payment of a tax on gross receipts of a radioactive waste facility derived from the disposal of concentrated depleted uranium and containerized waste, including having certain revenue be deposited into the Species Protection Account;<hr><ltbullet>imposes a tax related to certain wind or solar electric generation facilities to be deposited into the Species Protection Account; <hr><ltbullet>imposes an assessment on renewable energy parent entities to be deposited into the Species Protection Account;<hr><ltbullet>requires counties to remit to the state a portion of centrally assessed new growth for deposit into the Species Protection Account;<hr><ltbullet>authorizes rulemaking; and<hr><ltbullet>makes technical and conforming amendments.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>requires counties to remit to the state money calculated based on certain new transmission facilities for deposit into the Species Protection Account;<hr><ltbullet>expands resources to be deposited into the Species Protection Account;<hr><ltbullet>requires reporting by the Division of Wildlife Resources and a study by the Office of Energy Development;<hr><ltbullet>addresses the payment of a tax on gross receipts of a radioactive waste facility derived from the disposal of concentrated depleted uranium and containerized waste, including having certain revenue be deposited into the Species Protection Account;<hr><ltbullet>imposes a tax related to certain wind or solar electric generation facilities to be deposited into the Species Protection Account; <hr><ltbullet>imposes an assessment on renewable energy parent entities to be deposited into the Species Protection Account;<hr><ltbullet>modifies calculation of centrally assessed new growth;<hr><ltbullet>requires counties to remit to the state a portion of centrally assessed new growth for deposit into the Species Protection Account;<hr><ltbullet>authorizes rulemaking; and<hr><ltbullet>makes technical and conforming amendments.",
   "monies": "None",
   "attorney": "Patricia Owen",
   "fiscal_analyst": "Lacey K. Moore",
@@ -702,9 +805,9 @@
       "markerID": "277628"
     }
   ],
-  "last_action": "Senate/ circled",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "3/5/2025",
+  "last_action": "Senate/ to House with amendments",
+  "last_action_owner": "Clerk of the House",
+  "last_action_time": "3/6/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1006,7 +1109,7 @@
       "parm2": ""
     },
     {
-      "description": "Senate/ 2nd reading",
+      "description": "Senate/ 2nd & 3rd readings/ suspension",
       "owner": "Senate 2nd Reading Calendar",
       "actionDate": "3/5/2025 5:34 PM",
       "actionClass": "S",
@@ -1014,7 +1117,7 @@
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
-      "actionCode": "SREAD2",
+      "actionCode": "SREAD23SP",
       "parm1": "",
       "parm2": ""
     },
@@ -1028,6 +1131,71 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/6/2025 5:18 PM",
+      "actionClass": "S",
+      "voteID": "1916",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ substituted",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/6/2025 5:19 PM",
+      "actionClass": "S",
+      "voteID": "1917",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SSUB",
+      "parm1": "3",
+      "parm2": "2"
+    },
+    {
+      "description": "Senate/ floor amendment",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/6/2025 5:20 PM",
+      "actionClass": "S",
+      "voteID": "1918",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SAMEND",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd & 3rd readings/ suspension",
+      "owner": "Clerk of the House",
+      "actionDate": "3/6/2025 5:29 PM",
+      "actionClass": "S",
+      "voteID": "1919",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "20-6-3",
+      "actionCode": "SPASS23SP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House with amendments",
+      "owner": "Clerk of the House",
+      "actionDate": "3/6/2025 5:29 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHAMD",
       "parm1": "",
       "parm2": ""
     }
