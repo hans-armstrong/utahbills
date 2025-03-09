@@ -1,6 +1,6 @@
 {
   "bill_id": 1940971,
-  "change_hash": "36dcb1ee32803dbc61f5bf160fdead77",
+  "change_hash": "d2246ccbbb3870072edc0316002e1ed1",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -17,13 +17,17 @@
   },
   "url": "https://legiscan.com/UT/bill/SB0167/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0167.html",
-  "completed": 0,
-  "status": 1,
-  "status_date": "2025-01-27",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2025-03-07",
   "progress": [
     {
       "date": "2025-01-27",
       "event": 1
+    },
+    {
+      "date": "2025-03-07",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 94,
   "title": "Guardianship Modifications",
   "description": "Guardianship Modifications",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-27",
@@ -78,6 +77,20 @@
     {
       "date": "2025-01-27",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-07",
+      "action": "Senate/ strike enacting clause in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "Senate/ filed in Senate file for bills not passed",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -171,14 +184,14 @@
   "gov_tracking_id": "LTIBRNUVHM",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "1/27/2025",
+  "last_action": "Senate/ filed",
+  "last_action_owner": "Senate file for bills not passed",
+  "last_action_time": "3/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/24/2025",
+      "actionDate": "1/24/2025 11:46 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -191,7 +204,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/24/2025",
+      "actionDate": "1/24/2025 11:46 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -204,7 +217,7 @@
     {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "1/27/2025",
+      "actionDate": "1/27/2025 9:35 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -217,13 +230,39 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "1/27/2025",
+      "actionDate": "1/27/2025 11:16 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ strike enacting clause",
+      "owner": "Senate Secretary",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ filed",
+      "owner": "Senate file for bills not passed",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SFILED",
       "parm1": "",
       "parm2": ""
     }

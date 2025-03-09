@@ -1,6 +1,6 @@
 {
   "bill_id": 1968823,
-  "change_hash": "e1fae8b2ec491e227d84351ba8eeeb7a",
+  "change_hash": "488a3667c88aaf31e66d2ec340faccfd",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -19,7 +19,7 @@
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0274.html",
   "completed": 0,
   "status": 3,
-  "status_date": "2025-02-28",
+  "status_date": "2025-03-07",
   "progress": [
     {
       "date": "2025-02-14",
@@ -44,6 +44,10 @@
     {
       "date": "2025-03-04",
       "event": 10
+    },
+    {
+      "date": "2025-03-07",
+      "event": 3
     }
   ],
   "state": "UT",
@@ -383,6 +387,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "Enrolled Bill Returned to House or Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "Senate/ enrolled bill to Printing in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -474,6 +492,10 @@
     {
       "subject_id": 334594,
       "subject_name": "Commercial Health Insurance\\Managed Care Contracts"
+    },
+    {
+      "subject_id": 354068,
+      "subject_name": "Sunsets and Repealers"
     }
   ],
   "texts": [
@@ -524,6 +546,24 @@
       "state_link": "https://le.utah.gov/Session/2025/bills/introduced/SB0274S02.pdf",
       "text_size": 30638,
       "text_hash": "0f92ff1d277ca29e4d2276aede9f813a",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3158615,
+      "date": "2025-03-07",
+      "type": "Enrolled",
+      "type_id": 5,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0274/id/3158615",
+      "state_link": "https://le.utah.gov/Session/2025/bills/enrolled/SB0274.pdf",
+      "text_size": 30740,
+      "text_hash": "751282565852b3690bfa8989fbfe521f",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -751,9 +791,9 @@
       "markerID": "272991"
     }
   ],
-  "last_action": "Draft of Enrolled Bill Prepared",
-  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
-  "last_action_time": "3/6/2025",
+  "last_action": "Senate/ enrolled bill to Printing",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "3/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1298,6 +1338,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LENROLL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Enrolled Bill Returned to House or Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "3/7/2025 10:14 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LPASSREV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ enrolled bill to Printing",
+      "owner": "Senate Secretary",
+      "actionDate": "3/7/2025 10:14 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOPRINTEN",
       "parm1": "",
       "parm2": ""
     }

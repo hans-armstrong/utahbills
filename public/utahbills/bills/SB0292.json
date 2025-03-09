@@ -1,6 +1,6 @@
 {
   "bill_id": 1972256,
-  "change_hash": "02a337fe99db11de6856a59f63dbc89d",
+  "change_hash": "f820244617d7dc824affd77adf9e609c",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/SB0292/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0292.html",
-  "completed": 0,
+  "completed": 1,
   "status": 13,
-  "status_date": "2025-02-18",
+  "status_date": "2025-03-07",
   "progress": [
     {
       "date": "2025-02-18",
@@ -32,6 +32,10 @@
     {
       "date": "2025-02-21",
       "event": 10
+    },
+    {
+      "date": "2025-03-07",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -210,6 +214,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "Senate/ 3nd Reading Calendar to Rules in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "Senate/ strike enacting clause in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "Senate/ filed in Senate file for bills not passed",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -438,9 +463,9 @@
       "markerID": "273478"
     }
   ],
-  "last_action": "Senate/ circled",
-  "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "3/3/2025",
+  "last_action": "Senate/ filed",
+  "last_action_owner": "Senate file for bills not passed",
+  "last_action_time": "3/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -712,6 +737,45 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3nd Reading Calendar to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "3/7/2025 11:38 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "S3RDTORUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ strike enacting clause",
+      "owner": "Senate Secretary",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ filed",
+      "owner": "Senate file for bills not passed",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SFILED",
       "parm1": "",
       "parm2": ""
     }

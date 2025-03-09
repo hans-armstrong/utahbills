@@ -1,6 +1,6 @@
 {
   "bill_id": 1964325,
-  "change_hash": "ad95d339b93141ddff9369b1fb584e73",
+  "change_hash": "f55f0d0d77613890323b7b5aa839f776",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0467/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0467.html",
-  "completed": 0,
-  "status": 1,
-  "status_date": "2025-02-11",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2025-03-07",
   "progress": [
     {
       "date": "2025-02-11",
@@ -32,6 +32,10 @@
     {
       "date": "2025-03-05",
       "event": 10
+    },
+    {
+      "date": "2025-03-07",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -116,6 +120,20 @@
     {
       "date": "2025-03-05",
       "action": "House/ comm rpt/ sent to Rules in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ strike enacting clause in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ filed in House file for bills not passed",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -250,9 +268,9 @@
   "gov_tracking_id": "HOJIFEVCQV",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ comm rpt/ sent to Rules",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "3/5/2025",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -355,6 +373,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCRRUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ strike enacting clause",
+      "owner": "Clerk of the House",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

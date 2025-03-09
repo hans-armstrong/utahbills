@@ -1,6 +1,6 @@
 {
   "bill_id": 1916219,
-  "change_hash": "c2b7c321ba553e3cde124dc742bdfc87",
+  "change_hash": "1ac93abb81f991f71d0c5a8784e7803d",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -17,13 +17,17 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0193/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0193.html",
-  "completed": 0,
-  "status": 1,
-  "status_date": "2025-01-21",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2025-03-07",
   "progress": [
     {
       "date": "2025-01-21",
       "event": 1
+    },
+    {
+      "date": "2025-03-07",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Ballot Signature Amendments",
   "description": "Ballot Signature Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -85,6 +84,20 @@
     {
       "date": "2025-01-21",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ strike enacting clause in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ filed in House file for bills not passed",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -191,14 +204,14 @@
   "gov_tracking_id": "HWTVDNCOVW",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/21/2025",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/13/2025",
+      "actionDate": "1/13/2025 5:12 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -211,7 +224,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/13/2025",
+      "actionDate": "1/13/2025 5:12 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -224,7 +237,7 @@
     {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "1/15/2025",
+      "actionDate": "1/15/2025 12:20 PM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -237,7 +250,7 @@
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "Clerk of the House",
-      "actionDate": "1/21/2025",
+      "actionDate": "1/21/2025 12:04 PM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -250,13 +263,39 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "1/21/2025",
+      "actionDate": "1/21/2025 3:28 PM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ strike enacting clause",
+      "owner": "Clerk of the House",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

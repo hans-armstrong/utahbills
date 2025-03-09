@@ -1,6 +1,6 @@
 {
   "bill_id": 1944348,
-  "change_hash": "217e12f7264fcfcd0e360bd0d50987d4",
+  "change_hash": "5646d78c229d08b56dfcaf01fcf55a50",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/SB0182/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0182.html",
-  "completed": 0,
-  "status": 2,
-  "status_date": "2025-02-24",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2025-03-07",
   "progress": [
     {
       "date": "2025-01-29",
@@ -44,6 +44,10 @@
     {
       "date": "2025-03-04",
       "event": 10
+    },
+    {
+      "date": "2025-03-07",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -313,6 +317,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "Senate/ strike enacting clause in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "Senate/ filed in Senate file for bills not passed",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -690,19 +708,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "19879",
-      "committeeID": "HSTPOL",
-      "mtgDate": "2025-03-03 16:00:00.0",
-      "agendaItem": "2",
-      "mtgPlace": "220 Senate Building",
-      "committeeName": "House Political Subdivisions Committee",
-      "upcomming": false,
-      "minutesURL": "/",
-      "agendaURL": "/~2025/agenda/HPOL0303.ag.htm",
-      "billSession": "2025GS",
-      "markerID": "276800"
-    },
-    {
       "mtgID": "19634",
       "committeeID": "SSTHHS",
       "mtgDate": "2025-01-30 14:00:00.0",
@@ -714,11 +719,24 @@
       "agendaURL": "/~2025/agenda/SHHS0130.ag.htm",
       "billSession": "2025GS",
       "markerID": "266278"
+    },
+    {
+      "mtgID": "19879",
+      "committeeID": "HSTPOL",
+      "mtgDate": "2025-03-03 16:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "House Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2025/agenda/HPOL0303.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "276800"
     }
   ],
-  "last_action": "House/ to Senate",
-  "last_action_owner": "Senate Secretary",
-  "last_action_time": "3/5/2025",
+  "last_action": "Senate/ filed",
+  "last_action_owner": "Senate file for bills not passed",
+  "last_action_time": "3/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1133,6 +1151,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ strike enacting clause",
+      "owner": "Senate Secretary",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ filed",
+      "owner": "Senate file for bills not passed",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SFILED",
       "parm1": "",
       "parm2": ""
     }

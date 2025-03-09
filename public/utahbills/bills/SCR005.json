@@ -1,6 +1,6 @@
 {
   "bill_id": 1975462,
-  "change_hash": "82aa6751aad104b69ce78039ce546147",
+  "change_hash": "9d2a287507144702d19bd895a13ddfd6",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SCR005/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SCR005.html",
   "completed": 0,
-  "status": 2,
+  "status": 3,
   "status_date": "2025-02-26",
   "progress": [
     {
@@ -53,8 +53,8 @@
   "bill_type_id": "3",
   "body": "S",
   "body_id": 94,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Concurrent Resolution Recognizing Radon Action and Awareness Month",
   "description": "Concurrent Resolution Recognizing Radon Action and Awareness Month",
   "pending_committee_id": 0,
@@ -235,6 +235,55 @@
       "action": "House/ 3rd Reading Calendar to Rules in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ Rules to 3rd Reading Calendar in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ passed 3rd reading in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ signed by Speaker/ returned to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-08",
+      "action": "Senate/ received from House in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-08",
+      "action": "Senate/ signed by President/ sent for enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     }
   ],
@@ -472,9 +521,9 @@
       "markerID": "274392"
     }
   ],
-  "last_action": "House/ 3rd Reading Calendar to Rules",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "3/4/2025",
+  "last_action": "Senate/ signed by President/ sent for enrolling",
+  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
+  "last_action_time": "3/8/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -746,6 +795,97 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "H3RDTORUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ Rules to 3rd Reading Calendar",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "3/7/2025 3:24 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRUL3RD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "3/7/2025 9:48 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "House Speaker",
+      "actionDate": "3/7/2025 9:50 PM",
+      "actionClass": "H",
+      "voteID": "1602",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "51-13-11",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ returned to Senate",
+      "owner": "Senate President",
+      "actionDate": "3/7/2025 9:50 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGNS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "3/7/2025 9:50 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate President",
+      "actionDate": "3/8/2025 12:34 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ sent for enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "3/8/2025 12:34 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGN",
       "parm1": "",
       "parm2": ""
     }

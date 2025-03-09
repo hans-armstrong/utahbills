@@ -1,6 +1,6 @@
 {
   "bill_id": 1934533,
-  "change_hash": "c1be996cc6d2a167998bf51fc4cd9e24",
+  "change_hash": "32494f7e58676f302edd6fce1232789c",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -17,13 +17,17 @@
   },
   "url": "https://legiscan.com/UT/bill/HJR005/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HJR005.html",
-  "completed": 0,
-  "status": 1,
-  "status_date": "2025-01-23",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2025-03-07",
   "progress": [
     {
       "date": "2025-01-23",
       "event": 1
+    },
+    {
+      "date": "2025-03-07",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Proposal to Amend Utah Constitution - Electoral Votes",
   "description": "Proposal to Amend Utah Constitution - Electoral Votes",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-23",
@@ -78,6 +77,20 @@
     {
       "date": "2025-01-23",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ strike enacting clause in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ filed in House file for bills not passed",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -188,14 +201,14 @@
   "gov_tracking_id": "LAQUIDUTVE",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/23/2025",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/22/2025",
+      "actionDate": "1/22/2025 11:01 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -208,7 +221,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/22/2025",
+      "actionDate": "1/22/2025 11:01 AM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -221,7 +234,7 @@
     {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "1/23/2025",
+      "actionDate": "1/23/2025 10:14 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -234,13 +247,39 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "1/23/2025",
+      "actionDate": "1/23/2025 11:19 AM",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ strike enacting clause",
+      "owner": "Clerk of the House",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

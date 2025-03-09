@@ -1,6 +1,6 @@
 {
   "bill_id": 1922097,
-  "change_hash": "b32649879046206aa9d6a05f1e35cc4e",
+  "change_hash": "1ecad56373ad5b9ef313e360f7ff3309",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -17,13 +17,17 @@
   },
   "url": "https://legiscan.com/UT/bill/SB0122/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0122.html",
-  "completed": 0,
-  "status": 1,
-  "status_date": "2025-01-21",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2025-03-07",
   "progress": [
     {
       "date": "2025-01-21",
       "event": 1
+    },
+    {
+      "date": "2025-03-07",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 94,
   "title": "Sales Tax on Food Amendments",
   "description": "Sales Tax on Food Amendments",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-01-21",
@@ -88,6 +87,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "Senate/ strike enacting clause in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "Senate/ filed in Senate file for bills not passed",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -249,14 +262,14 @@
   "gov_tracking_id": "WJUQUINEHX",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "1/21/2025",
+  "last_action": "Senate/ filed",
+  "last_action_owner": "Senate file for bills not passed",
+  "last_action_time": "3/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/15/2025",
+      "actionDate": "1/15/2025 4:49 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -269,7 +282,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/15/2025",
+      "actionDate": "1/15/2025 4:49 PM",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -282,7 +295,7 @@
     {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "1/20/2025",
+      "actionDate": "1/20/2025 1:49 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -295,7 +308,7 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "1/21/2025",
+      "actionDate": "1/21/2025 11:20 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -308,13 +321,39 @@
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
       "owner": "Senate Rules Committee",
-      "actionDate": "1/21/2025",
+      "actionDate": "1/21/2025 1:50 PM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ strike enacting clause",
+      "owner": "Senate Secretary",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ filed",
+      "owner": "Senate file for bills not passed",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SFILED",
       "parm1": "",
       "parm2": ""
     }

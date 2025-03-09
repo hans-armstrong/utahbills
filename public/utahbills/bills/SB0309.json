@@ -1,6 +1,6 @@
 {
   "bill_id": 1977309,
-  "change_hash": "4d03b6537a47c00c439ee014257a7d28",
+  "change_hash": "a3cf00f55cd7722df85b0044a8da5b27",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/SB0309/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0309.html",
-  "completed": 0,
-  "status": 2,
-  "status_date": "2025-02-26",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2025-03-07",
   "progress": [
     {
       "date": "2025-02-21",
@@ -48,6 +48,10 @@
     {
       "date": "2025-03-04",
       "event": 10
+    },
+    {
+      "date": "2025-03-07",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -57,8 +61,8 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Title Lending Amendments",
   "description": "Title Lending Amendments",
   "pending_committee_id": 0,
@@ -232,6 +236,34 @@
       "action": "House/ comm rpt/ sent to Rules in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ strike enacting clause in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "Senate/ received from House in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "Senate/ filed in Senate file for bills not passed",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 1
     }
   ],
@@ -419,19 +451,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "19953",
-      "committeeID": "HSTBUS",
-      "mtgDate": "2025-03-04 14:00:00.0",
-      "agendaItem": "3",
-      "mtgPlace": "445 State Capitol",
-      "committeeName": "House Business, Labor, and Commerce Committee",
-      "upcomming": false,
-      "minutesURL": "/",
-      "agendaURL": "/~2025/agenda/HBUS0304.ag.htm",
-      "billSession": "2025GS",
-      "markerID": "277207"
-    },
-    {
       "mtgID": "19867",
       "committeeID": "SSTBUS",
       "mtgDate": "2025-02-25 08:00:00.0",
@@ -443,11 +462,24 @@
       "agendaURL": "/~2025/agenda/SBUS0225.ag.htm",
       "billSession": "2025GS",
       "markerID": "274265"
+    },
+    {
+      "mtgID": "19953",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2025-03-04 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2025/html/00001943.htm",
+      "agendaURL": "/~2025/agenda/HBUS0304.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "277207"
     }
   ],
-  "last_action": "House/ comm rpt/ sent to Rules",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "3/4/2025",
+  "last_action": "Senate/ filed",
+  "last_action_owner": "Senate file for bills not passed",
+  "last_action_time": "3/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -706,6 +738,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCRRUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ strike enacting clause",
+      "owner": "Clerk of the House",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate Secretary",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ filed",
+      "owner": "Senate file for bills not passed",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SFILED",
       "parm1": "",
       "parm2": ""
     }

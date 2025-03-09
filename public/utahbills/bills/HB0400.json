@@ -1,6 +1,6 @@
 {
   "bill_id": 1952506,
-  "change_hash": "eff107a34884422add39b877c681c1a9",
+  "change_hash": "b8efc1a7f1b031fd9ab8bab539117f59",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0400/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0400.html",
-  "completed": 0,
-  "status": 2,
-  "status_date": "2025-02-19",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2025-03-07",
   "progress": [
     {
       "date": "2025-02-04",
@@ -44,6 +44,10 @@
     {
       "date": "2025-03-04",
       "event": 10
+    },
+    {
+      "date": "2025-03-07",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -53,8 +57,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Blood Transfusion Amendments",
   "description": "Blood Transfusion Amendments",
   "pending_committee_id": 0,
@@ -229,6 +233,41 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "Senate/ Rules to 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "Senate/ strike enacting clause in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ filed in House file for bills not passed",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -473,19 +512,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "19760",
-      "committeeID": "HSTHHS",
-      "mtgDate": "2025-02-10 15:40:00.0",
-      "agendaItem": "7",
-      "mtgPlace": "30 House Building",
-      "committeeName": "House Health and Human Services Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2025/html/00001503.htm",
-      "agendaURL": "/~2025/agenda/HHHS0210.ag.htm",
-      "billSession": "2025GS",
-      "markerID": "270277"
-    },
-    {
       "mtgID": "19931",
       "committeeID": "SSTHHS",
       "mtgDate": "2025-03-03 16:00:00.0",
@@ -497,11 +523,24 @@
       "agendaURL": "/~2025/agenda/SHHS0303.ag.htm",
       "billSession": "2025GS",
       "markerID": "276886"
+    },
+    {
+      "mtgID": "19760",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2025-02-10 15:40:00.0",
+      "agendaItem": "7",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2025/html/00001503.htm",
+      "agendaURL": "/~2025/agenda/HHHS0210.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "270277"
     }
   ],
-  "last_action": "Senate/ 2nd Reading Calendar to Rules",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "3/5/2025",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -760,6 +799,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "S2NDTORUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ Rules to 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "3/7/2025 11:00 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRUL2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ strike enacting clause",
+      "owner": "Senate Secretary",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

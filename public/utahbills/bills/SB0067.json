@@ -1,6 +1,6 @@
 {
   "bill_id": 1902963,
-  "change_hash": "7632ce483e29b5eb3baf282d26916ebc",
+  "change_hash": "23cdc8154b850fa76e726b2b6a8f9a2e",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -53,8 +53,8 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Local Option Sales Tax Amendments",
   "description": "Local Option Sales Tax Amendments",
   "pending_committee_id": 0,
@@ -242,6 +242,48 @@
       "action": "House/ 3rd Reading Calendar to Rules in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ Rules to 3rd Reading Calendar in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-08",
+      "action": "Senate/ received from House in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-08",
+      "action": "Senate/ placed on Concurrence Calendar in Senate Concurrence Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -555,19 +597,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "19887",
-      "committeeID": "HSTREV",
-      "mtgDate": "2025-03-03 16:00:00.0",
-      "agendaItem": "1",
-      "mtgPlace": "445 State Capitol",
-      "committeeName": "House Revenue and Taxation Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2025/html/00001927.htm",
-      "agendaURL": "/~2025/agenda/HREV0303.ag.htm",
-      "billSession": "2025GS",
-      "markerID": "276743"
-    },
-    {
       "mtgID": "19649",
       "committeeID": "SSTREV",
       "mtgDate": "2025-01-29 14:00:00.0",
@@ -579,11 +608,24 @@
       "agendaURL": "/~2025/agenda/SREV0129.ag.htm",
       "billSession": "2025GS",
       "markerID": "265802"
+    },
+    {
+      "mtgID": "19887",
+      "committeeID": "HSTREV",
+      "mtgDate": "2025-03-03 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2025/html/00001927.htm",
+      "agendaURL": "/~2025/agenda/HREV0303.ag.htm",
+      "billSession": "2025GS",
+      "markerID": "276743"
     }
   ],
-  "last_action": "House/ 3rd Reading Calendar to Rules",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "3/4/2025",
+  "last_action": "Senate/ placed on Concurrence Calendar",
+  "last_action_owner": "Senate Concurrence Calendar",
+  "last_action_time": "3/8/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -868,6 +910,84 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "H3RDTORUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ Rules to 3rd Reading Calendar",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "3/7/2025 9:31 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRUL3RD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "3/7/2025 11:51 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "3/7/2025 11:53 PM",
+      "actionClass": "H",
+      "voteID": "1670",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "66-4-5",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "3/7/2025 11:53 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate Secretary",
+      "actionDate": "3/8/2025 12:00 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on Concurrence Calendar",
+      "owner": "Senate Concurrence Calendar",
+      "actionDate": "3/8/2025 12:00 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SONCURCAL",
       "parm1": "",
       "parm2": ""
     }

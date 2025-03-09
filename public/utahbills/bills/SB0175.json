@@ -1,6 +1,6 @@
 {
   "bill_id": 1942863,
-  "change_hash": "9ee4af970361f0bd03e356dcceb764c4",
+  "change_hash": "1d812cfa54d1fc8d412e2baf375ff0d8",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/SB0175/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/SB0175.html",
-  "completed": 0,
-  "status": 1,
-  "status_date": "2025-01-28",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2025-03-07",
   "progress": [
     {
       "date": "2025-01-28",
@@ -32,6 +32,10 @@
     {
       "date": "2025-03-05",
       "event": 10
+    },
+    {
+      "date": "2025-03-07",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -151,6 +155,20 @@
     {
       "date": "2025-03-05",
       "action": "Senate/ comm rpt/ sent to Rules in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2025-03-07",
+      "action": "Senate/ strike enacting clause in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "Senate/ filed in Senate file for bills not passed",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -372,6 +390,19 @@
       "markerID": ""
     },
     {
+      "mtgID": "19781",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2025-02-19 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2025/html/00001958.htm",
+      "agendaURL": "/~2025/agenda/SJLC0219.ag.htm",
+      "billSession": "2025GS",
+      "markerID": ""
+    },
+    {
       "mtgID": "19942",
       "committeeID": "SSTJLC",
       "mtgDate": "2025-02-27 08:00:00.0",
@@ -409,24 +440,11 @@
       "agendaURL": "/~2025/agenda/SJLC0218.ag.htm",
       "billSession": "2025GS",
       "markerID": ""
-    },
-    {
-      "mtgID": "19781",
-      "committeeID": "SSTJLC",
-      "mtgDate": "2025-02-19 16:00:00.0",
-      "agendaItem": "1",
-      "mtgPlace": "210 Senate Building",
-      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-      "upcomming": false,
-      "minutesURL": "/",
-      "agendaURL": "/~2025/agenda/SJLC0219.ag.htm",
-      "billSession": "2025GS",
-      "markerID": ""
     }
   ],
-  "last_action": "Senate/ comm rpt/ sent to Rules",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "3/5/2025",
+  "last_action": "Senate/ filed",
+  "last_action_owner": "Senate file for bills not passed",
+  "last_action_time": "3/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -594,6 +612,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCRRUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ strike enacting clause",
+      "owner": "Senate Secretary",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ filed",
+      "owner": "Senate file for bills not passed",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SFILED",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 1975286,
-  "change_hash": "9656caf777cd73707476650060067c5d",
+  "change_hash": "bff1c180a22ec9d93cbc7452b7ac67d3",
   "session_id": 2137,
   "session": {
     "session_id": 2137,
@@ -17,13 +17,17 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0525/2025",
   "state_link": "https://le.utah.gov/~2025/bills/static/HB0525.html",
-  "completed": 0,
-  "status": 1,
-  "status_date": "2025-02-19",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2025-03-07",
   "progress": [
     {
       "date": "2025-02-19",
       "event": 1
+    },
+    {
+      "date": "2025-03-07",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Clean Truck Amendments",
   "description": "Clean Truck Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2025-02-19",
@@ -88,9 +87,50 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ strike enacting clause in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2025-03-07",
+      "action": "House/ filed in House file for bills not passed",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
+    {
+      "people_id": 23789,
+      "person_hash": "o0tz8gsu",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Paul Cutler",
+      "first_name": "Paul",
+      "middle_name": "A.",
+      "last_name": "Cutler",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-018",
+      "ftm_eid": 55399262,
+      "votesmart_id": 204606,
+      "opensecrets_id": "",
+      "knowwho_pid": 0,
+      "ballotpedia": "Paul_Cutler",
+      "bioguide_id": "",
+      "sponsor_type_id": 1,
+      "sponsor_order": 1,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0
+    },
     {
       "people_id": 21100,
       "person_hash": "ivxv3hei",
@@ -195,33 +235,6 @@
       "bioguide_id": "",
       "sponsor_type_id": 2,
       "sponsor_order": 5,
-      "committee_sponsor": 0,
-      "committee_id": 0,
-      "state_federal": 0
-    },
-    {
-      "people_id": 23789,
-      "person_hash": "o0tz8gsu",
-      "party_id": "2",
-      "state_id": 44,
-      "party": "R",
-      "role_id": 1,
-      "role": "Rep",
-      "name": "Paul Cutler",
-      "first_name": "Paul",
-      "middle_name": "A.",
-      "last_name": "Cutler",
-      "suffix": "",
-      "nickname": "",
-      "district": "HD-018",
-      "ftm_eid": 55399262,
-      "votesmart_id": 204606,
-      "opensecrets_id": "",
-      "knowwho_pid": 0,
-      "ballotpedia": "Paul_Cutler",
-      "bioguide_id": "",
-      "sponsor_type_id": 2,
-      "sponsor_order": 6,
       "committee_sponsor": 0,
       "committee_id": 0,
       "state_federal": 0
@@ -647,9 +660,9 @@
   "gov_tracking_id": "SITAUIVHUP",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/24/2025",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/7/2025",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -661,8 +674,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -674,8 +687,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -687,8 +700,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -700,8 +713,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -713,8 +726,34 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ strike enacting clause",
+      "owner": "Clerk of the House",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "3/7/2025 11:59 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }
