@@ -51,7 +51,7 @@
                         sm:text-xl 
                         sm:mt-8 
                         z-40 rounded-full hero-sub-text">
-                        <h3>The 2025 General Session has ended. The Governor has till March 27th to veto else bills enact on May 7th.</h3>
+                        <h3>The 2026 General Session has started.</h3>
                     </div>
                     <div
                         class="absolute p-8 text-center m-auto w-full
@@ -62,7 +62,7 @@
                         sm:text-xl 
                         sm:mt-8 
                         z-40 bg-amber-100 opacity-85 rounded-full">
-                        <h3>The 2025 General Session has ended. The Governor has till March 27th to veto else bills enact on May 7th.</h3>
+                        <h3>The 2026 General Session has started.</h3>
 
                     </div>
                 </div>

@@ -38,9 +38,9 @@ Both API's data sources and website may be subject to human error
 <br>
 Thanks for visiting! <br><br>
 </div>
-<div class="mt-1">This website was created by a college student as apart of a school project, new features and improvements will be continually added!</div>
+<div class="mt-1">This website was created by a college student as apart of a school project, new features and improvements will be continually added! Also, I moved out of state :3 so I may not be able to update as often.</div>
 <div class="mt-1">Icons provided by (© Icongeek26 - stock.adobe.com)</div>
-<div class="mt-1">Copyright <i class="fa-regular fa-copyright"></i> 2025</div>
+<div class="mt-1">Copyright <i class="fa-regular fa-copyright"></i> 2026</div>
     </div></footer>
   </div>
 </template>
