@@ -1,6 +1,6 @@
 {
   "bill_id": 2067966,
-  "change_hash": "c38a2c4b1b992026712b1b18b98c8468",
+  "change_hash": "c7d41adbe82f6ed127fed1a92e53cf9f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "School Medication Amendments",
   "description": "School Medication Amendments",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -217,7 +219,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617247,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 3,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0104/id/1617247",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38900"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -239,9 +257,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644679,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0104",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0104/id/644679",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0104S02.pdf",
+      "supplement_size": 18277,
+      "supplement_hash": "c891fc6cf7bac75d078e64e899a54628",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "1a405490",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Education Hearing"
+    }
+  ],
   "general_provisions": "This bill organizes and consolidates provisions that relate to medication in a school.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines a term;<hr><ltbullet>repeals certain sections of code and folds those sections into existing sections;<hr><ltbullet>organizes and consolidates provisions that relate to medication in a school; and <hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -249,10 +297,24 @@
   "fiscal_analyst": "Russell T. Frandsen",
   "gov_tracking_id": "FTDGARHUJN",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20267",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "9",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDU0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289517"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "1/20/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -264,8 +326,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -277,8 +339,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -290,8 +352,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -303,8 +365,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -316,8 +378,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -329,8 +391,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/26/2026 5:06 PM",
+      "actionClass": "A",
+      "voteID": "38900",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-0-4",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

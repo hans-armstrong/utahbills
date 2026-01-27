@@ -1,6 +1,6 @@
 {
   "bill_id": 2065564,
-  "change_hash": "91d6e0c1d068f381d807761cbdf629b9",
+  "change_hash": "f75499586e4fadb1c111e4a139225740",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-23",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Tax Return Donation Amendments",
   "description": "Tax Return Donation Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -51,6 +50,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-23",
+      "committee_id": 2115,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -88,6 +94,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House/ to standing committee in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House Comm - Substitute Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House Comm - Favorable Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -253,6 +280,10 @@
     {
       "subject_id": 383611,
       "subject_name": "Local Education Agencies (LEAs)"
+    },
+    {
+      "subject_id": 335139,
+      "subject_name": "Public Education Data and Reporting"
     }
   ],
   "texts": [
@@ -273,9 +304,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3332419,
+      "date": "2026-01-26",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0148/id/3332419",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0148S01.pdf",
+      "text_size": 30093,
+      "text_hash": "e4effe40020b82a13db131ec8755332c",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617029,
+      "date": "2026-01-26",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0148/id/1617029",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38851"
+    },
+    {
+      "roll_call_id": 1617030,
+      "date": "2026-01-26",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0148/id/1617030",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38852"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -297,9 +377,59 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644333,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0148/id/644333",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0148%20To%20HB0148S01.pdf",
+      "supplement_size": 31078,
+      "supplement_hash": "27a492ed99c66cb161993b76904022e8",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644334,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0148",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0148/id/644334",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0148H02.pdf",
+      "supplement_size": 17569,
+      "supplement_hash": "393acde1220a7298d20eebc30a570d53",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "b3a55568",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "House Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill creates a School Meals Debt Relief Fund and provides for the fund's administration.",
   "hilighted_provisions": "This bill:<hr><ltbullet>creates a School Meals Debt Relief Fund;<hr><ltbullet>allows individual taxpayers to designate contributions to the fund on tax returns;<hr><ltbullet>establishes reporting requirements for local education agencies regarding school meals debt;<hr><ltbullet>provides for a distribution process based on each local education agency's proportion of total statewide school meals debt;<hr><ltbullet>requires the State Board of Education to collect and verify school meals debt data;<hr><ltbullet>delegates rulemaking authority to the State Board of Education for program administration; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -307,10 +437,24 @@
   "fiscal_analyst": "Andrea Wilko",
   "gov_tracking_id": "AUMLDLXRVH",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20300",
+      "committeeID": "HSTREV",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HREV0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289269"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Revenue and Taxation Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -387,6 +531,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "1/26/2026 2:35 PM",
+      "actionClass": "A",
+      "voteID": "38851",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-1",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "1/26/2026 2:36 PM",
+      "actionClass": "A",
+      "voteID": "38852",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-1",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

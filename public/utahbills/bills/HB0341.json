@@ -1,6 +1,6 @@
 {
   "bill_id": 2091008,
-  "change_hash": "4636446163a8b0dc7bfc948b0ec98934",
+  "change_hash": "8397f989c975446b5629c93682cad70b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -19,8 +19,13 @@
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0341.html",
   "completed": 0,
   "status": 1,
-  "status_date": null,
-  "progress": [],
+  "status_date": "2026-01-23",
+  "progress": [
+    {
+      "date": "2026-01-23",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0341",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Animal Fighting Penalties",
   "description": "Animal Fighting Penalties",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2026-01-23",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-22",
@@ -48,6 +66,27 @@
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -166,7 +205,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 644247,
+      "date": "2026-01-26",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0341",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0341/id/644247",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0341.fn.pdf",
+      "supplement_size": 1609280,
+      "supplement_hash": "1c96d9ed806234f6fd6c79006a8c2369",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill amends provisions related to animal fighting.",
   "hilighted_provisions": "This bill:<hr><ltbullet>amends the crimes of dog fighting, attending a dog fight or related activity, and game fowl fighting;<hr><ltbullet>enacts the offense of attending a game fowl fight or related activity; and<hr><ltbullet>makes technical and conforming changes.",
@@ -176,9 +236,9 @@
   "gov_tracking_id": "TCCMRXSOBB",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -229,6 +289,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "1/26/2026 10:30 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm1": "",
       "parm2": ""
     }

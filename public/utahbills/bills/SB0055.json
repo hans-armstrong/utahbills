@@ -1,6 +1,6 @@
 {
   "bill_id": 2061245,
-  "change_hash": "994a60e48ec9dfec3475a6005919122f",
+  "change_hash": "89e3d81f0048eb68f8e39ebb1d7d61ab",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Placental Tissue Amendments",
   "description": "Placental Tissue Amendments",
-  "pending_committee_id": 2123,
-  "committee": {
-    "committee_id": 2123,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -277,7 +279,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617347,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 3,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0055/id/1617347",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38820"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -299,9 +317,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644406,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0055",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0055/id/644406",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0055S02.pdf",
+      "supplement_size": 18296,
+      "supplement_hash": "37507102b55f37c62c01590ffa272400",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "84d59c80",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Health and Human Services Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses stem cell therapy.",
   "hilighted_provisions": "This bill:<hr><ltbullet>imposes a notice requirement on persons who supply or provide human cells, tissues, or cellular or tissue-based products for utilization in stem cell therapy.",
   "monies": "None",
@@ -309,10 +357,24 @@
   "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "NPVXOMENWX",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20229",
+      "committeeID": "SSTHHS",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SHHS0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289181"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Health and Human Services Committee",
-  "last_action_time": "1/20/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -389,6 +451,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "1/26/2026 2:03 PM",
+      "actionClass": "A",
+      "voteID": "38820",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-0-4",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

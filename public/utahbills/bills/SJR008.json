@@ -1,6 +1,6 @@
 {
   "bill_id": 2087273,
-  "change_hash": "ec72e1aacb416362897df706752fce23",
+  "change_hash": "0d55ebb634f6c3a880585323d32e924b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-21",
       "event": 1
+    },
+    {
+      "date": "2026-01-23",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Joint Resolution to Initiate a Law School at Utah Valley University",
   "description": "Joint Resolution to Initiate a Law School at Utah Valley University",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2120,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2120,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Education"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-23",
+      "committee_id": 2120,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Education"
     }
   ],
   "history": [
@@ -81,6 +92,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-23",
+      "action": "Senate/ to standing committee in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -158,6 +183,26 @@
     {
       "subject_id": 11846,
       "subject_name": "Education"
+    },
+    {
+      "subject_id": 11987,
+      "subject_name": "Resolutions"
+    },
+    {
+      "subject_id": 11973,
+      "subject_name": "Higher Education"
+    },
+    {
+      "subject_id": 340966,
+      "subject_name": "Utah Board of Higher Education"
+    },
+    {
+      "subject_id": 334359,
+      "subject_name": "Colleges and Universities"
+    },
+    {
+      "subject_id": 334644,
+      "subject_name": "Utah System of Higher Education"
     }
   ],
   "texts": [
@@ -182,7 +227,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 643841,
+      "date": "2026-01-25",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SJR008",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SJR008/id/643841",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SJR008.fn.pdf",
+      "supplement_size": 1609092,
+      "supplement_hash": "305b1b15418c254597f724ba25af5f18",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This resolution directs Utah Valley University to conduct a feasibility study for establishing a law school.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>recognizes the need for increased access to legal education in the state;<hr><ltbullet>acknowledges Utah Valley University's mission to serve working professionals;<hr><ltbullet>directs Utah Valley University to study the feasibility of establishing a law school at the Thanksgiving Point campus;<hr><ltbullet>requires evaluation of facility needs, faculty requirements, accreditation pathways, and market viability;<hr><ltbullet>directs Utah Valley University to design programming focused on evening and weekend instruction for working professionals; and<hr><ltbullet>requires a report to the Legislature on findings and recommendations.",
@@ -192,9 +258,9 @@
   "gov_tracking_id": "XKSQXWVLJJ",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -258,6 +324,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/26/2026 9:50 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

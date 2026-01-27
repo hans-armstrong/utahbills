@@ -1,6 +1,6 @@
 {
   "bill_id": 2060917,
-  "change_hash": "c030e21ad279c6781042767ef52d1770",
+  "change_hash": "93715f06933e0c4b9d8c0af8bf1e8140",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -19,7 +19,7 @@
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0078.html",
   "completed": 0,
   "status": 1,
-  "status_date": "2026-01-20",
+  "status_date": "2026-01-26",
   "progress": [
     {
       "date": "2026-01-20",
@@ -32,6 +32,10 @@
     {
       "date": "2026-01-22",
       "event": 10
+    },
+    {
+      "date": "2026-01-26",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,8 +45,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Nuclear Regulatory Amendments",
   "description": "Nuclear Regulatory Amendments",
   "pending_committee_id": 0,
@@ -133,6 +137,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -314,6 +346,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3331107,
+      "date": "2026-01-23",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0078/id/3331107",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_HB0078_2026-01-23_11-10-10.pdf",
+      "text_size": 43618,
+      "text_hash": "b0aaacae4a2ccb445cf3b40afa013a5d",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [
@@ -346,6 +396,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0078/id/1615528",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38594"
+    },
+    {
+      "roll_call_id": 1617210,
+      "date": "2026-01-26",
+      "desc": "House/ passed 3rd reading",
+      "yea": 75,
+      "nay": 0,
+      "nv": 0,
+      "absent": 0,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0078/id/1617210",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=60&house=H"
     }
   ],
   "amendments": [
@@ -445,15 +510,15 @@
       "mtgPlace": "110 Senate Building",
       "committeeName": "House Public Utilities and Energy Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00000359.htm",
       "agendaURL": "/~2026/agenda/HPUT0121.ag.htm",
       "billSession": "2026GS",
       "markerID": "287501"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "1/22/2026",
+  "last_action": "Senate/ received from House",
+  "last_action_owner": "Waiting for Introduction in the Senate",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -582,6 +647,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "1/26/2026 11:29 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "1/26/2026 11:39 AM",
+      "actionClass": "H",
+      "voteID": "60",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "75-0-0",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "1/26/2026 11:39 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "1/26/2026 12:38 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
       "parm1": "",
       "parm2": ""
     }

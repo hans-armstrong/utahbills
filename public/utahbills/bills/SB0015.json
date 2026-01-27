@@ -1,6 +1,6 @@
 {
   "bill_id": 2056829,
-  "change_hash": "5c4de9e829aa3c02e6a73d9ff9299ab5",
+  "change_hash": "455418c3a75e6d1290a81a0564721114",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-21",
       "event": 2
+    },
+    {
+      "date": "2026-01-26",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -41,12 +45,12 @@
   "current_body_id": 93,
   "title": "County Forms of Government Amendments",
   "description": "County Forms of Government Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2112,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2112,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Political Subdivisions"
   },
   "referrals": [
     {
@@ -62,6 +66,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-26",
+      "committee_id": 2112,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Political Subdivisions"
     }
   ],
   "history": [
@@ -141,6 +152,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House/ to standing committee in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -370,9 +388,9 @@
     }
   ],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/21/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Political Subdivisions Committee",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -514,6 +532,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "1/26/2026 12:16 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

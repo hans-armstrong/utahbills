@@ -1,6 +1,6 @@
 {
   "bill_id": 2060540,
-  "change_hash": "df19b67ea5bf6d40cd4a3b6675bde35a",
+  "change_hash": "be6db23504f6590538fc3ca1629168e8",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-21",
       "event": 2
+    },
+    {
+      "date": "2026-01-26",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -41,12 +45,12 @@
   "current_body_id": 94,
   "title": "Law Enforcement Salary Amendments",
   "description": "Law Enforcement Salary Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2125,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2125,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Natural Resources, Agriculture, and Environment"
   },
   "referrals": [
     {
@@ -62,6 +66,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-26",
+      "committee_id": 2125,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Natural Resources, Agriculture, and Environment"
     }
   ],
   "history": [
@@ -148,6 +159,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate/ to standing committee in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -375,7 +393,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "b100989d",
+      "type": "Hearing",
+      "date": "2026-01-27",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Natural Resources, Agriculture, and Environment Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses the salary range and proposed pay progression for law enforcement officers within the Division of Natural Resources (DNR).",
   "hilighted_provisions": "This bill:<hr><ltbullet>requires that the salary range and proposed pay progression for law enforcement officers employed by the DNR be equivalent to the salary range and pay progression for peace officers employed by the Department of Public Safety;<hr><ltbullet>provides an exception to the requirement described in the preceding paragraph in relation to the rank of major and the position of division director in the DNR; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -389,9 +417,9 @@
     }
   ],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "1/22/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -546,6 +574,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "1/26/2026 11:16 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2060476,
-  "change_hash": "a8d27ebb337e2a9a6661e3a727f988ef",
+  "change_hash": "4f4ab4c19e22e252ec61be0ec8f6ca73",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Public Education Revisions",
   "description": "Public Education Revisions",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Substitute Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -251,30 +260,6 @@
     {
       "subject_id": 11846,
       "subject_name": "Education"
-    },
-    {
-      "subject_id": 332526,
-      "subject_name": "K-12 Education"
-    },
-    {
-      "subject_id": 340447,
-      "subject_name": "Juvenile Justice"
-    },
-    {
-      "subject_id": 12044,
-      "subject_name": "State Board of Education"
-    },
-    {
-      "subject_id": 383611,
-      "subject_name": "Local Education Agencies (LEAs)"
-    },
-    {
-      "subject_id": 334500,
-      "subject_name": "Education Grant Programs"
-    },
-    {
-      "subject_id": 334532,
-      "subject_name": "Utah Schools for the Deaf and the Blind"
     }
   ],
   "texts": [
@@ -295,9 +280,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3332414,
+      "date": "2026-01-26",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0034/id/3332414",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0034S01.pdf",
+      "text_size": 84355,
+      "text_hash": "ab54cd6ef56f722fc68ec8cebe79e962",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617018,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Substitute Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0034/id/1617018",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38856"
+    },
+    {
+      "roll_call_id": 1617019,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 1,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0034/id/1617019",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38865"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -319,11 +353,61 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644316,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0034/id/644316",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0034%20To%20SB0034S01.pdf",
+      "supplement_size": 93893,
+      "supplement_hash": "0b4da2cf566e190229f0d42ac56e599e",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644317,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0034",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0034/id/644317",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0034S01.pdf",
+      "supplement_size": 18316,
+      "supplement_hash": "9015c643f000a457a48467ebad73d992",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "1a405490",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Education Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions and programs regarding the operation of the public education system.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>authorizes the State Board of Education (state board) to appoint the state superintendent of public instruction as the superintendent of the Utah Schools for the Deaf and the Blind (USDB) and provides associated delegation authority;<hr><ltbullet>aligns terminology regarding juvenile justice reintegration to apply to all local education agencies rather than only school districts;<hr><ltbullet>amends provisions to allow the USDB to coordinate with the state security chief rather than the county security chief of the county for each USDB campus;<hr><ltbullet>allows the state board to reduce suicide prevention grant amounts in certain circumstances; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>corrects references regarding the State Superintendent's Annual Report;<hr><ltbullet>authorizes the State Board of Education (state board) to appoint the state superintendent of public instruction as the superintendent of the Utah Schools for the Deaf and the Blind (USDB) and provides associated delegation authority;<hr><ltbullet>renames the Catalyst Center Grant Program to the Applied Educational Experience Grant Program and amends associated provisions regarding eligibility for and use of program funds;<hr><ltbullet>aligns terminology regarding juvenile justice reintegration to apply to all local education agencies rather than only school districts;<hr><ltbullet>amends provisions to allow the USDB to coordinate with the state security chief rather than the county security chief of the county for each USDB campus;<hr><ltbullet>allows the state board to reduce suicide prevention grant amounts in certain circumstances; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Mike Curtis",
   "fiscal_analyst": "Kiki Hudson",
@@ -334,10 +418,24 @@
       "name": "Education Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20267",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDU0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289295"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "1/20/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -349,8 +447,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -362,8 +460,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -375,8 +473,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -388,8 +486,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -401,8 +499,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -414,8 +512,34 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/26/2026 2:40 PM",
+      "actionClass": "A",
+      "voteID": "38856",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/26/2026 3:03 PM",
+      "actionClass": "A",
+      "voteID": "38865",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-1-2",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2087136,
-  "change_hash": "004687e058307bdfa0221d7244f5bce0",
+  "change_hash": "05dd97c3595a35fb4eb812cd0da780b3",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-21",
       "event": 1
+    },
+    {
+      "date": "2026-01-23",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 94,
   "title": "Reintegration for Disciplined Students",
   "description": "Reintegration for Disciplined Students",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-21",
@@ -51,6 +50,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-23",
+      "committee_id": 2120,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Education"
     }
   ],
   "history": [
@@ -81,6 +87,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-23",
+      "action": "Senate/ to standing committee in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Amendment Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -196,10 +230,135 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
-  "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "votes": [
+    {
+      "roll_call_id": 1617070,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Amendment Recommendation",
+      "yea": 3,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0167/id/1617070",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38896"
+    },
+    {
+      "roll_call_id": 1617071,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 3,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0167/id/1617071",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38897"
+    }
+  ],
+  "amendments": [
+    {
+      "amendment_id": 268440,
+      "adopted": 0,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2026-01-26",
+      "title": "Senate Amendment 2",
+      "description": "Senate Amendment 2",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0167/id/268440",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/SB0167.Samd.2.pdf",
+      "amendment_size": 8074,
+      "amendment_hash": "33ae5e540d2853dce4be4ea42e0a16bb",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    },
+    {
+      "amendment_id": 268441,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2026-01-26",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0167/id/268441",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/SB0167.Samd.1.pdf",
+      "amendment_size": 8891,
+      "amendment_hash": "282cdc6c19174338c662a934e1e80438",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
+  "supplements": [
+    {
+      "supplement_id": 643192,
+      "date": "2026-01-23",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0167",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0167/id/643192",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0167.fn.pdf",
+      "supplement_size": 1609424,
+      "supplement_hash": "fa050083ea4239bbe3e998e0bb30f9ea",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644429,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0167",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0167/id/644429",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0167S01.pdf",
+      "supplement_size": 21257,
+      "supplement_hash": "76e5b5ad7510eabed79cecf31a46fa4c",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "1a405490",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Education Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies provisions related to reintegration and enrollment of students with disciplinary issues.",
   "hilighted_provisions": "This bill:<hr><ltbullet>modifies grounds for denying open enrollment applications;<hr><ltbullet>modifies timelines and requirements for transferring student records;<hr><ltbullet>modifies reintegration plan requirements for students who have committed serious offenses;<hr><ltbullet>requires local education agencies to digitally maintain and transfer certain student records;<hr><ltbullet>modifies notification requirements when a minor is taken into temporary custody; and<hr><ltbullet>makes technical and conforming changes. ",
   "monies": "None",
@@ -207,10 +366,24 @@
   "fiscal_analyst": "Kiki Hudson",
   "gov_tracking_id": "OFACWYHQQF",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20267",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDU0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289500"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -274,6 +447,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/26/2026 9:50 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Amendment Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/26/2026 4:44 PM",
+      "actionClass": "A",
+      "voteID": "38896",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-0-4",
+      "actionCode": "SCAAMD",
+      "parm1": "2",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/26/2026 4:46 PM",
+      "actionClass": "A",
+      "voteID": "38897",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-0-4",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

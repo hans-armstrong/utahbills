@@ -1,6 +1,6 @@
 {
   "bill_id": 2064995,
-  "change_hash": "db7d2c2e9a8d92c3c6cb854b1fa178bc",
+  "change_hash": "57d8c38e0cbb21139be69641046ad27c",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-23",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Micro-Education Entity Facility Amendments",
   "description": "Micro-Education Entity Facility Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -51,6 +50,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-23",
+      "committee_id": 2112,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Political Subdivisions"
     }
   ],
   "history": [
@@ -88,6 +94,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House/ to standing committee in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House Comm - Substitute Recommendation in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House Comm - Favorable Recommendation in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -167,8 +194,24 @@
       "subject_name": "Education"
     },
     {
+      "subject_id": 11909,
+      "subject_name": "Counties"
+    },
+    {
       "subject_id": 332526,
       "subject_name": "K-12 Education"
+    },
+    {
+      "subject_id": 332649,
+      "subject_name": "Municipalities"
+    },
+    {
+      "subject_id": 11910,
+      "subject_name": "Political Subdivisions (Local Issues)"
+    },
+    {
+      "subject_id": 334387,
+      "subject_name": "Local Government Ordinances"
     },
     {
       "subject_id": 377061,
@@ -193,9 +236,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3332412,
+      "date": "2026-01-26",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0126/id/3332412",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0126S01.pdf",
+      "text_size": 56200,
+      "text_hash": "81d83b0c6aebebe9065a001b2d927bb0",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617005,
+      "date": "2026-01-26",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0126/id/1617005",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38835"
+    },
+    {
+      "roll_call_id": 1617006,
+      "date": "2026-01-26",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0126/id/1617006",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38836"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -217,20 +309,84 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644281,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0126/id/644281",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0126%20To%20HB0126S01.pdf",
+      "supplement_size": 68824,
+      "supplement_hash": "b4c7552ff15e9cdb744f04a0327cb638",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644282,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0126",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0126/id/644282",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0126H01.pdf",
+      "supplement_size": 17588,
+      "supplement_hash": "945025297a285e8b78063bbd87b6ba2b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
-  "general_provisions": "This bill defines the facility occupancy requirements with which a micro-education entity must comply.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines the facility occupancy requirements with which a micro-education entity must comply;<hr><ltbullet>prohibits certain retrofitting of a residential unit within a residential zone for the use of a micro-education entity;<hr><ltbullet>addresses certain compliance agency approval of building permits; and<hr><ltbullet>makes technical and conforming changes.",
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "58cb68c3",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "House Political Subdivisions Hearing"
+    }
+  ],
+  "general_provisions": "This bill amends provisions regarding zoning and land use regulations regarding a microschool or micro-education entity.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>emphasizes that a micro-education entity is subject to a political subdivision's land use regulations;<hr><ltbullet>addresses the impact of a limit on micro-education entity capacity;<hr><ltbullet>expands a list of examples of allowable land use regulations regarding a microschool or micro-education entity; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Mike Curtis",
   "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "ROTFYJHFKO",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20293",
+      "committeeID": "HSTPOL",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HPOL0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289201"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Political Subdivisions Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -307,6 +463,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "1/26/2026 2:20 PM",
+      "actionClass": "A",
+      "voteID": "38835",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-5",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "1/26/2026 2:21 PM",
+      "actionClass": "A",
+      "voteID": "38836",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-5",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

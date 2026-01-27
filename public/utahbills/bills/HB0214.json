@@ -1,6 +1,6 @@
 {
   "bill_id": 2070003,
-  "change_hash": "1bc479019599a639c9527ed2f8db279d",
+  "change_hash": "2c96f144540244848eb73653574015bb",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-23",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Firearms Liability Amendments",
   "description": "Firearms Liability Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -51,6 +50,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-23",
+      "committee_id": 5049,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Public Utilities and Energy"
     }
   ],
   "history": [
@@ -88,6 +94,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House/ to standing committee in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House Comm - Substitute Recommendation in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House Comm - Favorable Recommendation in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -171,8 +198,16 @@
       "subject_name": "Business"
     },
     {
+      "subject_id": 11935,
+      "subject_name": "Commerce and Trade"
+    },
+    {
       "subject_id": 332528,
       "subject_name": "Judicial Operations"
+    },
+    {
+      "subject_id": 11910,
+      "subject_name": "Political Subdivisions (Local Issues)"
     },
     {
       "subject_id": 11881,
@@ -209,9 +244,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3332420,
+      "date": "2026-01-26",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0214/id/3332420",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0214S01.pdf",
+      "text_size": 38343,
+      "text_hash": "e7e4adca7e9acaaaaaa597d1d0e338b4",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617033,
+      "date": "2026-01-26",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0214/id/1617033",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38877"
+    },
+    {
+      "roll_call_id": 1617034,
+      "date": "2026-01-26",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0214/id/1617034",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38878"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -233,20 +317,84 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644347,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0214/id/644347",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0214%20To%20HB0214S01.pdf",
+      "supplement_size": 54096,
+      "supplement_hash": "d0b552e263932f724c146a69543b914b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644348,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0214",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0214/id/644348",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0214H02.pdf",
+      "supplement_size": 17578,
+      "supplement_hash": "900cd5f62eb81ea75fd19532c7d61691",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
-  "general_provisions": "This bill amends civil liability concerning firearms or ammunition.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>provides limitations on a civil action against a seller or manufacturer of firearms or ammunition:<hr><ltbullet1>brought under certain provisions of the federal Protection of Lawful Commerce in Arms Act; or<hr><ltbullet1>alleging a claim of negligent marketing; and<hr><ltbullet>makes technical and conforming changes.",
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "ce003059",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "House Public Utilities and Energy Hearing"
+    }
+  ],
+  "general_provisions": "This bill amends civil liability concerning firearms and firearm-related items.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms and amends definitions;<hr><ltbullet>amends provisions and requirements for certain claims arising from a firearm or firearm-related item brought against:<hr><ltbullet1>a seller or manufacturer of a firearm or a firearm-related item; or <hr><ltbullet1>a trade association;<hr><ltbullet>for certain claims arising from a firearm or a firearm-related item:<hr><ltbullet1>requires a court to dismiss claims that fail to meet specific requirements;<hr><ltbullet1>grants reasonable attorney fees and court costs to a prevailing defendant in certain circumstances;<hr><ltbullet1>allows a defendant to appeal an interlocutory order that denies the defendant's motion to dismiss certain claims; and<hr><ltbullet1>prevents a foreign nation from asserting specific exceptions that may allow a claim for civil liability;<hr><ltbullet>preempts a political subdivision from imposing civil liability on a manufacturer, seller, or trade association in certain circumstances; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Jackie Rogers",
   "fiscal_analyst": "Gary R. Syphus",
   "gov_tracking_id": "KSLDNQXQLI",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20238",
+      "committeeID": "HSTPUT",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Public Utilities and Energy Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HPUT0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289390"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Public Utilities and Energy Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -323,6 +471,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "1/26/2026 3:33 PM",
+      "actionClass": "A",
+      "voteID": "38877",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-2",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "1/26/2026 3:34 PM",
+      "actionClass": "A",
+      "voteID": "38878",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-2",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2085747,
-  "change_hash": "a8eb53434f19eeca55cf4168a59519d6",
+  "change_hash": "362e97f895621f246bc587fc3bb36b1f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Concurrent Resolution Regarding Pediatric Care for Autonomic Disorders",
   "description": "Concurrent Resolution Regarding Pediatric Care for Autonomic Disorders",
-  "pending_committee_id": 2123,
-  "committee": {
-    "committee_id": 2123,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -225,7 +227,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617175,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SCR006/id/1617175",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38846"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -247,9 +265,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644605,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SCR006",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SCR006/id/644605",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SCR006S02.pdf",
+      "supplement_size": 18316,
+      "supplement_hash": "704f89b9dc4cf5655f7293eeb07b184b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "84d59c80",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Health and Human Services Hearing"
+    }
+  ],
   "general_provisions": "This resolution addresses awareness and diagnosis of autonomic disorders.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>encourages the medical community to increase awareness of, education about, and diagnosis of postural orthostatic tachycardia syndrome (POTS) and related autonomic disorders, particularly in children and adolescents; and<hr><ltbullet>encourages insurers to provide appropriate coverage to address the gaps in access to diagnosis and treatment of POTS.",
   "monies": "None",
@@ -257,10 +305,24 @@
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "DMTDFCAVVP",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20229",
+      "committeeID": "SSTHHS",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "8",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SHHS0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289265"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Health and Human Services Committee",
-  "last_action_time": "1/21/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -337,6 +399,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "1/26/2026 2:31 PM",
+      "actionClass": "A",
+      "voteID": "38846",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2082247,
-  "change_hash": "b80785066c16c1d5495c00524e5d9abd",
+  "change_hash": "e7243dc0afa7df22e6b31c97d7460167",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Lobbying Amendments",
   "description": "Lobbying Amendments",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Amendment Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -213,8 +222,61 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
-  "amendments": [],
+  "votes": [
+    {
+      "roll_call_id": 1617139,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Amendment Recommendation",
+      "yea": 4,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0145/id/1617139",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38828"
+    },
+    {
+      "roll_call_id": 1617140,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0145/id/1617140",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38837"
+    }
+  ],
+  "amendments": [
+    {
+      "amendment_id": 268413,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2026-01-26",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0145/id/268413",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/SB0145.Samd.1.pdf",
+      "amendment_size": 7304,
+      "amendment_hash": "f311897e278daf69fd0aca08d58df2a0",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 638982,
@@ -235,9 +297,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644543,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0145",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0145/id/644543",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0145S02.pdf",
+      "supplement_size": 19871,
+      "supplement_hash": "af89b87b1ae704080774d163e892cada",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "61a47553",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Business and Labor Hearing"
+    }
+  ],
   "general_provisions": "This bill amends and enacts provisions relating to lobbying.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>modifies and clarifies the definitions of lobbyist, lobbying, and a principal;<hr><ltbullet>modifies the limits for certain expenditures;<hr><ltbullet>prohibits consideration, a reward, or an incentive for lobbying that is contingent on certain government action and provides criminal and civil penalties for violation of the prohibition;<hr><ltbullet>replaces the offense of employing or soliciting a person to lobby for contingent compensation with the offense described in the preceding paragraph;<hr><ltbullet>creates an exception to the definition of \"expenditure\" in relation to certain sporting events, performances, or exhibitions of a state institution of higher education or a private, nonprofit institution of higher education;<hr><ltbullet>amends provisions relating to lobbying by a former state official; and<hr><ltbullet> makes technical and conforming changes.",
   "monies": "None",
@@ -245,10 +337,24 @@
   "fiscal_analyst": "Steven M. Allred",
   "gov_tracking_id": "KRXMTCTOGA",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20286",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SBUS0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289207"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "1/21/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -325,6 +431,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Amendment Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "1/26/2026 2:11 PM",
+      "actionClass": "A",
+      "voteID": "38828",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-4",
+      "actionCode": "SCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "1/26/2026 2:22 PM",
+      "actionClass": "A",
+      "voteID": "38837",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-4",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

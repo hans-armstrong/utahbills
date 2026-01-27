@@ -1,6 +1,6 @@
 {
   "bill_id": 2056876,
-  "change_hash": "345a7007cbf1c64a9a4c483945e5b75e",
+  "change_hash": "683b0b33d6d0952c21a05257f763ef43",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -19,7 +19,7 @@
   "state_link": "https://le.utah.gov/~2026/bills/static/HCR001.html",
   "completed": 0,
   "status": 1,
-  "status_date": "2026-01-20",
+  "status_date": "2026-01-26",
   "progress": [
     {
       "date": "2026-01-20",
@@ -32,6 +32,10 @@
     {
       "date": "2026-01-22",
       "event": 10
+    },
+    {
+      "date": "2026-01-26",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,8 +45,8 @@
   "bill_type_id": "3",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "House Concurrent Resolution Regarding Advanced Nuclear Manufacturing",
   "description": "House Concurrent Resolution Regarding Advanced Nuclear Manufacturing",
   "pending_committee_id": 0,
@@ -126,6 +130,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House/ 3rd reading in House Consent Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -324,6 +356,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HCR001/id/1615516",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38602"
+    },
+    {
+      "roll_call_id": 1617079,
+      "date": "2026-01-26",
+      "desc": "House/ passed 3rd reading",
+      "yea": 71,
+      "nay": 3,
+      "nv": 0,
+      "absent": 1,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HCR001/id/1617079",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=55&house=H"
     }
   ],
   "amendments": [],
@@ -401,15 +448,15 @@
       "mtgPlace": "110 Senate Building",
       "committeeName": "House Public Utilities and Energy Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00000359.htm",
       "agendaURL": "/~2026/agenda/HPUT0121.ag.htm",
       "billSession": "2026GS",
       "markerID": "287569"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House Consent Calendar",
-  "last_action_time": "1/22/2026",
+  "last_action": "Senate/ received from House",
+  "last_action_owner": "Waiting for Introduction in the Senate",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -525,6 +572,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House Consent Calendar",
+      "actionDate": "1/26/2026 11:25 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "1/26/2026 11:27 AM",
+      "actionClass": "H",
+      "voteID": "55",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "71-3-1",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "1/26/2026 11:27 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "1/26/2026 12:38 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
       "parm1": "",
       "parm2": ""
     }

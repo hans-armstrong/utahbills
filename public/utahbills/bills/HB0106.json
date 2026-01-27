@@ -1,6 +1,6 @@
 {
   "bill_id": 2061129,
-  "change_hash": "a6a1fcdc20fd8c764430085f39b0eb59",
+  "change_hash": "7bcc61edee89e3317c08ad38fda238bc",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-23",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "School Attendance Changes",
   "description": "School Attendance Changes",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2105,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2105,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Education"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-23",
+      "committee_id": 2105,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Education"
     }
   ],
   "history": [
@@ -85,6 +96,13 @@
     {
       "date": "2026-01-20",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House/ to standing committee in House Education Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -227,7 +245,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "fd4f41d9",
+      "type": "Hearing",
+      "date": "2026-01-27",
+      "time": "14:00",
+      "location": "",
+      "description": "House Education Hearing"
+    }
+  ],
   "general_provisions": "This bill establishes chronic absenteeism data requirements and a study.",
   "hilighted_provisions": "This bill:<hr><ltbullet>establishes chronic absenteeism data requirements and a study.",
   "monies": "None",

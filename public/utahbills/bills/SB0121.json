@@ -1,6 +1,6 @@
 {
   "bill_id": 2071318,
-  "change_hash": "19b95965fc2646af76fc38088bfdea75",
+  "change_hash": "c0984254d43ea78961bf077c15b83450",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Medical Cannabis Program Amendments",
   "description": "Medical Cannabis Program Amendments",
-  "pending_committee_id": 2123,
-  "committee": {
-    "committee_id": 2123,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -229,7 +231,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617193,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0121/id/1617193",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38840"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -251,9 +269,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644620,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0121",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0121/id/644620",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0121S02.pdf",
+      "supplement_size": 18299,
+      "supplement_hash": "5298d832a1ae32713af72a4d4b506906",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "84d59c80",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Health and Human Services Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions related to the medical cannabis program.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>amends when the Cannabis Production Establishment and Pharmacy Licensing Advisory Board must meet to review an ownership change application;<hr><ltbullet>amends provisions related to labeling of cannabis products;<hr><ltbullet>amends provisions related to cannabis remediation;<hr><ltbullet>repeals language related to electronic payments;<hr><ltbullet>enacts provisions related to the safe storage of medical cannabis for medical cannabis deliveries;<hr><ltbullet>amends provisions related to when a medical cannabis pharmacy agent may access the electronic verification system;<hr><ltbullet>amends provisions related to acceptable forms of identification;<hr><ltbullet>amends provisions related to the revocation of certain medical cannabis agent cards;<hr><ltbullet>allows a medical cannabis guardian card to be issued to the legal guardian of an adult who is incapacitated; <hr><ltbullet>extends the repeal of the medical cannabis governance structure working group; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -261,10 +309,24 @@
   "fiscal_analyst": "Lacey K. Moore",
   "gov_tracking_id": "OXBQCYNKUE",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20229",
+      "committeeID": "SSTHHS",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SHHS0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289231"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Health and Human Services Committee",
-  "last_action_time": "1/21/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -341,6 +403,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "1/26/2026 2:24 PM",
+      "actionClass": "A",
+      "voteID": "38840",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

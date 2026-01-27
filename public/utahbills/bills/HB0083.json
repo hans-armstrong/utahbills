@@ -1,6 +1,6 @@
 {
   "bill_id": 2060952,
-  "change_hash": "dfb93722652d908c44554b4ee284e89b",
+  "change_hash": "5c6c4eb46dd697c8a0024d63a8dbb8df",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-23",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Imitation Firearm Amendments",
   "description": "Imitation Firearm Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -51,6 +50,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-23",
+      "committee_id": 5049,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Public Utilities and Energy"
     }
   ],
   "history": [
@@ -88,6 +94,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House/ to standing committee in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House Comm - Held in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -195,7 +215,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617349,
+      "date": "2026-01-26",
+      "desc": "House Comm - Held",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0083/id/1617349",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38853"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -219,7 +255,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "ce003059",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "House Public Utilities and Energy Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses imitation firearms that have been altered to have the appearance of a firearm.",
   "hilighted_provisions": "This bill:<hr><ltbullet>creates an infraction for a minor, after receiving a previous documented warning from a law enforcement officer, to possess an altered toy, look-alike, or imitation firearm that has the appearance of an actual firearm.",
   "monies": "None",
@@ -227,24 +273,25 @@
   "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "VDSGHIXTCC",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Public Utilities and Energy Committee",
-  "last_action_time": "1/23/2026",
-  "action_history": [
+  "agendas": [
     {
-      "description": "Bill Numbered but not Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "12/23/2025 3:55 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
-    },
+      "mtgID": "20238",
+      "committeeID": "HSTPUT",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Public Utilities and Energy Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HPUT0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289196"
+    }
+  ],
+  "last_action": "House Comm - Held",
+  "last_action_owner": "House Public Utilities and Energy Committee",
+  "last_action_time": "1/26/2026",
+  "action_history": [
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -255,6 +302,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Numbered but not Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "12/23/2025 3:55 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LNUMBER",
       "parm1": "",
       "parm2": ""
     },
@@ -307,6 +367,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "1/26/2026 2:38 PM",
+      "actionClass": "A",
+      "voteID": "38853",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-3",
+      "actionCode": "HCAHELD",
       "parm1": "",
       "parm2": ""
     }

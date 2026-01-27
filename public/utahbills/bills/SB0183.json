@@ -1,6 +1,6 @@
 {
   "bill_id": 2090477,
-  "change_hash": "e53e319de4dff068d2a85fb81620f416",
+  "change_hash": "07fa073054fb0179f971730556f108d5",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -19,8 +19,13 @@
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0183.html",
   "completed": 0,
   "status": 1,
-  "status_date": null,
-  "progress": [],
+  "status_date": "2026-01-23",
+  "progress": [
+    {
+      "date": "2026-01-23",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0183",
@@ -32,9 +37,22 @@
   "current_body_id": 94,
   "title": "Surveillance Camera Amendments",
   "description": "Surveillance Camera Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2026-01-23",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-22",
@@ -53,6 +71,20 @@
     {
       "date": "2026-01-23",
       "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-23",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Rules Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -169,7 +201,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 643839,
+      "date": "2026-01-25",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0183",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0183/id/643839",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0183.fn.pdf",
+      "supplement_size": 1608336,
+      "supplement_hash": "ac17235b70fa8bdf1ef5c008d2aa8f4f",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill concerns a law enforcement officer's ability to tamper with a privately owned surveillance camera.",
   "hilighted_provisions": "This bill:<hr><ltbullet>prohibits a law enforcement officer, or an individual acting on behalf of a law enforcement officer, from tampering with, changing the viewing direction of, or disabling a privately or commercially owned surveillance camera; and<hr><ltbullet>creates exceptions to the prohibition.",
@@ -179,9 +232,9 @@
   "gov_tracking_id": "NGVNXPMOJL",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -232,6 +285,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Rules Committee",
+      "actionDate": "1/26/2026 9:50 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

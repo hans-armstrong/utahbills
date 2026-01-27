@@ -1,6 +1,6 @@
 {
   "bill_id": 2061273,
-  "change_hash": "8c435942bb4ec34781ce5da0e0f11cd1",
+  "change_hash": "1ba3939d770e35f4560f02a21eaadc09",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-22",
       "event": 9
+    },
+    {
+      "date": "2026-01-26",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Emergency Reporting Abuse Amendments",
   "description": "Emergency Reporting Abuse Amendments",
-  "pending_committee_id": 2110,
-  "committee": {
-    "committee_id": 2110,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Law Enforcement and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -67,14 +66,14 @@
   "history": [
     {
       "date": "2025-12-30",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2025-12-30",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -106,6 +105,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House Comm - Substitute Recommendation in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House Comm - Favorable Recommendation in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House/ comm rpt/ substituted in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -183,6 +210,18 @@
     {
       "subject_id": 11866,
       "subject_name": "Law Enforcement and Criminal Justice"
+    },
+    {
+      "subject_id": 332736,
+      "subject_name": "Crimes"
+    },
+    {
+      "subject_id": 11881,
+      "subject_name": "Public Safety"
+    },
+    {
+      "subject_id": 332529,
+      "subject_name": "Punishment"
     }
   ],
   "texts": [
@@ -223,7 +262,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1616808,
+      "date": "2026-01-23",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 0,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0113/id/1616808",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38785"
+    },
+    {
+      "roll_call_id": 1616809,
+      "date": "2026-01-23",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 0,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0113/id/1616809",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38786"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -265,6 +335,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 643517,
+      "date": "2026-01-23",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0113",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0113/id/643517",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0113H01.pdf",
+      "supplement_size": 17594,
+      "supplement_hash": "6d273fa48fe4bf647079e971900d505c",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -278,31 +368,32 @@
       "description": "House Law Enforcement and Criminal Justice Hearing"
     }
   ],
-  "general_provisions": "This bill amends the offense of emergency reporting abuse.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>adds new penalties to the criminal offense of emergency reporting abuse; and<hr><ltbullet>makes technical and conforming changes.",
+  "general_provisions": "This bill amends the criminal offense of emergency reporting abuse.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>adds new penalties to the criminal offense of emergency reporting abuse; <hr><ltbullet>adds a coordination clause to coordinate changes in the criminal offense of emergency reporting abuse made in S.B. 99, Emergency Reporting Offense Amendments, if this bill and S.B. 99 both pass and become law; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Jackie Rogers",
   "fiscal_analyst": "Gary R. Syphus",
   "gov_tracking_id": "POLOLUBKWB",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Law Enforcement and Criminal Justice Committee",
-  "last_action_time": "1/22/2026",
-  "action_history": [
+  "agendas": [
     {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "12/30/2025 10:02 AM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
-    },
+      "mtgID": "20210",
+      "committeeID": "HSTLAW",
+      "mtgDate": "2026-01-23 14:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Law Enforcement and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HLAW0123.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "288807"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "1/26/2026",
+  "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -313,6 +404,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "12/30/2025 10:02 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
       "parm1": "",
       "parm2": ""
     },
@@ -365,6 +469,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "1/23/2026 3:35 PM",
+      "actionClass": "A",
+      "voteID": "38785",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-0",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "1/23/2026 3:36 PM",
+      "actionClass": "A",
+      "voteID": "38786",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-0",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "1/26/2026 11:12 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "1/26/2026 11:12 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

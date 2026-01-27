@@ -1,6 +1,6 @@
 {
   "bill_id": 2081913,
-  "change_hash": "579fb220be1929a2dafe7228d5ce4a1c",
+  "change_hash": "9c78d27eee28f87d27904d711ec26bb5",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-23",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Prescription Medication Amendments",
   "description": "Prescription Medication Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2108,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2108,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Health and Human Services"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-23",
+      "committee_id": 2108,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Health and Human Services"
     }
   ],
   "history": [
@@ -85,6 +96,13 @@
     {
       "date": "2026-01-20",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House/ to standing committee in House Health and Human Services Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -243,7 +261,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "bf4d359b",
+      "type": "Hearing",
+      "date": "2026-01-27",
+      "time": "14:00",
+      "location": "",
+      "description": "House Health and Human Services Hearing"
+    }
+  ],
   "general_provisions": "This bill address prescription requirements.",
   "hilighted_provisions": "This bill:<hr><ltbullet>removes a requirement that a pharmacy notify a provider if the pharmacy substitutes the medication as authorized by the prescription;<hr><ltbullet>allows a prescription refill to remain valid for two years; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",

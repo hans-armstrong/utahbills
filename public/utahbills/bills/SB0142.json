@@ -1,6 +1,6 @@
 {
   "bill_id": 2082469,
-  "change_hash": "c2abc83f0eecd73a83c5226fcb5e0a43",
+  "change_hash": "13d826b829f6f35449775defb143b6ce",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-26",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 94,
   "title": "Private Probation and Court Ordered Services Amendments",
   "description": "Private Probation and Court Ordered Services Amendments",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -51,6 +50,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-26",
+      "committee_id": 2123,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Health and Human Services"
     }
   ],
   "history": [
@@ -88,6 +94,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate/ to standing committee in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Amendment Recommendation in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -203,7 +230,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617194,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Amendment Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0142/id/1617194",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38864"
+    },
+    {
+      "roll_call_id": 1617195,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0142/id/1617195",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38867"
+    }
+  ],
   "amendments": [
     {
       "amendment_id": 268097,
@@ -247,9 +305,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644621,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0142",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0142/id/644621",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0142S02.pdf",
+      "supplement_size": 20208,
+      "supplement_hash": "3f53bef7a9cc8f01377e133c04cfca75",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "84d59c80",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Health and Human Services Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies the Private Probation Provider Licensing Act.",
   "hilighted_provisions": "This bill:<hr><ltbullet>modifies a defined term;<hr><ltbullet>clarifies that a human services program generally may not provide both:<hr><ltbullet1>private probation services; and<hr><ltbullet1>other compensated services;<hr><ltbullet>provides enforcement; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -257,10 +345,24 @@
   "fiscal_analyst": "Nate Osborne",
   "gov_tracking_id": "KAVKLPQDVV",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "1/20/2026",
+  "agendas": [
+    {
+      "mtgID": "20229",
+      "committeeID": "SSTHHS",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "13",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SHHS0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289350"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
+  "last_action_owner": "Senate Health and Human Services Committee",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -324,6 +426,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "1/26/2026 11:16 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Amendment Recommendation",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "1/26/2026 3:03 PM",
+      "actionClass": "A",
+      "voteID": "38864",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "1/26/2026 3:08 PM",
+      "actionClass": "A",
+      "voteID": "38867",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2073887,
-  "change_hash": "10d1a3a0b59ea4deec2bed23cfe28f44",
+  "change_hash": "8c734da09da831b157026ced98cd45e3",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Charter School Eligibility",
   "description": "Charter School Eligibility",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -217,7 +219,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617032,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 0,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0131/id/1617032",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38831"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -239,9 +257,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644342,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0131",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0131/id/644342",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0131S02.pdf",
+      "supplement_size": 18280,
+      "supplement_hash": "4e1e3d5c578001c6ceb406343a48c808",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "1a405490",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Education Hearing"
+    }
+  ],
   "general_provisions": "This bill enacts a provision relating to charter school enrollment preferences.",
   "hilighted_provisions": "This bill:<hr><ltbullet>expands charter school enrollment preference to certain students within the boundaries of a political subdivision; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -249,10 +297,24 @@
   "fiscal_analyst": "Ben Leishman",
   "gov_tracking_id": "WJVVWIAGMI",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20267",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDU0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289217"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "1/21/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -329,6 +391,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/26/2026 2:17 PM",
+      "actionClass": "A",
+      "voteID": "38831",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-0",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

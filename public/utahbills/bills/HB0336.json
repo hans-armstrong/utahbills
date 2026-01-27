@@ -1,6 +1,6 @@
 {
   "bill_id": 2091072,
-  "change_hash": "e74961339ec7c2bbe9c1c5ce1db3d7e6",
+  "change_hash": "99eb99a05f48e75361a0f9bef411039d",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -19,8 +19,13 @@
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0336.html",
   "completed": 0,
   "status": 1,
-  "status_date": null,
-  "progress": [],
+  "status_date": "2026-01-23",
+  "progress": [
+    {
+      "date": "2026-01-23",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0336",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Recovery Operations Amendments",
   "description": "Recovery Operations Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2026-01-23",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-22",
@@ -48,6 +66,27 @@
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -126,6 +165,26 @@
     {
       "subject_id": 11875,
       "subject_name": "Transportation"
+    },
+    {
+      "subject_id": 11904,
+      "subject_name": "Motor Vehicle Insurance"
+    },
+    {
+      "subject_id": 14885,
+      "subject_name": "Motor Carrier Regulation"
+    },
+    {
+      "subject_id": 11874,
+      "subject_name": "Motor Vehicles"
+    },
+    {
+      "subject_id": 332732,
+      "subject_name": "Towing"
+    },
+    {
+      "subject_id": 340812,
+      "subject_name": "Commercial Motor Vehicle Regulation"
     }
   ],
   "texts": [
@@ -150,7 +209,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 644243,
+      "date": "2026-01-26",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0336",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0336/id/644243",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0336.fn.pdf",
+      "supplement_size": 1609304,
+      "supplement_hash": "ec3ba58edad78b14ccf7e734390e3cc2",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill distinguishes recovery operations from normal towing operations and creates requirements for the operation and payment of recovery operators.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>requires insurers to pay a recovery operator for a recovery operation before the insurer pays the insured;<hr><ltbullet>requires tow truck motor carrier rotations to identify tow truck motor carriers that are capable of performing recovery operations; and<hr><ltbullet>makes technical changes.",
@@ -160,9 +240,9 @@
   "gov_tracking_id": "STNALCJGHH",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -213,6 +293,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "1/26/2026 12:53 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm1": "",
       "parm2": ""
     }

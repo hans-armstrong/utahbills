@@ -1,6 +1,6 @@
 {
   "bill_id": 2066044,
-  "change_hash": "fa7ea1f13dd98316be5b18e4c6204caa",
+  "change_hash": "e523f5ce71db0fd53caf3b798478aead",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-23",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Concurrent Resolution Regarding Religious Freedom",
   "description": "Concurrent Resolution Regarding Religious Freedom",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -51,6 +50,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-23",
+      "committee_id": 5049,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Public Utilities and Energy"
     }
   ],
   "history": [
@@ -88,6 +94,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House/ to standing committee in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House Comm - Favorable Recommendation in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -263,7 +283,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617337,
+      "date": "2026-01-26",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 1,
+      "nv": 0,
+      "absent": 2,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HCR004/id/1617337",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38871"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -285,9 +321,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644771,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HCR004",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HCR004/id/644771",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HCR004H02.pdf",
+      "supplement_size": 17551,
+      "supplement_hash": "bf22a396b4f6b4a54a2cca4f54fdd859",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "ce003059",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "House Public Utilities and Energy Hearing"
+    }
+  ],
   "general_provisions": "This resolution supports and encourages practices that exemplify religious freedom in public spaces.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>acknowledges the historical context that supports the inclusion of religion in government and education;<hr><ltbullet>supports the right of public school students and teachers to openly express their faith;<hr><ltbullet>encourages the accommodation of religious observances in government and community settings;<hr><ltbullet>supports the protection of religious symbols in public spaces; and<hr><ltbullet>encourages the fostering of respectful dialogue among diverse faith traditions.",
   "monies": "None",
@@ -295,10 +361,24 @@
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "RGBNWPAPVE",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20238",
+      "committeeID": "HSTPUT",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Public Utilities and Energy Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HPUT0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289337"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Public Utilities and Energy Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -375,6 +455,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "1/26/2026 3:17 PM",
+      "actionClass": "A",
+      "voteID": "38871",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-1-2",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

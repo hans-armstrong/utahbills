@@ -1,6 +1,6 @@
 {
   "bill_id": 2069095,
-  "change_hash": "dd21913697fffcc310b278a9978453b4",
+  "change_hash": "fbe9f9ed6d430295d1234143ce677337",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -105,6 +105,20 @@
     {
       "date": "2026-01-21",
       "action": "Senate Comm - Not Considered in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Substitute Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -293,9 +307,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3332393,
+      "date": "2026-01-26",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0108/id/3332393",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0108S01.pdf",
+      "text_size": 22781,
+      "text_hash": "486540d2bb267b8ce9fbedf6b37dd4a5",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617082,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Substitute Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0108/id/1617082",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38888"
+    },
+    {
+      "roll_call_id": 1617083,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 6,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0108/id/1617083",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38889"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -317,6 +380,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644174,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0108/id/644174",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0108%20To%20SB0108S01.pdf",
+      "supplement_size": 26517,
+      "supplement_hash": "a5d73194d9eb6c9007a0ced52eeb395b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644451,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0108",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0108/id/644451",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0108S02.pdf",
+      "supplement_size": 18337,
+      "supplement_hash": "ccfb8fd21b02660374ee89c31e46fa5e",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -328,10 +431,19 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Business and Labor Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "61a47553",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Business and Labor Hearing"
     }
   ],
-  "general_provisions": "This bill prohibits a municipality or county from regulating an online marketplace.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms; and<hr><ltbullet>prohibits a municipality or county from regulating an online marketplace.",
+  "general_provisions": "This bill addresses municipal or county regulation of an online marketplace.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>except under certain circumstances, prohibits a municipality or county from regulating an online marketplace; and<hr><ltbullet>addresses municipal or county requests to an online marketplace for information or assistance.",
   "monies": "None",
   "attorney": "Steve Schaefermeyer",
   "fiscal_analyst": "Jared Gibbs",
@@ -346,15 +458,28 @@
       "mtgPlace": "220 Senate Building",
       "committeeName": "Senate Business and Labor Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00000463.htm",
       "agendaURL": "/~2026/agenda/SBUS0121.ag.htm",
       "billSession": "2026GS",
       "markerID": ""
+    },
+    {
+      "mtgID": "20286",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SBUS0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289466"
     }
   ],
-  "last_action": "Senate Comm - Not Considered",
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "1/21/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -444,6 +569,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "1/26/2026 4:11 PM",
+      "actionClass": "A",
+      "voteID": "38888",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-3",
+      "actionCode": "SCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "1/26/2026 4:20 PM",
+      "actionClass": "A",
+      "voteID": "38889",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-2",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

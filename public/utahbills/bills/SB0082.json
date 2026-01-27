@@ -1,6 +1,6 @@
 {
   "bill_id": 2065872,
-  "change_hash": "14d28c26bad7b837c6922cef233b2080",
+  "change_hash": "a64cf1094b49751c1a48865cea9fc684",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-20",
       "event": 9
+    },
+    {
+      "date": "2026-01-26",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Securities Investor Education, Training, and Enforcement Fund Amendments",
   "description": "Securities Investor Education, Training, and Enforcement Fund Amendments",
-  "pending_committee_id": 2861,
-  "committee": {
-    "committee_id": 2861,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Economic Development and Workforce Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -99,6 +98,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-23",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-23",
+      "action": "Senate Comm - Favorable Recommendation in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate/ committee report favorable in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -214,7 +241,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1616692,
+      "date": "2026-01-23",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 3,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 6,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0082/id/1616692",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38730"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -230,6 +273,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0082.fn.pdf",
       "supplement_size": 1609356,
       "supplement_hash": "dc9132829c9456b129d3bbaf196f03b1",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 643237,
+      "date": "2026-01-23",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0082",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0082/id/643237",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0082S02.pdf",
+      "supplement_size": 18343,
+      "supplement_hash": "bae5efcd86aa19c0797b73fb352ec55f",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -256,24 +319,25 @@
   "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "YKYJPMAQDK",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "Senate Economic Development and Workforce Services Committee",
-  "last_action_time": "1/23/2026",
-  "action_history": [
+  "agendas": [
     {
-      "description": "Bill Numbered but not Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/6/2026 12:31 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
-    },
+      "mtgID": "20262",
+      "committeeID": "SSTEDW",
+      "mtgDate": "2026-01-23 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Economic Development and Workforce Services Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00000394.htm",
+      "agendaURL": "/~2026/agenda/SEDW0123.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "288603"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "1/26/2026",
+  "action_history": [
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -284,6 +348,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Numbered but not Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/6/2026 12:31 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LNUMBER",
       "parm1": "",
       "parm2": ""
     },
@@ -336,6 +413,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "1/23/2026 2:10 PM",
+      "actionClass": "A",
+      "voteID": "38730",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-0-3",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "1/26/2026 11:20 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "1/26/2026 11:20 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

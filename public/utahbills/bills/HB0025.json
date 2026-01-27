@@ -1,6 +1,6 @@
 {
   "bill_id": 2057191,
-  "change_hash": "2bffabcaabb0675c18c72a8daa244b04",
+  "change_hash": "da790971385b6db0a598e0d531de636b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Candidate Petition Amendments",
   "description": "Candidate Petition Amendments",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -113,6 +108,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House Comm - Held in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -258,18 +260,6 @@
     {
       "subject_id": 11851,
       "subject_name": "Government Operations (State Issues)"
-    },
-    {
-      "subject_id": 332627,
-      "subject_name": "Election Law"
-    },
-    {
-      "subject_id": 340425,
-      "subject_name": "County Officers"
-    },
-    {
-      "subject_id": 367321,
-      "subject_name": "Elected Official"
     }
   ],
   "texts": [
@@ -308,9 +298,43 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3332232,
+      "date": "2026-01-26",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0025/id/3332232",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0025S02.pdf",
+      "text_size": 102582,
+      "text_hash": "0d932930012cbfa38e68a71119420c40",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617358,
+      "date": "2026-01-26",
+      "desc": "House Comm - Held",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0025/id/1617358",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38862"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -372,9 +396,59 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644107,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0025/id/644107",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0025%20To%20HB0025S02.pdf",
+      "supplement_size": 170232,
+      "supplement_hash": "0a68a15637061fb0f0b82a29afcba0f7",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644108,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0025/id/644108",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0025S01%20To%20HB0025S02.pdf",
+      "supplement_size": 117825,
+      "supplement_hash": "46418fb4965c3f4ae9cb97cf57736b4b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "6bbbdd12",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "House Government Operations Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions related to candidate nomination petitions.",
   "hilighted_provisions": "This bill:<hr><ltbullet>requires a candidate who seeks the nomination for an elective office by gathering signatures of registered voters to submit the signatures to the county clerk of each registered voter's residence;<hr><ltbullet>provides that a county clerk may only certify the signature of a registered voter described above if the registered voter is a resident of the county clerk's county;<hr><ltbullet>for a signature gathering candidate who seeks the nomination for an office in a district where the officeholder is elected by the voters from more than one county, requires the county clerk of each county to which the candidate submits signatures to:<hr><ltbullet1>count the number of valid signatures submitted by the candidate; and<hr><ltbullet1>certify the number of valid signatures to the lieutenant governor; <hr><ltbullet> for an elective office described above, requires the lieutenant governor to:<hr><ltbullet1>count the total number of valid signatures received from each county clerk; and<hr><ltbullet1>if the aggregate number of valid signatures is sufficient for the candidate to qualify for placement on the ballot, certify the signatures;<hr><ltbullet>amends the candidate nomination petition forms to specify that only a registered voter residing in the county where a candidate submits signatures for verification should sign the candidate's nomination petition;<hr><ltbullet>for a candidate for elective office seeking the nomination of a qualified political party through signature-gathering, shortens the deadline for the candidate to submit signatures to an election official from 14 to 21 days before the day on which the party holds a convention to nominate a candidate for the same elective office; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -387,24 +461,25 @@
       "name": "Government Operations Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "1/23/2026",
-  "action_history": [
+  "agendas": [
     {
-      "description": "Bill Numbered but not Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "12/5/2025 2:19 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
-    },
+      "mtgID": "20274",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HGOC0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289253"
+    }
+  ],
+  "last_action": "House Comm - Held",
+  "last_action_owner": "House Government Operations Committee",
+  "last_action_time": "1/26/2026",
+  "action_history": [
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -415,6 +490,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Numbered but not Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "12/5/2025 2:19 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LNUMBER",
       "parm1": "",
       "parm2": ""
     },
@@ -480,6 +568,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Government Operations Committee",
+      "actionDate": "1/26/2026 2:58 PM",
+      "actionClass": "A",
+      "voteID": "38862",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-2",
+      "actionCode": "HCAHELD",
       "parm1": "",
       "parm2": ""
     }

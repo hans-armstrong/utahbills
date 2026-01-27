@@ -1,6 +1,6 @@
 {
   "bill_id": 2091708,
-  "change_hash": "6e8d17da658d0924b4f04005f4949491",
+  "change_hash": "b87d2b4695d158036dc41db8d9da908b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -19,8 +19,13 @@
   "state_link": "https://le.utah.gov/~2026/bills/static/HJR016.html",
   "completed": 0,
   "status": 1,
-  "status_date": null,
-  "progress": [],
+  "status_date": "2026-01-23",
+  "progress": [
+    {
+      "date": "2026-01-23",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HJR016",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Joint Resolution Supporting New Methods to Combat Human Trafficking and Domestic Violence",
   "description": "Joint Resolution Supporting New Methods to Combat Human Trafficking and Domestic Violence",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2026-01-23",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-23",
@@ -48,6 +66,27 @@
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -126,6 +165,34 @@
     {
       "subject_id": 11866,
       "subject_name": "Law Enforcement and Criminal Justice"
+    },
+    {
+      "subject_id": 11987,
+      "subject_name": "Resolutions"
+    },
+    {
+      "subject_id": 14879,
+      "subject_name": "Technology"
+    },
+    {
+      "subject_id": 12038,
+      "subject_name": "Domestic Violence"
+    },
+    {
+      "subject_id": 332736,
+      "subject_name": "Crimes"
+    },
+    {
+      "subject_id": 11875,
+      "subject_name": "Transportation"
+    },
+    {
+      "subject_id": 347838,
+      "subject_name": "Homicide"
+    },
+    {
+      "subject_id": 334830,
+      "subject_name": "Human Trafficking"
     }
   ],
   "texts": [
@@ -150,7 +217,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 643860,
+      "date": "2026-01-25",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HJR016",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HJR016/id/643860",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HJR016.fn.pdf",
+      "supplement_size": 1608399,
+      "supplement_hash": "17d822abc96099a44047fdb1eac3fbde",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This resolution expresses support for new innovations and technology to combat human trafficking and domestic violence.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>recognizes the serious issues of human trafficking and domestic violence in the nation and in Utah;<hr><ltbullet>recognizes that transportation hubs play a major role in human trafficking and domestic violence;<hr><ltbullet>recognizes that new innovations and technology can help human trafficking and domestic violence victims request assistance; and<hr><ltbullet>expresses Utah's support for the advancement of new innovations and technology to combat human trafficking and domestic violence.",
@@ -160,23 +248,10 @@
   "gov_tracking_id": "BEBSAGKPLD",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
-    {
-      "description": "Bill Numbered but not Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/23/2026 9:45 AM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -187,6 +262,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Numbered but not Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/23/2026 9:45 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LNUMBER",
       "parm1": "",
       "parm2": ""
     },
@@ -213,6 +301,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "1/26/2026 9:47 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm1": "",
       "parm2": ""
     }

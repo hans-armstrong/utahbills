@@ -1,6 +1,6 @@
 {
   "bill_id": 2056812,
-  "change_hash": "970644c54477678ce75381ec1f39771f",
+  "change_hash": "fc00df6aa8d5053e3cea623833740ff3",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-20",
       "event": 2
+    },
+    {
+      "date": "2026-01-23",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Senior Care Facility Amendments",
   "description": "Senior Care Facility Amendments",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -62,6 +61,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-23",
+      "committee_id": 2119,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Business and Labor"
     }
   ],
   "history": [
@@ -152,6 +158,27 @@
     {
       "date": "2026-01-21",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-23",
+      "action": "Senate/ to standing committee in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Substitute Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -300,54 +327,6 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
-    },
-    {
-      "subject_id": 11893,
-      "subject_name": "Health Care"
-    },
-    {
-      "subject_id": 12052,
-      "subject_name": "Health Care Facilities"
-    },
-    {
-      "subject_id": 332528,
-      "subject_name": "Judicial Operations"
-    },
-    {
-      "subject_id": 334137,
-      "subject_name": "Administrative Rulemaking"
-    },
-    {
-      "subject_id": 332696,
-      "subject_name": "Administrative Rulemaking and Procedures"
-    },
-    {
-      "subject_id": 11851,
-      "subject_name": "Government Operations (State Issues)"
-    },
-    {
-      "subject_id": 362639,
-      "subject_name": "Department of Health and Human Services"
-    },
-    {
-      "subject_id": 335074,
-      "subject_name": "Attorney General"
-    },
-    {
-      "subject_id": 334140,
-      "subject_name": "Constitutional Officers"
-    },
-    {
-      "subject_id": 340520,
-      "subject_name": "Nursing Homes"
-    },
-    {
-      "subject_id": 374935,
-      "subject_name": "Office of Licensing and Background Checks"
-    },
-    {
-      "subject_id": 335018,
-      "subject_name": "Skilled Nursing Facilities"
     }
   ],
   "texts": [
@@ -386,6 +365,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3332395,
+      "date": "2026-01-26",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0021/id/3332395",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0021S01.pdf",
+      "text_size": 31960,
+      "text_hash": "43e5548d0193c1ff606437e5d1cd6a0f",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [
@@ -403,6 +400,36 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0021/id/1614816",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=15&house=H"
+    },
+    {
+      "roll_call_id": 1617323,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Substitute Recommendation",
+      "yea": 6,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0021/id/1617323",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38886"
+    },
+    {
+      "roll_call_id": 1617324,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 6,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0021/id/1617324",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38887"
     }
   ],
   "amendments": [
@@ -469,9 +496,59 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644193,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0021/id/644193",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0021%20To%20HB0021S01.pdf",
+      "supplement_size": 43341,
+      "supplement_hash": "003af9a2e91602dd44ae0f3cb64516f9",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644747,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0021",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0021/id/644747",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0021S02.pdf",
+      "supplement_size": 18341,
+      "supplement_hash": "47bbff6755997f7056d838364fd275b6",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "61a47553",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Business and Labor Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses the closure, qualifying sale, change of use, or acquisition sale of an assisted living facility.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>requires an assisted living facility to meet certain requirements if the assisted living facility intends to close, complete a qualifying sale, or undertake a change of use;<hr><ltbullet>provides that an assisted living facility may not accept new residents if the facility intends to close, complete a qualifying sale, or undertake a change of use;<hr><ltbullet>prescribes requirements for an assisted living facility that intends to complete an acquisition sale;<hr><ltbullet>allows a county attorney or the attorney general to seek the appointment of a receiver if an assisted living facility does not comply with certain requirements; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -484,10 +561,24 @@
       "name": "Business and Labor Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20286",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SBUS0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289456"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -668,6 +759,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "1/26/2026 4:08 PM",
+      "actionClass": "A",
+      "voteID": "38886",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-2",
+      "actionCode": "SCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "1/26/2026 4:10 PM",
+      "actionClass": "A",
+      "voteID": "38887",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-2",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

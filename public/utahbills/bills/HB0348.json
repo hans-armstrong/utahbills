@@ -1,6 +1,6 @@
 {
   "bill_id": 2091514,
-  "change_hash": "0c623c5d6dc6ac1e0938687495c84bab",
+  "change_hash": "a99f64efd64044c28db0a26c4f3068bd",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -19,8 +19,13 @@
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0348.html",
   "completed": 0,
   "status": 1,
-  "status_date": null,
-  "progress": [],
+  "status_date": "2026-01-23",
+  "progress": [
+    {
+      "date": "2026-01-23",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0348",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Dedicated Water Amendments",
   "description": "Dedicated Water Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2026-01-23",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-23",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -150,13 +182,34 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 644873,
+      "date": "2026-01-27",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0348",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0348/id/644873",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0348.fn.pdf",
+      "supplement_size": 1608334,
+      "supplement_hash": "347dbea4f930a9b8a8762f60a58477a5",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill addresses the approval of dedicated water applications.",
   "hilighted_provisions": "This bill:<hr><ltbullet>addresses provisions applicable to dedicated water applications;<hr><ltbullet>prohibits segregation of an underlying water right from dedicated water;<hr><ltbullet>addresses process for approval of instream flow and related actions;<hr><ltbullet>defines terms;<hr><ltbullet>provides for the filing and approval of a dedicated water application;<hr><ltbullet>addresses land in agricultural use;<hr><ltbullet>authorizes the state engineer to require certain reporting;<hr><ltbullet>addresses lapsing of a dedicated water application; and<hr><ltbullet>makes technical and conforming amendments.",
   "monies": "None",
   "attorney": "Patricia Owen",
-  "fiscal_analyst": "Lacey K. Moore",
+  "fiscal_analyst": "Sean C. Faherty",
   "gov_tracking_id": "SIUJQQWFFD",
   "comrecommend": [],
   "agendas": [],

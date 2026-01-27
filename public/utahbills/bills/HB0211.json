@@ -1,6 +1,6 @@
 {
   "bill_id": 2069570,
-  "change_hash": "796eb292d19144906d3b1ee7d24a2322",
+  "change_hash": "8bf8386fbb9b355debf4b476ea0238f5",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-23",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Real Property Recording Amendments",
   "description": "Real Property Recording Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -51,19 +50,26 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-23",
+      "committee_id": 2112,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Political Subdivisions"
     }
   ],
   "history": [
     {
       "date": "2026-01-09",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-01-09",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -85,6 +91,27 @@
     {
       "date": "2026-01-21",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House/ to standing committee in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House Comm - Favorable Recommendation in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House Comm - Consent Calendar Recommendation in House Political Subdivisions Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -199,7 +226,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617317,
+      "date": "2026-01-26",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0211/id/1617317",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38844"
+    },
+    {
+      "roll_call_id": 1617318,
+      "date": "2026-01-26",
+      "desc": "House Comm - Consent Calendar Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0211/id/1617318",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38847"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -221,9 +279,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644740,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0211",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0211/id/644740",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0211H01.pdf",
+      "supplement_size": 17574,
+      "supplement_hash": "705ffe4b3d70f4dbb3c83956c836520b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "58cb68c3",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "House Political Subdivisions Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses the recording of real estate documents.",
   "hilighted_provisions": "This bill:<hr><ltbullet>provides that a county recorder may record a document without acknowledgment or jurat, if the document has the Great Seal affixed by the lieutenant governor; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -231,10 +319,24 @@
   "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "FTEBHQYVLB",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20293",
+      "committeeID": "HSTPOL",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HPOL0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289248"
+    }
+  ],
+  "last_action": "House Comm - Consent Calendar Recommendation",
   "last_action_owner": "House Political Subdivisions Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -311,6 +413,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "1/26/2026 2:30 PM",
+      "actionClass": "A",
+      "voteID": "38844",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-4",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Consent Calendar Recommendation",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "1/26/2026 2:31 PM",
+      "actionClass": "A",
+      "voteID": "38847",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-4",
+      "actionCode": "HCACONCAL",
       "parm1": "",
       "parm2": ""
     }

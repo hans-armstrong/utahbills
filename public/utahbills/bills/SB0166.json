@@ -1,6 +1,6 @@
 {
   "bill_id": 2087341,
-  "change_hash": "5096b3ca17391515eec0d8e2c30e5311",
+  "change_hash": "d3bb3a306f50c65b67feba38c1e679d3",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-21",
       "event": 1
+    },
+    {
+      "date": "2026-01-23",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Line-of-Duty Death Benefit Amendments",
   "description": "Line-of-Duty Death Benefit Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2122,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2122,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Government Operations and Political Subdivisions"
   },
   "referrals": [
     {
@@ -51,19 +55,26 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-23",
+      "committee_id": 2122,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Government Operations and Political Subdivisions"
     }
   ],
   "history": [
     {
       "date": "2026-01-20",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-01-20",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -81,6 +92,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-23",
+      "action": "Senate/ to standing committee in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -162,6 +187,42 @@
     {
       "subject_id": 334531,
       "subject_name": "Public Employees Retirement"
+    },
+    {
+      "subject_id": 16561,
+      "subject_name": "Fiduciaries and Trusts"
+    },
+    {
+      "subject_id": 360925,
+      "subject_name": "Labor and Employment"
+    },
+    {
+      "subject_id": 11866,
+      "subject_name": "Law Enforcement and Criminal Justice"
+    },
+    {
+      "subject_id": 11881,
+      "subject_name": "Public Safety"
+    },
+    {
+      "subject_id": 332650,
+      "subject_name": "Workplace Safety and Health"
+    },
+    {
+      "subject_id": 334391,
+      "subject_name": "Firefighters' Retirement"
+    },
+    {
+      "subject_id": 335370,
+      "subject_name": "Public Employees' Health Program"
+    },
+    {
+      "subject_id": 334530,
+      "subject_name": "Public Employees Insurance and Benefits"
+    },
+    {
+      "subject_id": 334470,
+      "subject_name": "Public Safety Retirement"
     }
   ],
   "texts": [
@@ -186,7 +247,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 643292,
+      "date": "2026-01-23",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0166",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0166/id/643292",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0166.fn.pdf",
+      "supplement_size": 1609374,
+      "supplement_hash": "21c4f6f0e96443623fb54c8a14e64c00",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill modifies provisions related to line-of-duty death benefits.",
   "hilighted_provisions": "This bill:<hr><ltbullet>provides that the Local Public Safety and Firefighter Surviving Spouse Trust Fund Board of Trustees may use money in the Local Public Safety and Firefighter Surviving Spouse Trust Fund to pay for certain previously incurred employer costs related to health coverage for a surviving spouse and dependent children following a line-of-duty death.",
@@ -196,9 +278,9 @@
   "gov_tracking_id": "WETTIUBOUS",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -262,6 +344,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "1/26/2026 9:50 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

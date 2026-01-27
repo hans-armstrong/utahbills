@@ -1,6 +1,6 @@
 {
   "bill_id": 2085138,
-  "change_hash": "c71e7f654fbd6fcd3fe2d39036fca10c",
+  "change_hash": "8fdee7989071573175653f0f13ab5d0b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Public and Higher Education Collaboration",
   "description": "Public and Higher Education Collaboration",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -99,6 +94,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-23",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Amendment Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -226,8 +242,61 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
-  "amendments": [],
+  "votes": [
+    {
+      "roll_call_id": 1617319,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Amendment Recommendation",
+      "yea": 4,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0152/id/1617319",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38892"
+    },
+    {
+      "roll_call_id": 1617320,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 6,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0152/id/1617320",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38893"
+    }
+  ],
+  "amendments": [
+    {
+      "amendment_id": 268414,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2026-01-26",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0152/id/268414",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/SB0152.Samd.1.pdf",
+      "amendment_size": 6356,
+      "amendment_hash": "44949f802173a9d4f9f239ff5f7d63c3",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 642201,
@@ -248,9 +317,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644745,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0152",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0152/id/644745",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0152S02.pdf",
+      "supplement_size": 18919,
+      "supplement_hash": "25bddfda50be520a390e2bce3383dd9a",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "1a405490",
+      "type": "Hearing",
+      "date": "2026-01-26",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Education Hearing"
+    }
+  ],
   "general_provisions": "This bill establishes a process for sharing grades 7through12 student data between public education and higher education.",
   "hilighted_provisions": "This bill:<hr><ltbullet>establishes a data sharing process between state and higher education boards for grades 7 through 12 student data;<hr><ltbullet>authorizes disclosure to support college readiness programs and higher education access;<hr><ltbullet>requires compliance with federal privacy laws and state student data protections;<hr><ltbullet>mandates parent notification of opt-out rights for data sharing;<hr><ltbullet>requires training of higher education employees who will have data access; <hr><ltbullet>delegates rulemaking authority to the Board of Higher Education; and<hr><ltbullet>makes conforming changes. ",
   "monies": "None",
@@ -258,24 +357,25 @@
   "fiscal_analyst": "Joseph Fitzgerald",
   "gov_tracking_id": "DXYVPOIMQB",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "Senate Education Committee",
-  "last_action_time": "1/23/2026",
-  "action_history": [
+  "agendas": [
     {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/16/2026 3:59 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
-    },
+      "mtgID": "20267",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDU0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289487"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
+  "last_action_owner": "Senate Education Committee",
+  "last_action_time": "1/26/2026",
+  "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -286,6 +386,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/16/2026 3:59 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
       "parm1": "",
       "parm2": ""
     },
@@ -338,6 +451,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Amendment Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/26/2026 4:29 PM",
+      "actionClass": "A",
+      "voteID": "38892",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/26/2026 4:32 PM",
+      "actionClass": "A",
+      "voteID": "38893",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-1",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

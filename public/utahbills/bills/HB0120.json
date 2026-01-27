@@ -1,6 +1,6 @@
 {
   "bill_id": 2061381,
-  "change_hash": "f5b92df538571fd6641497942b9d5229",
+  "change_hash": "460de9c2606406dea12ac5f95af5690e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-22",
       "event": 9
+    },
+    {
+      "date": "2026-01-26",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Tail Light Obstruction Amendments",
   "description": "Tail Light Obstruction Amendments",
-  "pending_committee_id": 2117,
-  "committee": {
-    "committee_id": 2117,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Transportation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -67,14 +66,14 @@
   "history": [
     {
       "date": "2025-12-30",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2025-12-30",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -106,6 +105,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-23",
+      "action": "House Comm - Favorable Recommendation in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House/ committee report favorable in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -213,7 +233,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1616811,
+      "date": "2026-01-23",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 12,
+      "nay": 0,
+      "nv": 0,
+      "absent": 0,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0120/id/1616811",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38784"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -229,6 +265,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0120.fn.pdf",
       "supplement_size": 1609669,
       "supplement_hash": "8484f99348d6cc348237edb6accb02b7",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 643526,
+      "date": "2026-01-23",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0120",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0120/id/643526",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0120H01.pdf",
+      "supplement_size": 17523,
+      "supplement_hash": "843689af73139d77d4321d6f6259f166",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -255,10 +311,24 @@
   "fiscal_analyst": "Nate Osborne",
   "gov_tracking_id": "IOHOJGGPPW",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Transportation Committee",
-  "last_action_time": "1/22/2026",
+  "agendas": [
+    {
+      "mtgID": "20216",
+      "committeeID": "HSTTRA",
+      "mtgDate": "2026-01-23 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Transportation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HTRA0123.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "288799"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -335,6 +405,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Transportation Committee",
+      "actionDate": "1/23/2026 3:35 PM",
+      "actionClass": "A",
+      "voteID": "38784",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-0-0",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Transportation Committee",
+      "actionDate": "1/26/2026 11:18 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "1/26/2026 11:18 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

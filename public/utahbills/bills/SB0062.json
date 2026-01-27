@@ -1,6 +1,6 @@
 {
   "bill_id": 2061416,
-  "change_hash": "60b54b4271e9ce302817ad1965fb5038",
+  "change_hash": "ca4814a9403e51518bb4bc197f4480a1",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -105,6 +105,13 @@
     {
       "date": "2026-01-21",
       "action": "Senate Comm - Not Considered in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -219,7 +226,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617351,
+      "date": "2026-01-26",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 2,
+      "nv": 0,
+      "absent": 1,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0062/id/1617351",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38849"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -241,6 +264,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644790,
+      "date": "2026-01-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0062",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0062/id/644790",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0062S02.pdf",
+      "supplement_size": 18278,
+      "supplement_hash": "b84c425bc4c2aeb1b53856c9faa0662f",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -249,6 +292,15 @@
       "event_hash": "3ffc2850",
       "type": "Hearing",
       "date": "2026-01-21",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Education Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "1a405490",
+      "type": "Hearing",
+      "date": "2026-01-26",
       "time": "14:00",
       "location": "",
       "description": "Senate Education Hearing"
@@ -270,15 +322,28 @@
       "mtgPlace": "210 Senate Building",
       "committeeName": "Senate Education Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00000391.htm",
       "agendaURL": "/~2026/agenda/SEDU0121.ag.htm",
       "billSession": "2026GS",
       "markerID": ""
+    },
+    {
+      "mtgID": "20267",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDU0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289240"
     }
   ],
-  "last_action": "Senate Comm - Not Considered",
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "1/21/2026",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -368,6 +433,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/26/2026 2:33 PM",
+      "actionClass": "A",
+      "voteID": "38849",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-2-1",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

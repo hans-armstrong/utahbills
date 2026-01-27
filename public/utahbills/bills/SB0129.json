@@ -1,6 +1,6 @@
 {
   "bill_id": 2073659,
-  "change_hash": "f2b92658a8e2e423f985a0f43db58d4c",
+  "change_hash": "951f6a0a768092de160b0f3d230c521b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-21",
       "event": 9
+    },
+    {
+      "date": "2026-01-26",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Commemorative Day Amendments",
   "description": "Commemorative Day Amendments",
-  "pending_committee_id": 2861,
-  "committee": {
-    "committee_id": 2861,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Economic Development and Workforce Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +105,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-23",
+      "action": "Senate Comm - Favorable Recommendation in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate/ committee report favorable in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -277,7 +297,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1616818,
+      "date": "2026-01-23",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 6,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0129/id/1616818",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38765"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -293,6 +329,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0129.fn.pdf",
       "supplement_size": 1608341,
       "supplement_hash": "8841f03990d8d0687287922f78c721ae",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 643552,
+      "date": "2026-01-23",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0129",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0129/id/643552",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0129S02.pdf",
+      "supplement_size": 18303,
+      "supplement_hash": "871efb131e90f4d8a5f4b6ad97d7b1fe",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -319,10 +375,24 @@
   "fiscal_analyst": "Ivan D. Djambov",
   "gov_tracking_id": "GCUXQXESBL",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Economic Development and Workforce Services Committee",
-  "last_action_time": "1/21/2026",
+  "agendas": [
+    {
+      "mtgID": "20262",
+      "committeeID": "SSTEDW",
+      "mtgDate": "2026-01-23 14:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Economic Development and Workforce Services Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00000394.htm",
+      "agendaURL": "/~2026/agenda/SEDW0123.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "288727"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "1/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -399,6 +469,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "1/23/2026 2:56 PM",
+      "actionClass": "A",
+      "voteID": "38765",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-1",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "1/26/2026 11:20 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "1/26/2026 11:20 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

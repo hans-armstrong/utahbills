@@ -1,6 +1,6 @@
 {
   "bill_id": 2088217,
-  "change_hash": "6edb2316ffd1a502f87a7dbe4fb8bbca",
+  "change_hash": "ea2e88ea9d535219a974b0c9413f2ca7",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-21",
       "event": 1
+    },
+    {
+      "date": "2026-01-26",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Airport and Air Amendments",
   "description": "Airport and Air Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 3583,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 3583,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Transportation, Public Utilities, Energy, and Technology"
   },
   "referrals": [
     {
@@ -51,19 +55,26 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-26",
+      "committee_id": 3583,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Transportation, Public Utilities, Energy, and Technology"
     }
   ],
   "history": [
     {
       "date": "2026-01-21",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-01-21",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -78,6 +89,13 @@
     {
       "date": "2026-01-21",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-26",
+      "action": "Senate/ to standing committee in Senate Transportation, Public Utilities, Energy, and Technology Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -201,9 +219,62 @@
     }
   ],
   "votes": [],
-  "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "amendments": [
+    {
+      "amendment_id": 268362,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2026-01-26",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0172/id/268362",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/SB0172.Samd.1.pdf",
+      "amendment_size": 8132,
+      "amendment_hash": "a2354fd84c6dc606051e774550305de9",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
+  "supplements": [
+    {
+      "supplement_id": 643810,
+      "date": "2026-01-25",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0172",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0172/id/643810",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0172.fn.pdf",
+      "supplement_size": 1609070,
+      "supplement_hash": "cf3eb3cde20c050751ed51d43d7e0c62",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "9365f13f",
+      "type": "Hearing",
+      "date": "2026-01-27",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Transportation, Public Utilities, Energy, and Technology Hearing"
+    }
+  ],
   "general_provisions": "This bill amends law relating to airports and drones.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>amends provisions regarding a license required to operate an airport;<hr><ltbullet>modifies requirements for how an airport handles lost property;<hr><ltbullet>amends a restriction on how law enforcement can use a drone; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -212,23 +283,10 @@
   "gov_tracking_id": "SAARVACORC",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "1/21/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+  "last_action_time": "1/26/2026",
   "action_history": [
-    {
-      "description": "Bill Numbered but not Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/21/2026 9:43 AM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -239,6 +297,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Numbered but not Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/21/2026 9:43 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LNUMBER",
       "parm1": "",
       "parm2": ""
     },
@@ -265,6 +336,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "1/26/2026 11:16 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }
