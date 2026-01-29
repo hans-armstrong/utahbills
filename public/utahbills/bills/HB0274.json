@@ -1,6 +1,6 @@
 {
   "bill_id": 2084258,
-  "change_hash": "0dc2e23c19685fb4fcd22ef9093c09f1",
+  "change_hash": "dc67c3887d64a3a558ba624d55ca9770",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -35,15 +39,10 @@
   "body_id": 93,
   "current_body": "H",
   "current_body_id": 93,
-  "title": "Sentencing Commission Amendments",
-  "description": "Sentencing Commission Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "title": "Sentencing Amendments",
+  "description": "Sentencing Amendments",
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -51,6 +50,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-27",
+      "committee_id": 2109,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Judiciary"
     }
   ],
   "history": [
@@ -85,6 +91,27 @@
     {
       "date": "2026-01-22",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House/ to standing committee in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House Comm - Substitute Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House Comm - Favorable Recommendation in House Judiciary Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -165,18 +192,6 @@
     {
       "subject_id": 332528,
       "subject_name": "Judicial Operations"
-    },
-    {
-      "subject_id": 11866,
-      "subject_name": "Law Enforcement and Criminal Justice"
-    },
-    {
-      "subject_id": 11983,
-      "subject_name": "Sentencing Commission"
-    },
-    {
-      "subject_id": 335700,
-      "subject_name": "Commission on Criminal and Juvenile Justice"
     }
   ],
   "texts": [
@@ -197,9 +212,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3337683,
+      "date": "2026-01-28",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0274/id/3337683",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0274S01.pdf",
+      "text_size": 40517,
+      "text_hash": "60fc82d957092f0113bfee99a63ce732",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1618453,
+      "date": "2026-01-28",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 2,
+      "nv": 0,
+      "absent": 0,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0274/id/1618453",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39056"
+    },
+    {
+      "roll_call_id": 1618623,
+      "date": "2026-01-28",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 0,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0274/id/1618623",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39055"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -221,20 +285,84 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646526,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0274/id/646526",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0274%20To%20HB0274S01.pdf",
+      "supplement_size": 46238,
+      "supplement_hash": "a3c1c186649a8d200ec9cdff65cdf1cb",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646527,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0274",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0274/id/646527",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0274H02.pdf",
+      "supplement_size": 17566,
+      "supplement_hash": "adf6cf9ef05056f9b4701f81a853eb43",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
-  "general_provisions": "This bill modifies the Sentencing Commission.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>modifies the membership of the Sentencing Commission; and<hr><ltbullet>makes technical and conforming changes.",
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "dd272a38",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "House Judiciary Hearing"
+    }
+  ],
+  "general_provisions": "This bill amends statutory provisions related to sentencing.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>modifies the membership of the Sentencing Commission;<hr><ltbullet>requires the Sentencing Commission to give consideration to certain objectives when determining a recommended sentence or supervision length for the adult sentencing and supervision length guidelines;<hr><ltbullet>requires the Sentencing Commission, before November 1, 2026, to revise and review the adult sentencing and supervision length guidelines for certain offenses;<hr><ltbullet>addresses the factors and information that a sentencing court is required to consider when sentencing an individual; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Jacqueline Carlton",
   "fiscal_analyst": "Nate Osborne",
   "gov_tracking_id": "NGMLHLNSRM",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/22/2026",
+  "agendas": [
+    {
+      "mtgID": "20242",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HJUD0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290529"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
+  "last_action_owner": "House Judiciary Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -298,6 +426,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Judiciary Committee",
+      "actionDate": "1/27/2026 12:03 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "1/28/2026 3:05 PM",
+      "actionClass": "A",
+      "voteID": "39055",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-0",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "1/28/2026 3:07 PM",
+      "actionClass": "A",
+      "voteID": "39056",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-2-0",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

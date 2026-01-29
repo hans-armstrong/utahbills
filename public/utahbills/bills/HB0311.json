@@ -1,6 +1,6 @@
 {
   "bill_id": 2088794,
-  "change_hash": "79211598513af2303cdf3b2b66bb7a5f",
+  "change_hash": "d399b2c00d56b4d44f514860fa6db749",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-22",
       "event": 1
+    },
+    {
+      "date": "2026-01-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Amendments to Election Law",
   "description": "Amendments to Election Law",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2107,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2107,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Government Operations"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-27",
+      "committee_id": 2107,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Government Operations"
     }
   ],
   "history": [
@@ -88,6 +99,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House/ to standing committee in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -223,7 +241,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "66aa5a57",
+      "type": "Hearing",
+      "date": "2026-01-29",
+      "time": "14:00",
+      "location": "",
+      "description": "House Government Operations Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions relating to the voting process.",
   "hilighted_provisions": "This bill:<hr><ltbullet>modifies the type of identification that qualifies as valid voter identification;<hr><ltbullet>provides that, regardless of whether the last four digits of a voter's Utah driver license number, Utah state identification card number, or social security number, appears on the return envelope of the voter's ballot, if poll workers have reason to believe that the signature on the affidavit of the return envelope is not the voter's signature, the poll workers shall compare the signature with the voter's signature in the voter registration records to determine whether the signatures are reasonably consistent; and<hr><ltbullet>provides that, when the poll workers compare signatures under the preceding paragraph, the poll workers shall:<hr><ltbullet1>if the signatures are reasonably consistent, place the ballot with the other ballots to be counted; or<hr><ltbullet1>if the signatures are not reasonably consistent, disallow the vote. ",
   "monies": "None",
@@ -232,9 +260,9 @@
   "gov_tracking_id": "MQBGDUAQXW",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/26/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Government Operations Committee",
+  "last_action_time": "1/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -298,6 +326,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Government Operations Committee",
+      "actionDate": "1/27/2026 12:03 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

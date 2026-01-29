@@ -1,6 +1,6 @@
 {
   "bill_id": 2091104,
-  "change_hash": "52c2819cacdf7835fff4d0fe7fb0a9ab",
+  "change_hash": "0a3710d4b300650e85400b104e6693cf",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-23",
       "event": 1
+    },
+    {
+      "date": "2026-01-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 94,
   "title": "Joint Resolution Expressing Friendship and Support for Taiwan",
   "description": "Joint Resolution Expressing Friendship and Support for Taiwan",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-23",
@@ -51,6 +50,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-27",
+      "committee_id": 2861,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Economic Development and Workforce Services"
     }
   ],
   "history": [
@@ -88,6 +94,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ to standing committee in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Favorable Recommendation in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -207,7 +227,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1618637,
+      "date": "2026-01-28",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 6,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SJR009/id/1618637",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39040"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -229,9 +265,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646468,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SJR009",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SJR009/id/646468",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SJR009S02.pdf",
+      "supplement_size": 18331,
+      "supplement_hash": "202615f98b5be91abb2230fdb2789529",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "9f2b05d7",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Economic Development and Workforce Services Hearing"
+    }
+  ],
   "general_provisions": "This resolution expresses support for the continued friendship between Utah and Taiwan.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>highlights the long-standing friendship between Utah and Taiwan;<hr><ltbullet>supports a continuation of the Utah and Taiwan friendship;<hr><ltbullet>supports deepening the religious, economic, educational, and cultural partnership between Utah and Taiwan; and<hr><ltbullet>encourages global organizations to admit Taiwan into their membership.",
   "monies": "None",
@@ -239,10 +305,24 @@
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "NLVVLCMPFK",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "1/23/2026",
+  "agendas": [
+    {
+      "mtgID": "20263",
+      "committeeID": "SSTEDW",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Economic Development and Workforce Services Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00000665.htm",
+      "agendaURL": "/~2026/agenda/SEDW0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290624"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
+  "last_action_owner": "Senate Economic Development and Workforce Services Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -306,6 +386,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "1/27/2026 11:08 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "1/28/2026 2:45 PM",
+      "actionClass": "A",
+      "voteID": "39040",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-2",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

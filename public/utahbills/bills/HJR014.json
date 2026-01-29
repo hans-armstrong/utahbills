@@ -1,6 +1,6 @@
 {
   "bill_id": 2085935,
-  "change_hash": "e935d0bcd18f3108b93c0b1c89a8e2f8",
+  "change_hash": "f123b43508ea682cb71be33d5d7c24fa",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -37,13 +37,8 @@
   "current_body_id": 93,
   "title": "Joint Rules Resolution - Requests for Appropriation",
   "description": "Joint Rules Resolution - Requests for Appropriation",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -88,6 +83,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House Comm - Held in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -203,7 +205,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1618432,
+      "date": "2026-01-28",
+      "desc": "House Comm - Held",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 8,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HJR014/id/1618432",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39005"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -245,10 +263,24 @@
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "DTMHUKRCYI",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
+  "agendas": [
+    {
+      "mtgID": "20406",
+      "committeeID": "HSTRUL",
+      "mtgDate": "2026-01-28 12:30:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "450 State Capitol",
+      "committeeName": "House Rules Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HRUL0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290494"
+    }
+  ],
+  "last_action": "House Comm - Held",
   "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/20/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -312,6 +344,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Rules Committee",
+      "actionDate": "1/28/2026 1:14 PM",
+      "actionClass": "A",
+      "voteID": "39005",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-1",
+      "actionCode": "HCAHELD",
       "parm1": "",
       "parm2": ""
     }

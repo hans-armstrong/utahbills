@@ -1,6 +1,6 @@
 {
   "bill_id": 2060754,
-  "change_hash": "ec61026f8ab4b6f34c65933af7de4bbe",
+  "change_hash": "061990023c0eaad5aae3dd9f6278472d",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,12 +18,16 @@
   "url": "https://legiscan.com/UT/bill/SB0046/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0046.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2026-01-20",
+  "status": 2,
+  "status_date": "2026-01-27",
   "progress": [
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-27",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -33,18 +37,30 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Water Wise Landscaping Amendments",
   "description": "Water Wise Landscaping Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2026-01-20",
       "committee_id": 2128,
       "chamber": "S",
       "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-01-28",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
       "name": "Rules"
     }
   ],
@@ -106,10 +122,24 @@
       "importance": 0
     },
     {
-      "date": "2026-01-23",
-      "action": "Senate / held in Senate Secretary",
-      "chamber": "S",
-      "chamber_id": 94,
+      "date": "2026-01-27",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -176,6 +206,74 @@
             "linkedin": "",
             "tiktok": "",
             "twitter": "",
+            "website": "",
+            "youtube": ""
+          }
+        }
+      }
+    },
+    {
+      "people_id": 19707,
+      "person_hash": "7wu2zdwn",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Casey Snider",
+      "first_name": "Casey",
+      "middle_name": "",
+      "last_name": "Snider",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-005",
+      "ftm_eid": 45078665,
+      "votesmart_id": 182132,
+      "opensecrets_id": "",
+      "knowwho_pid": 285952,
+      "ballotpedia": "Casey_Snider",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0,
+      "bio": {
+        "social": {
+          "capitol_phone": "801-538-1029",
+          "district_phone": "",
+          "email": "csnider@le.utah.gov",
+          "webmail": "",
+          "biography": "https://house.utleg.gov/rep/SNIDEC/",
+          "image": "https://le.utah.gov/images/legislator/SNIDEC.jpg",
+          "ballotpedia": "https://ballotpedia.org/Casey_Snider",
+          "votesmart": "https://justfacts.votesmart.org/candidate/biography/182132"
+        },
+        "capitol_address": {
+          "address1": "350 North State, Suite 350",
+          "address2": "P.O. Box 145030",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        },
+        "links": {
+          "official": {
+            "bluesky": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": "",
+            "tiktok": "",
+            "twitter": "",
+            "website": "https://house.utleg.gov/rep/SNIDEC/",
+            "youtube": ""
+          },
+          "personal": {
+            "bluesky": "",
+            "facebook": "https://www.facebook.com/casey.snider.731",
+            "instagram": "",
+            "linkedin": "",
+            "tiktok": "",
+            "twitter": "https://www.twitter.com/CaseyDSnider",
             "website": "",
             "youtube": ""
           }
@@ -296,9 +394,9 @@
     }
   ],
   "agendas": [],
-  "last_action": "Senate / held",
-  "last_action_owner": "Senate Secretary",
-  "last_action_time": "1/23/2026",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -405,15 +503,41 @@
       "parm2": ""
     },
     {
-      "description": "Senate / held",
-      "owner": "Senate Secretary",
-      "actionDate": "1/23/2026 8:32 AM",
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "1/27/2026 11:13 AM",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
-      "actionCode": "SHOLD",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "1/27/2026 12:10 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "1/28/2026 11:24 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

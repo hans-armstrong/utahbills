@@ -1,6 +1,6 @@
 {
   "bill_id": 2093542,
-  "change_hash": "def5ff9f9168c58132086f71180d7339",
+  "change_hash": "6ad2b9ed5988b0489d5a98f73e088098",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0382/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0382.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-01-27",
+  "progress": [
+    {
+      "date": "2026-01-27",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0382",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Uniform Assignment for Benefit of Creditors Amendments",
   "description": "Uniform Assignment for Benefit of Creditors Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2026-01-27",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-26",
@@ -48,6 +66,27 @@
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -126,6 +165,22 @@
     {
       "subject_id": 11871,
       "subject_name": "Business"
+    },
+    {
+      "subject_id": 335103,
+      "subject_name": "Business Entities"
+    },
+    {
+      "subject_id": 335052,
+      "subject_name": "Contracts and Obligations"
+    },
+    {
+      "subject_id": 332524,
+      "subject_name": "Legislative Operations"
+    },
+    {
+      "subject_id": 12018,
+      "subject_name": "Uniform Laws"
     }
   ],
   "texts": [
@@ -150,7 +205,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 646084,
+      "date": "2026-01-28",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0382",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0382/id/646084",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0382.fn.pdf",
+      "supplement_size": 1608358,
+      "supplement_hash": "47b7ace6f3499f94e184add76cd5ac20",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill enacts the Uniform Assignment for Benefit of Creditors Act.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>establishes scope provisions, and eligibility requirements for assignors, assignees, and assignment agreements, including independence standards and fiduciary duties for assignees;<hr><ltbullet>establishes the legal effect of an assignment, filing and recording requirements, creditor notification procedures, and mandatory duties of both an assignor and an assignee throughout the administration of the assignment estate;<hr><ltbullet>establishes a process for submitting, allowing, disputing, and disallowing a creditor claim;<hr><ltbullet>establishes a comprehensive priority scheme for distributions from the assignment estate;<hr><ltbullet>grants an assignee defined powers to operate businesses, dispose of assets, pursue and defend claims, avoid certain transfers, and wind up the assignment, subject to fiduciary obligations and judicial oversight;<hr><ltbullet>addresses liability standards, assignee removal and replacement, final accounting and discharge, interstate recognition of assignments, and limits on contractual variation to ensure uniform application; and<hr><ltbullet>repeals the existing assignment for benefit of creditors code.",
@@ -160,9 +236,9 @@
   "gov_tracking_id": "SRWVWYNBEI",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received bill from Legislative Research",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "1/27/2026",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -200,6 +276,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "1/27/2026 11:20 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "1/28/2026 10:10 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm1": "",
       "parm2": ""
     }

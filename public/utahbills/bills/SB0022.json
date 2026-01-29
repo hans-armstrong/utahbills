@@ -1,6 +1,6 @@
 {
   "bill_id": 2056819,
-  "change_hash": "2b0ea7d41fb3e997a768a71afc44a7be",
+  "change_hash": "5d387b7a94d0dd085d69949da0af8c7c",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -45,13 +45,8 @@
   "current_body_id": 93,
   "title": "Minor Driving Hours Amendments",
   "description": "Minor Driving Hours Amendments",
-  "pending_committee_id": 2117,
-  "committee": {
-    "committee_id": 2117,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Transportation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -159,6 +154,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House Comm - Favorable Recommendation in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -349,6 +351,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0022/id/1614820",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=14&house=S"
+    },
+    {
+      "roll_call_id": 1618631,
+      "date": "2026-01-28",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0022/id/1618631",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39038"
     }
   ],
   "amendments": [],
@@ -372,9 +389,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646448,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0022",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0022/id/646448",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0022H02.pdf",
+      "supplement_size": 17530,
+      "supplement_hash": "4ff63d634fac90f7c05508477b73e731",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "5ff162af",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "House Transportation Hearing"
+    }
+  ],
   "general_provisions": "This bill clarifies who can supervise a minor with a learner permit while operating a vehicle.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>clarifies that a stepparent or foster parent can supervise a minor with a learner permit; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -387,10 +434,24 @@
       "name": "Transportation Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20217",
+      "committeeID": "HSTTRA",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Transportation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HTRA0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290619"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Transportation Committee",
-  "last_action_time": "1/26/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -545,6 +606,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Transportation Committee",
+      "actionDate": "1/28/2026 2:44 PM",
+      "actionClass": "A",
+      "voteID": "39038",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-1",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

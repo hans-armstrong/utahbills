@@ -1,6 +1,6 @@
 {
   "bill_id": 2093572,
-  "change_hash": "f7e795cc310af90563d6676d0cc308f7",
+  "change_hash": "73688dd4d750d51d3f8ed5aec32fb710",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0376/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0376.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-01-27",
+  "progress": [
+    {
+      "date": "2026-01-27",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0376",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Land Management Funding Amendments",
   "description": "Land Management Funding Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2026-01-27",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-26",
@@ -53,6 +71,20 @@
     {
       "date": "2026-01-26",
       "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -157,7 +189,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 646135,
+      "date": "2026-01-28",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0376",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0376/id/646135",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0376.fn.pdf",
+      "supplement_size": 1609169,
+      "supplement_hash": "ad4626a769368e575f0f21278c6b894a",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill addresses funding for watershed restoration and forest health.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>establishes the Utah Forest Restoration Institute (institute) in connection with Utah State University;<hr><ltbullet>provides funding to the institute;<hr><ltbullet>requires the institute to:<hr><ltbullet1>conduct research as provided by state and federal law;<hr><ltbullet1>study how the state can improve forest and watershed health;<hr><ltbullet1>recommend mitigation strategies that reduce the risks and impact of wildfire;<hr><ltbullet1>coordinate with the Watershed Restoration Initiative to fund watershed and forest restoration projects;<hr><ltbullet1>review and respond to, in a timely manner, an emergency request for funding a watershed restoration project in response to a natural disaster; and<hr><ltbullet1>monitor the long-term effectiveness of watershed and forest restoration projects;<hr><ltbullet>requires the Watershed Restoration Initiative to:<hr><ltbullet1>coordinate funding decisions with the institute on partnership watershed restoration projects;<hr><ltbullet1>coordinate the long-term monitoring of a watershed restoration project with the institute;<hr><ltbullet1>collect data required by the institute; <hr><ltbullet1>provide research and learning opportunities for higher education students and faculty associated with the institute; and<hr><ltbullet1>submit an annual report to the institute and two legislative committees; and<hr><ltbullet>makes technical and conforming changes.",
@@ -167,9 +220,9 @@
   "gov_tracking_id": "NBCJYJSEJD",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received bill from Legislative Research",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "1/26/2026",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -207,6 +260,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "1/27/2026 11:20 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "1/28/2026 10:55 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm1": "",
       "parm2": ""
     }

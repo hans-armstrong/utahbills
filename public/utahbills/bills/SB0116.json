@@ -1,6 +1,6 @@
 {
   "bill_id": 2069971,
-  "change_hash": "972483b64ccd0e2f845f76701aa99c65",
+  "change_hash": "716edd2ccd33daed105d29a8fc4a12b1",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Income Tax Rate Modifications",
   "description": "Income Tax Rate Modifications",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Substitute Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Favorable Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -183,10 +192,6 @@
     {
       "subject_id": 11888,
       "subject_name": "Revenue and Taxation"
-    },
-    {
-      "subject_id": 11887,
-      "subject_name": "Income Tax"
     }
   ],
   "texts": [
@@ -207,9 +212,43 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3339387,
+      "date": "2026-01-28",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0116/id/3339387",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0116S01.pdf",
+      "text_size": 98959,
+      "text_hash": "bf322bddd6ed8c7b55af976cf8b03640",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1618766,
+      "date": "2026-01-28",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 3,
+      "nay": 2,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0116/id/1618766",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39062"
+    }
+  ],
   "amendments": [
     {
       "amendment_id": 267113,
@@ -253,9 +292,59 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646855,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0116/id/646855",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0116%20To%20SB0116S01.pdf",
+      "supplement_size": 97948,
+      "supplement_hash": "801c7a15ba97dd322006a85dc7c46207",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646856,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0116",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0116/id/646856",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0116S01.pdf",
+      "supplement_size": 18328,
+      "supplement_hash": "5c451dd00461d89e3025b8809b7691f5",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "d1079e62",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies the income tax rates.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>provides for a reduction of the income tax rate when the actual state revenue exceeds the forecast revenue;<hr><ltbullet>provides a formula and process for calculating a reduction of the income tax rate;<hr><ltbullet>requires the State Tax Commission to publish the income tax rate annually;<hr><ltbullet>changes the mineral production tax withholding rate; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -263,10 +352,24 @@
   "fiscal_analyst": "Travis D Eisenbacher",
   "gov_tracking_id": "AKKYJDFDUH",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20205",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "7",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SREV0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290713"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "1/20/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -278,8 +381,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -291,8 +394,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -304,8 +407,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -317,8 +420,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -330,8 +433,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -343,8 +446,34 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "1/28/2026 3:17 PM",
+      "actionClass": "A",
+      "voteID": "39058",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "1/28/2026 3:39 PM",
+      "actionClass": "A",
+      "voteID": "39062",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-2-2",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

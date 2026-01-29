@@ -1,6 +1,6 @@
 {
   "bill_id": 2067799,
-  "change_hash": "c18b8de9bff796d0cc2ad534f69f5b31",
+  "change_hash": "88c0ca32d029c62d74d95d1462e304bb",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Uniform Estate Planning Amendments",
   "description": "Uniform Estate Planning Amendments",
-  "pending_committee_id": 2109,
-  "committee": {
-    "committee_id": 2109,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Judiciary"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House Comm - Favorable Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -255,9 +257,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646958,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0181",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0181/id/646958",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0181H02.pdf",
+      "supplement_size": 17529,
+      "supplement_hash": "65c59088b83a6e73891e1467892963e4",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "dd272a38",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "House Judiciary Hearing"
+    }
+  ],
   "general_provisions": "This bill enacts the Uniform Electronic Estate Planning Documents Act.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>enacts the Uniform Electronic Estate Planning Documents Act;<hr><ltbullet>establishes the scope of the provisions this bill enacts;<hr><ltbullet>provides that a non-testamentary estate planning document or an electronic signature may not be denied legal effect because the non-testamentary estate planning document or electronic signature is in electronic form;<hr><ltbullet>provides that a non-testamentary estate planning document or an electronic signature is attributable to a person if the non-testamentary estate planning document or the electronic signature was the act of the person;<hr><ltbullet>provides notarization and acknowledgment requirements for a non-testamentary estate planning document or an electronic signature on an electronic non-testamentary estate planning document;<hr><ltbullet>provides witnessing and attestation requirements for an electronic non-testamentary estate planning document;<hr><ltbullet>establishes retention requirements for an electronic non-testamentary estate planning document;<hr><ltbullet>provides the manner in which an individual may certify a paper copy of an electronic non-testamentary estate planning document;<hr><ltbullet>provides that an electronic non-testamentary estate planning document or an electronic signature on an electronic non-testamentary estate planning document may not be excluded from a proceeding solely because the electronic non-testamentary estate planning document or an electronic signature is in electronic form; and<hr><ltbullet>provides the manner in which the provisions this bill enacts relate to existing law.",
   "monies": "None",
@@ -265,10 +297,24 @@
   "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "XNAPGOBAFK",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20242",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HJUD0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290726"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Judiciary Committee",
-  "last_action_time": "1/26/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -345,6 +391,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "1/28/2026 3:39 PM",
+      "actionClass": "A",
+      "voteID": "39061",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-5",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2085990,
-  "change_hash": "369f2a7ba4778be85f567032b3923491",
+  "change_hash": "29b2319a200397732e2f2b05233fc708",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Online Sales Tax Amendments",
   "description": "Online Sales Tax Amendments",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -103,6 +98,13 @@
     {
       "date": "2026-01-26",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Favorable Recommendation in Senate Revenue and Taxation Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -221,7 +223,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1618580,
+      "date": "2026-01-28",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0162/id/1618580",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39037"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -243,9 +261,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646683,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0162",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0162/id/646683",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0162S02.pdf",
+      "supplement_size": 18282,
+      "supplement_hash": "b187b8ff493035b90cbcc964312bdae9",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "d1079e62",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies sales and use tax provisions for online transactions.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>imposes a sales and use tax for amounts paid or charged for access to digital video or audio works, including subscription-based streaming services; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -253,10 +301,24 @@
   "fiscal_analyst": "Travis D Eisenbacher",
   "gov_tracking_id": "JQFCYBHUWW",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "agendas": [
+    {
+      "mtgID": "20205",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "9",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SREV0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290602"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "1/26/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -333,6 +395,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "1/28/2026 2:44 PM",
+      "actionClass": "A",
+      "voteID": "39037",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

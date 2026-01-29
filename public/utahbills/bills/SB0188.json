@@ -1,6 +1,6 @@
 {
   "bill_id": 2091855,
-  "change_hash": "eae5052e02ece77547dc7e24843f4fbc",
+  "change_hash": "0a767ccf9a6fd885d3cfac0a2bfa24a9",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-23",
       "event": 1
+    },
+    {
+      "date": "2026-01-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Construction Trades Education Amendments",
   "description": "Construction Trades Education Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2119,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2119,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Business and Labor"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-27",
+      "committee_id": 2119,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Business and Labor"
     }
   ],
   "history": [
@@ -81,6 +92,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ to standing committee in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -194,8 +219,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 645606,
+      "date": "2026-01-27",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0188",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0188/id/645606",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0188.fn.pdf",
+      "supplement_size": 1609398,
+      "supplement_hash": "a3cdf67e0924220c8fc7f6587d1ad087",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "e9f51756",
+      "type": "Hearing",
+      "date": "2026-01-29",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Business and Labor Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies the Utah Construction Trades Licensing Act.",
   "hilighted_provisions": "This bill:<hr><ltbullet>modifies the list of organizations that may offer continuing education for a contractor licensee.",
   "monies": "None",
@@ -204,9 +260,9 @@
   "gov_tracking_id": "FYHLYHIAMP",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "1/23/2026",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "Senate Business and Labor Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -257,6 +313,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "1/27/2026 11:08 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "1/28/2026 10:35 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

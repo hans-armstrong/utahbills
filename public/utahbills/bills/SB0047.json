@@ -1,6 +1,6 @@
 {
   "bill_id": 2060940,
-  "change_hash": "2a58bf1e6c14ef6306bd62f4d8dd03a4",
+  "change_hash": "f606dd5e23ac570d60c0fabd7d2fcc08",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -37,13 +37,8 @@
   "current_body_id": 94,
   "title": "Reauthorization of Administrative Rules",
   "description": "Reauthorization of Administrative Rules",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -88,6 +83,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ Rules to 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate/ circled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -307,9 +323,9 @@
     }
   ],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "1/20/2026",
+  "last_action": "Senate/ circled",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -321,8 +337,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -334,8 +350,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -347,8 +363,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -360,8 +376,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -373,8 +389,47 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ Rules to 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "1/27/2026 11:17 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRUL2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "1/28/2026 11:43 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "1/28/2026 11:43 AM",
+      "actionClass": "S",
+      "voteID": "115",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

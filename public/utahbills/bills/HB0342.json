@@ -1,6 +1,6 @@
 {
   "bill_id": 2091634,
-  "change_hash": "8e768f2cdae9da1891435d0b65cdd0e0",
+  "change_hash": "4fb6f1ecd090f5efb90b4043ef267fef",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -37,13 +37,8 @@
   "current_body_id": 93,
   "title": "Federal Grant Process Amendments",
   "description": "Federal Grant Process Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-23",
@@ -85,6 +80,13 @@
     {
       "date": "2026-01-26",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House Comm - Favorable Recommendation in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -211,7 +213,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1618625,
+      "date": "2026-01-28",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 8,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0342/id/1618625",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39002"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -233,9 +251,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646344,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0342",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0342/id/646344",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0342H02.pdf",
+      "supplement_size": 17524,
+      "supplement_hash": "fa7dce71b7ab99d9f53d45dcc5e83d9a",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "651c2f43",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "12:30",
+      "location": "",
+      "description": "House Rules Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies provisions related to federal funds procedure.",
   "hilighted_provisions": "This bill:<hr><ltbullet>increases the approval thresholds for new federal funds requests;<hr><ltbullet>for specified high-dollar federal funds requests, requires the agency to submit the federal funds request to:<hr><ltbullet1>the Executive Appropriations Committee for review and recommendation before submitting the federal funds request to the federal government; and<hr><ltbullet1>the Legislature for final approval within a specified time period;<hr><ltbullet>directs the president of the Senate and the speaker of the House of Representatives to establish a legislative oversight committee for each approved high-dollar federal funds request; and <hr><ltbullet>provides the duties and membership of a legislative oversight committee.",
   "monies": "None",
@@ -243,10 +291,24 @@
   "fiscal_analyst": "Steven M. Allred",
   "gov_tracking_id": "GJNNNCJIMD",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
+  "agendas": [
+    {
+      "mtgID": "20406",
+      "committeeID": "HSTRUL",
+      "mtgDate": "2026-01-28 12:30:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "450 State Capitol",
+      "committeeName": "House Rules Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HRUL0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290484"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/26/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -310,6 +372,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Rules Committee",
+      "actionDate": "1/28/2026 12:45 PM",
+      "actionClass": "A",
+      "voteID": "39002",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-3",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

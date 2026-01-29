@@ -1,6 +1,6 @@
 {
   "bill_id": 2090649,
-  "change_hash": "c2cbbe240ad05bc381b22b4d18a733e7",
+  "change_hash": "255806bfb2ee7d2e5a17a62ac93d4bdc",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-23",
       "event": 1
+    },
+    {
+      "date": "2026-01-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Government Records Classification Amendments",
   "description": "Government Records Classification Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2115,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2115,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Revenue and Taxation"
   },
   "referrals": [
     {
@@ -51,19 +55,26 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-27",
+      "committee_id": 2115,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
     {
       "date": "2026-01-22",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-01-22",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -88,6 +99,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House/ to standing committee in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -219,7 +237,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "bc2d6da7",
+      "type": "Hearing",
+      "date": "2026-01-29",
+      "time": "14:00",
+      "location": "",
+      "description": "House Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies provisions related to the classification of certain government records.",
   "hilighted_provisions": "This bill:<hr><ltbullet>classifies as public any record that documents a governmental entity's receipt or expenditure of funds, including:<hr><ltbullet1>a record related to a financial account, budget, voucher, or grant;<hr><ltbullet1>a financial report or general ledger; and<hr><ltbullet1>a record documenting compensation a governmental entity pays to a vendor;<hr><ltbullet>classifies as private any portion of:<hr><ltbullet1>a record that reveals whether a taxpayer receives a property tax exemption, deferral, abatement, or other relief; and<hr><ltbullet1>an initial contact report that reveals a victim's name; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -228,9 +256,9 @@
   "gov_tracking_id": "GWELJWFJWE",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/26/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Revenue and Taxation Committee",
+  "last_action_time": "1/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -294,6 +322,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "1/27/2026 12:03 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2093553,
-  "change_hash": "4d8d5e4192c68eddcc56c823849d6461",
+  "change_hash": "754e219f069289647f230378a92f5fc1",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/SB0199/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0199.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-01-27",
+  "progress": [
+    {
+      "date": "2026-01-27",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0199",
@@ -32,9 +37,22 @@
   "current_body_id": 94,
   "title": "Motor Vehicle Liability Policy Amendments",
   "description": "Motor Vehicle Liability Policy Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2026-01-27",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-26",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -126,6 +158,18 @@
     {
       "subject_id": 11875,
       "subject_name": "Transportation"
+    },
+    {
+      "subject_id": 11904,
+      "subject_name": "Motor Vehicle Insurance"
+    },
+    {
+      "subject_id": 11907,
+      "subject_name": "Insurance"
+    },
+    {
+      "subject_id": 11874,
+      "subject_name": "Motor Vehicles"
     }
   ],
   "texts": [
@@ -160,9 +204,9 @@
   "gov_tracking_id": "CCCPYOSPOS",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "1/26/2026",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "1/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -187,6 +231,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received bill from Legislative Research",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "1/27/2026 9:41 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "1/27/2026 11:16 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2061098,
-  "change_hash": "0c138f635df898decdd198a2ebe6c991",
+  "change_hash": "836f7c42eb293fe00145bf255c43fb17",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Child Welfare Revisions",
   "description": "Child Welfare Revisions",
-  "pending_committee_id": 2109,
-  "committee": {
-    "committee_id": 2109,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Judiciary"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House Comm - Not Considered in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -183,34 +185,6 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
-    },
-    {
-      "subject_id": 11950,
-      "subject_name": "Division of Child and Family Services"
-    },
-    {
-      "subject_id": 11941,
-      "subject_name": "Child Welfare"
-    },
-    {
-      "subject_id": 332709,
-      "subject_name": "Peace Officers"
-    },
-    {
-      "subject_id": 332528,
-      "subject_name": "Judicial Operations"
-    },
-    {
-      "subject_id": 11866,
-      "subject_name": "Law Enforcement and Criminal Justice"
-    },
-    {
-      "subject_id": 11881,
-      "subject_name": "Public Safety"
-    },
-    {
-      "subject_id": 362639,
-      "subject_name": "Department of Health and Human Services"
     }
   ],
   "texts": [
@@ -225,6 +199,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0105.pdf",
       "text_size": 33211,
       "text_hash": "ecfe13fc65172c595c43ed7f220fd517",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3333575,
+      "date": "2026-01-27",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0105/id/3333575",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0105S01.pdf",
+      "text_size": 25099,
+      "text_hash": "efbc469a6b23dc68e718c10472c20c25",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -255,9 +247,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 645364,
+      "date": "2026-01-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0105/id/645364",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0105%20To%20HB0105S01.pdf",
+      "supplement_size": 46470,
+      "supplement_hash": "c112e7d2bcfca4c691fdb71c336d5759",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "dd272a38",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "House Judiciary Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses search warrants and investigative warrants relating to child welfare.",
   "hilighted_provisions": "This bill:<hr><ltbullet>amends provisions regarding the issuance of warrants by a juvenile court;<hr><ltbullet>authorizes a juvenile court to issue an investigative warrant related to the health, safety, or welfare of a child;<hr><ltbullet>states that a peace officer or child welfare caseworker who is executing a search warrant or an investigative warrant may request assistance in executing the warrant; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -265,10 +287,24 @@
   "fiscal_analyst": "Gary R. Syphus",
   "gov_tracking_id": "TMHEUWBRQI",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20242",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HJUD0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
+    }
+  ],
+  "last_action": "House Comm - Not Considered",
   "last_action_owner": "House Judiciary Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -345,6 +381,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Judiciary Committee",
+      "actionDate": "1/28/2026 2:00 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
       "parm1": "",
       "parm2": ""
     }

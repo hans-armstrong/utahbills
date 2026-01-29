@@ -1,6 +1,6 @@
 {
   "bill_id": 2057200,
-  "change_hash": "acf912a9cf76c5c07986efc501e4084c",
+  "change_hash": "92301a4f60b4142405bfdf93a2cfbd7a",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -45,13 +45,8 @@
   "current_body_id": 94,
   "title": "Voting Equipment Amendments",
   "description": "Voting Equipment Amendments",
-  "pending_committee_id": 2122,
-  "committee": {
-    "committee_id": 2122,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Government Operations and Political Subdivisions"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -173,6 +168,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Favorable Recommendation in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -385,6 +387,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0026/id/1614818",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=16&house=H"
+    },
+    {
+      "roll_call_id": 1618867,
+      "date": "2026-01-28",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0026/id/1618867",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39039"
     }
   ],
   "amendments": [],
@@ -448,9 +465,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646980,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0026",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0026/id/646980",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0026S02.pdf",
+      "supplement_size": 18326,
+      "supplement_hash": "f6680f61fcd4dcf1614e53d40ead0ae1",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "56693eb2",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Government Operations and Political Subdivisions Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions related to voting equipment.",
   "hilighted_provisions": "This bill:<hr><ltbullet>except for an electronic pollbook or official register, requires an election officer to ensure that all voting equipment used in this state is not capable of wireless communication;<hr><ltbullet>repeals a provision governing the certification of voting equipment used in ranked-choice voting;<hr><ltbullet>prohibits an election officer from acquiring voting equipment that is not part of the new voting equipment system selected for purchase by the lieutenant governor;<hr><ltbullet>provides that the Voting Equipment Selection Committee shall assist the lieutenant governor in:<hr><ltbullet1>conducting a competitive procurement for a new voting equipment system; and<hr><ltbullet1>ensuring that the new voting equipment system complies with the requirements for casting a mechanical ballot; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -463,10 +510,24 @@
       "name": "Government Operations Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20245",
+      "committeeID": "SSTGOP",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Government Operations and Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SGOP0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290626"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -647,6 +708,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "1/28/2026 2:45 PM",
+      "actionClass": "A",
+      "voteID": "39039",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

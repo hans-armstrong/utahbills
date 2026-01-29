@@ -1,6 +1,6 @@
 {
   "bill_id": 2060710,
-  "change_hash": "66d0ce8c9d158f9d985f987d0587e9c4",
+  "change_hash": "dba559e56c72d0aa0f66a5601571458c",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-20",
       "event": 9
+    },
+    {
+      "date": "2026-01-28",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -62,14 +66,14 @@
   "history": [
     {
       "date": "2025-12-22",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2025-12-22",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -105,6 +109,34 @@
     {
       "date": "2026-01-22",
       "action": "House Comm - Not Considered in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House Comm - Substitute Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House Comm - Favorable Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House/ comm rpt/ substituted in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -285,9 +317,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3333230,
+      "date": "2026-01-27",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0058/id/3333230",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0058S01.pdf",
+      "text_size": 355021,
+      "text_hash": "97cbda6bf56714ce8da47aaa79dd22d0",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617731,
+      "date": "2026-01-27",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0058/id/1617731",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38954"
+    },
+    {
+      "roll_call_id": 1617732,
+      "date": "2026-01-27",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0058/id/1617732",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38955"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -303,6 +384,46 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0058.fn.pdf",
       "supplement_size": 1609449,
       "supplement_hash": "df25ab3de52dfa505ed005e4a31fe76f",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 645000,
+      "date": "2026-01-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0058/id/645000",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0058%20To%20HB0058S01.pdf",
+      "supplement_size": 372440,
+      "supplement_hash": "1607617299c4d73f4c7127ea87e53418",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646722,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0058",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0058/id/646722",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0058H04.pdf",
+      "supplement_size": 17568,
+      "supplement_hash": "5c2406086112fbcbe0b3bbf0db2c7f2c",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -332,7 +453,7 @@
     }
   ],
   "general_provisions": "This bill amends provisions relating to insurance.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>authorizes an insurance fraud investigator that the Insurance Department (department) employs to investigate crimes committed by a department licensee;<hr><ltbullet>provides the type of experts the Insurance Commissioner (commissioner) may hire to conduct an examination of a licensee;<hr><ltbullet>provides that an entity that is subject to examination (examinee) shall pay the costs of an examination;<hr><ltbullet>provides that the commissioner may use a deposit an examinee makes to pay an examination cost an examinee fails to pay;<hr><ltbullet>requires that a deposit an examine makes shall first be used to pay for an unpaid examination cost;<hr><ltbullet>amends provisions relating to the service of process through a state officer;<hr><ltbullet>authorizes the commissioner to make rules governing the process for winding down the business of a resident agency title insurance producer;<hr><ltbullet>exempts a risk retention group from paying an annual fee with the department;<hr><ltbullet>amends provisions relating to money appropriated from the Captive Insurance Restricted Account;<hr><ltbullet>requires that an insurer file with the commissioner and the National Association of Insurance Commissioners a quarterly statement of the insurer's financial condition;<hr><ltbullet>amends provisions relating to the payment of dividends to include domestic mutual insurance holding companies;<hr><ltbullet>requires that a mutual insurer or mutual insurance company provide the commissioner with a notification before a dividend distribution;<hr><ltbullet>removes a civil penalty for a director or officer of a insurance holding company that commits certain violations;<hr><ltbullet>provides that an insurer may exclude personal injury protection coverage if a person uses a vehicle to provide network transportation services;<hr><ltbullet>provides that an insurer may issue a group insurance policy offering life insurance to the trustees of a fund established, created, and maintained for the benefit of members of an association group;<hr><ltbullet>changes the day on which an insurer shall make an annual report;<hr><ltbullet>increases the liability coverage a title insurance producer shall maintain;<hr><ltbullet>amends provisions relating to the type of policies an individual title insurance producer and agency title insurance producer shall maintain;<hr><ltbullet>increases the amount of coverage an individual title insurance producer or agency title insurance producer shall maintain;<hr><ltbullet>provides that if an agency title insurance producer becomes aware of facts that indicate an electronic wire funds transfer did not reach the electronic wire funds transfer's intended recipient, the agency title insurance producer make a report of the facts;<hr><ltbullet>requires that a title insurer report to the commissioner the termination of an appointment of a title insurance producer;<hr><ltbullet>requires that a nonresident title insurance agency deposit a Utah home buyer's escrow in a depository institution's Utah branch;<hr><ltbullet>provides that an individual title insurance producer or agency title insurance producer notify the parties to a real estate transaction of availability, cost, and protections from a closing protection letter;<hr><ltbullet>provides that a title insurance licensee is not required to deposit money in a depository institution under certain circumstances;<hr><ltbullet>repeals certain reporting requirements relating to licensee compensation;<hr><ltbullet>provides that an insurer shall pay each claim submitted by an insured and a provider;<hr><ltbullet>amends provisions relating to required contracts involving a public adjuster;<hr><ltbullet>amends provisions relating to the compensation of a public adjuster;<hr><ltbullet>enacts provisions that authorize a property insurance policy to prohibit the assignment of property insurance policy rights and benefits;<hr><ltbullet>provides requirements for the funds a public adjuster holds;<hr><ltbullet>establishes public adjuster standards of conduct;<hr><ltbullet>establishes record retention requirements for a public adjuster;<hr><ltbullet>provides additional grounds for the commissioner taking an administrative action against an insurer;<hr><ltbullet>amends the process by which the commissioner takes an administrative action against an insurer;<hr><ltbullet>provides that the commissioner may appoint a supervisor of an insurer that the commissioner places under administrative supervision;<hr><ltbullet>amends the standards for the conduct of a hearing the commissioner undertakes while engaging in an administrative action against an insurer;<hr><ltbullet>provides for the applicability of certain statutes to a risk retention group;<hr><ltbullet>amends the definition of the excess surplus of a captive insurance company;<hr><ltbullet>expands the authority of the commissioner to suspend or revoke the certificate of authority of a captive insurance company to conduct business in this state;<hr><ltbullet>changes the day on which an agency title insurance producer is required to pay an assessment; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>authorizes an insurance fraud investigator that the Insurance Department (department) employs to investigate crimes committed by a department licensee;<hr><ltbullet>amends provisions relating to a captive insurance company that is organized as a risk retention group;<hr><ltbullet>provides the type of experts the Insurance Commissioner (commissioner) may hire to conduct an examination of a licensee;<hr><ltbullet>provides that an entity that is subject to examination (examinee) shall pay the costs of an examination;<hr><ltbullet>provides that the commissioner may use a deposit an examinee makes to pay an examination cost an examinee fails to pay;<hr><ltbullet>requires that a deposit an examine makes shall first be used to pay for an unpaid examination cost;<hr><ltbullet>amends provisions relating to the service of process through a state officer;<hr><ltbullet>authorizes the commissioner to make rules governing the process for winding down the business of a resident agency title insurance producer;<hr><ltbullet>exempts a risk retention group from paying an annual fee with the department;<hr><ltbullet>amends provisions relating to money appropriated from the Captive Insurance Restricted Account;<hr><ltbullet>requires that an insurer file with the commissioner and the National Association of Insurance Commissioners a quarterly statement of the insurer's financial condition;<hr><ltbullet>amends provisions relating to the payment of dividends to include domestic mutual insurance holding companies;<hr><ltbullet>requires that a mutual insurer or mutual insurance company provide the commissioner with a notification before a dividend distribution;<hr><ltbullet>removes a civil penalty for a director or officer of a insurance holding company that commits certain violations;<hr><ltbullet>provides that an insurer may issue a group insurance policy offering life insurance to the trustees of a fund established, created, and maintained for the benefit of members of an association group;<hr><ltbullet>changes the day on which an insurer shall make an annual report;<hr><ltbullet>increases the liability coverage a title insurance producer shall maintain;<hr><ltbullet>amends provisions relating to the type of policies an individual title insurance producer and agency title insurance producer shall maintain;<hr><ltbullet>increases the amount of coverage an individual title insurance producer or agency title insurance producer shall maintain;<hr><ltbullet>provides that if an agency title insurance producer becomes aware of facts that indicate an electronic wire funds transfer did not reach the electronic wire funds transfer's intended recipient, the agency title insurance producer make a report of the facts;<hr><ltbullet>requires that a title insurer report to the commissioner the termination of an appointment of a title insurance producer;<hr><ltbullet>requires that a nonresident title insurance agency deposit a Utah home buyer's escrow in a depository institution's Utah branch;<hr><ltbullet>provides that an individual title insurance producer or agency title insurance producer notify the parties to a real estate transaction of a closing protection letter;<hr><ltbullet>provides that a title insurance licensee is not required to deposit money in a depository institution under certain circumstances;<hr><ltbullet>repeals certain reporting requirements relating to licensee compensation;<hr><ltbullet>provides that an insurer shall pay each claim submitted by an insured and a provider;<hr><ltbullet>amends provisions relating to required contracts involving a public adjuster;<hr><ltbullet>amends provisions relating to the compensation of a public adjuster;<hr><ltbullet>enacts provisions that authorize a property insurance policy to prohibit the assignment of property insurance policy rights and benefits;<hr><ltbullet>provides requirements for the funds a public adjuster holds;<hr><ltbullet>establishes public adjuster standards of conduct;<hr><ltbullet>establishes record retention requirements for a public adjuster;<hr><ltbullet>amends the standards for the conduct of a hearing the commissioner undertakes while engaging in an administrative action against an insurer;<hr><ltbullet>provides for the applicability of certain statutes to a risk retention group;<hr><ltbullet>amends the definition of the excess surplus of a captive insurance company;<hr><ltbullet>expands the authority of the commissioner to suspend or revoke the certificate of authority of a captive insurance company to conduct business in this state;<hr><ltbullet>changes the day on which an agency title insurance producer is required to pay an assessment;<hr><ltbullet>amends provisions relating to the actions the commissioner may take against a licensee;<hr><ltbullet>amends provisions relating to who is required to complete continuing education requirements; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Austin Weenig",
   "fiscal_analyst": "Alejandra G Rodriguez",
@@ -352,15 +473,28 @@
       "mtgPlace": "445 State Capitol",
       "committeeName": "House Business, Labor, and Commerce Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00000571.htm",
       "agendaURL": "/~2026/agenda/HBUS0122.ag.htm",
       "billSession": "2026GS",
       "markerID": ""
+    },
+    {
+      "mtgID": "20280",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2026-01-27 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HBUS0127.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290013"
     }
   ],
-  "last_action": "House Comm - Not Considered",
-  "last_action_owner": "House Business, Labor, and Commerce Committee",
-  "last_action_time": "1/22/2026",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -450,6 +584,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "1/27/2026 3:22 PM",
+      "actionClass": "A",
+      "voteID": "38954",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-5",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "1/27/2026 3:23 PM",
+      "actionClass": "A",
+      "voteID": "38955",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-5",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "1/28/2026 11:45 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "1/28/2026 11:45 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2056518,
-  "change_hash": "6889a7944f9f576264e84726e61089f8",
+  "change_hash": "f6abd49247ee60dcf0a11eaafc3dbe13",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -45,13 +45,8 @@
   "current_body_id": 94,
   "title": "Dyed Diesel Fuel Search Amendments",
   "description": "Dyed Diesel Fuel Search Amendments",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -152,6 +147,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Favorable Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -366,6 +368,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0011/id/1614530",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=6&house=H"
+    },
+    {
+      "roll_call_id": 1618578,
+      "date": "2026-01-28",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0011/id/1618578",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39046"
     }
   ],
   "amendments": [],
@@ -389,9 +406,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646679,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0011",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0011/id/646679",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0011S02.pdf",
+      "supplement_size": 18301,
+      "supplement_hash": "4c21ff46c97a48857d2fa49437392d10",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "d1079e62",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses searching a vehicle for a dyed diesel fuel violation.",
   "hilighted_provisions": "This bill:<hr><ltbullet>establishes that a government official may only inspect a vehicle for a dyed diesel fuel violation if the official:<hr><ltbullet1>has probable cause that a dyed diesel fuel violation has occurred;<hr><ltbullet1>has consent of the owner of the vehicle; or<hr><ltbullet1>is conducting the search at a port-of-entry in compliance with Section 72-9-501; and<hr><ltbullet>specifies that probable cause is not established simply by observing an individual drive a motor vehicle that uses diesel fuel on a highway.",
   "monies": "None",
@@ -404,10 +451,24 @@
       "name": "Revenue and Taxation Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20205",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SREV0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290655"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -549,6 +610,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "1/28/2026 2:51 PM",
+      "actionClass": "A",
+      "voteID": "39046",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

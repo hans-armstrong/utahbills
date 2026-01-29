@@ -1,6 +1,6 @@
 {
   "bill_id": 2066454,
-  "change_hash": "762762eaaaae53986b199a68025dffdf",
+  "change_hash": "10c3b4010991f507d7230434c4566980",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-22",
       "event": 9
+    },
+    {
+      "date": "2026-01-28",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Grow Your Own Educator Pipeline Program Amendments",
   "description": "Grow Your Own Educator Pipeline Program Amendments",
-  "pending_committee_id": 2105,
-  "committee": {
-    "committee_id": 2105,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +105,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House Comm - Favorable Recommendation in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House/ committee report favorable in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -225,7 +245,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617589,
+      "date": "2026-01-27",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 13,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 15,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0163/id/1617589",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38943"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -241,6 +277,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0163.fn.pdf",
       "supplement_size": 1609402,
       "supplement_hash": "2cf9432b839d1bf07c891b6a089dde08",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 645395,
+      "date": "2026-01-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0163",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0163/id/645395",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0163H02.pdf",
+      "supplement_size": 17535,
+      "supplement_hash": "fc6c069e1b070ca3b033f1dd7bbc9e16",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -267,10 +323,24 @@
   "fiscal_analyst": "Ben Leishman",
   "gov_tracking_id": "KLENUJXPJR",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Education Committee",
-  "last_action_time": "1/22/2026",
+  "agendas": [
+    {
+      "mtgID": "20314",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-01-27 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HEDU0127.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289964"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -347,6 +417,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Education Committee",
+      "actionDate": "1/27/2026 2:52 PM",
+      "actionClass": "A",
+      "voteID": "38943",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "13-0-2",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Education Committee",
+      "actionDate": "1/28/2026 11:47 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "1/28/2026 11:47 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

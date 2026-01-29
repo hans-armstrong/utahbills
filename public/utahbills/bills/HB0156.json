@@ -1,6 +1,6 @@
 {
   "bill_id": 2066325,
-  "change_hash": "af472298dc5364a7a97504d0b60dad9b",
+  "change_hash": "cf39a47332a9abebcbe837e644aac82e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-22",
       "event": 9
+    },
+    {
+      "date": "2026-01-28",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Blood Transfusion Amendments",
   "description": "Blood Transfusion Amendments",
-  "pending_committee_id": 2108,
-  "committee": {
-    "committee_id": 2108,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +105,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House Comm - Substitute Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House Comm - Favorable Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House/ comm rpt/ substituted in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -251,14 +278,6 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
-    },
-    {
-      "subject_id": 11893,
-      "subject_name": "Health Care"
-    },
-    {
-      "subject_id": 12052,
-      "subject_name": "Health Care Facilities"
     }
   ],
   "texts": [
@@ -279,9 +298,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3333617,
+      "date": "2026-01-27",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0156/id/3333617",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0156S01.pdf",
+      "text_size": 22703,
+      "text_hash": "56ebf1b3e0c44049cf17f197b2aad0dc",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617678,
+      "date": "2026-01-27",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 13,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0156/id/1617678",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38978"
+    },
+    {
+      "roll_call_id": 1617679,
+      "date": "2026-01-27",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 10,
+      "nay": 3,
+      "nv": 0,
+      "absent": 1,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0156/id/1617679",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38979"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -297,6 +365,46 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0156.fn.pdf",
       "supplement_size": 1608356,
       "supplement_hash": "9191d589af4b43eb8321faabfe1f9b34",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 645477,
+      "date": "2026-01-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0156/id/645477",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0156%20To%20HB0156S01.pdf",
+      "supplement_size": 23983,
+      "supplement_hash": "ccaea1260616656560de57fc08c44ddd",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 645535,
+      "date": "2026-01-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0156",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0156/id/645535",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0156H02.pdf",
+      "supplement_size": 17579,
+      "supplement_hash": "4db9b9644983e36aab83dcfb8dcd04a2",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -323,10 +431,24 @@
   "fiscal_analyst": "Russell T. Frandsen",
   "gov_tracking_id": "IECXTEKMQH",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Health and Human Services Committee",
-  "last_action_time": "1/22/2026",
+  "agendas": [
+    {
+      "mtgID": "20199",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2026-01-27 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HHHS0127.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290138"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -403,6 +525,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "1/27/2026 5:25 PM",
+      "actionClass": "A",
+      "voteID": "38978",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "13-0-1",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "1/27/2026 5:26 PM",
+      "actionClass": "A",
+      "voteID": "38979",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-3-1",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "1/28/2026 11:48 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "1/28/2026 11:48 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

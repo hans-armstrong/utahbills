@@ -1,6 +1,6 @@
 {
   "bill_id": 2065299,
-  "change_hash": "b214b372eb8394fbae27771ce01e096f",
+  "change_hash": "335beea79351908d4ae66c3663fc2cf6",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-28",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "School Community Council Amendments",
   "description": "School Community Council Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2105,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2105,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Education"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-28",
+      "committee_id": 2105,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Education"
     }
   ],
   "history": [
@@ -85,6 +96,13 @@
     {
       "date": "2026-01-20",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House/ to standing committee in House Education Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -165,26 +183,6 @@
     {
       "subject_id": 11846,
       "subject_name": "Education"
-    },
-    {
-      "subject_id": 11995,
-      "subject_name": "Trust Lands"
-    },
-    {
-      "subject_id": 332526,
-      "subject_name": "K-12 Education"
-    },
-    {
-      "subject_id": 11848,
-      "subject_name": "School Finance"
-    },
-    {
-      "subject_id": 12044,
-      "subject_name": "State Board of Education"
-    },
-    {
-      "subject_id": 340777,
-      "subject_name": "School community councils"
     }
   ],
   "texts": [
@@ -199,6 +197,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0144.pdf",
       "text_size": 34610,
       "text_hash": "3e4b26cf6fd51df46196e8401b1c0be9",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3334677,
+      "date": "2026-01-28",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0144/id/3334677",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0144S01.pdf",
+      "text_size": 36239,
+      "text_hash": "5601f446b066d13fc4af0df113e6c657",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -229,6 +245,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646177,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0144/id/646177",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0144%20To%20HB0144S01.pdf",
+      "supplement_size": 38891,
+      "supplement_hash": "edcfc534c4a6a99eca1d68a190fcbd28",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [],
@@ -240,9 +276,9 @@
   "gov_tracking_id": "DHDHYOCTHU",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/20/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Education Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -254,8 +290,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -267,8 +303,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -280,8 +316,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -293,8 +329,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -306,8 +342,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Education Committee",
+      "actionDate": "1/28/2026 12:09 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

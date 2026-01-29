@@ -1,6 +1,6 @@
 {
   "bill_id": 2087383,
-  "change_hash": "27f4d7b73977f5e1abc762663a0cdbfe",
+  "change_hash": "45c42bc1052b6f61c8f2d29eb988fb5d",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Water Commitment Amendments",
   "description": "Water Commitment Amendments",
-  "pending_committee_id": 2111,
-  "committee": {
-    "committee_id": 2111,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Natural Resources, Agriculture, and Environment"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-21",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House Comm - Favorable Recommendation in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -221,7 +223,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1618914,
+      "date": "2026-01-28",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0296/id/1618914",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39031"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -243,9 +261,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647020,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0296",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0296/id/647020",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0296H02.pdf",
+      "supplement_size": 17533,
+      "supplement_hash": "901257e9daeb3a48b939b8333861bc01",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "cea6b467",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses commitments of water by water providers.",
   "hilighted_provisions": "This bill:<hr><ltbullet>permits a commitment of available water to uses on the Great Salt Lake to be included in a water conservation plan; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -253,24 +301,25 @@
   "fiscal_analyst": "Lacey K. Moore",
   "gov_tracking_id": "IHUGFMFYMA",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "1/23/2026",
-  "action_history": [
+  "agendas": [
     {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/20/2026 2:49 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
-    },
+      "mtgID": "20320",
+      "committeeID": "HSTNAE",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HNAE0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290578"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
+  "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
+  "last_action_time": "1/28/2026",
+  "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -281,6 +330,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/20/2026 2:49 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
       "parm1": "",
       "parm2": ""
     },
@@ -333,6 +395,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "1/28/2026 2:40 PM",
+      "actionClass": "A",
+      "voteID": "39031",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-4",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

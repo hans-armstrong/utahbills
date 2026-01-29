@@ -1,6 +1,6 @@
 {
   "bill_id": 2067442,
-  "change_hash": "3643ae649a148e0769893ae2478df93b",
+  "change_hash": "a36ca2237eace94a297c0f8a0a822561",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -39,15 +39,10 @@
   "body_id": 94,
   "current_body": "S",
   "current_body_id": 94,
-  "title": "Property Tax Rate Amendments",
-  "description": "Property Tax Rate Amendments",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "title": "Tax Revenue Amendments",
+  "description": "Tax Revenue Amendments",
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -103,6 +98,20 @@
     {
       "date": "2026-01-23",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Substitute Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Favorable Recommendation in Senate Revenue and Taxation Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -181,24 +190,8 @@
   "sasts": [],
   "subjects": [
     {
-      "subject_id": 11924,
-      "subject_name": "Property Tax"
-    },
-    {
-      "subject_id": 21249,
-      "subject_name": "Property Tax Collection"
-    },
-    {
       "subject_id": 11888,
       "subject_name": "Revenue and Taxation"
-    },
-    {
-      "subject_id": 334360,
-      "subject_name": "Local Taxation and Fees"
-    },
-    {
-      "subject_id": 335138,
-      "subject_name": "Truth in Taxation"
     }
   ],
   "texts": [
@@ -219,9 +212,43 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3335807,
+      "date": "2026-01-28",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0097/id/3335807",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0097S01.pdf",
+      "text_size": 103155,
+      "text_hash": "2f7c656f367d4df71c54d8fcfefc9132",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1618952,
+      "date": "2026-01-28",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 3,
+      "nay": 2,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0097/id/1618952",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39087"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -243,11 +270,61 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646375,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0097/id/646375",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0097%20To%20SB0097S01.pdf",
+      "supplement_size": 110635,
+      "supplement_hash": "cb85bdef69d1cf2bd1f1510940e2b3f1",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647045,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0097",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0097/id/647045",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0097S02.pdf",
+      "supplement_size": 18321,
+      "supplement_hash": "7c9f45b8a0eaef8fef59ed9cabe241de",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
-  "general_provisions": "This bill addresses property tax rates.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>limits the total amount of additional property tax revenue a taxing entity may obtain through truth-in-taxation;<hr><ltbullet>excludes certain valuation increases resulting from physical improvements to property from the calculation of locally assessed new growth;<hr><ltbullet>excludes increases to the value of tangible personal property from the calculation of project area new growth; and<hr><ltbullet>makes technical changes.",
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "d1079e62",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
+    }
+  ],
+  "general_provisions": "This bill modifies provisions related to tax revenue.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>limits the amount of surplus funds that may accumulate in a city or county general fund;<hr><ltbullet>limits the residential property tax exemption to one primary residence per household;<hr><ltbullet>establishes a rebuttable presumption that property owned by a business entity does not qualify for the residential exemption;<hr><ltbullet>requires residential property owners to apply to the county to receive a residential exemption if the property was ineligible for the residential exemption in the prior year, an ownership interest in the property changes, or the county has reason to believe the property no longer qualifies for the residential exemption;<hr><ltbullet>prohibits taxing entities from depositing property tax revenue into a reserve fund for capital improvement projects after a certain date;<hr><ltbullet>limits the total amount of additional property tax revenue a taxing entity may obtain through truth-in-taxation, with certain exceptions;<hr><ltbullet>excludes certain valuation increases resulting from physical improvements to property from the calculation of locally assessed new growth;<hr><ltbullet>excludes increases to the value of tangible personal property from the calculation of project area new growth;<hr><ltbullet>subtracts interest earned on investments from a taxing entity's certified tax rate calculation; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
   "attorney": "Gus Harb",
   "fiscal_analyst": "Travis D Eisenbacher",
@@ -258,10 +335,24 @@
       "name": "Revenue and Taxation Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "agendas": [
+    {
+      "mtgID": "20205",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SREV0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290828"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -338,6 +429,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "1/28/2026 4:38 PM",
+      "actionClass": "A",
+      "voteID": "39086",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-1",
+      "actionCode": "SCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "1/28/2026 4:58 PM",
+      "actionClass": "A",
+      "voteID": "39087",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-2-2",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

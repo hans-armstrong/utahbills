@@ -1,6 +1,6 @@
 {
   "bill_id": 2086084,
-  "change_hash": "d40e9c3ec2a4772e31c2ad090e2dd5e7",
+  "change_hash": "b7df81f090c4877aaca3ebfc3270afb8",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Municipal Prosecutor Amendments",
   "description": "Municipal Prosecutor Amendments",
-  "pending_committee_id": 2122,
-  "committee": {
-    "committee_id": 2122,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Government Operations and Political Subdivisions"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Favorable Recommendation in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -213,7 +215,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1618956,
+      "date": "2026-01-28",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 6,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0163/id/1618956",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39018"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -235,9 +253,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647053,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0163",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0163/id/647053",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0163S02.pdf",
+      "supplement_size": 18317,
+      "supplement_hash": "22390bd662416217beae666424748b08",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "56693eb2",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Government Operations and Political Subdivisions Hearing"
+    }
+  ],
   "general_provisions": "This bill deals with the ability of a city attorney to employ and deputize additional attorneys. ",
   "hilighted_provisions": "This bill:<hr><ltbullet>provides that a city attorney may employ a deputy attorney to perform the duties of public prosecutor or civil counsel;<hr><ltbullet>provides that a city attorney may deputize, for a limited time or limited purpose, an attorney licensed to practice law in the state and in good standing with the Utah State Bar; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -245,10 +293,24 @@
   "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "XIGNGPGUBQ",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20245",
+      "committeeID": "SSTGOP",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Government Operations and Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SGOP0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290522"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -325,6 +387,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "1/28/2026 2:17 PM",
+      "actionClass": "A",
+      "voteID": "39018",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-1",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2087205,
-  "change_hash": "a4d4271dda333041267d15cb458f8aa2",
+  "change_hash": "300401f866afb4d901d25dbe05283d1f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Concurrent Resolution on State Innovation for Transition from Government Benefits to Self-reliance",
   "description": "Concurrent Resolution on State Innovation for Transition from Government Benefits to Self-reliance",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-21",
@@ -106,6 +101,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Favorable Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -229,7 +231,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1618885,
+      "date": "2026-01-28",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SCR007/id/1618885",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39043"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -251,9 +269,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646997,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SCR007",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SCR007/id/646997",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SCR007S01.pdf",
+      "supplement_size": 18331,
+      "supplement_hash": "c3cbc13fb81c511cec764fa8e083706e",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "d1079e62",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This resolution urges the federal government to give more flexibility and autonomy to states to allow for greater innovation and experimentation to help families who receive government benefits more successfully transition off of welfare programs and into work-based self-reliance. ",
   "hilighted_provisions": "This resolution:<hr><ltbullet>articulates the strength of Utah's economy and nation-leading upward mobility;<hr><ltbullet>establishes Utah's track record as an innovative leader already showcasing the successes and advantages of state-driven approaches to work and welfare;<hr><ltbullet>identifies evidence of families in Utah who still struggle to fully realize the American Dream due to perceived or actual disincentives in the social safety net in the form of the \"benefits cliff\" and \"benefits plateau\"; and<hr><ltbullet>urges the federal government to increase flexibility and autonomy to allow states the ability to innovate through experiments and pilots to better transition families off of federally funded safety net programs and into work-based self-reliance.",
   "monies": "None",
@@ -261,24 +309,25 @@
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "CHXKKRPGUN",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "1/23/2026",
-  "action_history": [
+  "agendas": [
     {
-      "description": "Bill Numbered but not Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/20/2026 2:37 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
-    },
+      "mtgID": "20205",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "10",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SREV0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290634"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
+  "last_action_owner": "Senate Revenue and Taxation Committee",
+  "last_action_time": "1/28/2026",
+  "action_history": [
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -289,6 +338,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Numbered but not Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/20/2026 2:37 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LNUMBER",
       "parm1": "",
       "parm2": ""
     },
@@ -341,6 +403,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "1/28/2026 2:49 PM",
+      "actionClass": "A",
+      "voteID": "39043",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

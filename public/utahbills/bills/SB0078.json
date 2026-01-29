@@ -1,6 +1,6 @@
 {
   "bill_id": 2065224,
-  "change_hash": "cd67e1ce1739301c743293d2ba5bcbb4",
+  "change_hash": "8b2b09b5aede92e912e1632298d4384a",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Property Tax Relief Amendments",
   "description": "Property Tax Relief Amendments",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -103,6 +98,20 @@
     {
       "date": "2026-01-23",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Substitute Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Favorable Recommendation in Senate Revenue and Taxation Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -183,34 +192,6 @@
     {
       "subject_id": 11888,
       "subject_name": "Revenue and Taxation"
-    },
-    {
-      "subject_id": 11909,
-      "subject_name": "Counties"
-    },
-    {
-      "subject_id": 11924,
-      "subject_name": "Property Tax"
-    },
-    {
-      "subject_id": 11925,
-      "subject_name": "Property Tax Relief"
-    },
-    {
-      "subject_id": 21249,
-      "subject_name": "Property Tax Collection"
-    },
-    {
-      "subject_id": 340425,
-      "subject_name": "County Officers"
-    },
-    {
-      "subject_id": 334360,
-      "subject_name": "Local Taxation and Fees"
-    },
-    {
-      "subject_id": 333934,
-      "subject_name": "Tax Credits"
     }
   ],
   "texts": [
@@ -231,9 +212,43 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3339401,
+      "date": "2026-01-28",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0078/id/3339401",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0078S01.pdf",
+      "text_size": 152953,
+      "text_hash": "0673c5e088b90f66c8e26c3b34438ade",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1618790,
+      "date": "2026-01-28",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 1,
+      "nv": 0,
+      "absent": 1,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0078/id/1618790",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39085"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -255,20 +270,84 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646893,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0078/id/646893",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0078%20To%20SB0078S01.pdf",
+      "supplement_size": 147090,
+      "supplement_hash": "96a2674d08947b060f4e6c70322ba92d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646894,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0078",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0078/id/646894",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0078S02.pdf",
+      "supplement_size": 18319,
+      "supplement_hash": "4674563ea47eb5652319e512da605d10",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "d1079e62",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies property tax relief provisions.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>expands household income eligibility and increases credit amounts for property tax relief in the form of a renter's credit, beginning in 2027;<hr><ltbullet>prohibits taxpayers from receiving property tax relief in the form of a homeowner's credit unless the taxpayer received the credit within the previous two years, beginning in 2027;<hr><ltbullet>removes requirements for annual inflation adjustments for a homeowner's credit;<hr><ltbullet>changes the qualifications, scope, duration, and rates of interest applicable to the discretionary and nondiscretionary property tax deferral programs, beginning in 2027;<hr><ltbullet>prohibits taxpayers from receiving indigent property tax abatement unless the taxpayer received an abatement within the previous two years, beginning in 2027;<hr><ltbullet>requires county auditors to include information on the property tax valuation notice regarding the availability of property tax deferral programs;<hr><ltbullet>requires county treasurers to include information on the tax notice regarding the amount of outstanding taxes and interest for taxpayers who receive a property tax deferral;<hr><ltbullet>prohibits taxpayers from receiving more than one form of property tax relief, with certain exceptions, beginning in 2027; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>expands household income eligibility and increases credit amounts for property tax relief in the form of a renter's credit, beginning in 2027;<hr><ltbullet>prohibits taxpayers from receiving property tax relief in the form of a homeowner's credit unless the taxpayer received the credit within the previous two years, beginning in 2027;<hr><ltbullet>removes requirements for annual inflation adjustments for a homeowner's credit;<hr><ltbullet>changes the qualifications, scope, duration, and rates of interest applicable to the discretionary and nondiscretionary property tax deferral programs, beginning in 2027;<hr><ltbullet>prohibits taxpayers from receiving indigent property tax abatement unless the taxpayer received an abatement within the previous two years, beginning in 2027;<hr><ltbullet>requires county auditors to include information on the property tax valuation notice regarding the availability of property tax deferral programs;<hr><ltbullet>requires county treasurers to include information on the tax notice regarding the amount of outstanding taxes and interest for taxpayers who receive a property tax deferral;<hr><ltbullet>prohibits taxpayers from receiving more than one form of property tax relief, with certain exceptions, beginning in 2027;<hr><ltbullet>requires property tax deferral revenue to offset the county's certified tax rate calculation;<hr><ltbullet>extends the delinquency period after which a tax sale listing is required for individuals 70 years old or older, from four years to 10 years;<hr><ltbullet>sets the interest rate at 6% for delinquent property tax and tax notice charges for individuals 65 years old or older;<hr><ltbullet>excludes a veteran's residential property from eligibility for the veteran armed forces property tax exemption if the veteran's household liquid resources exceed a certain amount; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Gus Harb",
   "fiscal_analyst": "Travis D Eisenbacher",
   "gov_tracking_id": "NUKNJJNYXH",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "agendas": [
+    {
+      "mtgID": "20205",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SREV0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290795"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -345,6 +424,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "1/28/2026 4:02 PM",
+      "actionClass": "A",
+      "voteID": "39076",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "1/28/2026 4:29 PM",
+      "actionClass": "A",
+      "voteID": "39085",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-1-1",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

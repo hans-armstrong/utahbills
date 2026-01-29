@@ -1,6 +1,6 @@
 {
   "bill_id": 2090976,
-  "change_hash": "1954b9905db46973182441b1bc5c2155",
+  "change_hash": "ff9a407566be067149ae3cff527d0cdb",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-23",
       "event": 1
+    },
+    {
+      "date": "2026-01-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Renter Credit Reporting Amendments",
   "description": "Renter Credit Reporting Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2127,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2127,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Revenue and Taxation"
   },
   "referrals": [
     {
@@ -51,19 +55,26 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-27",
+      "committee_id": 2127,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
     {
       "date": "2026-01-22",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-01-22",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -78,6 +89,13 @@
     {
       "date": "2026-01-23",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ to standing committee in Senate Revenue and Taxation Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -210,7 +228,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 646647,
+      "date": "2026-01-28",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0187",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0187/id/646647",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0187.fn.pdf",
+      "supplement_size": 1608358,
+      "supplement_hash": "5842177fceb8f6bcf7f4ba4c586b770d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill enacts provisions relating to renter credit reporting.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>provides that a public funds recipient shall provide a renter an offer of rent reporting at the time the public funds recipient and renter enter into a rental agreement;<hr><ltbullet>provides that a public funds recipient shall provide an offer of rent reporting at least once annually;<hr><ltbullet>provides that a public funds recipient charge a fee for rent reporting that may not exceed the actual cost of the rent reporting;<hr><ltbullet>provides the consequences for a renter failing to pay the fee for rent reporting;<hr><ltbullet>provides that a renter may enroll and unenroll in rent reporting at any time during the duration of the rental agreement;<hr><ltbullet>prohibits a renter from reenrolling in rent reporting for at least six months if the renter fails to pay the fee for rent reporting or the renter unenrolls in rent reporting;<hr><ltbullet>provides that the provisions this bill enacts apply only to a public funds recipient that owns 50 or more residential rental units; and<hr><ltbullet>makes technical changes.",
@@ -220,23 +259,10 @@
   "gov_tracking_id": "RPTOEGPHKC",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "1/23/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Revenue and Taxation Committee",
+  "last_action_time": "1/27/2026",
   "action_history": [
-    {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/22/2026 4:23 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -247,6 +273,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/22/2026 4:23 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
       "parm1": "",
       "parm2": ""
     },
@@ -273,6 +312,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "1/27/2026 11:08 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

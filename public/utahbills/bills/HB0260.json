@@ -1,6 +1,6 @@
 {
   "bill_id": 2079078,
-  "change_hash": "74d5bf6bcd0a5b646e09d09a32d51788",
+  "change_hash": "04c37a80fe8938fefa5363b9e246db1f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Unauthorized Practice of Law Amendments",
   "description": "Unauthorized Practice of Law Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -51,19 +50,26 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-27",
+      "committee_id": 2109,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Judiciary"
     }
   ],
   "history": [
     {
       "date": "2026-01-14",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-01-14",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -85,6 +91,27 @@
     {
       "date": "2026-01-21",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House/ to standing committee in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House Comm - Substitute Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House Comm - Favorable Recommendation in House Judiciary Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -165,30 +192,6 @@
     {
       "subject_id": 332528,
       "subject_name": "Judicial Operations"
-    },
-    {
-      "subject_id": 12074,
-      "subject_name": "Attorneys"
-    },
-    {
-      "subject_id": 11880,
-      "subject_name": "Judicial Administration"
-    },
-    {
-      "subject_id": 332736,
-      "subject_name": "Crimes"
-    },
-    {
-      "subject_id": 11866,
-      "subject_name": "Law Enforcement and Criminal Justice"
-    },
-    {
-      "subject_id": 340620,
-      "subject_name": "Statute of Limitations"
-    },
-    {
-      "subject_id": 367572,
-      "subject_name": "Civil Litigation"
     }
   ],
   "texts": [
@@ -209,9 +212,43 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3340104,
+      "date": "2026-01-28",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0260/id/3340104",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0260S01.pdf",
+      "text_size": 33285,
+      "text_hash": "001b6ca66f36a518a9f51d08b90ddd81",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1618855,
+      "date": "2026-01-28",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0260/id/1618855",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39069"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -233,20 +270,84 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646966,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0260/id/646966",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0260%20To%20HB0260S01.pdf",
+      "supplement_size": 41440,
+      "supplement_hash": "4c454661239ad9bb83bd6c8ad10d8a1a",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646967,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0260",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0260/id/646967",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0260H02.pdf",
+      "supplement_size": 17575,
+      "supplement_hash": "d0495ff9f2ffa309f47912240da7ed32",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "dd272a38",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "House Judiciary Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses the unauthorized practice of law.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms related to the unauthorized practice of law;<hr><ltbullet>allows the court to take certain actions when an individual is engaging in the unauthorized practice of law before the court;<hr><ltbullet>allows a civil action to be brought for the unauthorized practice law; <hr><ltbullet>establishes a criminal penalty for the unauthorized practice of law; <hr><ltbullet>clarifies that the statutory provisions regarding the unauthorized practice of law do not limit the Supreme Court's authority to regulate the practice of law;<hr><ltbullet>provides a three-year statute of limitations for a civil action for the unauthorized practice of law and the exceptions to the statute of limitations;<hr><ltbullet>reorganizes the three-year statute of limitations for certain actions; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms related to the unauthorized practice of law;<hr><ltbullet>allows the court to take certain actions when a person is engaging in the unauthorized practice of law before the court;<hr><ltbullet>allows a civil action to be brought for the unauthorized practice law; <hr><ltbullet>establishes a criminal penalty for the unauthorized practice of law; <hr><ltbullet>clarifies that the statutory provisions regarding the unauthorized practice of law do not limit the Supreme Court's authority to regulate the practice of law;<hr><ltbullet>provides a three-year statute of limitations for a civil action for the unauthorized practice of law and the exceptions to the statute of limitations;<hr><ltbullet>reorganizes the three-year statute of limitations for certain actions; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Jacqueline Carlton",
   "fiscal_analyst": "Gary R. Syphus",
   "gov_tracking_id": "EBHBKMHOVB",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/21/2026",
+  "agendas": [
+    {
+      "mtgID": "20242",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HJUD0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290745"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
+  "last_action_owner": "House Judiciary Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -310,6 +411,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Judiciary Committee",
+      "actionDate": "1/27/2026 12:03 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "1/28/2026 3:55 PM",
+      "actionClass": "A",
+      "voteID": "39068",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-4",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "1/28/2026 3:55 PM",
+      "actionClass": "A",
+      "voteID": "39069",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-4",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

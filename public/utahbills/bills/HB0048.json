@@ -1,6 +1,6 @@
 {
   "bill_id": 2060419,
-  "change_hash": "8b536e8edd3d34806817b56e9be34a1a",
+  "change_hash": "bb360748680dd1f8da0d208d8f4ff875",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Criminal and Juvenile Justice Changes",
   "description": "Criminal and Juvenile Justice Changes",
-  "pending_committee_id": 2109,
-  "committee": {
-    "committee_id": 2109,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Judiciary"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House Comm - Not Considered in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -261,7 +263,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "dd272a38",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "House Judiciary Hearing"
+    }
+  ],
   "general_provisions": "This bill amends statutory provisions related to the criminal and juvenile justice system.",
   "hilighted_provisions": "This bill:<hr><ltbullet>amends the definition of \"recidivism standard metric\" for reporting recidivism in the criminal justice system;<hr><ltbullet>defines juvenile recidivism and school-based referrals for juvenile programming and data reporting requirements;<hr><ltbullet>removes the prohibition on placing a minor in an adult correctional facility as an alternative to detention;<hr><ltbullet>modifies the requirements for provisionally housing a minor, who is tried as an adult for aggravated murder, in a secure care facility;<hr><ltbullet>allows a prosecutor to file a motion with the Board of Pardons and Parole regarding the provisional housing of a minor in a secure care facility; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -274,10 +286,24 @@
       "name": "Judiciary Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20242",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HJUD0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
+    }
+  ],
+  "last_action": "House Comm - Not Considered",
   "last_action_owner": "House Judiciary Committee",
-  "last_action_time": "1/26/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -354,6 +380,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Judiciary Committee",
+      "actionDate": "1/28/2026 2:00 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
       "parm1": "",
       "parm2": ""
     }

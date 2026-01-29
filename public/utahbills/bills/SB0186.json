@@ -1,6 +1,6 @@
 {
   "bill_id": 2090912,
-  "change_hash": "b433c073c7e299de9129d66a38156d40",
+  "change_hash": "2ce4adc39f781f3b5f727aaa80e539e6",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-23",
       "event": 1
+    },
+    {
+      "date": "2026-01-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Charter School Base Funding Amendments",
   "description": "Charter School Base Funding Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2120,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2120,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Education"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-27",
+      "committee_id": 2120,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Education"
     }
   ],
   "history": [
@@ -78,6 +89,13 @@
     {
       "date": "2026-01-23",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ to standing committee in Senate Education Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -262,8 +280,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 646970,
+      "date": "2026-01-28",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0186",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0186/id/646970",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0186.fn.pdf",
+      "supplement_size": 1610849,
+      "supplement_hash": "0c8bec6af312862604585f5e610e6a5d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "b33b1762",
+      "type": "Hearing",
+      "date": "2026-01-29",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Education Hearing"
+    }
+  ],
   "general_provisions": "This bill establishes a charter school base funding study and creates a charter school educational service agency.",
   "hilighted_provisions": "This bill:<hr><ltbullet>requires a study of charter school administrative costs and funding options;<hr><ltbullet>establishes a charter school base funding study group with specific membership; <hr><ltbullet>requires the study group to examine charter school administrative costs and funding options;<hr><ltbullet>directs the State Board of Education to report to the Legislature by December 1, 2026;<hr><ltbullet>creates charter school educational service agencies to provide economies of scale for charter schools; <hr><ltbullet>allows charter schools to form a service agency through a memorandum of understanding; and<hr><ltbullet>makes technical changes.",
   "monies": "",
@@ -272,9 +321,9 @@
   "gov_tracking_id": "RTTKBQQHPM",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "1/23/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Education Committee",
+  "last_action_time": "1/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -325,6 +374,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/27/2026 11:08 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2085138,
-  "change_hash": "8fdee7989071573175653f0f13ab5d0b",
+  "change_hash": "e7f349366a809fab87ad76f967d19dc7",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-21",
       "event": 9
+    },
+    {
+      "date": "2026-01-27",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -112,6 +116,20 @@
     {
       "date": "2026-01-26",
       "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ comm rpt/ amended in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -234,6 +252,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0152.pdf",
       "text_size": 27984,
       "text_hash": "8724267cbc2d959c046fdfb70ee6a105",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3333287,
+      "date": "2026-01-27",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0152/id/3333287",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_SB0152_2026-01-27_10-59-44.pdf",
+      "text_size": 39188,
+      "text_hash": "33404eb1e767188edc0848477baf5554",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -372,9 +408,9 @@
       "markerID": "289487"
     }
   ],
-  "last_action": "Senate Comm - Favorable Recommendation",
-  "last_action_owner": "Senate Education Committee",
-  "last_action_time": "1/26/2026",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "1/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -477,6 +513,32 @@
       "voteHouse": "",
       "voteStr": "6-0-1",
       "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ amended",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/27/2026 11:15 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "1/27/2026 11:15 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

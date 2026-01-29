@@ -1,6 +1,6 @@
 {
   "bill_id": 2093772,
-  "change_hash": "9baf7bdd60d5ec93bb4ea8eb8bdcadae",
+  "change_hash": "d344c87a821e6efeb2320697cdbb6496",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/SB0202/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0202.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-01-27",
+  "progress": [
+    {
+      "date": "2026-01-27",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0202",
@@ -32,10 +37,30 @@
   "current_body_id": 94,
   "title": "Mowing Ordinance Amendments",
   "description": "Mowing Ordinance Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2026-01-27",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    }
+  ],
   "history": [
+    {
+      "date": "2026-01-26",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
     {
       "date": "2026-01-26",
       "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
@@ -44,10 +69,24 @@
       "importance": 0
     },
     {
-      "date": "2026-01-26",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
-      "chamber": "",
-      "chamber_id": 0,
+      "date": "2026-01-27",
+      "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -162,8 +201,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 646246,
+      "date": "2026-01-28",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0202",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0202/id/646246",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0202.fn.pdf",
+      "supplement_size": 1608340,
+      "supplement_hash": "d5b45e34edea7e6c9264c1e5d513ce9a",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "e9f51756",
+      "type": "Hearing",
+      "date": "2026-01-29",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Business and Labor Hearing"
+    }
+  ],
   "general_provisions": "This bill enacts provisions related to municipal and county regulation of golf courses.                                              ",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>prohibits a municipality or county from enacting or enforcing an ordinance that prohibits golf course maintenance operations between the hours of 5:30 a.m. and 10:00 p.m.; and<hr><ltbullet>provides that a municipality or county may prohibit or restrict golf course maintenance during certain hours for a golf course that is owned by the municipality or county.",
   "monies": "None",
@@ -172,9 +242,9 @@
   "gov_tracking_id": "WOJAHQQQCO",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "1/26/2026",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -199,6 +269,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received bill from Legislative Research",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "1/27/2026 9:41 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "1/27/2026 11:16 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Rules Committee",
+      "actionDate": "1/28/2026 10:35 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

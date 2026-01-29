@@ -1,6 +1,6 @@
 {
   "bill_id": 2061303,
-  "change_hash": "bdc7b598a01858a952d917987ccbf501",
+  "change_hash": "47bedc8a123b05767b782f89b5b5a1fc",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Income Tax Rate Amendments",
   "description": "Income Tax Rate Amendments",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Favorable Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -243,9 +245,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647028,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0060",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0060/id/647028",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0060S02.pdf",
+      "supplement_size": 18273,
+      "supplement_hash": "4819370802a9259785ff4bceac56bcc4",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "d1079e62",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill amends the income tax rate provisions.",
   "hilighted_provisions": "This bill:<hr><ltbullet>amends the corporate franchise and income tax rates; and<hr><ltbullet>amends the individual income tax rate.",
   "monies": "None",
@@ -253,10 +285,24 @@
   "fiscal_analyst": "Travis D Eisenbacher",
   "gov_tracking_id": "GHGTERPRYJ",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20205",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SREV0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290753"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "1/20/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -268,8 +314,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -281,8 +327,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -294,8 +340,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -307,8 +353,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -320,8 +366,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -333,8 +379,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "1/28/2026 3:59 PM",
+      "actionClass": "A",
+      "voteID": "39071",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-1-2",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

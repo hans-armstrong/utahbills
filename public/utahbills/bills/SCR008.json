@@ -1,6 +1,6 @@
 {
   "bill_id": 2088861,
-  "change_hash": "28a47ce643788947561a64bd7b7a604c",
+  "change_hash": "00ade7f422b2f3eff30309168aec55bb",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Resolution Honoring the Utah Parent Teacher Association",
   "description": "Resolution Honoring the Utah Parent Teacher Association",
-  "pending_committee_id": 3583,
-  "committee": {
-    "committee_id": 3583,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Transportation, Public Utilities, Energy, and Technology"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-22",
@@ -106,6 +101,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate Comm - Favorable Recommendation in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -285,7 +287,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617579,
+      "date": "2026-01-27",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SCR008/id/1617579",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38919"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -301,6 +319,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SCR008.fn.pdf",
       "supplement_size": 1608371,
       "supplement_hash": "3ae8daf38361f26f75ce622fefa2fc4a",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 645383,
+      "date": "2026-01-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SCR008",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SCR008/id/645383",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SCR008S01.pdf",
+      "supplement_size": 18333,
+      "supplement_hash": "a5d19f3195c73b943d7992574ea846dd",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -327,10 +365,24 @@
   "fiscal_analyst": "Rachelle Gunderson",
   "gov_tracking_id": "XTCHRMVYMU",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20223",
+      "committeeID": "SSTTPT",
+      "mtgDate": "2026-01-27 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/STPT0127.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289884"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
-  "last_action_time": "1/26/2026",
+  "last_action_time": "1/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -407,6 +459,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "1/27/2026 2:14 PM",
+      "actionClass": "A",
+      "voteID": "38919",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-4",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2066009,
-  "change_hash": "c095558473ab35abcfcdd192efa04858",
+  "change_hash": "27ccdcdfb71ada805e19fa0c0dcdab3b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -37,13 +37,8 @@
   "current_body_id": 93,
   "title": "House Rules Resolution - Abandoning Legislation",
   "description": "House Rules Resolution - Abandoning Legislation",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -88,6 +83,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House Comm - Favorable Recommendation in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -195,7 +197,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1618629,
+      "date": "2026-01-28",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 8,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HR0003/id/1618629",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39003"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -211,6 +229,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HR0003.fn.pdf",
       "supplement_size": 1608357,
       "supplement_hash": "d41c3cb1dfc867869a87f9f780e5c4d5",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646501,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HR0003",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HR0003/id/646501",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HR0003H02.pdf",
+      "supplement_size": 17530,
+      "supplement_hash": "b541929e2df8237f1e092c77f0f15e21",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -237,10 +275,24 @@
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "WPUVPJMXWE",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
+  "agendas": [
+    {
+      "mtgID": "20406",
+      "committeeID": "HSTRUL",
+      "mtgDate": "2026-01-28 12:30:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "450 State Capitol",
+      "committeeName": "House Rules Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HRUL0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290487"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/20/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -304,6 +356,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Rules Committee",
+      "actionDate": "1/28/2026 12:51 PM",
+      "actionClass": "A",
+      "voteID": "39003",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-3",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

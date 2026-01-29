@@ -1,6 +1,6 @@
 {
   "bill_id": 2088926,
-  "change_hash": "46411fa7f8822040f5aff7b099974f58",
+  "change_hash": "6b66c58ab9f8074f15f81f5a0f6e5f14",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -98,6 +98,13 @@
     {
       "date": "2026-01-26",
       "action": "Senate Comm - Not Considered in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Business and Labor Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -226,7 +233,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 644893,
+      "date": "2026-01-27",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0177",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0177/id/644893",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0177.fn.pdf",
+      "supplement_size": 1609662,
+      "supplement_hash": "d84df16226d206d8885d3fd4c40a2174",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [
     {
       "type_id": 1,
@@ -260,9 +288,9 @@
       "markerID": ""
     }
   ],
-  "last_action": "Senate Comm - Not Considered",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "1/26/2026",
+  "last_action_time": "1/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -339,6 +367,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "1/27/2026 10:21 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

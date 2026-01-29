@@ -1,6 +1,6 @@
 {
   "bill_id": 2056901,
-  "change_hash": "82aff50e9d8bf913aafccc6f52f5d6d4",
+  "change_hash": "cc46b9b0c305c9493a54481b5aeafb82",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -45,13 +45,8 @@
   "current_body_id": 93,
   "title": "Natural Resources, Agriculture, and Environment Technical Changes",
   "description": "Natural Resources, Agriculture, and Environment Technical Changes",
-  "pending_committee_id": 2111,
-  "committee": {
-    "committee_id": 2111,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Natural Resources, Agriculture, and Environment"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -78,14 +73,14 @@
   "history": [
     {
       "date": "2025-12-04",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2025-12-04",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -159,6 +154,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House Comm - Favorable Recommendation in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -372,9 +374,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647040,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0020",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0020/id/647040",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0020H01.pdf",
+      "supplement_size": 17570,
+      "supplement_hash": "16492018e8c58c5d323eafb472ee1617",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "cea6b467",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses obsolete programs and makes other technical changes to statutes within the purview of natural resources, agriculture, and environment or related legislative committees.",
   "hilighted_provisions": "This bill:<hr><ltbullet>repeals language related to outdated authorizations to borrow or lend money from the Agricultural Water Optimization Account;<hr><ltbullet>repeals sections codifying the titles of a title, chapter, or part;<hr><ltbullet>requires certain annual reports to legislative committees be submitted by no later than October 1;<hr><ltbullet>repeals outdated reviews, reports, or studies;<hr><ltbullet>repeals outdated transitional language related to membership of boards;<hr><ltbullet>repeals outdated language regarding fees;<hr><ltbullet>corrects typographical errors;<hr><ltbullet>makes conforming amendments to sunset provisions;<hr><ltbullet>clarifies language regarding the federal Recreation and Public Purposes Act;<hr><ltbullet>repeals outdated deadlines for required management plans for water conveyance facilities;<hr><ltbullet>clarifies the procedure for the Great Salt Lake commissioner's submission of a strategic plan;<hr><ltbullet>repeals obsolete provisions related to mercury switch removal;<hr><ltbullet>repeals outdated provisions related to presenting rules for carbon capture and geological storage;<hr><ltbullet>repeals completed study of transportation, heating, and electricity-generating fuel storage reserves;<hr><ltbullet>repeals outdated provisions related to regulatory certainty;<hr><ltbullet>repeals outdated requirement to participate in a survey;<hr><ltbullet>repeals outdated emergency water resources chapter; and<hr><ltbullet>makes technical and conforming amendments.",
   "monies": "None",
@@ -387,10 +419,24 @@
       "name": "Natural Resources, Agriculture, and Environment Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20320",
+      "committeeID": "HSTNAE",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HNAE0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290652"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "1/26/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -545,6 +591,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "1/28/2026 2:52 PM",
+      "actionClass": "A",
+      "voteID": "39047",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-5",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

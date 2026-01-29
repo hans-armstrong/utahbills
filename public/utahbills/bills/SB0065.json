@@ -1,6 +1,6 @@
 {
   "bill_id": 2064972,
-  "change_hash": "1ad5f85aaaa7780005a0bea12432e84a",
+  "change_hash": "a89791b9c1465ad3153d94febec821ec",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Minimum Basic Tax Rate Amendments",
   "description": "Minimum Basic Tax Rate Amendments",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Favorable Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -217,7 +219,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1618892,
+      "date": "2026-01-28",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 1,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0065/id/1618892",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39057"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -239,9 +257,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647002,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0065",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0065/id/647002",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0065S02.pdf",
+      "supplement_size": 18298,
+      "supplement_hash": "5d34ee122816c47e55c9bc20045d6f76",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "d1079e62",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions related to the minimum basic tax that school districts impose.",
   "hilighted_provisions": "This bill:<hr><ltbullet>ensures state funding in an amount that covers the total cost of the basic school program for a school district that imposes the minimum basic tax rate;<hr><ltbullet>requires school districts that impose the minimum basic tax to remit to the state the revenue the tax generates;<hr><ltbullet>creates a special revenue fund for the revenue that the minimum basic tax generates;<hr><ltbullet>requires a specific statement on the property tax notice;<hr><ltbullet>repeals provisions regarding state and local contributions toward the basic school program; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -249,10 +297,24 @@
   "fiscal_analyst": "Ben Leishman",
   "gov_tracking_id": "OLCKMEGFPF",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20205",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "8",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SREV0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290689"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "1/20/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -264,8 +326,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -277,8 +339,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -290,8 +352,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -303,8 +365,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -316,8 +378,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -329,8 +391,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "1/28/2026 3:13 PM",
+      "actionClass": "A",
+      "voteID": "39057",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-1-2",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

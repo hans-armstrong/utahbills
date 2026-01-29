@@ -1,6 +1,6 @@
 {
   "bill_id": 2061290,
-  "change_hash": "2d55b335b966443830d8e51add53bc06",
+  "change_hash": "9356952de1b306db29e3467dac7e77f3",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Alimony Amendments",
   "description": "Alimony Amendments",
-  "pending_committee_id": 2124,
-  "committee": {
-    "committee_id": 2124,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Judiciary, Law Enforcement, and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate Comm - Favorable Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -217,7 +219,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617581,
+      "date": "2026-01-27",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 9,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0059/id/1617581",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38932"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -233,6 +251,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0059.fn.pdf",
       "supplement_size": 1608324,
       "supplement_hash": "07522ac74b7e906e191589f8b06fb270",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 645386,
+      "date": "2026-01-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0059",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0059/id/645386",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0059S02.pdf",
+      "supplement_size": 18299,
+      "supplement_hash": "24115753c8fe96777271e8402e34a06a",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -259,10 +297,24 @@
   "fiscal_analyst": "Jared Gibbs",
   "gov_tracking_id": "QHMSLCDRGD",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20256",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2026-01-27 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SJLC0127.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289911"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-  "last_action_time": "1/20/2026",
+  "last_action_time": "1/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -339,6 +391,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "1/27/2026 2:31 PM",
+      "actionClass": "A",
+      "voteID": "38932",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-4",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

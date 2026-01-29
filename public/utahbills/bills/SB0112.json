@@ -1,6 +1,6 @@
 {
   "bill_id": 2069018,
-  "change_hash": "282075d6d0f2925b35ed490e037d142e",
+  "change_hash": "92c1a5eec6a4dd1eb1cf5267dc2639a5",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Utah Exemptions Act Modifications",
   "description": "Utah Exemptions Act Modifications",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -103,6 +98,20 @@
     {
       "date": "2026-01-21",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Substitute Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Favorable Recommendation in Senate Revenue and Taxation Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -219,9 +228,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3333640,
+      "date": "2026-01-27",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0112/id/3333640",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0112S01.pdf",
+      "text_size": 39635,
+      "text_hash": "a37ce6b1d23d50f7d58fd0ae7c7fa63d",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1618545,
+      "date": "2026-01-28",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 3,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0112/id/1618545",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39027"
+    },
+    {
+      "roll_call_id": 1618632,
+      "date": "2026-01-28",
+      "desc": "Senate Comm - Substitute Recommendation",
+      "yea": 3,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0112/id/1618632",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39026"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -243,20 +301,84 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 645553,
+      "date": "2026-01-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0112/id/645553",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0112%20To%20SB0112S01.pdf",
+      "supplement_size": 47931,
+      "supplement_hash": "e6845c1296873dfb20f6a00ac735ef0d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646637,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0112",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0112/id/646637",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0112S01.pdf",
+      "supplement_size": 18332,
+      "supplement_hash": "752b97de6c7a5e6c7acec68eabc859a7",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "d1079e62",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill amends the Utah Exemptions Act.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>allows an individual subject to collection of an unsecured debt to exempt:<hr><ltbullet1>an unused amount of the homestead exemption in certain circumstances; and<hr><ltbullet1>any federal or state income tax refund attributed to an earned income tax credit or child tax credit; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>allows an individual subject to collection of an unsecured debt to exempt:<hr><ltbullet1>an unused amount of the homestead exemption in certain circumstances; and<hr><ltbullet1>any federal income tax refund attributed to an earned income tax credit or child tax credit; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Paige Nelson",
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "JNYBAWYPOI",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "agendas": [
+    {
+      "mtgID": "20205",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SREV0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290536"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "1/21/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -333,6 +455,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "1/28/2026 2:29 PM",
+      "actionClass": "A",
+      "voteID": "39026",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-0-4",
+      "actionCode": "SCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "1/28/2026 2:34 PM",
+      "actionClass": "A",
+      "voteID": "39027",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-0-4",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

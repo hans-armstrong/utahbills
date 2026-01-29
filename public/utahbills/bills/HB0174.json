@@ -1,6 +1,6 @@
 {
   "bill_id": 2066985,
-  "change_hash": "7e9ec9989ed3c08df41209a27b1ff343",
+  "change_hash": "ad845861932fc4b1d9226aa80cace20b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-26",
       "event": 9
+    },
+    {
+      "date": "2026-01-28",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Sex Characteristic Change Treatment Amendments",
   "description": "Sex Characteristic Change Treatment Amendments",
-  "pending_committee_id": 2108,
-  "committee": {
-    "committee_id": 2108,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -113,6 +112,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House Comm - Amendment Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House Comm - Favorable Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House/ comm rpt/ amended in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -258,6 +285,26 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 11871,
+      "subject_name": "Business"
+    },
+    {
+      "subject_id": 11893,
+      "subject_name": "Health Care"
+    },
+    {
+      "subject_id": 332644,
+      "subject_name": "Health Care Professionals"
+    },
+    {
+      "subject_id": 354262,
+      "subject_name": "Pharmaceuticals"
+    },
+    {
+      "subject_id": 81259,
+      "subject_name": "Occupational and Professional Licensing"
     }
   ],
   "texts": [
@@ -296,9 +343,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3337712,
+      "date": "2026-01-28",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0174/id/3337712",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_HB0174S01_2026-01-28_10-47-41.pdf",
+      "text_size": 33528,
+      "text_hash": "0b3ffb464fc75a4a608ece8b8a39b1dd",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617934,
+      "date": "2026-01-27",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 11,
+      "nay": 3,
+      "nv": 0,
+      "absent": 0,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0174/id/1617934",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38972"
+    },
+    {
+      "roll_call_id": 1618455,
+      "date": "2026-01-27",
+      "desc": "House Comm - Amendment Recommendation",
+      "yea": 14,
+      "nay": 0,
+      "nv": 0,
+      "absent": 0,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0174/id/1618455",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38971"
+    }
+  ],
   "amendments": [
     {
       "amendment_id": 267813,
@@ -383,6 +479,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 645959,
+      "date": "2026-01-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0174",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0174/id/645959",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0174H02.pdf",
+      "supplement_size": 18582,
+      "supplement_hash": "ad14891bc063495d6f2772643943f87f",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -403,10 +519,24 @@
   "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "WUCJTMPUEW",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Health and Human Services Committee",
-  "last_action_time": "1/26/2026",
+  "agendas": [
+    {
+      "mtgID": "20199",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2026-01-27 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HHHS0127.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289872"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -496,6 +626,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Amendment Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "1/27/2026 3:57 PM",
+      "actionClass": "A",
+      "voteID": "38971",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "14-0-0",
+      "actionCode": "HCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "1/27/2026 3:58 PM",
+      "actionClass": "A",
+      "voteID": "38972",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-3-0",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ amended",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "1/28/2026 11:48 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "1/28/2026 11:48 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

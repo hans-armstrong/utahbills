@@ -1,6 +1,6 @@
 {
   "bill_id": 2061239,
-  "change_hash": "406ca6e81b877c1e64200d940cc8c372",
+  "change_hash": "c0692f78627e7e7fd9c3586a732c1326",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Wildlife Amendments",
   "description": "Wildlife Amendments",
-  "pending_committee_id": 2111,
-  "committee": {
-    "committee_id": 2111,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Natural Resources, Agriculture, and Environment"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -113,6 +108,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House Comm - Favorable Recommendation in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -258,7 +260,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1618592,
+      "date": "2026-01-28",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0111/id/1618592",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39016"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -300,9 +318,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646403,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0111",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0111/id/646403",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0111H02.pdf",
+      "supplement_size": 17540,
+      "supplement_hash": "fe5ca909c65976e5d045285e82749bcc",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "cea6b467",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses the management of wildlife resources and wildlife habitats.",
   "hilighted_provisions": "This bill:<hr><ltbullet>addresses who may provide verification of illness, injury, or disability in relationship to a license, certificate, or permit issued under the Wildlife Resources Act;<hr><ltbullet>amends provisions related to notice of acquisition of real property;<hr><ltbullet>addresses rulemaking and penalties related to reporting hunt information;<hr><ltbullet>provides for the management of grizzly bears;<hr><ltbullet>grants rulemaking authority;<hr><ltbullet>addresses discharge of a dangerous weapon related to a waterfowl management area or wildlife management area; and<hr><ltbullet>makes technical and conforming amendments.",
   "monies": "None",
@@ -310,10 +358,24 @@
   "fiscal_analyst": "Ivan D. Djambov",
   "gov_tracking_id": "PBBGLNASCN",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20320",
+      "committeeID": "HSTNAE",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HNAE0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290520"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "1/26/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -403,6 +465,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "1/28/2026 2:15 PM",
+      "actionClass": "A",
+      "voteID": "39016",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-5",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

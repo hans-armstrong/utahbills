@@ -1,6 +1,6 @@
 {
   "bill_id": 2060946,
-  "change_hash": "1fe208a75c67696ae7ef35c473480816",
+  "change_hash": "5c6de6f3495e738736978634f5beae67",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-23",
       "event": 2
+    },
+    {
+      "date": "2026-01-28",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Public Employee Retaliatory Action Amendments",
   "description": "Public Employee Retaliatory Action Amendments",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -62,6 +61,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-28",
+      "committee_id": 2122,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Government Operations and Political Subdivisions"
     }
   ],
   "history": [
@@ -145,6 +151,20 @@
     {
       "date": "2026-01-26",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate/ to standing committee in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Favorable Recommendation in Senate Government Operations and Political Subdivisions Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -361,9 +381,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646974,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0073",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0073/id/646974",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0073S02.pdf",
+      "supplement_size": 18337,
+      "supplement_hash": "d4ece82667890cd627e89d3824a282f7",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "56693eb2",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Government Operations and Political Subdivisions Hearing"
+    }
+  ],
   "general_provisions": "This bill amends the Utah Protection of Public Employees Act.",
   "hilighted_provisions": "This bill:<hr><ltbullet>modifies the definition of retaliatory action by an employer to include making a complaint, in violation of the whistle-blowing statute, to a person that licenses the employee to practice a profession or perform other types of work.",
   "monies": "None",
@@ -376,10 +426,24 @@
       "name": "Rules Review and General Oversight Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "1/26/2026",
+  "agendas": [
+    {
+      "mtgID": "20245",
+      "committeeID": "SSTGOP",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "9",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Government Operations and Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SGOP0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290794"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
+  "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -534,6 +598,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "1/28/2026 11:21 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "1/28/2026 4:05 PM",
+      "actionClass": "A",
+      "voteID": "39079",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

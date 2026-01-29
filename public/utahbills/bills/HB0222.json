@@ -1,6 +1,6 @@
 {
   "bill_id": 2070113,
-  "change_hash": "40233902ec8a683955d5607b44a35bf6",
+  "change_hash": "3880a054d284f63e7d1730408e92e199",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-28",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Limitation of Actions Amendments",
   "description": "Limitation of Actions Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 5049,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 5049,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Public Utilities and Energy"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-28",
+      "committee_id": 5049,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Public Utilities and Energy"
     }
   ],
   "history": [
@@ -85,6 +96,13 @@
     {
       "date": "2026-01-20",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House/ to standing committee in House Public Utilities and Energy Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -223,7 +241,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "45ca153d",
+      "type": "Hearing",
+      "date": "2026-01-29",
+      "time": "14:00",
+      "location": "",
+      "description": "House Public Utilities and Energy Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses the liability of a person for damage or injury caused by greenhouse gas emissions.",
   "hilighted_provisions": "This bill:<hr><ltbullet>clarifies the limitation on liability of a person for damage or injury caused by greenhouse gas emissions;<hr><ltbullet>removes the requirement that a person reside or do business in this state to qualify for limited liability for damage or injury caused by greenhouse gas emissions; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -232,9 +260,9 @@
   "gov_tracking_id": "CLNNQGYIWO",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/20/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Public Utilities and Energy Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -246,8 +274,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -259,8 +287,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -272,8 +300,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -285,8 +313,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -298,8 +326,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "1/28/2026 12:11 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

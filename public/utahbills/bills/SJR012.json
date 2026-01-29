@@ -1,6 +1,6 @@
 {
   "bill_id": 2093703,
-  "change_hash": "b8735dc9d8c7382fe91dbdc8b280255f",
+  "change_hash": "225c4fc7b403a765dbcad38c50db992b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/SJR012/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SJR012.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-01-27",
+  "progress": [
+    {
+      "date": "2026-01-27",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SJR012",
@@ -32,9 +37,22 @@
   "current_body_id": 94,
   "title": "Joint Resolution on Civic Engagement and Service",
   "description": "Joint Resolution on Civic Engagement and Service",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2026-01-27",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-26",
@@ -48,6 +66,27 @@
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -218,7 +257,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 645290,
+      "date": "2026-01-27",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SJR012",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SJR012/id/645290",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SJR012.fn.pdf",
+      "supplement_size": 1608359,
+      "supplement_hash": "72000514638232128720c75026dd77c1",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This resolution supports and encourages the practices of civic participation, civil discourse, and constructive dialogue.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>acknowledges the fundamental rights of free speech, peaceful assembly, and petitioning of government;<hr><ltbullet>supports civil discourse and civic participation;<hr><ltbullet>encourages community building and civil dialogue amongst Utah citizens;<hr><ltbullet>recognizes the first Friday in September as Utah Civic Engagement and Service Day; and<hr><ltbullet>encourages activities on Utah Civic Engagement and Service Day to promote civic responsibility and community service.",
@@ -228,9 +288,9 @@
   "gov_tracking_id": "QRCOACHIBT",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "1/26/2026",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -255,6 +315,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received bill from Legislative Research",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "1/27/2026 9:41 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "1/27/2026 11:16 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Rules Committee",
+      "actionDate": "1/28/2026 10:35 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

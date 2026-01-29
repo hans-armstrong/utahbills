@@ -1,6 +1,6 @@
 {
   "bill_id": 2069095,
-  "change_hash": "fbe9f9ed6d430295d1234143ce677337",
+  "change_hash": "a9288978572173c416a53332891abdb3",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-20",
       "event": 9
+    },
+    {
+      "date": "2026-01-27",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -119,6 +123,20 @@
     {
       "date": "2026-01-26",
       "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ comm rpt/ substituted in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -420,6 +438,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 644963,
+      "date": "2026-01-27",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0108S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0108/id/644963",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0108S01.fn.pdf",
+      "supplement_size": 1608359,
+      "supplement_hash": "46863311ef7fff7c6fdacfd79c336a5d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -477,9 +515,9 @@
       "markerID": "289466"
     }
   ],
-  "last_action": "Senate Comm - Favorable Recommendation",
-  "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "1/26/2026",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "1/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -595,6 +633,32 @@
       "voteHouse": "",
       "voteStr": "6-0-2",
       "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ substituted",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "1/27/2026 11:15 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "1/27/2026 11:15 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

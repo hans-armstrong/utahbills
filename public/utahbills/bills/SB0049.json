@@ -1,6 +1,6 @@
 {
   "bill_id": 2060964,
-  "change_hash": "cf5d3ab45c3176cb34fb5de36b2b0bb4",
+  "change_hash": "5fe75f165fb97583fe9e82172cd07a3b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-20",
       "event": 9
+    },
+    {
+      "date": "2026-01-27",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -115,6 +119,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ comm rpt/ substituted in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -192,6 +210,14 @@
     {
       "subject_id": 11871,
       "subject_name": "Business"
+    },
+    {
+      "subject_id": 340962,
+      "subject_name": "Funeral and Death Care Services"
+    },
+    {
+      "subject_id": 81259,
+      "subject_name": "Occupational and Professional Licensing"
     }
   ],
   "texts": [
@@ -347,6 +373,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646653,
+      "date": "2026-01-28",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0049S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0049/id/646653",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0049S01.fn.pdf",
+      "supplement_size": 1609984,
+      "supplement_hash": "649f893e0cf3a3696584aa5029313af0",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -376,15 +422,15 @@
       "mtgPlace": "215 Senate Building",
       "committeeName": "Senate Health and Human Services Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00000634.htm",
       "agendaURL": "/~2026/agenda/SHHS0126.ag.htm",
       "billSession": "2026GS",
       "markerID": "289362"
     }
   ],
-  "last_action": "Senate Comm - Favorable Recommendation",
-  "last_action_owner": "Senate Health and Human Services Committee",
-  "last_action_time": "1/26/2026",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "1/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -487,6 +533,32 @@
       "voteHouse": "",
       "voteStr": "4-2-1",
       "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ substituted",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "1/27/2026 11:15 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "1/27/2026 11:15 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

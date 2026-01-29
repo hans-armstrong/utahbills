@@ -1,6 +1,6 @@
 {
   "bill_id": 2061376,
-  "change_hash": "ec639eb213da73ac71a882410f73bffd",
+  "change_hash": "4839209dceb5ca415a793b65344c75cf",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SCR002/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SCR002.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2026-01-20",
+  "status": 2,
+  "status_date": "2026-01-27",
   "progress": [
     {
       "date": "2026-01-20",
@@ -32,6 +32,10 @@
     {
       "date": "2026-01-22",
       "event": 10
+    },
+    {
+      "date": "2026-01-27",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,12 +45,17 @@
   "bill_type_id": "3",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Concurrent Resolution Concerning Remembrances of the 25th Anniversary of the 9/11 Attacks",
   "description": "Concurrent Resolution Concerning Remembrances of the 25th Anniversary of the 9/11 Attacks",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2026-01-20",
@@ -61,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Education"
+    },
+    {
+      "date": "2026-01-28",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -153,6 +169,41 @@
       "action": "Senate/ circled in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ uncircled in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -367,6 +418,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SCR002/id/1616034",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=75&house=S"
+    },
+    {
+      "roll_call_id": 1617857,
+      "date": "2026-01-27",
+      "desc": "Senate/ passed 3rd reading",
+      "yea": 27,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SCR002/id/1617857",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=98&house=S"
     }
   ],
   "amendments": [],
@@ -439,15 +505,15 @@
       "mtgPlace": "210 Senate Building",
       "committeeName": "Senate Education Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00000391.htm",
       "agendaURL": "/~2026/agenda/SEDU0121.ag.htm",
       "billSession": "2026GS",
       "markerID": "287762"
     }
   ],
-  "last_action": "Senate/ circled",
-  "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "1/23/2026",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -615,6 +681,71 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "1/27/2026 11:39 AM",
+      "actionClass": "S",
+      "voteID": "97",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Clerk of the House",
+      "actionDate": "1/27/2026 11:42 AM",
+      "actionClass": "S",
+      "voteID": "98",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "27-0-2",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "1/27/2026 11:42 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "1/27/2026 12:10 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "1/28/2026 11:24 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

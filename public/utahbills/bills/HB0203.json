@@ -1,6 +1,6 @@
 {
   "bill_id": 2069177,
-  "change_hash": "2f263cfd94f4373392e79455ab30906d",
+  "change_hash": "5a6acd628eeac12f39512f8d733c40b0",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Non-Compete Amendments",
   "description": "Non-Compete Amendments",
-  "pending_committee_id": 5042,
-  "committee": {
-    "committee_id": 5042,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Business, Labor, and Commerce"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House Comm - Not Considered in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -319,10 +321,24 @@
   "fiscal_analyst": "Alejandra G Rodriguez",
   "gov_tracking_id": "DOYVUQYOHK",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20280",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2026-01-27 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HBUS0127.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
+    }
+  ],
+  "last_action": "House Comm - Not Considered",
   "last_action_owner": "House Business, Labor, and Commerce Committee",
-  "last_action_time": "1/22/2026",
+  "last_action_time": "1/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -399,6 +415,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "1/27/2026 2:00 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
       "parm1": "",
       "parm2": ""
     }

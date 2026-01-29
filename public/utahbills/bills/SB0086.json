@@ -1,6 +1,6 @@
 {
   "bill_id": 2065910,
-  "change_hash": "6085ceda832f91fcdba5f768f23fd3a6",
+  "change_hash": "5b8fc0e0f5a491c2c339e1ac41d3212b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -105,6 +105,13 @@
     {
       "date": "2026-01-22",
       "action": "Senate Comm - Not Considered in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate Comm - Favorable Recommendation in Senate Natural Resources, Agriculture, and Environment Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -227,7 +234,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1617593,
+      "date": "2026-01-27",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 3,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0086/id/1617593",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38924"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -243,6 +266,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0086.fn.pdf",
       "supplement_size": 1608331,
       "supplement_hash": "f35ae6dc3cd7b19906f99caaeac010a9",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 645398,
+      "date": "2026-01-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0086",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0086/id/645398",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0086S02.pdf",
+      "supplement_size": 18310,
+      "supplement_hash": "d78a4fbb0591acdc3ae4b06be82633f6",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -280,6 +323,19 @@
   "comrecommend": [],
   "agendas": [
     {
+      "mtgID": "20326",
+      "committeeID": "SSTNAE",
+      "mtgDate": "2026-01-27 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00000578.htm",
+      "agendaURL": "/~2026/agenda/SNAE0127.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289891"
+    },
+    {
       "mtgID": "20325",
       "committeeID": "SSTNAE",
       "mtgDate": "2026-01-22 14:00:00.0",
@@ -287,15 +343,15 @@
       "mtgPlace": "215 Senate Building",
       "committeeName": "Senate Natural Resources, Agriculture, and Environment Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00000465.htm",
       "agendaURL": "/~2026/agenda/SNAE0122.ag.htm",
       "billSession": "2026GS",
       "markerID": ""
     }
   ],
-  "last_action": "Senate Comm - Not Considered",
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "1/22/2026",
+  "last_action_time": "1/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -385,6 +441,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "1/27/2026 2:21 PM",
+      "actionClass": "A",
+      "voteID": "38924",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-0-4",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

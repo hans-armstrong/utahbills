@@ -1,6 +1,6 @@
 {
   "bill_id": 2060917,
-  "change_hash": "93715f06933e0c4b9d8c0af8bf1e8140",
+  "change_hash": "84930e0605d2901846236e2a6649aba4",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0078/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0078.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2026-01-26",
   "progress": [
     {
@@ -49,8 +49,13 @@
   "current_body_id": 94,
   "title": "Nuclear Regulatory Amendments",
   "description": "Nuclear Regulatory Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2026-01-20",
@@ -65,6 +70,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Public Utilities and Energy"
+    },
+    {
+      "date": "2026-01-27",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -165,6 +177,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -516,9 +535,9 @@
       "markerID": "287501"
     }
   ],
-  "last_action": "Senate/ received from House",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "1/26/2026",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "1/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -699,6 +718,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "1/27/2026 11:09 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }

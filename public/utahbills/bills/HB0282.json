@@ -1,6 +1,6 @@
 {
   "bill_id": 2085881,
-  "change_hash": "1ff907e6218af42720196eb0eff1fc63",
+  "change_hash": "2489edd3ce48d9fd9793f08e7ce7319b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-28",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Transportation Earmark Amendments",
   "description": "Transportation Earmark Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2115,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2115,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Revenue and Taxation"
   },
   "referrals": [
     {
@@ -51,19 +55,26 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-28",
+      "committee_id": 2115,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
     {
       "date": "2026-01-19",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-01-19",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -88,6 +99,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Bill Substituted by Sponsor in House Rules Comm in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House/ to standing committee in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -259,9 +284,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646968,
+      "date": "2026-01-28",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0282S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0282/id/646968",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0282S01.fn.pdf",
+      "supplement_size": 1609543,
+      "supplement_hash": "0c0544d2e5c43d23a7a032b41e3dc449",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "bc2d6da7",
+      "type": "Hearing",
+      "date": "2026-01-29",
+      "time": "14:00",
+      "location": "",
+      "description": "House Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill reduces a sales and use tax earmark that directs revenue into the Transportation Investment Fund of 2005.",
   "hilighted_provisions": "This bill:<hr><ltbullet>reduces a sales and use tax earmark that directs revenue into the Transportation Investment Fund of 2005 to ensure that the revenue remains in the General Fund.",
   "monies": "None",
@@ -270,23 +325,10 @@
   "gov_tracking_id": "XRJDIKUEGB",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/21/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Revenue and Taxation Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
-    {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/19/2026 1:11 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -297,6 +339,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/19/2026 1:11 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
       "parm1": "",
       "parm2": ""
     },
@@ -336,6 +391,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Substituted by Sponsor in House Rules Comm",
+      "owner": "House Rules Committee",
+      "actionDate": "1/28/2026 11:46 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRULSUBH",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "1/28/2026 12:11 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

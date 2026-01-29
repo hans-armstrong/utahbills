@@ -1,6 +1,6 @@
 {
   "bill_id": 2087341,
-  "change_hash": "d3bb3a306f50c65b67feba38c1e679d3",
+  "change_hash": "239f2103cc0b80c441ee36f4a644faf6",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Line-of-Duty Death Benefit Amendments",
   "description": "Line-of-Duty Death Benefit Amendments",
-  "pending_committee_id": 2122,
-  "committee": {
-    "committee_id": 2122,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Government Operations and Political Subdivisions"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-21",
@@ -103,6 +98,13 @@
     {
       "date": "2026-01-26",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Favorable Recommendation in Senate Government Operations and Political Subdivisions Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -267,9 +269,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647054,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0166",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0166/id/647054",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0166S02.pdf",
+      "supplement_size": 18323,
+      "supplement_hash": "e5956ee13037178145929987d78d180e",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "56693eb2",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Government Operations and Political Subdivisions Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies provisions related to line-of-duty death benefits.",
   "hilighted_provisions": "This bill:<hr><ltbullet>provides that the Local Public Safety and Firefighter Surviving Spouse Trust Fund Board of Trustees may use money in the Local Public Safety and Firefighter Surviving Spouse Trust Fund to pay for certain previously incurred employer costs related to health coverage for a surviving spouse and dependent children following a line-of-duty death.",
   "monies": "None",
@@ -277,10 +309,24 @@
   "fiscal_analyst": "Gary R. Syphus",
   "gov_tracking_id": "WETTIUBOUS",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "agendas": [
+    {
+      "mtgID": "20245",
+      "committeeID": "SSTGOP",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Government Operations and Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SGOP0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290610"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
-  "last_action_time": "1/26/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -357,6 +403,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "1/28/2026 2:41 PM",
+      "actionClass": "A",
+      "voteID": "39034",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

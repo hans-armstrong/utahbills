@@ -1,6 +1,6 @@
 {
   "bill_id": 2071924,
-  "change_hash": "4cc8662cba5e402b90a881ba177473cf",
+  "change_hash": "1b4e97bb92de10f4ffdb9407aa55daed",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-28",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Truth in Taxation Amendments",
   "description": "Truth in Taxation Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2115,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2115,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Revenue and Taxation"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-28",
+      "committee_id": 2115,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -85,6 +96,13 @@
     {
       "date": "2026-01-20",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House/ to standing committee in House Revenue and Taxation Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -231,7 +249,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "bc2d6da7",
+      "type": "Hearing",
+      "date": "2026-01-29",
+      "time": "14:00",
+      "location": "",
+      "description": "House Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses property tax increases through truth in taxation.",
   "hilighted_provisions": "This bill:<hr><ltbullet>requires certain taxing entities proposing a property tax increase to make a preliminary statement in a public meeting regarding the taxing entity's consideration of a tax increase;<hr><ltbullet>prohibits the State Tax Commission from certifying a taxing entity's proposed property tax increase if the taxing entity fails to meet the requirements for making the preliminary statement;<hr><ltbullet>requires taxing entities proposing a property tax increase to:<hr><ltbullet1>adopt and utilize a tentative operating budget that does not include revenue derived from the proposed tax increase before a tax increase is approved; and<hr><ltbullet1>present an alternative tentative budget that includes the additional revenue that would be derived from the proposed tax increase, if later approved; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -240,9 +268,9 @@
   "gov_tracking_id": "JFDMXJWIUU",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/20/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Revenue and Taxation Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -254,8 +282,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -267,8 +295,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -280,8 +308,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -293,8 +321,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -306,8 +334,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "1/28/2026 12:11 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

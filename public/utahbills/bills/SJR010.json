@@ -1,6 +1,6 @@
 {
   "bill_id": 2093504,
-  "change_hash": "a30c5fe394ed9a7ea5f441f7bfd0ea90",
+  "change_hash": "4536f535f4eb0aecf897a7ba1c019050",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,18 @@
   "url": "https://legiscan.com/UT/bill/SJR010/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SJR010.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-01-27",
+  "progress": [
+    {
+      "date": "2026-01-27",
+      "event": 1
+    },
+    {
+      "date": "2026-01-28",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SJR010",
@@ -32,9 +41,29 @@
   "current_body_id": 94,
   "title": "Joint Resolution Amending Court Rules Regarding Jury Selection",
   "description": "Joint Resolution Amending Court Rules Regarding Jury Selection",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2124,
+  "committee": {
+    "committee_id": 2124,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Judiciary, Law Enforcement, and Criminal Justice"
+  },
+  "referrals": [
+    {
+      "date": "2026-01-27",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-01-28",
+      "committee_id": 2124,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Judiciary, Law Enforcement, and Criminal Justice"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-26",
@@ -56,6 +85,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate/ to standing committee in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -169,7 +212,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 646963,
+      "date": "2026-01-28",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SJR010",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SJR010/id/646963",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SJR010.fn.pdf",
+      "supplement_size": 1608376,
+      "supplement_hash": "3b3bdddbcc81b38a59e39e1d4ec24478",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This resolution amends court rules regarding jury selection.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>amends Rule 17.5 of the Utah Rules of Criminal Procedure to address an exception for jury selection in a felony case;<hr><ltbullet>amends Rule 18 of the Utah Rules of Criminal Procedure to address jury selection in a felony case; and<hr><ltbullet>makes technical and conforming changes.",
@@ -179,23 +243,10 @@
   "gov_tracking_id": "OIOIROPVBG",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ received bill from Legislative Research",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "1/26/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
-    {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/26/2026 11:19 AM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -210,6 +261,19 @@
       "parm2": ""
     },
     {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/26/2026 11:19 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
       "actionDate": "1/26/2026 11:39 AM",
@@ -219,6 +283,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "1/27/2026 11:16 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "1/28/2026 11:21 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

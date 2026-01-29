@@ -1,6 +1,6 @@
 {
   "bill_id": 2093599,
-  "change_hash": "7b900b061a58f2a8d983ef6a945b7f15",
+  "change_hash": "9e359fda5dcfbfc50d3400be9a042321",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,18 @@
   "url": "https://legiscan.com/UT/bill/SB0198/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0198.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-01-27",
+  "progress": [
+    {
+      "date": "2026-01-27",
+      "event": 1
+    },
+    {
+      "date": "2026-01-28",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0198",
@@ -32,9 +41,29 @@
   "current_body_id": 94,
   "title": "Water Project Management Amendments",
   "description": "Water Project Management Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2125,
+  "committee": {
+    "committee_id": 2125,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Natural Resources, Agriculture, and Environment"
+  },
+  "referrals": [
+    {
+      "date": "2026-01-27",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-01-28",
+      "committee_id": 2125,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Natural Resources, Agriculture, and Environment"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-26",
@@ -56,6 +85,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate/ to standing committee in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -157,7 +200,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 646957,
+      "date": "2026-01-28",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0198",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0198/id/646957",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0198.fn.pdf",
+      "supplement_size": 1609776,
+      "supplement_hash": "49d4d40aac489aa970a3c8682d828295",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill creates an office within the Division of Water Resources for managing state water projects.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>creates the Office of Water Management (office) within the Division of Water Resources (division);<hr><ltbullet>establishes the duties of the office;<hr><ltbullet>provides for a water manager to administer the office;<hr><ltbullet>establishes the role of the water manager;<hr><ltbullet>requires the Division of Water Resources Board to create a process for a political subdivision, special district, or state agency to nominate a water project for management by the office;<hr><ltbullet>requires the office to:<hr><ltbullet1>adopt a capital asset management plan; and <hr><ltbullet1>report to two legislative committees on the capital asset management plan no later than July 1, 2030, and every five years thereafter; and <hr><ltbullet>makes technical and conforming changes.",
@@ -167,9 +231,9 @@
   "gov_tracking_id": "MXVPOACLDA",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ received bill from Legislative Research",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "1/26/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -207,6 +271,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "1/27/2026 11:16 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "1/28/2026 11:21 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

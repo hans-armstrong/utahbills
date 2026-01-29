@@ -1,6 +1,6 @@
 {
   "bill_id": 2061129,
-  "change_hash": "7bcc61edee89e3317c08ad38fda238bc",
+  "change_hash": "8d2a727077179846b907f9aea2ad1ff1",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "School Attendance Changes",
   "description": "School Attendance Changes",
-  "pending_committee_id": 2105,
-  "committee": {
-    "committee_id": 2105,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House Comm - Held in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -221,7 +223,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1618029,
+      "date": "2026-01-27",
+      "desc": "House Comm - Held",
+      "yea": 14,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 15,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0106/id/1618029",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38938"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -263,10 +281,24 @@
   "fiscal_analyst": "Kiki Hudson",
   "gov_tracking_id": "FBTBVUJLFK",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20314",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-01-27 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HEDU0127.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289903"
+    }
+  ],
+  "last_action": "House Comm - Held",
   "last_action_owner": "House Education Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -343,6 +375,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Education Committee",
+      "actionDate": "1/27/2026 2:39 PM",
+      "actionClass": "A",
+      "voteID": "38938",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "14-0-1",
+      "actionCode": "HCAHELD",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2060496,
-  "change_hash": "1e163131ad5d11c30799dfffed9b1536",
+  "change_hash": "c9259f480d61bb07037ecdfc64b6c9e9",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-21",
       "event": 2
+    },
+    {
+      "date": "2026-01-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Transportation Commission Amendments",
   "description": "Transportation Commission Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -62,6 +61,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-27",
+      "committee_id": 2117,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Transportation"
     }
   ],
   "history": [
@@ -145,6 +151,20 @@
     {
       "date": "2026-01-21",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House/ to standing committee in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House Comm - Favorable Recommendation in House Transportation Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -431,9 +451,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646955,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0036",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0036/id/646955",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0036H02.pdf",
+      "supplement_size": 17540,
+      "supplement_hash": "829b657f98b9cbc908b03e38dd6bf0fd",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "5ff162af",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "House Transportation Hearing"
+    }
+  ],
   "general_provisions": "This bill adds study items for the Department of Transportation.",
   "hilighted_provisions": "This bill:<hr><ltbullet>requires the Department of Transportation to study the composition of the transportation commission;<hr><ltbullet>requires the Department of Transportation to study the necessary qualifications of the executive director;<hr><ltbullet>adds a repeal date for the studies; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -446,10 +496,24 @@
       "name": "Transportation Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/21/2026",
+  "agendas": [
+    {
+      "mtgID": "20217",
+      "committeeID": "HSTTRA",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Transportation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HTRA0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290639"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
+  "last_action_owner": "House Transportation Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -604,6 +668,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Transportation Committee",
+      "actionDate": "1/27/2026 12:04 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Transportation Committee",
+      "actionDate": "1/28/2026 2:48 PM",
+      "actionClass": "A",
+      "voteID": "39041",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-1",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

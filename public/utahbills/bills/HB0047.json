@@ -1,6 +1,6 @@
 {
   "bill_id": 2060249,
-  "change_hash": "0e2133b99af3184451a4d127d79034d1",
+  "change_hash": "b04f6b191ec7d4ba7c4f565eb1db9870",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -45,13 +45,8 @@
   "current_body_id": 94,
   "title": "Vehicle Registration and Insurance Amendments",
   "description": "Vehicle Registration and Insurance Amendments",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -173,6 +168,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "Senate Comm - Favorable Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -593,6 +595,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0047/id/1615088",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=29&house=H"
+    },
+    {
+      "roll_call_id": 1618620,
+      "date": "2026-01-28",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0047/id/1618620",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39049"
     }
   ],
   "amendments": [],
@@ -656,9 +673,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646678,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0047",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0047/id/646678",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0047S02.pdf",
+      "supplement_size": 18317,
+      "supplement_hash": "158f10487d60678d5db0a9f1ae1a3ce4",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "d1079e62",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill amends a provision to require a vehicle owner to maintain liability insurance on a vehicle if the vehicle is operated on a highway, not merely registered.",
   "hilighted_provisions": "This bill:<hr><ltbullet>amends a provision to require a vehicle owner to maintain liability insurance on a vehicle if the vehicle is operated on a highway, not merely registered.",
   "monies": "None",
@@ -671,10 +718,24 @@
       "name": "Revenue and Taxation Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20205",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SREV0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290661"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "1/26/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -855,6 +916,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "1/28/2026 2:56 PM",
+      "actionClass": "A",
+      "voteID": "39049",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

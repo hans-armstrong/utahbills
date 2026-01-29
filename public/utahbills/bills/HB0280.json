@@ -1,6 +1,6 @@
 {
   "bill_id": 2085759,
-  "change_hash": "a3b9ab30e633c6ceb7dbfadfa3bd2fbb",
+  "change_hash": "1f800a3b933e175804a7bff1b9c15f8f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Third Party Litigation Funding Amendments",
   "description": "Third Party Litigation Funding Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -51,6 +50,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-27",
+      "committee_id": 2109,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Judiciary"
     }
   ],
   "history": [
@@ -85,6 +91,20 @@
     {
       "date": "2026-01-22",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "House/ to standing committee in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House/ lifted from standing committee in House Business, Labor, and Commerce Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -227,7 +247,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "dd272a38",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "House Judiciary Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies the Maintenance Funding Practices Act.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms; <hr><ltbullet>distinguishes between consumer maintenance funding and commercial maintenance funding;<hr><ltbullet>extends the consumer's right of rescission; <hr><ltbullet>restricts foreign investment;<hr><ltbullet>restricts specified relationships between an attorney and a funding provider;<hr><ltbullet>provides that a funding provider is jointly and severally liable for an award or order imposing costs or monetary sanctions against a consumer related to the legal claim for which funding was provided;<hr><ltbullet>protects communications between a consumer's attorney and the consumer maintenance funding provider that ascertain a claim's status or an expected value from discovery;<hr><ltbullet>requires that a party disclose, without a discovery request, any commercial maintenance funding agreement where the commercial maintenance funding provider's compensation is contingent on the outcome of the legal claim;<hr><ltbullet>provides that a commercial maintenance funding agreement is admissible at trial;<hr><ltbullet>restricts a commercial maintenance funding provider from making decisions, having influence, or directing the conduct, settlement, or resolution of a legal claim for which funding was provided; and<hr><ltbullet>makes technical and conforming changes. ",
   "monies": "None",
@@ -236,9 +266,9 @@
   "gov_tracking_id": "ALASPTFJJW",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/22/2026",
+  "last_action": "House/ lifted from standing committee",
+  "last_action_owner": "House Business, Labor, and Commerce Committee",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -302,6 +332,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Judiciary Committee",
+      "actionDate": "1/27/2026 12:03 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ lifted from standing committee",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "1/28/2026 11:57 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HLIFTCOM",
       "parm1": "",
       "parm2": ""
     }

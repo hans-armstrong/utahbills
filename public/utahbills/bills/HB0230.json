@@ -1,6 +1,6 @@
 {
   "bill_id": 2071770,
-  "change_hash": "18f95efe487402e3666424061b911a58",
+  "change_hash": "76e7a81dd344020505fde1880f23bc4e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Offender Amendments",
   "description": "Offender Amendments",
-  "pending_committee_id": 2110,
-  "committee": {
-    "committee_id": 2110,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Law Enforcement and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House Comm - Substitute Recommendation in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "House Comm - Favorable Recommendation in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -289,6 +298,10 @@
       "subject_name": "Department of Public Safety"
     },
     {
+      "subject_id": 12020,
+      "subject_name": "Driver License"
+    },
+    {
       "subject_id": 332529,
       "subject_name": "Punishment"
     },
@@ -337,9 +350,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3336760,
+      "date": "2026-01-28",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0230/id/3336760",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0230S02.pdf",
+      "text_size": 87256,
+      "text_hash": "7cf73c39e801fece831ca43b5f27965e",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1618382,
+      "date": "2026-01-28",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0230/id/1618382",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39024"
+    },
+    {
+      "roll_call_id": 1618383,
+      "date": "2026-01-28",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0230/id/1618383",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39025"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -401,20 +463,104 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646449,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0230/id/646449",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0230%20To%20HB0230S02.pdf",
+      "supplement_size": 84292,
+      "supplement_hash": "b492ddcd287c1d4fdaee6b57ae0becf0",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646450,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0230/id/646450",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0230S01%20To%20HB0230S02.pdf",
+      "supplement_size": 83107,
+      "supplement_hash": "36e6ea215dcaf51c3fbbbce7715d29fd",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646451,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0230",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0230/id/646451",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0230H02.pdf",
+      "supplement_size": 17579,
+      "supplement_hash": "e822f85e26f200792f0031323e8f352d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "62e44964",
+      "type": "Hearing",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "location": "",
+      "description": "House Law Enforcement and Criminal Justice Hearing"
+    }
+  ],
   "general_provisions": "This bill concerns provisions relating to offenders.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>requires a county jail to assist certain county jail inmates in obtaining a current driver license or state-issued identification;<hr><ltbullet>requires a substance abuse treatment program to provide the results of a participant's drug test to the participant's supervising probation or parole officer under certain conditions;<hr><ltbullet>requires the Driver License Division to coordinate with a county jail in providing a county inmate with a driver license certificate or a temporary regular identification card;<hr><ltbullet>requires the Department of Corrections to:<hr><ltbullet1>identify and provide information and resources regarding post-incarceration housing; and<hr><ltbullet1>provide annual data to the State Commission on Criminal and Juvenile Justice concerning the types of, and usage of, various incentives offered to inmates;<hr><ltbullet>requires the Division of Adult Probation and Parole to track and annually report information concerning the housing of offenders currently on parole; <hr><ltbullet>standardizes the health information disclosure provisions between the substance abuse treatment requirements and the probation and parole requirements; and <hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>requires a county jail to assist certain county jail inmates in obtaining a current driver license or state-issued identification;<hr><ltbullet>requires a substance abuse treatment program to provide the results of a participant's drug test to the participant's supervising probation or parole officer under certain conditions;<hr><ltbullet>requires the Driver License Division to coordinate with a county jail in providing a county inmate with a driver license certificate or a temporary regular identification card;<hr><ltbullet>requires the Department of Corrections (department) to:<hr><ltbullet1>identify and provide information and resources regarding post-incarceration housing; <hr><ltbullet1>within 12 months after the day on which the department implements a digital communications program for inmates, provide a secure digital portal that will facilitate attorney-client communications and document exchanges between inmates and attorneys; and<hr><ltbullet1>provide annual data to the State Commission on Criminal and Juvenile Justice concerning the types of, and usage of, various incentives offered to inmates;<hr><ltbullet>requires the Division of Adult Probation and Parole to track and annually report information concerning the housing of offenders currently on parole; <hr><ltbullet>standardizes the health information disclosure provisions between the substance abuse treatment requirements and the probation and parole requirements; and <hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Jackie Rogers",
   "fiscal_analyst": "Nate Osborne",
   "gov_tracking_id": "NSBSARVLUY",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20211",
+      "committeeID": "HSTLAW",
+      "mtgDate": "2026-01-28 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Law Enforcement and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HLAW0128.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "290565"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Law Enforcement and Criminal Justice Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/28/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -491,6 +637,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "1/28/2026 2:28 PM",
+      "actionClass": "A",
+      "voteID": "39024",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-4",
+      "actionCode": "HCASUB",
+      "parm1": "2",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "1/28/2026 2:28 PM",
+      "actionClass": "A",
+      "voteID": "39025",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-4",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

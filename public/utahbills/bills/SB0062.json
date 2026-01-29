@@ -1,6 +1,6 @@
 {
   "bill_id": 2061416,
-  "change_hash": "ca4814a9403e51518bb4bc197f4480a1",
+  "change_hash": "d9bb96aaa6e8fc553fe87e5c2571ce95",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-20",
       "event": 9
+    },
+    {
+      "date": "2026-01-27",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -112,6 +116,20 @@
     {
       "date": "2026-01-26",
       "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ committee report favorable in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -224,6 +242,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3334643,
+      "date": "2026-01-28",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0062/id/3334643",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0062S01.pdf",
+      "text_size": 27835,
+      "text_hash": "aeb1788132635b5443f267f6ce9ac7ff",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [
@@ -278,6 +314,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0062S02.pdf",
       "supplement_size": 18278,
       "supplement_hash": "b84c425bc4c2aeb1b53856c9faa0662f",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 646138,
+      "date": "2026-01-28",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0062/id/646138",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0062%20To%20SB0062S01.pdf",
+      "supplement_size": 32053,
+      "supplement_hash": "0b79e65b22a2420c46d6149067cfaf36",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -341,9 +397,9 @@
       "markerID": "289240"
     }
   ],
-  "last_action": "Senate Comm - Favorable Recommendation",
-  "last_action_owner": "Senate Education Committee",
-  "last_action_time": "1/26/2026",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "1/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -446,6 +502,32 @@
       "voteHouse": "",
       "voteStr": "4-2-1",
       "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/27/2026 11:15 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "1/27/2026 11:15 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

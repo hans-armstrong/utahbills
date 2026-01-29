@@ -1,6 +1,6 @@
 {
   "bill_id": 2089975,
-  "change_hash": "054a79d796e89e5faf1db7f49f469a47",
+  "change_hash": "6384822acbc1998d8581f2b0f301fa7e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-22",
       "event": 1
+    },
+    {
+      "date": "2026-01-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "School Discipline Amendments",
   "description": "School Discipline Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2120,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2120,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Education"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-27",
+      "committee_id": 2120,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Education"
     }
   ],
   "history": [
@@ -78,6 +89,13 @@
     {
       "date": "2026-01-22",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-27",
+      "action": "Senate/ to standing committee in Senate Education Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -216,9 +234,9 @@
   "gov_tracking_id": "BPJIIUBYGY",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "1/22/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Education Committee",
+  "last_action_time": "1/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -269,6 +287,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/27/2026 11:08 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }
