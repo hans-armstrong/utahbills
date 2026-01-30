@@ -1,6 +1,6 @@
 {
   "bill_id": 2088656,
-  "change_hash": "53e3dd921b6191518652f4ba026e5129",
+  "change_hash": "2ca2dcd77772b216d09cb5111910b3d4",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Firearm Purchase Amendments",
   "description": "Firearm Purchase Amendments",
-  "pending_committee_id": 5049,
-  "committee": {
-    "committee_id": 5049,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Public Utilities and Energy"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-22",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-29",
+      "action": "House Comm - Favorable Recommendation in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -225,7 +227,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1619354,
+      "date": "2026-01-29",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 2,
+      "nv": 0,
+      "absent": 3,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0314/id/1619354",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39122"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -241,6 +259,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0314.fn.pdf",
       "supplement_size": 1608334,
       "supplement_hash": "acaac995508b901849b9cd678fcbe9c2",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647462,
+      "date": "2026-01-29",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0314",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0314/id/647462",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0314H02.pdf",
+      "supplement_size": 17539,
+      "supplement_hash": "61e60e17b1cf5f4a70fd985c1f3ef440",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -267,10 +305,24 @@
   "fiscal_analyst": "Jared Gibbs",
   "gov_tracking_id": "PLQJDNEYDM",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20239",
+      "committeeID": "HSTPUT",
+      "mtgDate": "2026-01-29 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Public Utilities and Energy Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HPUT0129.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291261"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Public Utilities and Energy Committee",
-  "last_action_time": "1/28/2026",
+  "last_action_time": "1/29/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -347,6 +399,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "1/29/2026 2:35 PM",
+      "actionClass": "A",
+      "voteID": "39122",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-2-3",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

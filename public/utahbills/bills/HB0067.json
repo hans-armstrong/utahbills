@@ -1,6 +1,6 @@
 {
   "bill_id": 2060763,
-  "change_hash": "87de7cf54ce09b3c11b516bb32637c69",
+  "change_hash": "dfb33c998800eb5b5eb79808002de5ee",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -32,6 +32,10 @@
     {
       "date": "2026-01-27",
       "event": 9
+    },
+    {
+      "date": "2026-01-29",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -172,6 +176,20 @@
     {
       "date": "2026-01-27",
       "action": "Senate Comm - Consent Calendar Recommendation in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "Senate/ comm rpt/ placed on Consent Calendar in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-29",
+      "action": "Senate/ 2nd reading in Senate Consent Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -482,9 +500,9 @@
       "markerID": "289938"
     }
   ],
-  "last_action": "Senate Comm - Consent Calendar Recommendation",
-  "last_action_owner": "Senate Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "1/27/2026",
+  "last_action": "Senate/ 2nd reading",
+  "last_action_owner": "Senate Consent Calendar",
+  "last_action_time": "1/29/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -678,6 +696,32 @@
       "voteHouse": "",
       "voteStr": "5-0-2",
       "actionCode": "SCACONCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ placed on Consent Calendar",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "1/29/2026 11:46 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRCON",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate Consent Calendar",
+      "actionDate": "1/29/2026 11:46 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
       "parm1": "",
       "parm2": ""
     }

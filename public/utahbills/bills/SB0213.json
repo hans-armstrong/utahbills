@@ -1,6 +1,6 @@
 {
   "bill_id": 2099167,
-  "change_hash": "288062026d9479916458f4585dc7a9e3",
+  "change_hash": "f3680a2ce980ae58509c7bf3c4095326",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -19,8 +19,13 @@
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0213.html",
   "completed": 0,
   "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status_date": "2026-01-29",
+  "progress": [
+    {
+      "date": "2026-01-29",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0213",
@@ -32,9 +37,22 @@
   "current_body_id": 94,
   "title": "Utah Payment of Wages Act Statute of Limitations",
   "description": "Utah Payment of Wages Act Statute of Limitations",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2026-01-29",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-28",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -150,7 +182,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 647975,
+      "date": "2026-01-30",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0213",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0213/id/647975",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0213.fn.pdf",
+      "supplement_size": 1608357,
+      "supplement_hash": "4e684a3a3a2b0a5f864102cac67ce4b2",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill modifies the private cause of action for the payment of wages.",
   "hilighted_provisions": "This bill:<hr><ltbullet>enacts a one-year statute of limitations period for a lawsuit under the Utah Payment of Wages Act. ",

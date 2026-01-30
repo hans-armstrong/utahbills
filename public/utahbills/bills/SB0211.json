@@ -1,6 +1,6 @@
 {
   "bill_id": 2095648,
-  "change_hash": "9775a1583d700d510b9e32692fc8f93e",
+  "change_hash": "6dd39e6a17c2e899794fd442c1b63a76",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/SB0211/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0211.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-01-29",
+  "progress": [
+    {
+      "date": "2026-01-29",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0211",
@@ -32,9 +37,22 @@
   "current_body_id": 94,
   "title": "Tort Amendments",
   "description": "Tort Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2026-01-29",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-28",
@@ -56,6 +74,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -158,7 +183,17 @@
   "votes": [],
   "amendments": [],
   "supplements": [],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "473e05b9",
+      "type": "Hearing",
+      "date": "2026-01-30",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses evidence in a civil tort action.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>addresses evidence relating to a collateral source in a civil action for damages arising out of a tort; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -167,9 +202,9 @@
   "gov_tracking_id": "TCSDYWEDGK",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ received bill from Legislative Research",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "1/28/2026",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "1/29/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -207,6 +242,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "1/29/2026 11:48 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }

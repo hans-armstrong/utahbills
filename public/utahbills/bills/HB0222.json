@@ -1,6 +1,6 @@
 {
   "bill_id": 2070113,
-  "change_hash": "3880a054d284f63e7d1730408e92e199",
+  "change_hash": "b11950c04e832eb4c70affdb6c1a9ff3",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Limitation of Actions Amendments",
   "description": "Limitation of Actions Amendments",
-  "pending_committee_id": 5049,
-  "committee": {
-    "committee_id": 5049,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Public Utilities and Energy"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-29",
+      "action": "House Comm - Substitute Recommendation in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "House Comm - Favorable Recommendation in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -183,18 +192,6 @@
     {
       "subject_id": 332528,
       "subject_name": "Judicial Operations"
-    },
-    {
-      "subject_id": 332738,
-      "subject_name": "Air Quality"
-    },
-    {
-      "subject_id": 332638,
-      "subject_name": "Environment"
-    },
-    {
-      "subject_id": 367572,
-      "subject_name": "Civil Litigation"
     }
   ],
   "texts": [
@@ -215,9 +212,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3340909,
+      "date": "2026-01-29",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0222/id/3340909",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0222S01.pdf",
+      "text_size": 23385,
+      "text_hash": "4544d67921e04e2781dd934bb27b64be",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1619743,
+      "date": "2026-01-29",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0222/id/1619743",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39119"
+    },
+    {
+      "roll_call_id": 1619744,
+      "date": "2026-01-29",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 1,
+      "nv": 0,
+      "absent": 2,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0222/id/1619744",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39120"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -239,6 +285,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647327,
+      "date": "2026-01-29",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0222/id/647327",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0222%20To%20HB0222S01.pdf",
+      "supplement_size": 25205,
+      "supplement_hash": "9908205a8a87fb1aefce8d454b3f659b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647860,
+      "date": "2026-01-29",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0222",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0222/id/647860",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0222H02.pdf",
+      "supplement_size": 17581,
+      "supplement_hash": "6413b8fd051d4bdf8cfeb69bed074f02",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -253,16 +339,30 @@
     }
   ],
   "general_provisions": "This bill addresses the liability of a person for damage or injury caused by greenhouse gas emissions.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>clarifies the limitation on liability of a person for damage or injury caused by greenhouse gas emissions;<hr><ltbullet>removes the requirement that a person reside or do business in this state to qualify for limited liability for damage or injury caused by greenhouse gas emissions; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>clarifies the limitation on liability of a person for damage or injury caused by greenhouse gas emissions;<hr><ltbullet>removes the requirement that a person reside or do business in this state to qualify for limited liability for damage or injury caused by greenhouse gas emissions; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Paige Nelson",
   "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "CLNNQGYIWO",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20239",
+      "committeeID": "HSTPUT",
+      "mtgDate": "2026-01-29 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Public Utilities and Energy Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HPUT0129.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291210"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Public Utilities and Energy Committee",
-  "last_action_time": "1/28/2026",
+  "last_action_time": "1/29/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -339,6 +439,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "1/29/2026 2:25 PM",
+      "actionClass": "A",
+      "voteID": "39119",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-2",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "1/29/2026 2:26 PM",
+      "actionClass": "A",
+      "voteID": "39120",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-1-2",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2061154,
-  "change_hash": "6232f4f09c894a612ccc677ff9249a0a",
+  "change_hash": "61371e57aa93e15a30abfd6d644aa3f3",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "State Holiday Amendments",
   "description": "State Holiday Amendments",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-29",
+      "action": "House Comm - Favorable Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -209,7 +211,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1619765,
+      "date": "2026-01-29",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0104/id/1619765",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39147"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -225,6 +243,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0104.fn.pdf",
       "supplement_size": 1609370,
       "supplement_hash": "0fb437f983203f1bc191485241f53ae4",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647869,
+      "date": "2026-01-29",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0104",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0104/id/647869",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0104H02.pdf",
+      "supplement_size": 17528,
+      "supplement_hash": "c8671e8c46003c2e242a87c198ab1476",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -251,10 +289,24 @@
   "fiscal_analyst": "Travis D Eisenbacher",
   "gov_tracking_id": "PTBSEQUECX",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20275",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2026-01-29 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HGOC0129.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291345"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "1/26/2026",
+  "last_action_time": "1/29/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -331,6 +383,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "1/29/2026 3:13 PM",
+      "actionClass": "A",
+      "voteID": "39147",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-2",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

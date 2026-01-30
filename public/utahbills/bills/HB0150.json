@@ -1,6 +1,6 @@
 {
   "bill_id": 2066094,
-  "change_hash": "dba1b2f6823de0ea53ab128779059393",
+  "change_hash": "ec1efb71566ecdbe58fd8066b3265392",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-29",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "School-based Speech-language Pathologist Funding Amendments",
   "description": "School-based Speech-language Pathologist Funding Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2105,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2105,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Education"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-29",
+      "committee_id": 2105,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Education"
     }
   ],
   "history": [
@@ -78,6 +89,20 @@
     {
       "date": "2026-01-20",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-29",
+      "action": "Bill Substituted by Sponsor in House Rules Comm in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "House/ to standing committee in House Education Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -342,18 +367,28 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
-  "general_provisions": "This bill amends definitions related to funding.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>amends certain definitions related to appropriations for teaching supplies; and<hr><ltbullet>makes technical and conforming changes.",
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "51017dbf",
+      "type": "Hearing",
+      "date": "2026-01-30",
+      "time": "14:00",
+      "location": "",
+      "description": "House Education Hearing"
+    }
+  ],
+  "general_provisions": "This bill amends definitions related to teaching supplies and a certain salary supplement.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>amends certain definitions and provisions to expand eligibility related to appropriations for:<hr><ltbullet1>teaching supplies; and<hr><ltbullet1>salary supplements; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Tyler Keetch",
   "fiscal_analyst": "Rachelle Gunderson",
   "gov_tracking_id": "HFGHRLDCEL",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/20/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Education Committee",
+  "last_action_time": "1/29/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -404,6 +439,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Substituted by Sponsor in House Rules Comm",
+      "owner": "House Rules Committee",
+      "actionDate": "1/29/2026 11:25 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRULSUBH",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Education Committee",
+      "actionDate": "1/29/2026 12:06 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

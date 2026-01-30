@@ -1,6 +1,6 @@
 {
   "bill_id": 2085881,
-  "change_hash": "2489edd3ce48d9fd9793f08e7ce7319b",
+  "change_hash": "e5e54feabbb5a2c44d28abe60a44902f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Transportation Earmark Amendments",
   "description": "Transportation Earmark Amendments",
-  "pending_committee_id": 2115,
-  "committee": {
-    "committee_id": 2115,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -113,6 +108,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-29",
+      "action": "House Comm - Held in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -242,7 +244,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1619794,
+      "date": "2026-01-29",
+      "desc": "House Comm - Held",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 0,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0282/id/1619794",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39160"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -324,10 +342,24 @@
   "fiscal_analyst": "Andrea Wilko",
   "gov_tracking_id": "XRJDIKUEGB",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20301",
+      "committeeID": "HSTREV",
+      "mtgDate": "2026-01-29 14:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HREV0129.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291399"
+    }
+  ],
+  "last_action": "House Comm - Held",
   "last_action_owner": "House Revenue and Taxation Committee",
-  "last_action_time": "1/28/2026",
+  "last_action_time": "1/29/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -417,6 +449,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "1/29/2026 3:42 PM",
+      "actionClass": "A",
+      "voteID": "39160",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-0",
+      "actionCode": "HCAHELD",
       "parm1": "",
       "parm2": ""
     }

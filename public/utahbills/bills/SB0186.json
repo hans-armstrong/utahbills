@@ -1,6 +1,6 @@
 {
   "bill_id": 2090912,
-  "change_hash": "2ce4adc39f781f3b5f727aaa80e539e6",
+  "change_hash": "e09419c0e5aded479f4a77c52960e009",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Charter School Base Funding Amendments",
   "description": "Charter School Base Funding Amendments",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-23",
@@ -99,6 +94,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-29",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -278,7 +287,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1619545,
+      "date": "2026-01-29",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 1,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0186/id/1619545",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39135"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -294,6 +319,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0186.fn.pdf",
       "supplement_size": 1610849,
       "supplement_hash": "0c8bec6af312862604585f5e610e6a5d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647645,
+      "date": "2026-01-29",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0186",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0186/id/647645",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0186S02.pdf",
+      "supplement_size": 18293,
+      "supplement_hash": "883e4c38982d8661fdc4ab660c088cba",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -320,10 +365,24 @@
   "fiscal_analyst": "Rachelle Gunderson",
   "gov_tracking_id": "RTTKBQQHPM",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20268",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-01-29 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDU0129.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291256"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "1/27/2026",
+  "last_action_time": "1/29/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -387,6 +446,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/29/2026 10:05 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/29/2026 2:48 PM",
+      "actionClass": "A",
+      "voteID": "39135",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-1-2",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

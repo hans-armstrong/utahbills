@@ -1,6 +1,6 @@
 {
   "bill_id": 2087273,
-  "change_hash": "0d55ebb634f6c3a880585323d32e924b",
+  "change_hash": "c2a401b890e107f07ffc708059e27b52",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Joint Resolution to Initiate a Law School at Utah Valley University",
   "description": "Joint Resolution to Initiate a Law School at Utah Valley University",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-21",
@@ -67,14 +62,14 @@
   "history": [
     {
       "date": "2026-01-20",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-01-20",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -103,6 +98,13 @@
     {
       "date": "2026-01-26",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -225,7 +227,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1619756,
+      "date": "2026-01-29",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SJR008/id/1619756",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39152"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -241,6 +259,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SJR008.fn.pdf",
       "supplement_size": 1609092,
       "supplement_hash": "305b1b15418c254597f724ba25af5f18",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647867,
+      "date": "2026-01-29",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SJR008",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SJR008/id/647867",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SJR008S02.pdf",
+      "supplement_size": 18309,
+      "supplement_hash": "32ce2bbdd8bb4f727a28d95f279ad125",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -267,10 +305,24 @@
   "fiscal_analyst": "Joseph Fitzgerald",
   "gov_tracking_id": "XKSQXWVLJJ",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "agendas": [
+    {
+      "mtgID": "20268",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-01-29 14:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDU0129.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291368"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "1/26/2026",
+  "last_action_time": "1/29/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -347,6 +399,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/29/2026 3:32 PM",
+      "actionClass": "A",
+      "voteID": "39152",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

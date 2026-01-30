@@ -1,6 +1,6 @@
 {
   "bill_id": 2056546,
-  "change_hash": "9717a811a5fcb7244006f6571e9fa557",
+  "change_hash": "57968d21d5199b3db68929aa8f1761f6",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -51,14 +51,14 @@
   "history": [
     {
       "date": "2025-12-02",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2025-12-02",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -108,6 +108,20 @@
     {
       "date": "2026-01-21",
       "action": "House/ lifted from calendar sent to standing comm in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "House Comm - Substitute Recommendation in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "House Comm - Favorable Recommendation in House Political Subdivisions Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -316,7 +330,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1619787,
+      "date": "2026-01-29",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0013/id/1619787",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39142"
+    },
+    {
+      "roll_call_id": 1619788,
+      "date": "2026-01-29",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 6,
+      "nay": 1,
+      "nv": 0,
+      "absent": 5,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0013/id/1619788",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39145"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -378,6 +423,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647888,
+      "date": "2026-01-29",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0013",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0013/id/647888",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0013H01.pdf",
+      "supplement_size": 17622,
+      "supplement_hash": "bc09cda52d9ef8201d1fd6169338c178",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -392,7 +457,7 @@
     }
   ],
   "general_provisions": "This bill authorizes municipalities to place a political subdivision lien on property for certain past due services and makes related amendments.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms and modifies definitions;<hr><ltbullet>authorizes a municipality that sets a fee schedule by ordinance or resolution for water, sewer, or utility-related services provided by the municipality, to bill a customer receiving the water, sewer, or utility-related services;<hr><ltbullet>authorizes a municipality or special district to:<hr><ltbullet1>charge interest on a past due fee; and<hr><ltbullet1>charge and collect a one-time penalty on a past due fee as an administrative cost; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms and modifies definitions;<hr><ltbullet>authorizes a municipality that sets a fee schedule by ordinance or resolution for water, sewer, or utility-related services provided by the municipality, to bill a customer receiving the water, sewer, or utility-related services;<hr><ltbullet>authorizes a municipality to place a political subdivision lien on property for certain past due service fees after providing notice of:<hr><ltbullet1>the past due fees; and<hr><ltbullet1>the municipality's intent to record a political subdivision lien if the past due fees remain unpaid;<hr><ltbullet>authorizes a municipality or special district to:<hr><ltbullet1>charge interest on a past due fee; and<hr><ltbullet1>charge and collect a one-time penalty on a past due fee as an administrative cost; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "RuthAnne Oakey-Frost",
   "fiscal_analyst": "Timothy Kevin Bereece",
@@ -403,24 +468,25 @@
       "name": "Political Subdivisions Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "House/ lifted from calendar sent to standing comm",
-  "last_action_owner": "House Political Subdivisions Committee",
-  "last_action_time": "1/21/2026",
-  "action_history": [
+  "agendas": [
     {
-      "description": "Bill Numbered but not Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "12/2/2025 2:54 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
-    },
+      "mtgID": "20294",
+      "committeeID": "HSTPOL",
+      "mtgDate": "2026-01-29 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HPOL0129.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291326"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
+  "last_action_owner": "House Political Subdivisions Committee",
+  "last_action_time": "1/29/2026",
+  "action_history": [
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -431,6 +497,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Numbered but not Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "12/2/2025 2:54 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LNUMBER",
       "parm1": "",
       "parm2": ""
     },
@@ -522,6 +601,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HLIFTCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "1/29/2026 3:03 PM",
+      "actionClass": "A",
+      "voteID": "39142",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-5",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "1/29/2026 3:05 PM",
+      "actionClass": "A",
+      "voteID": "39145",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-1-5",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

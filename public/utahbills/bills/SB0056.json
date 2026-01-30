@@ -1,6 +1,6 @@
 {
   "bill_id": 2061224,
-  "change_hash": "0f5051bc43fbc49f2bedc9398dec451b",
+  "change_hash": "3ba0a4ec978a03a4af39cb7e4fb31663",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Citizenship Education Amendments",
   "description": "Citizenship Education Amendments",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-29",
+      "action": "Senate Comm - Amendment Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "Senate Comm - Motion to Recommend Failed in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -217,8 +226,82 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
-  "amendments": [],
+  "votes": [
+    {
+      "roll_call_id": 1619776,
+      "date": "2026-01-29",
+      "desc": "Senate Comm - Amendment Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0056/id/1619776",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39153"
+    },
+    {
+      "roll_call_id": 1619777,
+      "date": "2026-01-29",
+      "desc": "Senate Comm - Motion to Recommend Failed",
+      "yea": 2,
+      "nay": 3,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 0,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0056/id/1619777",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39154"
+    }
+  ],
+  "amendments": [
+    {
+      "amendment_id": 269285,
+      "adopted": 0,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2026-01-29",
+      "title": "Senate Amendment 2",
+      "description": "Senate Amendment 2",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0056/id/269285",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/SB0056.Samd.2.pdf",
+      "amendment_size": 23475,
+      "amendment_hash": "3e5304f20c0a783c9e6468ec94d447c0",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    },
+    {
+      "amendment_id": 269286,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2026-01-29",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0056/id/269286",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/SB0056.Samd.1.pdf",
+      "amendment_size": 23305,
+      "amendment_hash": "9eb220539a0434ccf4b58959c18ee3b1",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 637686,
@@ -259,10 +342,24 @@
   "fiscal_analyst": "Kiki Hudson",
   "gov_tracking_id": "JMMODTJRDO",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20268",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-01-29 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDU0129.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291393"
+    }
+  ],
+  "last_action": "Senate Comm - Motion to Recommend Failed",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "1/20/2026",
+  "last_action_time": "1/29/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -339,6 +436,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Amendment Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/29/2026 3:34 PM",
+      "actionClass": "A",
+      "voteID": "39153",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCAAMD",
+      "parm1": "2",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Motion to Recommend Failed",
+      "owner": "Senate Education Committee",
+      "actionDate": "1/29/2026 3:34 PM",
+      "actionClass": "A",
+      "voteID": "39154",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "2-3-2",
+      "actionCode": "SCAFAVFAIL",
       "parm1": "",
       "parm2": ""
     }

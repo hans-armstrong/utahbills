@@ -1,6 +1,6 @@
 {
   "bill_id": 2071201,
-  "change_hash": "9b3f55e43342a0e4e8f8b61fea39a0f7",
+  "change_hash": "fb81580dbedc6b253cec545a5ffde391",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Restricted Account Modifications",
   "description": "Restricted Account Modifications",
-  "pending_committee_id": 2115,
-  "committee": {
-    "committee_id": 2115,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -67,14 +62,14 @@
   "history": [
     {
       "date": "2026-01-12",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-01-12",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -106,6 +101,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-29",
+      "action": "House Comm - Substitute Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "House Comm - Favorable Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -245,9 +254,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3342022,
+      "date": "2026-01-29",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0229/id/3342022",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0229S02.pdf",
+      "text_size": 38180,
+      "text_hash": "9e7ba2f94c2e8e35e0a73d8b10bcb69d",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1619734,
+      "date": "2026-01-29",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 0,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0229/id/1619734",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39161"
+    },
+    {
+      "roll_call_id": 1619735,
+      "date": "2026-01-29",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 0,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0229/id/1619735",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39162"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -289,6 +347,66 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647851,
+      "date": "2026-01-29",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0229/id/647851",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0229%20To%20HB0229S02.pdf",
+      "supplement_size": 51398,
+      "supplement_hash": "9ff47ed6a327c693b99e5456820a32cc",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647852,
+      "date": "2026-01-29",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0229/id/647852",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0229S01%20To%20HB0229S02.pdf",
+      "supplement_size": 51390,
+      "supplement_hash": "85c771654271b2adca68ea28a6987bb5",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647853,
+      "date": "2026-01-29",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0229",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0229/id/647853",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0229H02.pdf",
+      "supplement_size": 17581,
+      "supplement_hash": "73e5e1571895f6630d4170dd50dc14d1",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -303,30 +421,31 @@
     }
   ],
   "general_provisions": "This bill modifies provisions related to restricted accounts.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>modifies the amount of certain distributions from the Tobacco Settlement Restricted Account;<hr><ltbullet>directs how to fund statutory distributions from the Tobacco Settlement Restricted Account when funds in the account are insufficient to cover the statutory distributions;<hr><ltbullet>addresses discretionary funding from the Tobacco Settlement Restricted Account and the Electronic Cigarette Substance and Nicotine Product Proceeds Restricted Account when funds in the accounts are insufficient to cover the discretionary funding; and<hr><ltbullet>makes a technical correction to add a sunset review for certain provisions related to the Electronic Cigarette Substance and Nicotine Product Proceeds Restricted Account before the provisions are repealed in accordance with existing statute.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>modifies provisions that govern the permissible uses of funds in the Tobacco Settlement Restricted Account and the Electronic Cigarette Substance and Nicotine Product Proceeds Restricted Account;<hr><ltbullet>directs how to satisfy legislative appropriations from the Tobacco Settlement Restricted Account or the Electronic Cigarette Substance and Nicotine Product Proceeds Restricted Account when the total appropriated amounts exceed actual revenue;<hr><ltbullet>makes a technical correction to add a sunset review for certain provisions related to the Electronic Cigarette Substance and Nicotine Product Proceeds Restricted Account before the provisions are repealed in accordance with existing statute; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Christine R. Gilbert",
   "fiscal_analyst": "Russell T. Frandsen",
   "gov_tracking_id": "XUWSVBQDQE",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Revenue and Taxation Committee",
-  "last_action_time": "1/27/2026",
-  "action_history": [
+  "agendas": [
     {
-      "description": "Bill Numbered but not Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/12/2026 2:01 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
-    },
+      "mtgID": "20301",
+      "committeeID": "HSTREV",
+      "mtgDate": "2026-01-29 14:00:00.0",
+      "agendaItem": "7",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HREV0129.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291410"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
+  "last_action_owner": "House Revenue and Taxation Committee",
+  "last_action_time": "1/29/2026",
+  "action_history": [
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -337,6 +456,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Numbered but not Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/12/2026 2:01 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LNUMBER",
       "parm1": "",
       "parm2": ""
     },
@@ -389,6 +521,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "1/29/2026 3:46 PM",
+      "actionClass": "A",
+      "voteID": "39161",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-0",
+      "actionCode": "HCASUB",
+      "parm1": "2",
+      "parm2": "1"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "1/29/2026 3:46 PM",
+      "actionClass": "A",
+      "voteID": "39162",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-0",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

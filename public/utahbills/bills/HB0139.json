@@ -1,6 +1,6 @@
 {
   "bill_id": 2065240,
-  "change_hash": "bf5f093e91dcf051883e3e7fae2dc1ec",
+  "change_hash": "70ff79cd0114483af25568fea1b0584e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-27",
       "event": 9
+    },
+    {
+      "date": "2026-01-29",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -112,6 +116,20 @@
     {
       "date": "2026-01-28",
       "action": "House Comm - Favorable Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "House/ comm rpt/ substituted in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-01-29",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -343,6 +361,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0139/id/1618827",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39074"
+    },
+    {
+      "roll_call_id": 1619747,
+      "date": "2026-01-28",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 6,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0139/id/1619747",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39072"
     }
   ],
   "amendments": [],
@@ -406,6 +439,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647411,
+      "date": "2026-01-29",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0139S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0139/id/647411",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0139S01.fn.pdf",
+      "supplement_size": 1609109,
+      "supplement_hash": "ee6143592d7d1f3318fcf25b2c5ede43",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -441,9 +494,9 @@
       "markerID": "290784"
     }
   ],
-  "last_action": "House Comm - Favorable Recommendation",
-  "last_action_owner": "House Judiciary Committee",
-  "last_action_time": "1/28/2026",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "1/29/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -546,6 +599,32 @@
       "voteHouse": "",
       "voteStr": "6-0-5",
       "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Judiciary Committee",
+      "actionDate": "1/29/2026 11:13 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "1/29/2026 11:13 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

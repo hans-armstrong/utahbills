@@ -1,6 +1,6 @@
 {
   "bill_id": 2056812,
-  "change_hash": "00dbbfeb1ca071f92bd3da4f39ffc0a0",
+  "change_hash": "054176b90a8bd23befa3fee9348f77ef",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -197,6 +197,27 @@
     {
       "date": "2026-01-27",
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "Senate/ placed on 3rd Reading Calendar table in Senate 3rd Reading Calendar Table",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -496,6 +517,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/HB0021/id/1617324",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38887"
+    },
+    {
+      "roll_call_id": 1619231,
+      "date": "2026-01-29",
+      "desc": "Senate/ passed 2nd reading",
+      "yea": 29,
+      "nay": 0,
+      "nv": 0,
+      "absent": 0,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0021/id/1619231",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=132&house=S"
     }
   ],
   "amendments": [
@@ -636,15 +672,15 @@
       "mtgPlace": "220 Senate Building",
       "committeeName": "Senate Business and Labor Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00000758.htm",
       "agendaURL": "/~2026/agenda/SBUS0126.ag.htm",
       "billSession": "2026GS",
       "markerID": "289456"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "1/27/2026",
+  "last_action": "Senate/ placed on 3rd Reading Calendar table",
+  "last_action_owner": "Senate 3rd Reading Calendar Table",
+  "last_action_time": "1/29/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -877,6 +913,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "1/29/2026 11:55 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "1/29/2026 11:57 AM",
+      "actionClass": "S",
+      "voteID": "132",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "29-0-0",
+      "actionCode": "SPASS2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 3rd Reading Calendar table",
+      "owner": "Senate 3rd Reading Calendar Table",
+      "actionDate": "1/29/2026 11:57 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON3TBL",
       "parm1": "",
       "parm2": ""
     }

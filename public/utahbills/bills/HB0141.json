@@ -1,6 +1,6 @@
 {
   "bill_id": 2065330,
-  "change_hash": "395c5fc0a69cd59a4d81453ac803e99b",
+  "change_hash": "2d13b8ef3d20253b3c78a7b8592a234f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "International Money Transmission Amendments",
   "description": "International Money Transmission Amendments",
-  "pending_committee_id": 2115,
-  "committee": {
-    "committee_id": 2115,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-29",
+      "action": "House Comm - Substitute Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "House Comm - Favorable Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -183,6 +192,18 @@
     {
       "subject_id": 11888,
       "subject_name": "Revenue and Taxation"
+    },
+    {
+      "subject_id": 11921,
+      "subject_name": "Financial Institutions"
+    },
+    {
+      "subject_id": 11873,
+      "subject_name": "Department of Financial Institutions"
+    },
+    {
+      "subject_id": 11917,
+      "subject_name": "State Tax Commission"
     }
   ],
   "texts": [
@@ -223,7 +244,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1619784,
+      "date": "2026-01-29",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0141/id/1619784",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39116"
+    },
+    {
+      "roll_call_id": 1619785,
+      "date": "2026-01-29",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 8,
+      "nay": 2,
+      "nv": 0,
+      "absent": 1,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0141/id/1619785",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39117"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -265,6 +317,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647887,
+      "date": "2026-01-29",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0141",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0141/id/647887",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0141H02.pdf",
+      "supplement_size": 17570,
+      "supplement_hash": "d50799a32834ac6f5c455caa73b06fb9",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -279,16 +351,30 @@
     }
   ],
   "general_provisions": "This bill enacts provisions related to international money transmissions.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>imposes a tax on international money transmissions on or after a certain date;<hr><ltbullet>exempts an international money transmission from the tax if the customer requesting the transaction presents valid identification;<hr><ltbullet>requires the tax to be stated separately on an invoice or receipt;<hr><ltbullet>requires licensed money transmitters to remit collected taxes quarterly and report annually to the State Tax Commission;<hr><ltbullet>provides for the State Tax Commission's administration of the tax;<hr><ltbullet>enacts a nonrefundable income tax credit for individuals who pay the tax;<hr><ltbullet>requires the commissioner of the Department of Financial Institutions to annually provide a list of each licensed money transmitter to the State Tax Commission; and<hr><ltbullet>makes technical changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>imposes a tax on international money transmissions on or after a certain date;<hr><ltbullet>exempts an international money transmission from the tax if the customer requesting the transaction presents valid identification;<hr><ltbullet>requires the tax to be stated separately on an invoice or receipt;<hr><ltbullet>requires licensed money transmitters to remit collected taxes quarterly and report annually to the State Tax Commission;<hr><ltbullet>provides for the State Tax Commission's administration of the tax;<hr><ltbullet>requires the commissioner of the Department of Financial Institutions to annually provide a list of each licensed money transmitter to the State Tax Commission; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
   "attorney": "Gus Harb",
   "fiscal_analyst": "Andrea Wilko",
   "gov_tracking_id": "RNDDHVNJIG",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20301",
+      "committeeID": "HSTREV",
+      "mtgDate": "2026-01-29 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HREV0129.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291213"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Revenue and Taxation Committee",
-  "last_action_time": "1/23/2026",
+  "last_action_time": "1/29/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -365,6 +451,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "1/29/2026 2:21 PM",
+      "actionClass": "A",
+      "voteID": "39116",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-1",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "1/29/2026 2:22 PM",
+      "actionClass": "A",
+      "voteID": "39117",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-2-1",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

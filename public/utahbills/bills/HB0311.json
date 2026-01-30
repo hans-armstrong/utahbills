@@ -1,6 +1,6 @@
 {
   "bill_id": 2088794,
-  "change_hash": "d399b2c00d56b4d44f514860fa6db749",
+  "change_hash": "0df076bdbde0da30d8d368c8dd8cd94f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Amendments to Election Law",
   "description": "Amendments to Election Law",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-22",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-29",
+      "action": "House Comm - Favorable Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -217,7 +219,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1619790,
+      "date": "2026-01-29",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 12,
+      "nay": 0,
+      "nv": 0,
+      "absent": 0,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0311/id/1619790",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39155"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -233,6 +251,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0311.fn.pdf",
       "supplement_size": 1608341,
       "supplement_hash": "2b9a02c198a017e94c15ef2ca5920ccb",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 647894,
+      "date": "2026-01-29",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0311",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0311/id/647894",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0311H02.pdf",
+      "supplement_size": 17526,
+      "supplement_hash": "b34d7ae4d9085a78c12654de6f080110",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -259,10 +297,24 @@
   "fiscal_analyst": "Ivan D. Djambov",
   "gov_tracking_id": "MQBGDUAQXW",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20275",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2026-01-29 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HGOC0129.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291366"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "1/27/2026",
+  "last_action_time": "1/29/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -339,6 +391,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "1/29/2026 3:35 PM",
+      "actionClass": "A",
+      "voteID": "39155",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-0-0",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }
