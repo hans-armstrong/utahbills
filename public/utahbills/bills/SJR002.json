@@ -1,6 +1,6 @@
 {
   "bill_id": 2056780,
-  "change_hash": "f4879053bbdb8aea3103b5c66fcd755e",
+  "change_hash": "77d91529894ead3bf9d224e01bca1ace",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Joint Resolution Regarding Constitutional Brackets",
   "description": "Joint Resolution Regarding Constitutional Brackets",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -145,6 +140,13 @@
     {
       "date": "2026-01-21",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House Comm - Favorable Recommendation in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -364,6 +366,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SJR002/id/1614819",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=29&house=S"
+    },
+    {
+      "roll_call_id": 1623344,
+      "date": "2026-02-04",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 8,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SJR002/id/1623344",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39448"
     }
   ],
   "amendments": [
@@ -409,9 +426,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 657413,
+      "date": "2026-02-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SJR002",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SJR002/id/657413",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SJR002H02.pdf",
+      "supplement_size": 17537,
+      "supplement_hash": "24a0a1bad5017ba7be0f32dbd6a08622",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "8d05f3bd",
+      "type": "Hearing",
+      "date": "2026-02-04",
+      "time": "12:30",
+      "location": "",
+      "description": "House Rules Hearing"
+    }
+  ],
   "general_provisions": "This resolution addresses brackets surrounding the section titles in the Utah Constitution.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>provides the history of section titles and brackets in the Utah Constitution;<hr><ltbullet>determines the effect of the section titles and surrounding brackets; and<hr><ltbullet>directs the Office of Legislative Research and General Counsel to remove the brackets surrounding titles in future constitutional amendments and the published Utah Constitution.",
   "monies": "None",
@@ -424,10 +471,24 @@
       "name": "Judiciary Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
+  "agendas": [
+    {
+      "mtgID": "20408",
+      "committeeID": "HSTRUL",
+      "mtgDate": "2026-02-04 12:30:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "450 State Capitol",
+      "committeeName": "House Rules Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HRUL0204.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "293614"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/21/2026",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -582,6 +643,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Rules Committee",
+      "actionDate": "2/4/2026 1:56 PM",
+      "actionClass": "A",
+      "voteID": "39448",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-3",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

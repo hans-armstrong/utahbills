@@ -1,6 +1,6 @@
 {
   "bill_id": 2094550,
-  "change_hash": "a24a9e70d74e3cfbacb8956dd24af6a1",
+  "change_hash": "8d6909f43ac16e314af5d61153acfa44",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-28",
       "event": 1
+    },
+    {
+      "date": "2026-02-03",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Real Estate Transaction Amendments",
   "description": "Real Estate Transaction Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 5042,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 5042,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Business, Labor, and Commerce"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-03",
+      "committee_id": 5042,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Business, Labor, and Commerce"
     }
   ],
   "history": [
@@ -78,6 +89,13 @@
     {
       "date": "2026-01-28",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ to standing committee in House Business, Labor, and Commerce Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -226,7 +244,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 648397,
+      "date": "2026-01-30",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0395",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0395/id/648397",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0395.fn.pdf",
+      "supplement_size": 1610325,
+      "supplement_hash": "ef51cd44290d720c735f66a6669cb224",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill enacts the Utah Real Estate Cybercrime Prevention Act.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>makes failing to use the real estate transaction communication network (network) unprofessional conduct for employees of appraisal management companies, appraisers, escrow agents, mortgage lenders, mortgage loan originators, real estate sales agents, real estate brokers, title insurance licensees, and title insurers;<hr><ltbullet>makes violating a rule from the real estate transaction communication utility (utility) unprofessional conduct for appraisal management companies, appraisers, escrow agents, mortgage lenders, mortgage loan originators, real estate sales agents, real estate brokers, title insurance licensees, and title insurers;<hr><ltbullet>requires covered individuals to use the network to send covered communications related to real estate transactions;<hr><ltbullet>creates the Real Estate Communication Commission (commission) within the Department of Commerce to oversee the network;<hr><ltbullet>assigns the commission duties such as selecting a utility and approving fee schedules;<hr><ltbullet>grants the commission the power to issue or revoke a certificate of authority and recommend enforcement actions to other regulatory agencies;<hr><ltbullet>mandates that any person operating a network obtain a certificate of authority from the commission;<hr><ltbullet>requires the utility to submit all user eligibility rules and fee schedules to the commission for review and approval;<hr><ltbullet>directs the commission to perform criminal background checks on individuals who own 10% or more of the utility;<hr><ltbullet>directs the commission to automatically revoke a certificate of authority if an owner fails to accurately disclose a criminal history involving fraud or deceit;<hr><ltbullet>establishes that a certificate of authority expires after two years and outlines the specific requirements for renewal; and<hr><ltbullet>defines unprofessional conduct as violating network rules or failing to use the network for covered communications.",
@@ -236,9 +275,9 @@
   "gov_tracking_id": "IKBDGBMGOD",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/28/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Business, Labor, and Commerce Committee",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -289,6 +328,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2/3/2026 12:22 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

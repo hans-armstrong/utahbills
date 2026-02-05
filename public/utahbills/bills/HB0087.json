@@ -1,6 +1,6 @@
 {
   "bill_id": 2060976,
-  "change_hash": "10d3cea931c35723bef34f40db039980",
+  "change_hash": "e4410c7bb1490017a53abf246672c384",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-27",
       "event": 9
+    },
+    {
+      "date": "2026-02-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Animal Crime Victim Amendments",
   "description": "Animal Crime Victim Amendments",
-  "pending_committee_id": 2110,
-  "committee": {
-    "committee_id": 2110,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Law Enforcement and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -113,6 +112,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House Comm - Favorable Recommendation in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ committee report favorable in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -190,6 +210,30 @@
     {
       "subject_id": 11866,
       "subject_name": "Law Enforcement and Criminal Justice"
+    },
+    {
+      "subject_id": 128952,
+      "subject_name": "Animals"
+    },
+    {
+      "subject_id": 131917,
+      "subject_name": "Abuse, Neglect, or Dependency"
+    },
+    {
+      "subject_id": 332709,
+      "subject_name": "Peace Officers"
+    },
+    {
+      "subject_id": 11868,
+      "subject_name": "Courts"
+    },
+    {
+      "subject_id": 332736,
+      "subject_name": "Crimes"
+    },
+    {
+      "subject_id": 14871,
+      "subject_name": "Animal Health"
     }
   ],
   "texts": [
@@ -230,7 +274,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1620888,
+      "date": "2026-02-02",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0087/id/1620888",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39343"
+    }
+  ],
   "amendments": [
     {
       "amendment_id": 267008,
@@ -314,9 +374,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 649903,
+      "date": "2026-02-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0087",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0087/id/649903",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0087H02.pdf",
+      "supplement_size": 17548,
+      "supplement_hash": "89a83bd51ffded0581aa1f6441e07fd5",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "60a9f3a0",
+      "type": "Hearing",
+      "date": "2026-02-02",
+      "time": "14:00",
+      "location": "",
+      "description": "House Law Enforcement and Criminal Justice Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies provisions related to the release and forfeiture of an animal that is being held because of abuse or involvement in a crime.",
   "hilighted_provisions": "This bill:<hr><ltbullet>provides a process to permit, while legal resolution of a crime is ongoing, the release or transfer of an animal being held in a shelter because the animal was abused or was involved in a crime;<hr><ltbullet>permits certain government officials under certain conditions to enter a premises or a vehicle to aid or take custody of an animal that is being criminally mistreated or is associated with a crime;<hr><ltbullet>requires notice to the owner or possessor of the animal;<hr><ltbullet>permits a shelter or government counsel to file a motion to have a court review whether an animal being held in a shelter due to criminal activity should be forfeited or transferred to alternative care;<hr><ltbullet>provides procedures for the hearing and the court's determination, and permits the animal's owner to be heard as part of the hearing;<hr><ltbullet>provides procedures for placement of the animal if the court orders ownership of the animal to be forfeited;<hr><ltbullet>permits a court to order an animal owner to pay for the costs of sheltering an animal due to the owner's criminal activity;<hr><ltbullet>permits a court to order an individual who has abused an animal or involved an animal in criminal activity to complete an educational or animal cruelty prevention program;<hr><ltbullet>provides cross references for the forfeiture procedure; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -324,10 +414,24 @@
   "fiscal_analyst": "Gary R. Syphus",
   "gov_tracking_id": "NOJUMKCBFI",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Law Enforcement and Criminal Justice Committee",
-  "last_action_time": "1/27/2026",
+  "agendas": [
+    {
+      "mtgID": "20212",
+      "committeeID": "HSTLAW",
+      "mtgDate": "2026-02-02 14:00:00.0",
+      "agendaItem": "10",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Law Enforcement and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HLAW0202.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "292659"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -417,6 +521,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2/2/2026 3:42 PM",
+      "actionClass": "A",
+      "voteID": "39343",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-3",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2/3/2026 11:13 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/3/2026 11:13 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

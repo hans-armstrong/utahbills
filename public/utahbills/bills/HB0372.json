@@ -1,6 +1,6 @@
 {
   "bill_id": 2093399,
-  "change_hash": "3cd580e65009a29687d129141b06b09c",
+  "change_hash": "a547d5cf0912350ce2216c2019193c0b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-26",
       "event": 1
+    },
+    {
+      "date": "2026-02-03",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Child Welfare Changes",
   "description": "Child Welfare Changes",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2109,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2109,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Judiciary"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-03",
+      "committee_id": 2109,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Judiciary"
     }
   ],
   "history": [
@@ -88,6 +99,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ to standing committee in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -244,9 +262,9 @@
   "gov_tracking_id": "DQJPRJBXKL",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/28/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Judiciary Committee",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -310,6 +328,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/3/2026 12:23 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

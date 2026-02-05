@@ -1,6 +1,6 @@
 {
   "bill_id": 2064988,
-  "change_hash": "d91e5a7cdc0a8dfcab42cd5941a4b6e7",
+  "change_hash": "cc7c5b6d622075aa2a09a8e9625fd99b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-02-04",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Use of Force Reporting Requirements",
   "description": "Use of Force Reporting Requirements",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2110,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2110,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Law Enforcement and Criminal Justice"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-04",
+      "committee_id": 2110,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Law Enforcement and Criminal Justice"
     }
   ],
   "history": [
@@ -85,6 +96,20 @@
     {
       "date": "2026-01-20",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-04",
+      "action": "Bill Substituted by Sponsor in House Rules Comm in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House/ to standing committee in House Law Enforcement and Criminal Justice Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -279,16 +304,16 @@
   ],
   "calendar": [],
   "general_provisions": "This bill addresses the justified use of force.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>requires an individual to report using force; and<hr><ltbullet>establishes that an individual must report use of force in order to receive a pretrial justification hearing.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>establishes that an individual is required to report, or cause another individual to report, the use of deadly force to 911 or law enforcement in order to receive a pretrial justification hearing;<hr><ltbullet>automatically provides a defendant with a prima facie claim of justification at a pretrial justification hearing if the defendant reported, or caused another individual to report, the defendant's use of force within 24 hours after using the force; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Shad Larson",
   "fiscal_analyst": "Joseph Fitzgerald",
   "gov_tracking_id": "KVNBHLYBOV",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/20/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Law Enforcement and Criminal Justice Committee",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -300,8 +325,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -313,8 +338,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -326,8 +351,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -339,8 +364,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -352,8 +377,34 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Substituted by Sponsor in House Rules Comm",
+      "owner": "House Rules Committee",
+      "actionDate": "2/4/2026 11:22 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRULSUBH",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2/4/2026 12:21 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2066094,
-  "change_hash": "ec1efb71566ecdbe58fd8066b3265392",
+  "change_hash": "203329e816ac7bb7761fea1ed9e59d79",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-29",
       "event": 9
+    },
+    {
+      "date": "2026-02-02",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "School-based Speech-language Pathologist Funding Amendments",
   "description": "School-based Speech-language Pathologist Funding Amendments",
-  "pending_committee_id": 2105,
-  "committee": {
-    "committee_id": 2105,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +105,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House Comm - Favorable Recommendation in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ committee report favorable in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -303,7 +323,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1620142,
+      "date": "2026-01-30",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 11,
+      "nay": 2,
+      "nv": 0,
+      "absent": 2,
+      "total": 15,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0150/id/1620142",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39231"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -365,6 +401,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 648438,
+      "date": "2026-01-30",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0150",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0150/id/648438",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0150H02.pdf",
+      "supplement_size": 17546,
+      "supplement_hash": "9516ddbba78d3db09eedeeff2cd49b3a",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -385,10 +441,24 @@
   "fiscal_analyst": "Rachelle Gunderson",
   "gov_tracking_id": "HFGHRLDCEL",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Education Committee",
-  "last_action_time": "1/29/2026",
+  "agendas": [
+    {
+      "mtgID": "20315",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-01-30 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HEDU0130.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291927"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/2/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -465,6 +535,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Education Committee",
+      "actionDate": "1/30/2026 3:23 PM",
+      "actionClass": "A",
+      "voteID": "39231",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-2-2",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Education Committee",
+      "actionDate": "2/2/2026 11:13 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/2/2026 11:13 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

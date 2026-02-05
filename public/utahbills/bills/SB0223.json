@@ -1,6 +1,6 @@
 {
   "bill_id": 2101902,
-  "change_hash": "d5c8eb7b16cab011b860a06b361270f8",
+  "change_hash": "d3ec4b8a70c712337a5147e53490879a",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,22 @@
   "url": "https://legiscan.com/UT/bill/SB0223/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0223.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-01-30",
+  "progress": [
+    {
+      "date": "2026-01-30",
+      "event": 1
+    },
+    {
+      "date": "2026-02-02",
+      "event": 9
+    },
+    {
+      "date": "2026-02-03",
+      "event": 10
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0223",
@@ -34,7 +47,22 @@
   "description": "Sales and Use Tax Exemptions Modifications",
   "pending_committee_id": 0,
   "committee": [],
-  "referrals": [],
+  "referrals": [
+    {
+      "date": "2026-01-30",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-02",
+      "committee_id": 2127,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Revenue and Taxation"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-29",
@@ -53,6 +81,41 @@
     {
       "date": "2026-01-29",
       "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate/ to standing committee in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate Comm - Favorable Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate/ committee report favorable in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -133,6 +196,26 @@
     {
       "subject_id": 11888,
       "subject_name": "Revenue and Taxation"
+    },
+    {
+      "subject_id": 12053,
+      "subject_name": "Electricity"
+    },
+    {
+      "subject_id": 11930,
+      "subject_name": "Energy"
+    },
+    {
+      "subject_id": 11918,
+      "subject_name": "Sales and Use Tax"
+    },
+    {
+      "subject_id": 334449,
+      "subject_name": "Sales Tax Exemptions"
+    },
+    {
+      "subject_id": 356909,
+      "subject_name": "Energy Storage"
     }
   ],
   "texts": [
@@ -155,10 +238,57 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1620890,
+      "date": "2026-02-02",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 3,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0223/id/1620890",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39294"
+    }
+  ],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 649904,
+      "date": "2026-02-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0223",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0223/id/649904",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0223S02.pdf",
+      "supplement_size": 18291,
+      "supplement_hash": "cb058942c27f599906b114ed016933c6",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "2a66bd1f",
+      "type": "Hearing",
+      "date": "2026-02-02",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses sales and use tax exemptions.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>extends the duration of the sales and use tax exemption for tangible personal property used to increase the capacity of alternative energy electric production facilities;<hr><ltbullet>expands the sales and use tax exemption applicable to alternative energy electric production facilities to include tangible personal property used for increasing the capacity of electric storage facilities; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -166,10 +296,24 @@
   "fiscal_analyst": "Travis D Eisenbacher",
   "gov_tracking_id": "WCQVMESEAB",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received bill from Legislative Research",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "1/29/2026",
+  "agendas": [
+    {
+      "mtgID": "20206",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-02-02 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SREV0202.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "292497"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -207,6 +351,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "1/30/2026 11:36 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2/2/2026 11:13 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2/2/2026 2:15 PM",
+      "actionClass": "A",
+      "voteID": "39294",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-0-4",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2/3/2026 11:24 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/3/2026 11:24 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

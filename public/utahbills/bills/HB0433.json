@@ -1,6 +1,6 @@
 {
   "bill_id": 2102638,
-  "change_hash": "826da5d3d2d29f34d569f9af3e72a2a6",
+  "change_hash": "18bd7aaed4b5762c844d21749cce9bdd",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0433/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0433.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-01-30",
+  "progress": [
+    {
+      "date": "2026-01-30",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0433",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Professional Licensing Amendments",
   "description": "Professional Licensing Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2026-01-30",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-30",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -126,6 +158,26 @@
     {
       "subject_id": 11871,
       "subject_name": "Business"
+    },
+    {
+      "subject_id": 12057,
+      "subject_name": "Department of Commerce"
+    },
+    {
+      "subject_id": 360925,
+      "subject_name": "Labor and Employment"
+    },
+    {
+      "subject_id": 334137,
+      "subject_name": "Administrative Rulemaking"
+    },
+    {
+      "subject_id": 332696,
+      "subject_name": "Administrative Rulemaking and Procedures"
+    },
+    {
+      "subject_id": 81259,
+      "subject_name": "Occupational and Professional Licensing"
     }
   ],
   "texts": [
@@ -160,8 +212,8 @@
   "gov_tracking_id": "XDLXTCHMGM",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received bill from Legislative Research",
-  "last_action_owner": "Clerk of the House",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
   "last_action_time": "1/30/2026",
   "action_history": [
     {
@@ -200,6 +252,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "1/30/2026 11:52 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2095721,
-  "change_hash": "6c161b614a11af3d5d04bbae6ec6abf9",
+  "change_hash": "0b6b7dff475fe2ca2cd4b0dfaab83c6a",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -56,14 +56,14 @@
   "history": [
     {
       "date": "2026-01-28",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-01-28",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -81,6 +81,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -158,6 +165,26 @@
     {
       "subject_id": 11851,
       "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 332627,
+      "subject_name": "Election Law"
+    },
+    {
+      "subject_id": 332842,
+      "subject_name": "Voting and Voter Registration"
+    },
+    {
+      "subject_id": 11910,
+      "subject_name": "Political Subdivisions (Local Issues)"
+    },
+    {
+      "subject_id": 339963,
+      "subject_name": "Election Administration"
+    },
+    {
+      "subject_id": 334525,
+      "subject_name": "Municipal Officers"
     }
   ],
   "texts": [
@@ -182,7 +209,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 648195,
+      "date": "2026-01-30",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0420",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0420/id/648195",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0420.fn.pdf",
+      "supplement_size": 1608345,
+      "supplement_hash": "4e3a2ef6c1971de7245040145d500972",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill modifies the process for filling a vacancy in a municipal office.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>modifies the process for filling a vacancy in a municipal office and for breaking ties in the voting of a municipal legislative body; and<hr><ltbullet>makes technical and conforming changes. ",
@@ -192,23 +240,10 @@
   "gov_tracking_id": "SETSTQCKWR",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/29/2026",
+  "last_action_time": "2/2/2026",
   "action_history": [
-    {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/28/2026 1:53 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -219,6 +254,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/28/2026 1:53 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
       "parm1": "",
       "parm2": ""
     },
@@ -245,6 +293,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/2/2026 7:41 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm1": "",
       "parm2": ""
     }

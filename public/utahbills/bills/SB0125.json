@@ -1,6 +1,6 @@
 {
   "bill_id": 2073391,
-  "change_hash": "9af673d5621cce578a94645faf5bc6c4",
+  "change_hash": "042a95c0421a70640a142acd215953cb",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-21",
       "event": 9
+    },
+    {
+      "date": "2026-02-02",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Theft of Service Amendments",
   "description": "Theft of Service Amendments",
-  "pending_committee_id": 2124,
-  "committee": {
-    "committee_id": 2124,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Judiciary, Law Enforcement, and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +105,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-30",
+      "action": "Senate Comm - Favorable Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate/ committee report favorable in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -225,7 +245,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1620091,
+      "date": "2026-01-30",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 9,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0125/id/1620091",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39218"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -241,6 +277,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0125.fn.pdf",
       "supplement_size": 1609593,
       "supplement_hash": "19c83f379b71709a82f0831fae64be64",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 648308,
+      "date": "2026-01-30",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0125",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0125/id/648308",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0125S02.pdf",
+      "supplement_size": 18313,
+      "supplement_hash": "443456c23ef05f893a80402eebeb6dd8",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -267,10 +323,24 @@
   "fiscal_analyst": "Josh Pittman",
   "gov_tracking_id": "OLQYSLDASN",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-  "last_action_time": "1/21/2026",
+  "agendas": [
+    {
+      "mtgID": "20257",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2026-01-30 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SJLC0130.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291889"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/2/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -347,6 +417,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "1/30/2026 3:03 PM",
+      "actionClass": "A",
+      "voteID": "39218",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-1",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/2/2026 11:18 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/2/2026 11:18 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

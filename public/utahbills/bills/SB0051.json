@@ -1,6 +1,6 @@
 {
   "bill_id": 2061182,
-  "change_hash": "458fe518326aabae6b28669303211024",
+  "change_hash": "757d350ba892ae4157ba166459370f2a",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SB0051/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0051.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2026-01-29",
   "progress": [
     {
@@ -49,8 +49,13 @@
   "current_body_id": 93,
   "title": "School Safety Modifications",
   "description": "School Safety Modifications",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2026-01-20",
@@ -65,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Education"
+    },
+    {
+      "date": "2026-01-30",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -214,6 +226,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -620,6 +639,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 650056,
+      "date": "2026-02-02",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0051S02",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0051/id/650056",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0051S02.fn.pdf",
+      "supplement_size": 1609700,
+      "supplement_hash": "0d2cc6e14a7d7d6d52107ada7a26236b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -655,9 +694,9 @@
       "markerID": "287559"
     }
   ],
-  "last_action": "House/ received from Senate",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "1/29/2026",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "1/30/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -929,6 +968,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "1/30/2026 11:20 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

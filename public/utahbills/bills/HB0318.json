@@ -1,6 +1,6 @@
 {
   "bill_id": 2089163,
-  "change_hash": "030da3aab9ad267b10b8d9e6bbed6715",
+  "change_hash": "85470df98c2a37f01dc9a4d351256e36",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-22",
       "event": 1
+    },
+    {
+      "date": "2026-02-04",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Agency Fee Amendments",
   "description": "Agency Fee Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2107,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2107,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Government Operations"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-04",
+      "committee_id": 2107,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Government Operations"
     }
   ],
   "history": [
@@ -78,6 +89,13 @@
     {
       "date": "2026-01-22",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House/ to standing committee in House Government Operations Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -214,7 +232,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 649464,
+      "date": "2026-02-01",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0318",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0318/id/649464",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0318.fn.pdf",
+      "supplement_size": 1609676,
+      "supplement_hash": "8661786b39d1dd03367143be481aa128",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill modifies provisions related to budgetary procedures.",
   "hilighted_provisions": "This bill:<hr><ltbullet>requires that, before billing another state agency for a good or service, an internal service fund agency provide specified rate data to the Governor's Office of Planning and Budget and to the Office of the Legislative Fiscal Analyst;<hr><ltbullet>requires an internal service fund agency to annually report the actual costs and revenue for each rate, fee, or other amount charged during the preceding fiscal year;<hr><ltbullet>prohibits a fee agency from charging a fee unless the fee agency provides specified fee data to the Governor's Office of Planning and Budget and to the Office of the Legislative Fiscal Analyst;<hr><ltbullet>requires a fee agency to annually report the actual costs and revenue for each fee charged during the preceding fiscal year; and<hr><ltbullet>makes technical and conforming changes.",
@@ -224,9 +263,9 @@
   "gov_tracking_id": "PEMVSTOGNK",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/22/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Government Operations Committee",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -277,6 +316,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/4/2026 12:20 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

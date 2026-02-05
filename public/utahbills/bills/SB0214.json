@@ -1,6 +1,6 @@
 {
   "bill_id": 2098376,
-  "change_hash": "07d01c76527ebffd4914b3e565a6d0bd",
+  "change_hash": "03fad6fa7a54c6df02f92395898b2b24",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,12 +18,16 @@
   "url": "https://legiscan.com/UT/bill/SB0214/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0214.html",
   "completed": 0,
-  "status": 0,
+  "status": 1,
   "status_date": "2026-01-29",
   "progress": [
     {
       "date": "2026-01-29",
       "event": 1
+    },
+    {
+      "date": "2026-01-30",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Home-based Childcare Solutions",
   "description": "Home-based Childcare Solutions",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2861,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2861,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Economic Development and Workforce Services"
   },
   "referrals": [
     {
@@ -51,19 +55,26 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-30",
+      "committee_id": 2861,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Economic Development and Workforce Services"
     }
   ],
   "history": [
     {
       "date": "2026-01-28",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-01-28",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -81,6 +92,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-30",
+      "action": "Senate/ to standing committee in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -202,8 +227,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 654133,
+      "date": "2026-02-03",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0214",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0214/id/654133",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0214.fn.pdf",
+      "supplement_size": 1610289,
+      "supplement_hash": "b4ac4b7c79dace45702f71fa64f25190",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "cdf00fda",
+      "type": "Hearing",
+      "date": "2026-02-05",
+      "time": "15:40",
+      "location": "",
+      "description": "Senate Economic Development and Workforce Services Hearing"
+    }
+  ],
   "general_provisions": "This bill creates the Home-based Child Care Capacity Expansion Grant Program and modifies provisions related to caring for children.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms:<hr><ltbullet>requires registration for a home-based child care provider when providing child care for a certain number of qualifying children;<hr><ltbullet>amends provisions of criminal background check requirements for a child care provider;<hr><ltbullet>creates the Home-based Child Care Capacity Expansion Grant Program; <hr><ltbullet>makes technical and conforming changes; and<hr><ltbullet>provides intent language that provides for funds appropriated from the General Fund shall be nonlapsing.",
   "monies": "",
@@ -212,9 +268,9 @@
   "gov_tracking_id": "EPHXFAQGCV",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "1/28/2026",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "Senate Economic Development and Workforce Services Committee",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -239,6 +295,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received bill from Legislative Research",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "1/29/2026 8:59 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "1/29/2026 11:48 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "1/30/2026 11:33 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "2/3/2026 1:47 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

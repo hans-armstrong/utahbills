@@ -1,6 +1,6 @@
 {
   "bill_id": 2102620,
-  "change_hash": "6413cb3158ebb4a486ce57b65776ccb2",
+  "change_hash": "7d24e430876a3a6ad6fa84cf7ba02bc0",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,18 @@
   "url": "https://legiscan.com/UT/bill/SB0226/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0226.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-02-02",
+  "progress": [
+    {
+      "date": "2026-02-02",
+      "event": 1
+    },
+    {
+      "date": "2026-02-03",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0226",
@@ -32,9 +41,29 @@
   "current_body_id": 94,
   "title": "Fatal Motor Vehicle Accident Amendments",
   "description": "Fatal Motor Vehicle Accident Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 3583,
+  "committee": {
+    "committee_id": 3583,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Transportation, Public Utilities, Energy, and Technology"
+  },
+  "referrals": [
+    {
+      "date": "2026-02-02",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-03",
+      "committee_id": 3583,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Transportation, Public Utilities, Energy, and Technology"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-30",
@@ -48,6 +77,34 @@
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate/ to standing committee in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-04",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -126,6 +183,30 @@
     {
       "subject_id": 11875,
       "subject_name": "Transportation"
+    },
+    {
+      "subject_id": 11865,
+      "subject_name": "Controlled Substances"
+    },
+    {
+      "subject_id": 332736,
+      "subject_name": "Crimes"
+    },
+    {
+      "subject_id": 11866,
+      "subject_name": "Law Enforcement and Criminal Justice"
+    },
+    {
+      "subject_id": 11903,
+      "subject_name": "Driving Under the Influence (DUI)"
+    },
+    {
+      "subject_id": 11874,
+      "subject_name": "Motor Vehicles"
+    },
+    {
+      "subject_id": 340465,
+      "subject_name": "Traffic Violations"
     }
   ],
   "texts": [
@@ -149,9 +230,62 @@
     }
   ],
   "votes": [],
-  "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "amendments": [
+    {
+      "amendment_id": 270341,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2026-02-04",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0226/id/270341",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/SB0226.Samd.1.pdf",
+      "amendment_size": 6692,
+      "amendment_hash": "f777b727189583d0937d0e99aa00b243",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
+  "supplements": [
+    {
+      "supplement_id": 654210,
+      "date": "2026-02-03",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0226",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0226/id/654210",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0226.fn.pdf",
+      "supplement_size": 1609577,
+      "supplement_hash": "7569f62b406914eba0cafd882f628ff6",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "5e2790a6",
+      "type": "Hearing",
+      "date": "2026-02-04",
+      "time": "15:40",
+      "location": "",
+      "description": "Senate Transportation, Public Utilities, Energy, and Technology Hearing"
+    }
+  ],
   "general_provisions": "This bill directs law enforcement to seek a warrant to administer a drug and alcohol test to a driver when the driver is involved in a fatal motor vehicle accident.",
   "hilighted_provisions": "This bill:<hr><ltbullet>directs a peace officer investigating a fatal motor vehicle accident to pursue a warrant for a drug test for a surviving driver; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -159,10 +293,24 @@
   "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "TBLSUQLUCK",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received bill from Legislative Research",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "1/30/2026",
+  "agendas": [
+    {
+      "mtgID": "20225",
+      "committeeID": "SSTTPT",
+      "mtgDate": "2026-02-04 15:40:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/STPT0204.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "293784"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
+  "last_action_owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -200,6 +348,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/2/2026 11:20 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "2/3/2026 11:22 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "2/4/2026 10:00 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Amendment Recommendation",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "2/4/2026 4:41 PM",
+      "actionClass": "A",
+      "voteID": "39490",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-3",
+      "actionCode": "SCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "2/4/2026 4:43 PM",
+      "actionClass": "A",
+      "voteID": "39491",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-3",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

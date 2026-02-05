@@ -1,6 +1,6 @@
 {
   "bill_id": 2093599,
-  "change_hash": "a34f4d5443d41001c6a45fadebc76698",
+  "change_hash": "4a8e14e18d1d9c35f179f107947196ab",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Water Project Management Amendments",
   "description": "Water Project Management Amendments",
-  "pending_committee_id": 2125,
-  "committee": {
-    "committee_id": 2125,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Natural Resources, Agriculture, and Environment"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-27",
@@ -103,6 +98,13 @@
     {
       "date": "2026-01-29",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "Senate Comm - Held in Senate Natural Resources, Agriculture, and Environment Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -259,10 +261,24 @@
   "fiscal_analyst": "Lacey K. Moore",
   "gov_tracking_id": "MXVPOACLDA",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "agendas": [
+    {
+      "mtgID": "20327",
+      "committeeID": "SSTNAE",
+      "mtgDate": "2026-01-30 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SNAE0130.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291846"
+    }
+  ],
+  "last_action": "Senate Comm - Held",
   "last_action_owner": "Senate Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "1/29/2026",
+  "last_action_time": "1/30/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -339,6 +355,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Held",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "1/30/2026 3:09 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCAHELD",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2060943,
-  "change_hash": "876c0b082b69e034989b9fc0e7f189bf",
+  "change_hash": "8e5adebf6af3d8259d5fc23e2c90056e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/HB0075/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0075.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2026-01-20",
+  "status": 2,
+  "status_date": "2026-01-30",
   "progress": [
     {
       "date": "2026-01-20",
@@ -32,6 +32,14 @@
     {
       "date": "2026-01-23",
       "event": 10
+    },
+    {
+      "date": "2026-01-30",
+      "event": 2
+    },
+    {
+      "date": "2026-02-03",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -41,12 +49,17 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "American Indian and Alaska Native Education Amendments",
   "description": "American Indian and Alaska Native Education Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2120,
+  "committee": {
+    "committee_id": 2120,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Education"
+  },
   "referrals": [
     {
       "date": "2026-01-20",
@@ -61,19 +74,33 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Education"
+    },
+    {
+      "date": "2026-02-02",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-03",
+      "committee_id": 2120,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Education"
     }
   ],
   "history": [
     {
       "date": "2025-12-23",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2025-12-23",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -126,6 +153,55 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House/ floor amendment in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate/ to standing committee in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -327,6 +403,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3343011,
+      "date": "2026-01-30",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0075/id/3343011",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_HB0075_2026-01-30_12-19-06.pdf",
+      "text_size": 39598,
+      "text_hash": "c3cba0ca9ddd8b6a23167182ddf79c7c",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [
@@ -344,6 +438,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0075/id/1616426",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38698"
+    },
+    {
+      "roll_call_id": 1620221,
+      "date": "2026-01-30",
+      "desc": "House/ passed 3rd reading",
+      "yea": 72,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0075/id/1620221",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=118&house=H"
     }
   ],
   "amendments": [
@@ -470,23 +579,10 @@
       "markerID": "288185"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "1/23/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Education Committee",
+  "last_action_time": "2/3/2026",
   "action_history": [
-    {
-      "description": "Bill Numbered but not Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "12/23/2025 10:57 AM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -497,6 +593,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Numbered but not Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "12/23/2025 10:57 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LNUMBER",
       "parm1": "",
       "parm2": ""
     },
@@ -588,6 +697,97 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "1/30/2026 12:02 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ floor amendment",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "1/30/2026 12:06 PM",
+      "actionClass": "H",
+      "voteID": "117",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HAMEND",
+      "parm1": "2",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "1/30/2026 12:12 PM",
+      "actionClass": "H",
+      "voteID": "118",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "72-0-3",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "1/30/2026 12:12 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "1/30/2026 12:43 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/2/2026 11:14 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Education Committee",
+      "actionDate": "2/3/2026 2:21 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

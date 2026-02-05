@@ -1,6 +1,6 @@
 {
   "bill_id": 2099433,
-  "change_hash": "c4189924da7a5a010c5af5a1e23843bb",
+  "change_hash": "c29fa065b4c8c3feedefdca87b3ea80c",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,14 @@
     {
       "date": "2026-01-29",
       "event": 1
+    },
+    {
+      "date": "2026-01-30",
+      "event": 9
+    },
+    {
+      "date": "2026-02-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -37,13 +45,8 @@
   "current_body_id": 94,
   "title": "Local Food Amendments",
   "description": "Local Food Amendments",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-29",
@@ -51,6 +54,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-30",
+      "committee_id": 2119,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Business and Labor"
     }
   ],
   "history": [
@@ -81,6 +91,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-30",
+      "action": "Senate/ to standing committee in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "Senate/ committee report favorable in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-04",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -204,10 +242,57 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1622297,
+      "date": "2026-02-03",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0217/id/1622297",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39391"
+    }
+  ],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 652850,
+      "date": "2026-02-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0217",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0217/id/652850",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0217S02.pdf",
+      "supplement_size": 18291,
+      "supplement_hash": "9bf4766764baaa2333cc09445e35fb41",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "4a2a286c",
+      "type": "Hearing",
+      "date": "2026-02-03",
+      "time": "15:40",
+      "location": "",
+      "description": "Senate Business and Labor Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses provisions related to locally-produced foods.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines and modifies terms;<hr><ltbullet>provides that raw milk and a raw milk product are a homemade food product under Title 4, Chapter 5a, Home Consumption and Homemade Food Act;  <hr><ltbullet>removes a signage requirement for a direct-to-sale farmers market;<hr><ltbullet>clarifies when a producer or producer's designated representative may sell a homemade food product at a direct-to-sale location; <hr><ltbullet>provides that a producer retains ownership of a homemade food product distributed, sold, delivered, held, stored, or offered for sale by a designated representative unless otherwise agreed upon by the producer and designated representative; <hr><ltbullet>exempts a homemade food product sold at a direct-to-sale farmers market or direct-to-sale location from state sales tax;<hr><ltbullet>repeals provisions related to the regulation of raw milk by the Department of Agriculture and Food; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -215,10 +300,24 @@
   "fiscal_analyst": "Lacey K. Moore",
   "gov_tracking_id": "SAFSTSREEI",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "1/29/2026",
+  "agendas": [
+    {
+      "mtgID": "20288",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2026-02-03 15:40:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SBUS0203.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "293150"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -269,6 +368,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "1/30/2026 11:33 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/3/2026 4:21 PM",
+      "actionClass": "A",
+      "voteID": "39391",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-1",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/4/2026 11:18 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/4/2026 11:18 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

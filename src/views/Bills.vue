@@ -2,7 +2,7 @@
     <div class="bills py-12 px-4 max-w-screen-2xl">
         <h1 class="py-4">2026 General Session Bills</h1>
         <div class="flex flex-col">
-            <span>Last updated: 1/30/26 1:00 P.M. CST</span>
+            <span>Last updated: 2/5/26 12:00 A.M. CST</span>
             <span>Small bug where the resolution bills (HR/SR) don't show the correct status, will fix soon!</span>
         </div>
 

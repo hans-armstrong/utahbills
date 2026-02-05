@@ -1,6 +1,6 @@
 {
   "bill_id": 2090738,
-  "change_hash": "39404d72836edcebb2f08f43f417fa04",
+  "change_hash": "d6e567b10442ecfc046f0b986ee4f3e4",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,14 @@
     {
       "date": "2026-01-23",
       "event": 1
+    },
+    {
+      "date": "2026-01-30",
+      "event": 9
+    },
+    {
+      "date": "2026-02-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -37,13 +45,8 @@
   "current_body_id": 93,
   "title": "Liability Limitations Amendments",
   "description": "Liability Limitations Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-23",
@@ -51,19 +54,26 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-30",
+      "committee_id": 2109,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Judiciary"
     }
   ],
   "history": [
     {
       "date": "2026-01-22",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-01-22",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -85,6 +95,34 @@
     {
       "date": "2026-01-26",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House/ to standing committee in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House Comm - Favorable Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ committee report favorable in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -271,7 +309,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1621181,
+      "date": "2026-02-02",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0330/id/1621181",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39345"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -293,9 +347,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 650399,
+      "date": "2026-02-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0330",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0330/id/650399",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0330H02.pdf",
+      "supplement_size": 17525,
+      "supplement_hash": "491ddb21152266e33a6c9120ea4aa541",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "b0477046",
+      "type": "Hearing",
+      "date": "2026-02-02",
+      "time": "14:00",
+      "location": "",
+      "description": "House Judiciary Hearing"
+    }
+  ],
   "general_provisions": "This bill creates an affirmative defense.",
   "hilighted_provisions": "This bill:<hr><ltbullet>creates an affirmative defense in a civil action for conduct, an omission, or a condition authorized or required by a governmental entity;<hr><ltbullet>provides that the affirmative defense does not apply if a person fails to comply with, or exceeds the scope of, a governmental entity's authorization or requirement, or causes harm through a defective product;<hr><ltbullet>clarifies when conduct, an omission, or a condition is considered to have occurred for purposes of the affirmative defense;<hr><ltbullet>specifies that the affirmative defense applies regardless of the theory of liability; and<hr><ltbullet>abrogates the common law to the extent the common law is inconsistent with the affirmative defense.",
   "monies": "None",
@@ -303,24 +387,25 @@
   "fiscal_analyst": "Gary R. Syphus",
   "gov_tracking_id": "FVGJYDRRBR",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/26/2026",
-  "action_history": [
+  "agendas": [
     {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/22/2026 1:50 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
-    },
+      "mtgID": "20246",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2026-02-02 14:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001103.htm",
+      "agendaURL": "/~2026/agenda/HJUD0202.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "292677"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/3/2026",
+  "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -331,6 +416,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/22/2026 1:50 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
       "parm1": "",
       "parm2": ""
     },
@@ -370,6 +468,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Judiciary Committee",
+      "actionDate": "1/30/2026 12:16 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/2/2026 4:17 PM",
+      "actionClass": "A",
+      "voteID": "39345",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-4",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/3/2026 11:11 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/3/2026 11:11 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

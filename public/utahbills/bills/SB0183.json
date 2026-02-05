@@ -1,6 +1,6 @@
 {
   "bill_id": 2090477,
-  "change_hash": "ecdb9ddf956493f3cdcc771e507bd0fa",
+  "change_hash": "82c0972b77214023b6cdad80808b83db",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-27",
       "event": 9
+    },
+    {
+      "date": "2026-02-02",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Surveillance Camera Amendments",
   "description": "Surveillance Camera Amendments",
-  "pending_committee_id": 2124,
-  "committee": {
-    "committee_id": 2124,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Judiciary, Law Enforcement, and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-23",
@@ -106,6 +105,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-30",
+      "action": "Senate Comm - Favorable Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate/ committee report favorable in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -181,16 +201,20 @@
   "sasts": [],
   "subjects": [
     {
+      "subject_id": 11866,
+      "subject_name": "Law Enforcement and Criminal Justice"
+    },
+    {
       "subject_id": 14879,
       "subject_name": "Technology"
     },
     {
-      "subject_id": 332709,
-      "subject_name": "Peace Officers"
+      "subject_id": 20875,
+      "subject_name": "Department of Natural Resources"
     },
     {
-      "subject_id": 11866,
-      "subject_name": "Law Enforcement and Criminal Justice"
+      "subject_id": 332709,
+      "subject_name": "Peace Officers"
     },
     {
       "subject_id": 11881,
@@ -215,9 +239,43 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3342835,
+      "date": "2026-01-30",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0183/id/3342835",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0183S01.pdf",
+      "text_size": 22422,
+      "text_hash": "8288ae73654778ccf5aeb9b3a4dc4565",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1620118,
+      "date": "2026-01-30",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 0,
+      "total": 9,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0183/id/1620118",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39228"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -233,6 +291,66 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0183.fn.pdf",
       "supplement_size": 1608336,
       "supplement_hash": "ac17235b70fa8bdf1ef5c008d2aa8f4f",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 648365,
+      "date": "2026-01-30",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0183/id/648365",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0183%20To%20SB0183S01.pdf",
+      "supplement_size": 23383,
+      "supplement_hash": "6f10aef6e249cae925d90a4709410067",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 648366,
+      "date": "2026-01-30",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0183",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0183/id/648366",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0183S02.pdf",
+      "supplement_size": 18307,
+      "supplement_hash": "cccbfbcfef02ff9944141b1afed7875c",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 650633,
+      "date": "2026-02-02",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0183S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0183/id/650633",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0183S01.fn.pdf",
+      "supplement_size": 1608353,
+      "supplement_hash": "f6c79d748b967f7846f90694bb40428e",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -259,10 +377,24 @@
   "fiscal_analyst": "Jared Gibbs",
   "gov_tracking_id": "NGVNXPMOJL",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-  "last_action_time": "1/27/2026",
+  "agendas": [
+    {
+      "mtgID": "20257",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2026-01-30 14:00:00.0",
+      "agendaItem": "7",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SJLC0130.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291922"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/2/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -339,6 +471,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "1/30/2026 3:15 PM",
+      "actionClass": "A",
+      "voteID": "39228",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-0",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/2/2026 11:18 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/2/2026 11:18 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

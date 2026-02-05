@@ -1,6 +1,6 @@
 {
   "bill_id": 2101638,
-  "change_hash": "a616072e7a548c0160898d8f43c94a5c",
+  "change_hash": "19cc41da991919c9824a666b1d971c28",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0426/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0426.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-01-30",
+  "progress": [
+    {
+      "date": "2026-01-30",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0426",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Online Education Service Provider Amendments",
   "description": "Online Education Service Provider Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2026-01-30",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-29",
@@ -48,6 +66,27 @@
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -126,6 +165,22 @@
     {
       "subject_id": 11846,
       "subject_name": "Education"
+    },
+    {
+      "subject_id": 332526,
+      "subject_name": "K-12 Education"
+    },
+    {
+      "subject_id": 11911,
+      "subject_name": "School Personnel"
+    },
+    {
+      "subject_id": 12044,
+      "subject_name": "State Board of Education"
+    },
+    {
+      "subject_id": 383611,
+      "subject_name": "Local Education Agencies (LEAs)"
     }
   ],
   "texts": [
@@ -150,7 +205,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 651108,
+      "date": "2026-02-03",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0426",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0426/id/651108",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0426.fn.pdf",
+      "supplement_size": 1609101,
+      "supplement_hash": "0828848643a41b075d38698e675845b8",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill establishes accountability requirements for learner validated programs.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>requires local education agencies operating learner validated programs to maintain comprehensive accountability standards;<hr><ltbullet>establishes minimum standards for teacher of record oversight and student progress monitoring;<hr><ltbullet>requires documented pacing, proctored assessments, and sequential completion of coursework;<hr><ltbullet>establishes student-to-teacher ratio requirements for learner validated programs;<hr><ltbullet>requires state core standards alignment and accreditation;<hr><ltbullet>provides for proficiency-based waivers for advanced students;<hr><ltbullet>assigns State Board of Education oversight and enforcement authority; and<hr><ltbullet>makes technical and conforming changes.",
@@ -160,9 +236,9 @@
   "gov_tracking_id": "MBKCWPPPVQ",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received bill from Legislative Research",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "1/30/2026",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -200,6 +276,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "1/30/2026 11:52 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/3/2026 9:58 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2073544,
-  "change_hash": "2c8a86c859decc0ad16caaf7fdd73ce5",
+  "change_hash": "5ecf6224d82d321862fc48f46e9ef65f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,14 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-02-02",
+      "event": 9
+    },
+    {
+      "date": "2026-02-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -37,13 +45,8 @@
   "current_body_id": 93,
   "title": "Local Government Drug Testing Amendments",
   "description": "Local Government Drug Testing Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -51,6 +54,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-02",
+      "committee_id": 2112,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Political Subdivisions"
     }
   ],
   "history": [
@@ -88,6 +98,41 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ to standing committee in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House Comm - Favorable Recommendation in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House Comm - Consent Calendar Recommendation in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House/ comm rpt/ placed on Consent Calendar in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House/ 2nd reading in House Consent Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -235,7 +280,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1622600,
+      "date": "2026-02-03",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0246/id/1622600",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39418"
+    },
+    {
+      "roll_call_id": 1622601,
+      "date": "2026-02-03",
+      "desc": "House Comm - Consent Calendar Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0246/id/1622601",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39419"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -257,9 +333,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 653859,
+      "date": "2026-02-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0246",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0246/id/653859",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0246H02.pdf",
+      "supplement_size": 17582,
+      "supplement_hash": "bc3e1564ef2750f6001da452ff03ab24",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "946be71b",
+      "type": "Hearing",
+      "date": "2026-02-03",
+      "time": "15:40",
+      "location": "",
+      "description": "House Political Subdivisions Hearing"
+    }
+  ],
   "general_provisions": "This bill amends government entity drug testing provisions.  ",
   "hilighted_provisions": "This bill:<hr><ltbullet>modifies the definition of \"sample\" to include oral fluid;<hr><ltbullet>clarifies the type of sample that a local governmental entity or state institution of higher education may require that a donor submit for drug testing; and<hr><ltbullet>requires that sample collection be performed in accordance with instructions prepared by an independent entity.",
   "monies": "None",
@@ -267,10 +373,24 @@
   "fiscal_analyst": "Rachel Boe",
   "gov_tracking_id": "GXFPVDYGHE",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/20/2026",
+  "agendas": [
+    {
+      "mtgID": "20295",
+      "committeeID": "HSTPOL",
+      "mtgDate": "2026-02-03 15:40:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "House Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HPOL0203.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "293279"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House Consent Calendar",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -282,8 +402,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -295,8 +415,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -308,8 +428,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -321,8 +441,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -334,8 +454,73 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2/2/2026 12:14 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2/3/2026 5:05 PM",
+      "actionClass": "A",
+      "voteID": "39418",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-5",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Consent Calendar Recommendation",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2/3/2026 5:06 PM",
+      "actionClass": "A",
+      "voteID": "39419",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-5",
+      "actionCode": "HCACONCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ placed on Consent Calendar",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2/4/2026 11:12 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRCON",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House Consent Calendar",
+      "actionDate": "2/4/2026 11:12 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

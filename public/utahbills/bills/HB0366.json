@@ -1,6 +1,6 @@
 {
   "bill_id": 2093381,
-  "change_hash": "51023ecc6c2d99ee2bd13bb4e2334acc",
+  "change_hash": "0b94da620767382402ffb7b01dd8f315",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-26",
       "event": 1
+    },
+    {
+      "date": "2026-02-04",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Judicial Cases Distribution Amendments",
   "description": "Judicial Cases Distribution Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2109,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2109,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Judiciary"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-04",
+      "committee_id": 2109,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Judiciary"
     }
   ],
   "history": [
@@ -78,6 +89,20 @@
     {
       "date": "2026-01-26",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House/ to standing committee in House Judiciary Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -198,7 +223,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 652705,
+      "date": "2026-02-03",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0366",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0366/id/652705",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0366.fn.pdf",
+      "supplement_size": 1609421,
+      "supplement_hash": "4c60d186999c89ed050289e5898b6dff",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill addresses the distribution of district court cases.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>addresses the assignment of district court judges to cases a municipality files, appeals, or transfers to the district court; and<hr><ltbullet>makes technical and conforming changes.",
@@ -208,9 +254,9 @@
   "gov_tracking_id": "WTNRUMVKCU",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/26/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Judiciary Committee",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -261,6 +307,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/3/2026 12:17 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/4/2026 12:21 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

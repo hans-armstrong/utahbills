@@ -1,6 +1,6 @@
 {
   "bill_id": 2067370,
-  "change_hash": "7561b0c5693f71b2888b4d1fbbe38d6d",
+  "change_hash": "f02fdddd0784d89a67af8c4f6bfbfd35",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Signature Collection Modifications",
   "description": "Signature Collection Modifications",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House Comm - Held in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -181,12 +183,32 @@
   "sasts": [],
   "subjects": [
     {
+      "subject_id": 11851,
+      "subject_name": "Government Operations (State Issues)"
+    },
+    {
       "subject_id": 332627,
       "subject_name": "Election Law"
     },
     {
-      "subject_id": 11851,
-      "subject_name": "Government Operations (State Issues)"
+      "subject_id": 332842,
+      "subject_name": "Voting and Voter Registration"
+    },
+    {
+      "subject_id": 14870,
+      "subject_name": "Electronic Databases"
+    },
+    {
+      "subject_id": 11982,
+      "subject_name": "Government Records"
+    },
+    {
+      "subject_id": 339963,
+      "subject_name": "Election Administration"
+    },
+    {
+      "subject_id": 334143,
+      "subject_name": "Lieutenant Governor"
     },
     {
       "subject_id": 367321,
@@ -211,9 +233,43 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3345718,
+      "date": "2026-02-03",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0167/id/3345718",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0167S01.pdf",
+      "text_size": 78457,
+      "text_hash": "9fa5985b36e64d6313e9832e5970e139",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1622722,
+      "date": "2026-02-03",
+      "desc": "House Comm - Held",
+      "yea": 5,
+      "nay": 2,
+      "nv": 0,
+      "absent": 5,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0167/id/1622722",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39383"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -235,9 +291,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 652135,
+      "date": "2026-02-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0167/id/652135",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0167%20To%20HB0167S01.pdf",
+      "supplement_size": 76188,
+      "supplement_hash": "ff03eb5e1ea5fe1ec91b52cad453eb6d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "70c9da7d",
+      "type": "Hearing",
+      "date": "2026-02-03",
+      "time": "15:40",
+      "location": "",
+      "description": "House Government Operations Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions related to nominations for elective office.",
   "hilighted_provisions": "This bill:<hr><ltbullet>requires an election official to post the name and date of signature of a voter who signs a nomination petition on the lieutenant governor's website for at least 90 days;<hr><ltbullet>requires an election official to notify the county or district attorney if a person whose signature appears on a nomination petition notifies the election official that the person did not sign the nomination petition;<hr><ltbullet>clarifies the deadlines for a voter who signs a nomination petition to submit a statement to an election official requesting that the voter's signature be removed from the petition; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -245,10 +331,24 @@
   "fiscal_analyst": "Ivan D. Djambov",
   "gov_tracking_id": "GSBBEWTLBQ",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20276",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2026-02-03 15:40:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HGOC0203.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "293124"
+    }
+  ],
+  "last_action": "House Comm - Held",
   "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "1/21/2026",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -325,6 +425,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/3/2026 4:08 PM",
+      "actionClass": "A",
+      "voteID": "39383",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-2-5",
+      "actionCode": "HCAHELD",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2060757,
-  "change_hash": "46984e6221e55f4a2b03dd883032f6a8",
+  "change_hash": "84fa033050e4a75707549ab71f1a081d",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -32,6 +32,10 @@
     {
       "date": "2026-01-28",
       "event": 9
+    },
+    {
+      "date": "2026-02-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -45,13 +49,8 @@
   "current_body_id": 93,
   "title": "Land Trusts Protection and Advocacy Office Amendments",
   "description": "Land Trusts Protection and Advocacy Office Amendments",
-  "pending_committee_id": 2111,
-  "committee": {
-    "committee_id": 2111,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Natural Resources, Agriculture, and Environment"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -166,6 +165,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House Comm - Favorable Recommendation in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ committee report favorable in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -374,6 +394,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0043/id/1614787",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=27&house=S"
+    },
+    {
+      "roll_call_id": 1620973,
+      "date": "2026-02-02",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0043/id/1620973",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39335"
     }
   ],
   "amendments": [
@@ -419,9 +454,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 650016,
+      "date": "2026-02-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0043",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0043/id/650016",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0043H02.pdf",
+      "supplement_size": 17567,
+      "supplement_hash": "a0c2b4f58942769897d182ffda4814c0",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "fb225773",
+      "type": "Hearing",
+      "date": "2026-02-02",
+      "time": "14:00",
+      "location": "",
+      "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    }
+  ],
   "general_provisions": "This bill clarifies the Land Trusts Protection and Advocacy Office's role and implements distribution accountability requirements for non-public education trust beneficiaries.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>clarifies the authority and purpose of the advocacy office as the primary representative of the trust beneficiaries;<hr><ltbullet>refines the duties of the advocacy office director;<hr><ltbullet>defines accountability requirements for use of trust distributions in response to a legislative audit;<hr><ltbullet>updates the composition of the nominating committees for the trustee boards; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -434,10 +499,24 @@
       "name": "Natural Resources, Agriculture, and Environment Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "1/28/2026",
+  "agendas": [
+    {
+      "mtgID": "20321",
+      "committeeID": "HSTNAE",
+      "mtgDate": "2026-02-02 14:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HNAE0202.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "292632"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for Senate bills",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -605,6 +684,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/2/2026 3:34 PM",
+      "actionClass": "A",
+      "voteID": "39335",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-5",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/3/2026 11:15 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2/3/2026 11:15 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2056767,
-  "change_hash": "24cd73b3b0bf901a14891350b10e8b66",
+  "change_hash": "e0241df7c7863cb5ce6b7acaff69fb08",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -56,14 +56,14 @@
   "history": [
     {
       "date": "2025-12-04",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2025-12-04",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -245,6 +245,10 @@
     {
       "subject_id": 11952,
       "subject_name": "Medicaid"
+    },
+    {
+      "subject_id": 335057,
+      "subject_name": "Homelessness"
     }
   ],
   "texts": [
@@ -259,6 +263,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0015.pdf",
       "text_size": 101920,
       "text_hash": "dfeca89fa3a082e0b3ce7b742dcd2245",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3343521,
+      "date": "2026-02-02",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0015/id/3343521",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0015S01.pdf",
+      "text_size": 73306,
+      "text_hash": "a9af4161e569351a656ff8bb46e53ea7",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -289,6 +311,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 649764,
+      "date": "2026-02-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0015/id/649764",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0015%20To%20HB0015S01.pdf",
+      "supplement_size": 122950,
+      "supplement_hash": "016bf021079893906ec9330402f9fca9",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [],
@@ -310,19 +352,6 @@
   "last_action_time": "1/20/2026",
   "action_history": [
     {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "12/4/2025 1:53 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
-    },
-    {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
       "actionDate": "12/4/2025 1:53 PM",
@@ -332,8 +361,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "12/4/2025 1:53 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -345,8 +387,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -358,8 +400,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -371,8 +413,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

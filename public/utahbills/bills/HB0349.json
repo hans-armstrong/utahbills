@@ -1,6 +1,6 @@
 {
   "bill_id": 2091731,
-  "change_hash": "22340f8f40c50b8165adce7473106503",
+  "change_hash": "4ad28c27564d88fae7e676aa3938b108",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,14 @@
     {
       "date": "2026-01-23",
       "event": 1
+    },
+    {
+      "date": "2026-01-30",
+      "event": 9
+    },
+    {
+      "date": "2026-02-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -37,13 +45,8 @@
   "current_body_id": 93,
   "title": "Statewide Water Storage",
   "description": "Statewide Water Storage",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-23",
@@ -51,6 +54,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-30",
+      "committee_id": 2111,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Natural Resources, Agriculture, and Environment"
     }
   ],
   "history": [
@@ -85,6 +95,34 @@
     {
       "date": "2026-01-27",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House/ to standing committee in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House Comm - Favorable Recommendation in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ committee report favorable in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -203,7 +241,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1621226,
+      "date": "2026-02-02",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0349/id/1621226",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39309"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -225,9 +279,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 650498,
+      "date": "2026-02-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0349",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0349/id/650498",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0349H01.pdf",
+      "supplement_size": 17531,
+      "supplement_hash": "4370494a55569efeb36ef40375a6de4b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "fb225773",
+      "type": "Hearing",
+      "date": "2026-02-02",
+      "time": "14:00",
+      "location": "",
+      "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses water storage within the state.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>authorizes the use of the Water Infrastructure Restricted Account for loans related to dams and reservoirs;<hr><ltbullet>addresses rulemaking related to the loans;<hr><ltbullet>provides for repayment for the loans;<hr><ltbullet>establishes the process for approving projects or proposals related to dams and reservoirs;<hr><ltbullet>requires reporting; and<hr><ltbullet>makes technical and conforming amendments.",
   "monies": "None",
@@ -235,10 +319,24 @@
   "fiscal_analyst": "Lacey K. Moore",
   "gov_tracking_id": "MHAPXSJMUG",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/27/2026",
+  "agendas": [
+    {
+      "mtgID": "20321",
+      "committeeID": "HSTNAE",
+      "mtgDate": "2026-02-02 14:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HNAE0202.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "292549"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -302,6 +400,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "1/30/2026 12:17 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/2/2026 2:37 PM",
+      "actionClass": "A",
+      "voteID": "39309",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-3",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/3/2026 11:15 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/3/2026 11:15 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

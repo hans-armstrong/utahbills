@@ -1,6 +1,6 @@
 {
   "bill_id": 2102575,
-  "change_hash": "a08b82d5a35a7608be74cf3f883c0710",
+  "change_hash": "4768e0dc14c0d7546e79710685270833",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0436/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0436.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-01-30",
+  "progress": [
+    {
+      "date": "2026-01-30",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0436",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Moderate Income Housing Infrastructure Amendments",
   "description": "Moderate Income Housing Infrastructure Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2026-01-30",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-30",
@@ -48,6 +66,27 @@
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -126,6 +165,34 @@
     {
       "subject_id": 11910,
       "subject_name": "Political Subdivisions (Local Issues)"
+    },
+    {
+      "subject_id": 11909,
+      "subject_name": "Counties"
+    },
+    {
+      "subject_id": 11988,
+      "subject_name": "Land Use"
+    },
+    {
+      "subject_id": 11923,
+      "subject_name": "Housing"
+    },
+    {
+      "subject_id": 332649,
+      "subject_name": "Municipalities"
+    },
+    {
+      "subject_id": 11875,
+      "subject_name": "Transportation"
+    },
+    {
+      "subject_id": 334450,
+      "subject_name": "Transportation Funding"
+    },
+    {
+      "subject_id": 379923,
+      "subject_name": "Active Transportation Investment Fund"
     }
   ],
   "texts": [
@@ -150,7 +217,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 650291,
+      "date": "2026-02-02",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0436",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0436/id/650291",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0436.fn.pdf",
+      "supplement_size": 1608363,
+      "supplement_hash": "03e5d0cb357ac239a2be52a492e734e3",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill modifies requirements and incentives for municipal moderate income housing reports.  ",
   "hilighted_provisions": "This bill:<hr><ltbullet>modifies the information a municipality is required to submit in a moderate income housing report;<hr><ltbullet> provides priority consideration by the Transportation Commission for certain transportation projects if the change of new residential dwelling units in a municipality is 2.5% or greater; and<hr><ltbullet>makes other technical changes for consistency.",
@@ -160,9 +248,9 @@
   "gov_tracking_id": "JBRVDSXNPB",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received bill from Legislative Research",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "1/30/2026",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -200,6 +288,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "1/30/2026 11:52 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/3/2026 8:22 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm1": "",
       "parm2": ""
     }

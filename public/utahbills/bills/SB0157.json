@@ -1,6 +1,6 @@
 {
   "bill_id": 2085914,
-  "change_hash": "ce8a6eddb00c4e7b574ecd77a066b42c",
+  "change_hash": "d6b1fa146f003bd8dd835d271444e8e8",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-21",
       "event": 9
+    },
+    {
+      "date": "2026-02-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "New Motorboat Distributor Act",
   "description": "New Motorboat Distributor Act",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -67,14 +66,14 @@
   "history": [
     {
       "date": "2026-01-19",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-01-19",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -103,6 +102,34 @@
     {
       "date": "2026-01-26",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate Comm - Substitute Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "Senate/ comm rpt/ substituted in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-04",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -219,9 +246,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3343347,
+      "date": "2026-02-02",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0157/id/3343347",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0157S01.pdf",
+      "text_size": 88800,
+      "text_hash": "6b95ea9d1a042215bc49fa9e52457e46",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1622514,
+      "date": "2026-02-03",
+      "desc": "Senate Comm - Substitute Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0157/id/1622514",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39375"
+    },
+    {
+      "roll_call_id": 1622515,
+      "date": "2026-02-03",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 6,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0157/id/1622515",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39378"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -243,34 +319,105 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 649608,
+      "date": "2026-02-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0157/id/649608",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0157%20To%20SB0157S01.pdf",
+      "supplement_size": 224824,
+      "supplement_hash": "ef42450e2209523614d5467f3fca2d93",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 653457,
+      "date": "2026-02-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0157",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0157/id/653457",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0157S02.pdf",
+      "supplement_size": 18331,
+      "supplement_hash": "8be591332ddb66af955485eb7115718b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 656963,
+      "date": "2026-02-04",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0157S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0157/id/656963",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0157S01.fn.pdf",
+      "supplement_size": 1609785,
+      "supplement_hash": "b58d30a840379bf1e97ac942ec472b91",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
-  "general_provisions": "This bill enacts the New Motorboat Distributor Act. ",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>mandates administrative oversight and registration for the new motorboat industry;<hr><ltbullet>requires each distributor and each distributee to register annually with the Department of Commerce and pay a registration <hr><ltbullet>authorizes the executive director of the Department of Commerce to conduct adjudicative proceedings and issue an administrative fine of up to $5,000 per day;<hr><ltbullet>prohibits a distributor from engaging in coercive or unfair business practices which include:<hr><ltbullet1>forcing a distributee to accept unordered motorboats, parts, or promotional materials;<hr><ltbullet1>requiring a distributee to change the distributee's capital structure or refrain from selling competing lines of motorboats;<hr><ltbullet1>implementing an unfair or inequitable system for allocating new motorboats or parts;<hr><ltbullet1>directly or indirectly owning, operating, or controlling a new motorboat distributee or service facility; and<hr><ltbullet1>discriminating between distributees regarding pricing, promotional incentives, or the distribution of customer leads;<hr><ltbullet>protects a distributee's ownership and succession rights to ensure business continuity;<hr><ltbullet>restricts the termination of an agreement and the relocation of a distributee;<hr><ltbullet>establishes strict requirements for financial compensation and inventory buy-backs by:<hr><ltbullet1>requiring a distributor to compensate a distributee for warranty and recall repairs at a rate that is no less than what the distributee charges a retail customer for similar work;<hr><ltbullet1>requiring a distributor to buy back unsold inventory, including new motorboats, parts, signs, and special tools upon the termination of a distributorship agreement; and<hr><ltbullet1>requiring a distributor to pay monthly compensation for used motorboats in a distributee's inventory that are under a stop-sale or do-not-operate order due to a recall;<hr><ltbullet> clarifies transit liability;<hr><ltbullet>provides regulation for a property agreement; and<hr><ltbullet>provides legal recourse for a distributee to ensure compliance by granting the distributee a private right of action to sue a distributor for actual damages and reasonable attorney fees resulting from a violation of the act. ",
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "4a2a286c",
+      "type": "Hearing",
+      "date": "2026-02-03",
+      "time": "15:40",
+      "location": "",
+      "description": "Senate Business and Labor Hearing"
+    }
+  ],
+  "general_provisions": "This bill enacts the New Motorboat Distributor Act.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>authorizes the executive director of the Department of Commerce to conduct adjudicative proceedings, issue cease-and-desist orders, and impose administrative fines of up to $5,000 per day for violations;<hr><ltbullet>prohibits distributors from engaging in coercive, unfair, or inequitable business practices toward dealerships;<hr><ltbullet>protects a dealership's right to sell, transfer, or pass ownership of the business to a successor and limits when a distributor may refuse that transfer;<hr><ltbullet>restricts a distributor's ability to terminate or discontinue a dealership agreement without good cause, advance notice, and an opportunity for administrative review;<hr><ltbullet>requires a distributor to provide a detailed written warranty, recall, and service compensation policies and to reimburse a dealership at retail labor and parts rates for warranty and recall work;<hr><ltbullet>requires a distributor to compensate a dealership for incidental labor, on-water testing, and administrative tasks related to warranty and recall repairs;<hr><ltbullet>requires a distributor to buy back unsold inventory, parts, tools, signs, and equipment from a dealership if the distributorship agreement is terminated;<hr><ltbullet>establishes procedures and evidentiary standards the executive director shall use to determine whether a distributor has good cause to terminate, relocate, or add a dealership within a market area;<hr><ltbullet>requires a distributor to provide notice, market data, and justification before establishing or relocating a dealership within 100 miles of an existing dealership of the same line-make and allows an existing dealership to protest;<hr><ltbullet>grants a dealership a private right of action against a distributor for actual damages and attorney fees resulting from violations of the act;<hr><ltbullet>recognizes and preserves certain preexisting sub-distributee agreements while prohibiting the creation of a new sub-distributee arrangement after the effective date; and<hr><ltbullet>repeals the Motorboat Agreements Act.",
   "monies": "None",
   "attorney": "Tyler Moore",
   "fiscal_analyst": "Jared Gibbs",
   "gov_tracking_id": "SECQAXXGLA",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "1/26/2026",
-  "action_history": [
+  "agendas": [
     {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/19/2026 1:35 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
-    },
+      "mtgID": "20288",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2026-02-03 15:40:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SBUS0203.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "293117"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/4/2026",
+  "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -281,6 +428,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/19/2026 1:35 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
       "parm1": "",
       "parm2": ""
     },
@@ -333,6 +493,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/3/2026 3:56 PM",
+      "actionClass": "A",
+      "voteID": "39375",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-3",
+      "actionCode": "SCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/3/2026 4:01 PM",
+      "actionClass": "A",
+      "voteID": "39378",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-2",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ substituted",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/4/2026 11:18 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/4/2026 11:18 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

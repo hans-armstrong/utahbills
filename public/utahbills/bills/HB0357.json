@@ -1,6 +1,6 @@
 {
   "bill_id": 2092130,
-  "change_hash": "113244c8dca1e49471aabddd7d105af8",
+  "change_hash": "64413b49a3bb788eda1106e2fcc590a5",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-26",
       "event": 1
+    },
+    {
+      "date": "2026-02-04",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Amendments to Motor Vehicle Data Privacy",
   "description": "Amendments to Motor Vehicle Data Privacy",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2117,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2117,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Transportation"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-04",
+      "committee_id": 2117,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Transportation"
     }
   ],
   "history": [
@@ -78,6 +89,13 @@
     {
       "date": "2026-01-26",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House/ to standing committee in House Transportation Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -244,8 +262,39 @@
       "alt_amendment_hash": ""
     }
   ],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 649536,
+      "date": "2026-02-02",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0357",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0357/id/649536",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0357.fn.pdf",
+      "supplement_size": 1609658,
+      "supplement_hash": "fc46869554cd63c92f8c30ad0f442c93",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "92f709f7",
+      "type": "Hearing",
+      "date": "2026-02-05",
+      "time": "15:40",
+      "location": "",
+      "description": "House Transportation Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies the Utah Consumer Privacy Act relating to motor vehicle data privacy.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>applies the Utah Consumer Privacy Act to motor vehicle manufacturers; <hr><ltbullet>requires in-vehicle privacy controls for certain motor vehicles; <hr><ltbullet>exempts certain safety and operational data from consent requirements; and <hr><ltbullet>requires the Motor Vehicle Division to provide information to consumers regarding motor vehicle data privacy rights.",
   "monies": "None",
@@ -254,9 +303,9 @@
   "gov_tracking_id": "VMUCOFIQJU",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/26/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Transportation Committee",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -307,6 +356,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Transportation Committee",
+      "actionDate": "2/4/2026 12:22 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

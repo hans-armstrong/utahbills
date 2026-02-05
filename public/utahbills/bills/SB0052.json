@@ -1,6 +1,6 @@
 {
   "bill_id": 2061138,
-  "change_hash": "eb53f08c993ee4c2a1afe592a1d22269",
+  "change_hash": "c82febc87aa2dc8acef67261430c4f37",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-01-27",
       "event": 2
+    },
+    {
+      "date": "2026-02-02",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,12 +53,12 @@
   "current_body_id": 93,
   "title": "Substitute Teaching Requirements Amendments",
   "description": "Substitute Teaching Requirements Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2105,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2105,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Education"
   },
   "referrals": [
     {
@@ -77,6 +81,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-02",
+      "committee_id": 2105,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Education"
     }
   ],
   "history": [
@@ -205,6 +216,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ to standing committee in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -479,6 +497,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Education Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "e16ebdd6",
+      "type": "Hearing",
+      "date": "2026-02-04",
+      "time": "15:40",
+      "location": "",
+      "description": "House Education Hearing"
     }
   ],
   "general_provisions": "This bill removes the requirement for a teaching license for a long-term substitute.",
@@ -501,11 +528,24 @@
       "agendaURL": "/~2026/agenda/SEDU0121.ag.htm",
       "billSession": "2026GS",
       "markerID": "287728"
+    },
+    {
+      "mtgID": "20316",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-02-04 15:40:00.0",
+      "agendaItem": "7",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HEDU0204.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
     }
   ],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/28/2026",
+  "last_action": "House Comm - Not Considered",
+  "last_action_owner": "House Education Committee",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -738,6 +778,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Education Committee",
+      "actionDate": "2/2/2026 12:11 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Education Committee",
+      "actionDate": "2/4/2026 3:40 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
       "parm1": "",
       "parm2": ""
     }

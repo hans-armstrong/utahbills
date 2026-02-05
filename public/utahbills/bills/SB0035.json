@@ -1,6 +1,6 @@
 {
   "bill_id": 2060577,
-  "change_hash": "30c05b9502397d108d5cfa8ee7b1a338",
+  "change_hash": "8a6d4806a6869de2f5244c3732b5d1ca",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -32,6 +32,10 @@
     {
       "date": "2026-01-29",
       "event": 9
+    },
+    {
+      "date": "2026-02-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -45,13 +49,8 @@
   "current_body_id": 93,
   "title": "Amendments to Interdisciplinary Parental Representation Pilot Program",
   "description": "Amendments to Interdisciplinary Parental Representation Pilot Program",
-  "pending_committee_id": 2109,
-  "committee": {
-    "committee_id": 2109,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Judiciary"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -78,14 +77,14 @@
   "history": [
     {
       "date": "2025-12-19",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2025-12-19",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -159,6 +158,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House Comm - Favorable Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ committee report favorable in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -365,6 +385,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0035/id/1614702",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=22&house=S"
+    },
+    {
+      "roll_call_id": 1621306,
+      "date": "2026-02-02",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0035/id/1621306",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39338"
     }
   ],
   "amendments": [],
@@ -388,9 +423,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 650655,
+      "date": "2026-02-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0035",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0035/id/650655",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0035H01.pdf",
+      "supplement_size": 17563,
+      "supplement_hash": "f0368ac4d986e3650e75a9d675c8444c",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "b0477046",
+      "type": "Hearing",
+      "date": "2026-02-02",
+      "time": "14:00",
+      "location": "",
+      "description": "House Judiciary Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses the Interdisciplinary Parental Representation Pilot Program.",
   "hilighted_provisions": "This bill:<hr><ltbullet>extends the sunset date of the Interdisciplinary Parental Representation Pilot Program; and<hr><ltbullet>prohibits an individual who has worked for the Division of Child and Family Services from working for the pilot program for one year after the individual ends employment with the division.",
   "monies": "None",
@@ -403,24 +468,25 @@
       "name": "Judiciary Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Judiciary Committee",
-  "last_action_time": "1/29/2026",
-  "action_history": [
+  "agendas": [
     {
-      "description": "Bill Numbered but not Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "12/19/2025 3:00 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
-    },
+      "mtgID": "20246",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2026-02-02 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001103.htm",
+      "agendaURL": "/~2026/agenda/HJUD0202.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "292664"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for Senate bills",
+  "last_action_time": "2/3/2026",
+  "action_history": [
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -431,6 +497,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Numbered but not Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "12/19/2025 3:00 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LNUMBER",
       "parm1": "",
       "parm2": ""
     },
@@ -561,6 +640,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/2/2026 3:38 PM",
+      "actionClass": "A",
+      "voteID": "39338",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-4",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/3/2026 11:11 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2/3/2026 11:11 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

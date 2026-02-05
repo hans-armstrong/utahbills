@@ -1,6 +1,6 @@
 {
   "bill_id": 2067723,
-  "change_hash": "621083be99c8e85e9202756904a602b6",
+  "change_hash": "7ba8a18992ef58b2c84880bbcd566df3",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-02-04",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -35,14 +39,14 @@
   "body_id": 93,
   "current_body": "H",
   "current_body_id": 93,
-  "title": "Local Land Use Revisions",
-  "description": "Local Land Use Revisions",
-  "pending_committee_id": 2116,
+  "title": "Small Lots and Starter Homes Amendments",
+  "description": "Small Lots and Starter Homes Amendments",
+  "pending_committee_id": 2860,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2860,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Economic Development and Workforce Services"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-04",
+      "committee_id": 2860,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Economic Development and Workforce Services"
     }
   ],
   "history": [
@@ -85,6 +96,20 @@
     {
       "date": "2026-01-20",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-04",
+      "action": "Bill Substituted by Sponsor in House Rules Comm in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House/ to standing committee in House Economic Development and Workforce Services Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -362,9 +387,9 @@
   "gov_tracking_id": "CKJJDUOVKE",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/20/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Economic Development and Workforce Services Committee",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -376,8 +401,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -389,8 +414,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -402,8 +427,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -415,8 +440,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -428,8 +453,34 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Substituted by Sponsor in House Rules Comm",
+      "owner": "House Rules Committee",
+      "actionDate": "2/4/2026 11:23 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRULSUBH",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "2/4/2026 12:20 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

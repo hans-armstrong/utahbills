@@ -1,6 +1,6 @@
 {
   "bill_id": 2088926,
-  "change_hash": "6b66c58ab9f8074f15f81f5a0f6e5f14",
+  "change_hash": "965b10b4a56000dbde195846252c370b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -105,6 +105,13 @@
     {
       "date": "2026-01-27",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate Comm - Not Considered in Senate Business and Labor Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -264,6 +271,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Business and Labor Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "4a2a286c",
+      "type": "Hearing",
+      "date": "2026-02-03",
+      "time": "15:40",
+      "location": "",
+      "description": "Senate Business and Labor Hearing"
     }
   ],
   "general_provisions": "This bill enacts provisions relating to algorithmic pricing.",
@@ -282,15 +298,28 @@
       "mtgPlace": "220 Senate Building",
       "committeeName": "Senate Business and Labor Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00000758.htm",
       "agendaURL": "/~2026/agenda/SBUS0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
+    },
+    {
+      "mtgID": "20288",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2026-02-03 15:40:00.0",
+      "agendaItem": "7",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SBUS0203.ag.htm",
       "billSession": "2026GS",
       "markerID": ""
     }
   ],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "last_action": "Senate Comm - Not Considered",
   "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "1/27/2026",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -380,6 +409,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Not Considered",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/3/2026 3:40 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCANOCNSDR",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2061187,
-  "change_hash": "6e685a2618c7dbecb0cf63b2677639a3",
+  "change_hash": "12ae1ba40bf184afe1b934d066a156c0",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SB0053/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0053.html",
   "completed": 0,
-  "status": 1,
+  "status": 6,
   "status_date": "2026-01-20",
   "progress": [
     {
@@ -123,6 +123,27 @@
     {
       "date": "2026-01-23",
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate/ failed in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate/ filed in Senate Secretary",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -316,6 +337,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0053/id/1616003",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38680"
+    },
+    {
+      "roll_call_id": 1622651,
+      "date": "2026-02-03",
+      "desc": "Senate/ failed",
+      "yea": 10,
+      "nay": 16,
+      "nv": 0,
+      "absent": 3,
+      "total": 29,
+      "passed": 0,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0053/id/1622651",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=176&house=S"
     }
   ],
   "amendments": [],
@@ -394,9 +430,9 @@
       "markerID": "288134"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "1/23/2026",
+  "last_action": "Senate/ filed",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -512,6 +548,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/3/2026 2:44 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ failed",
+      "owner": "Senate Secretary",
+      "actionDate": "2/3/2026 2:49 PM",
+      "actionClass": "S",
+      "voteID": "176",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "10-16-3",
+      "actionCode": "SFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ filed",
+      "owner": "Senate Secretary",
+      "actionDate": "2/3/2026 2:49 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SFILED",
       "parm1": "",
       "parm2": ""
     }

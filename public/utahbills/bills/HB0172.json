@@ -1,6 +1,6 @@
 {
   "bill_id": 2066878,
-  "change_hash": "bde2a3237a389bd0f1bb65751e377ddd",
+  "change_hash": "cbe042fddef47fc1aaed5ca06f15f95e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-23",
       "event": 9
+    },
+    {
+      "date": "2026-02-02",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -39,15 +43,10 @@
   "body_id": 93,
   "current_body": "H",
   "current_body_id": 93,
-  "title": "Food Safety Manager Certification Amendments",
-  "description": "Food Safety Manager Certification Amendments",
-  "pending_committee_id": 5042,
-  "committee": {
-    "committee_id": 5042,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Business, Labor, and Commerce"
-  },
+  "title": "Food Safety Amendments",
+  "description": "Food Safety Amendments",
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +105,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House Comm - Substitute Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House Comm - Favorable Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ comm rpt/ substituted in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -251,6 +278,18 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 11871,
+      "subject_name": "Business"
+    },
+    {
+      "subject_id": 334529,
+      "subject_name": "Food Services and Drinking Places"
+    },
+    {
+      "subject_id": 334886,
+      "subject_name": "Public Health"
     }
   ],
   "texts": [
@@ -291,7 +330,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1620143,
+      "date": "2026-01-30",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 12,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0172/id/1620143",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39257"
+    },
+    {
+      "roll_call_id": 1620144,
+      "date": "2026-01-30",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 11,
+      "nay": 1,
+      "nv": 0,
+      "absent": 4,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0172/id/1620144",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39259"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -333,6 +403,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 648447,
+      "date": "2026-01-30",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0172",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0172/id/648447",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0172H01.pdf",
+      "supplement_size": 17587,
+      "supplement_hash": "d8bb2cda69d3c56836eba67495d6114c",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -346,17 +436,31 @@
       "description": "House Business, Labor, and Commerce Hearing"
     }
   ],
-  "general_provisions": "This bill extends the period for food safety manager certification renewal.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>extends the period for food safety manager certification renewal from three years to five years.",
+  "general_provisions": "This bill amends provisions related to food safety.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>amends provisions related to exemptions from food service establishment requirements;<hr><ltbullet>extends the period for food safety manager certification renewal from three years to five years;<hr><ltbullet>defines terms; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Amy Shewan",
   "fiscal_analyst": "Russell T. Frandsen",
   "gov_tracking_id": "ISHLSLHDSM",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Business, Labor, and Commerce Committee",
-  "last_action_time": "1/23/2026",
+  "agendas": [
+    {
+      "mtgID": "20281",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2026-01-30 14:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HBUS0130.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "292083"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/2/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -433,6 +537,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "1/30/2026 4:48 PM",
+      "actionClass": "A",
+      "voteID": "39257",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-0-4",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "1/30/2026 4:49 PM",
+      "actionClass": "A",
+      "voteID": "39259",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-1-4",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2/2/2026 11:09 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/2/2026 11:09 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

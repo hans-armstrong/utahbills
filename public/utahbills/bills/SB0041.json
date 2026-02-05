@@ -1,6 +1,6 @@
 {
   "bill_id": 2060690,
-  "change_hash": "e29125f6d92ce2d18518a23ba8525fab",
+  "change_hash": "4db1bb8abdf95c222bad24466b52ebdb",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-21",
       "event": 2
+    },
+    {
+      "date": "2026-02-02",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Business Entity Technical Amendments",
   "description": "Business Entity Technical Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -62,6 +61,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-02",
+      "committee_id": 5042,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Business, Labor, and Commerce"
     }
   ],
   "history": [
@@ -159,6 +165,27 @@
     {
       "date": "2026-01-21",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ to standing committee in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House Comm - Substitute Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House Comm - Favorable Recommendation in House Business, Labor, and Commerce Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -388,6 +415,36 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0041/id/1614696",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=38&house=S"
+    },
+    {
+      "roll_call_id": 1623622,
+      "date": "2026-02-04",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0041/id/1623622",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39510"
+    },
+    {
+      "roll_call_id": 1623623,
+      "date": "2026-02-04",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0041/id/1623623",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39514"
     }
   ],
   "amendments": [],
@@ -511,9 +568,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 657668,
+      "date": "2026-02-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0041",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0041/id/657668",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0041H02.pdf",
+      "supplement_size": 17588,
+      "supplement_hash": "1a6b48db1f352b7e4ed8e3978c024cf6",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "1b2f9489",
+      "type": "Hearing",
+      "date": "2026-02-04",
+      "time": "15:40",
+      "location": "",
+      "description": "House Business, Labor, and Commerce Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions relating to business entities.",
   "hilighted_provisions": "This bill:<hr><ltbullet>renumbers Title 48, Chapter 3a, Utah Revised Uniform Limited Liability Company Act, to Title 16, Chapter 20, Utah Revised Uniform Limited Liability Company Act;<hr><ltbullet>renumbers Title 48, Chapter 4, Benefit Limited Liability Company Act, to Title 16, Chapter 21, Benefit Limited Liability Company Act;<hr><ltbullet>renumbers Title 48, Chapter 5, Decentralized Autonomous Organization Act, to Title 16, Chapter 22, Decentralized Autonomous Organization Act;<hr><ltbullet>updates cross references for provisions enacted by this bill and Business Entity Amendments; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -526,10 +613,24 @@
       "name": "Business and Labor Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/21/2026",
+  "agendas": [
+    {
+      "mtgID": "20282",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2026-02-04 15:40:00.0",
+      "agendaItem": "9",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HBUS0204.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "293883"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
+  "last_action_owner": "House Business, Labor, and Commerce Committee",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -710,6 +811,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2/2/2026 12:10 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2/4/2026 5:14 PM",
+      "actionClass": "A",
+      "voteID": "39510",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-5",
+      "actionCode": "HCASUB",
+      "parm1": "2",
+      "parm2": "1"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2/4/2026 5:14 PM",
+      "actionClass": "A",
+      "voteID": "39514",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-5",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2102521,
-  "change_hash": "def973dd09edb8939f1d4999a27ca275",
+  "change_hash": "0283865086ba757df627c43671d00b0c",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,18 @@
   "url": "https://legiscan.com/UT/bill/SB0224/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0224.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-02-02",
+  "progress": [
+    {
+      "date": "2026-02-02",
+      "event": 1
+    },
+    {
+      "date": "2026-02-03",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0224",
@@ -32,9 +41,29 @@
   "current_body_id": 94,
   "title": "Vital Records Access Amendments",
   "description": "Vital Records Access Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2861,
+  "committee": {
+    "committee_id": 2861,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Economic Development and Workforce Services"
+  },
+  "referrals": [
+    {
+      "date": "2026-02-02",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-03",
+      "committee_id": 2861,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Economic Development and Workforce Services"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-30",
@@ -49,6 +78,34 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate/ to standing committee in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -126,6 +183,30 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 11846,
+      "subject_name": "Education"
+    },
+    {
+      "subject_id": 332526,
+      "subject_name": "K-12 Education"
+    },
+    {
+      "subject_id": 11982,
+      "subject_name": "Government Records"
+    },
+    {
+      "subject_id": 11911,
+      "subject_name": "School Personnel"
+    },
+    {
+      "subject_id": 11851,
+      "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 362639,
+      "subject_name": "Department of Health and Human Services"
     }
   ],
   "texts": [
@@ -150,8 +231,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 649607,
+      "date": "2026-02-02",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0224",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0224/id/649607",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0224.fn.pdf",
+      "supplement_size": 1608337,
+      "supplement_hash": "f6f3a2b5382bdda4a3b0f140c857ff9d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "cdf00fda",
+      "type": "Hearing",
+      "date": "2026-02-05",
+      "time": "15:40",
+      "location": "",
+      "description": "Senate Economic Development and Workforce Services Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses who may obtain a vital record.",
   "hilighted_provisions": "This bill:<hr><ltbullet>allows a liaison for a homeless youth or child to obtain the minor's vital records on behalf of the homeless youth or child.",
   "monies": "None",
@@ -160,9 +272,9 @@
   "gov_tracking_id": "DOMARTGEOH",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ received bill from Legislative Research",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "1/30/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Economic Development and Workforce Services Committee",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -200,6 +312,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "2/2/2026 10:53 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/2/2026 11:20 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "2/3/2026 11:22 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

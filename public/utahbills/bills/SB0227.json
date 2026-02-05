@@ -1,6 +1,6 @@
 {
   "bill_id": 2102701,
-  "change_hash": "88842f414528e9154ad33fed7eaa4452",
+  "change_hash": "c482936d5e11399d77fcdb101d9aeb53",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,18 @@
   "url": "https://legiscan.com/UT/bill/SB0227/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0227.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-02-02",
+  "progress": [
+    {
+      "date": "2026-02-02",
+      "event": 1
+    },
+    {
+      "date": "2026-02-03",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0227",
@@ -32,9 +41,29 @@
   "current_body_id": 94,
   "title": "Punitive Damages Amendments",
   "description": "Punitive Damages Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 3583,
+  "committee": {
+    "committee_id": 3583,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Transportation, Public Utilities, Energy, and Technology"
+  },
+  "referrals": [
+    {
+      "date": "2026-02-02",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-03",
+      "committee_id": 3583,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Transportation, Public Utilities, Energy, and Technology"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-30",
@@ -49,6 +78,34 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate/ to standing committee in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -126,6 +183,30 @@
     {
       "subject_id": 11871,
       "subject_name": "Business"
+    },
+    {
+      "subject_id": 11904,
+      "subject_name": "Motor Vehicle Insurance"
+    },
+    {
+      "subject_id": 11907,
+      "subject_name": "Insurance"
+    },
+    {
+      "subject_id": 332528,
+      "subject_name": "Judicial Operations"
+    },
+    {
+      "subject_id": 11874,
+      "subject_name": "Motor Vehicles"
+    },
+    {
+      "subject_id": 11875,
+      "subject_name": "Transportation"
+    },
+    {
+      "subject_id": 367572,
+      "subject_name": "Civil Litigation"
     }
   ],
   "texts": [
@@ -150,8 +231,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 651110,
+      "date": "2026-02-03",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0227",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0227/id/651110",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0227.fn.pdf",
+      "supplement_size": 1608339,
+      "supplement_hash": "ff21e37c6eb13f6fbf9048666ad21e8e",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "5e2790a6",
+      "type": "Hearing",
+      "date": "2026-02-04",
+      "time": "15:40",
+      "location": "",
+      "description": "Senate Transportation, Public Utilities, Energy, and Technology Hearing"
+    }
+  ],
   "general_provisions": "This bill enacts provisions relating to limitations on liability for punitive damages.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines \"motor vehicle\";<hr><ltbullet>provides a limit on an award of punitive damages resulting from a personal injury claim that involves a motor vehicle; and<hr><ltbullet>provides a limit on the attorney fees related to an award of punitive damages.",
   "monies": "None",
@@ -159,10 +271,24 @@
   "fiscal_analyst": "Gary R. Syphus",
   "gov_tracking_id": "WXJEHARDQV",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received bill from Legislative Research",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "1/30/2026",
+  "agendas": [
+    {
+      "mtgID": "20225",
+      "committeeID": "SSTTPT",
+      "mtgDate": "2026-02-04 15:40:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/STPT0204.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "293718"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
+  "last_action_owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -200,6 +326,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/2/2026 11:20 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/3/2026 10:51 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "2/3/2026 11:22 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "2/4/2026 4:30 PM",
+      "actionClass": "A",
+      "voteID": "39483",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-2-2",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

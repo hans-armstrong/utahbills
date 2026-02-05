@@ -1,6 +1,6 @@
 {
   "bill_id": 2092073,
-  "change_hash": "802922dd744cd9c09f70ae60b6c23bbe",
+  "change_hash": "44cd2264719ce01ccb47ccb87bbec209",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,14 @@
     {
       "date": "2026-01-23",
       "event": 1
+    },
+    {
+      "date": "2026-02-02",
+      "event": 9
+    },
+    {
+      "date": "2026-02-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -37,13 +45,8 @@
   "current_body_id": 94,
   "title": "Legislative Activities Amendments",
   "description": "Legislative Activities Amendments",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-23",
@@ -51,6 +54,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-02",
+      "committee_id": 2119,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Business and Labor"
     }
   ],
   "history": [
@@ -85,6 +95,41 @@
     {
       "date": "2026-01-27",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate/ to standing committee in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate Comm - Amendment Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "Senate/ comm rpt/ amended in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-04",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -209,10 +254,81 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3348654,
+      "date": "2026-02-04",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0192/id/3348654",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_SB0192_2026-02-04_11-07-56.pdf",
+      "text_size": 121689,
+      "text_hash": "bab7f7ba6d8f4cc7d4ba04391a4a9188",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
-  "amendments": [],
+  "votes": [
+    {
+      "roll_call_id": 1622679,
+      "date": "2026-02-03",
+      "desc": "Senate Comm - Amendment Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0192/id/1622679",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39396"
+    },
+    {
+      "roll_call_id": 1622680,
+      "date": "2026-02-03",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0192/id/1622680",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39399"
+    }
+  ],
+  "amendments": [
+    {
+      "amendment_id": 269895,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2026-02-03",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0192/id/269895",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/SB0192.Samd.1.pdf",
+      "amendment_size": 19987,
+      "amendment_hash": "7c31e5093c2ae1fc1492bf4305918187",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 645420,
@@ -233,9 +349,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 654277,
+      "date": "2026-02-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0192",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0192/id/654277",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0192S02.pdf",
+      "supplement_size": 20170,
+      "supplement_hash": "f20ef03cbe248d409a4586308d41f900",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "4a2a286c",
+      "type": "Hearing",
+      "date": "2026-02-03",
+      "time": "15:40",
+      "location": "",
+      "description": "Senate Business and Labor Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions related to the Legislative Management Committee (LMC), the State Capitol Preservation Board, and the Legislature.",
   "hilighted_provisions": "This bill:<hr><ltbullet>clarifies that LMC oversees workplace harassment and discrimination policy governance and updates references to that policy;<hr><ltbullet>modifies LMC's quorum and meeting requirements;<hr><ltbullet>provides that LMC shall oversee and develop policies governing branch-wide internal administrative matters for the Legislature;<hr><ltbullet>eliminates certain administrative duties of the presiding officer and the majority and minority leader of each chamber of the Legislature and the chairs of LMC;<hr><ltbullet>repeals the LMC Subcommittee on Oversight;<hr><ltbullet>provides that LMC policy governs the general counsel's representation of a legislative client before a court or administrative agency or tribunal;<hr><ltbullet>reorganizes and amends the legislative general counsel's responsibility to correct technical errors in legislation and the Utah Code;<hr><ltbullet>eliminates the Legislature's responsibility to print, store, and distribute the Utah Code Annotated;<hr><ltbullet>repeals a provision governing legislators who attend meetings of the Legislature;<hr><ltbullet>updates the definition of a legislative procurement unit to include the House of Representatives, the Senate, or a state office of the Legislature;<hr><ltbullet>repeals certain quinquennial reporting requirements applicable to legislative boards and the Office of Legislative Research and General Counsel;<hr><ltbullet>directs the State Capitol Preservation Board (board) to make rules related to specified activities on capitol hill;<hr><ltbullet>provides that the board's authority to make rules to govern, administer, and regulate capitol hill does not restrict LMC's authority to adopt policies that govern the legislative area;<hr><ltbullet>provides that, if there is a conflict between a board rule and an LMC policy governing the legislative area, the LMC policy prevails;<hr><ltbullet>directs the executive director of the board to notify and consult with the president of the Senate and the speaker of the House of Representatives when a person appeals an administrative denial of a requested activity in the legislative area;<hr><ltbullet>provides that a bill summary by a staff member of the Senate or the House of Representatives, or by a staff office for the Legislature, is not evidence of legislative intent; and<hr><ltbullet>make technical and conforming changes.",
   "monies": "None",
@@ -243,10 +389,24 @@
   "fiscal_analyst": "Steven M. Allred",
   "gov_tracking_id": "QBQSTIKNAG",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "1/27/2026",
+  "agendas": [
+    {
+      "mtgID": "20288",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2026-02-03 15:40:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SBUS0203.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "293203"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -310,6 +470,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/2/2026 11:13 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Amendment Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/3/2026 4:25 PM",
+      "actionClass": "A",
+      "voteID": "39396",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-1",
+      "actionCode": "SCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/3/2026 4:26 PM",
+      "actionClass": "A",
+      "voteID": "39399",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-1",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ amended",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/4/2026 11:18 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/4/2026 11:18 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

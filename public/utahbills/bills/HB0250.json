@@ -1,6 +1,6 @@
 {
   "bill_id": 2079374,
-  "change_hash": "38d65c5e61f4a98934f37cf4977f16e0",
+  "change_hash": "067fdff6d6f69d798a32741d7d0a9d5f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-28",
       "event": 9
+    },
+    {
+      "date": "2026-02-02",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Utah Retirement Plan Exchange",
   "description": "Utah Retirement Plan Exchange",
-  "pending_committee_id": 2860,
-  "committee": {
-    "committee_id": 2860,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Economic Development and Workforce Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +105,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House Comm - Favorable Recommendation in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ committee report favorable in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -225,7 +245,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1620288,
+      "date": "2026-01-30",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 6,
+      "nay": 1,
+      "nv": 0,
+      "absent": 3,
+      "total": 10,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0250/id/1620288",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39219"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -241,6 +277,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0250.fn.pdf",
       "supplement_size": 1609717,
       "supplement_hash": "5d849a313ea80b7f571a1dadffd55bff",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 648868,
+      "date": "2026-01-30",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0250",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0250/id/648868",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0250H02.pdf",
+      "supplement_size": 17537,
+      "supplement_hash": "8f63e12fdb2fbd8aff434a09cec51eef",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -267,10 +323,24 @@
   "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "MHVXNMWBCA",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Economic Development and Workforce Services Committee",
-  "last_action_time": "1/28/2026",
+  "agendas": [
+    {
+      "mtgID": "20307",
+      "committeeID": "HSTEDW",
+      "mtgDate": "2026-01-30 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Economic Development and Workforce Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HEDW0130.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291777"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/2/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -347,6 +417,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "1/30/2026 3:03 PM",
+      "actionClass": "A",
+      "voteID": "39219",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-1-3",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "2/2/2026 11:11 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/2/2026 11:11 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2084144,
-  "change_hash": "ba6a5f033e865b643949da3070c45618",
+  "change_hash": "f8359bda1c93ce10aac91787cd559821",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -37,13 +37,8 @@
   "current_body_id": 93,
   "title": "House Rules Resolution - Legislation Disclosure",
   "description": "House Rules Resolution - Legislation Disclosure",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -88,6 +83,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House Comm - Motion to Recommend Failed in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -195,7 +197,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1623389,
+      "date": "2026-02-04",
+      "desc": "House Comm - Motion to Recommend Failed",
+      "yea": 1,
+      "nay": 6,
+      "nv": 0,
+      "absent": 1,
+      "total": 8,
+      "passed": 0,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HR0004/id/1623389",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39441"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -219,7 +237,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "8d05f3bd",
+      "type": "Hearing",
+      "date": "2026-02-04",
+      "time": "12:30",
+      "location": "",
+      "description": "House Rules Hearing"
+    }
+  ],
   "general_provisions": "This House rules resolution addresses disclosure requirements when a sponsor presents legislation.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>defines terms;<hr><ltbullet>if a sponsor introduces legislation at the request of an agency head, requires the sponsor to disclose the nature of the request when presenting the legislation in a standing committee or during a floor debate; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -227,10 +255,24 @@
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "CQXWJSSLOR",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
+  "agendas": [
+    {
+      "mtgID": "20408",
+      "committeeID": "HSTRUL",
+      "mtgDate": "2026-02-04 12:30:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "450 State Capitol",
+      "committeeName": "House Rules Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HRUL0204.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "293590"
+    }
+  ],
+  "last_action": "House Comm - Motion to Recommend Failed",
   "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/20/2026",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -242,8 +284,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -255,8 +297,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -268,8 +310,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -281,8 +323,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -294,8 +336,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Motion to Recommend Failed",
+      "owner": "House Rules Committee",
+      "actionDate": "2/4/2026 12:56 PM",
+      "actionClass": "A",
+      "voteID": "39441",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "1-6-1",
+      "actionCode": "HCAFAVFAIL",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

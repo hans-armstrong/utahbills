@@ -1,6 +1,6 @@
 {
   "bill_id": 2096518,
-  "change_hash": "ebe6abc114ee01489099aeec6c792a45",
+  "change_hash": "46a79fb4e26b56f3244a7dac71b76b27",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-29",
       "event": 1
+    },
+    {
+      "date": "2026-02-03",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Patient Interfacility Transportation Requirements",
   "description": "Patient Interfacility Transportation Requirements",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2108,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2108,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Health and Human Services"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-03",
+      "committee_id": 2108,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Health and Human Services"
     }
   ],
   "history": [
@@ -78,6 +89,20 @@
     {
       "date": "2026-01-29",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ to standing committee in House Health and Human Services Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -158,6 +183,30 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 334430,
+      "subject_name": "Health Insurance"
+    },
+    {
+      "subject_id": 11893,
+      "subject_name": "Health Care"
+    },
+    {
+      "subject_id": 12052,
+      "subject_name": "Health Care Facilities"
+    },
+    {
+      "subject_id": 332644,
+      "subject_name": "Health Care Professionals"
+    },
+    {
+      "subject_id": 16547,
+      "subject_name": "Department of Public Safety"
+    },
+    {
+      "subject_id": 375033,
+      "subject_name": "Emergency Medical Services"
     }
   ],
   "texts": [
@@ -181,9 +230,62 @@
     }
   ],
   "votes": [],
-  "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "amendments": [
+    {
+      "amendment_id": 270324,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2026-02-04",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0417/id/270324",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0417.Hamd.1.pdf",
+      "amendment_size": 20737,
+      "amendment_hash": "f9e4f81c299d3a56592264eac961e173",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
+  "supplements": [
+    {
+      "supplement_id": 648795,
+      "date": "2026-01-30",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0417",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0417/id/648795",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0417.fn.pdf",
+      "supplement_size": 1609161,
+      "supplement_hash": "72b5237f35d995de8c13f9c4b955e667",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "7f53c589",
+      "type": "Hearing",
+      "date": "2026-02-04",
+      "time": "15:40",
+      "location": "",
+      "description": "House Health and Human Services Hearing"
+    }
+  ],
   "general_provisions": "This bill enacts provisions related to patient interfacility transportation.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>requires a health care facility to allow a patient to use non-medical transportation to another health care facility under certain circumstances;<hr><ltbullet>requires a health care facility to provide a notice and assist in arranging the transportation;<hr><ltbullet>enacts provisions for admissions and billing for a receiving health care facility; and<hr><ltbullet>enacts liability protections for originating health care facilities and health care providers under certain circumstances.",
   "monies": "None",
@@ -191,10 +293,24 @@
   "fiscal_analyst": "Sean C. Faherty",
   "gov_tracking_id": "BMCEQUBXUG",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/29/2026",
+  "agendas": [
+    {
+      "mtgID": "20201",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2026-02-04 15:40:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HHHS0204.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "293751"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
+  "last_action_owner": "House Health and Human Services Committee",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -245,6 +361,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/2/2026 7:41 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/3/2026 12:23 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Amendment Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/4/2026 4:34 PM",
+      "actionClass": "A",
+      "voteID": "39487",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-3",
+      "actionCode": "HCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/4/2026 4:35 PM",
+      "actionClass": "A",
+      "voteID": "39489",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-0-2",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

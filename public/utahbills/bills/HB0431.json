@@ -1,6 +1,6 @@
 {
   "bill_id": 2102533,
-  "change_hash": "8b582e9bb7c956fb5c571bc88c6aed72",
+  "change_hash": "943c94c4b4ed615c5345e186e6a577f7",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0431/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0431.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-01-30",
+  "progress": [
+    {
+      "date": "2026-01-30",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0431",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Wildlife Crossing Amendments",
   "description": "Wildlife Crossing Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2026-01-30",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2026-01-30",
@@ -53,6 +71,20 @@
     {
       "date": "2026-01-30",
       "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -133,6 +165,42 @@
     {
       "subject_id": 11875,
       "subject_name": "Transportation"
+    },
+    {
+      "subject_id": 11901,
+      "subject_name": "Livestock"
+    },
+    {
+      "subject_id": 128952,
+      "subject_name": "Animals"
+    },
+    {
+      "subject_id": 11898,
+      "subject_name": "Natural Resources"
+    },
+    {
+      "subject_id": 11899,
+      "subject_name": "Wildlife"
+    },
+    {
+      "subject_id": 11928,
+      "subject_name": "Department of Transportation"
+    },
+    {
+      "subject_id": 82439,
+      "subject_name": "Transportation Commission"
+    },
+    {
+      "subject_id": 334440,
+      "subject_name": "Agriculture & Food"
+    },
+    {
+      "subject_id": 334450,
+      "subject_name": "Transportation Funding"
+    },
+    {
+      "subject_id": 335048,
+      "subject_name": "Transportation Investment Fund of 2005"
     }
   ],
   "texts": [
@@ -157,7 +225,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 649587,
+      "date": "2026-02-02",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0431",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0431/id/649587",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0431.fn.pdf",
+      "supplement_size": 1609041,
+      "supplement_hash": "c11e582234cb8510612a035504c11402",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill sets aside certain funding in the Transportation Investment Fund of 2005 for wildlife connectivity and livestock protection projects.",
   "hilighted_provisions": "This bill:<hr><ltbullet>sets aside funding in the Transportation Investment Fund of 2005 for projects that improve wildlife safety and connectivity and livestock safety;<hr><ltbullet>directs the Department of Transportation, in consultation with the Division of Wildlife, to recommend projects to the Transportation Commission for prioritization; and<hr><ltbullet>makes technical changes.",
@@ -167,9 +256,9 @@
   "gov_tracking_id": "RQOABABLMR",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received bill from Legislative Research",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "1/30/2026",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/2/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -207,6 +296,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "1/30/2026 11:52 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/2/2026 11:44 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm1": "",
       "parm2": ""
     }

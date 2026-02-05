@@ -1,6 +1,6 @@
 {
   "bill_id": 2060523,
-  "change_hash": "31e54dae5f2f81453a35872e9b4444b1",
+  "change_hash": "b42e5d01a39661f02b6fdeb0ee7935e2",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -45,13 +45,8 @@
   "current_body_id": 94,
   "title": "Boating Safety Education",
   "description": "Boating Safety Education",
-  "pending_committee_id": 3583,
-  "committee": {
-    "committee_id": 3583,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Transportation, Public Utilities, Energy, and Technology"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -78,14 +73,14 @@
   "history": [
     {
       "date": "2025-12-19",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2025-12-19",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -166,6 +161,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-04",
+      "action": "Senate Comm - Held in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -372,6 +374,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0054/id/1616285",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=36&house=H"
+    },
+    {
+      "roll_call_id": 1623591,
+      "date": "2026-02-04",
+      "desc": "Senate Comm - Held",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0054/id/1623591",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39502"
     }
   ],
   "amendments": [],
@@ -397,7 +414,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "5e2790a6",
+      "type": "Hearing",
+      "date": "2026-02-04",
+      "time": "15:40",
+      "location": "",
+      "description": "Senate Transportation, Public Utilities, Energy, and Technology Hearing"
+    }
+  ],
   "general_provisions": "This bill creates an education requirement to operate a watercraft.",
   "hilighted_provisions": "This bill:<hr><ltbullet>creates a watercraft operator safety course;<hr><ltbullet>establishes guidelines for the course; and<hr><ltbullet>prohibits the operation of a watercraft without evidence of completion of the course.",
   "monies": "None",
@@ -410,24 +437,25 @@
       "name": "Transportation Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
-  "last_action_time": "1/27/2026",
-  "action_history": [
+  "agendas": [
     {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "12/19/2025 4:36 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
-    },
+      "mtgID": "20225",
+      "committeeID": "SSTTPT",
+      "mtgDate": "2026-02-04 15:40:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/STPT0204.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "293804"
+    }
+  ],
+  "last_action": "Senate Comm - Held",
+  "last_action_owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+  "last_action_time": "2/4/2026",
+  "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -438,6 +466,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "12/19/2025 4:36 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
       "parm1": "",
       "parm2": ""
     },
@@ -581,6 +622,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Held",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "2/4/2026 5:09 PM",
+      "actionClass": "A",
+      "voteID": "39502",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-3",
+      "actionCode": "SCAHELD",
       "parm1": "",
       "parm2": ""
     }

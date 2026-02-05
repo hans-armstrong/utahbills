@@ -1,6 +1,6 @@
 {
   "bill_id": 2090976,
-  "change_hash": "063c243ccc4e90a205346e41c05784f1",
+  "change_hash": "4f5db3bd12dd4604ce71fef6e44c2a1d",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Renter Credit Reporting Amendments",
   "description": "Renter Credit Reporting Amendments",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-23",
@@ -103,6 +98,13 @@
     {
       "date": "2026-01-29",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate Comm - Not Considered in Senate Revenue and Taxation Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -257,7 +259,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "2a66bd1f",
+      "type": "Hearing",
+      "date": "2026-02-02",
+      "time": "14:00",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill enacts provisions relating to renter credit reporting.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>provides that a public funds recipient shall provide a renter an offer of rent reporting at the time the public funds recipient and renter enter into a rental agreement;<hr><ltbullet>provides that a public funds recipient shall provide an offer of rent reporting at least once annually;<hr><ltbullet>provides that a public funds recipient charge a fee for rent reporting that may not exceed the actual cost of the rent reporting;<hr><ltbullet>provides the consequences for a renter failing to pay the fee for rent reporting;<hr><ltbullet>provides that a renter may enroll and unenroll in rent reporting at any time during the duration of the rental agreement;<hr><ltbullet>prohibits a renter from reenrolling in rent reporting for at least six months if the renter fails to pay the fee for rent reporting or the renter unenrolls in rent reporting;<hr><ltbullet>provides that the provisions this bill enacts apply only to a public funds recipient that owns 50 or more residential rental units; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -265,10 +277,24 @@
   "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "RPTOEGPHKC",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "agendas": [
+    {
+      "mtgID": "20206",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-02-02 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SREV0202.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
+    }
+  ],
+  "last_action": "Senate Comm - Not Considered",
   "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "1/29/2026",
+  "last_action_time": "2/2/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -345,6 +371,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Not Considered",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2/2/2026 2:00 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCANOCNSDR",
       "parm1": "",
       "parm2": ""
     }

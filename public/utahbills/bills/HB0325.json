@@ -1,6 +1,6 @@
 {
   "bill_id": 2090649,
-  "change_hash": "370dff7f7483418970d8d86bd0398039",
+  "change_hash": "ea3f00b561ec2c0fb9ee151cd6dca9e0",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-27",
       "event": 9
+    },
+    {
+      "date": "2026-02-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -62,14 +66,14 @@
   "history": [
     {
       "date": "2026-01-22",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-01-22",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -105,6 +109,34 @@
     {
       "date": "2026-01-29",
       "action": "House Comm - Not Considered in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House Comm - Substitute Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House Comm - Favorable Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House/ comm rpt/ substituted in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -323,9 +355,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3345778,
+      "date": "2026-02-03",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0325/id/3345778",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0325S02.pdf",
+      "text_size": 64167,
+      "text_hash": "ac5f90d616a80b1f72c2188298e37d1f",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1622716,
+      "date": "2026-02-03",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0325/id/1622716",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39384"
+    },
+    {
+      "roll_call_id": 1622717,
+      "date": "2026-02-03",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0325/id/1622717",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39385"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -367,6 +448,106 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 648948,
+      "date": "2026-01-31",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0325S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0325/id/648948",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0325S01.fn.pdf",
+      "supplement_size": 1608366,
+      "supplement_hash": "0984bfcfbd3e9fee18ac4e53bde78f83",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 652161,
+      "date": "2026-02-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0325/id/652161",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0325%20To%20HB0325S02.pdf",
+      "supplement_size": 70090,
+      "supplement_hash": "56e908e34c0ea1dc4a6acbd2e6723aa6",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 652162,
+      "date": "2026-02-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0325/id/652162",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0325S01%20To%20HB0325S02.pdf",
+      "supplement_size": 70017,
+      "supplement_hash": "2a431b910352f4796d0636df0241272f",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 654449,
+      "date": "2026-02-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0325",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0325/id/654449",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0325H02.pdf",
+      "supplement_size": 17572,
+      "supplement_hash": "d07e203b3d5c5703eb7f2587de367d2e",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 657650,
+      "date": "2026-02-04",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0325S02",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0325/id/657650",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0325S02.fn.pdf",
+      "supplement_size": 1608360,
+      "supplement_hash": "c34e2463854767159c1f10fb43e89500",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -378,10 +559,19 @@
       "time": "14:00",
       "location": "",
       "description": "House Revenue and Taxation Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "03cd44fb",
+      "type": "Hearing",
+      "date": "2026-02-03",
+      "time": "15:40",
+      "location": "",
+      "description": "House Revenue and Taxation Hearing"
     }
   ],
   "general_provisions": "This bill modifies provisions related to the classification of certain government records.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>classifies as public any record that documents a governmental entity's receipt or expenditure of funds, including:<hr><ltbullet1>a record related to a financial account, budget, voucher, or grant;<hr><ltbullet1>a financial report or general ledger; and<hr><ltbullet1>a record documenting compensation a governmental entity pays to a vendor;<hr><ltbullet>classifies as private any portion of:<hr><ltbullet1>a record that reveals whether a taxpayer receives a property tax exemption, deferral, abatement, or other relief; and<hr><ltbullet1>an initial contact report that reveals a victim's name; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>amends the definition of \"initial contact report\" for purposes of the Government Records Access and Management Act;<hr><ltbullet>classifies as public any record that documents a governmental entity's receipt or expenditure of funds, including:<hr><ltbullet1>a record related to a financial account, budget, voucher, or grant;<hr><ltbullet1>a financial report or general ledger; and<hr><ltbullet1>a record documenting compensation a governmental entity pays to a vendor;<hr><ltbullet>classifies as private any portion of a record that reveals whether a taxpayer receives a specified property tax exemption, deferral, abatement, or other relief; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Christine R. Gilbert",
   "fiscal_analyst": "Steven M. Allred",
@@ -396,29 +586,29 @@
       "mtgPlace": "445 State Capitol",
       "committeeName": "House Revenue and Taxation Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00000902.htm",
       "agendaURL": "/~2026/agenda/HREV0129.ag.htm",
       "billSession": "2026GS",
       "markerID": ""
+    },
+    {
+      "mtgID": "20302",
+      "committeeID": "HSTREV",
+      "mtgDate": "2026-02-03 15:40:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HREV0203.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "293135"
     }
   ],
-  "last_action": "House Comm - Not Considered",
-  "last_action_owner": "House Revenue and Taxation Committee",
-  "last_action_time": "1/29/2026",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/4/2026",
   "action_history": [
-    {
-      "description": "Bill Numbered but not Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/22/2026 1:10 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -429,6 +619,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Numbered but not Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/22/2026 1:10 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LNUMBER",
       "parm1": "",
       "parm2": ""
     },
@@ -494,6 +697,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/3/2026 4:08 PM",
+      "actionClass": "A",
+      "voteID": "39384",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-1",
+      "actionCode": "HCASUB",
+      "parm1": "2",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/3/2026 4:09 PM",
+      "actionClass": "A",
+      "voteID": "39385",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-1",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/4/2026 11:14 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/4/2026 11:14 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

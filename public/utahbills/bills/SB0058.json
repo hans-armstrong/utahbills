@@ -1,6 +1,6 @@
 {
   "bill_id": 2061218,
-  "change_hash": "a72219adee0f58189680003797d93f34",
+  "change_hash": "99b84a4604c6c3fd2fa8d02523779adf",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-01-28",
       "event": 2
+    },
+    {
+      "date": "2026-02-02",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,13 +53,8 @@
   "current_body_id": 93,
   "title": "Public School Attendance Amendments",
   "description": "Public School Attendance Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -77,6 +76,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-02",
+      "committee_id": 2105,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Education"
     }
   ],
   "history": [
@@ -209,6 +215,20 @@
     {
       "date": "2026-01-29",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ to standing committee in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House Comm - Not Considered in House Education Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -411,6 +431,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3348788,
+      "date": "2026-02-04",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0058/id/3348788",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0058S01.pdf",
+      "text_size": 90937,
+      "text_hash": "593f8e10b0a0cd27a35393717cb62622",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [
@@ -538,6 +576,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 657720,
+      "date": "2026-02-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0058/id/657720",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0058%20To%20SB0058S01.pdf",
+      "supplement_size": 129068,
+      "supplement_hash": "233bf8de17cfed81eb60f4019318926c",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -549,6 +607,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Education Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "e16ebdd6",
+      "type": "Hearing",
+      "date": "2026-02-04",
+      "time": "15:40",
+      "location": "",
+      "description": "House Education Hearing"
     }
   ],
   "general_provisions": "This bill establishes comprehensive student attendance monitoring, chronic absenteeism supports, and accountability requirements for local education agencies.",
@@ -571,11 +638,24 @@
       "agendaURL": "/~2026/agenda/SEDU0121.ag.htm",
       "billSession": "2026GS",
       "markerID": "287755"
+    },
+    {
+      "mtgID": "20316",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-02-04 15:40:00.0",
+      "agendaItem": "8",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HEDU0204.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
     }
   ],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/29/2026",
+  "last_action": "House Comm - Not Considered",
+  "last_action_owner": "House Education Committee",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -821,6 +901,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Education Committee",
+      "actionDate": "2/2/2026 12:11 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Education Committee",
+      "actionDate": "2/4/2026 3:40 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
       "parm1": "",
       "parm2": ""
     }

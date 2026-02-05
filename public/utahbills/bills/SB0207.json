@@ -1,6 +1,6 @@
 {
   "bill_id": 2094805,
-  "change_hash": "837eba7b42d8fdab191b97618f28d9d2",
+  "change_hash": "483f491d6661879319a91d86877a4375",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -98,6 +98,13 @@
     {
       "date": "2026-01-29",
       "action": "Senate Comm - Not Considered in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Education Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -302,7 +309,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 651847,
+      "date": "2026-02-03",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0207",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0207/id/651847",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0207.fn.pdf",
+      "supplement_size": 1609620,
+      "supplement_hash": "d34fd1e8691adb41bfecf763d6087699",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [
     {
       "type_id": 1,
@@ -330,15 +358,15 @@
       "mtgPlace": "210 Senate Building",
       "committeeName": "Senate Education Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00000798.htm",
       "agendaURL": "/~2026/agenda/SEDU0129.ag.htm",
       "billSession": "2026GS",
       "markerID": ""
     }
   ],
-  "last_action": "Senate Comm - Not Considered",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "1/29/2026",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -415,6 +443,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Education Committee",
+      "actionDate": "2/3/2026 1:47 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

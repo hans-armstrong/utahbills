@@ -1,6 +1,6 @@
 {
   "bill_id": 2088760,
-  "change_hash": "ab5c0b8a26cb34697903447ff262b898",
+  "change_hash": "126383db3b1078c4c32603c01724f04e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-26",
       "event": 9
+    },
+    {
+      "date": "2026-02-02",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -108,6 +112,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House Comm - Substitute Recommendation in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House Comm - Favorable Recommendation in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ comm rpt/ substituted in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -185,6 +217,10 @@
     {
       "subject_id": 11851,
       "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 14869,
+      "subject_name": "State Symbols and Designations"
     }
   ],
   "texts": [
@@ -225,7 +261,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1620291,
+      "date": "2026-01-30",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 10,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0309/id/1620291",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39244"
+    },
+    {
+      "roll_call_id": 1620292,
+      "date": "2026-01-30",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 10,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0309/id/1620292",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39245"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -267,6 +334,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 648335,
+      "date": "2026-01-30",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0309S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0309/id/648335",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0309S01.fn.pdf",
+      "supplement_size": 1608360,
+      "supplement_hash": "04e6d1c8b9d37c951ef8cecb5de04522",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 648882,
+      "date": "2026-01-30",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0309",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0309/id/648882",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0309H02.pdf",
+      "supplement_size": 17592,
+      "supplement_hash": "40b7057dee87996e4ce686010be50cbe",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -290,7 +397,7 @@
     }
   ],
   "general_provisions": "This bill modifies the day on which Juneteenth National Freedom Day is recognized in Utah.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>provides that June 19, called Juneteenth National Freedom Day, is a legal holiday in Utah;<hr><ltbullet>consistent with other legal holidays in Utah, provides for recognition of Juneteenth National Freedom Day on the preceding Friday or subsequent Monday if the holiday falls on a Saturday or Sunday, respectively; and<hr><ltbullet>amends parent-time schedules in relation to Juneteenth National Freedom Day.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>provides that Juneteenth National Freedom Day will be recognized in Utah on the same day as the holiday is recognized by the federal government; and<hr><ltbullet>amends parent-time schedules in relation to Juneteenth National Freedom Day.",
   "monies": "None",
   "attorney": "Thomas R. Vaughn",
   "fiscal_analyst": "Joseph Fitzgerald",
@@ -309,11 +416,24 @@
       "agendaURL": "/~2026/agenda/HEDW0127.ag.htm",
       "billSession": "2026GS",
       "markerID": ""
+    },
+    {
+      "mtgID": "20307",
+      "committeeID": "HSTEDW",
+      "mtgDate": "2026-01-30 14:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Economic Development and Workforce Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HEDW0130.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "292022"
     }
   ],
-  "last_action": "House Comm - Not Considered",
-  "last_action_owner": "House Economic Development and Workforce Services Committee",
-  "last_action_time": "1/27/2026",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/2/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -403,6 +523,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "1/30/2026 4:02 PM",
+      "actionClass": "A",
+      "voteID": "39244",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-1",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "1/30/2026 4:03 PM",
+      "actionClass": "A",
+      "voteID": "39245",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-1",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "2/2/2026 11:11 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/2/2026 11:11 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

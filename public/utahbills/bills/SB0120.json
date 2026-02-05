@@ -1,6 +1,6 @@
 {
   "bill_id": 2071162,
-  "change_hash": "8b70d662b8f6299d998d1f127231d4b1",
+  "change_hash": "fb5b2762f07a66cba826e4deda73ff83",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-01-28",
       "event": 2
+    },
+    {
+      "date": "2026-02-03",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,12 +53,12 @@
   "current_body_id": 93,
   "title": "Towing Modifications",
   "description": "Towing Modifications",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2117,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2117,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Transportation"
   },
   "referrals": [
     {
@@ -77,6 +81,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-03",
+      "committee_id": 2117,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Transportation"
     }
   ],
   "history": [
@@ -219,6 +230,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ to standing committee in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -660,6 +678,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Business and Labor Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "92f709f7",
+      "type": "Hearing",
+      "date": "2026-02-05",
+      "time": "15:40",
+      "location": "",
+      "description": "House Transportation Hearing"
     }
   ],
   "general_provisions": "This bill addresses requirements for towing a vehicle upon the request of a government actor.",
@@ -684,9 +711,9 @@
       "markerID": "287629"
     }
   ],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/29/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Transportation Committee",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -945,6 +972,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Transportation Committee",
+      "actionDate": "2/3/2026 12:24 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

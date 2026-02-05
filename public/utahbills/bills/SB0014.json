@@ -1,6 +1,6 @@
 {
   "bill_id": 2056805,
-  "change_hash": "45977b6c46481286646c1f877090674a",
+  "change_hash": "d6ee71f7073ec3bc054ea11172c61358",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -32,6 +32,10 @@
     {
       "date": "2026-01-26",
       "event": 9
+    },
+    {
+      "date": "2026-02-02",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -45,13 +49,8 @@
   "current_body_id": 93,
   "title": "Utah Commission on Aging Sunset Amendments",
   "description": "Utah Commission on Aging Sunset Amendments",
-  "pending_committee_id": 2108,
-  "committee": {
-    "committee_id": 2108,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -159,6 +158,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House Comm - Favorable Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ committee report favorable in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House/ 3rd Reading Calendar to Rules in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -365,6 +392,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0014/id/1614811",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=6&house=S"
+    },
+    {
+      "roll_call_id": 1620285,
+      "date": "2026-01-30",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0014/id/1620285",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39255"
     }
   ],
   "amendments": [],
@@ -382,6 +424,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0014.fn.pdf",
       "supplement_size": 1608344,
       "supplement_hash": "7a4d15cefdea143a43d18b4a6be42179",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 648858,
+      "date": "2026-01-30",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0014",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0014/id/648858",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0014H02.pdf",
+      "supplement_size": 17540,
+      "supplement_hash": "bcb758e0541fd8c923c18381c022ac3d",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -413,10 +475,24 @@
       "name": "Health and Human Services Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Health and Human Services Committee",
-  "last_action_time": "1/26/2026",
+  "agendas": [
+    {
+      "mtgID": "20200",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2026-01-30 14:00:00.0",
+      "agendaItem": "7",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00000951.htm",
+      "agendaURL": "/~2026/agenda/HHHS0130.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "292087"
+    }
+  ],
+  "last_action": "House/ 3rd Reading Calendar to Rules",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -571,6 +647,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "1/30/2026 4:40 PM",
+      "actionClass": "A",
+      "voteID": "39255",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-5",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/2/2026 11:16 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2/2/2026 11:16 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd Reading Calendar to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "2/4/2026 12:05 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "H3RDTORUL",
       "parm1": "",
       "parm2": ""
     }

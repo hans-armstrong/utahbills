@@ -1,6 +1,6 @@
 {
   "bill_id": 2061192,
-  "change_hash": "935ecadf5bb605827d64cd0b1408edd1",
+  "change_hash": "def29693719f91d713141028b4d89697",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Political Advertising Amendments",
   "description": "Political Advertising Amendments",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -113,6 +108,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House Comm - Held in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -318,7 +320,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1622690,
+      "date": "2026-02-03",
+      "desc": "House Comm - Held",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0112/id/1622690",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39415"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -382,7 +400,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "70c9da7d",
+      "type": "Hearing",
+      "date": "2026-02-03",
+      "time": "15:40",
+      "location": "",
+      "description": "House Government Operations Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions related to political advertising.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>specifies that an electioneering communication or a political advertisement includes a communication or advertisement disseminated on a social media platform;<hr><ltbullet>clarifies campaign finance disclosure requirements when more than one person pays for a single political advertisement;<hr><ltbullet>authorizes an election officer to impose a monetary fine against a person who violates certain provisions related to political advertisements; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -390,10 +418,24 @@
   "fiscal_analyst": "Ivan D. Djambov",
   "gov_tracking_id": "NFJBTPWCSO",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20276",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2026-02-03 15:40:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HGOC0203.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "293257"
+    }
+  ],
+  "last_action": "House Comm - Held",
   "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "1/28/2026",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -483,6 +525,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/3/2026 5:01 PM",
+      "actionClass": "A",
+      "voteID": "39415",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-4",
+      "actionCode": "HCAHELD",
       "parm1": "",
       "parm2": ""
     }

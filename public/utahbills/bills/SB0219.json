@@ -1,6 +1,6 @@
 {
   "bill_id": 2101420,
-  "change_hash": "109da52b322561ed87b39c9f9424264e",
+  "change_hash": "6008b1e650b07e3b88b277fef7871760",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-29",
       "event": 1
+    },
+    {
+      "date": "2026-02-02",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Highway Signage Amendments",
   "description": "Highway Signage Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 3583,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 3583,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Transportation, Public Utilities, Energy, and Technology"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-02",
+      "committee_id": 3583,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Transportation, Public Utilities, Energy, and Technology"
     }
   ],
   "history": [
@@ -78,6 +89,20 @@
     {
       "date": "2026-01-29",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate/ to standing committee in Senate Transportation, Public Utilities, Energy, and Technology Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -158,6 +183,14 @@
     {
       "subject_id": 11875,
       "subject_name": "Transportation"
+    },
+    {
+      "subject_id": 334108,
+      "subject_name": "Signs and Billboards"
+    },
+    {
+      "subject_id": 332742,
+      "subject_name": "Roads/Highways"
     }
   ],
   "texts": [
@@ -182,7 +215,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 649737,
+      "date": "2026-02-02",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0219",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0219/id/649737",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0219.fn.pdf",
+      "supplement_size": 1609223,
+      "supplement_hash": "b212e25fc57d7673a158c981f00a06d9",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill amends certain restrictions on highway signage that is required to be relocated or remodeled because of the widening, construction, or reconstruction of a highway.",
   "hilighted_provisions": "This bill:<hr><ltbullet>allows the owner of a sign that is relocated or remodeled due to the widening, construction, or reconstruction to:<hr><ltbullet1>exceed certain height limitations; and<hr><ltbullet1>proceed with remodeling and relocating 30 days after the day on which the owner of the sign has sent notice of the requested relocation or remodel parameters to the relevant local government; and<hr><ltbullet>makes technical changes.",
@@ -192,9 +246,9 @@
   "gov_tracking_id": "EUBCOPKOTA",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "1/29/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+  "last_action_time": "2/2/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -245,6 +299,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/2/2026 10:53 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "2/2/2026 11:13 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

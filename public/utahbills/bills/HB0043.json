@@ -1,6 +1,6 @@
 {
   "bill_id": 2060256,
-  "change_hash": "b0245eacbe4a584245d0bdf914a93f52",
+  "change_hash": "d07a1310a148793bbb78e638b980788e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-02-04",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "School Security Amendments",
   "description": "School Security Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2110,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2110,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Law Enforcement and Criminal Justice"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-04",
+      "committee_id": 2110,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Law Enforcement and Criminal Justice"
     }
   ],
   "history": [
@@ -85,6 +96,20 @@
     {
       "date": "2026-01-20",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-04",
+      "action": "Bill Substituted by Sponsor in House Rules Comm in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House/ to standing committee in House Law Enforcement and Criminal Justice Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -201,6 +226,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3343223,
+      "date": "2026-02-02",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0043/id/3343223",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0043S01.pdf",
+      "text_size": 38161,
+      "text_hash": "d23a93d210e08ef7ed97c1667e945454",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [],
@@ -225,9 +268,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 649524,
+      "date": "2026-02-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0043/id/649524",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0043%20To%20HB0043S01.pdf",
+      "supplement_size": 38968,
+      "supplement_hash": "c09dfa878bb882433bc8d3b0d6120477",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "539061e6",
+      "type": "Hearing",
+      "date": "2026-02-05",
+      "time": "15:40",
+      "location": "",
+      "description": "House Law Enforcement and Criminal Justice Hearing"
+    }
+  ],
   "general_provisions": "This bill creates the School Safety Support Program to provide funding for school safety requirements and infrastructure.",
   "hilighted_provisions": "This bill:<hr><ltbullet>creates the School Safety Support Program (program) to fund school safety personnel, building standards, emergency protocols, and security infrastructure;<hr><ltbullet>establishes a distribution formula that allocates funding to charter schools and school districts based on enrollment and base amounts;<hr><ltbullet>requires local education agencies to submit safety plans and annual reports to receive funding;<hr><ltbullet>adds the program to the list of education programs eligible for annual inflation and enrollment growth adjustments;<hr><ltbullet>protects the program from funding reductions due to negative enrollment growth;<hr><ltbullet>directs the state board to collaborate with the School Safety Center and state security chief to establish rules and monitor implementation; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -241,9 +314,9 @@
     }
   ],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/20/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Law Enforcement and Criminal Justice Committee",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -307,6 +380,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Substituted by Sponsor in House Rules Comm",
+      "owner": "House Rules Committee",
+      "actionDate": "2/4/2026 11:21 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRULSUBH",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2/4/2026 12:21 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

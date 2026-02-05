@@ -1,6 +1,6 @@
 {
   "bill_id": 2060763,
-  "change_hash": "dfb33c998800eb5b5eb79808002de5ee",
+  "change_hash": "c7ae916265b0c864576c1a4e638713ae",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -190,6 +190,34 @@
     {
       "date": "2026-01-29",
       "action": "Senate/ 2nd reading in Senate Consent Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate/ 3rd reading in Senate Consent Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate/ passed 3rd reading in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate/ motion to reconsider in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "Senate/ placed on 3rd Reading Calendar table in Senate 3rd Reading Calendar Table",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -417,6 +445,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/HB0067/id/1617964",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38936"
+    },
+    {
+      "roll_call_id": 1621988,
+      "date": "2026-02-03",
+      "desc": "Senate/ passed 3rd reading",
+      "yea": 27,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0067/id/1621988",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=163&house=S"
     }
   ],
   "amendments": [],
@@ -500,9 +543,9 @@
       "markerID": "289938"
     }
   ],
-  "last_action": "Senate/ 2nd reading",
-  "last_action_owner": "Senate Consent Calendar",
-  "last_action_time": "1/29/2026",
+  "last_action": "Senate/ placed on 3rd Reading Calendar table",
+  "last_action_owner": "Senate 3rd Reading Calendar Table",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -722,6 +765,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate Consent Calendar",
+      "actionDate": "2/3/2026 11:34 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Senate President",
+      "actionDate": "2/3/2026 11:37 AM",
+      "actionClass": "S",
+      "voteID": "163",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "27-0-2",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ motion to reconsider",
+      "owner": "Senate Secretary",
+      "actionDate": "2/3/2026 3:07 PM",
+      "actionClass": "S",
+      "voteID": "184",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SMOTREC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 3rd Reading Calendar table",
+      "owner": "Senate 3rd Reading Calendar Table",
+      "actionDate": "2/3/2026 3:08 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON3TBL",
       "parm1": "",
       "parm2": ""
     }

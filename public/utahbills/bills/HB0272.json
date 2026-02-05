@@ -1,6 +1,6 @@
 {
   "bill_id": 2084460,
-  "change_hash": "9554a99cd5d42b8b535036c669d481a9",
+  "change_hash": "5c4c1b7832e695420af1dd77a21e5b29",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,14 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-30",
+      "event": 9
+    },
+    {
+      "date": "2026-02-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -37,13 +45,8 @@
   "current_body_id": 93,
   "title": "Tourism Taxes Amendments",
   "description": "Tourism Taxes Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -51,19 +54,26 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-30",
+      "committee_id": 2117,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Transportation"
     }
   ],
   "history": [
     {
       "date": "2026-01-16",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-01-16",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -85,6 +95,41 @@
     {
       "date": "2026-01-22",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House/ to standing committee in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House Comm - Favorable Recommendation in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House Comm - Consent Calendar Recommendation in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ comm rpt/ placed on Consent Calendar in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ 2nd reading in House Consent Calendar",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -223,7 +268,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1621156,
+      "date": "2026-02-02",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0272/id/1621156",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39304"
+    },
+    {
+      "roll_call_id": 1621157,
+      "date": "2026-02-02",
+      "desc": "House Comm - Consent Calendar Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0272/id/1621157",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39306"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -245,9 +321,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 650344,
+      "date": "2026-02-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0272",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0272/id/650344",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0272H02.pdf",
+      "supplement_size": 17543,
+      "supplement_hash": "c861152f8b9358fb4212c6ad63f4ee05",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "f137bfab",
+      "type": "Hearing",
+      "date": "2026-02-02",
+      "time": "14:00",
+      "location": "",
+      "description": "House Transportation Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses reporting requirements for tourism-related taxes.",
   "hilighted_provisions": "This bill:<hr><ltbullet>includes the the state auditor in the analysis conducted by the Office of the Legislative Fiscal Analyst to determine by consensus whether county expenditure reports sufficiently demonstrate compliance with the expenditure requirements for revenue generated by a transient room tax (TRT) or a tourism, recreation, cultural, convention, and airport facilities tax (TRCC);<hr><ltbullet>authorizes the state auditor to audit expenditures reported by counties as part of the analysis for county expenditure reports;<hr><ltbullet>clarifies the state auditor's authority to prohibit counties from accessing revenue generated by a TRT or TRCC if the state auditor and the Office of the Legislative Fiscal Analyst determine a county's expenditure report does not sufficiently demonstrate compliance with the expenditure requirements; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -255,24 +361,25 @@
   "fiscal_analyst": "Jared Gibbs",
   "gov_tracking_id": "TDOVRHXRJU",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/22/2026",
-  "action_history": [
+  "agendas": [
     {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/16/2026 10:37 AM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
-    },
+      "mtgID": "20218",
+      "committeeID": "HSTTRA",
+      "mtgDate": "2026-02-02 14:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Transportation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HTRA0202.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "292534"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House Consent Calendar",
+  "last_action_time": "2/3/2026",
+  "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -283,6 +390,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/16/2026 10:37 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
       "parm1": "",
       "parm2": ""
     },
@@ -322,6 +442,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Transportation Committee",
+      "actionDate": "1/30/2026 12:17 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Transportation Committee",
+      "actionDate": "2/2/2026 2:24 PM",
+      "actionClass": "A",
+      "voteID": "39304",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-4",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Consent Calendar Recommendation",
+      "owner": "House Transportation Committee",
+      "actionDate": "2/2/2026 2:25 PM",
+      "actionClass": "A",
+      "voteID": "39306",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-4",
+      "actionCode": "HCACONCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ placed on Consent Calendar",
+      "owner": "House Transportation Committee",
+      "actionDate": "2/3/2026 11:17 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRCON",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House Consent Calendar",
+      "actionDate": "2/3/2026 11:17 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

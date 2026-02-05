@@ -1,6 +1,6 @@
 {
   "bill_id": 2060852,
-  "change_hash": "4bfac1e59a027d198c64d6cb1084da40",
+  "change_hash": "b358457e5156f39793d2ef186720c6ab",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -32,6 +32,10 @@
     {
       "date": "2026-01-28",
       "event": 2
+    },
+    {
+      "date": "2026-02-02",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -45,13 +49,8 @@
   "current_body_id": 94,
   "title": "Joint Rules Resolution - Amendments to Joint Rules",
   "description": "Joint Rules Resolution - Amendments to Joint Rules",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -184,6 +183,41 @@
     {
       "date": "2026-01-29",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "Senate Comm - Favorable Recommendation in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate/ committee report favorable in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -443,6 +477,36 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HJR001/id/1618824",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=91&house=H"
+    },
+    {
+      "roll_call_id": 1620137,
+      "date": "2026-01-30",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 9,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HJR001/id/1620137",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39172"
+    },
+    {
+      "roll_call_id": 1623489,
+      "date": "2026-02-04",
+      "desc": "Senate/ passed 2nd reading",
+      "yea": 24,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HJR001/id/1623489",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=227&house=S"
     }
   ],
   "amendments": [],
@@ -586,6 +650,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 648404,
+      "date": "2026-01-30",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HJR001",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HJR001/id/648404",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HJR001S01.pdf",
+      "supplement_size": 18313,
+      "supplement_hash": "93e7464d63ac02b21c93f8859238ee29",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -602,7 +686,7 @@
   "general_provisions": "This resolution modifies joint rules.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>defines \"minority leader\" and \"minority party\";<hr><ltbullet>modifies the definition of \"increase legislative workload\";<hr><ltbullet>modifies the publication of the Senate and House draft journals;<hr><ltbullet>addresses rules and procedures that apply to an extraordinary session;<hr><ltbullet>authorizes the Office of Legislative Research and General Counsel to request a bill on behalf of a legislator if the bill is necessary to implement a constitutional joint resolution; <hr><ltbullet>allows a legislator to co-sponsor legislation that originates in the opposite chamber of which the legislator is a member;<hr><ltbullet>defines \"sunset bill\" and requires:<hr><ltbullet1>the Senate to table a House sunset bill on third reading; and<hr><ltbullet1>the House to refer a Senate sunset bill to the House Rules Committee; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
-  "attorney": "Christine R. Gilbert",
+  "attorney": "Megan L. Bolin",
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "WKNBRSHLIK",
   "comrecommend": [
@@ -624,11 +708,24 @@
       "agendaURL": "/~2026/agenda/HRUL0120.ag.htm",
       "billSession": "2026GS",
       "markerID": "287241"
+    },
+    {
+      "mtgID": "20407",
+      "committeeID": "SSTRUL",
+      "mtgDate": "2026-01-30 12:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "Senate Rules Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00000953.htm",
+      "agendaURL": "/~2026/agenda/SRUL0130.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291697"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "1/29/2026",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -848,6 +945,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Rules Committee",
+      "actionDate": "1/30/2026 12:19 PM",
+      "actionClass": "A",
+      "voteID": "39172",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-2",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/2/2026 11:17 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/2/2026 11:18 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/4/2026 3:22 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/4/2026 3:28 PM",
+      "actionClass": "S",
+      "voteID": "227",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "24-0-5",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

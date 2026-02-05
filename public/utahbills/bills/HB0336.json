@@ -1,6 +1,6 @@
 {
   "bill_id": 2091072,
-  "change_hash": "99eb99a05f48e75361a0f9bef411039d",
+  "change_hash": "b5928757cc74d2a988d3a85557041911",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-23",
       "event": 1
+    },
+    {
+      "date": "2026-02-02",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Recovery Operations Amendments",
   "description": "Recovery Operations Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2117,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2117,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Transportation"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-02",
+      "committee_id": 2117,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Transportation"
     }
   ],
   "history": [
@@ -88,6 +99,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ to standing committee in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -231,7 +249,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "92f709f7",
+      "type": "Hearing",
+      "date": "2026-02-05",
+      "time": "15:40",
+      "location": "",
+      "description": "House Transportation Hearing"
+    }
+  ],
   "general_provisions": "This bill distinguishes recovery operations from normal towing operations and creates requirements for the operation and payment of recovery operators.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>requires insurers to pay a recovery operator for a recovery operation before the insurer pays the insured;<hr><ltbullet>requires tow truck motor carrier rotations to identify tow truck motor carriers that are capable of performing recovery operations; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -240,9 +268,9 @@
   "gov_tracking_id": "STNALCJGHH",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/26/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Transportation Committee",
+  "last_action_time": "2/2/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -306,6 +334,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Transportation Committee",
+      "actionDate": "2/2/2026 12:14 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2066252,
-  "change_hash": "fe6f5b79ed42fafd6d83fd90190df24a",
+  "change_hash": "83d0a26ca2961d4f81b1b7c24fc7131d",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-27",
       "event": 9
+    },
+    {
+      "date": "2026-02-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Unlawful Tracking Amendments",
   "description": "Unlawful Tracking Amendments",
-  "pending_committee_id": 2110,
-  "committee": {
-    "committee_id": 2110,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Law Enforcement and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -113,6 +112,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House Comm - Favorable Recommendation in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ committee report favorable in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -250,7 +270,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1620971,
+      "date": "2026-02-02",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0158/id/1620971",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39333"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -312,9 +348,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 650013,
+      "date": "2026-02-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0158",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0158/id/650013",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0158H02.pdf",
+      "supplement_size": 17546,
+      "supplement_hash": "28489c43052ea509535fcb21b6d649a1",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "60a9f3a0",
+      "type": "Hearing",
+      "date": "2026-02-02",
+      "time": "14:00",
+      "location": "",
+      "description": "House Law Enforcement and Criminal Justice Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses the unlawful tracking of an individual.",
   "hilighted_provisions": "This bill:<hr><ltbullet>amends the offense of unlawful installation of a tracking device by:<hr><ltbullet1>renaming the offense to unlawful use of a tracking device or tracking application;<hr><ltbullet1>broadening the offense to include placing a tracking device on certain personal property and using a tracking application to track another individual's movements;<hr><ltbullet1>clarifying that an actor commits the offense if the victim had previously given consent for the actor to use the tracking device or tracking application and later revoked that consent, and the actor continued to use the tracking device or tracking application; and<hr><ltbullet1>requiring statutory damages in a successful civil action brought by a victim if the victim elects to receive the statutory damages instead of compensatory damages; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -322,10 +388,24 @@
   "fiscal_analyst": "Jared Gibbs",
   "gov_tracking_id": "AOMSNMDUIU",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Law Enforcement and Criminal Justice Committee",
-  "last_action_time": "1/27/2026",
+  "agendas": [
+    {
+      "mtgID": "20212",
+      "committeeID": "HSTLAW",
+      "mtgDate": "2026-02-02 14:00:00.0",
+      "agendaItem": "9",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Law Enforcement and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HLAW0202.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "292644"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -415,6 +495,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2/2/2026 3:31 PM",
+      "actionClass": "A",
+      "voteID": "39333",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-2",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2/3/2026 11:13 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/3/2026 11:13 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

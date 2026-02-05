@@ -1,6 +1,6 @@
 {
   "bill_id": 2060681,
-  "change_hash": "5758f3d08ddc2bbfb43535f5b0ab36f3",
+  "change_hash": "0b08d996dbf4dea6ff25a46ffed24509",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -32,6 +32,10 @@
     {
       "date": "2026-01-27",
       "event": 9
+    },
+    {
+      "date": "2026-02-02",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -45,13 +49,8 @@
   "current_body_id": 94,
   "title": "Navajo Trust Fund Amendments",
   "description": "Navajo Trust Fund Amendments",
-  "pending_committee_id": 2125,
-  "committee": {
-    "committee_id": 2125,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Natural Resources, Agriculture, and Environment"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -166,6 +165,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-30",
+      "action": "Senate Comm - Favorable Recommendation in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate/ committee report favorable in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -368,6 +388,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0061/id/1616429",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=37&house=H"
+    },
+    {
+      "roll_call_id": 1620108,
+      "date": "2026-01-30",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0061/id/1620108",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39197"
     }
   ],
   "amendments": [],
@@ -385,6 +420,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0061.fn.pdf",
       "supplement_size": 1608350,
       "supplement_hash": "93fa47adbfc998f2d9ee1274d62e7822",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 648339,
+      "date": "2026-01-30",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0061",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0061/id/648339",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0061S02.pdf",
+      "supplement_size": 18317,
+      "supplement_hash": "010c041a3ef654c518b01094bbdb1670",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -416,10 +471,24 @@
       "name": "Native American Legislative Liaison Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "1/27/2026",
+  "agendas": [
+    {
+      "mtgID": "20327",
+      "committeeID": "SSTNAE",
+      "mtgDate": "2026-01-30 14:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00000952.htm",
+      "agendaURL": "/~2026/agenda/SNAE0130.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291807"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/2/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -587,6 +656,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "1/30/2026 2:30 PM",
+      "actionClass": "A",
+      "voteID": "39197",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/2/2026 11:18 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/2/2026 11:18 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2067601,
-  "change_hash": "59e8ff0cf76e3b042f0ee1472aaf9316",
+  "change_hash": "b8fcad61ccf5b925404cc4a3fc3383b2",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-21",
       "event": 9
+    },
+    {
+      "date": "2026-02-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Water Amendments",
   "description": "Water Amendments",
-  "pending_committee_id": 2111,
-  "committee": {
-    "committee_id": 2111,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Natural Resources, Agriculture, and Environment"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -113,6 +112,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House Comm - Substitute Recommendation in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House Comm - Favorable Recommendation in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ comm rpt/ substituted in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -316,9 +343,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3342810,
+      "date": "2026-01-30",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0187/id/3342810",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0187S02.pdf",
+      "text_size": 48816,
+      "text_hash": "4c348d5c1de713bfe261de029ab782c4",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1621249,
+      "date": "2026-02-02",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0187/id/1621249",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39328"
+    },
+    {
+      "roll_call_id": 1621250,
+      "date": "2026-02-02",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0187/id/1621250",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39329"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -380,11 +456,101 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 648300,
+      "date": "2026-01-30",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0187/id/648300",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0187%20To%20HB0187S02.pdf",
+      "supplement_size": 46620,
+      "supplement_hash": "d6080a7c8f4c4dd3f145d02c437a6801",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 648301,
+      "date": "2026-01-30",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0187/id/648301",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0187S01%20To%20HB0187S02.pdf",
+      "supplement_size": 46632,
+      "supplement_hash": "6439bf176b5b2718cdf9ce42473fc0f4",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 650557,
+      "date": "2026-02-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0187",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0187/id/650557",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0187H02.pdf",
+      "supplement_size": 17579,
+      "supplement_hash": "e3eb26506dd540414e5000a0a15c3cc1",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 651289,
+      "date": "2026-02-03",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0187S02",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0187/id/651289",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0187S02.fn.pdf",
+      "supplement_size": 1608337,
+      "supplement_hash": "20be898bf531034c37b7cd23c229e403",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
-  "general_provisions": "This bill addresses water in the lower basin as defined by the Colorado River Compact.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>exempts from provisions related to abandonment or forfeiture for nonuse certain water rights of a water conservancy district that are related to the lower basin; <hr><ltbullet>prohibits certain instream flow change applications related to the lower basin; and<hr><ltbullet>makes technical and conforming amendments.",
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "fb225773",
+      "type": "Hearing",
+      "date": "2026-02-02",
+      "time": "14:00",
+      "location": "",
+      "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    }
+  ],
+  "general_provisions": "This bill addresses water in the lower basin as defined by the Colorado River Compact. ",
+  "hilighted_provisions": "This bill:<hr><ltbullet>exempts from provisions related to abandonment or forfeiture for nonuse certain water rights of a water conservancy district that are related to the lower basin; <hr><ltbullet>prohibits certain instream flow change applications related to the lower basin; <hr><ltbullet>provides a coordination clause between this bill and H.B. 348, Dedicated Water Amendments, to include dedicated water applications in certain prohibitions of instream flow applications related to the lower basin; and<hr><ltbullet>makes technical and conforming amendments.",
   "monies": "None",
   "attorney": "Patricia Owen",
   "fiscal_analyst": "Lacey K. Moore",
@@ -395,10 +561,24 @@
       "name": "Legislative Water Development Commission"
     }
   ],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "1/21/2026",
+  "agendas": [
+    {
+      "mtgID": "20321",
+      "committeeID": "HSTNAE",
+      "mtgDate": "2026-02-02 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HNAE0202.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "292610"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -488,6 +668,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/2/2026 3:12 PM",
+      "actionClass": "A",
+      "voteID": "39328",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-4",
+      "actionCode": "HCASUB",
+      "parm1": "2",
+      "parm2": "1"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/2/2026 3:12 PM",
+      "actionClass": "A",
+      "voteID": "39329",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-5",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/3/2026 11:15 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/3/2026 11:15 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

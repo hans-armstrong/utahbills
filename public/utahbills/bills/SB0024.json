@@ -1,6 +1,6 @@
 {
   "bill_id": 2057215,
-  "change_hash": "ce0cb720456a3321f1cac835ebe98048",
+  "change_hash": "c72518e745f660f70d7f92b8291fb6ff",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-21",
       "event": 2
+    },
+    {
+      "date": "2026-01-30",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -41,12 +45,12 @@
   "current_body_id": 93,
   "title": "Health Care Providers Immunity Amendments",
   "description": "Health Care Providers Immunity Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 5042,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 5042,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Business, Labor, and Commerce"
   },
   "referrals": [
     {
@@ -62,6 +66,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-30",
+      "committee_id": 5042,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Business, Labor, and Commerce"
     }
   ],
   "history": [
@@ -141,6 +152,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House/ to standing committee in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -360,7 +378,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "1b2f9489",
+      "type": "Hearing",
+      "date": "2026-02-04",
+      "time": "15:40",
+      "location": "",
+      "description": "House Business, Labor, and Commerce Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses the repeal of the Health Care Providers Immunity from Liability Act.",
   "hilighted_provisions": "This bill:<hr><ltbullet>modifies the repeal date of the Health Care Providers Immunity from Liability Act.",
   "monies": "None",
@@ -373,10 +401,24 @@
       "name": "Business and Labor Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/21/2026",
+  "agendas": [
+    {
+      "mtgID": "20282",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2026-02-04 15:40:00.0",
+      "agendaItem": "10",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HBUS0204.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "293827"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
+  "last_action_owner": "House Business, Labor, and Commerce Committee",
+  "last_action_time": "2/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -518,6 +560,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "1/30/2026 12:16 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2/4/2026 4:54 PM",
+      "actionClass": "A",
+      "voteID": "39497",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-7",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

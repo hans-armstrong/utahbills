@@ -1,6 +1,6 @@
 {
   "bill_id": 2069918,
-  "change_hash": "862ec1789707904fc3d181af507756b2",
+  "change_hash": "8324b2f778295a62e45f8b17a1feba99",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-01-30",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -46,6 +50,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-01-30",
+      "committee_id": 2115,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -80,6 +91,20 @@
     {
       "date": "2026-01-27",
       "action": "Bill Substituted by Sponsor in House Rules Comm in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House/ to standing committee in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House Comm - Not Considered in House Revenue and Taxation Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -214,6 +239,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3344548,
+      "date": "2026-02-02",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0210/id/3344548",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0210S02.pdf",
+      "text_size": 44731,
+      "text_hash": "53ae90a7d0667286f26e8237cf313d25",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [],
@@ -258,9 +301,59 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 650841,
+      "date": "2026-02-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0210/id/650841",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0210%20To%20HB0210S02.pdf",
+      "supplement_size": 45935,
+      "supplement_hash": "f1e7c0c09ec15c481f0df62455aa9074",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 650842,
+      "date": "2026-02-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0210/id/650842",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0210S01%20To%20HB0210S02.pdf",
+      "supplement_size": 46093,
+      "supplement_hash": "4794bd17777af6837f471134c682d9c4",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "03cd44fb",
+      "type": "Hearing",
+      "date": "2026-02-03",
+      "time": "15:40",
+      "location": "",
+      "description": "House Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses tax penalties within the Individual Income Tax Act.",
   "hilighted_provisions": "This bill:<hr><ltbullet>removes marriage penalties from certain individual income tax credits and exemptions by setting income phaseout amounts for filers who have single, head of household, or married filing separately status to be half of the amount for filers who have joint filing status;<hr><ltbullet>increases the amount of the nonrefundable taxpayer tax credit only for married claimants;<hr><ltbullet>repeals the nonrefundable earned income tax credit; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -268,10 +361,24 @@
   "fiscal_analyst": "Jared Gibbs",
   "gov_tracking_id": "XCDADQLADF",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Bill Substituted by Sponsor in House Rules Comm",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/27/2026",
+  "agendas": [
+    {
+      "mtgID": "20302",
+      "committeeID": "HSTREV",
+      "mtgDate": "2026-02-03 15:40:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HREV0203.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
+    }
+  ],
+  "last_action": "House Comm - Not Considered",
+  "last_action_owner": "House Revenue and Taxation Committee",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -337,6 +444,32 @@
       "actionCode": "LRULSUBH",
       "parm1": "1",
       "parm2": "0"
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "1/30/2026 12:17 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/3/2026 3:40 PM",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

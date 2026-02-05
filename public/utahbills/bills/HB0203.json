@@ -1,6 +1,6 @@
 {
   "bill_id": 2069177,
-  "change_hash": "5a6acd628eeac12f39512f8d733c40b0",
+  "change_hash": "3c90caa3cd49d8bb49c8a66c75ee4a34",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-22",
       "event": 9
+    },
+    {
+      "date": "2026-02-02",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -105,6 +109,34 @@
     {
       "date": "2026-01-27",
       "action": "House Comm - Not Considered in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House Comm - Substitute Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-30",
+      "action": "House Comm - Favorable Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ comm rpt/ substituted in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -277,9 +309,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3342474,
+      "date": "2026-01-30",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0203/id/3342474",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0203S01.pdf",
+      "text_size": 35521,
+      "text_hash": "546633e3de26dad488a7231b499dc658",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1620145,
+      "date": "2026-01-30",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 13,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0203/id/1620145",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39250"
+    },
+    {
+      "roll_call_id": 1620146,
+      "date": "2026-01-30",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 10,
+      "nay": 3,
+      "nv": 0,
+      "absent": 3,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0203/id/1620146",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39252"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -295,6 +376,66 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0203.fn.pdf",
       "supplement_size": 1609490,
       "supplement_hash": "dc6ef551d848399a1908d10ec84e2d03",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 648134,
+      "date": "2026-01-30",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0203/id/648134",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0203%20To%20HB0203S01.pdf",
+      "supplement_size": 38540,
+      "supplement_hash": "16518dd39675c19bf2aab783f3feb394",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 648450,
+      "date": "2026-01-30",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0203",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0203/id/648450",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0203H02.pdf",
+      "supplement_size": 17560,
+      "supplement_hash": "f5577cd8abb55ce7d9c150bc14a7baa3",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 656741,
+      "date": "2026-02-04",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0203S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0203/id/656741",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0203S01.fn.pdf",
+      "supplement_size": 1608371,
+      "supplement_hash": "2909f33f5961327b0e6ed366dad7158a",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -324,7 +465,7 @@
     }
   ],
   "general_provisions": "This bill amends provisions relating to non-compete agreements.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>prohibits an employer from enforcing a non-compete agreement against an employee under certain conditions;<hr><ltbullet>prohibits a person from enforcing a non-compete agreement against an independent contractor;<hr><ltbullet>prohibits an employer from enforcing a non-compete agreement if the non-compete agreement restricts an employee's ability to work within 25 miles of a geographic location;<hr><ltbullet>requires that an employer presenting an employee with an offer of employment include with the offer of employment a non-compete agreement if the employer intends to enter into a non-compete agreement with the employee;<hr><ltbullet>imposes requirements on an employer presenting an employee with a non-compete agreement;<hr><ltbullet>requires that an employer give an employee advance notice of a non-compete agreement;<hr><ltbullet>makes void a non-compete agreement under certain conditions;<hr><ltbullet>provides that a person that fails to comply with provisions that this bill enacts may not enforce a non-compete agreement;<hr><ltbullet>authorizes the Labor Commission to investigate and issue a fee for violating provisions relating to non-compete agreements;<hr><ltbullet>grants a right of action to an individual against a person that attempts to enforce an unlawful non-compete agreement; and<hr><ltbullet>makes technical changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>prohibits an employer from enforcing a non-compete agreement against an employee under certain conditions;<hr><ltbullet>prohibits a person from enforcing a non-compete agreement against an independent contractor;<hr><ltbullet>requires that an employer presenting an employee with an offer of employment include with the offer of employment a non-compete agreement if the employer intends to enter into a non-compete agreement with the employee;<hr><ltbullet>imposes requirements on an employer presenting an employee with a non-compete agreement;<hr><ltbullet>requires that an employer give an employee advance notice of a non-compete agreement;<hr><ltbullet>makes void a non-compete agreement under certain conditions;<hr><ltbullet>provides that a person that fails to comply with provisions that this bill enacts may not enforce a non-compete agreement;<hr><ltbullet>grants a right of action to an individual against a person that attempts to enforce an unlawful non-compete agreement; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
   "attorney": "Austin Weenig",
   "fiscal_analyst": "Alejandra G Rodriguez",
@@ -339,15 +480,28 @@
       "mtgPlace": "445 State Capitol",
       "committeeName": "House Business, Labor, and Commerce Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00000805.htm",
       "agendaURL": "/~2026/agenda/HBUS0127.ag.htm",
       "billSession": "2026GS",
       "markerID": ""
+    },
+    {
+      "mtgID": "20281",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2026-01-30 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HBUS0130.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "291961"
     }
   ],
-  "last_action": "House Comm - Not Considered",
-  "last_action_owner": "House Business, Labor, and Commerce Committee",
-  "last_action_time": "1/27/2026",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/2/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -437,6 +591,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "1/30/2026 4:22 PM",
+      "actionClass": "A",
+      "voteID": "39250",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "13-0-3",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "1/30/2026 4:24 PM",
+      "actionClass": "A",
+      "voteID": "39252",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-3-3",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2/2/2026 11:09 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/2/2026 11:09 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2079433,
-  "change_hash": "0dc0fe7c5d07dfc7623043c7f837a3af",
+  "change_hash": "f9a8bb51cc9e9708da3e97b53c68753b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-28",
       "event": 9
+    },
+    {
+      "date": "2026-02-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Diligence Claims Water Amendments",
   "description": "Diligence Claims Water Amendments",
-  "pending_committee_id": 2111,
-  "committee": {
-    "committee_id": 2111,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Natural Resources, Agriculture, and Environment"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +105,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House Comm - Substitute Recommendation in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "House Comm - Favorable Recommendation in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ comm rpt/ substituted in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-03",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -181,6 +208,10 @@
   "sasts": [],
   "subjects": [
     {
+      "subject_id": 11898,
+      "subject_name": "Natural Resources"
+    },
+    {
       "subject_id": 11901,
       "subject_name": "Livestock"
     },
@@ -189,16 +220,16 @@
       "subject_name": "Animals"
     },
     {
-      "subject_id": 11898,
-      "subject_name": "Natural Resources"
-    },
-    {
       "subject_id": 359961,
       "subject_name": "Water Rights"
     },
     {
       "subject_id": 334440,
       "subject_name": "Agriculture & Food"
+    },
+    {
+      "subject_id": 334990,
+      "subject_name": "State Engineer"
     },
     {
       "subject_id": 334139,
@@ -223,9 +254,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3343568,
+      "date": "2026-02-02",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0251/id/3343568",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0251S01.pdf",
+      "text_size": 35769,
+      "text_hash": "ff7bca40b54adff190c698659e91adcf",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1620844,
+      "date": "2026-02-02",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 12,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0251/id/1620844",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39319"
+    },
+    {
+      "roll_call_id": 1620845,
+      "date": "2026-02-02",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 12,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0251/id/1620845",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39320"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -247,9 +327,79 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 649845,
+      "date": "2026-02-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0251/id/649845",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0251%20To%20HB0251S01.pdf",
+      "supplement_size": 38617,
+      "supplement_hash": "e8c2f45e0ba8b4ac09b8dd975e7c0ea2",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 649846,
+      "date": "2026-02-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0251",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0251/id/649846",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0251H02.pdf",
+      "supplement_size": 17583,
+      "supplement_hash": "288ddc141c590890ce8c249a32a06ba4",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 651988,
+      "date": "2026-02-03",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0251S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0251/id/651988",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0251S01.fn.pdf",
+      "supplement_size": 1608354,
+      "supplement_hash": "65f85f43f213bf1bddfdfeaf1a80ad9d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "fb225773",
+      "type": "Hearing",
+      "date": "2026-02-02",
+      "time": "14:00",
+      "location": "",
+      "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses use of water related to diligence claims.",
   "hilighted_provisions": "This bill:<hr><ltbullet>clarifies provisions related to submitting a claim;<hr><ltbullet>defines terms;<hr><ltbullet>provides for the creation of a rebuttable presumption of the right to use certain water related to a homestead parcel;<hr><ltbullet>establishes the process for rebutting the presumption; and<hr><ltbullet>makes technical and conforming amendments.",
   "monies": "None",
@@ -257,10 +407,24 @@
   "fiscal_analyst": "Lacey K. Moore",
   "gov_tracking_id": "BAVLYLBFDE",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "1/28/2026",
+  "agendas": [
+    {
+      "mtgID": "20321",
+      "committeeID": "HSTNAE",
+      "mtgDate": "2026-02-02 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HNAE0202.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "292569"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -337,6 +501,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/2/2026 2:56 PM",
+      "actionClass": "A",
+      "voteID": "39319",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-0-2",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/2/2026 2:57 PM",
+      "actionClass": "A",
+      "voteID": "39320",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-0-2",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/3/2026 11:15 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/3/2026 11:15 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }
