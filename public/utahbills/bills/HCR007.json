@@ -1,6 +1,6 @@
 {
   "bill_id": 2088289,
-  "change_hash": "ca98a0661d519cd2cf45f7f134336d60",
+  "change_hash": "9e274353ce5147fe8166203ae3e9dce2",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Concurrent Resolution Regarding Scenic Byway Designations",
   "description": "Concurrent Resolution Regarding Scenic Byway Designations",
-  "pending_committee_id": 2117,
-  "committee": {
-    "committee_id": 2117,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Transportation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-22",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House Comm - Held in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -293,7 +295,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1625297,
+      "date": "2026-02-05",
+      "desc": "House Comm - Held",
+      "yea": 8,
+      "nay": 2,
+      "nv": 0,
+      "absent": 2,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HCR007/id/1625297",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39570"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -335,10 +353,24 @@
   "fiscal_analyst": "Sean C. Faherty",
   "gov_tracking_id": "GKWFQOEUKY",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20219",
+      "committeeID": "HSTTRA",
+      "mtgDate": "2026-02-05 15:40:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Transportation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HTRA0205.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294414"
+    }
+  ],
+  "last_action": "House Comm - Held",
   "last_action_owner": "House Transportation Committee",
-  "last_action_time": "2/2/2026",
+  "last_action_time": "2/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -415,6 +447,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Transportation Committee",
+      "actionDate": "2/5/2026 4:28 PM",
+      "actionClass": "A",
+      "voteID": "39570",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-2-2",
+      "actionCode": "HCAHELD",
       "parm1": "",
       "parm2": ""
     }

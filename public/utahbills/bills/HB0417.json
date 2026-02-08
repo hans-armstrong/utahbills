@@ -1,6 +1,6 @@
 {
   "bill_id": 2096518,
-  "change_hash": "46a79fb4e26b56f3244a7dac71b76b27",
+  "change_hash": "8b5c0dc80791b4b0349775bd86ec77a7",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-03",
       "event": 9
+    },
+    {
+      "date": "2026-02-05",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Patient Interfacility Transportation Requirements",
   "description": "Patient Interfacility Transportation Requirements",
-  "pending_committee_id": 2108,
-  "committee": {
-    "committee_id": 2108,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-29",
@@ -106,6 +105,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House Comm - Amendment Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House Comm - Favorable Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House/ comm rpt/ amended in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -227,9 +254,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3350416,
+      "date": "2026-02-05",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0417/id/3350416",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_HB0417_2026-02-05_11-02-17.pdf",
+      "text_size": 37336,
+      "text_hash": "cd51e458478c8ff872ebce5d474d283a",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1624128,
+      "date": "2026-02-04",
+      "desc": "House Comm - Amendment Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0417/id/1624128",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39487"
+    },
+    {
+      "roll_call_id": 1624129,
+      "date": "2026-02-04",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 12,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0417/id/1624129",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39489"
+    }
+  ],
   "amendments": [
     {
       "amendment_id": 270324,
@@ -273,6 +349,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 658319,
+      "date": "2026-02-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0417",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0417/id/658319",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0417H01.pdf",
+      "supplement_size": 20219,
+      "supplement_hash": "12fe578e0dd321dc89c525c6c397eb3e",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -302,15 +398,15 @@
       "mtgPlace": "30 House Building",
       "committeeName": "House Health and Human Services Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00001343.htm",
       "agendaURL": "/~2026/agenda/HHHS0204.ag.htm",
       "billSession": "2026GS",
       "markerID": "293751"
     }
   ],
-  "last_action": "House Comm - Favorable Recommendation",
-  "last_action_owner": "House Health and Human Services Committee",
-  "last_action_time": "2/4/2026",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -413,6 +509,32 @@
       "voteHouse": "",
       "voteStr": "12-0-2",
       "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ amended",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/5/2026 11:16 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/5/2026 11:16 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

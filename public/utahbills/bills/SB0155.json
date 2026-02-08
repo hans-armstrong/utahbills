@@ -1,6 +1,6 @@
 {
   "bill_id": 2085770,
-  "change_hash": "f5ca8e0481262e2df2405e2c77944d48",
+  "change_hash": "2b2f514750f9553e612629d2c7df643d",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -133,6 +133,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate/ circled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -210,14 +224,6 @@
     {
       "subject_id": 11888,
       "subject_name": "Revenue and Taxation"
-    },
-    {
-      "subject_id": 11887,
-      "subject_name": "Income Tax"
-    },
-    {
-      "subject_id": 11917,
-      "subject_name": "State Tax Commission"
     }
   ],
   "texts": [
@@ -250,6 +256,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0155S01.pdf",
       "text_size": 77143,
       "text_hash": "ddf2b8394fac9f2fbd2ecef7607b46c4",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3351559,
+      "date": "2026-02-06",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0155/id/3351559",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0155S02.pdf",
+      "text_size": 78366,
+      "text_hash": "2cae5721a585e519c96165d1f44ca26a",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -371,6 +395,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 660113,
+      "date": "2026-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0155/id/660113",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0155%20To%20SB0155S02.pdf",
+      "supplement_size": 87349,
+      "supplement_hash": "7aeb223980f31a79d61b8b9297ee9632",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 660114,
+      "date": "2026-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0155/id/660114",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0155S01%20To%20SB0155S02.pdf",
+      "supplement_size": 74300,
+      "supplement_hash": "5cccc9d3409b6e0e54ffb66584979968",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -406,9 +470,9 @@
       "markerID": "288747"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action": "Senate/ circled",
   "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "1/26/2026",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -537,6 +601,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/6/2026 3:05 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/6/2026 3:06 PM",
+      "actionClass": "S",
+      "voteID": "307",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
       "parm1": "",
       "parm2": ""
     }

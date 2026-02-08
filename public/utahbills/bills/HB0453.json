@@ -1,6 +1,6 @@
 {
   "bill_id": 2103680,
-  "change_hash": "79615c1e06dd57bdc63d2b1e348eef24",
+  "change_hash": "ae493b71924db307b56c03dd59a849d6",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-03",
       "event": 1
+    },
+    {
+      "date": "2026-02-06",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Unspent Funding Amendments",
   "description": "Unspent Funding Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2107,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2107,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Government Operations"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-06",
+      "committee_id": 2107,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Government Operations"
     }
   ],
   "history": [
@@ -78,6 +89,20 @@
     {
       "date": "2026-02-03",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House/ to standing committee in House Government Operations Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -274,7 +299,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 659253,
+      "date": "2026-02-05",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0453",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0453/id/659253",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0453.fn.pdf",
+      "supplement_size": 1610172,
+      "supplement_hash": "d9855dd781b19649fa8283576f92d969",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill modifies provisions related to unexpended balances.",
   "hilighted_provisions": "This bill:<hr><ltbullet>creates the Unspent Balances Restricted Account (restricted account);<hr><ltbullet>directs the Division of Finance to annually transfer a specified percentage of all lapsing balances and excess fund balances to the restricted account; and<hr><ltbullet>provides the purposes for which money in the restricted account may be used.",
@@ -284,9 +330,9 @@
   "gov_tracking_id": "PEIPHAAJCI",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/3/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Government Operations Committee",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -337,6 +383,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/6/2026 8:06 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/6/2026 12:01 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

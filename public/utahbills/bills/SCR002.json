@@ -1,6 +1,6 @@
 {
   "bill_id": 2061376,
-  "change_hash": "ee19988fcc7831deb8be786ecdf55000",
+  "change_hash": "9864ec672b138ea49ef07ac005ecda0b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-03",
       "event": 9
+    },
+    {
+      "date": "2026-02-06",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 93,
   "title": "Concurrent Resolution Concerning Remembrances of the 25th Anniversary of the 9/11 Attacks",
   "description": "Concurrent Resolution Concerning Remembrances of the 25th Anniversary of the 9/11 Attacks",
-  "pending_committee_id": 2110,
-  "committee": {
-    "committee_id": 2110,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Law Enforcement and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -223,6 +222,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House Comm - Favorable Recommendation in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House/ committee report favorable in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House/ 2nd reading in House Consent Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -451,6 +471,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SCR002/id/1617857",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=98&house=S"
+    },
+    {
+      "roll_call_id": 1625271,
+      "date": "2026-02-05",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SCR002/id/1625271",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39612"
     }
   ],
   "amendments": [],
@@ -488,6 +523,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SCR002S02.pdf",
       "supplement_size": 18317,
       "supplement_hash": "8eb025ca7139fa2ee38a05180eb26897",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 659664,
+      "date": "2026-02-05",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SCR002",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SCR002/id/659664",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SCR002H02.pdf",
+      "supplement_size": 17598,
+      "supplement_hash": "349c83caaeae48498da3edba700359cc",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -536,11 +591,24 @@
       "agendaURL": "/~2026/agenda/SEDU0121.ag.htm",
       "billSession": "2026GS",
       "markerID": "287762"
+    },
+    {
+      "mtgID": "20213",
+      "committeeID": "HSTLAW",
+      "mtgDate": "2026-02-05 15:40:00.0",
+      "agendaItem": "7",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Law Enforcement and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HLAW0205.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294604"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Law Enforcement and Criminal Justice Committee",
-  "last_action_time": "2/3/2026",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House Consent Calendar",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -786,6 +854,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2/5/2026 5:26 PM",
+      "actionClass": "A",
+      "voteID": "39612",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-1",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2/6/2026 11:22 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House Consent Calendar",
+      "actionDate": "2/6/2026 11:22 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

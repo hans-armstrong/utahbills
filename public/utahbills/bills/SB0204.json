@@ -1,6 +1,6 @@
 {
   "bill_id": 2094516,
-  "change_hash": "726bb029c27aaf0d02adb054b93c3d39",
+  "change_hash": "ffbed33791b6ed45b307ff4f6ce66f61",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Physical Therapy Payment Amendments",
   "description": "Physical Therapy Payment Amendments",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-28",
@@ -99,6 +94,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -222,7 +224,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1625874,
+      "date": "2026-02-06",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 3,
+      "nv": 0,
+      "absent": 0,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0204/id/1625874",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39646"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -244,9 +262,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 660890,
+      "date": "2026-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0204",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0204/id/660890",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0204S02.pdf",
+      "supplement_size": 18303,
+      "supplement_hash": "394f3f7f990b49ad88f2e8a792785e96",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "7b2c083b",
+      "type": "Hearing",
+      "date": "2026-02-06",
+      "time": "15:40",
+      "location": "",
+      "description": "Senate Business and Labor Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions related to health insurance cost sharing for physical therapists.",
   "hilighted_provisions": "This bill:<hr><ltbullet>requires a health insurer to use the same cost sharing methods that the insurer uses for primary care providers for physical therapy services.",
   "monies": "None",
@@ -254,10 +302,24 @@
   "fiscal_analyst": "Alejandra G Rodriguez",
   "gov_tracking_id": "IXGUBFHTLF",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20289",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2026-02-06 15:40:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SBUS0206.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294848"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "1/29/2026",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -321,6 +383,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/6/2026 4:40 PM",
+      "actionClass": "A",
+      "voteID": "39646",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-3-0",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2060690,
-  "change_hash": "4db1bb8abdf95c222bad24466b52ebdb",
+  "change_hash": "cc3068f218145522dd92b9bbf88f0eef",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -32,6 +32,10 @@
     {
       "date": "2026-02-02",
       "event": 9
+    },
+    {
+      "date": "2026-02-05",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -186,6 +190,20 @@
     {
       "date": "2026-02-04",
       "action": "House Comm - Favorable Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House/ comm rpt/ substituted in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -628,9 +646,9 @@
       "markerID": "293883"
     }
   ],
-  "last_action": "House Comm - Favorable Recommendation",
-  "last_action_owner": "House Business, Labor, and Commerce Committee",
-  "last_action_time": "2/4/2026",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for Senate bills",
+  "last_action_time": "2/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -850,6 +868,32 @@
       "voteHouse": "",
       "voteStr": "11-0-5",
       "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2/5/2026 11:12 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2/5/2026 11:12 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

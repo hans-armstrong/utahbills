@@ -1,6 +1,6 @@
 {
   "bill_id": 2090781,
-  "change_hash": "6df9e92219bec64ddf6058cb6e7a5580",
+  "change_hash": "0587ab6cebb0c5f50f3a66f1f783513f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -105,6 +105,20 @@
     {
       "date": "2026-02-03",
       "action": "Senate Comm - Not Considered in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate Comm - Amendment Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -235,8 +249,61 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
-  "amendments": [],
+  "votes": [
+    {
+      "roll_call_id": 1625885,
+      "date": "2026-02-06",
+      "desc": "Senate Comm - Amendment Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0182/id/1625885",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39656"
+    },
+    {
+      "roll_call_id": 1625886,
+      "date": "2026-02-06",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 1,
+      "nv": 0,
+      "absent": 0,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0182/id/1625886",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39659"
+    }
+  ],
+  "amendments": [
+    {
+      "amendment_id": 270998,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2026-02-06",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0182/id/270998",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/SB0182.Samd.1.pdf",
+      "amendment_size": 7030,
+      "amendment_hash": "ad6aa38b5eaef1cb44d587d31f60e767",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 643846,
@@ -257,6 +324,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 660899,
+      "date": "2026-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0182",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0182/id/660899",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0182S02.pdf",
+      "supplement_size": 19626,
+      "supplement_hash": "73bbb025667099a4a9eab5051681ce62",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -265,6 +352,15 @@
       "event_hash": "4a2a286c",
       "type": "Hearing",
       "date": "2026-02-03",
+      "time": "15:40",
+      "location": "",
+      "description": "Senate Business and Labor Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "7b2c083b",
+      "type": "Hearing",
+      "date": "2026-02-06",
       "time": "15:40",
       "location": "",
       "description": "Senate Business and Labor Hearing"
@@ -286,15 +382,28 @@
       "mtgPlace": "120 Senate Building",
       "committeeName": "Senate Business and Labor Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00001423.htm",
       "agendaURL": "/~2026/agenda/SBUS0203.ag.htm",
       "billSession": "2026GS",
       "markerID": ""
+    },
+    {
+      "mtgID": "20289",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2026-02-06 15:40:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SBUS0206.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294922"
     }
   ],
-  "last_action": "Senate Comm - Not Considered",
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/3/2026",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -384,6 +493,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Amendment Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/6/2026 5:11 PM",
+      "actionClass": "A",
+      "voteID": "39656",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-1",
+      "actionCode": "SCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/6/2026 5:15 PM",
+      "actionClass": "A",
+      "voteID": "39659",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-1-0",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

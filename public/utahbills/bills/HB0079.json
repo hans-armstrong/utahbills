@@ -1,6 +1,6 @@
 {
   "bill_id": 2060956,
-  "change_hash": "7c2a7afd99fa230d9173295b60ca9a3d",
+  "change_hash": "d598c5994f31469f2457e77129b0fc50",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-04",
       "event": 9
+    },
+    {
+      "date": "2026-02-06",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Governmental Immunity Amendments",
   "description": "Governmental Immunity Amendments",
-  "pending_committee_id": 2122,
-  "committee": {
-    "committee_id": 2122,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Government Operations and Political Subdivisions"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -202,6 +201,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "Senate Comm - Favorable Recommendation in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate/ committee report favorable in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -440,6 +460,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0079/id/1620783",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=129&house=H"
+    },
+    {
+      "roll_call_id": 1625296,
+      "date": "2026-02-05",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0079/id/1625296",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39569"
     }
   ],
   "amendments": [],
@@ -523,6 +558,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 659701,
+      "date": "2026-02-05",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0079",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0079/id/659701",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0079S02.pdf",
+      "supplement_size": 18329,
+      "supplement_hash": "5d54090a8fb4b16098ca757ed9c38f55",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -566,15 +621,28 @@
       "mtgPlace": "30 House Building",
       "committeeName": "House Law Enforcement and Criminal Justice Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00001413.htm",
       "agendaURL": "/~2026/agenda/HLAW0123.ag.htm",
       "billSession": "2026GS",
       "markerID": "288830"
+    },
+    {
+      "mtgID": "20251",
+      "committeeID": "SSTGOP",
+      "mtgDate": "2026-02-05 15:40:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Government Operations and Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SGOP0205.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294407"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
-  "last_action_time": "2/4/2026",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -781,6 +849,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2/5/2026 4:26 PM",
+      "actionClass": "A",
+      "voteID": "39569",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2/6/2026 11:27 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/6/2026 11:27 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

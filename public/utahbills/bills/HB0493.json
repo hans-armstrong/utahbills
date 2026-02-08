@@ -1,6 +1,6 @@
 {
   "bill_id": 2107682,
-  "change_hash": "c74452dc92a8a31f71f57c499d812f32",
+  "change_hash": "359545263fcb9a0dd9526238c45a3d3b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0493/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0493.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-02-05",
+  "progress": [
+    {
+      "date": "2026-02-05",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0493",
@@ -32,9 +37,22 @@
   "current_body_id": 93,
   "title": "Pricing Protection Amendments",
   "description": "Pricing Protection Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
+  "referrals": [
+    {
+      "date": "2026-02-05",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2026-02-04",
@@ -49,6 +67,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -164,13 +196,13 @@
   "hilighted_provisions": "This bill:<hr><ltbullet>establishes a schedule of civil penalties for a violation of the weights and measures program under the Department of Agriculture and Food; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Ryan C. Williams",
-  "fiscal_analyst": "Lacey K. Moore",
+  "fiscal_analyst": "Jared Gibbs",
   "gov_tracking_id": "GPPJUOKVHY",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/4/2026",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -195,6 +227,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2/5/2026 8:48 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2/5/2026 11:21 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2069918,
-  "change_hash": "8324b2f778295a62e45f8b17a1feba99",
+  "change_hash": "c31931d2c4821445b168300bf59e85fd",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -105,6 +105,20 @@
     {
       "date": "2026-02-03",
       "action": "House Comm - Not Considered in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House Comm - Substitute Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House Comm - Favorable Recommendation in House Revenue and Taxation Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -259,7 +273,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1625860,
+      "date": "2026-02-06",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0210/id/1625860",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39632"
+    },
+    {
+      "roll_call_id": 1625861,
+      "date": "2026-02-06",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 1,
+      "nv": 0,
+      "absent": 3,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0210/id/1625861",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39634"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -341,6 +386,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 659018,
+      "date": "2026-02-05",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0210S02",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0210/id/659018",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0210S02.fn.pdf",
+      "supplement_size": 1609634,
+      "supplement_hash": "b59ebe065365ef903045858ee526c86a",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 660872,
+      "date": "2026-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0210",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0210/id/660872",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0210H02.pdf",
+      "supplement_size": 17556,
+      "supplement_hash": "a5b672c389480b304e4c70b190e017f3",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -352,10 +437,19 @@
       "time": "15:40",
       "location": "",
       "description": "House Revenue and Taxation Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "65c1c4c4",
+      "type": "Hearing",
+      "date": "2026-02-06",
+      "time": "15:40",
+      "location": "",
+      "description": "House Revenue and Taxation Hearing"
     }
   ],
   "general_provisions": "This bill addresses tax penalties within the Individual Income Tax Act.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>removes marriage penalties from certain individual income tax credits and exemptions by setting income phaseout amounts for filers who have single, head of household, or married filing separately status to be half of the amount for filers who have joint filing status;<hr><ltbullet>increases the amount of the nonrefundable taxpayer tax credit only for married claimants;<hr><ltbullet>repeals the nonrefundable earned income tax credit; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>removes marriage penalties from certain individual income tax credits and exemptions by setting income phaseout amounts for filers who have single, head of household, or married filing separately status to be half of the amount for filers who have joint filing status;<hr><ltbullet>enacts a nonrefundable individual income tax credit available for married filers; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
   "attorney": "Gus Harb",
   "fiscal_analyst": "Jared Gibbs",
@@ -370,15 +464,28 @@
       "mtgPlace": "445 State Capitol",
       "committeeName": "House Revenue and Taxation Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00001313.htm",
       "agendaURL": "/~2026/agenda/HREV0203.ag.htm",
       "billSession": "2026GS",
       "markerID": ""
+    },
+    {
+      "mtgID": "20303",
+      "committeeID": "HSTREV",
+      "mtgDate": "2026-02-06 15:40:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HREV0206.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294759"
     }
   ],
-  "last_action": "House Comm - Not Considered",
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Revenue and Taxation Committee",
-  "last_action_time": "2/3/2026",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -468,6 +575,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/6/2026 4:12 PM",
+      "actionClass": "A",
+      "voteID": "39632",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-3",
+      "actionCode": "HCASUB",
+      "parm1": "2",
+      "parm2": "1"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/6/2026 4:14 PM",
+      "actionClass": "A",
+      "voteID": "39634",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-1-3",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

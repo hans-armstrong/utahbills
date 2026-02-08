@@ -1,6 +1,6 @@
 {
   "bill_id": 2103569,
-  "change_hash": "8f32f9e529e83146faa3c55c9ec97704",
+  "change_hash": "3c87b14ac5b7c60aa949c75e1dd5a102",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Judicial Performance Evaluation Amendments",
   "description": "Judicial Performance Evaluation Amendments",
-  "pending_committee_id": 2124,
-  "committee": {
-    "committee_id": 2124,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Judiciary, Law Enforcement, and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-03",
@@ -99,6 +94,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-04",
+      "action": "Senate Comm - Not Considered in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -212,13 +221,43 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 660328,
+      "date": "2026-02-06",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0233",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0233/id/660328",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0233.fn.pdf",
+      "supplement_size": 1609345,
+      "supplement_hash": "1d002ff65ec9fec6db4e31f96c4064ac",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [
     {
       "type_id": 1,
       "event_hash": "35347a7b",
       "type": "Hearing",
       "date": "2026-02-04",
+      "time": "15:40",
+      "location": "",
+      "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "b00da4b1",
+      "type": "Hearing",
+      "date": "2026-02-09",
       "time": "15:40",
       "location": "",
       "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
@@ -240,15 +279,15 @@
       "mtgPlace": "210 Senate Building",
       "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00001415.htm",
       "agendaURL": "/~2026/agenda/SJLC0204.ag.htm",
       "billSession": "2026GS",
       "markerID": ""
     }
   ],
-  "last_action": "Senate Comm - Not Considered",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-  "last_action_time": "2/4/2026",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -325,6 +364,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/6/2026 10:49 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

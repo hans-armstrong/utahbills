@@ -1,6 +1,6 @@
 {
   "bill_id": 2069818,
-  "change_hash": "aa9acbacb055545620eef48a16158015",
+  "change_hash": "edc2ac535bd784dd685c53d3056a58b1",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-04",
       "event": 9
+    },
+    {
+      "date": "2026-02-06",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Competency Amendments",
   "description": "Competency Amendments",
-  "pending_committee_id": 2109,
-  "committee": {
-    "committee_id": 2109,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Judiciary"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +105,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House Comm - Substitute Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House Comm - Favorable Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House/ comm rpt/ substituted in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -183,6 +210,54 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 11893,
+      "subject_name": "Health Care"
+    },
+    {
+      "subject_id": 12052,
+      "subject_name": "Health Care Facilities"
+    },
+    {
+      "subject_id": 12007,
+      "subject_name": "Mental Health"
+    },
+    {
+      "subject_id": 332644,
+      "subject_name": "Health Care Professionals"
+    },
+    {
+      "subject_id": 11868,
+      "subject_name": "Courts"
+    },
+    {
+      "subject_id": 332532,
+      "subject_name": "Criminal Procedure"
+    },
+    {
+      "subject_id": 333610,
+      "subject_name": "Insanity Defense/Competency"
+    },
+    {
+      "subject_id": 332528,
+      "subject_name": "Judicial Operations"
+    },
+    {
+      "subject_id": 11866,
+      "subject_name": "Law Enforcement and Criminal Justice"
+    },
+    {
+      "subject_id": 362639,
+      "subject_name": "Department of Health and Human Services"
+    },
+    {
+      "subject_id": 345517,
+      "subject_name": "Utah State Hospital"
+    },
+    {
+      "subject_id": 374837,
+      "subject_name": "Correctional Facilities"
     }
   ],
   "texts": [
@@ -223,7 +298,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1625289,
+      "date": "2026-02-05",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0207/id/1625289",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39572"
+    },
+    {
+      "roll_call_id": 1625290,
+      "date": "2026-02-05",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0207/id/1625290",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39573"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -265,6 +371,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 659124,
+      "date": "2026-02-05",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0207S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0207/id/659124",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0207S01.fn.pdf",
+      "supplement_size": 1608352,
+      "supplement_hash": "5a4c689c78561644bb81415b30162f75",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 659693,
+      "date": "2026-02-05",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0207",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0207/id/659693",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0207H02.pdf",
+      "supplement_size": 17557,
+      "supplement_hash": "0e1b471b0b45215a7e0c18d7bd225632",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -279,16 +425,30 @@
     }
   ],
   "general_provisions": "This bill amends provisions related to competency evaluations.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>requires that when a court orders two competency evaluations, the evaluations must be ordered in the same order; <hr><ltbullet>permits a defendant to be transferred to a clinical or inpatient setting for a competency evaluation;<hr><ltbullet>clarifies that certain provisions do not apply to progress toward competency evaluations;<hr><ltbullet>amends a provision related to a report of a progress toward competency evaluation; <hr><ltbullet>provides for the portability of an involuntary medication order when an individual is transferred between facilities; <hr><ltbullet>defines terms; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>requires that when a court orders two competency evaluations, the evaluations must be ordered in the same order; <hr><ltbullet>provides that a court may order the Department of Health and Human Services to conduct additional or updated competency evaluations under certain circumstances;<hr><ltbullet>permits a defendant to be transferred to a clinical or inpatient setting for a competency evaluation;<hr><ltbullet>clarifies that certain provisions do not apply to progress toward competency evaluations;<hr><ltbullet>amends a provision related to a report of a progress toward competency evaluation; <hr><ltbullet>provides for the portability of an involuntary medication order when an individual is transferred between facilities; <hr><ltbullet>defines terms; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Amy Shewan",
   "fiscal_analyst": "Joseph Fitzgerald",
   "gov_tracking_id": "FXPMPHWIJP",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Judiciary Committee",
-  "last_action_time": "2/4/2026",
+  "agendas": [
+    {
+      "mtgID": "20247",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2026-02-05 15:40:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001361.htm",
+      "agendaURL": "/~2026/agenda/HJUD0205.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294455"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -365,6 +525,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/5/2026 4:30 PM",
+      "actionClass": "A",
+      "voteID": "39572",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-4",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/5/2026 4:30 PM",
+      "actionClass": "A",
+      "voteID": "39573",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-3",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/6/2026 11:20 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/6/2026 11:20 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

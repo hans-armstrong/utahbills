@@ -1,6 +1,6 @@
 {
   "bill_id": 2060973,
-  "change_hash": "43ec372ff52ce15efcfa2a40b1a41853",
+  "change_hash": "99dbc9c50e30d4c0b7733a56a3e91cb3",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Higher Education Dangerous Weapon Amendments",
   "description": "Higher Education Dangerous Weapon Amendments",
-  "pending_committee_id": 5049,
-  "committee": {
-    "committee_id": 5049,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Public Utilities and Energy"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -113,6 +108,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House Comm - Favorable Recommendation in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -268,7 +270,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1625784,
+      "date": "2026-02-06",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 8,
+      "nay": 1,
+      "nv": 0,
+      "absent": 3,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0084/id/1625784",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39624"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -390,9 +408,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 660664,
+      "date": "2026-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0084",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0084/id/660664",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0084H02.pdf",
+      "supplement_size": 17557,
+      "supplement_hash": "b15f0b6908730f8f29d946b073da06a5",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "3811761b",
+      "type": "Hearing",
+      "date": "2026-02-06",
+      "time": "15:40",
+      "location": "",
+      "description": "House Public Utilities and Energy Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses the carrying of dangerous weapons at an institution of higher education.",
   "hilighted_provisions": "This bill:<hr><ltbullet>amends the offense of carrying a dangerous weapon at an institution of higher education by excluding from the offense individuals 21 years or older who may lawfully conceal a firearm without a concealed carry permit in other locations; and<hr><ltbullet>makes technical and conforming changes. ",
   "monies": "None",
@@ -400,10 +448,24 @@
   "fiscal_analyst": "Joseph Fitzgerald",
   "gov_tracking_id": "QPSJBUUJGY",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20241",
+      "committeeID": "HSTPUT",
+      "mtgDate": "2026-02-06 15:40:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Public Utilities and Energy Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HPUT0206.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294758"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Public Utilities and Energy Committee",
-  "last_action_time": "2/3/2026",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -493,6 +555,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "2/6/2026 3:57 PM",
+      "actionClass": "A",
+      "voteID": "39624",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-1-3",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

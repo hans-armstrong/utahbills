@@ -1,6 +1,6 @@
 {
   "bill_id": 2057187,
-  "change_hash": "7af2a777ccb8f4a464c88506dcce2274",
+  "change_hash": "4e12d2991832880f08f6f69d7f55131a",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Airborne Chemicals Amendments",
   "description": "Airborne Chemicals Amendments",
-  "pending_committee_id": 2122,
-  "committee": {
-    "committee_id": 2122,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Government Operations and Political Subdivisions"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -99,6 +94,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "Senate Comm - Amendment Recommendation in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "Senate Comm - Motion to Recommend Failed in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -214,7 +223,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1625287,
+      "date": "2026-02-05",
+      "desc": "Senate Comm - Amendment Recommendation",
+      "yea": 4,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0023/id/1625287",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39549"
+    },
+    {
+      "roll_call_id": 1625288,
+      "date": "2026-02-05",
+      "desc": "Senate Comm - Motion to Recommend Failed",
+      "yea": 2,
+      "nay": 4,
+      "nv": 0,
+      "absent": 1,
+      "total": 7,
+      "passed": 0,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0023/id/1625288",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39551"
+    }
+  ],
   "amendments": [
     {
       "amendment_id": 269724,
@@ -283,10 +323,24 @@
       "name": "Natural Resources, Agriculture, and Environment Interim Committee"
     }
   ],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20251",
+      "committeeID": "SSTGOP",
+      "mtgDate": "2026-02-05 15:40:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Government Operations and Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SGOP0205.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294377"
+    }
+  ],
+  "last_action": "Senate Comm - Motion to Recommend Failed",
   "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
-  "last_action_time": "2/3/2026",
+  "last_action_time": "2/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -350,6 +404,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Amendment Recommendation",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2/5/2026 3:47 PM",
+      "actionClass": "A",
+      "voteID": "39549",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Motion to Recommend Failed",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2/5/2026 4:01 PM",
+      "actionClass": "A",
+      "voteID": "39551",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "2-4-1",
+      "actionCode": "SCAFAVFAIL",
       "parm1": "",
       "parm2": ""
     }

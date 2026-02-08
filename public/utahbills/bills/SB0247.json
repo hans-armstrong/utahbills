@@ -1,6 +1,6 @@
 {
   "bill_id": 2107157,
-  "change_hash": "413b7af1ba4d29be5848724203c0cadb",
+  "change_hash": "06af8d6faf7f9bfe91f8fe31e704dbdd",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-04",
       "event": 1
+    },
+    {
+      "date": "2026-02-06",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Road Funding Amendments",
   "description": "Road Funding Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2127,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2127,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Revenue and Taxation"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-06",
+      "committee_id": 2127,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -78,6 +89,20 @@
     {
       "date": "2026-02-04",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate/ to standing committee in Senate Revenue and Taxation Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -158,6 +183,18 @@
     {
       "subject_id": 11875,
       "subject_name": "Transportation"
+    },
+    {
+      "subject_id": 11999,
+      "subject_name": "Motor Fuel and Special Fuel Taxes"
+    },
+    {
+      "subject_id": 11888,
+      "subject_name": "Revenue and Taxation"
+    },
+    {
+      "subject_id": 334450,
+      "subject_name": "Transportation Funding"
     }
   ],
   "texts": [
@@ -182,7 +219,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 658694,
+      "date": "2026-02-05",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0247",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0247/id/658694",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0247.fn.pdf",
+      "supplement_size": 1608328,
+      "supplement_hash": "d4e7f032a11ba2892e32949ac8451c50",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill amends the minimum average rack price of motor fuel for purposes of calculating fuel tax rates.",
   "hilighted_provisions": "This bill:<hr><ltbullet>amends the minimum average rack price of motor fuel for purposes of calculating fuel tax rates.",
@@ -192,9 +250,9 @@
   "gov_tracking_id": "JKCKEMXBYU",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/4/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Revenue and Taxation Committee",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -245,6 +303,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/5/2026 10:07 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2/6/2026 2:16 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

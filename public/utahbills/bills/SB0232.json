@@ -1,6 +1,6 @@
 {
   "bill_id": 2103464,
-  "change_hash": "9b21540c0f4a1196d348e75b9855a9fd",
+  "change_hash": "9a3cde900fea8c52d58861d6ac0f6e39",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Regulatory Impacts on Families",
   "description": "Regulatory Impacts on Families",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-03",
@@ -103,6 +98,13 @@
     {
       "date": "2026-02-04",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -249,7 +251,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1625911,
+      "date": "2026-02-06",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 6,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0232/id/1625911",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39662"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -271,9 +289,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 660949,
+      "date": "2026-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0232",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0232/id/660949",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0232S02.pdf",
+      "supplement_size": 18288,
+      "supplement_hash": "3e00d180bcaeda8e287fc279d8187c4b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "13816bd6",
+      "type": "Hearing",
+      "date": "2026-02-06",
+      "time": "15:40",
+      "location": "",
+      "description": "Senate Education Hearing"
+    }
+  ],
   "general_provisions": "This bill requires state agencies, counties, municipalities, and local school boards to consider the impact of certain governmental actions on families.",
   "hilighted_provisions": "This bill:<hr><ltbullet>requires a state agency engaged in rulemaking to consider the impact a proposed rule may have on family health, stability, and formation;<hr><ltbullet>requires a state agency that reasonably expects a proposed rule to have a measurable negative impact on family health, stability, or formation to consider reasonable alternatives to reduce the impact;<hr><ltbullet>requires a county or municipal legislative body, before passing an ordinance, to consider the impact the proposed ordinance may have on family health, stability, and formation;<hr><ltbullet>requires a municipal legislative body, before passing a resolution establishing rates and fees, to consider the impact the proposed resolution has on household costs;<hr><ltbullet>creates an exception to the family impact considerations described above for a county or municipal ordinance enacted in response to an emergency;<hr><ltbullet>requires a local school board, before adopting a policy or taking other formal action, to consider the impact the proposed rule or action may have on family health, stability, and formation; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -281,10 +329,24 @@
   "fiscal_analyst": "Kiki Hudson",
   "gov_tracking_id": "XHNTGDWHEI",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "agendas": [
+    {
+      "mtgID": "20270",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-02-06 15:40:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDU0206.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294941"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/4/2026",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -361,6 +423,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "2/6/2026 5:22 PM",
+      "actionClass": "A",
+      "voteID": "39662",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-1",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

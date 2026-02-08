@@ -1,6 +1,6 @@
 {
   "bill_id": 2059265,
-  "change_hash": "afc499cbc931fc4b2c8c7234208f22cd",
+  "change_hash": "ddc4a5cb0f4cd5b59261eb60e2707250",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-03",
       "event": 2
+    },
+    {
+      "date": "2026-02-05",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,12 +53,12 @@
   "current_body_id": 94,
   "title": "Used Oil Management Act Amendments",
   "description": "Used Oil Management Act Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2125,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2125,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Natural Resources, Agriculture, and Environment"
   },
   "referrals": [
     {
@@ -77,6 +81,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-05",
+      "committee_id": 2125,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Natural Resources, Agriculture, and Environment"
     }
   ],
   "history": [
@@ -184,6 +195,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "Senate/ to standing committee in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -440,7 +458,29 @@
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=153&house=H"
     }
   ],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 270699,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2026-02-05",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0037/id/270699",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0037S01.Samd.1.pdf",
+      "amendment_size": 7311,
+      "amendment_hash": "10dbf1469503e5692ff0fb4190980a84",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 633965,
@@ -561,9 +601,9 @@
       "markerID": "288625"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/4/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+  "last_action_time": "2/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -757,6 +797,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/5/2026 2:12 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

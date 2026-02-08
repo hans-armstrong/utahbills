@@ -1,6 +1,6 @@
 {
   "bill_id": 2066156,
-  "change_hash": "f336e0e84fcb3acd1fb9ac3edff8d357",
+  "change_hash": "02785eb147c1a45bfef5817eca3a3e55",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-04",
       "event": 2
+    },
+    {
+      "date": "2026-02-06",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,12 +53,12 @@
   "current_body_id": 93,
   "title": "Health Care Services Platforms",
   "description": "Health Care Services Platforms",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2108,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2108,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Health and Human Services"
   },
   "referrals": [
     {
@@ -77,6 +81,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-06",
+      "committee_id": 2108,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Health and Human Services"
     }
   ],
   "history": [
@@ -191,6 +202,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House/ to standing committee in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -473,6 +491,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Economic Development and Workforce Services Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "59f4f8bc",
+      "type": "Hearing",
+      "date": "2026-02-09",
+      "time": "15:40",
+      "location": "",
+      "description": "House Health and Human Services Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions related to health care services platforms.",
@@ -497,9 +524,9 @@
       "markerID": "288713"
     }
   ],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/4/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Health and Human Services Committee",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -706,6 +733,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/6/2026 12:01 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

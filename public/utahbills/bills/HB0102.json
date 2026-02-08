@@ -1,6 +1,6 @@
 {
   "bill_id": 2061167,
-  "change_hash": "dd69852c450fd4340b659c523eb584ae",
+  "change_hash": "7481635c0dc78ee55ec6430d9b6169ee",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-30",
       "event": 9
+    },
+    {
+      "date": "2026-02-06",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Victim Privacy Amendments",
   "description": "Victim Privacy Amendments",
-  "pending_committee_id": 2109,
-  "committee": {
-    "committee_id": 2109,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Judiciary"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -113,6 +112,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House Comm - Favorable Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House/ committee report favorable in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -328,7 +348,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1624979,
+      "date": "2026-02-05",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0102/id/1624979",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39587"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -450,6 +486,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 659338,
+      "date": "2026-02-05",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0102",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0102/id/659338",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0102H01.pdf",
+      "supplement_size": 17526,
+      "supplement_hash": "600e8d304685ad1e290f3fdbd83e619a",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -470,10 +526,24 @@
   "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "DPKJUFNTYY",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Judiciary Committee",
-  "last_action_time": "1/30/2026",
+  "agendas": [
+    {
+      "mtgID": "20247",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2026-02-05 15:40:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001361.htm",
+      "agendaURL": "/~2026/agenda/HJUD0205.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294496"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -563,6 +633,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/5/2026 4:47 PM",
+      "actionClass": "A",
+      "voteID": "39587",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-3",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/6/2026 11:20 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/6/2026 11:20 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

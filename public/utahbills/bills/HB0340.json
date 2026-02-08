@@ -1,6 +1,6 @@
 {
   "bill_id": 2091135,
-  "change_hash": "3828b5d0f39803a8e4ab3342794c8512",
+  "change_hash": "eb79764b64dadc875268f25c9ece2145",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-23",
       "event": 1
+    },
+    {
+      "date": "2026-02-05",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Medicare Supplement Amendments",
   "description": "Medicare Supplement Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 5042,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 5042,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Business, Labor, and Commerce"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-05",
+      "committee_id": 5042,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Business, Labor, and Commerce"
     }
   ],
   "history": [
@@ -88,6 +99,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House/ to standing committee in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -227,7 +245,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "6b4f84a1",
+      "type": "Hearing",
+      "date": "2026-02-09",
+      "time": "15:40",
+      "location": "",
+      "description": "House Business, Labor, and Commerce Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions related to Medicare supplement insurance.",
   "hilighted_provisions": "This bill:<hr><ltbullet>allows an individual under 65 years old and who is eligible for Medicare to enroll in a Medicare supplement insurance plan under certain circumstances.",
   "monies": "None",
@@ -236,9 +264,9 @@
   "gov_tracking_id": "JHMNPPSRYR",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/28/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Business, Labor, and Commerce Committee",
+  "last_action_time": "2/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -302,6 +330,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2/5/2026 11:59 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

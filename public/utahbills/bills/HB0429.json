@@ -1,6 +1,6 @@
 {
   "bill_id": 2102590,
-  "change_hash": "95901970807da0193301f37d292e5381",
+  "change_hash": "c582be6a8dceba31f1cce2927c639453",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-30",
       "event": 1
+    },
+    {
+      "date": "2026-02-05",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Special Districts Amendments",
   "description": "Special Districts Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-30",
@@ -51,6 +50,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-05",
+      "committee_id": 2107,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Government Operations"
     }
   ],
   "history": [
@@ -85,6 +91,27 @@
     {
       "date": "2026-02-04",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House/ to standing committee in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House Comm - Substitute Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House Comm - Favorable Recommendation in House Government Operations Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -179,10 +206,6 @@
       "subject_name": "Local Districts"
     },
     {
-      "subject_id": 11866,
-      "subject_name": "Law Enforcement and Criminal Justice"
-    },
-    {
       "subject_id": 332649,
       "subject_name": "Municipalities"
     },
@@ -233,9 +256,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3350970,
+      "date": "2026-02-05",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0429/id/3350970",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0429S01.pdf",
+      "text_size": 55329,
+      "text_hash": "365119d3bff3ed12e72b9c7bfd6b0c6f",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1625856,
+      "date": "2026-02-06",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0429/id/1625856",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39640"
+    },
+    {
+      "roll_call_id": 1625857,
+      "date": "2026-02-06",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 10,
+      "nay": 1,
+      "nv": 0,
+      "absent": 1,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0429/id/1625857",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39641"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -257,20 +329,84 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 659654,
+      "date": "2026-02-05",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0429/id/659654",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0429%20To%20HB0429S01.pdf",
+      "supplement_size": 63849,
+      "supplement_hash": "1680d98bfa1094207758ad3e9b21fdb4",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 660867,
+      "date": "2026-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0429",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0429/id/660867",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0429H02.pdf",
+      "supplement_size": 17581,
+      "supplement_hash": "0c7d954bd3f8611258e8e706d7ab9b54",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
-  "general_provisions": "This bill addresses withdrawal of a county or municipality from a special district under certain circumstances.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms, including the terms \"law enforcement district\" and \"garbage disposal district\";<hr><ltbullet>creates a process for a county of the first class to initiate and complete withdrawal from a law enforcement district;<hr><ltbullet>creates a process for a county or municipality to initiate withdrawal from a garbage disposal district;<hr><ltbullet>prohibits a garbage disposal district from incurring debt, issuing bonds, or otherwise incurring a financial obligation for a period of time after the county or municipality initiates the process to withdraw;<hr><ltbullet>authorizes a county or municipality and a garbage disposal district to enter into an agreement to withdraw;<hr><ltbullet>describes the requirements for a county or municipality to complete withdrawal from a garbage disposal district absent an agreement, including:<hr><ltbullet1>conducting a feasibility study;<hr><ltbullet1>conducting a public hearing on the proposed withdrawal;<hr><ltbullet1>providing notice of a public hearing on the proposed withdrawal; and<hr><ltbullet1>adopting a resolution to withdraw;<hr><ltbullet>provides that property within a withdrawn area may continue to be taxable by the garbage disposal district for purposes of paying the withdrawn area's proportionate share of bonded indebtedness or judgments against the garbage disposal district, under certain circumstances;<hr><ltbullet>requires the board of trustees of a law enforcement district to file with the lieutenant governor certain documents after receiving a final withdrawal resolution from a county legislative body;<hr><ltbullet>requires the board of trustees of a garbage disposal district to file with the lieutenant governor certain documents after entering an agreement to withdraw or receiving a resolution to withdraw;<hr><ltbullet>describes the process to determine the effective date of a withdrawal; and<hr><ltbullet>makes technical and conforming changes.",
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "3dee1d82",
+      "type": "Hearing",
+      "date": "2026-02-06",
+      "time": "15:40",
+      "location": "",
+      "description": "House Government Operations Hearing"
+    }
+  ],
+  "general_provisions": "This bill addresses withdrawal of a county or a municipality from a special district under certain circumstances.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms, including the term \"garbage disposal district\";<hr><ltbullet>creates a process for a county of the first class or a municipality located in a county of the first class to initiate withdrawal from a garbage disposal district;<hr><ltbullet>prohibits a garbage disposal district from incurring debt, issuing bonds, or otherwise incurring a financial obligation for a period of time after the county or municipality initiates the process to withdraw;<hr><ltbullet>authorizes a county or municipality and a garbage disposal district to enter into an agreement to withdraw;<hr><ltbullet>describes the requirements for a county or municipality to complete withdrawal from a garbage disposal district absent an agreement, including:<hr><ltbullet1>conducting a feasibility study;<hr><ltbullet1>conducting a public hearing on the proposed withdrawal;<hr><ltbullet1>providing notice of a public hearing on the proposed withdrawal; and<hr><ltbullet1>adopting a resolution to withdraw;<hr><ltbullet>provides that property within a withdrawn area may continue to be taxable by the garbage disposal district for purposes of paying the withdrawn area's proportionate share of bonded indebtedness or judgments against the garbage disposal district, under certain circumstances;<hr><ltbullet>requires the board of trustees of a garbage disposal district to file with the lieutenant governor certain documents after entering an agreement to withdraw or receiving a resolution to withdraw;<hr><ltbullet>describes the process to determine the effective date of a withdrawal; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "RuthAnne Oakey-Frost",
   "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "GTRSHPVGND",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/4/2026",
+  "agendas": [
+    {
+      "mtgID": "20277",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2026-02-06 15:40:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HGOC0206.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294808"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
+  "last_action_owner": "House Government Operations Committee",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -334,6 +470,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/5/2026 11:59 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/6/2026 4:26 PM",
+      "actionClass": "A",
+      "voteID": "39640",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-1",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/6/2026 4:29 PM",
+      "actionClass": "A",
+      "voteID": "39641",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-1-1",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

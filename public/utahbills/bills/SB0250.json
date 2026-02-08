@@ -1,6 +1,6 @@
 {
   "bill_id": 2107299,
-  "change_hash": "2fe4defc02dbb1a49519d2889dbeeaf0",
+  "change_hash": "ff4aff2f4fd4eb2a1a32f6cb3a8568d1",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-04",
       "event": 1
+    },
+    {
+      "date": "2026-02-05",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Great Salt Lake Amendments",
   "description": "Great Salt Lake Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2125,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2125,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Natural Resources, Agriculture, and Environment"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-05",
+      "committee_id": 2125,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Natural Resources, Agriculture, and Environment"
     }
   ],
   "history": [
@@ -78,6 +89,13 @@
     {
       "date": "2026-02-04",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "Senate/ to standing committee in Senate Natural Resources, Agriculture, and Environment Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -192,9 +210,9 @@
   "gov_tracking_id": "QANGJGLTCP",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/4/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+  "last_action_time": "2/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -245,6 +263,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2/5/2026 2:12 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

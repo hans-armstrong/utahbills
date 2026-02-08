@@ -1,6 +1,6 @@
 {
   "bill_id": 2104658,
-  "change_hash": "de0e0aac3508f31722af2ac3bdd5bfab",
+  "change_hash": "13b907d8abbea1469a3ac83cc019d93a",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-03",
       "event": 1
+    },
+    {
+      "date": "2026-02-06",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Juvenile Court Amendments",
   "description": "Juvenile Court Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2109,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2109,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Judiciary"
   },
   "referrals": [
     {
@@ -51,19 +55,26 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-06",
+      "committee_id": 2109,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Judiciary"
     }
   ],
   "history": [
     {
       "date": "2026-02-03",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-02-03",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -78,6 +89,20 @@
     {
       "date": "2026-02-03",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House/ to standing committee in House Judiciary Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -190,7 +215,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 658898,
+      "date": "2026-02-05",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0465",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0465/id/658898",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0465.fn.pdf",
+      "supplement_size": 1608334,
+      "supplement_hash": "16a4a84f81429eca544d89dd1efbcf97",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill modifies provisions related to juvenile courts.",
   "hilighted_provisions": "This bill:<hr><ltbullet>allows a juvenile court to conditionally suspend a minor's order for detention for up to five days; and<hr><ltbullet>makes technical and conforming changes.",
@@ -200,23 +246,10 @@
   "gov_tracking_id": "EUNNBOBSEN",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/3/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Judiciary Committee",
+  "last_action_time": "2/6/2026",
   "action_history": [
-    {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/3/2026 9:26 AM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -227,6 +260,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "2/3/2026 9:26 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
       "parm1": "",
       "parm2": ""
     },
@@ -253,6 +299,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/5/2026 10:10 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2/6/2026 12:01 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

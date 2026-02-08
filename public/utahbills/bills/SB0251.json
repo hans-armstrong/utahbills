@@ -1,6 +1,6 @@
 {
   "bill_id": 2107131,
-  "change_hash": "382d0ab5bff9d473fdb27f81cee5ce97",
+  "change_hash": "cae739d4ae95ae0785f14ae7fd9fd6fe",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -56,14 +56,14 @@
   "history": [
     {
       "date": "2026-02-04",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-02-04",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -81,6 +81,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -198,7 +205,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 659928,
+      "date": "2026-02-06",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0251",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0251/id/659928",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0251.fn.pdf",
+      "supplement_size": 1608372,
+      "supplement_hash": "dc5579f76aa17fb3b96241bc9ba04c18",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill addresses civil penalties and reporting related to public health and the environment.",
   "hilighted_provisions": "This bill:<hr><ltbullet>removes a requirement that the Department of Environmental Quality (department) report to the Rules Review and General Oversight Committee regarding the evaluation of a policy or rule that affects a local health department;<hr><ltbullet>establishes a process for a local government or local health department to submit a reimbursement request to the department for a qualifying extraordinary expense incurred in a qualifying environmental enforcement activity;<hr><ltbullet>authorizes rulemaking by the department related to the reimbursement for a qualifying extraordinary expense; and<hr><ltbullet>makes technical and conforming changes.",
@@ -208,23 +236,10 @@
   "gov_tracking_id": "CQPWEUYMKG",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/4/2026",
+  "last_action_time": "2/6/2026",
   "action_history": [
-    {
-      "description": "Bill Numbered but not Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/4/2026 9:30 AM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -235,6 +250,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Numbered but not Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "2/4/2026 9:30 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LNUMBER",
       "parm1": "",
       "parm2": ""
     },
@@ -261,6 +289,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/6/2026 9:57 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2103058,
-  "change_hash": "c31a96aeb879741f2c5179984ac00463",
+  "change_hash": "397d51f8cbb0c9dbb4ecbc817f15aa6e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Consumer Credit Amendments",
   "description": "Consumer Credit Amendments",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-02",
@@ -103,6 +98,13 @@
     {
       "date": "2026-02-03",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -217,7 +219,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1625809,
+      "date": "2026-02-06",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0230/id/1625809",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39633"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -239,9 +257,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 660719,
+      "date": "2026-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0230",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0230/id/660719",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0230S02.pdf",
+      "supplement_size": 18283,
+      "supplement_hash": "aded2cc1e289cd9c291d21bb5b0c70a1",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "7b2c083b",
+      "type": "Hearing",
+      "date": "2026-02-06",
+      "time": "15:40",
+      "location": "",
+      "description": "Senate Business and Labor Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies the Utah Consumer Credit Code.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>clarifies that a creditor may not charge a prepayment penalty and removes the existing exception;<hr><ltbullet>clarifies that the debtor is not entitled to a third party rebate unless the creditor becomes entitled to a rebate result from the prepayment; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -249,10 +297,24 @@
   "fiscal_analyst": "Alejandra G Rodriguez",
   "gov_tracking_id": "MOOCGYEGIO",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "agendas": [
+    {
+      "mtgID": "20289",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2026-02-06 15:40:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SBUS0206.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294780"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/3/2026",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -329,6 +391,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/6/2026 4:13 PM",
+      "actionClass": "A",
+      "voteID": "39633",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-1",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2091781,
-  "change_hash": "cf3660d62361e837f9c3fd4a0a456d15",
+  "change_hash": "a1c916a2e4e95ba948c962d1bad909ea",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-28",
       "event": 9
+    },
+    {
+      "date": "2026-02-05",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Higher Education Credit Transfer Amendments",
   "description": "Higher Education Credit Transfer Amendments",
-  "pending_committee_id": 2860,
-  "committee": {
-    "committee_id": 2860,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Economic Development and Workforce Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-23",
@@ -106,6 +105,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House Comm - Favorable Recommendation in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "House Comm - Consent Calendar Recommendation in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House/ comm rpt/ placed on Consent Calendar in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House/ 2nd reading in House Consent Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -229,7 +256,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1624152,
+      "date": "2026-02-04",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 10,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0353/id/1624152",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39493"
+    },
+    {
+      "roll_call_id": 1624153,
+      "date": "2026-02-04",
+      "desc": "House Comm - Consent Calendar Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 10,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0353/id/1624153",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39494"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -245,6 +303,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0353.fn.pdf",
       "supplement_size": 1608362,
       "supplement_hash": "abcc19052e6f491fbd30cb996b8e7270",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 658348,
+      "date": "2026-02-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0353",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0353/id/658348",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0353H02.pdf",
+      "supplement_size": 17580,
+      "supplement_hash": "cf7552e8c6af4b382eb58990873b7153",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -286,23 +364,10 @@
       "markerID": "293793"
     }
   ],
-  "last_action": "House Comm - Consent Calendar Recommendation",
-  "last_action_owner": "House Economic Development and Workforce Services Committee",
-  "last_action_time": "2/4/2026",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House Consent Calendar",
+  "last_action_time": "2/5/2026",
   "action_history": [
-    {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/23/2026 10:01 AM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -313,6 +378,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/23/2026 10:01 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
       "parm1": "",
       "parm2": ""
     },
@@ -391,6 +469,32 @@
       "voteHouse": "",
       "voteStr": "8-0-2",
       "actionCode": "HCACONCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ placed on Consent Calendar",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "2/5/2026 11:14 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRCON",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House Consent Calendar",
+      "actionDate": "2/5/2026 11:14 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

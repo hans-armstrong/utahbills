@@ -1,6 +1,6 @@
 {
   "bill_id": 2106600,
-  "change_hash": "f7c0db895845faf35925db8dc02f5332",
+  "change_hash": "8958febc69be90a0e969d0c74befd299",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Early Literacy",
   "description": "Early Literacy",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-03",
@@ -99,6 +94,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -298,10 +307,77 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1625839,
+      "date": "2026-02-06",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 6,
+      "nay": 1,
+      "nv": 0,
+      "absent": 0,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0241/id/1625839",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39676"
+    }
+  ],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 660275,
+      "date": "2026-02-06",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0241",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0241/id/660275",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0241.fn.pdf",
+      "supplement_size": 1610668,
+      "supplement_hash": "1267a431ca37cc0c6de0d3a242d28ae6",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 660806,
+      "date": "2026-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0241",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0241/id/660806",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0241S02.pdf",
+      "supplement_size": 18268,
+      "supplement_hash": "d8aef852f55b9c5bf802916a8d3d971f",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "13816bd6",
+      "type": "Hearing",
+      "date": "2026-02-06",
+      "time": "15:40",
+      "location": "",
+      "description": "Senate Education Hearing"
+    }
+  ],
   "general_provisions": "This bill establishes a framework of literacy interventions in kindergarten through grade 3 within the public education system.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>establishes a third-grade level reading goal for 2030;<hr><ltbullet>requires a local education agency (LEA) to, based on the student's performance on a benchmark reading assessment, provide a student with an individualized reading plan that identifies specific reading interventions to remediate a reading deficiency, including considering retention in lower grades and requiring retention in grade 3 except in cases of certain good cause exemptions;<hr><ltbullet>requires regional education service agencies (RESAs) and certain school districts to provide formal professional learning and information training in the science of reading, including to employees of charter schools located within the relevant RESA or school district;<hr><ltbullet>dedicates a certain amount of one-time funding each year from the Public Education Economic Stabilization Restricted Account to provide paraprofessionals who support literacy;<hr><ltbullet>requires certain school performance monitoring;<hr><ltbullet>excludes the practice of \"three-cueing\" from an LEA's reading curriculum;<hr><ltbullet>requires the State Board of Education (state board) to distribute funding to regional education service agencies and certain school districts for literacy coaching and training;<hr><ltbullet>requires the Utah Board of Higher Education to partner with the state board in certain duties regarding teacher preparation programs;<hr><ltbullet>requires the use of a certain portion of a school's allocation under the Teacher and Student Success Program on literacy interventions if the school's third grade students score below the statewide benchmark goal;<hr><ltbullet>includes science of reading and literacy as components of an elementary educator evaluation;<hr><ltbullet>requires the Center for the School of the Future at Utah State University, in collaboration with the Utah Board of Higher Education, to develop a plan to improve science of reading knowledge and ability in teacher graduates from a state institution of higher education; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -309,10 +385,24 @@
   "fiscal_analyst": "Ben Leishman",
   "gov_tracking_id": "CXLWIRPYTQ",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20270",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-02-06 15:40:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDU0206.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294964"
+    }
+  ],
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/4/2026",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -376,6 +466,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Education Committee",
+      "actionDate": "2/6/2026 1:10 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "2/6/2026 5:56 PM",
+      "actionClass": "A",
+      "voteID": "39676",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-1-0",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

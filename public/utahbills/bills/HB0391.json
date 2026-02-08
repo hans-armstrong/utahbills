@@ -1,6 +1,6 @@
 {
   "bill_id": 2094308,
-  "change_hash": "1bea2d146bc9baf2847f5995b6d28b67",
+  "change_hash": "425646becce524ac221b8c10956c7a1f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Vacancy Replacement Amendments",
   "description": "Vacancy Replacement Amendments",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-27",
@@ -67,14 +62,14 @@
   "history": [
     {
       "date": "2026-01-27",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-01-27",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -113,6 +108,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House Comm - Favorable Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -326,7 +328,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1625890,
+      "date": "2026-02-06",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 4,
+      "nv": 0,
+      "absent": 1,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0391/id/1625890",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39654"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -388,9 +406,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 660903,
+      "date": "2026-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0391",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0391/id/660903",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0391H02.pdf",
+      "supplement_size": 17541,
+      "supplement_hash": "728dfcb2adf878a3670a88eba966191b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "3dee1d82",
+      "type": "Hearing",
+      "date": "2026-02-06",
+      "time": "15:40",
+      "location": "",
+      "description": "House Government Operations Hearing"
+    }
+  ],
   "general_provisions": "This bill address vacancies in elected office.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines the term \"interim vacancy period\" to mean the period of time between a general election and the start of a newly elected officeholder's term of office;<hr><ltbullet>requires certain vacancies in elected office to be filled by appointment of an individual selected by the political party of which the prior officeholder was a member at the time the prior officeholder was last elected or appointed, including:<hr><ltbullet1>a vacancy in the office of United States senator, state legislator, or State Board of Education member, to be filled by the governor; and<hr><ltbullet1>a vacancy in a county office, to be filled by a county legislative body;<hr><ltbullet>for a vacancy in a municipal office, local school board office, or elected special district office that exists during an interim vacancy period, prohibits the local legislative body from appointing an individual to fill the vacancy until the interim vacancy period ends; and<hr><ltbullet>makes technical and conforming changes. ",
   "monies": "None",
@@ -398,24 +446,25 @@
   "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "CHNDTUTIAH",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "1/29/2026",
-  "action_history": [
+  "agendas": [
     {
-      "description": "Bill Numbered but not Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/27/2026 9:03 AM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
-    },
+      "mtgID": "20277",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2026-02-06 15:40:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HGOC0206.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294866"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
+  "last_action_owner": "House Government Operations Committee",
+  "last_action_time": "2/6/2026",
+  "action_history": [
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -426,6 +475,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Numbered but not Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/27/2026 9:03 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LNUMBER",
       "parm1": "",
       "parm2": ""
     },
@@ -491,6 +553,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/6/2026 5:06 PM",
+      "actionClass": "A",
+      "voteID": "39654",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-4-1",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

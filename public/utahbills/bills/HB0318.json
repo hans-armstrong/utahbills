@@ -1,6 +1,6 @@
 {
   "bill_id": 2089163,
-  "change_hash": "85470df98c2a37f01dc9a4d351256e36",
+  "change_hash": "ece053c63d92149fd89907a3d6a5a823",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Agency Fee Amendments",
   "description": "Agency Fee Amendments",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-22",
@@ -99,6 +94,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House Comm - Favorable Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -230,7 +232,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1625855,
+      "date": "2026-02-06",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0318/id/1625855",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39661"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -252,9 +270,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 660866,
+      "date": "2026-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0318",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0318/id/660866",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0318H02.pdf",
+      "supplement_size": 17529,
+      "supplement_hash": "83274d3877f0559c58cf16a57864c0b6",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "3dee1d82",
+      "type": "Hearing",
+      "date": "2026-02-06",
+      "time": "15:40",
+      "location": "",
+      "description": "House Government Operations Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies provisions related to budgetary procedures.",
   "hilighted_provisions": "This bill:<hr><ltbullet>requires that, before billing another state agency for a good or service, an internal service fund agency provide specified rate data to the Governor's Office of Planning and Budget and to the Office of the Legislative Fiscal Analyst;<hr><ltbullet>requires an internal service fund agency to annually report the actual costs and revenue for each rate, fee, or other amount charged during the preceding fiscal year;<hr><ltbullet>prohibits a fee agency from charging a fee unless the fee agency provides specified fee data to the Governor's Office of Planning and Budget and to the Office of the Legislative Fiscal Analyst;<hr><ltbullet>requires a fee agency to annually report the actual costs and revenue for each fee charged during the preceding fiscal year; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -262,10 +310,24 @@
   "fiscal_analyst": "Steven M. Allred",
   "gov_tracking_id": "PEMVSTOGNK",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20277",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2026-02-06 15:40:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HGOC0206.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294937"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "2/4/2026",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -329,6 +391,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/6/2026 5:19 PM",
+      "actionClass": "A",
+      "voteID": "39661",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-1",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

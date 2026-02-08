@@ -1,6 +1,6 @@
 {
   "bill_id": 2107341,
-  "change_hash": "65daae9a554a186b1a5a468dc6213d0d",
+  "change_hash": "ea5f020ede1e08f3b415a093c6f97353",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -56,14 +56,14 @@
   "history": [
     {
       "date": "2026-02-04",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-02-04",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -81,6 +81,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -158,6 +165,14 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 334430,
+      "subject_name": "Health Insurance"
+    },
+    {
+      "subject_id": 335370,
+      "subject_name": "Public Employees' Health Program"
     }
   ],
   "texts": [
@@ -182,7 +197,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 659207,
+      "date": "2026-02-05",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HCR010",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HCR010/id/659207",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HCR010.fn.pdf",
+      "supplement_size": 1608380,
+      "supplement_hash": "59c4e17e5f472897d4b568060d2cebd2",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This resolution directs the Public Employees' Benefit and Insurance Program to provide hormone replacement therapy for menopausal symptoms.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>recognizes that hormone replacement therapy is a safe and effective treatment for menopausal symptoms; and<hr><ltbullet>directs the Public Employees' Benefit and Insurance Program to provide hormone replacement therapy for menopausal symptoms.",
@@ -192,23 +228,10 @@
   "gov_tracking_id": "OCJSPTHDYM",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/4/2026",
+  "last_action_time": "2/5/2026",
   "action_history": [
-    {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/4/2026 9:05 AM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -219,6 +242,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "2/4/2026 9:05 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
       "parm1": "",
       "parm2": ""
     },
@@ -245,6 +281,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/5/2026 1:48 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2102830,
-  "change_hash": "292a7e950402c1a8b928a32612a7f635",
+  "change_hash": "2aa497ca4ea514a5a23231e9fe90f7e8",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-02",
       "event": 1
+    },
+    {
+      "date": "2026-02-06",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Amendments to Procedure to Fill A Legislative Vacancy",
   "description": "Amendments to Procedure to Fill A Legislative Vacancy",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2107,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2107,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Government Operations"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-06",
+      "committee_id": 2107,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Government Operations"
     }
   ],
   "history": [
@@ -78,6 +89,20 @@
     {
       "date": "2026-02-02",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House/ to standing committee in House Government Operations Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -194,7 +219,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 658690,
+      "date": "2026-02-05",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0443",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0443/id/658690",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0443.fn.pdf",
+      "supplement_size": 1609741,
+      "supplement_hash": "2454783ffe93de4633ad65c3c4444678",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill modifies provisions relating to filling a vacancy in the Legislature.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>requires all vacancies in the Legislature to remain vacant until filled by a special election;<hr><ltbullet>establishes a procedure for calling a special election to fill a vacancy in the Legislature;<hr><ltbullet>describes the dates, which coincide with the dates of other elections, on which a special primary election or a special general election may be held to fill a vacancy in the Legislature; and<hr><ltbullet>provides a method for calling a special primary election or a special general election to fill a vacancy in the Legislature on a date other than a date that coincides with the dates of other elections.  ",
@@ -204,9 +250,9 @@
   "gov_tracking_id": "OAYKROMLPA",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/2/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Government Operations Committee",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -257,6 +303,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/5/2026 10:10 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/6/2026 12:01 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

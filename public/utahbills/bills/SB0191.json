@@ -1,6 +1,6 @@
 {
   "bill_id": 2091804,
-  "change_hash": "38d0ed0c11f19f2743d3ab16231c6102",
+  "change_hash": "4bd9ee06d308c166471108f18900cf6c",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-04",
       "event": 2
+    },
+    {
+      "date": "2026-02-05",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,12 +53,12 @@
   "current_body_id": 93,
   "title": "Tow Yard Amendments",
   "description": "Tow Yard Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2117,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2117,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Transportation"
   },
   "referrals": [
     {
@@ -77,6 +81,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-05",
+      "committee_id": 2117,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Transportation"
     }
   ],
   "history": [
@@ -191,6 +202,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House/ to standing committee in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -578,9 +596,9 @@
       "markerID": "291290"
     }
   ],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/4/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Transportation Committee",
+  "last_action_time": "2/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -787,6 +805,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Transportation Committee",
+      "actionDate": "2/5/2026 12:00 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

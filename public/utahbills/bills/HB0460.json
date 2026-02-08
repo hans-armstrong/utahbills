@@ -1,6 +1,6 @@
 {
   "bill_id": 2103652,
-  "change_hash": "af88b716de48834edfc7ca77f21b0286",
+  "change_hash": "d855d1bf898d15a6631bf547edd97150",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -56,14 +56,14 @@
   "history": [
     {
       "date": "2026-02-02",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-02-02",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -81,6 +81,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -158,6 +165,18 @@
     {
       "subject_id": 11851,
       "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 332627,
+      "subject_name": "Election Law"
+    },
+    {
+      "subject_id": 339963,
+      "subject_name": "Election Administration"
+    },
+    {
+      "subject_id": 340625,
+      "subject_name": "Political Parties"
     }
   ],
   "texts": [
@@ -182,7 +201,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 658665,
+      "date": "2026-02-05",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0460",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0460/id/658665",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0460.fn.pdf",
+      "supplement_size": 1609335,
+      "supplement_hash": "9b1489317962e47aa7b83c9646b893e3",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill amends provisions relating to nominating candidates for elective office and placing candidates on a ballot.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>repeals provisions relating to a qualified political party;<hr><ltbullet>establishes two types of registered political parties:<hr><ltbullet1>a primary nominating party that nominates candidates through signature-gathering only, participates in the regular primary election, and has the name of the primary nominating party listed on the regular general election ballot in association with the party's candidates; and<hr><ltbullet1>a convention nominating party that nominates candidates using a method that does not involve the signature-gathering process described in the preceding paragraph or participation in the regular primary election, and whose candidates are listed on the regular general election ballot without an indication of the convention nominating party that nominated the candidates;<hr><ltbullet>requires a registered political party to choose whether to be a primary nominating party or a convention nominating party;<hr><ltbullet>modifies signature-gathering thresholds; and<hr><ltbullet>makes technical and conforming changes.",
@@ -192,23 +232,10 @@
   "gov_tracking_id": "CCEPJOWKSK",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/3/2026",
+  "last_action_time": "2/5/2026",
   "action_history": [
-    {
-      "description": "Bill Numbered but not Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/2/2026 11:59 AM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -219,6 +246,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Numbered but not Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "2/2/2026 11:59 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LNUMBER",
       "parm1": "",
       "parm2": ""
     },
@@ -245,6 +285,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/5/2026 10:10 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm1": "",
       "parm2": ""
     }

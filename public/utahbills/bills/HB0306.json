@@ -1,6 +1,6 @@
 {
   "bill_id": 2088522,
-  "change_hash": "ec947864ab726076dfaa3d8587b8276b",
+  "change_hash": "0788f7dca27c04ee90cca017efea7d7e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Reinvestment Fee Amendments",
   "description": "Reinvestment Fee Amendments",
-  "pending_committee_id": 2112,
-  "committee": {
-    "committee_id": 2112,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Political Subdivisions"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-22",
@@ -106,6 +101,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House Comm - Substitute Recommendation in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House Comm - Favorable Recommendation in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -183,14 +192,6 @@
     {
       "subject_id": 11871,
       "subject_name": "Business"
-    },
-    {
-      "subject_id": 333936,
-      "subject_name": "Community/Condominium Associations (HOAs)"
-    },
-    {
-      "subject_id": 334516,
-      "subject_name": "Real Property"
     }
   ],
   "texts": [
@@ -211,9 +212,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3352186,
+      "date": "2026-02-06",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0306/id/3352186",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0306S01.pdf",
+      "text_size": 51864,
+      "text_hash": "ba2c199fe7449323a6a32205a377df75",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1625875,
+      "date": "2026-02-06",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0306/id/1625875",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39668"
+    },
+    {
+      "roll_call_id": 1625876,
+      "date": "2026-02-06",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0306/id/1625876",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39669"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -235,9 +285,59 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 660417,
+      "date": "2026-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0306/id/660417",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0306%20To%20HB0306S01.pdf",
+      "supplement_size": 58954,
+      "supplement_hash": "916f0a0d211f1e5a63ea592f9ea98562",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 660891,
+      "date": "2026-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0306",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0306/id/660891",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0306H02.pdf",
+      "supplement_size": 17574,
+      "supplement_hash": "e0b77eed2385c6576f3b5498208d39c7",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "1bd55767",
+      "type": "Hearing",
+      "date": "2026-02-06",
+      "time": "15:40",
+      "location": "",
+      "description": "House Political Subdivisions Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions relating to reinvestment fees in homeowners' associations.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>amends the expenses for which a homeowners' association may use a reinvestment fee;<hr><ltbullet>amends the amount of a reinvestment fee that a homeowners' association may impose;<hr><ltbullet>requires that a homeowners' association deposit 50% of a reinvestment fee into reserve funds;<hr><ltbullet>provides that when a homeowners' association registers with the Department of Commerce, the homeowners' association shall provide certain information relating to a reinvestment fee or a transfer fee; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -245,10 +345,24 @@
   "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "FIPTBMJSXU",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20296",
+      "committeeID": "HSTPOL",
+      "mtgDate": "2026-02-06 15:40:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "House Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HPOL0206.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294980"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Political Subdivisions Committee",
-  "last_action_time": "2/4/2026",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -325,6 +439,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2/6/2026 5:39 PM",
+      "actionClass": "A",
+      "voteID": "39668",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-4",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2/6/2026 5:40 PM",
+      "actionClass": "A",
+      "voteID": "39669",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-4",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

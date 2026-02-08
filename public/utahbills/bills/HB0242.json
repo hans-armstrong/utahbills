@@ -1,6 +1,6 @@
 {
   "bill_id": 2072962,
-  "change_hash": "a790eac0d03d2c975859dec1035dec55",
+  "change_hash": "1ff02204ebb219ffdb43b45516ae98ee",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0242/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0242.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2026-02-04",
   "progress": [
     {
@@ -49,8 +49,13 @@
   "current_body_id": 94,
   "title": "Initiative and Referendum Signature Gathering and Removal Amendments",
   "description": "Initiative and Referendum Signature Gathering and Removal Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2026-01-20",
@@ -65,6 +70,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Government Operations"
+    },
+    {
+      "date": "2026-02-05",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -158,6 +170,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -445,9 +464,9 @@
       "markerID": "289188"
     }
   ],
-  "last_action": "Senate/ received from House",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/4/2026",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "2/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -615,6 +634,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/5/2026 11:12 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }

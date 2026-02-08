@@ -1,6 +1,6 @@
 {
   "bill_id": 2069095,
-  "change_hash": "a9288978572173c416a53332891abdb3",
+  "change_hash": "da7db549b50435e4df089bd61484bd2a",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -66,14 +66,14 @@
   "history": [
     {
       "date": "2026-01-08",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-01-08",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -137,6 +137,27 @@
     {
       "date": "2026-01-27",
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate/ floor amendment in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -343,6 +364,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3352237,
+      "date": "2026-02-06",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0108/id/3352237",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_SB0108S01_2026-02-06_15-41-11.pdf",
+      "text_size": 34641,
+      "text_hash": "a782fd10f6b3512989671dc078642510",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [
@@ -375,6 +414,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0108/id/1617083",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38889"
+    },
+    {
+      "roll_call_id": 1625718,
+      "date": "2026-02-06",
+      "desc": "Senate/ passed 2nd reading",
+      "yea": 26,
+      "nay": 3,
+      "nv": 0,
+      "absent": 0,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0108/id/1625718",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=313&house=S"
     }
   ],
   "amendments": [
@@ -511,6 +565,19 @@
   "comrecommend": [],
   "agendas": [
     {
+      "mtgID": "20286",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2026-01-26 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00000758.htm",
+      "agendaURL": "/~2026/agenda/SBUS0126.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "289466"
+    },
+    {
       "mtgID": "20285",
       "committeeID": "SSTBUS",
       "mtgDate": "2026-01-21 14:00:00.0",
@@ -522,38 +589,12 @@
       "agendaURL": "/~2026/agenda/SBUS0121.ag.htm",
       "billSession": "2026GS",
       "markerID": ""
-    },
-    {
-      "mtgID": "20286",
-      "committeeID": "SSTBUS",
-      "mtgDate": "2026-01-26 14:00:00.0",
-      "agendaItem": "3",
-      "mtgPlace": "220 Senate Building",
-      "committeeName": "Senate Business and Labor Committee",
-      "upcomming": false,
-      "minutesURL": "/",
-      "agendaURL": "/~2026/agenda/SBUS0126.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "289466"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "1/27/2026",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/6/2026",
   "action_history": [
-    {
-      "description": "Bill Numbered but not Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/8/2026 3:19 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -564,6 +605,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Numbered but not Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/8/2026 3:19 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LNUMBER",
       "parm1": "",
       "parm2": ""
     },
@@ -681,6 +735,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/6/2026 3:32 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ floor amendment",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/6/2026 3:35 PM",
+      "actionClass": "S",
+      "voteID": "312",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SAMEND",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/6/2026 3:37 PM",
+      "actionClass": "S",
+      "voteID": "313",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "26-3-0",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

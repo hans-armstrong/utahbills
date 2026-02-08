@@ -1,6 +1,6 @@
 {
   "bill_id": 2087045,
-  "change_hash": "30807f795ca3bcfca5e01ef7a3a47c58",
+  "change_hash": "c7731c52cb7cb9506f1e292b04e387f4",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Child Tax Credit Amendments",
   "description": "Child Tax Credit Amendments",
-  "pending_committee_id": 2115,
-  "committee": {
-    "committee_id": 2115,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House Comm - Favorable Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -289,7 +291,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1625866,
+      "date": "2026-02-06",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 1,
+      "nv": 0,
+      "absent": 3,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0290/id/1625866",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39645"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -311,6 +329,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 660878,
+      "date": "2026-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0290",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0290/id/660878",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0290H02.pdf",
+      "supplement_size": 17516,
+      "supplement_hash": "1e0c9a32cf602f20d28aee4b9037b592",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -319,6 +357,15 @@
       "event_hash": "03cd44fb",
       "type": "Hearing",
       "date": "2026-02-03",
+      "time": "15:40",
+      "location": "",
+      "description": "House Revenue and Taxation Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "65c1c4c4",
+      "type": "Hearing",
+      "date": "2026-02-06",
       "time": "15:40",
       "location": "",
       "description": "House Revenue and Taxation Hearing"
@@ -331,10 +378,24 @@
   "fiscal_analyst": "Andrea Wilko",
   "gov_tracking_id": "WHKHRSIGLL",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20303",
+      "committeeID": "HSTREV",
+      "mtgDate": "2026-02-06 15:40:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HREV0206.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294824"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Revenue and Taxation Committee",
-  "last_action_time": "1/30/2026",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -411,6 +472,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/6/2026 4:34 PM",
+      "actionClass": "A",
+      "voteID": "39645",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-1-3",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2086010,
-  "change_hash": "ea30ed6f38d1138b58e204066ff6bfd8",
+  "change_hash": "74819fea40300eeb12b82582299eaaba",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-28",
       "event": 9
+    },
+    {
+      "date": "2026-02-06",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Child Sexual Abuse Material Amendments",
   "description": "Child Sexual Abuse Material Amendments",
-  "pending_committee_id": 2110,
-  "committee": {
-    "committee_id": 2110,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Law Enforcement and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +105,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House Comm - Amendment Recommendation in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House Comm - Favorable Recommendation in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House/ comm rpt/ amended in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -233,7 +260,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1624889,
+      "date": "2026-02-05",
+      "desc": "House Comm - Amendment Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0289/id/1624889",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39600"
+    },
+    {
+      "roll_call_id": 1624890,
+      "date": "2026-02-05",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0289/id/1624890",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39601"
+    }
+  ],
   "amendments": [
     {
       "amendment_id": 267543,
@@ -277,6 +335,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 659235,
+      "date": "2026-02-05",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0289",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0289/id/659235",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0289H02.pdf",
+      "supplement_size": 21647,
+      "supplement_hash": "1bf53d1d180c97029577648531ecb24b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -297,10 +375,24 @@
   "fiscal_analyst": "Sean C. Faherty",
   "gov_tracking_id": "SULWYMKBSQ",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Law Enforcement and Criminal Justice Committee",
-  "last_action_time": "1/28/2026",
+  "agendas": [
+    {
+      "mtgID": "20213",
+      "committeeID": "HSTLAW",
+      "mtgDate": "2026-02-05 15:40:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Law Enforcement and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HLAW0205.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294553"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -377,6 +469,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Amendment Recommendation",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2/5/2026 5:07 PM",
+      "actionClass": "A",
+      "voteID": "39600",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-2",
+      "actionCode": "HCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2/5/2026 5:08 PM",
+      "actionClass": "A",
+      "voteID": "39601",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-2",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ amended",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2/6/2026 11:22 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2/6/2026 11:22 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

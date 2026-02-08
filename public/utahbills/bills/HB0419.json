@@ -1,6 +1,6 @@
 {
   "bill_id": 2098905,
-  "change_hash": "ea799d642ead4a81c656ca00d27be32c",
+  "change_hash": "ac7b1724172316ff2885283e09cbadaa",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-29",
       "event": 1
+    },
+    {
+      "date": "2026-02-05",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Environmental Legal Action Amendments",
   "description": "Environmental Legal Action Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-29",
@@ -51,6 +50,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-05",
+      "committee_id": 5049,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Public Utilities and Energy"
     }
   ],
   "history": [
@@ -81,6 +87,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House/ to standing committee in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House Comm - Favorable Recommendation in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House Comm - Consent Calendar Recommendation in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -256,7 +283,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1625690,
+      "date": "2026-02-06",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0419/id/1625690",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39629"
+    },
+    {
+      "roll_call_id": 1625691,
+      "date": "2026-02-06",
+      "desc": "House Comm - Consent Calendar Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0419/id/1625691",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39630"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -278,9 +336,59 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 660453,
+      "date": "2026-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0419",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0419/id/660453",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0419H02.pdf",
+      "supplement_size": 17528,
+      "supplement_hash": "de04729ea85f9612a8e28338bb712ec5",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 660925,
+      "date": "2026-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0419",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0419/id/660925",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0419H03.pdf",
+      "supplement_size": 17559,
+      "supplement_hash": "de4fc709e036a863a5882589983dc8fe",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "3811761b",
+      "type": "Hearing",
+      "date": "2026-02-06",
+      "time": "15:40",
+      "location": "",
+      "description": "House Public Utilities and Energy Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies provisions relating to bond requirements in environmental legal actions.",
   "hilighted_provisions": "This bill:<hr><ltbullet>expands the definition of environmental action to include judicial review of certain permits issued by the Division of Oil, Gas, and Mining; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -288,10 +396,24 @@
   "fiscal_analyst": "Nate Osborne",
   "gov_tracking_id": "AKYFKIHCIS",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/29/2026",
+  "agendas": [
+    {
+      "mtgID": "20241",
+      "committeeID": "HSTPUT",
+      "mtgDate": "2026-02-06 15:40:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Public Utilities and Energy Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HPUT0206.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294784"
+    }
+  ],
+  "last_action": "House Comm - Consent Calendar Recommendation",
+  "last_action_owner": "House Public Utilities and Energy Committee",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -342,6 +464,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "2/5/2026 12:00 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "2/6/2026 4:04 PM",
+      "actionClass": "A",
+      "voteID": "39629",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-4",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Consent Calendar Recommendation",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "2/6/2026 4:06 PM",
+      "actionClass": "A",
+      "voteID": "39630",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-4",
+      "actionCode": "HCACONCAL",
       "parm1": "",
       "parm2": ""
     }

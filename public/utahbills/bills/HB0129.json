@@ -1,6 +1,6 @@
 {
   "bill_id": 2064983,
-  "change_hash": "886425f7145c54d238abc6171d60c5c0",
+  "change_hash": "25270dc861864af181698ffbcb1fba7f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-02-05",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Education Board Amendments",
   "description": "Education Board Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2105,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2105,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Education"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-05",
+      "committee_id": 2105,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Education"
     }
   ],
   "history": [
@@ -85,6 +96,13 @@
     {
       "date": "2026-01-20",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-05",
+      "action": "House/ to standing committee in House Education Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -232,9 +250,9 @@
   "gov_tracking_id": "LROWJUHYSL",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/20/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Education Committee",
+  "last_action_time": "2/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -246,8 +264,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -259,8 +277,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received bill from Legislative Research",
@@ -272,8 +290,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ received fiscal note from Fiscal Analyst",
@@ -285,8 +303,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -298,8 +316,21 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm2": "",
-      "parm1": ""
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Education Committee",
+      "actionDate": "2/5/2026 11:59 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

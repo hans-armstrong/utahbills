@@ -1,6 +1,6 @@
 {
   "bill_id": 2094612,
-  "change_hash": "6792048f6ca5260f9d3fe0e720d1719a",
+  "change_hash": "1ceb02f7bffb939f8bad23333993ab31",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Public Project Subcontractor Amendments",
   "description": "Public Project Subcontractor Amendments",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-28",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House Comm - Favorable Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -233,7 +235,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1625881,
+      "date": "2026-02-06",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0396/id/1625881",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39670"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -255,9 +273,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 660897,
+      "date": "2026-02-06",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0396",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0396/id/660897",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0396H02.pdf",
+      "supplement_size": 17530,
+      "supplement_hash": "94fb2a74e6018e8424b1895d62e4c29b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "3dee1d82",
+      "type": "Hearing",
+      "date": "2026-02-06",
+      "time": "15:40",
+      "location": "",
+      "description": "House Government Operations Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies disclosure requirements for subcontractors.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>enacts a new workers' compensation insurance attestation requirement for an employer seeking a zero estimated exposure policy, including a mandatory signed statement and criminal fraud warning;<hr><ltbullet>shifts several fixed interest rates and penalty amounts under the Employment Security Act to amounts the division determines by rule;<hr><ltbullet>clarifies enforcement authority and penalty structures related to unemployment insurance reporting, collections, liens, and warrants;<hr><ltbullet>creates new compliance and disclosure obligations for a subcontractor working on a public construction project, including employee reporting and zero estimated exposure policy disclosures;<hr><ltbullet>requires a subcontractor on a public project to provide employee information to the division;<hr><ltbullet>requires a general contractor and a property owner to retain documentation for audit and enforcement purposes;<hr><ltbullet>authorizes the Division of Professional Licensing to make audit recommendations to the State Tax Commission;<hr><ltbullet>expands the definition of unprofessional conduct to include failure to comply with newly enacted subcontractor requirements; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -265,10 +313,24 @@
   "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "OCJCNXUNAX",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20277",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2026-02-06 15:40:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HGOC0206.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294970"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "2/2/2026",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -345,6 +407,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/6/2026 5:41 PM",
+      "actionClass": "A",
+      "voteID": "39670",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-1",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2107382,
-  "change_hash": "62d4e7ea0d1afe669f5a5736b58ec66b",
+  "change_hash": "038d53e47239024dfde2ac68dd87ff0d",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-04",
       "event": 1
+    },
+    {
+      "date": "2026-02-06",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Public Employee Negotiation Amendments",
   "description": "Public Employee Negotiation Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2127,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2127,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Revenue and Taxation"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-06",
+      "committee_id": 2127,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -78,6 +89,13 @@
     {
       "date": "2026-02-04",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate/ to standing committee in Senate Revenue and Taxation Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -158,6 +176,54 @@
     {
       "subject_id": 360925,
       "subject_name": "Labor and Employment"
+    },
+    {
+      "subject_id": 11909,
+      "subject_name": "Counties"
+    },
+    {
+      "subject_id": 21404,
+      "subject_name": "Labor Organizations"
+    },
+    {
+      "subject_id": 14872,
+      "subject_name": "Labor Commission"
+    },
+    {
+      "subject_id": 332696,
+      "subject_name": "Administrative Rulemaking and Procedures"
+    },
+    {
+      "subject_id": 332649,
+      "subject_name": "Municipalities"
+    },
+    {
+      "subject_id": 11910,
+      "subject_name": "Political Subdivisions (Local Issues)"
+    },
+    {
+      "subject_id": 332726,
+      "subject_name": "Boards and Committees"
+    },
+    {
+      "subject_id": 11851,
+      "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 11853,
+      "subject_name": "State Officers and Employees"
+    },
+    {
+      "subject_id": 335408,
+      "subject_name": "Labor Disputes"
+    },
+    {
+      "subject_id": 340569,
+      "subject_name": "Local Government Employees"
+    },
+    {
+      "subject_id": 354072,
+      "subject_name": "New Rulemaking Authority"
     }
   ],
   "texts": [
@@ -192,9 +258,9 @@
   "gov_tracking_id": "YDNBCXQQWO",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/4/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Revenue and Taxation Committee",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -245,6 +311,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2/6/2026 2:16 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

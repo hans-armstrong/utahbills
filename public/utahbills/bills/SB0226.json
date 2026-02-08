@@ -1,6 +1,6 @@
 {
   "bill_id": 2102620,
-  "change_hash": "7d24e430876a3a6ad6fa84cf7ba02bc0",
+  "change_hash": "15da48deb281e907c37f3e7318852ed4",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-03",
       "event": 9
+    },
+    {
+      "date": "2026-02-06",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Fatal Motor Vehicle Accident Amendments",
   "description": "Fatal Motor Vehicle Accident Amendments",
-  "pending_committee_id": 3583,
-  "committee": {
-    "committee_id": 3583,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Transportation, Public Utilities, Energy, and Technology"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-02",
@@ -103,6 +102,34 @@
     {
       "date": "2026-02-04",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "Senate Comm - Amendment Recommendation in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "Senate Comm - Favorable Recommendation in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate/ comm rpt/ amended in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-06",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -227,9 +254,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3350425,
+      "date": "2026-02-05",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0226/id/3350425",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_SB0226_2026-02-05_10-33-47.pdf",
+      "text_size": 43058,
+      "text_hash": "37d3e8ac3b4ff83fc4790dfe3e2df7e4",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1624182,
+      "date": "2026-02-04",
+      "desc": "Senate Comm - Amendment Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0226/id/1624182",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39490"
+    },
+    {
+      "roll_call_id": 1624183,
+      "date": "2026-02-04",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0226/id/1624183",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39491"
+    }
+  ],
   "amendments": [
     {
       "amendment_id": 270341,
@@ -273,6 +349,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 658396,
+      "date": "2026-02-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0226",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0226/id/658396",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0226S02.pdf",
+      "supplement_size": 19264,
+      "supplement_hash": "a0e35515d7321185a763c17c079b647b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -302,15 +398,15 @@
       "mtgPlace": "220 Senate Building",
       "committeeName": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00001429.htm",
       "agendaURL": "/~2026/agenda/STPT0204.ag.htm",
       "billSession": "2026GS",
       "markerID": "293784"
     }
   ],
-  "last_action": "Senate Comm - Favorable Recommendation",
-  "last_action_owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
-  "last_action_time": "2/4/2026",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -413,6 +509,32 @@
       "voteHouse": "",
       "voteStr": "5-0-3",
       "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ amended",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "2/6/2026 11:27 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/6/2026 11:27 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

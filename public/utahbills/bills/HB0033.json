@@ -1,6 +1,6 @@
 {
   "bill_id": 2057213,
-  "change_hash": "26b404327808a1c2d59603b20e2750b5",
+  "change_hash": "1c668d9bf385b1b7a7d37e027a1f79dd",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -92,14 +92,14 @@
   "history": [
     {
       "date": "2025-12-05",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2025-12-05",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -226,6 +226,34 @@
     {
       "date": "2026-01-29",
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "Senate/ circled in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -465,6 +493,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/HB0033/id/1618851",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39051"
+    },
+    {
+      "roll_call_id": 1623992,
+      "date": "2026-02-04",
+      "desc": "Senate/ passed 2nd reading",
+      "yea": 27,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0033/id/1623992",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=220&house=S"
     }
   ],
   "amendments": [],
@@ -584,15 +627,15 @@
       "mtgPlace": "220 Senate Building",
       "committeeName": "Senate Government Operations and Political Subdivisions Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00001356.htm",
       "agendaURL": "/~2026/agenda/SGOP0128.ag.htm",
       "billSession": "2026GS",
       "markerID": "290642"
     }
   ],
-  "last_action": "Senate/ passed 2nd reading",
+  "last_action": "Senate/ circled",
   "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/4/2026",
+  "last_action_time": "2/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -877,6 +920,32 @@
       "voteHouse": "S",
       "voteStr": "27-0-2",
       "actionCode": "SPASS2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/5/2026 11:37 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/5/2026 11:37 AM",
+      "actionClass": "S",
+      "voteID": "237",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
       "parm1": "",
       "parm2": ""
     }

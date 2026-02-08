@@ -1,6 +1,6 @@
 {
   "bill_id": 2092244,
-  "change_hash": "5df5957f08f15d9b867ba5791f1f4bde",
+  "change_hash": "6fa470568f5f630ea4020d892d8d69dd",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-26",
       "event": 1
+    },
+    {
+      "date": "2026-02-06",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "School Scheduling Amendments",
   "description": "School Scheduling Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2105,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2105,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Education"
   },
   "referrals": [
     {
@@ -51,19 +55,26 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-06",
+      "committee_id": 2105,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Education"
     }
   ],
   "history": [
     {
       "date": "2026-01-23",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-01-23",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -88,6 +99,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "House/ to standing committee in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -245,7 +263,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "c1381d08",
+      "type": "Hearing",
+      "date": "2026-02-09",
+      "time": "15:40",
+      "location": "",
+      "description": "House Education Hearing"
+    }
+  ],
   "general_provisions": "This bill creates a minimum credit hour requirement rather than a day or instructional hour requirement for certain grades in the public education system.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>creates a minimum credit hour requirement rather than a day or instructional hour requirement for certain grades in the public education system;<hr><ltbullet>requires driver education to be an attendance-verified program; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -254,23 +282,10 @@
   "gov_tracking_id": "GCJCPHKAII",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/29/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Education Committee",
+  "last_action_time": "2/6/2026",
   "action_history": [
-    {
-      "description": "Bill Numbered but not Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/23/2026 1:28 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -281,6 +296,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Numbered but not Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "1/23/2026 1:28 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LNUMBER",
       "parm1": "",
       "parm2": ""
     },
@@ -320,6 +348,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Education Committee",
+      "actionDate": "2/6/2026 12:01 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }
