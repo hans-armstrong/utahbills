@@ -1,6 +1,6 @@
 {
   "bill_id": 2103552,
-  "change_hash": "d932bfb926674083c8cebfb536350429",
+  "change_hash": "761c2dcf9833883ff60ef44eb08eccdc",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -105,6 +105,13 @@
     {
       "date": "2026-02-04",
       "action": "Senate Comm - Not Considered in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "Senate Comm - Favorable Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -243,7 +250,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1626419,
+      "date": "2026-02-09",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 9,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0235/id/1626419",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39719"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -259,6 +282,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0235.fn.pdf",
       "supplement_size": 1609042,
       "supplement_hash": "ffb4c00d607bb4b0e2bac5b4778b4977",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 662430,
+      "date": "2026-02-09",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0235",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0235/id/662430",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0235S02.pdf",
+      "supplement_size": 18317,
+      "supplement_hash": "d04dbe940b4ee4b03f35639553429f08",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -307,11 +350,24 @@
       "agendaURL": "/~2026/agenda/SJLC0204.ag.htm",
       "billSession": "2026GS",
       "markerID": ""
+    },
+    {
+      "mtgID": "20259",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2026-02-09 15:40:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SJLC0209.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "295349"
     }
   ],
-  "last_action": "Senate Comm - Not Considered",
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-  "last_action_time": "2/4/2026",
+  "last_action_time": "2/9/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -401,6 +457,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2/9/2026 3:54 PM",
+      "actionClass": "A",
+      "voteID": "39719",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-5",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

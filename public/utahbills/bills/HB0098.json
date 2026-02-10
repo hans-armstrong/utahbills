@@ -1,6 +1,6 @@
 {
   "bill_id": 2061103,
-  "change_hash": "366a8fa5ea4c27f66c5cc35cc3d9a477",
+  "change_hash": "e30775a91bff949196283c43411ac710",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -254,6 +254,20 @@
     {
       "date": "2026-02-06",
       "action": "Senate/ to House with amendments in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House/ placed on Concurrence Calendar in House Concurrence Calendar",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -716,9 +730,9 @@
       "markerID": "293285"
     }
   ],
-  "last_action": "Senate/ to House with amendments",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/6/2026",
+  "last_action": "House/ placed on Concurrence Calendar",
+  "last_action_owner": "House Concurrence Calendar",
+  "last_action_time": "2/9/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1029,6 +1043,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOHAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2/9/2026 11:15 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ placed on Concurrence Calendar",
+      "owner": "House Concurrence Calendar",
+      "actionDate": "2/9/2026 11:15 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HONCURCAL",
       "parm1": "",
       "parm2": ""
     }

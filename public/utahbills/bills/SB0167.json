@@ -1,6 +1,6 @@
 {
   "bill_id": 2087136,
-  "change_hash": "c1c7392d1e9c80220d23e3c6df1af832",
+  "change_hash": "5f91f7dec12059bac44e930c7b2414a4",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -130,6 +130,27 @@
     {
       "date": "2026-01-27",
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "Senate/ floor amendment in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -264,6 +285,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3353605,
+      "date": "2026-02-09",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0167/id/3353605",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_SB0167_2026-02-09_11-49-09.pdf",
+      "text_size": 58575,
+      "text_hash": "f34bc5cce512083ec4b195d299abeb49",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [
@@ -296,6 +335,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0167/id/1617071",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38897"
+    },
+    {
+      "roll_call_id": 1626632,
+      "date": "2026-02-09",
+      "desc": "Senate/ passed 2nd reading",
+      "yea": 24,
+      "nay": 2,
+      "nv": 0,
+      "absent": 3,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0167/id/1626632",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=334&house=S"
     }
   ],
   "amendments": [
@@ -438,9 +492,9 @@
       "markerID": "289500"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "1/27/2026",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/9/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -569,6 +623,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/9/2026 11:43 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ floor amendment",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/9/2026 11:45 AM",
+      "actionClass": "S",
+      "voteID": "333",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SAMEND",
+      "parm1": "3",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2/9/2026 11:47 AM",
+      "actionClass": "S",
+      "voteID": "334",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "24-2-3",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

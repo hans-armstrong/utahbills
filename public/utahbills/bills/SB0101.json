@@ -1,6 +1,6 @@
 {
   "bill_id": 2067750,
-  "change_hash": "6cd5f720867530c4f6a7209dd96a84e7",
+  "change_hash": "fa6e430afe938ecb1ab688744ae15e92",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-03",
       "event": 9
+    },
+    {
+      "date": "2026-02-09",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -222,6 +226,20 @@
     {
       "date": "2026-02-06",
       "action": "House Comm - Favorable Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House/ comm rpt/ amended in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -426,6 +444,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_SB0101_2026-01-22_10-58-10.pdf",
       "text_size": 141268,
       "text_hash": "e5b65c34b800f16e5b47e90acc1caacd",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3353240,
+      "date": "2026-02-09",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0101/id/3353240",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_SB0101_2026-02-09_10-28-07.pdf",
+      "text_size": 144125,
+      "text_hash": "e35b46be6e9405ee39d5c3401c5c2b1f",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -687,9 +723,9 @@
       "markerID": "294875"
     }
   ],
-  "last_action": "House Comm - Favorable Recommendation",
-  "last_action_owner": "House Revenue and Taxation Committee",
-  "last_action_time": "2/6/2026",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for Senate bills",
+  "last_action_time": "2/9/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -948,6 +984,32 @@
       "voteHouse": "",
       "voteStr": "8-0-3",
       "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ amended",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2/9/2026 11:21 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2/9/2026 11:21 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

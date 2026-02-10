@@ -1,6 +1,6 @@
 {
   "bill_id": 2078897,
-  "change_hash": "1394716f5b504ef40667189f9c6d708c",
+  "change_hash": "2f00b215f485e8b51897939c3905a84f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-02-09",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Federal Funds Modifications",
   "description": "Federal Funds Modifications",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2107,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2107,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Government Operations"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-09",
+      "committee_id": 2107,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Government Operations"
     }
   ],
   "history": [
@@ -78,6 +89,27 @@
     {
       "date": "2026-01-20",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "Bill Substituted by Sponsor in House Rules Comm in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House/ to standing committee in House Government Operations Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -328,11 +360,31 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 662608,
+      "date": "2026-02-09",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0249S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0249/id/662608",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0249S01.fn.pdf",
+      "supplement_size": 1609752,
+      "supplement_hash": "6b269b4d506a66de286a987c9fdd226a",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [],
   "general_provisions": "This bill modifies provisions related to federal funds.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>directs the legislative fiscal analyst to submit to the Federalism Commission (commission) the portions of each budget stress test that relate to federal funds;<hr><ltbullet>requires the commission to review and, in the commission's discretion, make legislative recommendations regarding the federal funds portions of each budget stress test;<hr><ltbullet>requires the Utah State University Jon M. Huntsman School of Business to:<hr><ltbullet1>create and maintain a publicly available dashboard that visualizes state dependency on federal funds; and<hr><ltbullet1>model economic scenarios to inform federal funds contingency planning;<hr><ltbullet>includes the commission in the federal funds acceptance process by:<hr><ltbullet1>ensuring the commission receive a copy of each new federal funds request that does not require legislative review and is approved by the governor, Judicial Council, or State Board of Education; and<hr><ltbullet1>directing the commission to review and make a recommendation regarding each medium impact federal funds request approved by the governor, Judicial Council, or State Board of Education;<hr><ltbullet>establishes criteria for the commission's review of a medium impact federal funds request;<hr><ltbullet>directs the commission to categorize each medium impact federal funds request that the commission reviews; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>directs the legislative fiscal analyst to submit to the Federalism Commission (commission) the portions of each budget stress test that relate to federal funds;<hr><ltbullet>requires the commission to review and, in the commission's discretion, make legislative recommendations regarding the federal funds portions of each budget stress test;<hr><ltbullet>requires the Utah State University Jon M. Huntsman School of Business to:<hr><ltbullet1>create and maintain a publicly available dashboard that visualizes state dependency on federal funds; and<hr><ltbullet1>model economic scenarios to inform federal funds contingency planning; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "",
   "attorney": "Christine R. Gilbert",
   "fiscal_analyst": "Joseph Fitzgerald",
@@ -344,9 +396,9 @@
     }
   ],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/20/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Government Operations Committee",
+  "last_action_time": "2/9/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -397,6 +449,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2/9/2026 7:51 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Substituted by Sponsor in House Rules Comm",
+      "owner": "House Rules Committee",
+      "actionDate": "2/9/2026 11:26 AM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRULSUBH",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2/9/2026 12:35 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

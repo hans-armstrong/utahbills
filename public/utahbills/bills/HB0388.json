@@ -1,6 +1,6 @@
 {
   "bill_id": 2093612,
-  "change_hash": "24a3aa546b93f1bec89272f2a6681415",
+  "change_hash": "5caaa9504be4f2bbfc2bc85a8954ba2e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Public Health Hazard Amendments",
   "description": "Public Health Hazard Amendments",
-  "pending_committee_id": 2108,
-  "committee": {
-    "committee_id": 2108,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-27",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House Comm - Favorable Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -241,7 +243,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1626450,
+      "date": "2026-02-09",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0388/id/1626450",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39757"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -257,6 +275,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0388.fn.pdf",
       "supplement_size": 1609160,
       "supplement_hash": "8b540f71081fc472ca1a7146294a89e5",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 662454,
+      "date": "2026-02-09",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0388",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0388/id/662454",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0388H02.pdf",
+      "supplement_size": 17540,
+      "supplement_hash": "d8ba709cdf83f9d4ddcb43c6c93c62d5",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -283,10 +321,24 @@
   "fiscal_analyst": "Russell T. Frandsen",
   "gov_tracking_id": "WLKYMUQIQV",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20202",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2026-02-09 15:40:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HHHS0209.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "295536"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Health and Human Services Committee",
-  "last_action_time": "2/6/2026",
+  "last_action_time": "2/9/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -363,6 +415,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/9/2026 5:12 PM",
+      "actionClass": "A",
+      "voteID": "39757",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-5",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

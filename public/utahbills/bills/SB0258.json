@@ -1,6 +1,6 @@
 {
   "bill_id": 2109476,
-  "change_hash": "c5993379ceaeb2820b30a2290b8f8cf9",
+  "change_hash": "5b9213f1d8f491b73fff113c007e89ed",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -67,14 +67,14 @@
   "history": [
     {
       "date": "2026-02-05",
-      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
     },
     {
       "date": "2026-02-05",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -99,6 +99,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-09",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -176,6 +183,30 @@
     {
       "subject_id": 11851,
       "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 354065,
+      "subject_name": "Division of Human Resource Management"
+    },
+    {
+      "subject_id": 332696,
+      "subject_name": "Administrative Rulemaking and Procedures"
+    },
+    {
+      "subject_id": 354066,
+      "subject_name": "Department of Government Operations"
+    },
+    {
+      "subject_id": 362639,
+      "subject_name": "Department of Health and Human Services"
+    },
+    {
+      "subject_id": 11853,
+      "subject_name": "State Officers and Employees"
+    },
+    {
+      "subject_id": 344314,
+      "subject_name": "Child Development"
     }
   ],
   "texts": [
@@ -200,7 +231,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 662254,
+      "date": "2026-02-09",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0258",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0258/id/662254",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0258.fn.pdf",
+      "supplement_size": 1609087,
+      "supplement_hash": "e0a9c601b7a81ff150a9a61a560df68b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill makes permanent the Infant at Work Program and expands the program to other executive branch agencies.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>makes permanent the Infant at Work Program (program) available for Department of Health and Human Services (department) employees and removes obsolete pilot-related references;<hr><ltbullet>repeals the June 30, 2026 sunset date for the program;<hr><ltbullet>authorizes certain executive branch agencies to opt-in to the program by submitting written notice from the agency head to the Division of Human Resource Management (division);<hr><ltbullet>makes an agency's participation in the program subject to division approval;<hr><ltbullet>authorizes the division to withdraw or revoke an agency's approval if the agency's participation is detrimental to the program's administration, infant health or safety, or the agency's work environment;<hr><ltbullet>authorizes the division to adopt rules for the program and to adopt agency-specific rules when required by the department or a participating agency; and<hr><ltbullet>makes technical and conforming changes.",
@@ -210,23 +262,10 @@
   "gov_tracking_id": "MPSHUMTLIT",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/6/2026",
+  "last_action_time": "2/9/2026",
   "action_history": [
-    {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/5/2026 1:09 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
@@ -237,6 +276,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "2/5/2026 1:09 PM",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
       "parm1": "",
       "parm2": ""
     },
@@ -276,6 +328,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/9/2026 10:55 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

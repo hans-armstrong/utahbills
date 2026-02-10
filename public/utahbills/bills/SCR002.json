@@ -1,6 +1,6 @@
 {
   "bill_id": 2061376,
-  "change_hash": "9864ec672b138ea49ef07ac005ecda0b",
+  "change_hash": "852ab02c94eed9f12e54c6dcdaef707b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SCR002/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SCR002.html",
   "completed": 0,
-  "status": 2,
+  "status": 3,
   "status_date": "2026-01-27",
   "progress": [
     {
@@ -53,8 +53,8 @@
   "bill_type_id": "3",
   "body": "S",
   "body_id": 94,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Concurrent Resolution Concerning Remembrances of the 25th Anniversary of the 9/11 Attacks",
   "description": "Concurrent Resolution Concerning Remembrances of the 25th Anniversary of the 9/11 Attacks",
   "pending_committee_id": 0,
@@ -242,6 +242,48 @@
       "action": "House/ 2nd reading in House Consent Calendar",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House/ 3rd reading in House Consent Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House/ passed 3rd reading in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House/ signed by Speaker/ returned to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House/ to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "Senate/ received from House in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "Senate/ signed by President/ sent for enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     }
   ],
@@ -486,6 +528,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/SCR002/id/1625271",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39612"
+    },
+    {
+      "roll_call_id": 1626465,
+      "date": "2026-02-09",
+      "desc": "House/ passed 3rd reading",
+      "yea": 73,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SCR002/id/1626465",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=264&house=H"
     }
   ],
   "amendments": [],
@@ -606,9 +663,9 @@
       "markerID": "294604"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House Consent Calendar",
-  "last_action_time": "2/6/2026",
+  "last_action": "Senate/ signed by President/ sent for enrolling",
+  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
+  "last_action_time": "2/9/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -893,6 +950,84 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House Consent Calendar",
+      "actionDate": "2/9/2026 11:31 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "House Speaker",
+      "actionDate": "2/9/2026 11:34 AM",
+      "actionClass": "H",
+      "voteID": "264",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "73-0-2",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ returned to Senate",
+      "owner": "Senate President",
+      "actionDate": "2/9/2026 11:34 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGNS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "2/9/2026 11:34 AM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate President",
+      "actionDate": "2/9/2026 2:14 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ sent for enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2/9/2026 2:14 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGN",
       "parm1": "",
       "parm2": ""
     }

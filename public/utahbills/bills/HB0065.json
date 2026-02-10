@@ -1,6 +1,6 @@
 {
   "bill_id": 2060746,
-  "change_hash": "d0374c855e71661df84e1170508eb311",
+  "change_hash": "a32833d38380287c52ca731e7f9a888b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -53,8 +53,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Construction Code Amendments",
   "description": "Construction Code Amendments",
   "pending_committee_id": 0,
@@ -277,6 +277,20 @@
       "action": "House/ placed on Concurrence Calendar in House Concurrence Calendar",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House/ concurs with Senate amendment in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House/ to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -634,6 +648,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/HB0065/id/1625476",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=283&house=S"
+    },
+    {
+      "roll_call_id": 1626243,
+      "date": "2026-02-09",
+      "desc": "House/ concurs with Senate amendment",
+      "yea": 67,
+      "nay": 2,
+      "nv": 0,
+      "absent": 6,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0065/id/1626243",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=283&house=H"
     }
   ],
   "amendments": [
@@ -1166,9 +1195,9 @@
       "markerID": "293262"
     }
   ],
-  "last_action": "House/ placed on Concurrence Calendar",
-  "last_action_owner": "House Concurrence Calendar",
-  "last_action_time": "2/6/2026",
+  "last_action": "House/ to Senate",
+  "last_action_owner": "Senate President",
+  "last_action_time": "2/9/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1518,6 +1547,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HONCURCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ concurs with Senate amendment",
+      "owner": "Senate President",
+      "actionDate": "2/9/2026 2:23 PM",
+      "actionClass": "H",
+      "voteID": "283",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "67-2-6",
+      "actionCode": "HCONCUR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "2/9/2026 2:23 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
       "parm1": "",
       "parm2": ""
     }

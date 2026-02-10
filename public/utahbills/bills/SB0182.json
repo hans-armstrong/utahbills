@@ -1,6 +1,6 @@
 {
   "bill_id": 2090781,
-  "change_hash": "0587ab6cebb0c5f50f3a66f1f783513f",
+  "change_hash": "42596f112e6c9ec443e77392bed6c57d",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-02",
       "event": 9
+    },
+    {
+      "date": "2026-02-09",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -122,6 +126,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "Senate/ comm rpt/ amended in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-09",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -199,34 +217,6 @@
     {
       "subject_id": 11866,
       "subject_name": "Law Enforcement and Criminal Justice"
-    },
-    {
-      "subject_id": 11909,
-      "subject_name": "Counties"
-    },
-    {
-      "subject_id": 12074,
-      "subject_name": "Attorneys"
-    },
-    {
-      "subject_id": 11880,
-      "subject_name": "Judicial Administration"
-    },
-    {
-      "subject_id": 332528,
-      "subject_name": "Judicial Operations"
-    },
-    {
-      "subject_id": 11856,
-      "subject_name": "Inmates"
-    },
-    {
-      "subject_id": 11910,
-      "subject_name": "Political Subdivisions (Local Issues)"
-    },
-    {
-      "subject_id": 374837,
-      "subject_name": "Correctional Facilities"
     }
   ],
   "texts": [
@@ -241,6 +231,42 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0182.pdf",
       "text_size": 24402,
       "text_hash": "1f7348327e68cceaee686be84d031f47",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3353343,
+      "date": "2026-02-09",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0182/id/3353343",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0182S01.pdf",
+      "text_size": 24848,
+      "text_hash": "0792974f2f92181da3e1d54ffe0ffe2d",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3353344,
+      "date": "2026-02-09",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0182/id/3353344",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_SB0182_2026-02-09_10-51-15.pdf",
+      "text_size": 36097,
+      "text_hash": "20e00d05bcc440288da264fb10664a48",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -344,6 +370,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 662493,
+      "date": "2026-02-09",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0182/id/662493",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0182%20To%20SB0182S01.pdf",
+      "supplement_size": 25628,
+      "supplement_hash": "934187c91326ededf7c407d49c2a26d5",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -401,9 +447,9 @@
       "markerID": "294922"
     }
   ],
-  "last_action": "Senate Comm - Favorable Recommendation",
-  "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/6/2026",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/9/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -519,6 +565,32 @@
       "voteHouse": "",
       "voteStr": "7-1-0",
       "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ amended",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2/9/2026 11:14 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2/9/2026 11:14 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

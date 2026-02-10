@@ -1,6 +1,6 @@
 {
   "bill_id": 2090819,
-  "change_hash": "d850ee346793b765c69b4585f4648155",
+  "change_hash": "019d5d8648be0e330c13cf3955f8e8d5",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Street Medicine Amendments",
   "description": "Street Medicine Amendments",
-  "pending_committee_id": 2108,
-  "committee": {
-    "committee_id": 2108,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-23",
@@ -106,6 +101,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House Comm - Substitute Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House Comm - Favorable Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -255,22 +264,6 @@
     {
       "subject_id": 375033,
       "subject_name": "Emergency Medical Services"
-    },
-    {
-      "subject_id": 11893,
-      "subject_name": "Health Care"
-    },
-    {
-      "subject_id": 29190,
-      "subject_name": "Workforce Services"
-    },
-    {
-      "subject_id": 362639,
-      "subject_name": "Department of Health and Human Services"
-    },
-    {
-      "subject_id": 335057,
-      "subject_name": "Homelessness"
     }
   ],
   "texts": [
@@ -291,9 +284,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3353284,
+      "date": "2026-02-09",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0339/id/3353284",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0339S01.pdf",
+      "text_size": 22694,
+      "text_hash": "bdd84bbfc7acb60df2b4020f1be43bc9",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1626335,
+      "date": "2026-02-09",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0339/id/1626335",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39739"
+    },
+    {
+      "roll_call_id": 1626336,
+      "date": "2026-02-09",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0339/id/1626336",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39740"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -315,6 +357,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 662377,
+      "date": "2026-02-09",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0339/id/662377",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0339%20To%20HB0339S01.pdf",
+      "supplement_size": 25020,
+      "supplement_hash": "caea737aedf1ec274d0b5808b3c2f3d1",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 662378,
+      "date": "2026-02-09",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0339",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0339/id/662378",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0339H02.pdf",
+      "supplement_size": 17568,
+      "supplement_hash": "35d76e2e306f4fbef30894633870311f",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -329,16 +411,30 @@
     }
   ],
   "general_provisions": "This bill addresses street medicine.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>directs the University of Utah Health to study the feasibility of providing a street medicine program;<hr><ltbullet>requires reporting;<hr><ltbullet>requires the Department of Health and Human Services (the department) to develop a guide for street medicine providers;<hr><ltbullet>grants the department rulemaking authority; and<hr><ltbullet>defines terms.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>requires the Department of Health and Human Services (the department) to develop a guide for street medicine providers;<hr><ltbullet>grants the department rulemaking authority;<hr><ltbullet>permits a street medicine provider to dispense and administer a long-acting injectable; and<hr><ltbullet>defines terms.",
   "monies": "None",
   "attorney": "Kami Orton",
   "fiscal_analyst": "Russell T. Frandsen",
   "gov_tracking_id": "RSTPCJICDC",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20202",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2026-02-09 15:40:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HHHS0209.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "295454"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Health and Human Services Committee",
-  "last_action_time": "2/6/2026",
+  "last_action_time": "2/9/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -415,6 +511,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/9/2026 4:42 PM",
+      "actionClass": "A",
+      "voteID": "39739",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-5",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2/9/2026 4:43 PM",
+      "actionClass": "A",
+      "voteID": "39740",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-5",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

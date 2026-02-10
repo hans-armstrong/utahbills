@@ -1,6 +1,6 @@
 {
   "bill_id": 2108643,
-  "change_hash": "e895022f961e4571ade16227ea5e01f7",
+  "change_hash": "581dd017cea0056487ca75a8798c1f24",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-05",
       "event": 1
+    },
+    {
+      "date": "2026-02-09",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Homelessness in Vulnerable Populations Amendments",
   "description": "Homelessness in Vulnerable Populations Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2861,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2861,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Economic Development and Workforce Services"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-09",
+      "committee_id": 2861,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Economic Development and Workforce Services"
     }
   ],
   "history": [
@@ -78,6 +89,20 @@
     {
       "date": "2026-02-05",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-09",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "Senate/ to standing committee in Senate Economic Development and Workforce Services Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -202,7 +227,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 662435,
+      "date": "2026-02-09",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0255",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0255/id/662435",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0255.fn.pdf",
+      "supplement_size": 1609774,
+      "supplement_hash": "0df200b723560575adb695b7e365ba62",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill creates the Homelessness in Vulnerable Populations Task Force.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>creates the Homelessness in Vulnerable Populations Task Force (task force);<hr><ltbullet>requires the task force to assess housing needs in certain counties for certain individuals ahead of the 2034 Olympic and Paralympic Winter Games;<hr><ltbullet>requires the task force to report to the Economic and Workforce Services Development Interim Committee; and<hr><ltbullet>provides a sunset date.",
@@ -212,9 +258,9 @@
   "gov_tracking_id": "DJJDDKUBEH",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/5/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Economic Development and Workforce Services Committee",
+  "last_action_time": "2/9/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -265,6 +311,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2/9/2026 11:39 AM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "2/9/2026 3:32 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

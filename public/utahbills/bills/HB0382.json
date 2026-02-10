@@ -1,6 +1,6 @@
 {
   "bill_id": 2093542,
-  "change_hash": "6f18436389c2eda6a9951b0cb128e6e5",
+  "change_hash": "67095d7b5f3ba8df2f293e6b40d3f41c",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Uniform Assignment for Benefit of Creditors Amendments",
   "description": "Uniform Assignment for Benefit of Creditors Amendments",
-  "pending_committee_id": 2860,
-  "committee": {
-    "committee_id": 2860,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Economic Development and Workforce Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-27",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House Comm - Favorable Recommendation in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -221,7 +223,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1626944,
+      "date": "2026-02-09",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 8,
+      "nay": 1,
+      "nv": 0,
+      "absent": 1,
+      "total": 10,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0382/id/1626944",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39771"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -237,6 +255,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0382.fn.pdf",
       "supplement_size": 1608358,
       "supplement_hash": "47b7ace6f3499f94e184add76cd5ac20",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 662801,
+      "date": "2026-02-09",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0382",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0382/id/662801",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0382H01.pdf",
+      "supplement_size": 17549,
+      "supplement_hash": "199f0b81775432977579613c331c541a",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -263,10 +301,24 @@
   "fiscal_analyst": "Nate Osborne",
   "gov_tracking_id": "SRWVWYNBEI",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20309",
+      "committeeID": "HSTEDW",
+      "mtgDate": "2026-02-09 15:40:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Economic Development and Workforce Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HEDW0209.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "295617"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Economic Development and Workforce Services Committee",
-  "last_action_time": "2/6/2026",
+  "last_action_time": "2/9/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -343,6 +395,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "2/9/2026 5:39 PM",
+      "actionClass": "A",
+      "voteID": "39771",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-1-1",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

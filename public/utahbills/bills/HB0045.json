@@ -1,6 +1,6 @@
 {
   "bill_id": 2060247,
-  "change_hash": "d011ef0b355bf03ea435e01230fecfc4",
+  "change_hash": "ea87de96b862fea6d00f58c8f4d3f98a",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -45,8 +45,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Fire Code Amendments",
   "description": "Fire Code Amendments",
   "pending_committee_id": 0,
@@ -248,6 +248,27 @@
       "action": "House/ circled in House Concurrence Calendar",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House/ uncircled in House Concurrence Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House/ concurs with Senate amendment in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House/ to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -521,6 +542,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/HB0045/id/1624857",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=231&house=S"
+    },
+    {
+      "roll_call_id": 1626284,
+      "date": "2026-02-09",
+      "desc": "House/ concurs with Senate amendment",
+      "yea": 68,
+      "nay": 1,
+      "nv": 0,
+      "absent": 6,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0045/id/1626284",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=280&house=H"
     }
   ],
   "amendments": [],
@@ -644,9 +680,9 @@
       "markerID": "289249"
     }
   ],
-  "last_action": "House/ circled",
-  "last_action_owner": "House Concurrence Calendar",
-  "last_action_time": "2/6/2026",
+  "last_action": "House/ to Senate",
+  "last_action_owner": "Senate President",
+  "last_action_time": "2/9/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -970,6 +1006,45 @@
       "voteHouse": "H",
       "voteStr": "0-0-75",
       "actionCode": "HCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ uncircled",
+      "owner": "House Concurrence Calendar",
+      "actionDate": "2/9/2026 2:15 PM",
+      "actionClass": "H",
+      "voteID": "276",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ concurs with Senate amendment",
+      "owner": "Senate President",
+      "actionDate": "2/9/2026 2:20 PM",
+      "actionClass": "H",
+      "voteID": "280",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "68-1-6",
+      "actionCode": "HCONCUR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "2/9/2026 2:20 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
       "parm1": "",
       "parm2": ""
     }

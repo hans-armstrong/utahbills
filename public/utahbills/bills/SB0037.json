@@ -1,6 +1,6 @@
 {
   "bill_id": 2060569,
-  "change_hash": "e326a0f386dfcad23abc2fda1f35317b",
+  "change_hash": "dd139436a82f39bab2b8796994ef1d08",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -19,7 +19,7 @@
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0037.html",
   "completed": 0,
   "status": 1,
-  "status_date": "2026-01-20",
+  "status_date": "2026-02-09",
   "progress": [
     {
       "date": "2026-01-20",
@@ -32,6 +32,10 @@
     {
       "date": "2026-01-23",
       "event": 10
+    },
+    {
+      "date": "2026-02-09",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,8 +45,8 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "George E. Wahlen Memorial Highway Designation",
   "description": "George E. Wahlen Memorial Highway Designation",
   "pending_committee_id": 0,
@@ -154,6 +158,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -363,6 +388,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0037/id/1620904",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=144&house=S"
+    },
+    {
+      "roll_call_id": 1626544,
+      "date": "2026-02-09",
+      "desc": "Senate/ passed 3rd reading",
+      "yea": 24,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0037/id/1626544",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=342&house=S"
     }
   ],
   "amendments": [],
@@ -446,9 +486,9 @@
       "markerID": "288145"
     }
   ],
-  "last_action": "Senate/ placed on Time Certain Calendar",
-  "last_action_owner": "Senate Special Orders Calendar",
-  "last_action_time": "2/2/2026",
+  "last_action": "House/ received from Senate",
+  "last_action_owner": "Clerk of the House",
+  "last_action_time": "2/9/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -616,6 +656,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SPLACETC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Clerk of the House",
+      "actionDate": "2/9/2026 2:37 PM",
+      "actionClass": "S",
+      "voteID": "342",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "24-0-5",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2/9/2026 2:37 PM",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2/9/2026 3:45 PM",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
       "parm1": "",
       "parm2": ""
     }

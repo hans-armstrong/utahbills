@@ -1,6 +1,6 @@
 {
   "bill_id": 2068927,
-  "change_hash": "e5ba14937591f11ea6db7f82e2286e4a",
+  "change_hash": "357d1d985df5e1046a79acf845bfc777",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Utah State Board of Education Ethics Amendments",
   "description": "Utah State Board of Education Ethics Amendments",
-  "pending_committee_id": 2105,
-  "committee": {
-    "committee_id": 2105,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -106,6 +101,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House Comm - Amendment Recommendation in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House Comm - Favorable Recommendation in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -281,8 +290,61 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
-  "amendments": [],
+  "votes": [
+    {
+      "roll_call_id": 1626941,
+      "date": "2026-02-09",
+      "desc": "House Comm - Amendment Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 15,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0194/id/1626941",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39767"
+    },
+    {
+      "roll_call_id": 1626942,
+      "date": "2026-02-09",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 2,
+      "nv": 0,
+      "absent": 4,
+      "total": 15,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0194/id/1626942",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39768"
+    }
+  ],
+  "amendments": [
+    {
+      "amendment_id": 271598,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2026-02-09",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0194/id/271598",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0194.Hamd.1.pdf",
+      "amendment_size": 6908,
+      "amendment_hash": "01d7486381d4dcc97f9208dd96329f29",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 639178,
@@ -297,6 +359,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0194.fn.pdf",
       "supplement_size": 1609357,
       "supplement_hash": "8fd444cf17d7573f8db8a97afde1db34",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 662800,
+      "date": "2026-02-09",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0194",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0194/id/662800",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0194H02.pdf",
+      "supplement_size": 18731,
+      "supplement_hash": "3ecb09ef18345d9265d1c39bd940aace",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -323,10 +405,24 @@
   "fiscal_analyst": "Kiki Hudson",
   "gov_tracking_id": "YRIEOTAXWH",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20317",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-02-09 15:40:00.0",
+      "agendaItem": "7",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HEDU0209.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "295563"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Education Committee",
-  "last_action_time": "2/4/2026",
+  "last_action_time": "2/9/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -403,6 +499,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Amendment Recommendation",
+      "owner": "House Education Committee",
+      "actionDate": "2/9/2026 5:29 PM",
+      "actionClass": "A",
+      "voteID": "39767",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-4",
+      "actionCode": "HCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Education Committee",
+      "actionDate": "2/9/2026 5:30 PM",
+      "actionClass": "A",
+      "voteID": "39768",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-2-4",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

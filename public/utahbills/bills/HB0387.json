@@ -1,6 +1,6 @@
 {
   "bill_id": 2093795,
-  "change_hash": "fbd781bd07f860454bae1b6a8db57318",
+  "change_hash": "9370f3a074b97428bb234e73b116e9ff",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Kratom Modifications",
   "description": "Kratom Modifications",
-  "pending_committee_id": 5042,
-  "committee": {
-    "committee_id": 5042,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Business, Labor, and Commerce"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-27",
@@ -106,6 +101,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-09",
+      "action": "House Comm - Favorable Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -217,7 +219,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1626626,
+      "date": "2026-02-09",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 1,
+      "nv": 0,
+      "absent": 6,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0387/id/1626626",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39754"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -233,6 +251,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0387.fn.pdf",
       "supplement_size": 1609351,
       "supplement_hash": "2dd04f0838222aa84cc3b9f221234fb4",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 662584,
+      "date": "2026-02-09",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0387",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0387/id/662584",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0387H02.pdf",
+      "supplement_size": 17532,
+      "supplement_hash": "3ff9209145edb3255f5239ce588460e5",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -259,10 +297,24 @@
   "fiscal_analyst": "Lacey K. Moore",
   "gov_tracking_id": "RVWHHWRFNN",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20283",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2026-02-09 15:40:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HBUS0209.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "295389"
+    }
+  ],
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Business, Labor, and Commerce Committee",
-  "last_action_time": "2/3/2026",
+  "last_action_time": "2/9/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -339,6 +391,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2/9/2026 5:06 PM",
+      "actionClass": "A",
+      "voteID": "39754",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-1-6",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }
