@@ -1,6 +1,6 @@
 {
   "bill_id": 2111860,
-  "change_hash": "166bcb3ffab62e2c696607de91a76912",
+  "change_hash": "5100c88ef170afff30c908e025dde230",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,18 @@
   "url": "https://legiscan.com/UT/bill/SB0278/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0278.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-02-10",
+  "progress": [
+    {
+      "date": "2026-02-10",
+      "event": 1
+    },
+    {
+      "date": "2026-02-10",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0278",
@@ -34,7 +43,22 @@
   "description": "Point of the Mountain State Land Authority Modifications",
   "pending_committee_id": 0,
   "committee": [],
-  "referrals": [],
+  "referrals": [
+    {
+      "date": "2026-02-10",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-10",
+      "committee_id": 2861,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Economic Development and Workforce Services"
+    }
+  ],
   "history": [
     {
       "date": "2026-02-09",
@@ -52,7 +76,63 @@
     },
     {
       "date": "2026-02-09",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for SB0278 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "LFA/ bill sent to agencies for fiscal input for SB0278 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
       "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-10",
+      "action": "Senate/ to standing committee in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-12",
+      "action": "LFA/ fiscal note sent to sponsor for SB0278 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-12",
+      "action": "LFA/ fiscal note publicly available for SB0278 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-13",
+      "action": "Senate Comm - Favorable Recommendation in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-13",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Economic Development and Workforce Services Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -187,10 +267,77 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1633134,
+      "date": "2026-02-13",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 6,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0278/id/1633134",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40186"
+    }
+  ],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 666921,
+      "date": "2026-02-12",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0278",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0278/id/666921",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0278.fn.pdf",
+      "supplement_size": 1608368,
+      "supplement_hash": "19afd0c5c233dc51af5796a51bb8802e",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 668831,
+      "date": "2026-02-13",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0278",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0278/id/668831",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0278S02.pdf",
+      "supplement_size": 18319,
+      "supplement_hash": "f836af30f0c5d620aec7fe7318c736d6",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "c1c4a5a3",
+      "type": "Hearing",
+      "date": "2026-02-13",
+      "time": "08:00",
+      "location": "",
+      "description": "Senate Economic Development and Workforce Services Hearing"
+    }
+  ],
   "general_provisions": "This bill deals with the Point of the Mountain State Land Authority.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>authorizes a municipality to coordinate with a state agency, independent entity, or regional economic development authority with exclusive control over the management, development, and disposition of a parcel of state-owned land in order to ensure future alignment with municipal general plans and land use regulations;<hr><ltbullet>provides that the Point of the Mountain State Land Authority (authority) may coordinate with Draper when the authority intends to dispose of a parcel of point of the mountain state land to a private party;<hr><ltbullet>modifies the distribution percentages of privilege tax to the authority for certain parcels of point of the mountain state land;<hr><ltbullet>modifies the percentage of property tax augmentation that shall be distributed to the authority for certain transferred parcels;<hr><ltbullet>repeals a sunset date; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -198,15 +345,29 @@
   "fiscal_analyst": "Jared Gibbs",
   "gov_tracking_id": "FWTNSLWBJT",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received bill from Legislative Research",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/9/2026",
+  "agendas": [
+    {
+      "mtgID": "20311",
+      "committeeID": "SSTEDW",
+      "mtgDate": "2026-02-13 08:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Economic Development and Workforce Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDW0213.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "297263"
+    }
+  ],
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "Senate Economic Development and Workforce Services Committee",
+  "last_action_time": "2/13/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/9/2026 11:39 AM",
+      "actionDate": "2026-02-09 11:39:15.343",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -219,7 +380,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/9/2026 11:39 AM",
+      "actionDate": "2026-02-09 11:39:15.343",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -230,15 +391,119 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for SB0278",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-09 11:39:18.553",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for SB0278",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-09 11:39:18.553",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "2/9/2026 2:15 PM",
+      "actionDate": "2026-02-09 14:15:14.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-10 11:14:23.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "2026-02-10 14:28:01.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for SB0278",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-12 04:44:40.505",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for SB0278",
+      "owner": "Released",
+      "actionDate": "2026-02-12 04:44:41.477",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "2026-02-13 08:54:49.637",
+      "actionClass": "A",
+      "voteID": "40186",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-1",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "2026-02-13 09:16:18.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

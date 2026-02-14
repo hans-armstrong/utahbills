@@ -1,6 +1,6 @@
 {
   "bill_id": 2107242,
-  "change_hash": "ef3ef93242d8ab878ea3c9a64c8b79f0",
+  "change_hash": "952d149df055954ec8cbd44c51321af1",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-04",
       "event": 1
+    },
+    {
+      "date": "2026-02-12",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Flower Sales Modifications",
   "description": "Flower Sales Modifications",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2112,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2112,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Political Subdivisions"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-12",
+      "committee_id": 2112,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Political Subdivisions"
     }
   ],
   "history": [
@@ -64,6 +75,20 @@
     {
       "date": "2026-02-04",
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0483 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0483 in Legislative Fiscal Agency",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -84,10 +109,31 @@
     },
     {
       "date": "2026-02-05",
+      "action": "LFA/ fiscal note sent to sponsor for HB0483 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "LFA/ fiscal note publicly available for HB0483 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-12",
+      "action": "House/ to standing committee in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -231,7 +277,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "2fa30860",
+      "type": "Hearing",
+      "date": "2026-02-18",
+      "time": "08:00",
+      "location": "",
+      "description": "House Political Subdivisions Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses local regulation of cut flower sales.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>establishes that a political subdivision may not prohibit the sale, trade, or transfer of cut flowers if the person selling, trading, or transferring the cut flowers is permitted to grow flowers on the person's private property; and<hr><ltbullet>clarifies that a political subdivision may require a person selling, trading, or transferring cut flowers to obtain a business license.",
   "monies": "None",
@@ -240,14 +296,14 @@
   "gov_tracking_id": "OJAIDMHLJW",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/5/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Political Subdivisions Committee",
+  "last_action_time": "2/12/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/4/2026 9:26 AM",
+      "actionDate": "2026-02-04 09:26:30.393",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -260,7 +316,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/4/2026 9:26 AM",
+      "actionDate": "2026-02-04 09:26:30.393",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -271,9 +327,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0483",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-04 09:26:33.980",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0483",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-04 09:26:33.980",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "2/4/2026 10:14 AM",
+      "actionDate": "2026-02-04 10:14:06.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -286,7 +368,7 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "2/4/2026 11:16 AM",
+      "actionDate": "2026-02-04 11:16:55.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -297,15 +379,54 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for HB0483",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-05 12:53:41.320",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0483",
+      "owner": "Released",
+      "actionDate": "2026-02-05 12:53:42.118",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "House Rules Committee",
-      "actionDate": "2/5/2026 1:48 PM",
+      "actionDate": "2026-02-05 13:48:44.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2026-02-12 11:41:27.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

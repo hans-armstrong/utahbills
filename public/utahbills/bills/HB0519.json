@@ -1,6 +1,6 @@
 {
   "bill_id": 2111768,
-  "change_hash": "1b7f3248bd91459a5eabb9d444d0f634",
+  "change_hash": "41185ce796999c9f7523cee371599643",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-09",
       "event": 1
+    },
+    {
+      "date": "2026-02-11",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Unclaimed Property Modifications",
   "description": "Unclaimed Property Modifications",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2860,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2860,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Economic Development and Workforce Services"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-11",
+      "committee_id": 2860,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Economic Development and Workforce Services"
     }
   ],
   "history": [
@@ -70,6 +81,20 @@
     },
     {
       "date": "2026-02-09",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0519 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0519 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
       "action": "House/ received bill from Legislative Research in Clerk of the House",
       "chamber": "H",
       "chamber_id": 93,
@@ -78,6 +103,34 @@
     {
       "date": "2026-02-09",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-10",
+      "action": "LFA/ fiscal note sent to sponsor for HB0519 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "LFA/ fiscal note publicly available for HB0519 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-11",
+      "action": "House/ to standing committee in House Economic Development and Workforce Services Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -158,6 +211,26 @@
     {
       "subject_id": 11888,
       "subject_name": "Revenue and Taxation"
+    },
+    {
+      "subject_id": 15115,
+      "subject_name": "Electronic Transactions"
+    },
+    {
+      "subject_id": 14879,
+      "subject_name": "Technology"
+    },
+    {
+      "subject_id": 11871,
+      "subject_name": "Business"
+    },
+    {
+      "subject_id": 11851,
+      "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 340614,
+      "subject_name": "State Treasurer"
     }
   ],
   "texts": [
@@ -181,9 +254,62 @@
     }
   ],
   "votes": [],
-  "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "amendments": [
+    {
+      "amendment_id": 273713,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2026-02-12",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0519/id/273713",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0519.Hamd.1.pdf",
+      "amendment_size": 6947,
+      "amendment_hash": "d7ec1ec98d6380f0e0b2babbed05fc67",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
+  "supplements": [
+    {
+      "supplement_id": 663570,
+      "date": "2026-02-10",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0519",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0519/id/663570",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0519.fn.pdf",
+      "supplement_size": 1608341,
+      "supplement_hash": "1e9baa272ea29b00bbadc1d6d21cc1aa",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "824e1b91",
+      "type": "Hearing",
+      "date": "2026-02-17",
+      "time": "08:00",
+      "location": "",
+      "description": "House Economic Development and Workforce Services Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies the Revised Uniform Unclaimed Property Act.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>establishes standards for the unclaimed property administrator's (administrator's) custody of digital assets presumed abandoned, including requirements for:<hr><ltbullet1>the presumption of abandonment for digital assets;<hr><ltbullet1>the delivery of abandoned digital assets to the administrator's custody;<hr><ltbullet1>the sale or liquidation of abandoned digital assets by the holder at the direction of the administrator;<hr><ltbullet1>the maintenance of abandoned digital assets by the holder if delivery is not possible; and<hr><ltbullet1>the sale or liquidation of abandoned digital assets by the administrator; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -192,14 +318,14 @@
   "gov_tracking_id": "BSLNUGNNYI",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/9/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Economic Development and Workforce Services Committee",
+  "last_action_time": "2/11/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/9/2026 9:51 AM",
+      "actionDate": "2026-02-09 09:51:33.963",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -212,7 +338,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/9/2026 9:51 AM",
+      "actionDate": "2026-02-09 09:51:33.963",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -223,9 +349,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0519",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-09 09:51:38.007",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0519",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-09 09:51:38.007",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "2/9/2026 10:55 AM",
+      "actionDate": "2026-02-09 10:55:46.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -238,13 +390,65 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "2/9/2026 11:26 AM",
+      "actionDate": "2026-02-09 11:26:46.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0519",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-10 12:18:20.841",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0519",
+      "owner": "Released",
+      "actionDate": "2026-02-10 12:18:21.696",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-10 13:53:56.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "2026-02-11 12:31:44.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

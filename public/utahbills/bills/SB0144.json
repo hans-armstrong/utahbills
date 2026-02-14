@@ -1,6 +1,6 @@
 {
   "bill_id": 2081798,
-  "change_hash": "7091df7267a1f8fcf4d4ed652060c92d",
+  "change_hash": "105ea86c4aa442e82014c64f60513892",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-09",
       "event": 2
+    },
+    {
+      "date": "2026-02-11",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,13 +53,8 @@
   "current_body_id": 93,
   "title": "Relocation Assistance Amendments",
   "description": "Relocation Assistance Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -77,6 +76,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-11",
+      "committee_id": 2117,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Transportation"
     }
   ],
   "history": [
@@ -95,10 +101,31 @@
       "importance": 0
     },
     {
+      "date": "2026-01-15",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for SB0144 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-15",
+      "action": "LFA/ bill sent to agencies for fiscal input for SB0144 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
       "date": "2026-01-16",
       "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-19",
+      "action": "LFA/ fiscal note sent to sponsor for SB0144 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     },
     {
@@ -107,6 +134,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-21",
+      "action": "LFA/ fiscal note publicly available for SB0144 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     },
     {
       "date": "2026-01-21",
@@ -188,6 +222,20 @@
     {
       "date": "2026-02-09",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-11",
+      "action": "House/ to standing committee in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-13",
+      "action": "House Comm - Favorable Recommendation in House Transportation Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -427,6 +475,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0144/id/1626486",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=321&house=S"
+    },
+    {
+      "roll_call_id": 1633538,
+      "date": "2026-02-13",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0144/id/1633538",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40220"
     }
   ],
   "amendments": [],
@@ -470,6 +533,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 669376,
+      "date": "2026-02-13",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0144",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0144/id/669376",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0144H02.pdf",
+      "supplement_size": 17530,
+      "supplement_hash": "7ada66b956a6e22b79fce93e58687734",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -481,6 +564,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Government Operations and Political Subdivisions Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "44642133",
+      "type": "Hearing",
+      "date": "2026-02-13",
+      "time": "08:30",
+      "location": "",
+      "description": "House Transportation Hearing"
     }
   ],
   "general_provisions": "This bill modifies the Utah Relocation Assistance Act.",
@@ -503,16 +595,29 @@
       "agendaURL": "/~2026/agenda/SGOP0123.ag.htm",
       "billSession": "2026GS",
       "markerID": "288810"
+    },
+    {
+      "mtgID": "20221",
+      "committeeID": "HSTTRA",
+      "mtgDate": "2026-02-13 08:30:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Transportation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HTRA0213.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "297388"
     }
   ],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/9/2026",
+  "last_action": "House Comm - Favorable Recommendation",
+  "last_action_owner": "House Transportation Committee",
+  "last_action_time": "2/13/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/15/2026 11:58 AM",
+      "actionDate": "2026-01-15 11:58:16.717",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -525,7 +630,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/15/2026 11:58 AM",
+      "actionDate": "2026-01-15 11:58:16.717",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -536,9 +641,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for SB0144",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-01-15 11:58:20.947",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for SB0144",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-01-15 11:58:20.947",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "1/16/2026 9:16 AM",
+      "actionDate": "2026-01-16 09:16:51.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -549,9 +680,22 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for SB0144",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-01-19 15:53:21.181",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "1/20/2026 11:07 AM",
+      "actionDate": "2026-01-20 11:07:25.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -562,9 +706,22 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note publicly available for SB0144",
+      "owner": "Released",
+      "actionDate": "2026-01-21 10:18:40.582",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
       "owner": "Senate Rules Committee",
-      "actionDate": "1/21/2026 10:46 AM",
+      "actionDate": "2026-01-21 10:46:13.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -577,7 +734,7 @@
     {
       "description": "Senate/ to standing committee",
       "owner": "Senate Government Operations and Political Subdivisions Committee",
-      "actionDate": "1/21/2026 12:08 PM",
+      "actionDate": "2026-01-21 12:08:38.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -590,7 +747,7 @@
     {
       "description": "Senate Comm - Favorable Recommendation",
       "owner": "Senate Government Operations and Political Subdivisions Committee",
-      "actionDate": "1/23/2026 3:38 PM",
+      "actionDate": "2026-01-23 15:38:14.430",
       "actionClass": "A",
       "voteID": "38787",
       "voiceVote": "",
@@ -603,7 +760,7 @@
     {
       "description": "Senate/ committee report favorable",
       "owner": "Senate Government Operations and Political Subdivisions Committee",
-      "actionDate": "1/26/2026 11:20 AM",
+      "actionDate": "2026-01-26 11:20:40.697",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -616,7 +773,7 @@
     {
       "description": "Senate/ placed on 2nd Reading Calendar",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "1/26/2026 11:20 AM",
+      "actionDate": "2026-01-26 11:20:41.697",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -629,7 +786,7 @@
     {
       "description": "Senate/ 2nd reading",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "2/6/2026 2:50 PM",
+      "actionDate": "2026-02-06 14:50:17.687",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -642,7 +799,7 @@
     {
       "description": "Senate/ passed 2nd reading",
       "owner": "Senate 3rd Reading Calendar",
-      "actionDate": "2/6/2026 2:53 PM",
+      "actionDate": "2026-02-06 14:53:41.123",
       "actionClass": "S",
       "voteID": "303",
       "voiceVote": "0",
@@ -655,7 +812,7 @@
     {
       "description": "Senate/ 3rd reading",
       "owner": "Senate 3rd Reading Calendar",
-      "actionDate": "2/9/2026 11:18 AM",
+      "actionDate": "2026-02-09 11:18:01.140",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -668,7 +825,7 @@
     {
       "description": "Senate/ passed 3rd reading",
       "owner": "Clerk of the House",
-      "actionDate": "2/9/2026 11:20 AM",
+      "actionDate": "2026-02-09 11:20:20.937",
       "actionClass": "S",
       "voteID": "321",
       "voiceVote": "0",
@@ -681,7 +838,7 @@
     {
       "description": "Senate/ to House",
       "owner": "Clerk of the House",
-      "actionDate": "2/9/2026 11:20 AM",
+      "actionDate": "2026-02-09 11:20:21.937",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -694,7 +851,7 @@
     {
       "description": "House/ received from Senate",
       "owner": "Clerk of the House",
-      "actionDate": "2/9/2026 12:42 PM",
+      "actionDate": "2026-02-09 12:42:41.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -707,13 +864,39 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "2/9/2026 2:12 PM",
+      "actionDate": "2026-02-09 14:12:03.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Transportation Committee",
+      "actionDate": "2026-02-11 12:33:11.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Transportation Committee",
+      "actionDate": "2026-02-13 09:49:29.293",
+      "actionClass": "A",
+      "voteID": "40220",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-2",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

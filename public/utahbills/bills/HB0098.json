@@ -1,6 +1,6 @@
 {
   "bill_id": 2061103,
-  "change_hash": "e30775a91bff949196283c43411ac710",
+  "change_hash": "8b8fae494daaae73403e9f44dbd03eef",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0098/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0098.html",
-  "completed": 0,
-  "status": 2,
-  "status_date": "2026-01-28",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-02-10",
   "progress": [
     {
       "date": "2026-01-20",
@@ -44,6 +44,10 @@
     {
       "date": "2026-02-04",
       "event": 10
+    },
+    {
+      "date": "2026-02-10",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -271,6 +275,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "House/ failed in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "House/ filed in House file for bills not passed",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -570,6 +588,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/HB0098/id/1625722",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=289&house=S"
+    },
+    {
+      "roll_call_id": 1628433,
+      "date": "2026-02-10",
+      "desc": "House/ failed",
+      "yea": 29,
+      "nay": 40,
+      "nv": 0,
+      "absent": 6,
+      "total": 75,
+      "passed": 0,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0098/id/1628433",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=309&house=H"
     }
   ],
   "amendments": [],
@@ -730,14 +763,14 @@
       "markerID": "293285"
     }
   ],
-  "last_action": "House/ placed on Concurrence Calendar",
-  "last_action_owner": "House Concurrence Calendar",
-  "last_action_time": "2/9/2026",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "2/10/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "12/29/2025 11:29 AM",
+      "actionDate": "2025-12-29 11:29:23.493",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -750,7 +783,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "12/29/2025 11:29 AM",
+      "actionDate": "2025-12-29 11:29:23.493",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -761,9 +794,48 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0098",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2025-12-29 11:29:27.403",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0098",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2025-12-29 11:29:27.403",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0098",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-01-13 13:25:07.660",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "1/14/2026 1:47 PM",
+      "actionDate": "2026-01-14 13:47:26.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -774,9 +846,22 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note publicly available for HB0098",
+      "owner": "Released",
+      "actionDate": "2026-01-16 08:13:26.529",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "Clerk of the House",
-      "actionDate": "1/20/2026 9:17 AM",
+      "actionDate": "2026-01-20 09:17:03.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -789,7 +874,7 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "1/20/2026 10:43 AM",
+      "actionDate": "2026-01-20 10:43:19.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -802,7 +887,7 @@
     {
       "description": "House/ to standing committee",
       "owner": "House Business, Labor, and Commerce Committee",
-      "actionDate": "1/20/2026 11:24 AM",
+      "actionDate": "2026-01-20 11:24:46.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -815,7 +900,7 @@
     {
       "description": "House Comm - Favorable Recommendation",
       "owner": "House Business, Labor, and Commerce Committee",
-      "actionDate": "1/22/2026 2:45 PM",
+      "actionDate": "2026-01-22 14:45:46.730",
       "actionClass": "A",
       "voteID": "38686",
       "voiceVote": "",
@@ -828,7 +913,7 @@
     {
       "description": "House/ committee report favorable",
       "owner": "House Business, Labor, and Commerce Committee",
-      "actionDate": "1/23/2026 11:08 AM",
+      "actionDate": "2026-01-23 11:08:27.637",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -841,7 +926,7 @@
     {
       "description": "House/ 2nd reading",
       "owner": "House 3rd Reading Calendar for House bills",
-      "actionDate": "1/23/2026 11:08 AM",
+      "actionDate": "2026-01-23 11:08:28.637",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -854,7 +939,7 @@
     {
       "description": "House/ 3rd reading",
       "owner": "House 3rd Reading Calendar for House bills",
-      "actionDate": "1/28/2026 12:08 PM",
+      "actionDate": "2026-01-28 12:08:49.110",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -867,7 +952,7 @@
     {
       "description": "House/ passed 3rd reading",
       "owner": "Senate Secretary",
-      "actionDate": "1/28/2026 12:21 PM",
+      "actionDate": "2026-01-28 12:21:29.683",
       "actionClass": "H",
       "voteID": "92",
       "voiceVote": "0",
@@ -880,7 +965,7 @@
     {
       "description": "House/ to Senate",
       "owner": "Senate Secretary",
-      "actionDate": "1/28/2026 12:21 PM",
+      "actionDate": "2026-01-28 12:21:31.683",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -893,7 +978,7 @@
     {
       "description": "Senate/ received from House",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "1/28/2026 12:36 PM",
+      "actionDate": "2026-01-28 12:36:20.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -906,7 +991,7 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "1/29/2026 11:35 AM",
+      "actionDate": "2026-01-29 11:35:30.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -917,9 +1002,48 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0098S01",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-01-29 11:50:24.110",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0098S01",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-01-29 11:50:24.110",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0098S01",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-01-31 11:01:47.667",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ to standing committee",
       "owner": "Senate Business and Labor Committee",
-      "actionDate": "2/2/2026 11:13 AM",
+      "actionDate": "2026-02-02 11:13:18.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -930,9 +1054,22 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note publicly available for HB0098S01",
+      "owner": "Released",
+      "actionDate": "2026-02-02 15:18:46.762",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate Comm - Substitute Recommendation",
       "owner": "Senate Business and Labor Committee",
-      "actionDate": "2/3/2026 5:08 PM",
+      "actionDate": "2026-02-03 17:08:00.610",
       "actionClass": "A",
       "voteID": "39420",
       "voiceVote": "",
@@ -945,7 +1082,7 @@
     {
       "description": "Senate Comm - Favorable Recommendation",
       "owner": "Senate Business and Labor Committee",
-      "actionDate": "2/3/2026 5:09 PM",
+      "actionDate": "2026-02-03 17:09:11.520",
       "actionClass": "A",
       "voteID": "39421",
       "voiceVote": "",
@@ -958,7 +1095,7 @@
     {
       "description": "Senate/ comm rpt/ substituted",
       "owner": "Senate Business and Labor Committee",
-      "actionDate": "2/4/2026 11:18 AM",
+      "actionDate": "2026-02-04 11:18:38.527",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -971,7 +1108,7 @@
     {
       "description": "Senate/ placed on 2nd Reading Calendar",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "2/4/2026 11:18 AM",
+      "actionDate": "2026-02-04 11:18:39.527",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -984,7 +1121,7 @@
     {
       "description": "Senate/ 2nd reading",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "2/5/2026 2:35 PM",
+      "actionDate": "2026-02-05 14:35:31.377",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -997,7 +1134,7 @@
     {
       "description": "Senate/ passed 2nd reading",
       "owner": "Senate 3rd Reading Calendar",
-      "actionDate": "2/5/2026 2:39 PM",
+      "actionDate": "2026-02-05 14:39:26.593",
       "actionClass": "S",
       "voteID": "252",
       "voiceVote": "0",
@@ -1010,7 +1147,7 @@
     {
       "description": "Senate/ 3rd reading",
       "owner": "Senate 3rd Reading Calendar",
-      "actionDate": "2/6/2026 2:18 PM",
+      "actionDate": "2026-02-06 14:18:21.760",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -1023,7 +1160,7 @@
     {
       "description": "Senate/ passed 3rd reading",
       "owner": "Clerk of the House",
-      "actionDate": "2/6/2026 2:21 PM",
+      "actionDate": "2026-02-06 14:21:22.460",
       "actionClass": "S",
       "voteID": "289",
       "voiceVote": "0",
@@ -1036,7 +1173,7 @@
     {
       "description": "Senate/ to House with amendments",
       "owner": "Clerk of the House",
-      "actionDate": "2/6/2026 2:21 PM",
+      "actionDate": "2026-02-06 14:21:23.460",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -1049,7 +1186,7 @@
     {
       "description": "House/ received from Senate",
       "owner": "Clerk of the House",
-      "actionDate": "2/9/2026 11:15 AM",
+      "actionDate": "2026-02-09 11:15:15.057",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -1062,13 +1199,39 @@
     {
       "description": "House/ placed on Concurrence Calendar",
       "owner": "House Concurrence Calendar",
-      "actionDate": "2/9/2026 11:15 AM",
+      "actionDate": "2026-02-09 11:15:16.057",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HONCURCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ failed",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-10 11:31:53.843",
+      "actionClass": "H",
+      "voteID": "309",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "29-40-6",
+      "actionCode": "HFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-02-10 11:31:56.843",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

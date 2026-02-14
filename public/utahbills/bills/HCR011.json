@@ -1,6 +1,6 @@
 {
   "bill_id": 2110561,
-  "change_hash": "64c1e9e000477965c033e27ef3e48af7",
+  "change_hash": "faf66409e1a33fbbeba80e863d934a0e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,14 @@
     {
       "date": "2026-02-06",
       "event": 1
+    },
+    {
+      "date": "2026-02-11",
+      "event": 9
+    },
+    {
+      "date": "2026-02-13",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -37,13 +45,8 @@
   "current_body_id": 93,
   "title": "Resolution Urging Healthy Activities in Schools",
   "description": "Resolution Urging Healthy Activities in Schools",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-06",
@@ -51,6 +54,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-11",
+      "committee_id": 2105,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Education"
     }
   ],
   "history": [
@@ -70,6 +80,20 @@
     },
     {
       "date": "2026-02-06",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HCR011 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "LFA/ bill sent to agencies for fiscal input for HCR011 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
       "action": "House/ received bill from Legislative Research in Clerk of the House",
       "chamber": "H",
       "chamber_id": 93,
@@ -83,8 +107,50 @@
       "importance": 1
     },
     {
+      "date": "2026-02-06",
+      "action": "LFA/ fiscal note sent to sponsor for HCR011 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "LFA/ fiscal note publicly available for HCR011 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
       "date": "2026-02-09",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-11",
+      "action": "House/ to standing committee in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-12",
+      "action": "House Comm - Favorable Recommendation in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-13",
+      "action": "House/ committee report favorable in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-13",
+      "action": "House/ 2nd reading in House Consent Calendar",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -165,6 +231,34 @@
     {
       "subject_id": 11846,
       "subject_name": "Education"
+    },
+    {
+      "subject_id": 11987,
+      "subject_name": "Resolutions"
+    },
+    {
+      "subject_id": 11991,
+      "subject_name": "Charter Schools"
+    },
+    {
+      "subject_id": 332654,
+      "subject_name": "Student health and safety"
+    },
+    {
+      "subject_id": 332526,
+      "subject_name": "K-12 Education"
+    },
+    {
+      "subject_id": 332524,
+      "subject_name": "Legislative Operations"
+    },
+    {
+      "subject_id": 383611,
+      "subject_name": "Local Education Agencies (LEAs)"
+    },
+    {
+      "subject_id": 334501,
+      "subject_name": "School Districts"
     }
   ],
   "texts": [
@@ -187,7 +281,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1632935,
+      "date": "2026-02-12",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 14,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 15,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HCR011/id/1632935",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40114"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -209,9 +319,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 668419,
+      "date": "2026-02-12",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HCR011",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HCR011/id/668419",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HCR011H01.pdf",
+      "supplement_size": 17521,
+      "supplement_hash": "3c0cd4e050fc081ea6f220f7e921506e",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "902a5ffd",
+      "type": "Hearing",
+      "date": "2026-02-12",
+      "time": "14:00",
+      "location": "",
+      "description": "House Education Hearing"
+    }
+  ],
   "general_provisions": "This resolution encourages a public school to prioritize healthy eating education and physical activity.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>acknowledges the importance of regular physical activity and healthy eating for children and adolescents;<hr><ltbullet>recognizes that a public school plays an important role in:<hr><ltbullet1>creating lifelong habits in a student; and<hr><ltbullet1>exposing a student to certain healthy eating and exercise practices;<hr><ltbullet>encourages a public school to prioritize physical activity; and<hr><ltbullet>encourages an elementary school to take certain field trips.",
   "monies": "None",
@@ -219,15 +359,29 @@
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "WVADVOORUW",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/9/2026",
+  "agendas": [
+    {
+      "mtgID": "20318",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-02-12 14:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HEDU0212.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "296998"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House Consent Calendar",
+  "last_action_time": "2/13/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/6/2026 8:45 AM",
+      "actionDate": "2026-02-06 08:45:25.593",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -240,7 +394,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/6/2026 8:45 AM",
+      "actionDate": "2026-02-06 08:45:25.593",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -251,9 +405,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HCR011",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-06 08:45:27.373",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HCR011",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-06 08:45:27.373",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "2/6/2026 10:15 AM",
+      "actionDate": "2026-02-06 10:15:24.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -266,7 +446,7 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "2/6/2026 11:26 AM",
+      "actionDate": "2026-02-06 11:26:10.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -277,15 +457,93 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for HCR011",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-06 15:04:54.986",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HCR011",
+      "owner": "Released",
+      "actionDate": "2026-02-06 15:04:55.908",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "House Rules Committee",
-      "actionDate": "2/9/2026 7:51 AM",
+      "actionDate": "2026-02-09 07:51:17.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Education Committee",
+      "actionDate": "2026-02-11 12:31:57.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Education Committee",
+      "actionDate": "2026-02-12 15:49:17.820",
+      "actionClass": "A",
+      "voteID": "40114",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "14-0-1",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Education Committee",
+      "actionDate": "2026-02-13 10:20:27.093",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House Consent Calendar",
+      "actionDate": "2026-02-13 10:20:28.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

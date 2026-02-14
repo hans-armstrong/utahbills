@@ -1,6 +1,6 @@
 {
   "bill_id": 2103746,
-  "change_hash": "abc0050542c31d694d22644caf1352b1",
+  "change_hash": "b180f072901ada8a9a7f6f06d9c0fc65",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-03",
       "event": 1
+    },
+    {
+      "date": "2026-02-13",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Municipal Annexation Amendments",
   "description": "Municipal Annexation Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2112,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2112,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Political Subdivisions"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-13",
+      "committee_id": 2112,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Political Subdivisions"
     }
   ],
   "history": [
@@ -64,6 +75,20 @@
     {
       "date": "2026-02-02",
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0457 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-02",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0457 in Legislative Fiscal Agency",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -84,10 +109,31 @@
     },
     {
       "date": "2026-02-05",
+      "action": "LFA/ fiscal note sent to sponsor for HB0457 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "LFA/ fiscal note publicly available for HB0457 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-13",
+      "action": "House/ to standing committee in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -240,14 +286,14 @@
   "gov_tracking_id": "DMXUEEYCYQ",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/5/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Political Subdivisions Committee",
+  "last_action_time": "2/13/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/2/2026 11:37 AM",
+      "actionDate": "2026-02-02 11:37:25.003",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -260,7 +306,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/2/2026 11:37 AM",
+      "actionDate": "2026-02-02 11:37:25.003",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -271,9 +317,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0457",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-02 11:37:26.067",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0457",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-02 11:37:26.067",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "2/3/2026 8:14 AM",
+      "actionDate": "2026-02-03 08:14:37.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -286,7 +358,7 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "2/3/2026 11:20 AM",
+      "actionDate": "2026-02-03 11:20:31.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -297,15 +369,54 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for HB0457",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-05 06:03:26.348",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0457",
+      "owner": "Released",
+      "actionDate": "2026-02-05 08:52:20.973",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "House Rules Committee",
-      "actionDate": "2/5/2026 10:10 AM",
+      "actionDate": "2026-02-05 10:10:04.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2026-02-13 11:58:14.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

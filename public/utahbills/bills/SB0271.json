@@ -1,6 +1,6 @@
 {
   "bill_id": 2110672,
-  "change_hash": "2309a02a648debeb95253e2e057f4313",
+  "change_hash": "78923a37569dd72cfb00c978375fbd8e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "High School Activities Governance",
   "description": "High School Activities Governance",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-06",
@@ -81,6 +76,20 @@
     },
     {
       "date": "2026-02-06",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for SB0271 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
+      "action": "LFA/ bill sent to agencies for fiscal input for SB0271 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-06",
       "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
       "chamber": "S",
       "chamber_id": 94,
@@ -99,6 +108,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-11",
+      "action": "LFA/ fiscal note sent to sponsor for SB0271 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-11",
+      "action": "LFA/ fiscal note publicly available for SB0271 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-11",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -176,6 +206,22 @@
     {
       "subject_id": 11846,
       "subject_name": "Education"
+    },
+    {
+      "subject_id": 332526,
+      "subject_name": "K-12 Education"
+    },
+    {
+      "subject_id": 12044,
+      "subject_name": "State Board of Education"
+    },
+    {
+      "subject_id": 383611,
+      "subject_name": "Local Education Agencies (LEAs)"
+    },
+    {
+      "subject_id": 334982,
+      "subject_name": "Athletics"
     }
   ],
   "texts": [
@@ -200,8 +246,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 665947,
+      "date": "2026-02-11",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0271",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0271/id/665947",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0271.fn.pdf",
+      "supplement_size": 1609778,
+      "supplement_hash": "512f7bdec399c0f2a35bbc2b3ac678ab",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "bd5d78c6",
+      "type": "Hearing",
+      "date": "2026-02-18",
+      "time": "08:00",
+      "location": "",
+      "description": "Senate Education Hearing"
+    }
+  ],
   "general_provisions": "This bill establishes the Office of Interscholastic Activities within the State Board of Education to govern interscholastic activities.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>establishes the Office of Interscholastic Activities (office) within the State Board of Education (state board) to govern interscholastic activities and provides the office's duties;<hr><ltbullet>allows the office to contract with a private association to carry out certain functions regarding operation of interscholastic activities;<hr><ltbullet>amends provisions regarding the scope of authority of an activities association;<hr><ltbullet>establishes an advisory council and provides the council's duties;<hr><ltbullet>requires reporting to the state board and the Education Interim Committee; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -210,14 +287,14 @@
   "gov_tracking_id": "UKJHUJCMQA",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/9/2026",
+  "last_action_time": "2/11/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/6/2026 1:31 PM",
+      "actionDate": "2026-02-06 13:31:04.580",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -230,7 +307,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/6/2026 1:31 PM",
+      "actionDate": "2026-02-06 13:31:04.580",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -241,9 +318,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for SB0271",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-06 13:31:06.337",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for SB0271",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-06 13:31:06.337",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "2/6/2026 1:45 PM",
+      "actionDate": "2026-02-06 13:45:46.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -256,7 +359,7 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "2/6/2026 2:18 PM",
+      "actionDate": "2026-02-06 14:18:06.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -269,13 +372,52 @@
     {
       "description": "Senate/ to standing committee",
       "owner": "Senate Education Committee",
-      "actionDate": "2/9/2026 3:32 PM",
+      "actionDate": "2026-02-09 15:32:04.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for SB0271",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-11 09:40:41.988",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for SB0271",
+      "owner": "Released",
+      "actionDate": "2026-02-11 10:07:18.207",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-11 12:14:21.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

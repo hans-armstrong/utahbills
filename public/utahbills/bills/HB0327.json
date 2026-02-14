@@ -1,6 +1,6 @@
 {
   "bill_id": 2090695,
-  "change_hash": "4fea6df29aafeede9f809444af32df2a",
+  "change_hash": "f2f58349296f4175074ec3cc946276ce",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-23",
       "event": 1
+    },
+    {
+      "date": "2026-02-12",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "License Plate Reader Amendments",
   "description": "License Plate Reader Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2110,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2110,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Law Enforcement and Criminal Justice"
   },
   "referrals": [
     {
@@ -51,9 +55,23 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-12",
+      "committee_id": 2110,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Law Enforcement and Criminal Justice"
     }
   ],
   "history": [
+    {
+      "date": "2026-01-22",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
     {
       "date": "2026-01-22",
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
@@ -63,7 +81,14 @@
     },
     {
       "date": "2026-01-22",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0327 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-22",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0327 in Legislative Fiscal Agency",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -84,10 +109,31 @@
     },
     {
       "date": "2026-01-28",
+      "action": "LFA/ fiscal note sent to sponsor for HB0327 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
+      "action": "LFA/ fiscal note publicly available for HB0327 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-28",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-12",
+      "action": "House/ to standing committee in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -304,27 +350,14 @@
   "gov_tracking_id": "LHLFADQWTD",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/28/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Law Enforcement and Criminal Justice Committee",
+  "last_action_time": "2/12/2026",
   "action_history": [
-    {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/22/2026 1:19 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/22/2026 1:19 PM",
+      "actionDate": "2026-01-22 13:19:13.920",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -335,9 +368,48 @@
       "parm2": ""
     },
     {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "2026-01-22 13:19:13.920",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0327",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-01-22 13:19:15.490",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0327",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-01-22 13:19:15.490",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "1/23/2026 9:37 AM",
+      "actionDate": "2026-01-23 09:37:11.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -350,7 +422,7 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "1/23/2026 11:18 AM",
+      "actionDate": "2026-01-23 11:18:05.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -361,15 +433,54 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for HB0327",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-01-28 05:38:31.328",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0327",
+      "owner": "Released",
+      "actionDate": "2026-01-28 09:41:47.266",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "House Rules Committee",
-      "actionDate": "1/28/2026 10:55 AM",
+      "actionDate": "2026-01-28 10:55:32.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-02-12 11:41:12.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

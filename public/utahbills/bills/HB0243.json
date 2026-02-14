@@ -1,6 +1,6 @@
 {
   "bill_id": 2073618,
-  "change_hash": "b56e2571207dc7f0e52cbcb490955f12",
+  "change_hash": "6223673d9f327c3f16bed41f424eea16",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0243/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0243.html",
-  "completed": 0,
-  "status": 1,
-  "status_date": "2026-01-20",
+  "completed": 1,
+  "status": 2,
+  "status_date": "2026-02-10",
   "progress": [
     {
       "date": "2026-01-20",
@@ -32,6 +32,10 @@
     {
       "date": "2026-02-02",
       "event": 10
+    },
+    {
+      "date": "2026-02-10",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -133,6 +137,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "House/ held in House file for bills not passed",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -284,6 +309,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0243/id/1620239",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39190"
+    },
+    {
+      "roll_call_id": 1628678,
+      "date": "2026-02-10",
+      "desc": "House/ passed 3rd reading",
+      "yea": 63,
+      "nay": 9,
+      "nv": 0,
+      "absent": 3,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0243/id/1628678",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=329&house=H"
     }
   ],
   "amendments": [
@@ -378,20 +418,20 @@
       "mtgPlace": "110 Senate Building",
       "committeeName": "House Economic Development and Workforce Services Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00001147.htm",
       "agendaURL": "/~2026/agenda/HEDW0130.ag.htm",
       "billSession": "2026GS",
       "markerID": "291752"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "2/2/2026",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "2/12/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/13/2026 2:18 PM",
+      "actionDate": "2026-01-13 14:18:21.297",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -404,7 +444,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/13/2026 2:18 PM",
+      "actionDate": "2026-01-13 14:18:21.297",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -415,9 +455,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0243",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-01-13 14:18:26.170",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0243",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-01-13 14:18:26.170",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "1/14/2026 2:14 PM",
+      "actionDate": "2026-01-14 14:14:37.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -428,9 +494,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for HB0243",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-01-17 05:09:55.405",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0243",
+      "owner": "Released",
+      "actionDate": "2026-01-17 05:09:57.493",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "Clerk of the House",
-      "actionDate": "1/20/2026 9:28 AM",
+      "actionDate": "2026-01-20 09:28:28.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -443,7 +535,7 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "1/20/2026 3:38 PM",
+      "actionDate": "2026-01-20 15:38:26.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -456,7 +548,7 @@
     {
       "description": "House/ to standing committee",
       "owner": "House Economic Development and Workforce Services Committee",
-      "actionDate": "1/22/2026 11:43 AM",
+      "actionDate": "2026-01-22 11:43:24.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -469,7 +561,7 @@
     {
       "description": "House Comm - Amendment Recommendation",
       "owner": "House Economic Development and Workforce Services Committee",
-      "actionDate": "1/30/2026 2:13 PM",
+      "actionDate": "2026-01-30 14:13:55.873",
       "actionClass": "A",
       "voteID": "39187",
       "voiceVote": "",
@@ -482,7 +574,7 @@
     {
       "description": "House Comm - Favorable Recommendation",
       "owner": "House Economic Development and Workforce Services Committee",
-      "actionDate": "1/30/2026 2:15 PM",
+      "actionDate": "2026-01-30 14:15:40.130",
       "actionClass": "A",
       "voteID": "39190",
       "voiceVote": "",
@@ -495,7 +587,7 @@
     {
       "description": "House/ comm rpt/ amended",
       "owner": "House Economic Development and Workforce Services Committee",
-      "actionDate": "2/2/2026 11:11 AM",
+      "actionDate": "2026-02-02 11:11:17.110",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -508,13 +600,91 @@
     {
       "description": "House/ 2nd reading",
       "owner": "House 3rd Reading Calendar for House bills",
-      "actionDate": "2/2/2026 11:11 AM",
+      "actionDate": "2026-02-02 11:11:18.110",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-10 14:39:57.390",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-10 14:48:51.110",
+      "actionClass": "H",
+      "voteID": "329",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "63-9-3",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ held",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-02-10 14:48:53.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HHOLD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-11 12:28:54.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "2026-02-11 15:00:20.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-12 10:33:01.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }

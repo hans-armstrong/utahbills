@@ -1,6 +1,6 @@
 {
   "bill_id": 2087318,
-  "change_hash": "e988ca295d1de6445f42597524facaed",
+  "change_hash": "653e8b635405569984732fd0d25d26bf",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0299/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0299.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2026-02-09",
   "progress": [
     {
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-09",
       "event": 2
+    },
+    {
+      "date": "2026-02-12",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,8 +53,13 @@
   "current_body_id": 94,
   "title": "School Response to Sexual Offense",
   "description": "School Response to Sexual Offense",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2124,
+  "committee": {
+    "committee_id": 2124,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Judiciary, Law Enforcement, and Criminal Justice"
+  },
   "referrals": [
     {
       "date": "2026-01-21",
@@ -65,6 +74,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Education"
+    },
+    {
+      "date": "2026-02-10",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-12",
+      "committee_id": 2124,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Judiciary, Law Enforcement, and Criminal Justice"
     }
   ],
   "history": [
@@ -83,6 +106,20 @@
       "importance": 0
     },
     {
+      "date": "2026-01-20",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0299 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-20",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0299 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
       "date": "2026-01-21",
       "action": "House/ received bill from Legislative Research in Clerk of the House",
       "chamber": "H",
@@ -95,6 +132,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-22",
+      "action": "LFA/ fiscal note sent to sponsor for HB0299 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-22",
+      "action": "LFA/ fiscal note publicly available for HB0299 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     },
     {
       "date": "2026-01-23",
@@ -169,6 +220,20 @@
     {
       "date": "2026-02-09",
       "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-10",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-12",
+      "action": "Senate/ to standing committee in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -443,6 +508,15 @@
       "time": "14:00",
       "location": "",
       "description": "House Education Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "2009b43d",
+      "type": "Hearing",
+      "date": "2026-02-17",
+      "time": "08:00",
+      "location": "",
+      "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
     }
   ],
   "general_provisions": "This bill modifies conduct and discipline policy requirements for local education agencies.",
@@ -467,14 +541,14 @@
       "markerID": "290081"
     }
   ],
-  "last_action": "Senate/ received from House",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/9/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+  "last_action_time": "2/12/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/20/2026 3:33 PM",
+      "actionDate": "2026-01-20 15:33:39.057",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -487,7 +561,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/20/2026 3:33 PM",
+      "actionDate": "2026-01-20 15:33:39.057",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -498,9 +572,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0299",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-01-20 15:33:39.890",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0299",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-01-20 15:33:39.890",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "1/21/2026 10:08 AM",
+      "actionDate": "2026-01-21 10:08:02.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -513,7 +613,7 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "1/21/2026 11:14 AM",
+      "actionDate": "2026-01-21 11:14:32.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -524,9 +624,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for HB0299",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-01-22 12:43:12.264",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0299",
+      "owner": "Released",
+      "actionDate": "2026-01-22 12:43:14.291",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "House Rules Committee",
-      "actionDate": "1/23/2026 9:58 AM",
+      "actionDate": "2026-01-23 09:58:05.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -539,7 +665,7 @@
     {
       "description": "House/ to standing committee",
       "owner": "House Education Committee",
-      "actionDate": "1/26/2026 12:15 PM",
+      "actionDate": "2026-01-26 12:15:01.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -552,7 +678,7 @@
     {
       "description": "House Comm - Favorable Recommendation",
       "owner": "House Education Committee",
-      "actionDate": "1/27/2026 3:47 PM",
+      "actionDate": "2026-01-27 15:47:29.927",
       "actionClass": "A",
       "voteID": "38969",
       "voiceVote": "",
@@ -565,7 +691,7 @@
     {
       "description": "House/ committee report favorable",
       "owner": "House Education Committee",
-      "actionDate": "1/28/2026 11:47 AM",
+      "actionDate": "2026-01-28 11:47:09.350",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -578,7 +704,7 @@
     {
       "description": "House/ 2nd reading",
       "owner": "House 3rd Reading Calendar for House bills",
-      "actionDate": "1/28/2026 11:47 AM",
+      "actionDate": "2026-01-28 11:47:10.350",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -591,7 +717,7 @@
     {
       "description": "House/ 3rd reading",
       "owner": "House 3rd Reading Calendar for House bills",
-      "actionDate": "2/5/2026 2:58 PM",
+      "actionDate": "2026-02-05 14:58:08.043",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -604,7 +730,7 @@
     {
       "description": "House/ circled",
       "owner": "House 3rd Reading Calendar for House bills",
-      "actionDate": "2/5/2026 2:58 PM",
+      "actionDate": "2026-02-05 14:58:32.590",
       "actionClass": "H",
       "voteID": "223",
       "voiceVote": "1",
@@ -617,7 +743,7 @@
     {
       "description": "House/ uncircled",
       "owner": "House 3rd Reading Calendar for House bills",
-      "actionDate": "2/9/2026 2:24 PM",
+      "actionDate": "2026-02-09 14:24:34.043",
       "actionClass": "H",
       "voteID": "284",
       "voiceVote": "1",
@@ -630,7 +756,7 @@
     {
       "description": "House/ passed 3rd reading",
       "owner": "Senate Secretary",
-      "actionDate": "2/9/2026 2:26 PM",
+      "actionDate": "2026-02-09 14:26:56.153",
       "actionClass": "H",
       "voteID": "285",
       "voiceVote": "0",
@@ -643,7 +769,7 @@
     {
       "description": "House/ to Senate",
       "owner": "Senate Secretary",
-      "actionDate": "2/9/2026 2:26 PM",
+      "actionDate": "2026-02-09 14:26:58.153",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -656,13 +782,39 @@
     {
       "description": "Senate/ received from House",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "2/9/2026 4:49 PM",
+      "actionDate": "2026-02-09 16:49:22.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-10 11:13:48.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2026-02-12 10:18:52.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

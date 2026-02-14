@@ -1,6 +1,6 @@
 {
   "bill_id": 2106408,
-  "change_hash": "7e08e878c6fa18381683d4dee60199cf",
+  "change_hash": "0f5c5c85b1325680633886b082d9bd06",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-04",
       "event": 1
+    },
+    {
+      "date": "2026-02-11",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Building Inspection Amendments",
   "description": "Building Inspection Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 5042,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 5042,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Business, Labor, and Commerce"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-11",
+      "committee_id": 5042,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Business, Labor, and Commerce"
     }
   ],
   "history": [
@@ -64,6 +75,20 @@
     {
       "date": "2026-02-03",
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0470 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0470 in Legislative Fiscal Agency",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -84,10 +109,31 @@
     },
     {
       "date": "2026-02-05",
+      "action": "LFA/ fiscal note sent to sponsor for HB0470 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "LFA/ fiscal note publicly available for HB0470 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-11",
+      "action": "House/ to standing committee in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -236,14 +282,14 @@
   "gov_tracking_id": "CLBGCEYRYO",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/5/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Business, Labor, and Commerce Committee",
+  "last_action_time": "2/11/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/3/2026 2:48 PM",
+      "actionDate": "2026-02-03 14:48:29.803",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -256,7 +302,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/3/2026 2:48 PM",
+      "actionDate": "2026-02-03 14:48:29.803",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -267,9 +313,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0470",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-03 14:48:31.387",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0470",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-03 14:48:31.387",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "2/3/2026 3:38 PM",
+      "actionDate": "2026-02-03 15:38:12.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -282,7 +354,7 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "2/4/2026 11:16 AM",
+      "actionDate": "2026-02-04 11:16:55.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -293,15 +365,54 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for HB0470",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-05 06:26:05.181",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0470",
+      "owner": "Released",
+      "actionDate": "2026-02-05 13:59:07.360",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "House Rules Committee",
-      "actionDate": "2/5/2026 3:11 PM",
+      "actionDate": "2026-02-05 15:11:45.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-11 12:20:41.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

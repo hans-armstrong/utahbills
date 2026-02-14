@@ -1,6 +1,6 @@
 {
   "bill_id": 2111654,
-  "change_hash": "ccc05c7c1c657efa6375f38176612275",
+  "change_hash": "b259192b4a3218f3cc0e07f36635ad75",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-09",
       "event": 1
+    },
+    {
+      "date": "2026-02-10",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 94,
   "title": "Transportation Funding Revisions",
   "description": "Transportation Funding Revisions",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-09",
@@ -51,6 +50,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-10",
+      "committee_id": 2120,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Education"
     }
   ],
   "history": [
@@ -70,6 +76,20 @@
     },
     {
       "date": "2026-02-09",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for SB0272 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "LFA/ bill sent to agencies for fiscal input for SB0272 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
       "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
       "chamber": "S",
       "chamber_id": 94,
@@ -81,6 +101,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-10",
+      "action": "Senate/ to standing committee in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-11",
+      "action": "LFA/ fiscal note sent to sponsor for SB0272 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-12",
+      "action": "LFA/ fiscal note publicly available for SB0272 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-13",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -158,6 +206,22 @@
     {
       "subject_id": 11875,
       "subject_name": "Transportation"
+    },
+    {
+      "subject_id": 11991,
+      "subject_name": "Charter Schools"
+    },
+    {
+      "subject_id": 11846,
+      "subject_name": "Education"
+    },
+    {
+      "subject_id": 332526,
+      "subject_name": "K-12 Education"
+    },
+    {
+      "subject_id": 11848,
+      "subject_name": "School Finance"
     }
   ],
   "texts": [
@@ -182,8 +246,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 668130,
+      "date": "2026-02-12",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0272",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0272/id/668130",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0272.fn.pdf",
+      "supplement_size": 1609662,
+      "supplement_hash": "3433a9167927ad3a92603ab13b182ee4",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "bd5d78c6",
+      "type": "Hearing",
+      "date": "2026-02-18",
+      "time": "08:00",
+      "location": "",
+      "description": "Senate Education Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies and enacts provisions related to public school transportation funding.",
   "hilighted_provisions": "This bill:<hr><ltbullet>amends provisions to allow a charter school to be eligible for state transportation funding beginning on a certain date;<hr><ltbullet>requires the Public Education Appropriations Subcommittee to conduct a study related to charter school transportation funding;<hr><ltbullet>creates a sunset provision; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -192,14 +287,14 @@
   "gov_tracking_id": "JNCHTCSJPV",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/9/2026",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "Senate Education Committee",
+  "last_action_time": "2/13/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/9/2026 8:37 AM",
+      "actionDate": "2026-02-09 08:37:08.737",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -212,7 +307,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/9/2026 8:37 AM",
+      "actionDate": "2026-02-09 08:37:08.737",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -223,9 +318,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for SB0272",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-09 08:37:12.183",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for SB0272",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-09 08:37:12.183",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "2/9/2026 10:54 AM",
+      "actionDate": "2026-02-09 10:54:22.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -238,13 +359,65 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "2/9/2026 11:15 AM",
+      "actionDate": "2026-02-09 11:15:23.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-10 14:28:01.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for SB0272",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-11 11:11:42.534",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for SB0272",
+      "owner": "Released",
+      "actionDate": "2026-02-12 13:41:35.176",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-13 09:16:18.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

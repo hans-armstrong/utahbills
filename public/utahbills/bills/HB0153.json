@@ -1,6 +1,6 @@
 {
   "bill_id": 2065971,
-  "change_hash": "059706f3715df3b7da787415815b9462",
+  "change_hash": "4607c23193a90ce88dac351e5c59a505",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-05",
       "event": 9
+    },
+    {
+      "date": "2026-02-12",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Law Enforcement Officer Employment Amendments",
   "description": "Law Enforcement Officer Employment Amendments",
-  "pending_committee_id": 2110,
-  "committee": {
-    "committee_id": 2110,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Law Enforcement and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -80,10 +79,31 @@
       "importance": 0
     },
     {
+      "date": "2026-01-06",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0153 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-06",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0153 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
       "date": "2026-01-14",
       "action": "House/ received bill from Legislative Research in Clerk of the House",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-17",
+      "action": "LFA/ fiscal note sent to sponsor for HB0153 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     },
     {
@@ -92,6 +112,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-22",
+      "action": "LFA/ fiscal note publicly available for HB0153 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     },
     {
       "date": "2026-01-22",
@@ -106,6 +133,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-11",
+      "action": "House Comm - Amendment Recommendation in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-11",
+      "action": "House Comm - Favorable Recommendation in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-12",
+      "action": "House/ comm rpt/ amended in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-12",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -211,9 +266,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3360002,
+      "date": "2026-02-12",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0153/id/3360002",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_HB0153_2026-02-12_10-19-19.pdf",
+      "text_size": 42526,
+      "text_hash": "9bc78193eb0364209170f09bbec227a8",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1630158,
+      "date": "2026-02-11",
+      "desc": "House Comm - Amendment Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0153/id/1630158",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39922"
+    },
+    {
+      "roll_call_id": 1630159,
+      "date": "2026-02-11",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0153/id/1630159",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39923"
+    }
+  ],
   "amendments": [
     {
       "amendment_id": 268174,
@@ -257,9 +361,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 665841,
+      "date": "2026-02-11",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0153",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0153/id/665841",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0153H02.pdf",
+      "supplement_size": 19643,
+      "supplement_hash": "28fc92d84b7bf8147586edffb1e38887",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "20baa809",
+      "type": "Hearing",
+      "date": "2026-02-11",
+      "time": "14:00",
+      "location": "",
+      "description": "House Law Enforcement and Criminal Justice Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses law enforcement officer employment.",
   "hilighted_provisions": "This bill:<hr><ltbullet>requires municipalities to provide certain procedures to a law enforcement officer before the municipality may terminate or otherwise significantly impact the law enforcement officer's employment; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -267,15 +401,29 @@
   "fiscal_analyst": "Nate Osborne",
   "gov_tracking_id": "EROTWQJSVC",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Law Enforcement and Criminal Justice Committee",
-  "last_action_time": "2/5/2026",
+  "agendas": [
+    {
+      "mtgID": "20214",
+      "committeeID": "HSTLAW",
+      "mtgDate": "2026-02-11 14:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Law Enforcement and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001627.htm",
+      "agendaURL": "/~2026/agenda/HLAW0211.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "296292"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/12/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/6/2026 1:19 PM",
+      "actionDate": "2026-01-06 13:19:18.267",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -288,7 +436,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/6/2026 1:19 PM",
+      "actionDate": "2026-01-06 13:19:18.267",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -299,9 +447,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0153",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-01-06 13:19:20.850",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0153",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-01-06 13:19:20.850",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "1/14/2026 1:59 PM",
+      "actionDate": "2026-01-14 13:59:06.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -312,9 +486,22 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for HB0153",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-01-17 12:30:58.426",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "1/20/2026 3:38 PM",
+      "actionDate": "2026-01-20 15:38:23.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -325,9 +512,22 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note publicly available for HB0153",
+      "owner": "Released",
+      "actionDate": "2026-01-22 10:50:22.513",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "House Rules Committee",
-      "actionDate": "1/22/2026 11:23 AM",
+      "actionDate": "2026-01-22 11:23:43.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -340,13 +540,65 @@
     {
       "description": "House/ to standing committee",
       "owner": "House Law Enforcement and Criminal Justice Committee",
-      "actionDate": "2/5/2026 11:59 AM",
+      "actionDate": "2026-02-05 11:59:46.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Amendment Recommendation",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-02-11 15:09:36.360",
+      "actionClass": "A",
+      "voteID": "39922",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-2",
+      "actionCode": "HCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-02-11 15:11:15.017",
+      "actionClass": "A",
+      "voteID": "39923",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-2",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ amended",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-02-12 10:19:29.120",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-12 10:19:30.120",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

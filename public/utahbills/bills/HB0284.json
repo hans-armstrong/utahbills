@@ -1,6 +1,6 @@
 {
   "bill_id": 2086028,
-  "change_hash": "e5c39aabd598bfc662d26cbafa99a2c8",
+  "change_hash": "6773ec58d1ef0d120cd39cbfb97160cb",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-09",
       "event": 9
+    },
+    {
+      "date": "2026-02-12",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Murder Offense Amendments",
   "description": "Murder Offense Amendments",
-  "pending_committee_id": 2110,
-  "committee": {
-    "committee_id": 2110,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Law Enforcement and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -80,6 +79,20 @@
       "importance": 0
     },
     {
+      "date": "2026-01-19",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0284 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-19",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0284 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
       "date": "2026-01-20",
       "action": "House/ received bill from Legislative Research in Clerk of the House",
       "chamber": "H",
@@ -94,6 +107,20 @@
       "importance": 1
     },
     {
+      "date": "2026-01-22",
+      "action": "LFA/ fiscal note sent to sponsor for HB0284 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-22",
+      "action": "LFA/ fiscal note publicly available for HB0284 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
       "date": "2026-01-23",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
       "chamber": "H",
@@ -106,6 +133,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-11",
+      "action": "House Comm - Favorable Recommendation in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-12",
+      "action": "House/ committee report favorable in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-12",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -285,7 +333,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1630241,
+      "date": "2026-02-11",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0284/id/1630241",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39913"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -307,9 +371,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 665882,
+      "date": "2026-02-11",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0284",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0284/id/665882",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0284H02.pdf",
+      "supplement_size": 17540,
+      "supplement_hash": "5b1be2975968129d9f7ccb1831ce7ebd",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "20baa809",
+      "type": "Hearing",
+      "date": "2026-02-11",
+      "time": "14:00",
+      "location": "",
+      "description": "House Law Enforcement and Criminal Justice Hearing"
+    }
+  ],
   "general_provisions": "This bill amends the offense of murder.",
   "hilighted_provisions": "This bill:<hr><ltbullet>amends the offense of murder when the actor acts in a depraved indifference to human life to clarify that the actor does not need to have a specific intent to kill a specific individual.",
   "monies": "None",
@@ -317,15 +411,29 @@
   "fiscal_analyst": "Gary R. Syphus",
   "gov_tracking_id": "MJEURDQMLR",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Law Enforcement and Criminal Justice Committee",
-  "last_action_time": "2/9/2026",
+  "agendas": [
+    {
+      "mtgID": "20214",
+      "committeeID": "HSTLAW",
+      "mtgDate": "2026-02-11 14:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Law Enforcement and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001627.htm",
+      "agendaURL": "/~2026/agenda/HLAW0211.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "296276"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/12/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/19/2026 2:22 PM",
+      "actionDate": "2026-01-19 14:22:30.173",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -338,7 +446,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/19/2026 2:22 PM",
+      "actionDate": "2026-01-19 14:22:30.190",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -349,9 +457,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0284",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-01-19 14:22:33.163",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0284",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-01-19 14:22:33.163",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "1/20/2026 8:51 AM",
+      "actionDate": "2026-01-20 08:51:38.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -364,7 +498,7 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "1/20/2026 3:44 PM",
+      "actionDate": "2026-01-20 15:44:32.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -375,9 +509,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for HB0284",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-01-22 18:23:24.701",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0284",
+      "owner": "Released",
+      "actionDate": "2026-01-22 18:23:25.763",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "House Rules Committee",
-      "actionDate": "1/23/2026 9:58 AM",
+      "actionDate": "2026-01-23 09:58:05.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -390,13 +550,52 @@
     {
       "description": "House/ to standing committee",
       "owner": "House Law Enforcement and Criminal Justice Committee",
-      "actionDate": "2/9/2026 12:35 PM",
+      "actionDate": "2026-02-09 12:35:23.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-02-11 14:59:00.020",
+      "actionClass": "A",
+      "voteID": "39913",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-2",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-02-12 10:19:29.560",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-12 10:19:30.560",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

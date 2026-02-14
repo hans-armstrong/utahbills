@@ -1,6 +1,6 @@
 {
   "bill_id": 2087091,
-  "change_hash": "beb146b272a79f6db6c992f0ac0c6ee5",
+  "change_hash": "6fe053ecc301b4edd711178d9c7dea7a",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-06",
       "event": 2
+    },
+    {
+      "date": "2026-02-10",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,12 +53,12 @@
   "current_body_id": 94,
   "title": "Security and Land Restriction Amendments",
   "description": "Security and Land Restriction Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2125,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2125,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Natural Resources, Agriculture, and Environment"
   },
   "referrals": [
     {
@@ -77,6 +81,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-10",
+      "committee_id": 2125,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Natural Resources, Agriculture, and Environment"
     }
   ],
   "history": [
@@ -96,6 +107,20 @@
     },
     {
       "date": "2026-01-20",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0291 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-20",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0291 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-20",
       "action": "House/ received bill from Legislative Research in Clerk of the House",
       "chamber": "H",
       "chamber_id": 93,
@@ -107,6 +132,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-22",
+      "action": "LFA/ fiscal note sent to sponsor for HB0291 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-26",
+      "action": "LFA/ fiscal note publicly available for HB0291 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     },
     {
       "date": "2026-01-26",
@@ -184,6 +223,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "Senate/ to standing committee in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -514,6 +560,15 @@
       "time": "14:00",
       "location": "",
       "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "7d1852b5",
+      "type": "Hearing",
+      "date": "2026-02-17",
+      "time": "08:00",
+      "location": "",
+      "description": "Senate Natural Resources, Agriculture, and Environment Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions dealing with the sale of land to restricted foreign entities.",
@@ -538,14 +593,14 @@
       "markerID": "290558"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/9/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+  "last_action_time": "2/10/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/20/2026 2:23 PM",
+      "actionDate": "2026-01-20 14:23:43.070",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -558,7 +613,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/20/2026 2:23 PM",
+      "actionDate": "2026-01-20 14:23:43.070",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -569,9 +624,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0291",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-01-20 14:23:46.017",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0291",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-01-20 14:23:46.017",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "1/20/2026 2:41 PM",
+      "actionDate": "2026-01-20 14:41:22.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -584,7 +665,7 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "1/20/2026 3:44 PM",
+      "actionDate": "2026-01-20 15:44:32.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -595,9 +676,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for HB0291",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-01-22 13:21:52.419",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0291",
+      "owner": "Released",
+      "actionDate": "2026-01-26 09:03:35.536",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "House Rules Committee",
-      "actionDate": "1/26/2026 10:30 AM",
+      "actionDate": "2026-01-26 10:30:56.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -610,7 +717,7 @@
     {
       "description": "House/ to standing committee",
       "owner": "House Natural Resources, Agriculture, and Environment Committee",
-      "actionDate": "1/27/2026 12:03 PM",
+      "actionDate": "2026-01-27 12:03:47.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -623,7 +730,7 @@
     {
       "description": "House Comm - Amendment Recommendation",
       "owner": "House Natural Resources, Agriculture, and Environment Committee",
-      "actionDate": "1/28/2026 2:25 PM",
+      "actionDate": "2026-01-28 14:25:10.837",
       "actionClass": "A",
       "voteID": "39022",
       "voiceVote": "",
@@ -636,7 +743,7 @@
     {
       "description": "House Comm - Favorable Recommendation",
       "owner": "House Natural Resources, Agriculture, and Environment Committee",
-      "actionDate": "1/28/2026 2:25 PM",
+      "actionDate": "2026-01-28 14:25:40.050",
       "actionClass": "A",
       "voteID": "39023",
       "voiceVote": "",
@@ -649,7 +756,7 @@
     {
       "description": "House/ comm rpt/ amended",
       "owner": "House Natural Resources, Agriculture, and Environment Committee",
-      "actionDate": "1/29/2026 11:16 AM",
+      "actionDate": "2026-01-29 11:16:46.370",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -662,7 +769,7 @@
     {
       "description": "House/ 2nd reading",
       "owner": "House 3rd Reading Calendar for House bills",
-      "actionDate": "1/29/2026 11:16 AM",
+      "actionDate": "2026-01-29 11:16:47.370",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -675,7 +782,7 @@
     {
       "description": "House/ 3rd reading",
       "owner": "House 3rd Reading Calendar for House bills",
-      "actionDate": "2/6/2026 3:12 PM",
+      "actionDate": "2026-02-06 15:12:01.440",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -688,7 +795,7 @@
     {
       "description": "House/ passed 3rd reading",
       "owner": "Senate Secretary",
-      "actionDate": "2/6/2026 3:17 PM",
+      "actionDate": "2026-02-06 15:17:55.257",
       "actionClass": "H",
       "voteID": "258",
       "voiceVote": "0",
@@ -701,7 +808,7 @@
     {
       "description": "House/ to Senate",
       "owner": "Senate Secretary",
-      "actionDate": "2/6/2026 3:17 PM",
+      "actionDate": "2026-02-06 15:17:57.257",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -714,7 +821,7 @@
     {
       "description": "Senate/ received from House",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "2/6/2026 4:32 PM",
+      "actionDate": "2026-02-06 16:32:32.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -727,13 +834,26 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "2/9/2026 11:11 AM",
+      "actionDate": "2026-02-09 11:11:26.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-10 14:28:01.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

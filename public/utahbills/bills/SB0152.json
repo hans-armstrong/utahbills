@@ -1,6 +1,6 @@
 {
   "bill_id": 2085138,
-  "change_hash": "2632c232639351297036aa62baf72029",
+  "change_hash": "e3c7790022721ddaabef1b9b2ac3441b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SB0152/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0152.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2026-01-20",
+  "status": 2,
+  "status_date": "2026-02-10",
   "progress": [
     {
       "date": "2026-01-20",
@@ -32,6 +32,14 @@
     {
       "date": "2026-01-27",
       "event": 10
+    },
+    {
+      "date": "2026-02-10",
+      "event": 2
+    },
+    {
+      "date": "2026-02-11",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -41,12 +49,17 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Public and Higher Education Collaboration",
   "description": "Public and Higher Education Collaboration",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2105,
+  "committee": {
+    "committee_id": 2105,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Education"
+  },
   "referrals": [
     {
       "date": "2026-01-20",
@@ -61,9 +74,30 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Education"
+    },
+    {
+      "date": "2026-02-10",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-11",
+      "committee_id": 2105,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Education"
     }
   ],
   "history": [
+    {
+      "date": "2026-01-16",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
     {
       "date": "2026-01-16",
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
@@ -73,7 +107,14 @@
     },
     {
       "date": "2026-01-16",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for SB0152 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-16",
+      "action": "LFA/ bill sent to agencies for fiscal input for SB0152 in Legislative Fiscal Agency",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -98,6 +139,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-21",
+      "action": "LFA/ fiscal note sent to sponsor for SB0152 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-22",
+      "action": "LFA/ fiscal note publicly available for SB0152 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     },
     {
       "date": "2026-01-23",
@@ -147,6 +202,48 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-10",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-11",
+      "action": "House/ to standing committee in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -405,6 +502,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0152/id/1626576",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=331&house=S"
+    },
+    {
+      "roll_call_id": 1628761,
+      "date": "2026-02-10",
+      "desc": "Senate/ passed 3rd reading",
+      "yea": 26,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0152/id/1628761",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=364&house=S"
     }
   ],
   "amendments": [
@@ -481,6 +593,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Education Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "35134a7b",
+      "type": "Hearing",
+      "date": "2026-02-17",
+      "time": "08:00",
+      "location": "",
+      "description": "House Education Hearing"
     }
   ],
   "general_provisions": "This bill establishes a process for sharing grades 7through12 student data between public education and higher education.",
@@ -505,27 +626,14 @@
       "markerID": "289487"
     }
   ],
-  "last_action": "Senate/ passed 2nd reading",
-  "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/9/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Education Committee",
+  "last_action_time": "2/11/2026",
   "action_history": [
-    {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/16/2026 3:59 PM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/16/2026 3:59 PM",
+      "actionDate": "2026-01-16 15:59:00.390",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -536,9 +644,48 @@
       "parm2": ""
     },
     {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "2026-01-16 15:59:00.390",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for SB0152",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-01-16 15:59:03.177",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for SB0152",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-01-16 15:59:03.177",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "1/19/2026 8:28 AM",
+      "actionDate": "2026-01-19 08:28:19.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -551,7 +698,7 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "1/20/2026 11:09 AM",
+      "actionDate": "2026-01-20 11:09:51.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -564,7 +711,7 @@
     {
       "description": "Senate/ to standing committee",
       "owner": "Senate Education Committee",
-      "actionDate": "1/21/2026 12:08 PM",
+      "actionDate": "2026-01-21 12:08:38.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -575,9 +722,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for SB0152",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-01-21 17:34:30.628",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for SB0152",
+      "owner": "Released",
+      "actionDate": "2026-01-22 12:40:04.154",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
       "owner": "Senate Education Committee",
-      "actionDate": "1/23/2026 8:10 AM",
+      "actionDate": "2026-01-23 08:10:14.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -590,7 +763,7 @@
     {
       "description": "Senate Comm - Amendment Recommendation",
       "owner": "Senate Education Committee",
-      "actionDate": "1/26/2026 4:29 PM",
+      "actionDate": "2026-01-26 16:29:55.453",
       "actionClass": "A",
       "voteID": "38892",
       "voiceVote": "",
@@ -603,7 +776,7 @@
     {
       "description": "Senate Comm - Favorable Recommendation",
       "owner": "Senate Education Committee",
-      "actionDate": "1/26/2026 4:32 PM",
+      "actionDate": "2026-01-26 16:32:42.850",
       "actionClass": "A",
       "voteID": "38893",
       "voiceVote": "",
@@ -616,7 +789,7 @@
     {
       "description": "Senate/ comm rpt/ amended",
       "owner": "Senate Education Committee",
-      "actionDate": "1/27/2026 11:15 AM",
+      "actionDate": "2026-01-27 11:15:29.620",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -629,7 +802,7 @@
     {
       "description": "Senate/ placed on 2nd Reading Calendar",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "1/27/2026 11:15 AM",
+      "actionDate": "2026-01-27 11:15:30.620",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -642,7 +815,7 @@
     {
       "description": "Senate/ 2nd reading",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "2/9/2026 11:38 AM",
+      "actionDate": "2026-02-09 11:38:16.017",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -655,13 +828,91 @@
     {
       "description": "Senate/ passed 2nd reading",
       "owner": "Senate 3rd Reading Calendar",
-      "actionDate": "2/9/2026 11:43 AM",
+      "actionDate": "2026-02-09 11:43:22.067",
       "actionClass": "S",
       "voteID": "331",
       "voiceVote": "0",
       "voteHouse": "S",
       "voteStr": "28-0-1",
       "actionCode": "SPASS2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-10 11:26:56.143",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-10 11:29:27.473",
+      "actionClass": "S",
+      "voteID": "364",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "26-0-3",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-10 11:29:28.473",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-10 12:40:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-10 14:07:36.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Education Committee",
+      "actionDate": "2026-02-11 12:31:57.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

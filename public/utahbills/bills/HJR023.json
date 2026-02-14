@@ -1,6 +1,6 @@
 {
   "bill_id": 2111784,
-  "change_hash": "ed0d0f3c7fb36836309fac10aecad03b",
+  "change_hash": "840bc14fa7e6bfd588a6292e1b86efd7",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-09",
       "event": 1
+    },
+    {
+      "date": "2026-02-12",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Joint Rules Resolution - Policy Development and Impact",
   "description": "Joint Rules Resolution - Policy Development and Impact",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-09",
@@ -70,6 +69,20 @@
     },
     {
       "date": "2026-02-09",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HJR023 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "LFA/ bill sent to agencies for fiscal input for HJR023 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
       "action": "House/ received bill from Legislative Research in Clerk of the House",
       "chamber": "H",
       "chamber_id": 93,
@@ -81,6 +94,55 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-09",
+      "action": "LFA/ fiscal note sent to sponsor for HJR023 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "LFA/ fiscal note publicly available for HJR023 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-12",
+      "action": "House Comm - Amendment Recommendation in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-12",
+      "action": "House Comm - Favorable Recommendation in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-12",
+      "action": "House/ comm rpt/ amended in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-12",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -158,6 +220,14 @@
     {
       "subject_id": 332524,
       "subject_name": "Legislative Operations"
+    },
+    {
+      "subject_id": 11987,
+      "subject_name": "Resolutions"
+    },
+    {
+      "subject_id": 12067,
+      "subject_name": "Resolutions, Rules"
     }
   ],
   "texts": [
@@ -178,10 +248,81 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3360790,
+      "date": "2026-02-12",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HJR023/id/3360790",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_HJR023_2026-02-12_14-07-23.pdf",
+      "text_size": 33291,
+      "text_hash": "576d35a523aca46d797f79945f118c4c",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
-  "amendments": [],
+  "votes": [
+    {
+      "roll_call_id": 1632104,
+      "date": "2026-02-12",
+      "desc": "House Comm - Amendment Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 8,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HJR023/id/1632104",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40039"
+    },
+    {
+      "roll_call_id": 1632105,
+      "date": "2026-02-12",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 6,
+      "nay": 1,
+      "nv": 0,
+      "absent": 1,
+      "total": 8,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HJR023/id/1632105",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40040"
+    }
+  ],
+  "amendments": [
+    {
+      "amendment_id": 273595,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2026-02-12",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HJR023/id/273595",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HJR023.Hamd.1.pdf",
+      "amendment_size": 6777,
+      "amendment_hash": "29a739845c4d7078542112b1ecdc3422",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 662542,
@@ -202,9 +343,39 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 667620,
+      "date": "2026-02-12",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HJR023",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HJR023/id/667620",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HJR023H01.pdf",
+      "supplement_size": 18567,
+      "supplement_hash": "ccb2237a821f3a9da7fffb758eaffc1b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "6f547885",
+      "type": "Hearing",
+      "date": "2026-02-12",
+      "time": "12:30",
+      "location": "",
+      "description": "House Rules Hearing"
+    }
+  ],
   "general_provisions": "This joint rules resolution enacts provisions related to policy development and impact.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>requires the chief sponsor of legislation to specify the policy problem and measurable objectives to evaluate the impact of the legislation;<hr><ltbullet>requires the Office of Legislative Research and General Counsel to assist with developing policy and ensure that legislation's drafting instructions include certain information; and<hr><ltbullet>authorizes the Office of the Legislative Auditor General, when conducting an audit, to request certain information from the Office of Legislative Research and General Counsel.",
   "monies": "None",
@@ -212,15 +383,29 @@
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "JHWELMNVWC",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/9/2026",
+  "agendas": [
+    {
+      "mtgID": "20557",
+      "committeeID": "HSTRUL",
+      "mtgDate": "2026-02-12 12:30:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "450 State Capitol",
+      "committeeName": "House Rules Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HRUL0212.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "296740"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/12/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/9/2026 8:27 AM",
+      "actionDate": "2026-02-09 08:27:47.907",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -233,7 +418,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/9/2026 8:27 AM",
+      "actionDate": "2026-02-09 08:27:47.907",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -244,9 +429,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HJR023",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-09 08:27:49.273",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HJR023",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-09 08:27:49.273",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "2/9/2026 10:06 AM",
+      "actionDate": "2026-02-09 10:06:36.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -259,13 +470,104 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "2/9/2026 11:26 AM",
+      "actionDate": "2026-02-09 11:26:46.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HJR023",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-09 17:55:19.345",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HJR023",
+      "owner": "Released",
+      "actionDate": "2026-02-09 17:55:20.228",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-10 07:41:01.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Amendment Recommendation",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-12 13:41:24.323",
+      "actionClass": "A",
+      "voteID": "40039",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-1",
+      "actionCode": "HCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-12 13:44:30.123",
+      "actionClass": "A",
+      "voteID": "40040",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-1-1",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ amended",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-12 14:24:05.063",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-12 14:24:06.063",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

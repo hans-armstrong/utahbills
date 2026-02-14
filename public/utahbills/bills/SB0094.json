@@ -1,6 +1,6 @@
 {
   "bill_id": 2066843,
-  "change_hash": "19ec620715dd28bb7f4f8b66cc04af71",
+  "change_hash": "e32933c06fb6f90d38f77ba1ffc9cc86",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -66,6 +66,13 @@
   "history": [
     {
       "date": "2026-01-07",
+      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-07",
       "action": "Numbered Bill Publicly Distributed in Legislative Research and General Counsel",
       "chamber": "",
       "chamber_id": 0,
@@ -73,7 +80,14 @@
     },
     {
       "date": "2026-01-07",
-      "action": "Bill Numbered but not Distributed in Legislative Research and General Counsel",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for SB0094 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-07",
+      "action": "LFA/ bill sent to agencies for fiscal input for SB0094 in Legislative Fiscal Agency",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -83,6 +97,13 @@
       "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-16",
+      "action": "LFA/ fiscal note sent to sponsor for SB0094 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     },
     {
@@ -98,6 +119,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-01-21",
+      "action": "LFA/ fiscal note publicly available for SB0094 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     },
     {
       "date": "2026-01-22",
@@ -123,6 +151,20 @@
     {
       "date": "2026-01-29",
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-13",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-13",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -252,6 +294,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0094/id/1617590",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=38950"
+    },
+    {
+      "roll_call_id": 1633559,
+      "date": "2026-02-13",
+      "desc": "Senate/ passed 2nd reading",
+      "yea": 23,
+      "nay": 0,
+      "nv": 0,
+      "absent": 6,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0094/id/1633559",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=471&house=S"
     }
   ],
   "amendments": [],
@@ -330,27 +387,14 @@
       "markerID": "290005"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "1/29/2026",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/13/2026",
   "action_history": [
-    {
-      "description": "Numbered Bill Publicly Distributed",
-      "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/7/2026 10:50 AM",
-      "actionClass": "L",
-      "voteID": "",
-      "voiceVote": "",
-      "voteHouse": "",
-      "voteStr": "",
-      "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
-    },
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/7/2026 10:50 AM",
+      "actionDate": "2026-01-07 10:50:29.917",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -361,9 +405,48 @@
       "parm2": ""
     },
     {
+      "description": "Numbered Bill Publicly Distributed",
+      "owner": "Legislative Research and General Counsel",
+      "actionDate": "2026-01-07 10:50:29.917",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for SB0094",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-01-07 10:50:30.653",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for SB0094",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-01-07 10:50:30.653",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "1/12/2026 10:06 AM",
+      "actionDate": "2026-01-12 10:06:11.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -374,9 +457,22 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for SB0094",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-01-16 16:04:47.972",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "1/20/2026 11:07 AM",
+      "actionDate": "2026-01-20 11:07:25.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -389,7 +485,7 @@
     {
       "description": "Senate/ to standing committee",
       "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-      "actionDate": "1/20/2026 3:08 PM",
+      "actionDate": "2026-01-20 15:08:34.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -400,9 +496,22 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note publicly available for SB0094",
+      "owner": "Released",
+      "actionDate": "2026-01-21 11:38:20.787",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
       "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-      "actionDate": "1/22/2026 9:49 AM",
+      "actionDate": "2026-01-22 09:49:10.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -415,7 +524,7 @@
     {
       "description": "Senate Comm - Favorable Recommendation",
       "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-      "actionDate": "1/27/2026 3:12 PM",
+      "actionDate": "2026-01-27 15:12:17.787",
       "actionClass": "A",
       "voteID": "38950",
       "voiceVote": "",
@@ -428,7 +537,7 @@
     {
       "description": "Senate/ committee report favorable",
       "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-      "actionDate": "1/29/2026 11:43 AM",
+      "actionDate": "2026-01-29 11:43:58.353",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -441,13 +550,39 @@
     {
       "description": "Senate/ placed on 2nd Reading Calendar",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "1/29/2026 11:43 AM",
+      "actionDate": "2026-01-29 11:43:59.353",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-13 11:19:34.513",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-13 11:21:08.897",
+      "actionClass": "S",
+      "voteID": "471",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "23-0-6",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

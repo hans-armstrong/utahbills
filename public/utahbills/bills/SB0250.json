@@ -1,6 +1,6 @@
 {
   "bill_id": 2107299,
-  "change_hash": "c281f251516783d7fd0dc924ec1ea166",
+  "change_hash": "e5100bbeb7bbc9b5fe41d43770837d1a",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Great Salt Lake Amendments",
   "description": "Great Salt Lake Amendments",
-  "pending_committee_id": 2125,
-  "committee": {
-    "committee_id": 2125,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Natural Resources, Agriculture, and Environment"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-04",
@@ -81,6 +76,20 @@
     },
     {
       "date": "2026-02-04",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for SB0250 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
+      "action": "LFA/ bill sent to agencies for fiscal input for SB0250 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-04",
       "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
       "chamber": "S",
       "chamber_id": 94,
@@ -101,8 +110,29 @@
       "importance": 1
     },
     {
+      "date": "2026-02-06",
+      "action": "LFA/ fiscal note sent to sponsor for SB0250 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "LFA/ fiscal note publicly available for SB0250 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
       "date": "2026-02-09",
       "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-09",
+      "action": "Senate Comm - Held in Senate Natural Resources, Agriculture, and Environment Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -183,22 +213,6 @@
     {
       "subject_id": 332638,
       "subject_name": "Environment"
-    },
-    {
-      "subject_id": 11898,
-      "subject_name": "Natural Resources"
-    },
-    {
-      "subject_id": 359961,
-      "subject_name": "Water Rights"
-    },
-    {
-      "subject_id": 334139,
-      "subject_name": "Water"
-    },
-    {
-      "subject_id": 377577,
-      "subject_name": "Great Salt Lake"
     }
   ],
   "texts": [
@@ -219,9 +233,43 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3361515,
+      "date": "2026-02-12",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0250/id/3361515",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0250S01.pdf",
+      "text_size": 24988,
+      "text_hash": "c64494868cc063c4247b2916c8edc268",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1627675,
+      "date": "2026-02-09",
+      "desc": "Senate Comm - Held",
+      "yea": 5,
+      "nay": 1,
+      "nv": 0,
+      "absent": 1,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0250/id/1627675",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39742"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -237,6 +285,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0250.fn.pdf",
       "supplement_size": 1609481,
       "supplement_hash": "0c9092d59cadd4639435578e0f3a177e",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 668438,
+      "date": "2026-02-12",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0250/id/668438",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0250%20To%20SB0250S01.pdf",
+      "supplement_size": 30725,
+      "supplement_hash": "4b5518df8d23fa9f76d6d7f9c5b64284",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -272,20 +340,20 @@
       "mtgPlace": "215 Senate Building",
       "committeeName": "Senate Natural Resources, Agriculture, and Environment Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00001616.htm",
       "agendaURL": "/~2026/agenda/SNAE0209.ag.htm",
       "billSession": "2026GS",
       "markerID": "295437"
     }
   ],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "last_action": "Senate Comm - Held",
   "last_action_owner": "Senate Natural Resources, Agriculture, and Environment Committee",
   "last_action_time": "2/9/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/4/2026 8:37 AM",
+      "actionDate": "2026-02-04 08:37:46.880",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -298,7 +366,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/4/2026 8:37 AM",
+      "actionDate": "2026-02-04 08:37:46.880",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -309,9 +377,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for SB0250",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-04 08:37:49.060",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for SB0250",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-04 08:37:49.060",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "2/4/2026 10:56 AM",
+      "actionDate": "2026-02-04 10:56:00.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -324,7 +418,7 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "2/4/2026 11:59 AM",
+      "actionDate": "2026-02-04 11:59:16.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -337,7 +431,7 @@
     {
       "description": "Senate/ to standing committee",
       "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
-      "actionDate": "2/5/2026 2:12 PM",
+      "actionDate": "2026-02-05 14:12:24.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -348,15 +442,54 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for SB0250",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-06 03:50:43.948",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for SB0250",
+      "owner": "Released",
+      "actionDate": "2026-02-09 10:58:55.265",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
       "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
-      "actionDate": "2/9/2026 11:39 AM",
+      "actionDate": "2026-02-09 11:39:02.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Held",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-09 16:47:05.947",
+      "actionClass": "A",
+      "voteID": "39742",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-1-1",
+      "actionCode": "SCAHELD",
       "parm1": "",
       "parm2": ""
     }

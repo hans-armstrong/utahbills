@@ -1,6 +1,6 @@
 {
   "bill_id": 2108479,
-  "change_hash": "ffe861183653c286838e3c1d95872fd9",
+  "change_hash": "b2e1d4f804e359c2fcce35e8d94234ac",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-05",
       "event": 1
+    },
+    {
+      "date": "2026-02-12",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Forestry and Fire Amendments",
   "description": "Forestry and Fire Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-05",
@@ -51,6 +50,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-12",
+      "committee_id": 2115,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -70,6 +76,20 @@
     },
     {
       "date": "2026-02-05",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0496 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0496 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
       "action": "House/ received bill from Legislative Research in Clerk of the House",
       "chamber": "H",
       "chamber_id": 93,
@@ -81,6 +101,41 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-09",
+      "action": "LFA/ fiscal note sent to sponsor for HB0496 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "LFA/ fiscal note publicly available for HB0496 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-12",
+      "action": "House/ to standing committee in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-13",
+      "action": "House Comm - Not Considered in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -158,6 +213,34 @@
     {
       "subject_id": 332638,
       "subject_name": "Environment"
+    },
+    {
+      "subject_id": 12080,
+      "subject_name": "State Lands"
+    },
+    {
+      "subject_id": 334442,
+      "subject_name": "Forestry and Fire"
+    },
+    {
+      "subject_id": 11898,
+      "subject_name": "Natural Resources"
+    },
+    {
+      "subject_id": 81575,
+      "subject_name": "Public Lands"
+    },
+    {
+      "subject_id": 332533,
+      "subject_name": "Public Retirement and Insurance"
+    },
+    {
+      "subject_id": 334391,
+      "subject_name": "Firefighters' Retirement"
+    },
+    {
+      "subject_id": 334470,
+      "subject_name": "Public Safety Retirement"
     }
   ],
   "texts": [
@@ -182,8 +265,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 663385,
+      "date": "2026-02-10",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0496",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0496/id/663385",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0496.fn.pdf",
+      "supplement_size": 1609652,
+      "supplement_hash": "6f6083ecc7d0bfac84735b3c844e1601",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "9b946f42",
+      "type": "Hearing",
+      "date": "2026-02-13",
+      "time": "14:00",
+      "location": "",
+      "description": "House Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses forestry and fire related issues.",
   "hilighted_provisions": "This bill:<hr><ltbullet>addresses state employed dispatchers' treatment under the Firefighters' Retirement System;<hr><ltbullet>provides for the Division of Forestry, Fire, and State Lands enforcement and investigatory powers related to wildland fires and heritage trees;<hr><ltbullet>addresses use of money related to cooperative agreements for forest management; and<hr><ltbullet>makes technical and conforming amendments.",
   "monies": "None",
@@ -191,15 +305,29 @@
   "fiscal_analyst": "Lacey K. Moore",
   "gov_tracking_id": "WSYIAIYWFV",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/5/2026",
+  "agendas": [
+    {
+      "mtgID": "20305",
+      "committeeID": "HSTREV",
+      "mtgDate": "2026-02-13 14:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HREV0213.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
+    }
+  ],
+  "last_action": "House Comm - Not Considered",
+  "last_action_owner": "House Revenue and Taxation Committee",
+  "last_action_time": "2/13/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/5/2026 8:16 AM",
+      "actionDate": "2026-02-05 08:16:56.643",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -212,7 +340,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "2/5/2026 8:16 AM",
+      "actionDate": "2026-02-05 08:16:56.643",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -223,9 +351,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0496",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-05 08:16:59.030",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0496",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-05 08:16:59.030",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "2/5/2026 10:06 AM",
+      "actionDate": "2026-02-05 10:06:09.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -238,13 +392,78 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "2/5/2026 11:21 AM",
+      "actionDate": "2026-02-05 11:21:51.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0496",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-09 17:48:49.603",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0496",
+      "owner": "Released",
+      "actionDate": "2026-02-10 11:15:09.318",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-10 13:53:56.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2026-02-12 11:41:45.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2026-02-13 14:00:00.000",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2073772,
-  "change_hash": "feb157bc3396aa7e58355ddd35f9703d",
+  "change_hash": "036233bfca458b593e3242f730b9d065",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,14 @@
     {
       "date": "2026-02-06",
       "event": 2
+    },
+    {
+      "date": "2026-02-10",
+      "event": 9
+    },
+    {
+      "date": "2026-02-12",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -49,13 +57,8 @@
   "current_body_id": 93,
   "title": "Spaceport Amendments",
   "description": "Spaceport Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -77,6 +80,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-10",
+      "committee_id": 2117,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Transportation"
     }
   ],
   "history": [
@@ -95,10 +105,38 @@
       "importance": 0
     },
     {
+      "date": "2026-01-13",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for SB0132 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-13",
+      "action": "LFA/ bill sent to agencies for fiscal input for SB0132 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
       "date": "2026-01-14",
       "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-17",
+      "action": "LFA/ fiscal note sent to sponsor for SB0132 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-17",
+      "action": "LFA/ fiscal note publicly available for SB0132 in Released",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     },
     {
@@ -188,6 +226,34 @@
     {
       "date": "2026-02-09",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "House/ to standing committee in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-11",
+      "action": "House Comm - Favorable Recommendation in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-12",
+      "action": "House/ committee report favorable in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-12",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -423,6 +489,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0132/id/1625726",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=297&house=S"
+    },
+    {
+      "roll_call_id": 1631088,
+      "date": "2026-02-11",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0132/id/1631088",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39946"
     }
   ],
   "amendments": [],
@@ -466,6 +547,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 666649,
+      "date": "2026-02-11",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0132",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0132/id/666649",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0132H02.pdf",
+      "supplement_size": 17522,
+      "supplement_hash": "6582a27a7a83b778fed82480a5dbf0b8",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -477,6 +578,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Economic Development and Workforce Services Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "f14acb50",
+      "type": "Hearing",
+      "date": "2026-02-11",
+      "time": "14:00",
+      "location": "",
+      "description": "House Transportation Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions related to the Spaceport Exploration Committee.",
@@ -499,16 +609,29 @@
       "agendaURL": "/~2026/agenda/SEDW0123.ag.htm",
       "billSession": "2026GS",
       "markerID": "288758"
+    },
+    {
+      "mtgID": "20220",
+      "committeeID": "HSTTRA",
+      "mtgDate": "2026-02-11 14:00:00.0",
+      "agendaItem": "7",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Transportation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HTRA0211.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "296385"
     }
   ],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/9/2026",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for Senate bills",
+  "last_action_time": "2/12/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/13/2026 3:36 PM",
+      "actionDate": "2026-01-13 15:36:22.940",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -521,7 +644,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/13/2026 3:36 PM",
+      "actionDate": "2026-01-13 15:36:22.940",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -532,9 +655,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for SB0132",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-01-13 15:36:25.583",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for SB0132",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-01-13 15:36:25.583",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "1/14/2026 9:32 AM",
+      "actionDate": "2026-01-14 09:32:39.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -545,9 +694,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for SB0132",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-01-17 05:19:38.082",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for SB0132",
+      "owner": "Released",
+      "actionDate": "2026-01-17 05:19:39.978",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "1/19/2026 2:59 PM",
+      "actionDate": "2026-01-19 14:59:01.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -560,7 +735,7 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "1/20/2026 11:07 AM",
+      "actionDate": "2026-01-20 11:07:25.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -573,7 +748,7 @@
     {
       "description": "Senate/ to standing committee",
       "owner": "Senate Economic Development and Workforce Services Committee",
-      "actionDate": "1/21/2026 12:08 PM",
+      "actionDate": "2026-01-21 12:08:38.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -586,7 +761,7 @@
     {
       "description": "Senate Comm - Favorable Recommendation",
       "owner": "Senate Economic Development and Workforce Services Committee",
-      "actionDate": "1/23/2026 3:05 PM",
+      "actionDate": "2026-01-23 15:05:20.083",
       "actionClass": "A",
       "voteID": "38772",
       "voiceVote": "",
@@ -599,7 +774,7 @@
     {
       "description": "Senate/ committee report favorable",
       "owner": "Senate Economic Development and Workforce Services Committee",
-      "actionDate": "1/26/2026 11:20 AM",
+      "actionDate": "2026-01-26 11:20:39.947",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -612,7 +787,7 @@
     {
       "description": "Senate/ placed on 2nd Reading Calendar",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "1/26/2026 11:20 AM",
+      "actionDate": "2026-01-26 11:20:40.947",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -625,7 +800,7 @@
     {
       "description": "Senate/ 2nd reading",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "2/5/2026 3:15 PM",
+      "actionDate": "2026-02-05 15:15:47.480",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -638,7 +813,7 @@
     {
       "description": "Senate/ passed 2nd reading",
       "owner": "Senate 3rd Reading Calendar",
-      "actionDate": "2/5/2026 3:19 PM",
+      "actionDate": "2026-02-05 15:19:55.397",
       "actionClass": "S",
       "voteID": "275",
       "voiceVote": "0",
@@ -651,7 +826,7 @@
     {
       "description": "Senate/ 3rd reading",
       "owner": "Senate 3rd Reading Calendar",
-      "actionDate": "2/6/2026 2:36 PM",
+      "actionDate": "2026-02-06 14:36:27.097",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -664,7 +839,7 @@
     {
       "description": "Senate/ passed 3rd reading",
       "owner": "Clerk of the House",
-      "actionDate": "2/6/2026 2:40 PM",
+      "actionDate": "2026-02-06 14:40:24.970",
       "actionClass": "S",
       "voteID": "297",
       "voiceVote": "0",
@@ -677,7 +852,7 @@
     {
       "description": "Senate/ to House",
       "owner": "Clerk of the House",
-      "actionDate": "2/6/2026 2:40 PM",
+      "actionDate": "2026-02-06 14:40:25.970",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -690,7 +865,7 @@
     {
       "description": "House/ received from Senate",
       "owner": "Clerk of the House",
-      "actionDate": "2/6/2026 3:52 PM",
+      "actionDate": "2026-02-06 15:52:46.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -703,13 +878,65 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "2/9/2026 11:14 AM",
+      "actionDate": "2026-02-09 11:14:11.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Transportation Committee",
+      "actionDate": "2026-02-10 12:13:03.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Transportation Committee",
+      "actionDate": "2026-02-11 15:45:49.297",
+      "actionClass": "A",
+      "voteID": "39946",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-2",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Transportation Committee",
+      "actionDate": "2026-02-12 10:23:27.917",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2026-02-12 10:23:28.917",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

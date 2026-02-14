@@ -1,6 +1,6 @@
 {
   "bill_id": 2061098,
-  "change_hash": "ee83d355624710b6dff15deabc42d72c",
+  "change_hash": "135b65844a3e904ea56829828c6a562f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/HB0105/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0105.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2026-01-20",
+  "status": 2,
+  "status_date": "2026-02-11",
   "progress": [
     {
       "date": "2026-01-20",
@@ -32,6 +32,14 @@
     {
       "date": "2026-02-03",
       "event": 10
+    },
+    {
+      "date": "2026-02-11",
+      "event": 2
+    },
+    {
+      "date": "2026-02-13",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -41,12 +49,17 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Child Welfare Revisions",
   "description": "Child Welfare Revisions",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2123,
+  "committee": {
+    "committee_id": 2123,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Health and Human Services"
+  },
   "referrals": [
     {
       "date": "2026-01-20",
@@ -61,6 +74,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Judiciary"
+    },
+    {
+      "date": "2026-02-12",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-13",
+      "committee_id": 2123,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Health and Human Services"
     }
   ],
   "history": [
@@ -79,10 +106,31 @@
       "importance": 0
     },
     {
+      "date": "2025-12-29",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0105 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2025-12-29",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0105 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
       "date": "2026-01-14",
       "action": "House/ received bill from Legislative Research in Clerk of the House",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-18",
+      "action": "LFA/ fiscal note sent to sponsor for HB0105 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     },
     {
@@ -91,6 +139,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-20",
+      "action": "LFA/ fiscal note publicly available for HB0105 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     },
     {
       "date": "2026-01-21",
@@ -107,10 +162,38 @@
       "importance": 1
     },
     {
+      "date": "2026-01-27",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0105S01 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-27",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0105S01 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
       "date": "2026-01-28",
       "action": "House Comm - Not Considered in House Judiciary Committee",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "LFA/ fiscal note sent to sponsor for HB0105S01 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "LFA/ fiscal note publicly available for HB0105S01 in Released",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     },
     {
@@ -140,6 +223,48 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-11",
+      "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-12",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-13",
+      "action": "Senate/ to standing committee in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -367,6 +492,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0105/id/1621287",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39302"
+    },
+    {
+      "roll_call_id": 1629012,
+      "date": "2026-02-10",
+      "desc": "House/ passed 3rd reading",
+      "yea": 63,
+      "nay": 1,
+      "nv": 0,
+      "absent": 11,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0105/id/1629012",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=357&house=H"
     }
   ],
   "amendments": [],
@@ -470,6 +610,15 @@
       "time": "14:00",
       "location": "",
       "description": "House Judiciary Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "f02aab16",
+      "type": "Hearing",
+      "date": "2026-02-18",
+      "time": "08:45",
+      "location": "",
+      "description": "Senate Health and Human Services Hearing"
     }
   ],
   "general_provisions": "This bill addresses orders of permanent custody and guardianship of a minor.",
@@ -507,14 +656,14 @@
       "markerID": "292520"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "2/3/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Health and Human Services Committee",
+  "last_action_time": "2/13/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "12/29/2025 12:27 PM",
+      "actionDate": "2025-12-29 12:27:53.830",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -527,7 +676,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "12/29/2025 12:27 PM",
+      "actionDate": "2025-12-29 12:27:53.847",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -538,9 +687,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0105",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2025-12-29 12:27:56.790",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0105",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2025-12-29 12:27:56.790",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "1/14/2026 1:48 PM",
+      "actionDate": "2026-01-14 13:48:08.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -551,9 +726,22 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for HB0105",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-01-18 14:40:00.714",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "1/20/2026 3:38 PM",
+      "actionDate": "2026-01-20 15:38:23.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -564,9 +752,22 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note publicly available for HB0105",
+      "owner": "Released",
+      "actionDate": "2026-01-20 16:31:04.239",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "House Rules Committee",
-      "actionDate": "1/21/2026 10:11 AM",
+      "actionDate": "2026-01-21 10:11:41.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -579,7 +780,7 @@
     {
       "description": "House/ to standing committee",
       "owner": "House Judiciary Committee",
-      "actionDate": "1/23/2026 12:13 PM",
+      "actionDate": "2026-01-23 12:13:05.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -590,9 +791,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0105S01",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-01-27 14:32:48.527",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0105S01",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-01-27 14:32:48.527",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House Comm - Not Considered",
       "owner": "House Judiciary Committee",
-      "actionDate": "1/28/2026 2:00 PM",
+      "actionDate": "2026-01-28 14:00:00.000",
       "actionClass": "A",
       "voteID": "",
       "voiceVote": "",
@@ -603,9 +830,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for HB0105S01",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-01-29 15:40:27.032",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0105S01",
+      "owner": "Released",
+      "actionDate": "2026-01-29 15:40:28.033",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House Comm - Substitute Recommendation",
       "owner": "House Judiciary Committee",
-      "actionDate": "2/2/2026 2:22 PM",
+      "actionDate": "2026-02-02 14:22:16.463",
       "actionClass": "A",
       "voteID": "39301",
       "voiceVote": "",
@@ -618,7 +871,7 @@
     {
       "description": "House Comm - Favorable Recommendation",
       "owner": "House Judiciary Committee",
-      "actionDate": "2/2/2026 2:22 PM",
+      "actionDate": "2026-02-02 14:22:47.987",
       "actionClass": "A",
       "voteID": "39302",
       "voiceVote": "",
@@ -631,7 +884,7 @@
     {
       "description": "House/ comm rpt/ substituted",
       "owner": "House Judiciary Committee",
-      "actionDate": "2/3/2026 11:11 AM",
+      "actionDate": "2026-02-03 11:11:03.503",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -644,13 +897,91 @@
     {
       "description": "House/ 2nd reading",
       "owner": "House 3rd Reading Calendar for House bills",
-      "actionDate": "2/3/2026 11:11 AM",
+      "actionDate": "2026-02-03 11:11:04.503",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-10 16:02:23.850",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-10 16:06:38.647",
+      "actionClass": "H",
+      "voteID": "357",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "63-1-11",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-10 16:06:40.647",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "2026-02-11 07:49:51.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-12 10:32:52.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "2026-02-13 10:17:19.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

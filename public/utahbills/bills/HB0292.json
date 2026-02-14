@@ -1,6 +1,6 @@
 {
   "bill_id": 2087446,
-  "change_hash": "9e2c4f9a4ffe4ab2f345e74f317fe288",
+  "change_hash": "aac73a7b402136f3792633db27ae9d21",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Rule Against Perpetuities Amendments",
   "description": "Rule Against Perpetuities Amendments",
-  "pending_committee_id": 2111,
-  "committee": {
-    "committee_id": 2111,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Natural Resources, Agriculture, and Environment"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -81,6 +76,20 @@
     },
     {
       "date": "2026-01-20",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0292 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-20",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0292 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-20",
       "action": "House/ received bill from Legislative Research in Clerk of the House",
       "chamber": "H",
       "chamber_id": 93,
@@ -95,6 +104,20 @@
     },
     {
       "date": "2026-01-22",
+      "action": "LFA/ fiscal note sent to sponsor for HB0292 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-22",
+      "action": "LFA/ fiscal note publicly available for HB0292 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-22",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
@@ -106,6 +129,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-11",
+      "action": "House Comm - Not Considered in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -305,7 +335,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "838c3a1a",
+      "type": "Hearing",
+      "date": "2026-02-11",
+      "time": "14:00",
+      "location": "",
+      "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions relating to the rule against perpetuities.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>provides that a water right subordination agreement does not create a nonvested right for purposes of the rule against perpetuities; and<hr><ltbullet>provides that the provisions this bill enacts apply retroactively.",
   "monies": "None",
@@ -313,15 +353,29 @@
   "fiscal_analyst": "Jared Gibbs",
   "gov_tracking_id": "LMATXYEJGU",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20323",
+      "committeeID": "HSTNAE",
+      "mtgDate": "2026-02-11 14:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HNAE0211.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
+    }
+  ],
+  "last_action": "House Comm - Not Considered",
   "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "2/9/2026",
+  "last_action_time": "2/11/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/20/2026 2:26 PM",
+      "actionDate": "2026-01-20 14:26:33.403",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -334,7 +388,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/20/2026 2:26 PM",
+      "actionDate": "2026-01-20 14:26:33.403",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -345,9 +399,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0292",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-01-20 14:26:36.297",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0292",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-01-20 14:26:36.297",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "1/20/2026 2:41 PM",
+      "actionDate": "2026-01-20 14:41:22.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -360,7 +440,7 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "1/20/2026 3:44 PM",
+      "actionDate": "2026-01-20 15:44:32.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -371,9 +451,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for HB0292",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-01-22 08:27:00.473",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0292",
+      "owner": "Released",
+      "actionDate": "2026-01-22 08:27:02.603",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received fiscal note from Fiscal Analyst",
       "owner": "House Rules Committee",
-      "actionDate": "1/22/2026 10:21 AM",
+      "actionDate": "2026-01-22 10:21:10.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -386,13 +492,26 @@
     {
       "description": "House/ to standing committee",
       "owner": "House Natural Resources, Agriculture, and Environment Committee",
-      "actionDate": "2/9/2026 12:35 PM",
+      "actionDate": "2026-02-09 12:35:38.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-11 14:00:00.000",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
       "parm1": "",
       "parm2": ""
     }

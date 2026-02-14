@@ -1,6 +1,6 @@
 {
   "bill_id": 2071242,
-  "change_hash": "e473b35cccc6f1412d50bc01a3d8c426",
+  "change_hash": "5f6694496e6d71fae9af1ad3d1e86678",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-05",
       "event": 2
+    },
+    {
+      "date": "2026-02-10",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,12 +53,12 @@
   "current_body_id": 93,
   "title": "HOA Amendments",
   "description": "HOA Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2112,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2112,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Political Subdivisions"
   },
   "referrals": [
     {
@@ -77,6 +81,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-10",
+      "committee_id": 2112,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Political Subdivisions"
     }
   ],
   "history": [
@@ -95,10 +106,38 @@
       "importance": 0
     },
     {
+      "date": "2026-01-12",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for SB0122 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-12",
+      "action": "LFA/ bill sent to agencies for fiscal input for SB0122 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
       "date": "2026-01-13",
       "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-17",
+      "action": "LFA/ fiscal note sent to sponsor for SB0122 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-17",
+      "action": "LFA/ fiscal note publicly available for SB0122 in Released",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     },
     {
@@ -191,6 +230,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "House/ to standing committee in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -469,6 +515,24 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Economic Development and Workforce Services Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "b43686e5",
+      "type": "Hearing",
+      "date": "2026-02-13",
+      "time": "14:00",
+      "location": "",
+      "description": "House Political Subdivisions Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "2fa30860",
+      "type": "Hearing",
+      "date": "2026-02-18",
+      "time": "08:00",
+      "location": "",
+      "description": "House Political Subdivisions Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions relating to the Office of the Homeowners' Association Ombudsman.",
@@ -493,14 +557,14 @@
       "markerID": "288752"
     }
   ],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/5/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Political Subdivisions Committee",
+  "last_action_time": "2/10/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/12/2026 12:15 PM",
+      "actionDate": "2026-01-12 12:15:33.350",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -513,7 +577,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/12/2026 12:15 PM",
+      "actionDate": "2026-01-12 12:15:33.350",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -524,9 +588,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for SB0122",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-01-12 12:15:34.157",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for SB0122",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-01-12 12:15:34.157",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ received bill from Legislative Research",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "1/13/2026 3:57 PM",
+      "actionDate": "2026-01-13 15:57:22.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -537,9 +627,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for SB0122",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-01-17 04:44:46.034",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for SB0122",
+      "owner": "Released",
+      "actionDate": "2026-01-17 04:44:47.993",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
       "owner": "Waiting for Introduction in the Senate",
-      "actionDate": "1/19/2026 2:59 PM",
+      "actionDate": "2026-01-19 14:59:01.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -552,7 +668,7 @@
     {
       "description": "Senate/ 1st reading (Introduced)",
       "owner": "Senate Rules Committee",
-      "actionDate": "1/20/2026 11:07 AM",
+      "actionDate": "2026-01-20 11:07:25.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -565,7 +681,7 @@
     {
       "description": "Senate/ to standing committee",
       "owner": "Senate Economic Development and Workforce Services Committee",
-      "actionDate": "1/21/2026 12:08 PM",
+      "actionDate": "2026-01-21 12:08:38.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -578,7 +694,7 @@
     {
       "description": "Senate Comm - Favorable Recommendation",
       "owner": "Senate Economic Development and Workforce Services Committee",
-      "actionDate": "1/23/2026 2:59 PM",
+      "actionDate": "2026-01-23 14:59:28.367",
       "actionClass": "A",
       "voteID": "38767",
       "voiceVote": "",
@@ -591,7 +707,7 @@
     {
       "description": "Senate/ committee report favorable",
       "owner": "Senate Economic Development and Workforce Services Committee",
-      "actionDate": "1/26/2026 11:20 AM",
+      "actionDate": "2026-01-26 11:20:39.650",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -604,7 +720,7 @@
     {
       "description": "Senate/ placed on 2nd Reading Calendar",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "1/26/2026 11:20 AM",
+      "actionDate": "2026-01-26 11:20:40.650",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -617,7 +733,7 @@
     {
       "description": "Senate/ 2nd reading",
       "owner": "Senate 2nd Reading Calendar",
-      "actionDate": "2/4/2026 11:55 AM",
+      "actionDate": "2026-02-04 11:55:58.010",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -630,7 +746,7 @@
     {
       "description": "Senate/ passed 2nd reading",
       "owner": "Senate 3rd Reading Calendar",
-      "actionDate": "2/4/2026 11:58 AM",
+      "actionDate": "2026-02-04 11:58:05.750",
       "actionClass": "S",
       "voteID": "203",
       "voiceVote": "0",
@@ -643,7 +759,7 @@
     {
       "description": "Senate/ 3rd reading",
       "owner": "Senate 3rd Reading Calendar",
-      "actionDate": "2/5/2026 11:13 AM",
+      "actionDate": "2026-02-05 11:13:56.393",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -656,7 +772,7 @@
     {
       "description": "Senate/ passed 3rd reading",
       "owner": "Clerk of the House",
-      "actionDate": "2/5/2026 11:16 AM",
+      "actionDate": "2026-02-05 11:16:01.337",
       "actionClass": "S",
       "voteID": "230",
       "voiceVote": "0",
@@ -669,7 +785,7 @@
     {
       "description": "Senate/ to House",
       "owner": "Clerk of the House",
-      "actionDate": "2/5/2026 11:16 AM",
+      "actionDate": "2026-02-05 11:16:02.337",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -682,7 +798,7 @@
     {
       "description": "House/ received from Senate",
       "owner": "Clerk of the House",
-      "actionDate": "2/5/2026 1:09 PM",
+      "actionDate": "2026-02-05 13:09:47.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -695,13 +811,26 @@
     {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "2/5/2026 2:06 PM",
+      "actionDate": "2026-02-05 14:06:17.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2026-02-10 12:12:14.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

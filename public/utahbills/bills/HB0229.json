@@ -1,6 +1,6 @@
 {
   "bill_id": 2071201,
-  "change_hash": "3c831df6ddf2ab5ee6f07dbd08949370",
+  "change_hash": "391870421c5bc3ad2859cacd9c981589",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/HB0229/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0229.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2026-01-20",
+  "status": 2,
+  "status_date": "2026-02-10",
   "progress": [
     {
       "date": "2026-01-20",
@@ -32,6 +32,10 @@
     {
       "date": "2026-01-30",
       "event": 10
+    },
+    {
+      "date": "2026-02-10",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,12 +45,17 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Restricted Account Modifications",
   "description": "Restricted Account Modifications",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2026-01-20",
@@ -61,6 +70,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Revenue and Taxation"
+    },
+    {
+      "date": "2026-02-12",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -79,10 +95,38 @@
       "importance": 0
     },
     {
+      "date": "2026-01-12",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0229 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-12",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0229 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
       "date": "2026-01-14",
       "action": "House/ received bill from Legislative Research in Clerk of the House",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-19",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0229S01 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-19",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0229S01 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     },
     {
@@ -91,6 +135,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-22",
+      "action": "LFA/ fiscal note sent to sponsor for HB0229S01 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-22",
+      "action": "LFA/ fiscal note publicly available for HB0229S01 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     },
     {
       "date": "2026-01-27",
@@ -105,6 +163,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-01-29",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0229S02 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-01-29",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0229S02 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     },
     {
       "date": "2026-01-29",
@@ -132,6 +204,55 @@
       "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "LFA/ fiscal note sent to sponsor for HB0229S02 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-03",
+      "action": "LFA/ fiscal note publicly available for HB0229S02 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-10",
+      "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-12",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -196,6 +317,74 @@
             "facebook": "https://www.facebook.com/JenDaileyProvost",
             "instagram": "",
             "linkedin": "https://www.linkedin.com/in/jenniferdaileyprovost/",
+            "tiktok": "",
+            "twitter": "",
+            "website": "",
+            "youtube": ""
+          }
+        }
+      }
+    },
+    {
+      "people_id": 8186,
+      "person_hash": "xpczbtsb",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 2,
+      "role": "Sen",
+      "name": "Evan Vickers",
+      "first_name": "Evan",
+      "middle_name": "J.",
+      "last_name": "Vickers",
+      "suffix": "",
+      "nickname": "",
+      "district": "SD-028",
+      "ftm_eid": 9838132,
+      "votesmart_id": 103758,
+      "opensecrets_id": "",
+      "knowwho_pid": 268712,
+      "ballotpedia": "Evan_Vickers",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0,
+      "bio": {
+        "social": {
+          "capitol_phone": "801-538-1035",
+          "district_phone": "",
+          "email": "evickers@le.utah.gov",
+          "webmail": "",
+          "biography": "https://senate.utah.gov/sen/VICKEEJ/",
+          "image": "https://le.utah.gov/images/legislator/VICKEEJ.jpg",
+          "ballotpedia": "https://ballotpedia.org/Evan_Vickers",
+          "votesmart": "https://justfacts.votesmart.org/candidate/biography/103758"
+        },
+        "capitol_address": {
+          "address1": "350 North State, Suite 350",
+          "address2": "P.O. Box 145115",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        },
+        "links": {
+          "official": {
+            "bluesky": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": "",
+            "tiktok": "",
+            "twitter": "",
+            "website": "https://senate.utah.gov/sen/VICKEEJ/",
+            "youtube": ""
+          },
+          "personal": {
+            "bluesky": "",
+            "facebook": "https://www.facebook.com/evan.vickers",
+            "instagram": "",
+            "linkedin": "https://www.linkedin.com/in/evan-vickers-4a544713/",
             "tiktok": "",
             "twitter": "",
             "website": "",
@@ -322,6 +511,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0229/id/1619735",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39162"
+    },
+    {
+      "roll_call_id": 1628916,
+      "date": "2026-02-10",
+      "desc": "House/ passed 3rd reading",
+      "yea": 71,
+      "nay": 1,
+      "nv": 0,
+      "absent": 3,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0229/id/1628916",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=322&house=H"
     }
   ],
   "amendments": [],
@@ -480,14 +684,14 @@
       "markerID": "291410"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "1/30/2026",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "2/12/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/12/2026 2:01 PM",
+      "actionDate": "2026-01-12 14:01:52.523",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -500,7 +704,7 @@
     {
       "description": "Numbered Bill Publicly Distributed",
       "owner": "Legislative Research and General Counsel",
-      "actionDate": "1/12/2026 2:01 PM",
+      "actionDate": "2026-01-12 14:01:52.523",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -511,9 +715,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0229",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-01-12 14:01:53.127",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0229",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-01-12 14:01:53.127",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ received bill from Legislative Research",
       "owner": "Clerk of the House",
-      "actionDate": "1/14/2026 2:07 PM",
+      "actionDate": "2026-01-14 14:07:03.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -524,9 +754,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0229S01",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-01-19 17:22:21.940",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0229S01",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-01-19 17:22:21.940",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House/ 1st reading (Introduced)",
       "owner": "House Rules Committee",
-      "actionDate": "1/20/2026 3:38 PM",
+      "actionDate": "2026-01-20 15:38:26.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -537,9 +793,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ fiscal note sent to sponsor for HB0229S01",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-01-22 08:23:22.654",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0229S01",
+      "owner": "Released",
+      "actionDate": "2026-01-22 08:23:24.668",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Bill Substituted by Sponsor in House Rules Comm",
       "owner": "House Rules Committee",
-      "actionDate": "1/27/2026 11:31 AM",
+      "actionDate": "2026-01-27 11:31:00.000",
       "actionClass": "L",
       "voteID": "",
       "voiceVote": "",
@@ -552,7 +834,7 @@
     {
       "description": "House/ to standing committee",
       "owner": "House Revenue and Taxation Committee",
-      "actionDate": "1/27/2026 12:03 PM",
+      "actionDate": "2026-01-27 12:03:55.000",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -563,9 +845,35 @@
       "parm2": ""
     },
     {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0229S02",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-01-29 12:18:28.163",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0229S02",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-01-29 12:18:28.163",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "House Comm - Substitute Recommendation",
       "owner": "House Revenue and Taxation Committee",
-      "actionDate": "1/29/2026 3:46 PM",
+      "actionDate": "2026-01-29 15:46:25.640",
       "actionClass": "A",
       "voteID": "39161",
       "voiceVote": "",
@@ -578,7 +886,7 @@
     {
       "description": "House Comm - Favorable Recommendation",
       "owner": "House Revenue and Taxation Committee",
-      "actionDate": "1/29/2026 3:46 PM",
+      "actionDate": "2026-01-29 15:46:50.327",
       "actionClass": "A",
       "voteID": "39162",
       "voiceVote": "",
@@ -591,7 +899,7 @@
     {
       "description": "House/ comm rpt/ substituted",
       "owner": "House Revenue and Taxation Committee",
-      "actionDate": "1/30/2026 11:50 AM",
+      "actionDate": "2026-01-30 11:50:08.057",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
@@ -604,13 +912,104 @@
     {
       "description": "House/ 2nd reading",
       "owner": "House 3rd Reading Calendar for House bills",
-      "actionDate": "1/30/2026 11:50 AM",
+      "actionDate": "2026-01-30 11:50:09.057",
       "actionClass": "H",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0229S02",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-03 12:00:04.325",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0229S02",
+      "owner": "Released",
+      "actionDate": "2026-02-03 12:00:05.919",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-10 14:15:19.613",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-10 14:18:13.570",
+      "actionClass": "H",
+      "voteID": "322",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "71-1-3",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-10 14:18:15.570",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "2026-02-10 15:36:14.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-12 10:32:53.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }
