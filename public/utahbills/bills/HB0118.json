@@ -1,6 +1,6 @@
 {
   "bill_id": 2061313,
-  "change_hash": "fb3f47edc4bd6b5f5c6e5ad29ea311de",
+  "change_hash": "2547effe31f1e22ed3e7d476f77f9b14",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0118/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0118.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2026-02-12",
   "progress": [
     {
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-12",
       "event": 2
+    },
+    {
+      "date": "2026-02-17",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -65,6 +69,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Transportation"
+    },
+    {
+      "date": "2026-02-17",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-17",
+      "committee_id": 3583,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Transportation, Public Utilities, Energy, and Technology"
     }
   ],
   "history": [
@@ -186,6 +204,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ to standing committee in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate Comm - Not Considered in Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -471,6 +510,15 @@
       "time": "14:00",
       "location": "",
       "description": "House Transportation Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "f4222483",
+      "type": "Hearing",
+      "date": "2026-02-18",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Transportation, Public Utilities, Energy, and Technology Hearing"
     }
   ],
   "general_provisions": "This bill addresses driver training schools for commercial driver license (CDL) applicants.",
@@ -493,11 +541,24 @@
       "agendaURL": "/~2026/agenda/HTRA0202.ag.htm",
       "billSession": "2026GS",
       "markerID": "292546"
+    },
+    {
+      "mtgID": "20456",
+      "committeeID": "SSTTPT",
+      "mtgDate": "2026-02-18 16:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/STPT0218.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
     }
   ],
-  "last_action": "Senate/ received from House",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/12/2026",
+  "last_action": "Senate Comm - Not Considered",
+  "last_action_owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+  "last_action_time": "2/18/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -717,6 +778,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-17 10:26:53.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "2026-02-17 14:25:08.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Not Considered",
+      "owner": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "actionDate": "2026-02-18 16:00:00.000",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCANOCNSDR",
       "parm1": "",
       "parm2": ""
     }

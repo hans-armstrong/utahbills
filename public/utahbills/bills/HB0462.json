@@ -1,6 +1,6 @@
 {
   "bill_id": 2103511,
-  "change_hash": "913ed69c92dda92dbca2cafa384c11b2",
+  "change_hash": "a9e97f393b4f13dc01f835c8581336d5",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-13",
       "event": 9
+    },
+    {
+      "date": "2026-02-19",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "School Bus Internet Access",
   "description": "School Bus Internet Access",
-  "pending_committee_id": 2105,
-  "committee": {
-    "committee_id": 2105,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-03",
@@ -134,6 +133,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House Comm - Not Considered in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House Comm - Favorable Recommendation in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ committee report favorable in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -249,7 +276,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1637897,
+      "date": "2026-02-18",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 15,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0462/id/1637897",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40513"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -271,6 +314,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 675266,
+      "date": "2026-02-18",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0462",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0462/id/675266",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0462H02.pdf",
+      "supplement_size": 17514,
+      "supplement_hash": "2c6a768640f75742c109b4cade46fecf",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -282,6 +345,15 @@
       "time": "08:00",
       "location": "",
       "description": "House Education Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "74631610",
+      "type": "Hearing",
+      "date": "2026-02-18",
+      "time": "16:00",
+      "location": "",
+      "description": "House Education Hearing"
     }
   ],
   "general_provisions": "This bill creates a grant program to provide internet connectivity on school buses in rural school districts.",
@@ -291,10 +363,37 @@
   "fiscal_analyst": "Rachelle Gunderson",
   "gov_tracking_id": "DATJLYJDNL",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Education Committee",
-  "last_action_time": "2/13/2026",
+  "agendas": [
+    {
+      "mtgID": "20511",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-02-17 08:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001693.htm",
+      "agendaURL": "/~2026/agenda/HEDU0217.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
+    },
+    {
+      "mtgID": "20513",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-02-18 16:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HEDU0218.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "298573"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/19/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -423,6 +522,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Education Committee",
+      "actionDate": "2026-02-17 08:00:00.000",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Education Committee",
+      "actionDate": "2026-02-18 17:38:49.020",
+      "actionClass": "A",
+      "voteID": "40513",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-4",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Education Committee",
+      "actionDate": "2026-02-19 10:27:03.577",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-19 10:27:04.577",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

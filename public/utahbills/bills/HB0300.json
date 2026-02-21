@@ -1,6 +1,6 @@
 {
   "bill_id": 2087248,
-  "change_hash": "8a9c33c27d246311a1521913a2c2a271",
+  "change_hash": "8acb68f5f7b9611255ff6eb6392d57dc",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-10",
       "event": 2
+    },
+    {
+      "date": "2026-02-20",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,12 +53,12 @@
   "current_body_id": 94,
   "title": "School District Taxation Amendments",
   "description": "School District Taxation Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2127,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2127,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Revenue and Taxation"
   },
   "referrals": [
     {
@@ -77,6 +81,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-20",
+      "committee_id": 2127,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -205,6 +216,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ to standing committee in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -472,6 +490,15 @@
       "time": "14:00",
       "location": "",
       "description": "House Revenue and Taxation Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "52378ecc",
+      "type": "Hearing",
+      "date": "2026-02-23",
+      "time": "08:00",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
     }
   ],
   "general_provisions": "This bill extends a hold harmless period for state guaranteed funding related to a certain reduction in a school district's certified tax rate.",
@@ -496,9 +523,9 @@
       "markerID": "291302"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/12/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Revenue and Taxation Committee",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -731,6 +758,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2026-02-20 16:09:33.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

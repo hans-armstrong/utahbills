@@ -1,6 +1,6 @@
 {
   "bill_id": 2103536,
-  "change_hash": "91a8af93b07d7fbe798bcc94c7a6c2ef",
+  "change_hash": "27849ad6785f3ce6d91b9850c1329109",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Special Education Funding Modifications",
   "description": "Special Education Funding Modifications",
-  "pending_committee_id": 2105,
-  "committee": {
-    "committee_id": 2105,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-03",
@@ -134,6 +129,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House Comm - Held in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -257,7 +259,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1639809,
+      "date": "2026-02-20",
+      "desc": "House Comm - Held",
+      "yea": 7,
+      "nay": 5,
+      "nv": 0,
+      "absent": 3,
+      "total": 15,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0463/id/1639809",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40666"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -281,7 +299,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "44b31f7d",
+      "type": "Hearing",
+      "date": "2026-02-20",
+      "time": "08:00",
+      "location": "",
+      "description": "House Education Hearing"
+    }
+  ],
   "general_provisions": "This bill reorganizes and clarifies statutory provisions governing special education programs.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>reorganizes the Special Education Self-Contained Program into a separate section;<hr><ltbullet> reorganizes the Special Education Self-Contained Support Add-on Program into a separate section;<hr><ltbullet>reorganizes the Special Education Preschool Program into a separate section;<hr><ltbullet>reorganizes the Extended School Year for Students With Disabilities Program into a separate section;<hr><ltbullet>reorganizes the special education program implementation impact aid into a separate section;<hr><ltbullet>requires the State Board of Education to subgrant to local education agencies to provide special education services to students in state care;<hr><ltbullet>requires the State Board of Education to create accounting procedures;<hr><ltbullet>authorizes local education agencies to use a portion of certain funds for general education costs; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -289,10 +317,24 @@
   "fiscal_analyst": "Rachelle Gunderson",
   "gov_tracking_id": "PLNMMCXWJM",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20514",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-02-20 08:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HEDU0220.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299183"
+    }
+  ],
+  "last_action": "House Comm - Held",
   "last_action_owner": "House Education Committee",
-  "last_action_time": "2/13/2026",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -421,6 +463,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Education Committee",
+      "actionDate": "2026-02-20 08:40:23.043",
+      "actionClass": "A",
+      "voteID": "40666",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-5-3",
+      "actionCode": "HCAHELD",
       "parm1": "",
       "parm2": ""
     }

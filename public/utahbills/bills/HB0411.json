@@ -1,6 +1,6 @@
 {
   "bill_id": 2097049,
-  "change_hash": "344ebeaccce5367b49f68f1e5f7ef0c9",
+  "change_hash": "5a7dc0e06e30617e0b2e62539a849f5c",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-29",
       "event": 1
+    },
+    {
+      "date": "2026-02-19",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,8 +41,13 @@
   "current_body_id": 93,
   "title": "Human Trafficking Hotline Amendments",
   "description": "Human Trafficking Hotline Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2117,
+  "committee": {
+    "committee_id": 2117,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Transportation"
+  },
   "referrals": [
     {
       "date": "2026-01-29",
@@ -46,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-19",
+      "committee_id": 2117,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Transportation"
     }
   ],
   "history": [
@@ -132,6 +148,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "Bill Substituted by Sponsor in House Rules Comm in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ to standing committee in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -361,18 +391,28 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "f61126d7",
+      "type": "Hearing",
+      "date": "2026-02-23",
+      "time": "08:00",
+      "location": "",
+      "description": "House Transportation Hearing"
+    }
+  ],
   "general_provisions": "This bill directs the attorney general to seek a three-digit dialing code for the National Human Trafficking Hotline.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>requires the attorney general, by December 31, 2026, to coordinate with a federal agency and nonprofit entity to petition the Federal Communications Commission (FCC) to initiate a rulemaking regarding the designation or use of a three-digit dialing code to access the National Human Trafficking Hotline (hotline);<hr><ltbullet>authorizes the attorney general, if the FCC approves a three-digit dialing code, to coordinate with telecommunications providers and to conduct public education and outreach regarding the availability of the dialing code; and<hr><ltbullet>clarifies that the state is not authorized to control numbering resources or require call routing, except as permitted under federal law.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>no later than December 31, 2026, requires the attorney general, in coordination with the Department of Health and Human Services (DHHS), to petition the Federal Communications Commission (FCC) to initiate a rulemaking regarding the designation or use of a three-digit dialing code to access the National Human Trafficking Hotline (hotline);<hr><ltbullet>if the FCC approves a three-digit dialing code for the hotline:<hr><ltbullet1>requires DHHS to coordinate with a federal agency and nonprofit entity to support implementation of three-digit access to the hotline; and<hr><ltbullet1>authorizes the attorney general to coordinate with telecommunications providers and to conduct public education and outreach regarding the availability of the dialing code; and<hr><ltbullet>clarifies that the state is not authorized to control numbering resources or require call routing, except as permitted under federal law.",
   "monies": "None",
   "attorney": "Michael Cipriano",
   "fiscal_analyst": "Nate Osborne",
   "gov_tracking_id": "NOXNRSYUPG",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/29/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Transportation Committee",
+  "last_action_time": "2/19/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -527,6 +567,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Substituted by Sponsor in House Rules Comm",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-19 10:47:00.000",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRULSUBH",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Transportation Committee",
+      "actionDate": "2026-02-19 12:14:17.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

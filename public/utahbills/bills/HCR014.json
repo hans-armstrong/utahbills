@@ -1,6 +1,6 @@
 {
   "bill_id": 2117490,
-  "change_hash": "8290ba1948a446db71b10e6cc991acd1",
+  "change_hash": "c2a0e4bbea93504c2d6241d43b763251",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,18 @@
   "url": "https://legiscan.com/UT/bill/HCR014/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HCR014.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-02-17",
+  "progress": [
+    {
+      "date": "2026-02-17",
+      "event": 1
+    },
+    {
+      "date": "2026-02-20",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HCR014",
@@ -32,9 +41,29 @@
   "current_body_id": 93,
   "title": "Concurrent Resolution Supporting the Transfer of Federally Managed Lands",
   "description": "Concurrent Resolution Supporting the Transfer of Federally Managed Lands",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2111,
+  "committee": {
+    "committee_id": 2111,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Natural Resources, Agriculture, and Environment"
+  },
+  "referrals": [
+    {
+      "date": "2026-02-17",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-20",
+      "committee_id": 2111,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Natural Resources, Agriculture, and Environment"
+    }
+  ],
   "history": [
     {
       "date": "2026-02-16",
@@ -63,6 +92,48 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "LFA/ fiscal note sent to sponsor for HCR014 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "LFA/ fiscal note publicly available for HCR014 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ received fiscal note from Fiscal Analyst in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House/ to standing committee in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -133,6 +204,74 @@
           }
         }
       }
+    },
+    {
+      "people_id": 8196,
+      "person_hash": "psqg9fsh",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 2,
+      "role": "Sen",
+      "name": "Don Ipson",
+      "first_name": "Don",
+      "middle_name": "L.",
+      "last_name": "Ipson",
+      "suffix": "",
+      "nickname": "",
+      "district": "SD-029",
+      "ftm_eid": 13007288,
+      "votesmart_id": 103769,
+      "opensecrets_id": "",
+      "knowwho_pid": 268716,
+      "ballotpedia": "Don_Ipson",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0,
+      "bio": {
+        "social": {
+          "capitol_phone": "801-538-1035",
+          "district_phone": "",
+          "email": "dipson@le.utah.gov",
+          "webmail": "",
+          "biography": "https://senate.utah.gov/sen/IPSONDL/",
+          "image": "https://le.utah.gov/images/legislator/IPSONDL.jpg",
+          "ballotpedia": "https://ballotpedia.org/Don_Ipson",
+          "votesmart": "https://justfacts.votesmart.org/candidate/biography/103769"
+        },
+        "capitol_address": {
+          "address1": "350 North State, Suite 350",
+          "address2": "P.O. Box 145115",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        },
+        "links": {
+          "official": {
+            "bluesky": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": "",
+            "tiktok": "",
+            "twitter": "",
+            "website": "https://senate.utah.gov/sen/IPSONDL/",
+            "youtube": ""
+          },
+          "personal": {
+            "bluesky": "",
+            "facebook": "https://www.facebook.com/don.l.ipson",
+            "instagram": "",
+            "linkedin": "https://www.linkedin.com/in/don-ipson-ba61171/",
+            "tiktok": "",
+            "twitter": "",
+            "website": "",
+            "youtube": ""
+          }
+        }
+      }
     }
   ],
   "sasts": [],
@@ -140,6 +279,22 @@
     {
       "subject_id": 11898,
       "subject_name": "Natural Resources"
+    },
+    {
+      "subject_id": 11987,
+      "subject_name": "Resolutions"
+    },
+    {
+      "subject_id": 11988,
+      "subject_name": "Land Use"
+    },
+    {
+      "subject_id": 11923,
+      "subject_name": "Housing"
+    },
+    {
+      "subject_id": 376842,
+      "subject_name": "Affordable Housing"
     }
   ],
   "texts": [
@@ -164,8 +319,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 672435,
+      "date": "2026-02-17",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HCR014",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HCR014/id/672435",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HCR014.fn.pdf",
+      "supplement_size": 1608380,
+      "supplement_hash": "17384e6d3939c19199c5fb97f094bbb1",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "e6d78886",
+      "type": "Hearing",
+      "date": "2026-02-23",
+      "time": "08:00",
+      "location": "",
+      "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    }
+  ],
   "general_provisions": "This resolution is related to the disposition of federally managed lands for affordable housing.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>acknowledges that Utah's growth has intensified housing affordability challenges;<hr><ltbullet>recognizes that affordable housing is critical to workforce stability and community retention; <hr><ltbullet>notes that unreserved lands managed by the federal government are located near existing communities and infrastructure;<hr><ltbullet>recognizes that limited and targeted disposition of unreserved lands may support moderate income housing needs;<hr><ltbullet>affirms that any land disposition should preserve the public interest and responsible land stewardship;<hr><ltbullet>urges Congress to allow limited use of unreserved lands near existing communities and infrastructure for moderate income housing; and<hr><ltbullet>encourages Congress to support land transfers or exchanges in line with responsible stewardship.",
   "monies": "None",
@@ -174,9 +360,9 @@
   "gov_tracking_id": "IHYURCEHWL",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/16/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -227,6 +413,84 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HCR014",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-17 08:10:40.459",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HCR014",
+      "owner": "Released",
+      "actionDate": "2026-02-17 08:10:41.230",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-17 08:15:32.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-17 09:17:27.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-17 10:34:15.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-20 12:01:57.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

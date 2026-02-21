@@ -1,6 +1,6 @@
 {
   "bill_id": 2065219,
-  "change_hash": "8b3c75dd8dea821859c5983e7f30421d",
+  "change_hash": "86c602a2e33a05c2c36de7d92c3a4cf0",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-09",
       "event": 9
+    },
+    {
+      "date": "2026-02-20",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "School Fee Waiver Amendments",
   "description": "School Fee Waiver Amendments",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -223,6 +222,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-19",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "Senate Comm - Consent Calendar Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ comm rpt/ placed on Consent Calendar in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ 2nd reading in Senate Consent Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -473,6 +500,36 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0142/id/1624734",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=219&house=H"
+    },
+    {
+      "roll_call_id": 1639570,
+      "date": "2026-02-19",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 6,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0142/id/1639570",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40645"
+    },
+    {
+      "roll_call_id": 1639571,
+      "date": "2026-02-19",
+      "desc": "Senate Comm - Consent Calendar Recommendation",
+      "yea": 6,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0142/id/1639571",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40646"
     }
   ],
   "amendments": [
@@ -538,6 +595,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 676575,
+      "date": "2026-02-19",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0142",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0142/id/676575",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0142S02.pdf",
+      "supplement_size": 18345,
+      "supplement_hash": "9aceb9f73d78ad94ec2adf3e16a5f4e6",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -549,6 +626,15 @@
       "time": "14:00",
       "location": "",
       "description": "House Education Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "b4370d86",
+      "type": "Hearing",
+      "date": "2026-02-19",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Education Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions related to school fee waivers.",
@@ -571,11 +657,24 @@
       "agendaURL": "/~2026/agenda/HEDU0127.ag.htm",
       "billSession": "2026GS",
       "markerID": "289889"
+    },
+    {
+      "mtgID": "20483",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-02-19 16:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDU0219.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299097"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/9/2026",
+  "last_action": "Senate/ 2nd reading",
+  "last_action_owner": "Senate Consent Calendar",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -821,6 +920,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-19 17:41:40.820",
+      "actionClass": "A",
+      "voteID": "40645",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-1",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Consent Calendar Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-19 17:42:39.930",
+      "actionClass": "A",
+      "voteID": "40646",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-1",
+      "actionCode": "SCACONCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ placed on Consent Calendar",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-20 10:20:32.097",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRCON",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate Consent Calendar",
+      "actionDate": "2026-02-20 10:20:33.097",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
       "parm1": "",
       "parm2": ""
     }

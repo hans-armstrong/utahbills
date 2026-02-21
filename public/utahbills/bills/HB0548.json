@@ -1,6 +1,6 @@
 {
   "bill_id": 2114131,
-  "change_hash": "580c989520570d55444f4027ed6c7b1f",
+  "change_hash": "7e8e2e3819a757fb0354aaf237d60e8e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-11",
       "event": 1
+    },
+    {
+      "date": "2026-02-18",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Primary Election Amendments",
   "description": "Primary Election Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2112,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2112,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Political Subdivisions"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-18",
+      "committee_id": 2112,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Political Subdivisions"
     }
   ],
   "history": [
@@ -92,6 +103,34 @@
     {
       "date": "2026-02-11",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-16",
+      "action": "LFA/ fiscal note sent to sponsor for HB0548 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "LFA/ fiscal note publicly available for HB0548 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House/ to standing committee in House Political Subdivisions Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -216,7 +255,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 672624,
+      "date": "2026-02-17",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0548",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0548/id/672624",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0548.fn.pdf",
+      "supplement_size": 1609130,
+      "supplement_hash": "3670958fbe2bfddfa185551cdf8a825c",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill modifies the circumstances under which certain primary elections may be held.",
   "hilighted_provisions": "This bill:<hr><ltbullet>makes municipal primary elections discretionary by requiring authorization of the municipal legislative body to hold a primary election; and<hr><ltbullet>makes technical and conforming changes.",
@@ -226,9 +286,9 @@
   "gov_tracking_id": "MQFJFJWGFF",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/11/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Political Subdivisions Committee",
+  "last_action_time": "2/18/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -305,6 +365,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0548",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-16 12:43:02.004",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0548",
+      "owner": "Released",
+      "actionDate": "2026-02-17 10:51:31.862",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-17 13:58:23.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2026-02-18 11:58:31.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

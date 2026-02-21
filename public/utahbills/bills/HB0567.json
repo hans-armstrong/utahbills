@@ -1,6 +1,6 @@
 {
   "bill_id": 2117423,
-  "change_hash": "a0416577f246f31bbad5b009e617ce44",
+  "change_hash": "22dc92a0ece9cfce9ddd34f7defa5673",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,18 @@
   "url": "https://legiscan.com/UT/bill/HB0567/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0567.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-02-17",
+  "progress": [
+    {
+      "date": "2026-02-17",
+      "event": 1
+    },
+    {
+      "date": "2026-02-20",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0567",
@@ -32,9 +41,29 @@
   "current_body_id": 93,
   "title": "Outdoor Recreational Infrastructure Grant Program Amendments",
   "description": "Outdoor Recreational Infrastructure Grant Program Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2111,
+  "committee": {
+    "committee_id": 2111,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Natural Resources, Agriculture, and Environment"
+  },
+  "referrals": [
+    {
+      "date": "2026-02-17",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-20",
+      "committee_id": 2111,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Natural Resources, Agriculture, and Environment"
+    }
+  ],
   "history": [
     {
       "date": "2026-02-16",
@@ -63,6 +92,48 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-19",
+      "action": "LFA/ fiscal note sent to sponsor for HB0567 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "LFA/ fiscal note publicly available for HB0567 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House/ to standing committee in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -140,6 +211,42 @@
     {
       "subject_id": 11898,
       "subject_name": "Natural Resources"
+    },
+    {
+      "subject_id": 12080,
+      "subject_name": "State Lands"
+    },
+    {
+      "subject_id": 332638,
+      "subject_name": "Environment"
+    },
+    {
+      "subject_id": 20875,
+      "subject_name": "Department of Natural Resources"
+    },
+    {
+      "subject_id": 81575,
+      "subject_name": "Public Lands"
+    },
+    {
+      "subject_id": 334692,
+      "subject_name": "Grant Programs and Incentives"
+    },
+    {
+      "subject_id": 334138,
+      "subject_name": "Outdoor Recreation"
+    },
+    {
+      "subject_id": 343138,
+      "subject_name": "Trails"
+    },
+    {
+      "subject_id": 334139,
+      "subject_name": "Water"
+    },
+    {
+      "subject_id": 354217,
+      "subject_name": "Division of Recreation"
     }
   ],
   "texts": [
@@ -164,8 +271,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 675699,
+      "date": "2026-02-19",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0567",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0567/id/675699",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0567.fn.pdf",
+      "supplement_size": 1608372,
+      "supplement_hash": "d56f1b71b71c6620ae6e641571f9fe80",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "e6d78886",
+      "type": "Hearing",
+      "date": "2026-02-23",
+      "time": "08:00",
+      "location": "",
+      "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses provisions related to outdoor recreation infrastructure grants.",
   "hilighted_provisions": "This bill:<hr><ltbullet>modifies terms;<hr><ltbullet>clarifies that a recreational infrastructure project may include the restoration of a natural feature, like a waterbody, for greater public access to the state's outdoors; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -174,9 +312,9 @@
   "gov_tracking_id": "YXHKWYJFGH",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/16/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -227,6 +365,84 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-17 08:15:32.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-17 10:34:14.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0567",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-19 08:44:57.824",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0567",
+      "owner": "Released",
+      "actionDate": "2026-02-19 08:44:58.720",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-19 09:19:39.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-20 12:01:57.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

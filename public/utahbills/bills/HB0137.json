@@ -1,6 +1,6 @@
 {
   "bill_id": 2065305,
-  "change_hash": "5c25213bd48826c7054e2c8818184269",
+  "change_hash": "364f3801b751396f945c63795d60c08b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/HB0137/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0137.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2026-01-20",
+  "status": 2,
+  "status_date": "2026-02-19",
   "progress": [
     {
       "date": "2026-01-20",
@@ -32,6 +32,10 @@
     {
       "date": "2026-02-12",
       "event": 10
+    },
+    {
+      "date": "2026-02-19",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,12 +45,17 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Violent Crime Clearance Rate Amendments",
   "description": "Violent Crime Clearance Rate Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2026-01-20",
@@ -61,6 +70,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Law Enforcement and Criminal Justice"
+    },
+    {
+      "date": "2026-02-20",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -181,6 +197,41 @@
       "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -402,6 +453,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0137/id/1630931",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39928"
+    },
+    {
+      "roll_call_id": 1639527,
+      "date": "2026-02-19",
+      "desc": "House/ passed 3rd reading",
+      "yea": 63,
+      "nay": 1,
+      "nv": 0,
+      "absent": 11,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0137/id/1639527",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=585&house=H"
     }
   ],
   "amendments": [],
@@ -520,9 +586,9 @@
       "markerID": "296313"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "2/12/2026",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -742,6 +808,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-19 14:40:53.657",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-19 14:45:42.707",
+      "actionClass": "H",
+      "voteID": "585",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "63-1-11",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-19 14:45:44.707",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "2026-02-19 15:49:53.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-20 10:15:41.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }

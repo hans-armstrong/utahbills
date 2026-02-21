@@ -1,6 +1,6 @@
 {
   "bill_id": 2112949,
-  "change_hash": "ba8f5c1303479bcf5d4cb1352b168b83",
+  "change_hash": "7d112e3acd85af7d806ea3d2ae0b03ec",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-10",
       "event": 1
+    },
+    {
+      "date": "2026-02-18",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -46,6 +50,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-18",
+      "committee_id": 2107,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Government Operations"
     }
   ],
   "history": [
@@ -108,6 +119,20 @@
     {
       "date": "2026-02-12",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House/ to standing committee in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House Comm - Not Considered in House Government Operations Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -258,7 +283,26 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "3b8445da",
+      "type": "Hearing",
+      "date": "2026-02-19",
+      "time": "16:00",
+      "location": "",
+      "description": "House Government Operations Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "e7c51a7c",
+      "type": "Hearing",
+      "date": "2026-02-24",
+      "time": "08:00",
+      "location": "",
+      "description": "House Government Operations Hearing"
+    }
+  ],
   "general_provisions": "This joint resolution of the Utah Legislature proposes to amend the Utah Constitution to establish a Secretary of State. ",
   "hilighted_provisions": "This resolution:<hr><ltbullet>create the constitutional office of the Secretary of State;<hr><ltbullet>establish the qualifications, the term of office, and the duties of the Secretary of State; <hr><ltbullet>provide for compensation of the Secretary of State; <hr><ltbullet>provide the manner in which a vacancy in the office of Secretary of State is filled; and<hr><ltbullet>make conforming changes.",
   "monies": "None",
@@ -266,10 +310,24 @@
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "RMTYBTPNLF",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/12/2026",
+  "agendas": [
+    {
+      "mtgID": "20551",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2026-02-19 16:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HGOC0219.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299047"
+    }
+  ],
+  "last_action": "House Comm - Not Considered",
+  "last_action_owner": "House Government Operations Committee",
+  "last_action_time": "2/19/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -385,6 +443,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2026-02-18 11:57:43.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2026-02-19 16:00:00.000",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
       "parm1": "",
       "parm2": ""
     }

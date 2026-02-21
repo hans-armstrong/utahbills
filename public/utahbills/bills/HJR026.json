@@ -1,6 +1,6 @@
 {
   "bill_id": 2114324,
-  "change_hash": "1c03f0fde500f54f4b35f584eec87a84",
+  "change_hash": "90eff05231bccf3246143fe4f69967ba",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-11",
       "event": 1
+    },
+    {
+      "date": "2026-02-17",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,8 +41,13 @@
   "current_body_id": 93,
   "title": "Joint Resolution Amending Rules of Evidence to Address Machine-Generated Evidence",
   "description": "Joint Resolution Amending Rules of Evidence to Address Machine-Generated Evidence",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2110,
+  "committee": {
+    "committee_id": 2110,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Law Enforcement and Criminal Justice"
+  },
   "referrals": [
     {
       "date": "2026-02-11",
@@ -46,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-17",
+      "committee_id": 2110,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Law Enforcement and Criminal Justice"
     }
   ],
   "history": [
@@ -111,6 +127,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ to standing committee in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -258,7 +281,26 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "01fc275e",
+      "type": "Hearing",
+      "date": "2026-02-19",
+      "time": "08:00",
+      "location": "",
+      "description": "House Law Enforcement and Criminal Justice Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "069fb855",
+      "type": "Hearing",
+      "date": "2026-02-23",
+      "time": "08:00",
+      "location": "",
+      "description": "House Law Enforcement and Criminal Justice Hearing"
+    }
+  ],
   "general_provisions": "This resolution amends the Utah Rules of Evidence regarding the admissibility of machine-generated evidence.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>amends the Utah Rules of Evidence by adding Rule 707 to address the admissibility of machine-generated evidence.",
   "monies": "None",
@@ -267,9 +309,9 @@
   "gov_tracking_id": "XMDRRBFMAS",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/12/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Law Enforcement and Criminal Justice Committee",
+  "last_action_time": "2/17/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -385,6 +427,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-02-17 12:09:03.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

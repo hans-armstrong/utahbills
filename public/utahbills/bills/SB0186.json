@@ -1,6 +1,6 @@
 {
   "bill_id": 2090912,
-  "change_hash": "e94d8508d9e39f49178e550de0876bde",
+  "change_hash": "1d84c2cf31536db250de2f5ee84ecb1e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SB0186/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0186.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2026-01-23",
+  "status": 2,
+  "status_date": "2026-02-18",
   "progress": [
     {
       "date": "2026-01-23",
@@ -32,6 +32,10 @@
     {
       "date": "2026-01-30",
       "event": 10
+    },
+    {
+      "date": "2026-02-18",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,12 +45,17 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Charter School Base Funding Amendments",
   "description": "Charter School Base Funding Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2026-01-23",
@@ -61,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Education"
+    },
+    {
+      "date": "2026-02-18",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -153,6 +169,55 @@
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -348,6 +413,36 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0186/id/1619545",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39135"
+    },
+    {
+      "roll_call_id": 1635689,
+      "date": "2026-02-17",
+      "desc": "Senate/ passed 2nd reading",
+      "yea": 17,
+      "nay": 8,
+      "nv": 0,
+      "absent": 4,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0186/id/1635689",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=546&house=S"
+    },
+    {
+      "roll_call_id": 1637324,
+      "date": "2026-02-18",
+      "desc": "Senate/ passed 3rd reading",
+      "yea": 15,
+      "nay": 10,
+      "nv": 0,
+      "absent": 4,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0186/id/1637324",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=570&house=S"
     }
   ],
   "amendments": [],
@@ -426,9 +521,9 @@
       "markerID": "291256"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "1/30/2026",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/18/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -596,6 +691,97 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-17 14:43:29.787",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-17 14:50:44.193",
+      "actionClass": "S",
+      "voteID": "546",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "17-8-4",
+      "actionCode": "SPASS2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-18 10:34:49.220",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-18 10:37:00.340",
+      "actionClass": "S",
+      "voteID": "570",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "15-10-4",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-18 10:37:01.340",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-18 12:11:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-18 14:05:35.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

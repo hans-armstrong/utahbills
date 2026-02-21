@@ -1,6 +1,6 @@
 {
   "bill_id": 2113112,
-  "change_hash": "2e5ba09619c4c4fc95cce44fd2ab29aa",
+  "change_hash": "df6c74b2bdca5064f03046f8626a64fa",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-10",
       "event": 1
+    },
+    {
+      "date": "2026-02-19",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,8 +41,13 @@
   "current_body_id": 93,
   "title": "Local School Board Reporting",
   "description": "Local School Board Reporting",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2105,
+  "committee": {
+    "committee_id": 2105,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Education"
+  },
   "referrals": [
     {
       "date": "2026-02-10",
@@ -46,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-19",
+      "committee_id": 2105,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Education"
     }
   ],
   "history": [
@@ -111,6 +127,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ to standing committee in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -259,9 +282,9 @@
   "gov_tracking_id": "YAPOWXGDIA",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/13/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Education Committee",
+  "last_action_time": "2/19/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -377,6 +400,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Education Committee",
+      "actionDate": "2026-02-19 12:12:57.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

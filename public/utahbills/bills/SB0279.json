@@ -1,6 +1,6 @@
 {
   "bill_id": 2111890,
-  "change_hash": "c389c2e32846f74326f2f20d3372bafe",
+  "change_hash": "86672c1ce39b7d26bbcd772fa75d0045",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "State Homeless Campus Neighbor Tax Credit",
   "description": "State Homeless Campus Neighbor Tax Credit",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-10",
@@ -134,6 +129,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate Comm - Amendment Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate Comm - Motion to Recommend Failed in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -321,8 +330,61 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
-  "amendments": [],
+  "votes": [
+    {
+      "roll_call_id": 1636029,
+      "date": "2026-02-17",
+      "desc": "Senate Comm - Amendment Recommendation",
+      "yea": 6,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0279/id/1636029",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40374"
+    },
+    {
+      "roll_call_id": 1636030,
+      "date": "2026-02-17",
+      "desc": "Senate Comm - Motion to Recommend Failed",
+      "yea": 3,
+      "nay": 3,
+      "nv": 0,
+      "absent": 1,
+      "total": 7,
+      "passed": 0,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0279/id/1636030",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40377"
+    }
+  ],
+  "amendments": [
+    {
+      "amendment_id": 275964,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2026-02-17",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0279/id/275964",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/SB0279.Samd.1.pdf",
+      "amendment_size": 10509,
+      "amendment_hash": "784253d086f8d5aa082614149a29c734",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 666116,
@@ -363,10 +425,24 @@
   "fiscal_analyst": "Andrea Wilko",
   "gov_tracking_id": "IGFRQKUCES",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20469",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-02-17 16:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SREV0217.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "298008"
+    }
+  ],
+  "last_action": "Senate Comm - Motion to Recommend Failed",
   "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "2/12/2026",
+  "last_action_time": "2/17/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -495,6 +571,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Amendment Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2026-02-17 17:00:17.593",
+      "actionClass": "A",
+      "voteID": "40374",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-1",
+      "actionCode": "SCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Motion to Recommend Failed",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2026-02-17 17:14:59.520",
+      "actionClass": "A",
+      "voteID": "40377",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-3-1",
+      "actionCode": "SCAFAVFAIL",
       "parm1": "",
       "parm2": ""
     }

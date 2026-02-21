@@ -1,6 +1,6 @@
 {
   "bill_id": 2114117,
-  "change_hash": "c1ad11256921618faa1025ac40c3e590",
+  "change_hash": "31ef46c88398f2c19533af269828146b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-11",
       "event": 1
+    },
+    {
+      "date": "2026-02-19",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,8 +41,13 @@
   "current_body_id": 93,
   "title": "Transnational Repression Amendments",
   "description": "Transnational Repression Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2109,
+  "committee": {
+    "committee_id": 2109,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Judiciary"
+  },
   "referrals": [
     {
       "date": "2026-02-11",
@@ -46,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-19",
+      "committee_id": 2109,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Judiciary"
     }
   ],
   "history": [
@@ -111,6 +127,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ to standing committee in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -186,36 +209,8 @@
   "sasts": [],
   "subjects": [
     {
-      "subject_id": 332654,
-      "subject_name": "Student health and safety"
-    },
-    {
-      "subject_id": 11973,
-      "subject_name": "Higher Education"
-    },
-    {
-      "subject_id": 332736,
-      "subject_name": "Crimes"
-    },
-    {
       "subject_id": 11866,
       "subject_name": "Law Enforcement and Criminal Justice"
-    },
-    {
-      "subject_id": 11881,
-      "subject_name": "Public Safety"
-    },
-    {
-      "subject_id": 16547,
-      "subject_name": "Department of Public Safety"
-    },
-    {
-      "subject_id": 340966,
-      "subject_name": "Utah Board of Higher Education"
-    },
-    {
-      "subject_id": 335700,
-      "subject_name": "Commission on Criminal and Juvenile Justice"
     }
   ],
   "texts": [
@@ -230,6 +225,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0547.pdf",
       "text_size": 47519,
       "text_hash": "82defb9b82376139653ae053a52ce832",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3370879,
+      "date": "2026-02-20",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0547/id/3370879",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0547S01.pdf",
+      "text_size": 37533,
+      "text_hash": "2c1c59bab804fb93f52ccf6800686347",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -260,6 +273,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 677727,
+      "date": "2026-02-20",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0547/id/677727",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0547%20To%20HB0547S01.pdf",
+      "supplement_size": 54947,
+      "supplement_hash": "8f9e5064ac556c5bc943cc872325b2f3",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [],
@@ -271,9 +304,9 @@
   "gov_tracking_id": "PCHIXIKTJX",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/13/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Judiciary Committee",
+  "last_action_time": "2/19/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -389,6 +422,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2026-02-19 12:13:18.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

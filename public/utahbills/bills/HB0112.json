@@ -1,6 +1,6 @@
 {
   "bill_id": 2061192,
-  "change_hash": "df31088f6abea12abec2c53c7708c601",
+  "change_hash": "da462050c284c7c78e789f80a6209e97",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-28",
       "event": 9
+    },
+    {
+      "date": "2026-02-20",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -198,6 +202,34 @@
       "action": "LFA/ fiscal note publicly available for HB0112S02 in Released",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House Comm - Substitute Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House Comm - Favorable Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House/ comm rpt/ substituted in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -437,6 +469,36 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0112/id/1622690",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39415"
+    },
+    {
+      "roll_call_id": 1639537,
+      "date": "2026-02-19",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0112/id/1639537",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40638"
+    },
+    {
+      "roll_call_id": 1639538,
+      "date": "2026-02-19",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0112/id/1639538",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40639"
     }
   ],
   "amendments": [],
@@ -560,6 +622,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 676510,
+      "date": "2026-02-19",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0112",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0112/id/676510",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0112H02.pdf",
+      "supplement_size": 17583,
+      "supplement_hash": "272235d8a921f9069cdc2a22ff6ed5c2",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -571,10 +653,19 @@
       "time": "15:40",
       "location": "",
       "description": "House Government Operations Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "3b8445da",
+      "type": "Hearing",
+      "date": "2026-02-19",
+      "time": "16:00",
+      "location": "",
+      "description": "House Government Operations Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions related to political advertising.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>specifies that an electioneering communication or a political advertisement includes a communication or advertisement disseminated on a social media platform;<hr><ltbullet>clarifies campaign finance disclosure requirements when more than one person pays for a single political advertisement;<hr><ltbullet>authorizes an election officer to impose a monetary fine against a person who violates certain provisions related to political advertisements; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>specifies that an electioneering communication or a political advertisement includes a communication or advertisement disseminated on a social media platform;<hr><ltbullet>authorizes an election officer to impose a monetary fine against a person who violates certain provisions related to political advertising and reporting requirements;<hr><ltbullet>limits a fine described above to one per political advertisement for disclosure violations and one per act or omission for other violations; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Michael Cipriano",
   "fiscal_analyst": "Ivan D. Djambov",
@@ -593,11 +684,24 @@
       "agendaURL": "/~2026/agenda/HGOC0203.ag.htm",
       "billSession": "2026GS",
       "markerID": "293257"
+    },
+    {
+      "mtgID": "20551",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2026-02-19 16:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HGOC0219.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299075"
     }
   ],
-  "last_action": "House Comm - Held",
-  "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "2/3/2026",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -856,6 +960,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2026-02-19 17:32:03.050",
+      "actionClass": "A",
+      "voteID": "40638",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-5",
+      "actionCode": "HCASUB",
+      "parm1": "2",
+      "parm2": "1"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2026-02-19 17:32:42.090",
+      "actionClass": "A",
+      "voteID": "40639",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-5",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2026-02-20 10:19:31.913",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-20 10:19:32.913",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

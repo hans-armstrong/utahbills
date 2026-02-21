@@ -1,6 +1,6 @@
 {
   "bill_id": 2106456,
-  "change_hash": "db1b59a2892698ff533ab5680ba55b80",
+  "change_hash": "969ffaa766ce932219477f4ae98fdcb1",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-12",
       "event": 9
+    },
+    {
+      "date": "2026-02-18",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Utah Homeless Services Board Amendments",
   "description": "Utah Homeless Services Board Amendments",
-  "pending_committee_id": 2861,
-  "committee": {
-    "committee_id": 2861,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Economic Development and Workforce Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-04",
@@ -162,6 +161,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate Comm - Substitute Recommendation in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate Comm - Favorable Recommendation in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate/ comm rpt/ substituted in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -367,7 +394,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1635815,
+      "date": "2026-02-17",
+      "desc": "Senate Comm - Substitute Recommendation",
+      "yea": 4,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 6,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0246/id/1635815",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40361"
+    },
+    {
+      "roll_call_id": 1635816,
+      "date": "2026-02-17",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 6,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0246/id/1635816",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40364"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -429,6 +487,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 672901,
+      "date": "2026-02-17",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0246",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0246/id/672901",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0246S02.pdf",
+      "supplement_size": 18358,
+      "supplement_hash": "d180fbc952ed33affb07496b7f89789b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -443,16 +521,30 @@
     }
   ],
   "general_provisions": "This bill amends the membership of the Utah Homeless Services Board.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines \"homeless services campus\" (campus); <hr><ltbullet>amends the membership of the Utah Homeless Services Board (board) by requiring, within one month of the announcement of a campus, a member to be appointed to the board who: <hr><ltbullet1>resides within a certain distance from the campus, appointed by a community organization that advocates on behalf of residents of that area, and which organization shall be chosen by the Office of Homeless Services; or<hr><ltbullet1>if a campus is announced for the west side of Salt Lake City, represents the west side of Salt Lake City, appointed by the Westside Coalition; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines and amends terms; <hr><ltbullet>amends the membership of the Utah Homeless Services Board (board) by requiring the board to appoint certain members to the board within a certain time frame of announcing or recommending the location of a homeless services campus; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Rhonda Bailey",
   "fiscal_analyst": "Josh Pittman",
   "gov_tracking_id": "FBPUFYUKEO",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Economic Development and Workforce Services Committee",
-  "last_action_time": "2/12/2026",
+  "agendas": [
+    {
+      "mtgID": "20423",
+      "committeeID": "SSTEDW",
+      "mtgDate": "2026-02-17 16:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Economic Development and Workforce Services Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001704.htm",
+      "agendaURL": "/~2026/agenda/SEDW0217.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "297968"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/18/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -633,6 +725,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "2026-02-17 16:37:26.127",
+      "actionClass": "A",
+      "voteID": "40361",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-2",
+      "actionCode": "SCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "2026-02-17 16:42:33.907",
+      "actionClass": "A",
+      "voteID": "40364",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-2",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ substituted",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "2026-02-18 10:29:59.017",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-18 10:30:00.017",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

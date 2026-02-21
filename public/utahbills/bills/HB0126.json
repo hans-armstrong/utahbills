@@ -1,6 +1,6 @@
 {
   "bill_id": 2064995,
-  "change_hash": "f5a63cbc57ef5695352a1e99034a4c0f",
+  "change_hash": "1e9d49b12c95f9e1a65e44c0c05cf801",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-06",
       "event": 9
+    },
+    {
+      "date": "2026-02-20",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Micro-Education Entity Facility Amendments",
   "description": "Micro-Education Entity Facility Amendments",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -258,6 +257,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-19",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ committee report favorable in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -512,6 +532,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0126/id/1623201",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=194&house=H"
+    },
+    {
+      "roll_call_id": 1639225,
+      "date": "2026-02-19",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0126/id/1639225",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40640"
     }
   ],
   "amendments": [],
@@ -595,6 +630,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 676233,
+      "date": "2026-02-19",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0126",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0126/id/676233",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0126S01.pdf",
+      "supplement_size": 18304,
+      "supplement_hash": "536ac8efb508f587a44e1e31958a9798",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -606,6 +661,15 @@
       "time": "14:00",
       "location": "",
       "description": "House Political Subdivisions Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "b4370d86",
+      "type": "Hearing",
+      "date": "2026-02-19",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Education Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions regarding zoning and land use regulations regarding a microschool or micro-education entity.",
@@ -628,11 +692,24 @@
       "agendaURL": "/~2026/agenda/HPOL0126.ag.htm",
       "billSession": "2026GS",
       "markerID": "289201"
+    },
+    {
+      "mtgID": "20483",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-02-19 16:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDU0219.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299080"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/6/2026",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "LFA/ bill assigned to staff for fiscal analysis for HB0126",
@@ -943,6 +1020,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-19 17:33:00.523",
+      "actionClass": "A",
+      "voteID": "40640",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-20 10:19:11.707",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-20 10:19:12.707",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

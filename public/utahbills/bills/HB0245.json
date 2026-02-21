@@ -1,6 +1,6 @@
 {
   "bill_id": 2073504,
-  "change_hash": "82dc99e93066e208ae8ed85263ac607a",
+  "change_hash": "12404f57f3c60c5e9b63c1a092888fe4",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0245/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0245.html",
-  "completed": 0,
-  "status": 1,
-  "status_date": "2026-01-20",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-02-20",
   "progress": [
     {
       "date": "2026-01-20",
@@ -32,6 +32,10 @@
     {
       "date": "2026-02-12",
       "event": 10
+    },
+    {
+      "date": "2026-02-20",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -189,6 +193,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House/ failed in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House/ filed in House file for bills not passed",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -356,6 +381,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0245/id/1626908",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39791"
+    },
+    {
+      "roll_call_id": 1639907,
+      "date": "2026-02-20",
+      "desc": "House/ failed",
+      "yea": 25,
+      "nay": 46,
+      "nv": 0,
+      "absent": 4,
+      "total": 75,
+      "passed": 0,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0245/id/1639907",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=631&house=H"
     }
   ],
   "amendments": [],
@@ -474,9 +514,9 @@
       "markerID": "295652"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "2/12/2026",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -709,6 +749,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-20 11:04:17.577",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ failed",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-20 11:24:26.837",
+      "actionClass": "H",
+      "voteID": "631",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "25-46-4",
+      "actionCode": "HFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-02-20 11:24:29.837",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

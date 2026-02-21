@@ -1,6 +1,6 @@
 {
   "bill_id": 2116753,
-  "change_hash": "75688a08139cb9e223f6c04a2dc8468f",
+  "change_hash": "c3abf2802fdc16365b1537c20ebb14f8",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-13",
       "event": 1
+    },
+    {
+      "date": "2026-02-19",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Pollution Standards Amendments",
   "description": "Pollution Standards Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2111,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2111,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Natural Resources, Agriculture, and Environment"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-19",
+      "committee_id": 2111,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Natural Resources, Agriculture, and Environment"
     }
   ],
   "history": [
@@ -92,6 +103,34 @@
     {
       "date": "2026-02-13",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-16",
+      "action": "LFA/ fiscal note sent to sponsor for HB0564 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "LFA/ fiscal note publicly available for HB0564 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ to standing committee in House Natural Resources, Agriculture, and Environment Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -204,7 +243,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 672650,
+      "date": "2026-02-17",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0564",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0564/id/672650",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0564.fn.pdf",
+      "supplement_size": 1609174,
+      "supplement_hash": "9c5d1253a435482f9d3fc00a895b3bf1",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill addresses pollution standards for particulate matter and nitrogen oxides.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms; and<hr><ltbullet>establishes a total annual emissions limit for PM2.5 and nitrogen oxides from point sources in certain counties.",
@@ -214,9 +274,9 @@
   "gov_tracking_id": "RYBGDTEPJJ",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/13/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
+  "last_action_time": "2/19/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -293,6 +353,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0564",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-16 14:56:36.496",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0564",
+      "owner": "Released",
+      "actionDate": "2026-02-17 10:51:39.858",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-17 13:58:23.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-19 12:13:32.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

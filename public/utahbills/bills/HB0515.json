@@ -1,6 +1,6 @@
 {
   "bill_id": 2111669,
-  "change_hash": "65f39ad63977c7aa7c8018d83b5889c2",
+  "change_hash": "472bb7ca319f147e67de0556581b5106",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-09",
       "event": 1
+    },
+    {
+      "date": "2026-02-17",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -46,6 +50,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-17",
+      "committee_id": 2115,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -139,6 +150,27 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Bill Substituted by Sponsor in House Rules Comm in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ to standing committee in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House Comm - Held in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -216,6 +248,26 @@
     {
       "subject_id": 11846,
       "subject_name": "Education"
+    },
+    {
+      "subject_id": 11973,
+      "subject_name": "Higher Education"
+    },
+    {
+      "subject_id": 340966,
+      "subject_name": "Utah Board of Higher Education"
+    },
+    {
+      "subject_id": 334565,
+      "subject_name": "Higher Education Students"
+    },
+    {
+      "subject_id": 334865,
+      "subject_name": "Scholarships and Financial Aid"
+    },
+    {
+      "subject_id": 334644,
+      "subject_name": "Utah System of Higher Education"
     }
   ],
   "texts": [
@@ -256,7 +308,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1639544,
+      "date": "2026-02-19",
+      "desc": "House Comm - Held",
+      "yea": 5,
+      "nay": 4,
+      "nv": 0,
+      "absent": 2,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0515/id/1639544",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40591"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -320,18 +388,42 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
-  "general_provisions": "This bill establishes the Graduate Student Supplemental Revolving Loan Account to provide supplemental financial aid to certain graduate students.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>establishes the Graduate Student Supplemental Revolving Loan Account (account) to provide supplemental financial aid to certain graduate students for whom the cost of graduate programs exceeds new federal financial aid limits; and<hr><ltbullet>requires the Utah Board of Higher Education to:<hr><ltbullet1>administer the account;<hr><ltbullet1>make rules to provide the supplemental loans; and<hr><ltbullet1>annually report to the governor and the Higher Education Appropriations Subcommittee.",
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "6dac0c20",
+      "type": "Hearing",
+      "date": "2026-02-19",
+      "time": "16:00",
+      "location": "",
+      "description": "House Revenue and Taxation Hearing"
+    }
+  ],
+  "general_provisions": "This bill establishes the Graduate Student Supplemental Revolving Loan Fund to provide supplemental financial aid to certain graduate students.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>establishes the Graduate Student Supplemental Revolving Loan Fund (fund) to provide supplemental financial aid to certain graduate students for whom the cost of graduate programs exceeds new federal financial aid limits;<hr><ltbullet>requires the Utah Board of Higher Education to:<hr><ltbullet1>administer the fund;<hr><ltbullet1>make rules to provide the supplemental loans; and<hr><ltbullet1>annually report to the governor and the Higher Education Appropriations Subcommittee;<hr><ltbullet>adds the fund to a list of revolving loan funds for Division of Finance rulemaking; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
   "attorney": "Mike Curtis",
   "fiscal_analyst": "Joseph Fitzgerald",
   "gov_tracking_id": "IUJNUNFMVC",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/12/2026",
+  "agendas": [
+    {
+      "mtgID": "20477",
+      "committeeID": "HSTREV",
+      "mtgDate": "2026-02-19 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HREV0219.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "298909"
+    }
+  ],
+  "last_action": "House Comm - Held",
+  "last_action_owner": "House Revenue and Taxation Committee",
+  "last_action_time": "2/19/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -499,6 +591,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Substituted by Sponsor in House Rules Comm",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-17 10:27:00.000",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRULSUBH",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2026-02-17 12:10:08.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2026-02-19 16:31:10.000",
+      "actionClass": "A",
+      "voteID": "40591",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-4-2",
+      "actionCode": "HCAHELD",
       "parm1": "",
       "parm2": ""
     }

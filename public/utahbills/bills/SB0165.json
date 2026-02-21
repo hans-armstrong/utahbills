@@ -1,6 +1,6 @@
 {
   "bill_id": 2087184,
-  "change_hash": "638281afb4cf2e6fd19bf52a9ec71174",
+  "change_hash": "e8c0c3ba785a6062b33bbfb739fe4c19",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SB0165/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0165.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2026-01-21",
+  "status": 2,
+  "status_date": "2026-02-17",
   "progress": [
     {
       "date": "2026-01-21",
@@ -32,6 +32,14 @@
     {
       "date": "2026-01-29",
       "event": 10
+    },
+    {
+      "date": "2026-02-17",
+      "event": 2
+    },
+    {
+      "date": "2026-02-20",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -41,12 +49,17 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Economic Mobility Initiative",
   "description": "Economic Mobility Initiative",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2860,
+  "committee": {
+    "committee_id": 2860,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Economic Development and Workforce Services"
+  },
   "referrals": [
     {
       "date": "2026-01-21",
@@ -60,6 +73,20 @@
       "committee_id": 2861,
       "chamber": "S",
       "chamber_id": 94,
+      "name": "Economic Development and Workforce Services"
+    },
+    {
+      "date": "2026-02-17",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-20",
+      "committee_id": 2860,
+      "chamber": "H",
+      "chamber_id": 93,
       "name": "Economic Development and Workforce Services"
     }
   ],
@@ -217,6 +244,48 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House/ to standing committee in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -452,9 +521,46 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0165/id/1633422",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=491&house=S"
+    },
+    {
+      "roll_call_id": 1635223,
+      "date": "2026-02-17",
+      "desc": "Senate/ passed 3rd reading",
+      "yea": 16,
+      "nay": 8,
+      "nv": 0,
+      "absent": 5,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0165/id/1635223",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=527&house=S"
     }
   ],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 277557,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2026-02-20",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0165/id/277557",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/SB0165S01.Samd.1.pdf",
+      "amendment_size": 7234,
+      "amendment_hash": "47e9a2be94eb8832339b5ebe062b5356",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 643051,
@@ -570,9 +676,9 @@
       "markerID": "290574"
     }
   ],
-  "last_action": "Senate/ passed 2nd reading",
-  "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/13/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Economic Development and Workforce Services Committee",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -857,6 +963,84 @@
       "voteHouse": "S",
       "voteStr": "23-1-5",
       "actionCode": "SPASS2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-17 11:31:43.737",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-17 11:34:30.790",
+      "actionClass": "S",
+      "voteID": "527",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "16-8-5",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-17 11:34:31.790",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-17 13:01:50.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-17 14:13:49.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "2026-02-20 12:01:18.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

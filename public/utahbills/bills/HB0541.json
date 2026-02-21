@@ -1,6 +1,6 @@
 {
   "bill_id": 2114016,
-  "change_hash": "a68491b0f6aa1b05384fe52761ad2d07",
+  "change_hash": "f3a8cc52bb37540df3234e0f3d86f31d",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "First-Time Homebuyer Assistance Program Amendments",
   "description": "First-Time Homebuyer Assistance Program Amendments",
-  "pending_committee_id": 2860,
-  "committee": {
-    "committee_id": 2860,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Economic Development and Workforce Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-11",
@@ -134,6 +129,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House Comm - Not Considered in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -269,7 +271,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "d853f5e3",
+      "type": "Hearing",
+      "date": "2026-02-18",
+      "time": "16:00",
+      "location": "",
+      "description": "House Economic Development and Workforce Services Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions of the First-Time Homebuyer Assistance Program.",
   "hilighted_provisions": "This bill:<hr><ltbullet>amends the amount a first-time homebuyer may receive under the First-Time Homebuyer Assistance Program for a certain type of property; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -277,10 +289,24 @@
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "NAUMFLRACE",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20414",
+      "committeeID": "HSTEDW",
+      "mtgDate": "2026-02-18 16:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Economic Development and Workforce Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HEDW0218.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
+    }
+  ],
+  "last_action": "House Comm - Not Considered",
   "last_action_owner": "House Economic Development and Workforce Services Committee",
-  "last_action_time": "2/13/2026",
+  "last_action_time": "2/18/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -409,6 +435,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "2026-02-18 16:00:00.000",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
       "parm1": "",
       "parm2": ""
     }

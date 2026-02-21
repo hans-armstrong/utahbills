@@ -1,6 +1,6 @@
 {
   "bill_id": 2117029,
-  "change_hash": "2b0385029a7a7879847ee346b456d79b",
+  "change_hash": "32dd3731d3f32c4a95f5d90037f5c3da",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,18 @@
   "url": "https://legiscan.com/UT/bill/HB0565/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0565.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-02-17",
+  "progress": [
+    {
+      "date": "2026-02-17",
+      "event": 1
+    },
+    {
+      "date": "2026-02-19",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0565",
@@ -32,9 +41,29 @@
   "current_body_id": 93,
   "title": "City Library Property Tax Amendments",
   "description": "City Library Property Tax Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2115,
+  "committee": {
+    "committee_id": 2115,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Revenue and Taxation"
+  },
+  "referrals": [
+    {
+      "date": "2026-02-17",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-19",
+      "committee_id": 2115,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Revenue and Taxation"
+    }
+  ],
   "history": [
     {
       "date": "2026-02-13",
@@ -70,6 +99,41 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "LFA/ fiscal note sent to sponsor for HB0565 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "LFA/ fiscal note publicly available for HB0565 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ received fiscal note from Fiscal Analyst in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ to standing committee in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -190,9 +254,62 @@
     }
   ],
   "votes": [],
-  "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "amendments": [
+    {
+      "amendment_id": 277373,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2026-02-19",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0565/id/277373",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0565.Hamd.1.pdf",
+      "amendment_size": 20378,
+      "amendment_hash": "2d7a46e649e1e35e678e278381810c75",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
+  "supplements": [
+    {
+      "supplement_id": 672298,
+      "date": "2026-02-17",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0565",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0565/id/672298",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0565.fn.pdf",
+      "supplement_size": 1608343,
+      "supplement_hash": "468dde36befc29d7660d007aae55b09c",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "bbe853c7",
+      "type": "Hearing",
+      "date": "2026-02-24",
+      "time": "08:00",
+      "location": "",
+      "description": "House Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies provisions related to a property tax imposed for a city library.",
   "hilighted_provisions": "This bill:<hr><ltbullet>requires a county auditor to separately state any levies imposed for city libraries on the annual property valuation notice sent to owners of real property; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -201,9 +318,9 @@
   "gov_tracking_id": "GGMJNTYBGD",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received bill from Legislative Research",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/13/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Revenue and Taxation Committee",
+  "last_action_time": "2/19/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -267,6 +384,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0565",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-17 08:10:20.156",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0565",
+      "owner": "Released",
+      "actionDate": "2026-02-17 08:10:21.142",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-17 09:17:27.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-17 10:34:14.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2026-02-19 12:14:10.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2113450,
-  "change_hash": "f6a45fc94267d5a7c8658ef06c23c78a",
+  "change_hash": "3e23ea9202ea995bd007490d3383aadc",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-12",
       "event": 9
+    },
+    {
+      "date": "2026-02-18",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -114,6 +118,41 @@
       "action": "LFA/ fiscal note sent to sponsor for SB0287 in Version Sponsor",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "LFA/ fiscal note publicly available for SB0287 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate Comm - Favorable Recommendation in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate/ committee report favorable in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -218,9 +257,66 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1635990,
+      "date": "2026-02-17",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 2,
+      "nv": 0,
+      "absent": 1,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0287/id/1635990",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40367"
+    }
+  ],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 672476,
+      "date": "2026-02-17",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0287",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0287/id/672476",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0287.fn.pdf",
+      "supplement_size": 1610264,
+      "supplement_hash": "8739942da87c387dc18283dd8de81c60",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 673071,
+      "date": "2026-02-17",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0287",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0287/id/673071",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0287S01.pdf",
+      "supplement_size": 18279,
+      "supplement_hash": "d1ebb1556386187e90cd1cc3fb22aca2",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [
     {
       "type_id": 1,
@@ -239,10 +335,24 @@
   "fiscal_analyst": "Andrea Wilko",
   "gov_tracking_id": "XUFFOTLJOH",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "2/12/2026",
+  "agendas": [
+    {
+      "mtgID": "20469",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-02-17 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001731.htm",
+      "agendaURL": "/~2026/agenda/SREV0217.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "297939"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/18/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -345,6 +455,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for SB0287",
+      "owner": "Released",
+      "actionDate": "2026-02-17 10:53:53.461",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2026-02-17 14:55:52.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2026-02-17 16:48:30.783",
+      "actionClass": "A",
+      "voteID": "40367",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-2-1",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2026-02-18 10:30:00.017",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-18 10:30:01.017",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

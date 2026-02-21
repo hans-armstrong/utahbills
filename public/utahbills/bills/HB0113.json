@@ -1,6 +1,6 @@
 {
   "bill_id": 2061273,
-  "change_hash": "a633b8532db888597a4779cfcc69fc33",
+  "change_hash": "a5d584d9945db55cb1d957e0c069ce8f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-03",
       "event": 2
+    },
+    {
+      "date": "2026-02-20",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,8 +53,13 @@
   "current_body_id": 94,
   "title": "Emergency Reporting Abuse Amendments",
   "description": "Emergency Reporting Abuse Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2124,
+  "committee": {
+    "committee_id": 2124,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Judiciary, Law Enforcement, and Criminal Justice"
+  },
   "referrals": [
     {
       "date": "2026-01-20",
@@ -72,6 +81,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-20",
+      "committee_id": 2124,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Judiciary, Law Enforcement, and Criminal Justice"
     }
   ],
   "history": [
@@ -277,6 +293,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ to standing committee in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -715,9 +738,9 @@
       "markerID": "288807"
     }
   ],
-  "last_action": "Bill Substituted by Sponsor in Senate Rules Comm",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/13/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "LFA/ bill assigned to staff for fiscal analysis for HB0113",
@@ -1095,6 +1118,19 @@
       "actionCode": "LRULSUBS",
       "parm1": "2",
       "parm2": "1"
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2026-02-20 16:09:33.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
     }
   ]
 }

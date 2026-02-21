@@ -1,6 +1,6 @@
 {
   "bill_id": 2117588,
-  "change_hash": "ff3015e041d69834c695d5a62c1cdb63",
+  "change_hash": "69f3a5b971da7b4491c560abcc756c22",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0574/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0574.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-02-17",
+  "progress": [
+    {
+      "date": "2026-02-17",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0574",
@@ -34,7 +39,15 @@
   "description": "Child Car Seat Requirements",
   "pending_committee_id": 0,
   "committee": [],
-  "referrals": [],
+  "referrals": [
+    {
+      "date": "2026-02-17",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2026-02-16",
@@ -62,6 +75,41 @@
       "action": "LFA/ bill sent to agencies for fiscal input for HB0574 in Legislative Fiscal Agency",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-19",
+      "action": "LFA/ fiscal note sent to sponsor for HB0574 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "LFA/ fiscal note publicly available for HB0574 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -140,6 +188,14 @@
     {
       "subject_id": 11875,
       "subject_name": "Transportation"
+    },
+    {
+      "subject_id": 11874,
+      "subject_name": "Motor Vehicles"
+    },
+    {
+      "subject_id": 404684,
+      "subject_name": "Vehicle Safety Equipment"
     }
   ],
   "texts": [
@@ -163,8 +219,51 @@
     }
   ],
   "votes": [],
-  "amendments": [],
-  "supplements": [],
+  "amendments": [
+    {
+      "amendment_id": 277603,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2026-02-20",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0574/id/277603",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0574.Hamd.1.pdf",
+      "amendment_size": 7167,
+      "amendment_hash": "1f5575a7ee5b0a334e207526b1ada43e",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
+  "supplements": [
+    {
+      "supplement_id": 675913,
+      "date": "2026-02-19",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0574",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0574/id/675913",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0574.fn.pdf",
+      "supplement_size": 1608337,
+      "supplement_hash": "faa2b995ee05af46e1a585fbd9874db2",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill addresses child restraint device requirements.",
   "hilighted_provisions": "This bill:<hr><ltbullet>establishes specific requirements for the type of child restraint device used based on a child's age and size; and<hr><ltbullet>requires children younger than 13 years old to be transported in the rear seat of a motor vehicle when possible.",
@@ -174,9 +273,9 @@
   "gov_tracking_id": "XMGNICNOVW",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/16/2026",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/19/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -227,6 +326,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-17 08:15:32.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-17 10:34:14.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0574",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-19 08:45:29.669",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0574",
+      "owner": "Released",
+      "actionDate": "2026-02-19 08:45:30.457",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-19 09:19:39.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm1": "",
       "parm2": ""
     }

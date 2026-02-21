@@ -1,6 +1,6 @@
 {
   "bill_id": 2082247,
-  "change_hash": "ed94fd9b368e9b5dff025680328bad6e",
+  "change_hash": "3276eaf22cc66d67b8b612480316b465",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SB0145/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0145.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2026-02-13",
   "progress": [
     {
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-13",
       "event": 2
+    },
+    {
+      "date": "2026-02-20",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,8 +53,13 @@
   "current_body_id": 93,
   "title": "Lobbying Amendments",
   "description": "Lobbying Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 5042,
+  "committee": {
+    "committee_id": 5042,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Business, Labor, and Commerce"
+  },
   "referrals": [
     {
       "date": "2026-01-20",
@@ -65,6 +74,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Business and Labor"
+    },
+    {
+      "date": "2026-02-17",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-20",
+      "committee_id": 5042,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Business, Labor, and Commerce"
     }
   ],
   "history": [
@@ -235,6 +258,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House/ to standing committee in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -302,6 +339,74 @@
             "twitter": "",
             "website": "",
             "youtube": "https://www.youtube.com/@bradybrammer9573"
+          }
+        }
+      }
+    },
+    {
+      "people_id": 22378,
+      "person_hash": "9aqlmjl5",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Jordan Teuscher",
+      "first_name": "Jordan",
+      "middle_name": "D.",
+      "last_name": "Teuscher",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-044",
+      "ftm_eid": 49449515,
+      "votesmart_id": 192328,
+      "opensecrets_id": "",
+      "knowwho_pid": 736217,
+      "ballotpedia": "Jordan_Teuscher",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0,
+      "bio": {
+        "social": {
+          "capitol_phone": "801-538-1029",
+          "district_phone": "",
+          "email": "jteuscher@le.utah.gov",
+          "webmail": "",
+          "biography": "https://house.utleg.gov/rep/TEUSCJ/",
+          "image": "https://le.utah.gov/images/legislator/TEUSCJ.jpg",
+          "ballotpedia": "https://ballotpedia.org/Jordan_Teuscher",
+          "votesmart": "https://justfacts.votesmart.org/candidate/biography/192328"
+        },
+        "capitol_address": {
+          "address1": "350 North State, Suite 350",
+          "address2": "P.O. Box 145030",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        },
+        "links": {
+          "official": {
+            "bluesky": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": "",
+            "tiktok": "",
+            "twitter": "",
+            "website": "https://house.utleg.gov/rep/TEUSCJ/",
+            "youtube": ""
+          },
+          "personal": {
+            "bluesky": "",
+            "facebook": "https://www.facebook.com/jordanteuscher",
+            "instagram": "",
+            "linkedin": "https://www.linkedin.com/in/jordanteuscher/",
+            "tiktok": "",
+            "twitter": "",
+            "website": "",
+            "youtube": "https://www.youtube.com/@JordanTeuscher"
           }
         }
       }
@@ -520,9 +625,9 @@
       "markerID": "289207"
     }
   ],
-  "last_action": "House/ received from Senate",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/13/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Business, Labor, and Commerce Committee",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -833,6 +938,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-17 10:17:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-20 12:01:09.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

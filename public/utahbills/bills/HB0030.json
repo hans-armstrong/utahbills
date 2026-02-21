@@ -1,6 +1,6 @@
 {
   "bill_id": 2057194,
-  "change_hash": "18a092703647ee4a3200df81e53fe464",
+  "change_hash": "5a2c1c4a96af85bbb0330833b72f91a7",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-05",
       "event": 9
+    },
+    {
+      "date": "2026-02-17",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -264,6 +268,48 @@
     {
       "date": "2026-02-12",
       "action": "Senate Comm - Favorable Recommendation in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ committee report favorable in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate/ placed on 3rd Reading Calendar table in Senate 3rd Reading Calendar Table",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -569,6 +615,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/HB0030/id/1632503",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40117"
+    },
+    {
+      "roll_call_id": 1637510,
+      "date": "2026-02-18",
+      "desc": "Senate/ passed 2nd reading",
+      "yea": 20,
+      "nay": 1,
+      "nv": 0,
+      "absent": 8,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0030/id/1637510",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=631&house=S"
     }
   ],
   "amendments": [
@@ -771,15 +832,15 @@
       "mtgPlace": "215 Senate Building",
       "committeeName": "Senate Natural Resources, Agriculture, and Environment Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00001652.htm",
       "agendaURL": "/~2026/agenda/SNAE0212.ag.htm",
       "billSession": "2026GS",
       "markerID": "296991"
     }
   ],
-  "last_action": "Senate Comm - Favorable Recommendation",
-  "last_action_owner": "Senate Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "2/12/2026",
+  "last_action": "Senate/ placed on 3rd Reading Calendar table",
+  "last_action_owner": "Senate 3rd Reading Calendar Table",
+  "last_action_time": "2/18/2026",
   "action_history": [
     {
       "description": "LFA/ bill assigned to staff for fiscal analysis for HB0030",
@@ -1116,6 +1177,84 @@
       "voteHouse": "",
       "voteStr": "5-0-2",
       "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-17 10:38:27.617",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-17 10:38:28.617",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-18 15:19:34.580",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-18 15:23:25.947",
+      "actionClass": "S",
+      "voteID": "631",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "20-1-8",
+      "actionCode": "SPASS2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-18 15:23:31.240",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 3rd Reading Calendar table",
+      "owner": "Senate 3rd Reading Calendar Table",
+      "actionDate": "2026-02-18 15:23:43.007",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON3TBL",
       "parm1": "",
       "parm2": ""
     }

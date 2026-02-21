@@ -1,6 +1,6 @@
 {
   "bill_id": 2117467,
-  "change_hash": "7824dd6a361abdbca5c2cf90f4e7e65b",
+  "change_hash": "d20996217cf49ab18afe90eed80e24af",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,18 @@
   "url": "https://legiscan.com/UT/bill/HB0569/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0569.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-02-17",
+  "progress": [
+    {
+      "date": "2026-02-17",
+      "event": 1
+    },
+    {
+      "date": "2026-02-18",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0569",
@@ -34,7 +43,22 @@
   "description": "SNAP Funds Amendments",
   "pending_committee_id": 0,
   "committee": [],
-  "referrals": [],
+  "referrals": [
+    {
+      "date": "2026-02-17",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-18",
+      "committee_id": 2108,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Health and Human Services"
+    }
+  ],
   "history": [
     {
       "date": "2026-02-16",
@@ -62,6 +86,83 @@
       "action": "LFA/ bill sent to agencies for fiscal input for HB0569 in Legislative Fiscal Agency",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-18",
+      "action": "LFA/ fiscal note sent to sponsor for HB0569 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "LFA/ fiscal note publicly available for HB0569 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House/ to standing committee in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-20",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0569S01 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0569S01 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House Comm - Substitute Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House Comm - Amendment Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House Comm - Held in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -140,6 +241,14 @@
     {
       "subject_id": 29190,
       "subject_name": "Workforce Services"
+    },
+    {
+      "subject_id": 12087,
+      "subject_name": "Public Assistance"
+    },
+    {
+      "subject_id": 12101,
+      "subject_name": "Department of Workforce Services"
     }
   ],
   "texts": [
@@ -160,23 +269,174 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3370054,
+      "date": "2026-02-20",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0569/id/3370054",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0569S01.pdf",
+      "text_size": 25400,
+      "text_hash": "65d8cf03d489b4cd93c2b8778c991979",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
-  "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "votes": [
+    {
+      "roll_call_id": 1639784,
+      "date": "2026-02-20",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0569/id/1639784",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40696"
+    },
+    {
+      "roll_call_id": 1639785,
+      "date": "2026-02-20",
+      "desc": "House Comm - Amendment Recommendation",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0569/id/1639785",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40697"
+    },
+    {
+      "roll_call_id": 1639786,
+      "date": "2026-02-20",
+      "desc": "House Comm - Held",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0569/id/1639786",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40699"
+    }
+  ],
+  "amendments": [
+    {
+      "amendment_id": 277507,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2026-02-20",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0569/id/277507",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0569S01.Hamd.1.pdf",
+      "amendment_size": 6652,
+      "amendment_hash": "b26b42b7155b4ab2a28a33ab0cbbb598",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
+  "supplements": [
+    {
+      "supplement_id": 674162,
+      "date": "2026-02-18",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0569",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0569/id/674162",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0569.fn.pdf",
+      "supplement_size": 1610221,
+      "supplement_hash": "fcb2c707b70884fc12f4e1d2a2d26fe8",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 677067,
+      "date": "2026-02-20",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0569/id/677067",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0569%20To%20HB0569S01.pdf",
+      "supplement_size": 28914,
+      "supplement_hash": "80a3c71bff2e95b8122226d21583f426",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "df1bff34",
+      "type": "Hearing",
+      "date": "2026-02-20",
+      "time": "08:30",
+      "location": "",
+      "description": "House Health and Human Services Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses the Supplemental Nutrition Assistance Program.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines \"ultra-processed food\"; <hr><ltbullet>amends the requirement for the Department of Workforce Services to request a waiver from the federal government regarding the use of Supplemental Nutrition Assistance Program funds for certain foods; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines \"ultra-processed food\"; <hr><ltbullet>directs the Department of Workforce Services (DWS) to: <hr><ltbullet1>define the term ultra-processed food within a certain time frame of when the United States Department of Health and Human Services defines this term; and<hr><ltbullet1>submit the term ultra-processed food to the Rules Review and General Oversight Committee for review;<hr><ltbullet>submit a waiver request to the federal government regarding the use of Supplemental Nutrition Assistance Program funds for ultra-processed foods; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Rhonda Bailey",
   "fiscal_analyst": "Josh Pittman",
   "gov_tracking_id": "AFXIMCTJSB",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "",
-  "last_action_owner": "",
-  "last_action_time": "",
+  "agendas": [
+    {
+      "mtgID": "20421",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2026-02-20 08:30:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HHHS0220.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299258"
+    }
+  ],
+  "last_action": "House Comm - Held",
+  "last_action_owner": "House Health and Human Services Committee",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -227,6 +487,149 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-17 08:15:32.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-17 10:34:14.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0569",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-18 06:19:59.540",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0569",
+      "owner": "Released",
+      "actionDate": "2026-02-18 10:31:05.685",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-18 11:00:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-18 11:57:54.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0569S01",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-20 08:05:51.077",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0569S01",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-20 08:05:51.077",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-20 09:33:02.190",
+      "actionClass": "A",
+      "voteID": "40696",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-4",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Amendment Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-20 09:33:52.757",
+      "actionClass": "A",
+      "voteID": "40697",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-4",
+      "actionCode": "HCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-20 09:42:04.257",
+      "actionClass": "A",
+      "voteID": "40699",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-3",
+      "actionCode": "HCAHELD",
       "parm1": "",
       "parm2": ""
     }

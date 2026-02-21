@@ -1,6 +1,6 @@
 {
   "bill_id": 2085990,
-  "change_hash": "078e9b4e70162545937dad27571aa99b",
+  "change_hash": "6ebb9c22ba6355028a900e19b486002c",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-13",
       "event": 9
+    },
+    {
+      "date": "2026-02-18",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 93,
   "title": "Online Sales Tax Amendments",
   "description": "Online Sales Tax Amendments",
-  "pending_committee_id": 2115,
-  "committee": {
-    "committee_id": 2115,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -272,6 +271,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House Comm - Favorable Recommendation in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House/ committee report favorable in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House/ return to Rules due to fiscal impact in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -518,6 +538,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0162/id/1630021",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=402&house=S"
+    },
+    {
+      "roll_call_id": 1636476,
+      "date": "2026-02-18",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0162/id/1636476",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40435"
     }
   ],
   "amendments": [],
@@ -601,6 +636,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 673896,
+      "date": "2026-02-18",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0162",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0162/id/673896",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0162H02.pdf",
+      "supplement_size": 17584,
+      "supplement_hash": "00b4fac5c3e2aa2faa74f21868b440bb",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -643,11 +698,24 @@
       "agendaURL": "/~2026/agenda/SREV0128.ag.htm",
       "billSession": "2026GS",
       "markerID": "290602"
+    },
+    {
+      "mtgID": "20476",
+      "committeeID": "HSTREV",
+      "mtgDate": "2026-02-18 08:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HREV0218.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "298273"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Revenue and Taxation Committee",
-  "last_action_time": "2/13/2026",
+  "last_action": "House/ return to Rules due to fiscal impact",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/18/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -984,6 +1052,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2026-02-18 08:57:08.393",
+      "actionClass": "A",
+      "voteID": "40435",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-3",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2026-02-18 14:11:10.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ return to Rules due to fiscal impact",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-18 14:11:12.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRETRULFIS",
       "parm1": "",
       "parm2": ""
     }

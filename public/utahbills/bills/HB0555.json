@@ -1,6 +1,6 @@
 {
   "bill_id": 2115514,
-  "change_hash": "6268904ef50660dda50b85de10753171",
+  "change_hash": "6833a6996f70ef919a5d5ba5d55377f1",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-12",
       "event": 1
+    },
+    {
+      "date": "2026-02-17",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,8 +41,13 @@
   "current_body_id": 93,
   "title": "Changes to Family Law Actions",
   "description": "Changes to Family Law Actions",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2109,
+  "committee": {
+    "committee_id": 2109,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Judiciary"
+  },
   "referrals": [
     {
       "date": "2026-02-12",
@@ -46,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-17",
+      "committee_id": 2109,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Judiciary"
     }
   ],
   "history": [
@@ -104,6 +120,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ to standing committee in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -256,9 +286,9 @@
   "gov_tracking_id": "FHGDIPLPVW",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/12/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Judiciary Committee",
+  "last_action_time": "2/17/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -361,6 +391,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-17 08:25:49.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2026-02-17 16:12:58.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2087136,
-  "change_hash": "50f9e08ca678b4d8e31845ade24a53be",
+  "change_hash": "01e79083a86ccf31839c19dc56eee80d",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -193,6 +193,27 @@
     {
       "date": "2026-02-10",
       "action": "Senate/ circled in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ uncircled in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate / held in Senate Secretary",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -392,6 +413,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0167/id/1626632",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=334&house=S"
+    },
+    {
+      "roll_call_id": 1639893,
+      "date": "2026-02-20",
+      "desc": "Senate/ passed 3rd reading",
+      "yea": 22,
+      "nay": 1,
+      "nv": 0,
+      "absent": 6,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0167/id/1639893",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=774&house=S"
     }
   ],
   "amendments": [
@@ -534,9 +570,9 @@
       "markerID": "289500"
     }
   ],
-  "last_action": "Senate/ circled",
-  "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/10/2026",
+  "last_action": "Senate / held",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -782,6 +818,45 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-20 13:56:37.390",
+      "actionClass": "S",
+      "voteID": "773",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-20 13:59:06.783",
+      "actionClass": "S",
+      "voteID": "774",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "22-1-6",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate / held",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-20 13:59:07.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SHOLD",
       "parm1": "",
       "parm2": ""
     }

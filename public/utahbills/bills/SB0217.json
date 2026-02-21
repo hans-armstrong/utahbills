@@ -1,6 +1,6 @@
 {
   "bill_id": 2099433,
-  "change_hash": "c29fa065b4c8c3feedefdca87b3ea80c",
+  "change_hash": "75ca3a353e16fe113929a69e1770d131",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -137,6 +137,20 @@
     {
       "date": "2026-02-04",
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ circled in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -336,9 +350,9 @@
       "markerID": "293150"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action": "Senate/ circled",
   "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/4/2026",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -480,6 +494,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-20 14:38:55.910",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-20 14:39:08.793",
+      "actionClass": "S",
+      "voteID": "796",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
       "parm1": "",
       "parm2": ""
     }

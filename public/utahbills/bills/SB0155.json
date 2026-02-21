@@ -1,6 +1,6 @@
 {
   "bill_id": 2085770,
-  "change_hash": "0cd46abb68ae135ab388f5a42a5a2efa",
+  "change_hash": "e2b63b221cdcbd6430db51f838980bbd",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SB0155/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0155.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2026-01-20",
+  "status": 2,
+  "status_date": "2026-02-18",
   "progress": [
     {
       "date": "2026-01-20",
@@ -32,6 +32,14 @@
     {
       "date": "2026-01-26",
       "event": 10
+    },
+    {
+      "date": "2026-02-18",
+      "event": 2
+    },
+    {
+      "date": "2026-02-20",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -45,8 +53,13 @@
   "current_body_id": 93,
   "title": "Unclaimed Property Amendments",
   "description": "Unclaimed Property Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2115,
+  "committee": {
+    "committee_id": 2115,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Revenue and Taxation"
+  },
   "referrals": [
     {
       "date": "2026-01-20",
@@ -61,6 +74,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Government Operations and Political Subdivisions"
+    },
+    {
+      "date": "2026-02-18",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-20",
+      "committee_id": 2115,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -282,11 +309,32 @@
       "importance": 0
     },
     {
-      "date": "2026-02-12",
+      "date": "2026-02-18",
       "action": "Senate/ to House in Clerk of the House",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House/ to standing committee in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -354,6 +402,74 @@
             "twitter": "https://www.twitter.com/gopTODD",
             "website": "https://www.chrisjen.com/Attorney-Todd-Weiler",
             "youtube": "https://www.youtube.com/@toddweiler2088"
+          }
+        }
+      }
+    },
+    {
+      "people_id": 23786,
+      "person_hash": "oaeh8x4i",
+      "party_id": "2",
+      "state_id": 44,
+      "party": "R",
+      "role_id": 1,
+      "role": "Rep",
+      "name": "Anthony Loubet",
+      "first_name": "Anthony",
+      "middle_name": "E.",
+      "last_name": "Loubet",
+      "suffix": "",
+      "nickname": "",
+      "district": "HD-027",
+      "ftm_eid": 55399284,
+      "votesmart_id": 192305,
+      "opensecrets_id": "",
+      "knowwho_pid": 0,
+      "ballotpedia": "Anthony_Loubet",
+      "bioguide_id": "",
+      "sponsor_type_id": 3,
+      "sponsor_order": 2,
+      "committee_sponsor": 0,
+      "committee_id": 0,
+      "state_federal": 0,
+      "bio": {
+        "social": {
+          "capitol_phone": "801-538-1029",
+          "district_phone": "",
+          "email": "aloubet@le.utah.gov",
+          "webmail": "",
+          "biography": "https://house.utleg.gov/rep/LOUBEA/",
+          "image": "https://le.utah.gov/images/legislator/LOUBEA.jpg",
+          "ballotpedia": "https://ballotpedia.org/Anthony_Loubet",
+          "votesmart": "https://justfacts.votesmart.org/candidate/biography/192305"
+        },
+        "capitol_address": {
+          "address1": "350 North State, Suite 350",
+          "address2": "P.O. Box 145030",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        },
+        "links": {
+          "official": {
+            "bluesky": "",
+            "facebook": "https://www.facebook.com/AnthonyLoubetUT",
+            "instagram": "",
+            "linkedin": "",
+            "tiktok": "",
+            "twitter": "",
+            "website": "https://house.utleg.gov/rep/LOUBEA/",
+            "youtube": ""
+          },
+          "personal": {
+            "bluesky": "",
+            "facebook": "https://www.facebook.com/anthony.loubet.96",
+            "instagram": "https://www.instagram.com/aeloubet/",
+            "linkedin": "https://www.linkedin.com/in/anthonyloubet/",
+            "tiktok": "",
+            "twitter": "",
+            "website": "",
+            "youtube": ""
           }
         }
       }
@@ -644,6 +760,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Government Operations and Political Subdivisions Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "bbe853c7",
+      "type": "Hearing",
+      "date": "2026-02-24",
+      "time": "08:00",
+      "location": "",
+      "description": "House Revenue and Taxation Hearing"
     }
   ],
   "general_provisions": "This bill modifies provisions related to unclaimed property.",
@@ -668,9 +793,9 @@
       "markerID": "288747"
     }
   ],
-  "last_action": "Senate/ to House",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/12/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Revenue and Taxation Committee",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1078,13 +1203,52 @@
     {
       "description": "Senate/ to House",
       "owner": "Clerk of the House",
-      "actionDate": "2026-02-12 11:51:19.820",
+      "actionDate": "2026-02-18 09:16:20.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-18 12:11:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-18 14:05:35.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2026-02-20 12:02:14.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

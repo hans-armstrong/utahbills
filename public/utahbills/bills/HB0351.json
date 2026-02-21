@@ -1,6 +1,6 @@
 {
   "bill_id": 2091560,
-  "change_hash": "7d589b0d904b979407332fbb0279839c",
+  "change_hash": "996e633f5915576a0929c4582e76a52d",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-13",
       "event": 9
+    },
+    {
+      "date": "2026-02-18",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "School Vision Screening Amendments",
   "description": "School Vision Screening Amendments",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-23",
@@ -237,6 +236,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate Comm - Consent Calendar Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate/ comm rpt/ placed on Consent Calendar in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate/ 2nd reading in Senate Consent Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -497,6 +524,36 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0351/id/1628341",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=344&house=H"
+    },
+    {
+      "roll_call_id": 1636716,
+      "date": "2026-02-18",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0351/id/1636716",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40437"
+    },
+    {
+      "roll_call_id": 1636717,
+      "date": "2026-02-18",
+      "desc": "Senate Comm - Consent Calendar Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0351/id/1636717",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40438"
     }
   ],
   "amendments": [
@@ -583,6 +640,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 674083,
+      "date": "2026-02-18",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0351",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0351/id/674083",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0351S02.pdf",
+      "supplement_size": 18350,
+      "supplement_hash": "628bf59c3144e9e04773e925d260f58c",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -625,11 +702,24 @@
       "agendaURL": "/~2026/agenda/HEDU0130.ag.htm",
       "billSession": "2026GS",
       "markerID": "292129"
+    },
+    {
+      "mtgID": "20482",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-02-18 08:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDU0218.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "298284"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/13/2026",
+  "last_action": "Senate/ 2nd reading",
+  "last_action_owner": "Senate Consent Calendar",
+  "last_action_time": "2/18/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -901,6 +991,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-18 09:00:06.077",
+      "actionClass": "A",
+      "voteID": "40437",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Consent Calendar Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-18 09:01:25.800",
+      "actionClass": "A",
+      "voteID": "40438",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCACONCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ placed on Consent Calendar",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-18 14:39:07.617",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRCON",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate Consent Calendar",
+      "actionDate": "2026-02-18 14:39:08.617",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
       "parm1": "",
       "parm2": ""
     }

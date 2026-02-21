@@ -1,6 +1,6 @@
 {
   "bill_id": 2064975,
-  "change_hash": "06d54b397d228b0c89cef6f91fe3c931",
+  "change_hash": "b939e77eece940cf65d806cd0724e926",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-20",
       "event": 9
+    },
+    {
+      "date": "2026-02-20",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 94,
   "title": "Law Enforcement Quota Amendments",
   "description": "Law Enforcement Quota Amendments",
-  "pending_committee_id": 2124,
-  "committee": {
-    "committee_id": 2124,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Judiciary, Law Enforcement, and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -134,6 +133,41 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate Comm - Not Considered in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate Comm - Not Considered in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate Comm - Favorable Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ committee report favorable in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -241,7 +275,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1639782,
+      "date": "2026-02-20",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 9,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0067/id/1639782",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40660"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -263,6 +313,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 677065,
+      "date": "2026-02-20",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0067",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0067/id/677065",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0067S02.pdf",
+      "supplement_size": 18304,
+      "supplement_hash": "23cb2547f229e801f7eaf5875d1375f2",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -271,6 +341,24 @@
       "event_hash": "2009b43d",
       "type": "Hearing",
       "date": "2026-02-17",
+      "time": "08:00",
+      "location": "",
+      "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "8c05434a",
+      "type": "Hearing",
+      "date": "2026-02-18",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "af551609",
+      "type": "Hearing",
+      "date": "2026-02-20",
       "time": "08:00",
       "location": "",
       "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
@@ -283,10 +371,50 @@
   "fiscal_analyst": "Gary R. Syphus",
   "gov_tracking_id": "NLYGIBQJTD",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-  "last_action_time": "1/20/2026",
+  "agendas": [
+    {
+      "mtgID": "20488",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2026-02-17 08:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001690.htm",
+      "agendaURL": "/~2026/agenda/SJLC0217.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
+    },
+    {
+      "mtgID": "20489",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2026-02-18 16:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001776.htm",
+      "agendaURL": "/~2026/agenda/SJLC0218.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
+    },
+    {
+      "mtgID": "20490",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2026-02-20 08:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SJLC0220.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299176"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "LFA/ bill assigned to staff for fiscal analysis for SB0067",
@@ -415,6 +543,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Not Considered",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2026-02-17 08:00:00.000",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Not Considered",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2026-02-18 16:00:00.000",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2026-02-20 08:14:44.057",
+      "actionClass": "A",
+      "voteID": "40660",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-5",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2026-02-20 13:51:04.763",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-20 13:51:05.763",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

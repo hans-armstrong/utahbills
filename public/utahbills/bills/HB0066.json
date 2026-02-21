@@ -1,6 +1,6 @@
 {
   "bill_id": 2060779,
-  "change_hash": "251623ed7cbe77cd83edaf8ef623ae9f",
+  "change_hash": "c74a61b8050faa92943d18b1f7b6bf5f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -19,7 +19,7 @@
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0066.html",
   "completed": 0,
   "status": 3,
-  "status_date": "2026-01-22",
+  "status_date": "2026-02-19",
   "progress": [
     {
       "date": "2026-01-20",
@@ -36,6 +36,10 @@
     {
       "date": "2026-01-29",
       "event": 10
+    },
+    {
+      "date": "2026-02-19",
+      "event": 3
     }
   ],
   "state": "UT",
@@ -277,6 +281,34 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "Enrolled Bill Returned to House or Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ enrolled bill to Printing in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House/ received enrolled bill from Printing in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House/ to Governor in Executive Branch - Governor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -450,6 +482,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3368837,
+      "date": "2026-02-19",
+      "type": "Enrolled",
+      "type_id": 5,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0066/id/3368837",
+      "state_link": "https://le.utah.gov/Session/2026/bills/enrolled/HB0066.pdf",
+      "text_size": 21860,
+      "text_hash": "5f901d5219189b785be6d69b92c04a35",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [
@@ -595,9 +645,9 @@
       "markerID": "289916"
     }
   ],
-  "last_action": "Draft of Enrolled Bill Prepared",
-  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
-  "last_action_time": "2/5/2026",
+  "last_action": "House/ to Governor",
+  "last_action_owner": "Executive Branch - Governor",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -973,6 +1023,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LENROLL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Enrolled Bill Returned to House or Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-19 14:46:04.263",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LPASSREV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ enrolled bill to Printing",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-19 14:46:06.833",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOPRINTEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received enrolled bill from Printing",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-20 09:30:00.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECENRP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Governor",
+      "owner": "Executive Branch - Governor",
+      "actionDate": "2026-02-20 09:30:17.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOGOV",
       "parm1": "",
       "parm2": ""
     }

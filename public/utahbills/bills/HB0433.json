@@ -1,6 +1,6 @@
 {
   "bill_id": 2102638,
-  "change_hash": "aa7768c30215ce89f0d41b22f779f3f5",
+  "change_hash": "9d4ab3dd21941550c44d4cb86cf06f92",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,14 @@
     {
       "date": "2026-01-30",
       "event": 1
+    },
+    {
+      "date": "2026-02-18",
+      "event": 9
+    },
+    {
+      "date": "2026-02-20",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -46,6 +54,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-18",
+      "committee_id": 5042,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Business, Labor, and Commerce"
     }
   ],
   "history": [
@@ -108,6 +123,55 @@
     {
       "date": "2026-02-10",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House/ to standing committee in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-20",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0433S01 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0433S01 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House Comm - Substitute Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House Comm - Favorable Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House/ comm rpt/ substituted in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -188,26 +252,6 @@
     {
       "subject_id": 11871,
       "subject_name": "Business"
-    },
-    {
-      "subject_id": 12057,
-      "subject_name": "Department of Commerce"
-    },
-    {
-      "subject_id": 360925,
-      "subject_name": "Labor and Employment"
-    },
-    {
-      "subject_id": 334137,
-      "subject_name": "Administrative Rulemaking"
-    },
-    {
-      "subject_id": 332696,
-      "subject_name": "Administrative Rulemaking and Procedures"
-    },
-    {
-      "subject_id": 81259,
-      "subject_name": "Occupational and Professional Licensing"
     }
   ],
   "texts": [
@@ -228,9 +272,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3369772,
+      "date": "2026-02-20",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0433/id/3369772",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0433S01.pdf",
+      "text_size": 34073,
+      "text_hash": "adf67b3ecaea0f41f272040c1b60a006",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1639824,
+      "date": "2026-02-20",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 15,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0433/id/1639824",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40673"
+    },
+    {
+      "roll_call_id": 1639825,
+      "date": "2026-02-20",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 12,
+      "nay": 3,
+      "nv": 0,
+      "absent": 1,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0433/id/1639825",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40675"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -252,20 +345,84 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 676862,
+      "date": "2026-02-20",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0433/id/676862",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0433%20To%20HB0433S01.pdf",
+      "supplement_size": 43027,
+      "supplement_hash": "140be7f7bc05da4dd96ae54664a02eec",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 677091,
+      "date": "2026-02-20",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0433",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0433/id/677091",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0433H02.pdf",
+      "supplement_size": 17572,
+      "supplement_hash": "dfa2af6032ac375ebeec8e08a2ac66e2",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "aba12ca2",
+      "type": "Hearing",
+      "date": "2026-02-20",
+      "time": "08:00",
+      "location": "",
+      "description": "House Business, Labor, and Commerce Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies the oversight of the Office of Professional Licensure Review.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines \"harm\";<hr><ltbullet>requires the Office of Professional Licensure Review (office) to document the office's review of a regulation of an occupation;<hr><ltbullet>allows an individual to petition the office to make a recommendation to repeal or modify an occupational regulation;<hr><ltbullet>creates a process for an individual to appeal the office's recommendation and the responsible agency's implementation of the office's recommendation; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines \"harm\";<hr><ltbullet>requires the Office of Professional Licensure Review (office) to document the office's review of a regulation of an occupation;<hr><ltbullet>requires the office to review and respond to an inquiry from a person regarding regulation subject to capacity and resource constraints;<hr><ltbullet>requires the office to identify and provide notice to the legislators representing a person that submits an inquiry to the office; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Tyler Moore",
   "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "XDLXTCHMGM",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/10/2026",
+  "agendas": [
+    {
+      "mtgID": "20497",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2026-02-20 08:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HBUS0220.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299202"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -381,6 +538,97 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-18 11:57:16.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0433S01",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-20 08:22:18.140",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0433S01",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-20 08:22:18.140",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-20 08:58:11.803",
+      "actionClass": "A",
+      "voteID": "40673",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "15-0-1",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-20 08:59:18.053",
+      "actionClass": "A",
+      "voteID": "40675",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-3-1",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-20 14:10:44.060",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-20 14:10:45.060",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2115019,
-  "change_hash": "39295ff91fce9e975329af36a3027e0b",
+  "change_hash": "a49b714f5e1229d165faf019e146dfa7",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-12",
       "event": 1
+    },
+    {
+      "date": "2026-02-20",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,8 +41,13 @@
   "current_body_id": 93,
   "title": "Dog Attack Amendments",
   "description": "Dog Attack Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2110,
+  "committee": {
+    "committee_id": 2110,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Law Enforcement and Criminal Justice"
+  },
   "referrals": [
     {
       "date": "2026-02-12",
@@ -46,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-20",
+      "committee_id": 2110,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Law Enforcement and Criminal Justice"
     }
   ],
   "history": [
@@ -111,6 +127,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House/ to standing committee in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -246,7 +269,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "069fb855",
+      "type": "Hearing",
+      "date": "2026-02-23",
+      "time": "08:00",
+      "location": "",
+      "description": "House Law Enforcement and Criminal Justice Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses provisions related to injuries from dog attacks.",
   "hilighted_provisions": "This bill:<hr><ltbullet>establishes that an individual injured in a dog attack may bring a claim for damages within four years of the injury; <hr><ltbullet>raises the maximum award from $50,000 to $75,000 in arbitration and at trial for a bodily injury claim resulting from a dog attack, not including certain costs; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -255,9 +288,9 @@
   "gov_tracking_id": "KPKIMFORRO",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/13/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Law Enforcement and Criminal Justice Committee",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -373,6 +406,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-02-20 12:01:47.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

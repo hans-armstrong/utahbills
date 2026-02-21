@@ -1,6 +1,6 @@
 {
   "bill_id": 2113115,
-  "change_hash": "8ac7d48e029e04eb7c88e76a2862a12d",
+  "change_hash": "1e383df2d171441049aef2c2ad68db07",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,14 @@
     {
       "date": "2026-02-10",
       "event": 1
+    },
+    {
+      "date": "2026-02-17",
+      "event": 9
+    },
+    {
+      "date": "2026-02-19",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -46,6 +54,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-17",
+      "committee_id": 2108,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Health and Human Services"
     }
   ],
   "history": [
@@ -108,6 +123,41 @@
     {
       "date": "2026-02-13",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ to standing committee in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House Comm - Amendment Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House Comm - Favorable Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ comm rpt/ amended in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -188,26 +238,6 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
-    },
-    {
-      "subject_id": 334137,
-      "subject_name": "Administrative Rulemaking"
-    },
-    {
-      "subject_id": 332696,
-      "subject_name": "Administrative Rulemaking and Procedures"
-    },
-    {
-      "subject_id": 362639,
-      "subject_name": "Department of Health and Human Services"
-    },
-    {
-      "subject_id": 334886,
-      "subject_name": "Public Health"
-    },
-    {
-      "subject_id": 354072,
-      "subject_name": "New Rulemaking Authority"
     }
   ],
   "texts": [
@@ -228,10 +258,99 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3368100,
+      "date": "2026-02-19",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0531/id/3368100",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_HB0531_2026-02-19_09-34-18.pdf",
+      "text_size": 40065,
+      "text_hash": "2b89ba167bffc8c27b67e72aa2a727dc",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3370436,
+      "date": "2026-02-20",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0531/id/3370436",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0531S01.pdf",
+      "text_size": 25126,
+      "text_hash": "d674a4e7cd1cc072f80f1e7db8e98e95",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
-  "amendments": [],
+  "votes": [
+    {
+      "roll_call_id": 1637861,
+      "date": "2026-02-18",
+      "desc": "House Comm - Amendment Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0531/id/1637861",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40487"
+    },
+    {
+      "roll_call_id": 1637862,
+      "date": "2026-02-18",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0531/id/1637862",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40488"
+    }
+  ],
+  "amendments": [
+    {
+      "amendment_id": 276709,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2026-02-18",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0531/id/276709",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0531.Hamd.1.pdf",
+      "amendment_size": 7060,
+      "amendment_hash": "dcebb78834b4c2dce39cfb88c227a3f0",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 668983,
@@ -252,9 +371,59 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 675216,
+      "date": "2026-02-18",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0531",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0531/id/675216",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0531H02.pdf",
+      "supplement_size": 18858,
+      "supplement_hash": "ab4a81a8830e39cbae4474e6a0afd9ab",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 677440,
+      "date": "2026-02-20",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0531/id/677440",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0531%20To%20HB0531S01.pdf",
+      "supplement_size": 43040,
+      "supplement_hash": "4734af4ad65f25c05f9dfbc540cfa78c",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "344839a5",
+      "type": "Hearing",
+      "date": "2026-02-18",
+      "time": "16:00",
+      "location": "",
+      "description": "House Health and Human Services Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses scarification.",
   "hilighted_provisions": "This bill:<hr><ltbullet>requires the Department of Health and Human Services to create rules related to scarification to ensure client safety;<hr><ltbullet>requires a body art facility that offers scarification to comply with certain requirements;<hr><ltbullet>establishes the criminal offense of unlawful scarification of a minor; and<hr><ltbullet>defines terms.",
   "monies": "None",
@@ -262,10 +431,24 @@
   "fiscal_analyst": "Russell T. Frandsen",
   "gov_tracking_id": "PHPDQKEAPW",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/13/2026",
+  "agendas": [
+    {
+      "mtgID": "20420",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2026-02-18 16:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001760.htm",
+      "agendaURL": "/~2026/agenda/HHHS0218.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "298469"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/19/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -381,6 +564,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-17 12:08:36.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Amendment Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-18 16:35:43.663",
+      "actionClass": "A",
+      "voteID": "40487",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-5",
+      "actionCode": "HCAAMD",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-18 16:36:21.240",
+      "actionClass": "A",
+      "voteID": "40488",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-5",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ amended",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-19 10:28:29.177",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-19 10:28:30.177",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2114001,
-  "change_hash": "1953650cccb210b9ca08ea92d48968d5",
+  "change_hash": "6e7a7dfb7d076267352401401532709b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-11",
       "event": 1
+    },
+    {
+      "date": "2026-02-17",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,8 +41,13 @@
   "current_body_id": 93,
   "title": "Public Lands Duty of Care Amendments",
   "description": "Public Lands Duty of Care Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2111,
+  "committee": {
+    "committee_id": 2111,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Natural Resources, Agriculture, and Environment"
+  },
   "referrals": [
     {
       "date": "2026-02-11",
@@ -46,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-17",
+      "committee_id": 2111,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Natural Resources, Agriculture, and Environment"
     }
   ],
   "history": [
@@ -111,6 +127,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ to standing committee in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -250,7 +273,26 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "9d6ebe3f",
+      "type": "Hearing",
+      "date": "2026-02-19",
+      "time": "08:00",
+      "location": "",
+      "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "e6d78886",
+      "type": "Hearing",
+      "date": "2026-02-23",
+      "time": "08:00",
+      "location": "",
+      "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses the jurisdictional management of public lands.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>asserts the state's jurisdictional interest in land controlled by the federal government under a proprietary interest;<hr><ltbullet>directs the Public Lands Policy Coordinating Office (office) to promote the state's jurisdictional interests on landscape-scale public lands; <hr><ltbullet>requires the office to:<hr><ltbullet1>identify and map landscape-scale lands in the state;<hr><ltbullet1>establish map layers for certain criteria on landscape-scale lands;<hr><ltbullet1> map a landscape public nuisance area on landscape-scale lands containing forested areas; and<hr><ltbullet1>report annually on the map to the Federalism Commission;<hr><ltbullet>requires the Division of Forestry, Fire, and State Lands to assist the office in identifying a landscape public nuisance area for landscape-scale lands containing forested areas; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -259,9 +301,9 @@
   "gov_tracking_id": "KLAFUGOEYI",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/13/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
+  "last_action_time": "2/17/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -377,6 +419,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-17 12:09:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

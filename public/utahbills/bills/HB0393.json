@@ -1,6 +1,6 @@
 {
   "bill_id": 2094219,
-  "change_hash": "84f1e5805e1476d7c03a6292b72bf49d",
+  "change_hash": "58db6e3ad5f807abaf3a39876e6c49ac",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-12",
       "event": 9
+    },
+    {
+      "date": "2026-02-17",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -143,6 +147,48 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House Comm - Substitute Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House Comm - Favorable Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ comm rpt/ substituted in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "LFA/ fiscal note sent to sponsor for HB0393S01 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "LFA/ fiscal note publicly available for HB0393S01 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -220,6 +266,26 @@
     {
       "subject_id": 11846,
       "subject_name": "Education"
+    },
+    {
+      "subject_id": 332526,
+      "subject_name": "K-12 Education"
+    },
+    {
+      "subject_id": 383611,
+      "subject_name": "Local Education Agencies (LEAs)"
+    },
+    {
+      "subject_id": 334359,
+      "subject_name": "Colleges and Universities"
+    },
+    {
+      "subject_id": 335139,
+      "subject_name": "Public Education Data and Reporting"
+    },
+    {
+      "subject_id": 334358,
+      "subject_name": "Student Assessment"
     }
   ],
   "texts": [
@@ -260,7 +326,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1635129,
+      "date": "2026-02-17",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0393/id/1635129",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40336"
+    },
+    {
+      "roll_call_id": 1635130,
+      "date": "2026-02-17",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0393/id/1635130",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40337"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -302,6 +399,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 672344,
+      "date": "2026-02-17",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0393",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0393/id/672344",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0393H02.pdf",
+      "supplement_size": 17581,
+      "supplement_hash": "98bc4b3fd188d94144523d7758248834",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 674961,
+      "date": "2026-02-18",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0393S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0393/id/674961",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0393S01.fn.pdf",
+      "supplement_size": 1610042,
+      "supplement_hash": "3260ba7230f30300944b450f9235db16",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -316,16 +453,30 @@
     }
   ],
   "general_provisions": "This bill creates the Dyslexia Screening Pilot Program.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>provides certain protections to educational professionals;<hr><ltbullet>creates the Dyslexia Screening Pilot Program to:<hr><ltbullet1>provide dyslexia related resources to district and charter schools; and<hr><ltbullet1>create a dyslexia screener at the University of Utah College of Education and the University of Utah Education Policy Center;<hr><ltbullet>creates a reporting requirement upon request of the Education Interim Committee;<hr><ltbullet>requires the state board to:<hr><ltbullet1>administer and oversee the pilot program; and<hr><ltbullet1>make certain rules related to the pilot program;<hr><ltbullet>provides a repeal date for the pilot program; and<hr><ltbullet>makes technical and conforming changes.",
-  "monies": "None",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>creates the Dyslexia Screening Pilot Program to:<hr><ltbullet1>provide dyslexia related resources to district and charter schools; and<hr><ltbullet1>create a dyslexia screener at the University of Utah College of Education and the University of Utah Education Policy Center;<hr><ltbullet>creates a reporting requirement upon request of the Education Interim Committee;<hr><ltbullet>requires the state board to:<hr><ltbullet1>administer and oversee the pilot program; and<hr><ltbullet1>make certain rules related to the pilot program;<hr><ltbullet>provides a repeal date for the pilot program; and<hr><ltbullet>makes technical and conforming changes.",
+  "monies": "",
   "attorney": "Tyler Keetch",
   "fiscal_analyst": "Ben Leishman",
   "gov_tracking_id": "CULKPFJGFI",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Health and Human Services Committee",
-  "last_action_time": "2/12/2026",
+  "agendas": [
+    {
+      "mtgID": "20419",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2026-02-17 08:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001684.htm",
+      "agendaURL": "/~2026/agenda/HHHS0217.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "297841"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/17/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -480,6 +631,84 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-17 09:43:26.957",
+      "actionClass": "A",
+      "voteID": "40336",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-3",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-17 09:43:55.290",
+      "actionClass": "A",
+      "voteID": "40337",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-3",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-17 14:19:58.660",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-17 14:19:59.660",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0393S01",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-18 06:22:52.113",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0393S01",
+      "owner": "Released",
+      "actionDate": "2026-02-18 17:22:03.846",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
       "parm1": "",
       "parm2": ""
     }

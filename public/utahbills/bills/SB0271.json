@@ -1,6 +1,6 @@
 {
   "bill_id": 2110672,
-  "change_hash": "78923a37569dd72cfb00c978375fbd8e",
+  "change_hash": "2463bcb8e507e5f4e5d2248cc50b1577",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -129,6 +129,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate Comm - Held in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -244,7 +251,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1636899,
+      "date": "2026-02-18",
+      "desc": "Senate Comm - Held",
+      "yea": 4,
+      "nay": 1,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0271/id/1636899",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40428"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -286,10 +309,24 @@
   "fiscal_analyst": "Kiki Hudson",
   "gov_tracking_id": "UKJHUJCMQA",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
+  "agendas": [
+    {
+      "mtgID": "20482",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-02-18 08:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDU0218.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "298179"
+    }
+  ],
+  "last_action": "Senate Comm - Held",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/11/2026",
+  "last_action_time": "2/18/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -418,6 +455,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Held",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-18 08:46:43.840",
+      "actionClass": "A",
+      "voteID": "40428",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-1-2",
+      "actionCode": "SCAHELD",
       "parm1": "",
       "parm2": ""
     }

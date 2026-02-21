@@ -1,6 +1,6 @@
 {
   "bill_id": 2066068,
-  "change_hash": "c0a15f4cb13b197f81461740679b44a2",
+  "change_hash": "75eae4f4e45ee198adf33365c583073e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-12",
       "event": 9
+    },
+    {
+      "date": "2026-02-19",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 93,
   "title": "Controlled Substance Scheduling Amendments",
   "description": "Controlled Substance Scheduling Amendments",
-  "pending_committee_id": 2108,
-  "committee": {
-    "committee_id": 2108,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -237,6 +236,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House Comm - Favorable Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ committee report favorable in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -465,9 +485,46 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0083/id/1627979",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=368&house=S"
+    },
+    {
+      "roll_call_id": 1637626,
+      "date": "2026-02-18",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0083/id/1637626",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40509"
     }
   ],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 277508,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2026-02-20",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0083/id/277508",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/SB0083.Hamd.1.pdf",
+      "amendment_size": 7285,
+      "amendment_hash": "d96317437dc03e485e8af56f64aecc08",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 640433,
@@ -508,6 +565,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 674948,
+      "date": "2026-02-18",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0083",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0083/id/674948",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0083H02.pdf",
+      "supplement_size": 17546,
+      "supplement_hash": "2f832d2d3ff3d60df06abc0d1be305c1",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -519,6 +596,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Health and Human Services Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "344839a5",
+      "type": "Hearing",
+      "date": "2026-02-18",
+      "time": "16:00",
+      "location": "",
+      "description": "House Health and Human Services Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions related to controlled substance scheduling.",
@@ -541,11 +627,24 @@
       "agendaURL": "/~2026/agenda/SHHS0126.ag.htm",
       "billSession": "2026GS",
       "markerID": "289193"
+    },
+    {
+      "mtgID": "20420",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2026-02-18 16:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001760.htm",
+      "agendaURL": "/~2026/agenda/HHHS0218.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "298550"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Health and Human Services Committee",
-  "last_action_time": "2/12/2026",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for Senate bills",
+  "last_action_time": "2/19/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -817,6 +916,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-18 17:18:09.973",
+      "actionClass": "A",
+      "voteID": "40509",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-5",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-19 10:28:33.563",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2026-02-19 10:28:34.563",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

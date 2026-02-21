@@ -1,6 +1,6 @@
 {
   "bill_id": 2113295,
-  "change_hash": "5368452ce518d4f95e60937f26b37647",
+  "change_hash": "691f695eba5a1b9079e301ce03ae4a0e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-10",
       "event": 1
+    },
+    {
+      "date": "2026-02-19",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,8 +41,13 @@
   "current_body_id": 93,
   "title": "Secretary of State Amendments",
   "description": "Secretary of State Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2107,
+  "committee": {
+    "committee_id": 2107,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Government Operations"
+  },
   "referrals": [
     {
       "date": "2026-02-10",
@@ -46,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-19",
+      "committee_id": 2107,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Government Operations"
     }
   ],
   "history": [
@@ -111,6 +127,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ to standing committee in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -227,7 +250,29 @@
     }
   ],
   "votes": [],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 277553,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2026-02-20",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0529/id/277553",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0529.Hamd.1.pdf",
+      "amendment_size": 6722,
+      "amendment_hash": "9a674f749cef2602bef665e1159853c6",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 668509,
@@ -250,7 +295,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "e7c51a7c",
+      "type": "Hearing",
+      "date": "2026-02-24",
+      "time": "08:00",
+      "location": "",
+      "description": "House Government Operations Hearing"
+    }
+  ],
   "general_provisions": "This bill provides for the election of a secretary of state in the 2028 regular general election and transfers most of the duties,currently assigned by statute to the lieutenant governor to the secretary of state.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>provides for the election of a secretary of state;<hr><ltbullet>transfers most of the duties currently assigned to the lieutenant governor to the secretary of state, including:<hr><ltbullet1>oversight of, and other duties relating to, elections;<hr><ltbullet1>duties relating to redistricting;<hr><ltbullet1>administrative duties relating to municipalities;<hr><ltbullet1>the keeping and regulation of the Great Seal of the State of Utah;<hr><ltbullet1>regulation of lobbyists and notaries public;<hr><ltbullet1>authentication of documents and gubernatorial acts; and<hr><ltbullet1>the keeping of certain records;<hr><ltbullet>makes this bill effective contingent upon the passage of a constitutional amendment creating the office of secretary of state; and<hr><ltbullet>makes technical and conforming changes.  ",
   "monies": "None",
@@ -259,9 +314,9 @@
   "gov_tracking_id": "WTWEEJVJGQ",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/13/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Government Operations Committee",
+  "last_action_time": "2/19/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -377,6 +432,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2026-02-19 12:13:03.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

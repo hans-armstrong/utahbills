@@ -1,6 +1,6 @@
 {
   "bill_id": 2107171,
-  "change_hash": "76a7fb653a04c41b8d23e0a84207d69d",
+  "change_hash": "c44a995413373eb1bd57383e8049604a",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-13",
       "event": 9
+    },
+    {
+      "date": "2026-02-18",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Medical Record Amendments",
   "description": "Medical Record Amendments",
-  "pending_committee_id": 2109,
-  "committee": {
-    "committee_id": 2109,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Judiciary"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-04",
@@ -127,6 +126,62 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0480S01 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0480S01 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House Comm - Substitute Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House Comm - Favorable Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "LFA/ fiscal note sent to sponsor for HB0480S01 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House/ comm rpt/ substituted in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "LFA/ fiscal note publicly available for HB0480S01 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -202,28 +257,8 @@
   "sasts": [],
   "subjects": [
     {
-      "subject_id": 11861,
-      "subject_name": "Abortion"
-    },
-    {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
-    },
-    {
-      "subject_id": 11893,
-      "subject_name": "Health Care"
-    },
-    {
-      "subject_id": 12052,
-      "subject_name": "Health Care Facilities"
-    },
-    {
-      "subject_id": 14877,
-      "subject_name": "Medical Records"
-    },
-    {
-      "subject_id": 362639,
-      "subject_name": "Department of Health and Human Services"
     }
   ],
   "texts": [
@@ -244,9 +279,76 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3364658,
+      "date": "2026-02-17",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0480/id/3364658",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0480S01.pdf",
+      "text_size": 36795,
+      "text_hash": "f7baf69917f945342482de8b6b17c388",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3370219,
+      "date": "2026-02-20",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0480/id/3370219",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0480S02.pdf",
+      "text_size": 36834,
+      "text_hash": "0572cd2fa7b820c64c8d7b96796ca6dd",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1636206,
+      "date": "2026-02-17",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 0,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0480/id/1636206",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40365"
+    },
+    {
+      "roll_call_id": 1636207,
+      "date": "2026-02-17",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 2,
+      "nv": 0,
+      "absent": 0,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0480/id/1636207",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40366"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -268,6 +370,106 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 672360,
+      "date": "2026-02-17",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0480/id/672360",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0480%20To%20HB0480S01.pdf",
+      "supplement_size": 38999,
+      "supplement_hash": "b6f45b1dfc1e4943744940872c4c0a89",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 673372,
+      "date": "2026-02-17",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0480",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0480/id/673372",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0480H02.pdf",
+      "supplement_size": 17563,
+      "supplement_hash": "13e4635711ce3c416c76e53a18666539",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 675741,
+      "date": "2026-02-19",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0480S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0480/id/675741",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0480S01.fn.pdf",
+      "supplement_size": 1609082,
+      "supplement_hash": "c84575d846f5f57a8234128d335b6119",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 677240,
+      "date": "2026-02-20",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0480/id/677240",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0480%20To%20HB0480S02.pdf",
+      "supplement_size": 40212,
+      "supplement_hash": "f2600c67b91d690477569c7ef0e84401",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 677241,
+      "date": "2026-02-20",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0480/id/677241",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0480S01%20To%20HB0480S02.pdf",
+      "supplement_size": 38377,
+      "supplement_hash": "c68b982b23cf281c15d258aa039b191a",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -282,16 +484,30 @@
     }
   ],
   "general_provisions": "This bill addresses medical records.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>distinguishes between an elective abortion and an involuntary abortion;<hr><ltbullet>allows a patient to request that the patient's medical record reflect that a prior abortion was involuntary;<hr><ltbullet>requires a health care facility to update a patient's medical record regarding an involuntary abortion if requested; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>distinguishes between an elective abortion and a medically indicated abortion;<hr><ltbullet>allows a patient to request that the patient's medical record reflect that a prior abortion was a medically indicated abortion;<hr><ltbullet>requires a health care provider to update a patient's medical record regarding a medically indicated abortion if requested; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Kami Orton",
   "fiscal_analyst": "Kevin Edminster",
   "gov_tracking_id": "NAWBKUVVRH",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Judiciary Committee",
-  "last_action_time": "2/13/2026",
+  "agendas": [
+    {
+      "mtgID": "20543",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2026-02-17 16:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001740.htm",
+      "agendaURL": "/~2026/agenda/HJUD0217.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "297974"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/18/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -407,6 +623,110 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0480S01",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-17 11:38:30.937",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0480S01",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-17 11:38:30.937",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2026-02-17 16:46:54.453",
+      "actionClass": "A",
+      "voteID": "40365",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-0",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2026-02-17 16:47:40.700",
+      "actionClass": "A",
+      "voteID": "40366",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-2-0",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0480S01",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-18 09:27:09.302",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2026-02-18 10:12:39.353",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-18 10:12:40.353",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0480S01",
+      "owner": "Released",
+      "actionDate": "2026-02-19 10:31:50.188",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
       "parm1": "",
       "parm2": ""
     }

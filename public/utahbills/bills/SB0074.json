@@ -1,6 +1,6 @@
 {
   "bill_id": 2065269,
-  "change_hash": "cf523b2ffb481c93763dbe7f2b04af31",
+  "change_hash": "96ed631950fceae5e426df550be3d5b3",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-01-20",
       "event": 9
+    },
+    {
+      "date": "2026-02-17",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -39,8 +43,8 @@
   "body_id": 94,
   "current_body": "S",
   "current_body_id": 94,
-  "title": "Seat Belt Civil Action Amendments",
-  "description": "Seat Belt Civil Action Amendments",
+  "title": "Motor Vehicle Civil Action Amendments",
+  "description": "Motor Vehicle Civil Action Amendments",
   "pending_committee_id": 0,
   "committee": [],
   "referrals": [
@@ -184,6 +188,41 @@
       "action": "LFA/ fiscal note sent to sponsor for SB0074S02 in Version Sponsor",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate Comm - Substitute Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate Comm - Favorable Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "LFA/ fiscal note publicly available for SB0074S02 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ comm rpt/ substituted in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -336,7 +375,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1635195,
+      "date": "2026-02-17",
+      "desc": "Senate Comm - Substitute Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 9,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0074/id/1635195",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40308"
+    },
+    {
+      "roll_call_id": 1635196,
+      "date": "2026-02-17",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 1,
+      "nv": 0,
+      "absent": 4,
+      "total": 9,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0074/id/1635196",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40310"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -438,6 +508,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 672417,
+      "date": "2026-02-17",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0074S02",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0074/id/672417",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0074S02.fn.pdf",
+      "supplement_size": 1608380,
+      "supplement_hash": "5482d70ac0ce9ff313c778c4362b57cc",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 672418,
+      "date": "2026-02-17",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report SB0074",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0074/id/672418",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0074S02.pdf",
+      "supplement_size": 18372,
+      "supplement_hash": "c0dedc5b0ad4c305ed76e04e318b986c",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -469,17 +579,31 @@
       "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
     }
   ],
-  "general_provisions": "This bill amends seat belt laws to allow the misuse of or failure to use a seat belt to be considered for contributory or comparative negligence in civil litigation.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>amends the Traffic Code to allow the misuse of or failure to use a seat belt to be considered as contributory or comparative negligence in civil litigation.",
+  "general_provisions": "This bill enacts requirements for a time-limited demand letter.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>enacts requirements for a time-limited demand letter related to a motor vehicle insurance claim;<hr><ltbullet>provides parameters and timing for a time-limited demand letter; and<hr><ltbullet>addresses an insurer's duties and an insured's rights and remedies in relation to a time-limited demand letter.",
   "monies": "None",
   "attorney": "Kurt P. Gasser",
   "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "HKLIWBDKHQ",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-  "last_action_time": "1/20/2026",
+  "agendas": [
+    {
+      "mtgID": "20488",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2026-02-17 08:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001690.htm",
+      "agendaURL": "/~2026/agenda/SJLC0217.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "297717"
+    }
+  ],
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/17/2026",
   "action_history": [
     {
       "description": "LFA/ bill assigned to staff for fiscal analysis for SB0074",
@@ -712,6 +836,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2026-02-17 08:29:19.467",
+      "actionClass": "A",
+      "voteID": "40308",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-4",
+      "actionCode": "SCASUB",
+      "parm1": "2",
+      "parm2": "0"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2026-02-17 08:36:12.480",
+      "actionClass": "A",
+      "voteID": "40310",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-1-4",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for SB0074S02",
+      "owner": "Released",
+      "actionDate": "2026-02-17 09:26:43.798",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ substituted",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2026-02-17 14:33:20.567",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-17 14:33:21.567",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

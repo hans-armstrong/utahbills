@@ -1,6 +1,6 @@
 {
   "bill_id": 2067866,
-  "change_hash": "9bea11b1958f13bbdec05aa3f36768dc",
+  "change_hash": "21cd7e0fcefbec93503d0bc3ca3009e8",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-13",
       "event": 9
+    },
+    {
+      "date": "2026-02-20",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "ROTC Resident Student Status",
   "description": "ROTC Resident Student Status",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -230,6 +229,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-19",
+      "action": "Senate Comm - Amendment Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ comm rpt/ amended in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -429,6 +456,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3370289,
+      "date": "2026-02-20",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0177/id/3370289",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_HB0177_2026-02-20_10-10-53.pdf",
+      "text_size": 50283,
+      "text_hash": "92be3b1147aa470de287f8a25822c05b",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [
@@ -476,6 +521,36 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0177/id/1629060",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=338&house=H"
+    },
+    {
+      "roll_call_id": 1639540,
+      "date": "2026-02-19",
+      "desc": "Senate Comm - Amendment Recommendation",
+      "yea": 6,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0177/id/1639540",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40647"
+    },
+    {
+      "roll_call_id": 1639541,
+      "date": "2026-02-19",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 6,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0177/id/1639541",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40648"
     }
   ],
   "amendments": [
@@ -562,6 +637,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 676513,
+      "date": "2026-02-19",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0177",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0177/id/676513",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0177S02.pdf",
+      "supplement_size": 31997,
+      "supplement_hash": "ee91b8bb755a3721c6f320c771e39341",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -573,6 +668,15 @@
       "time": "14:00",
       "location": "",
       "description": "House Education Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "b4370d86",
+      "type": "Hearing",
+      "date": "2026-02-19",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Education Hearing"
     }
   ],
   "general_provisions": "This bill requires state institutions of higher education to grant resident student status for tuition purposes to a student who participates in the institution's Reserve Officers' Training Corps.",
@@ -595,11 +699,24 @@
       "agendaURL": "/~2026/agenda/HEDU0130.ag.htm",
       "billSession": "2026GS",
       "markerID": "291987"
+    },
+    {
+      "mtgID": "20483",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-02-19 16:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDU0219.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299105"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/13/2026",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -858,6 +975,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Amendment Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-19 17:47:58.657",
+      "actionClass": "A",
+      "voteID": "40647",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-1",
+      "actionCode": "SCAAMD",
+      "parm1": "2",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-19 17:48:38.260",
+      "actionClass": "A",
+      "voteID": "40648",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-1",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ amended",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-20 10:19:11.863",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-20 10:19:12.863",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

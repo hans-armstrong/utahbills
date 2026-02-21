@@ -1,6 +1,6 @@
 {
   "bill_id": 2056953,
-  "change_hash": "d9f74b6fef3ad4daa391b9d5cd08677b",
+  "change_hash": "1c7337ac2f0a3e78cdc07309d960165a",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -217,6 +217,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ circled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ uncircled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -406,6 +434,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0021/id/1623721",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39485"
+    },
+    {
+      "roll_call_id": 1640292,
+      "date": "2026-02-20",
+      "desc": "Senate/ passed 2nd reading",
+      "yea": 27,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0021/id/1640292",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=829&house=S"
     }
   ],
   "amendments": [],
@@ -611,9 +654,9 @@
       "markerID": "293748"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/6/2026",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "LFA/ bill assigned to staff for fiscal analysis for SB0021",
@@ -898,6 +941,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-20 16:09:39.533",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-20 16:09:54.663",
+      "actionClass": "S",
+      "voteID": "816",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-20 16:35:16.633",
+      "actionClass": "S",
+      "voteID": "828",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-20 16:38:25.430",
+      "actionClass": "S",
+      "voteID": "829",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "27-0-2",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

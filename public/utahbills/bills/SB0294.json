@@ -1,6 +1,6 @@
 {
   "bill_id": 2116941,
-  "change_hash": "1de531f46a6667182fc09b1d723235ac",
+  "change_hash": "c70f4b64b8b818737426c3615592a345",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,18 @@
   "url": "https://legiscan.com/UT/bill/SB0294/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0294.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-02-17",
+  "progress": [
+    {
+      "date": "2026-02-17",
+      "event": 1
+    },
+    {
+      "date": "2026-02-17",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0294",
@@ -32,9 +41,29 @@
   "current_body_id": 94,
   "title": "Student Achievement Backpack",
   "description": "Student Achievement Backpack",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2120,
+  "committee": {
+    "committee_id": 2120,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Education"
+  },
+  "referrals": [
+    {
+      "date": "2026-02-17",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-17",
+      "committee_id": 2120,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Education"
+    }
+  ],
   "history": [
     {
       "date": "2026-02-13",
@@ -63,6 +92,27 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ to standing committee in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -140,6 +190,22 @@
     {
       "subject_id": 11846,
       "subject_name": "Education"
+    },
+    {
+      "subject_id": 332526,
+      "subject_name": "K-12 Education"
+    },
+    {
+      "subject_id": 12044,
+      "subject_name": "State Board of Education"
+    },
+    {
+      "subject_id": 383611,
+      "subject_name": "Local Education Agencies (LEAs)"
+    },
+    {
+      "subject_id": 335139,
+      "subject_name": "Public Education Data and Reporting"
     }
   ],
   "texts": [
@@ -174,9 +240,9 @@
   "gov_tracking_id": "JHTPKMKQIT",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/13/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Education Committee",
+  "last_action_time": "2/17/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -227,6 +293,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received bill from Legislative Research",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "2026-02-17 08:56:45.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-17 10:41:19.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-17 14:25:08.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

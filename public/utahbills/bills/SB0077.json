@@ -1,6 +1,6 @@
 {
   "bill_id": 2065326,
-  "change_hash": "a8d35e1962821ea9034df0f8bcd04c88",
+  "change_hash": "6116717dbc2ec7cc3bae89e0ef2af3cb",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SB0077/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0077.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2026-02-13",
   "progress": [
     {
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-13",
       "event": 2
+    },
+    {
+      "date": "2026-02-18",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -64,6 +68,20 @@
       "committee_id": 2120,
       "chamber": "S",
       "chamber_id": 94,
+      "name": "Education"
+    },
+    {
+      "date": "2026-02-17",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-18",
+      "committee_id": 2105,
+      "chamber": "H",
+      "chamber_id": 93,
       "name": "Education"
     }
   ],
@@ -298,6 +316,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House/ to standing committee in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House Comm - Not Considered in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -731,6 +770,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Education Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "44b31f7d",
+      "type": "Hearing",
+      "date": "2026-02-20",
+      "time": "08:00",
+      "location": "",
+      "description": "House Education Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions related to concurrent enrollment courses for accelerated foreign language students.",
@@ -753,11 +801,24 @@
       "agendaURL": "/~2026/agenda/SEDU0126.ag.htm",
       "billSession": "2026GS",
       "markerID": "289495"
+    },
+    {
+      "mtgID": "20514",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-02-20 08:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HEDU0220.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
     }
   ],
-  "last_action": "House/ received from Senate",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/13/2026",
+  "last_action": "House Comm - Not Considered",
+  "last_action_owner": "House Education Committee",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1185,6 +1246,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-17 10:17:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Education Committee",
+      "actionDate": "2026-02-18 11:57:35.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Education Committee",
+      "actionDate": "2026-02-20 08:00:00.000",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
       "parm1": "",
       "parm2": ""
     }

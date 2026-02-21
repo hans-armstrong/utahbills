@@ -1,6 +1,6 @@
 {
   "bill_id": 2109345,
-  "change_hash": "ba5acca69abae13101fbb7dd9a578e97",
+  "change_hash": "f165cfd9c2d233223659b8f5d77634b1",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Real Estate Modifications",
   "description": "Real Estate Modifications",
-  "pending_committee_id": 2109,
-  "committee": {
-    "committee_id": 2109,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Judiciary"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-05",
@@ -134,6 +129,41 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0503S01 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0503S01 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "LFA/ fiscal note sent to sponsor for HB0503S01 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House Comm - Held in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "LFA/ fiscal note publicly available for HB0503S01 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -235,6 +265,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3364549,
+      "date": "2026-02-17",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0503/id/3364549",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0503S01.pdf",
+      "text_size": 29009,
+      "text_hash": "5ba421023cb508812d698b5e559fd34c",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [],
@@ -259,6 +307,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 672001,
+      "date": "2026-02-17",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0503/id/672001",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0503%20To%20HB0503S01.pdf",
+      "supplement_size": 53412,
+      "supplement_hash": "753d40f995109146ce494a151d225635",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 677050,
+      "date": "2026-02-20",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0503S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0503/id/677050",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0503S01.fn.pdf",
+      "supplement_size": 1609390,
+      "supplement_hash": "44b135152298e96a666f67db8a91f6f0",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -270,6 +358,15 @@
       "time": "16:00",
       "location": "",
       "description": "House Judiciary Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "64fc471a",
+      "type": "Hearing",
+      "date": "2026-02-19",
+      "time": "08:00",
+      "location": "",
+      "description": "House Judiciary Hearing"
     }
   ],
   "general_provisions": "This bill addresses requirements for real estate transactions.",
@@ -279,10 +376,24 @@
   "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "ODTVHICVXP",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20544",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2026-02-19 08:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HJUD0219.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "298794"
+    }
+  ],
+  "last_action": "House Comm - Held",
   "last_action_owner": "House Judiciary Committee",
-  "last_action_time": "2/12/2026",
+  "last_action_time": "2/19/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -411,6 +522,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0503S01",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-17 08:57:15.350",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0503S01",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-17 08:57:15.350",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0503S01",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-18 22:43:54.937",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2026-02-19 10:50:45.800",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCAHELD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0503S01",
+      "owner": "Released",
+      "actionDate": "2026-02-20 09:34:39.312",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
       "parm1": "",
       "parm2": ""
     }

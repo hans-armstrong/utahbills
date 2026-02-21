@@ -1,6 +1,6 @@
 {
   "bill_id": 2117533,
-  "change_hash": "c542fa38006c2e866d0ec9425292b361",
+  "change_hash": "7bdbf2abe0cfd57efac5aa68b2c010ba",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,14 @@
   "url": "https://legiscan.com/UT/bill/HB0566/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0566.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-02-17",
+  "progress": [
+    {
+      "date": "2026-02-17",
+      "event": 1
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "HB0566",
@@ -34,7 +39,15 @@
   "description": "Health Care Transparency Amendments",
   "pending_committee_id": 0,
   "committee": [],
-  "referrals": [],
+  "referrals": [
+    {
+      "date": "2026-02-17",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    }
+  ],
   "history": [
     {
       "date": "2026-02-16",
@@ -62,6 +75,41 @@
       "action": "LFA/ bill sent to agencies for fiscal input for HB0566 in Legislative Fiscal Agency",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ received bill from Legislative Research in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-19",
+      "action": "LFA/ fiscal note sent to sponsor for HB0566 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "LFA/ fiscal note publicly available for HB0566 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -140,6 +188,38 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 334430,
+      "subject_name": "Health Insurance"
+    },
+    {
+      "subject_id": 11871,
+      "subject_name": "Business"
+    },
+    {
+      "subject_id": 11893,
+      "subject_name": "Health Care"
+    },
+    {
+      "subject_id": 335052,
+      "subject_name": "Contracts and Obligations"
+    },
+    {
+      "subject_id": 332696,
+      "subject_name": "Administrative Rulemaking and Procedures"
+    },
+    {
+      "subject_id": 362639,
+      "subject_name": "Department of Health and Human Services"
+    },
+    {
+      "subject_id": 11952,
+      "subject_name": "Medicaid"
+    },
+    {
+      "subject_id": 354072,
+      "subject_name": "New Rulemaking Authority"
     }
   ],
   "texts": [
@@ -164,7 +244,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 676997,
+      "date": "2026-02-20",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0566",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0566/id/676997",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0566.fn.pdf",
+      "supplement_size": 1609626,
+      "supplement_hash": "fabc12db246c43c1ba2bf9cb7181ac34",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill addresses transparency in the Medicaid program.",
   "hilighted_provisions": "This bill:<hr><ltbullet>requires the Division of Integrated Healthcare (division) to establish and maintain a database of Medicaid encounter data submitted by managed care organizations;<hr><ltbullet>requires certain participants in the Medicaid program to:<hr><ltbullet1> have audits conducted by independent auditors;<hr><ltbullet1>identify, report on, and repay improper payments; and<hr><ltbullet1>develop corrective action plans to address improper payments;<hr><ltbullet>requires the Department of Health and Human Services to publish audits, reports of improper payments, and corrective action plans;<hr><ltbullet>prohibits conflicts of interest for actuarial firms providing services to Medicaid program participants;<hr><ltbullet>provides rulemaking authority, including for sanctions for violations of the provisions of this bill;<hr><ltbullet>defines terms; and<hr><ltbullet>makes technical and conforming changes.",
@@ -174,9 +275,9 @@
   "gov_tracking_id": "QYISVXNRSD",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Numbered Bill Publicly Distributed",
-  "last_action_owner": "Legislative Research and General Counsel",
-  "last_action_time": "2/16/2026",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -227,6 +328,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received bill from Legislative Research",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-17 08:15:32.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-17 10:34:14.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0566",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-19 08:42:54.843",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0566",
+      "owner": "Released",
+      "actionDate": "2026-02-20 09:32:38.960",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-20 10:58:35.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm1": "",
       "parm2": ""
     }

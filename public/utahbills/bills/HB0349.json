@@ -1,6 +1,6 @@
 {
   "bill_id": 2091731,
-  "change_hash": "d32c3bd996156ee12fc90e828f3ed87b",
+  "change_hash": "a36a5cf54b8cadde4e2cb3e18abe68a2",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0349/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0349.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2026-02-12",
   "progress": [
     {
@@ -49,8 +49,13 @@
   "current_body_id": 94,
   "title": "Statewide Water Storage",
   "description": "Statewide Water Storage",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2026-01-23",
@@ -65,6 +70,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Natural Resources, Agriculture, and Environment"
+    },
+    {
+      "date": "2026-02-17",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -186,6 +198,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -258,25 +277,25 @@
       }
     },
     {
-      "people_id": 22124,
-      "person_hash": "16ri7iqc",
+      "people_id": 8186,
+      "person_hash": "xpczbtsb",
       "party_id": "2",
       "state_id": 44,
       "party": "R",
       "role_id": 2,
       "role": "Sen",
-      "name": "Chris Wilson",
-      "first_name": "Chris",
-      "middle_name": "H.",
-      "last_name": "Wilson",
+      "name": "Evan Vickers",
+      "first_name": "Evan",
+      "middle_name": "J.",
+      "last_name": "Vickers",
       "suffix": "",
       "nickname": "",
-      "district": "SD-002",
-      "ftm_eid": 40771058,
-      "votesmart_id": 192461,
+      "district": "SD-028",
+      "ftm_eid": 9838132,
+      "votesmart_id": 103758,
       "opensecrets_id": "",
-      "knowwho_pid": 736087,
-      "ballotpedia": "Chris_Wilson_(Utah)",
+      "knowwho_pid": 268712,
+      "ballotpedia": "Evan_Vickers",
       "bioguide_id": "",
       "sponsor_type_id": 3,
       "sponsor_order": 2,
@@ -287,12 +306,12 @@
         "social": {
           "capitol_phone": "801-538-1035",
           "district_phone": "",
-          "email": "cwilson@le.utah.gov",
+          "email": "evickers@le.utah.gov",
           "webmail": "",
-          "biography": "https://senate.utah.gov/sen/WILSOCH/",
-          "image": "https://le.utah.gov/images/legislator/WILSOCH.jpg",
-          "ballotpedia": "https://ballotpedia.org/Chris_Wilson_%28Utah%29",
-          "votesmart": "https://justfacts.votesmart.org/candidate/biography/192461"
+          "biography": "https://senate.utah.gov/sen/VICKEEJ/",
+          "image": "https://le.utah.gov/images/legislator/VICKEEJ.jpg",
+          "ballotpedia": "https://ballotpedia.org/Evan_Vickers",
+          "votesmart": "https://justfacts.votesmart.org/candidate/biography/103758"
         },
         "capitol_address": {
           "address1": "350 North State, Suite 350",
@@ -309,14 +328,14 @@
             "linkedin": "",
             "tiktok": "",
             "twitter": "",
-            "website": "https://senate.utah.gov/sen/WILSOCH/",
+            "website": "https://senate.utah.gov/sen/VICKEEJ/",
             "youtube": ""
           },
           "personal": {
             "bluesky": "",
-            "facebook": "https://www.facebook.com/kiersten.wilson.397",
-            "instagram": "https://www.instagram.com/chrisandkierstenwilson/",
-            "linkedin": "https://www.linkedin.com/in/chris-wilson-275333191/",
+            "facebook": "https://www.facebook.com/evan.vickers",
+            "instagram": "",
+            "linkedin": "https://www.linkedin.com/in/evan-vickers-4a544713/",
             "tiktok": "",
             "twitter": "",
             "website": "",
@@ -477,9 +496,9 @@
       "markerID": "292549"
     }
   ],
-  "last_action": "Senate/ received from House",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/12/2026",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "2/17/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -699,6 +718,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-17 10:26:53.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }

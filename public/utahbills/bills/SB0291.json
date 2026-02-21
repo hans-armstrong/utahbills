@@ -1,6 +1,6 @@
 {
   "bill_id": 2114940,
-  "change_hash": "3241e9f9ddde1ab7e9ecb4856b590819",
+  "change_hash": "baba1624e087d1a4790fa40837924bd6",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-12",
       "event": 1
+    },
+    {
+      "date": "2026-02-17",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 94,
   "title": "Student Transportation Amendments",
   "description": "Student Transportation Amendments",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-12",
@@ -51,6 +50,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-17",
+      "committee_id": 2120,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Education"
     }
   ],
   "history": [
@@ -95,6 +101,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-16",
+      "action": "LFA/ fiscal note sent to sponsor for SB0291 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ to standing committee in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate Comm - Motion to Recommend Failed in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -210,7 +237,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1636733,
+      "date": "2026-02-18",
+      "desc": "Senate Comm - Motion to Recommend Failed",
+      "yea": 2,
+      "nay": 2,
+      "nv": 0,
+      "absent": 3,
+      "total": 7,
+      "passed": 0,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0291/id/1636733",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40455"
+    }
+  ],
   "amendments": [],
   "supplements": [],
   "calendar": [
@@ -231,10 +274,24 @@
   "fiscal_analyst": "Rachelle Gunderson",
   "gov_tracking_id": "HJMSKCQVHX",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/12/2026",
+  "agendas": [
+    {
+      "mtgID": "20482",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-02-18 08:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDU0218.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "298350"
+    }
+  ],
+  "last_action": "Senate Comm - Motion to Recommend Failed",
+  "last_action_owner": "Senate Education Committee",
+  "last_action_time": "2/18/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -311,6 +368,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for SB0291",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-16 10:07:42.730",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-17 10:22:53.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Motion to Recommend Failed",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-18 09:27:19.763",
+      "actionClass": "A",
+      "voteID": "40455",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "2-2-3",
+      "actionCode": "SCAFAVFAIL",
       "parm1": "",
       "parm2": ""
     }

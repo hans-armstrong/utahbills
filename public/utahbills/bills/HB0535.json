@@ -1,6 +1,6 @@
 {
   "bill_id": 2113274,
-  "change_hash": "a9c3c86109c2c4a32a2af2d4a0be8019",
+  "change_hash": "b85d17e23226df18d282174cbc2b54c4",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-10",
       "event": 1
+    },
+    {
+      "date": "2026-02-19",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,8 +41,13 @@
   "current_body_id": 93,
   "title": "Disposition of Public Property Modifications",
   "description": "Disposition of Public Property Modifications",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2112,
+  "committee": {
+    "committee_id": 2112,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Political Subdivisions"
+  },
   "referrals": [
     {
       "date": "2026-02-10",
@@ -46,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-19",
+      "committee_id": 2112,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Political Subdivisions"
     }
   ],
   "history": [
@@ -132,6 +148,27 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "Bill Substituted by Sponsor in House Rules Comm in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ to standing committee in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -357,18 +394,28 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "9a8dffa8",
+      "type": "Hearing",
+      "date": "2026-02-24",
+      "time": "08:00",
+      "location": "",
+      "description": "House Political Subdivisions Hearing"
+    }
+  ],
   "general_provisions": "This bill deals with the disposition of certain publicly owned real property.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms and modifies definitions;<hr><ltbullet>provides a process for a local governmental entity to dispose of public property;<hr><ltbullet>requires a local governmental entity to determine if public property constitutes a significant parcel;<hr><ltbullet>requires the governing body of a local governmental entity to approve the disposal of a significant parcel in a public meeting;<hr><ltbullet>provides that a local governmental entity shall comply with statutory provisions specific to the type of local governmental entity in addition to the provisions of Title 11, Chapter 1, Part 2, Disposal of Public Property, when disposing of public property;<hr><ltbullet>requires the School and Institutional Trust Lands Administration (administration) to comply with the provisions of Title 11, Chapter 1, Part 2, Disposal of Public Property, the same as if the administration were a local governmental entity, if the provisions are not expressly contradicted by another provision;<hr><ltbullet>authorizes a school district to sell surplus property in accordance with Title 11, Chapter 1, Part 2, Disposal of Public Property, if no eligible entity purchases the surplus property within one year; <hr><ltbullet>repeals a criminal penalty; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms and modifies definitions;<hr><ltbullet>provides a process for a local governmental entity to dispose of public property;<hr><ltbullet>requires a local governmental entity to determine if public property constitutes a significant parcel;<hr><ltbullet>requires the governing body of a local governmental entity to approve the disposal of a significant parcel in a public meeting;<hr><ltbullet>provides that a local governmental entity shall comply with statutory provisions specific to the type of local governmental entity in addition to the provisions of Title 11, Chapter 1, Part 2, Disposal of Public Property, when disposing of public property;<hr><ltbullet>authorizes a school district to sell surplus property in accordance with Title 11, Chapter 1, Part 2, Disposal of Public Property, if no eligible entity purchases the surplus property within one year; <hr><ltbullet>repeals a criminal penalty; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "RuthAnne Oakey-Frost",
   "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "NJYQXASRUP",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/10/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Political Subdivisions Committee",
+  "last_action_time": "2/19/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -523,6 +570,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-17 08:25:49.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Substituted by Sponsor in House Rules Comm",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-19 10:48:00.000",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRULSUBH",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2026-02-19 12:13:56.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

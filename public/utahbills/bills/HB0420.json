@@ -1,6 +1,6 @@
 {
   "bill_id": 2095721,
-  "change_hash": "3a8367848ae1f2ea5a03dbe591161d03",
+  "change_hash": "ad4e491288d1375c057cb370078be75e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-05",
       "event": 9
+    },
+    {
+      "date": "2026-02-17",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -171,6 +175,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ comm rpt/ substituted in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -248,6 +266,26 @@
     {
       "subject_id": 11851,
       "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 332627,
+      "subject_name": "Election Law"
+    },
+    {
+      "subject_id": 332842,
+      "subject_name": "Voting and Voter Registration"
+    },
+    {
+      "subject_id": 11910,
+      "subject_name": "Political Subdivisions (Local Issues)"
+    },
+    {
+      "subject_id": 339963,
+      "subject_name": "Election Administration"
+    },
+    {
+      "subject_id": 334525,
+      "subject_name": "Municipal Officers"
     }
   ],
   "texts": [
@@ -430,15 +468,15 @@
       "mtgPlace": "220 Senate Building",
       "committeeName": "House Political Subdivisions Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00001683.htm",
       "agendaURL": "/~2026/agenda/HPOL0213.ag.htm",
       "billSession": "2026GS",
       "markerID": "297454"
     }
   ],
-  "last_action": "House Comm - Favorable Recommendation",
-  "last_action_owner": "House Political Subdivisions Committee",
-  "last_action_time": "2/13/2026",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/17/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -645,6 +683,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2026-02-17 10:26:49.673",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-17 10:26:50.673",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

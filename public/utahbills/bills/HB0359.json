@@ -1,6 +1,6 @@
 {
   "bill_id": 2091963,
-  "change_hash": "e9ebfc31e8ae7586034225e80c68fc07",
+  "change_hash": "85260c38af4fceb0e882f4afce479bdb",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-26",
       "event": 1
+    },
+    {
+      "date": "2026-02-18",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -46,6 +50,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-18",
+      "committee_id": 2108,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Health and Human Services"
     }
   ],
   "history": [
@@ -108,6 +119,20 @@
     {
       "date": "2026-01-29",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House/ to standing committee in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House Comm - Held in House Health and Human Services Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -234,7 +259,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1639822,
+      "date": "2026-02-20",
+      "desc": "House Comm - Held",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0359/id/1639822",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40681"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -258,7 +299,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "df1bff34",
+      "type": "Hearing",
+      "date": "2026-02-20",
+      "time": "08:30",
+      "location": "",
+      "description": "House Health and Human Services Hearing"
+    }
+  ],
   "general_provisions": "This bill enacts provisions related to health care preceptorships.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>creates the Preceptor Fund as an expendable revenue account;<hr><ltbullet>authorizes the Department of Health and Human Services to make payments from the account to health care providers;<hr><ltbullet>authorizes rulemaking; and<hr><ltbullet>requires the Division of Professional Licensing to accept donations as part of the health care provider licensing process. ",
   "monies": "None",
@@ -266,10 +317,24 @@
   "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "KBXGATSKDG",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/29/2026",
+  "agendas": [
+    {
+      "mtgID": "20421",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2026-02-20 08:30:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HHHS0220.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299207"
+    }
+  ],
+  "last_action": "House Comm - Held",
+  "last_action_owner": "House Health and Human Services Committee",
+  "last_action_time": "2/20/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -385,6 +450,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-18 11:57:54.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-20 09:02:21.987",
+      "actionClass": "A",
+      "voteID": "40681",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-3",
+      "actionCode": "HCAHELD",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2106408,
-  "change_hash": "0f5c5c85b1325680633886b082d9bd06",
+  "change_hash": "d3e9fa418ad0a9db90d705fd4a3b9ee2",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Building Inspection Amendments",
   "description": "Building Inspection Amendments",
-  "pending_committee_id": 5042,
-  "committee": {
-    "committee_id": 5042,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Business, Labor, and Commerce"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-04",
@@ -134,6 +129,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House Comm - Motion to Recommend Failed in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -249,7 +251,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1635475,
+      "date": "2026-02-17",
+      "desc": "House Comm - Motion to Recommend Failed",
+      "yea": 4,
+      "nay": 7,
+      "nv": 0,
+      "absent": 5,
+      "total": 16,
+      "passed": 0,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0470/id/1635475",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40328"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -291,10 +309,24 @@
   "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "CLBGCEYRYO",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20495",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2026-02-17 08:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HBUS0217.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "297697"
+    }
+  ],
+  "last_action": "House Comm - Motion to Recommend Failed",
   "last_action_owner": "House Business, Labor, and Commerce Committee",
-  "last_action_time": "2/11/2026",
+  "last_action_time": "2/17/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -423,6 +455,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Motion to Recommend Failed",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-17 09:10:21.187",
+      "actionClass": "A",
+      "voteID": "40328",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-7-5",
+      "actionCode": "HCAFAVFAIL",
       "parm1": "",
       "parm2": ""
     }

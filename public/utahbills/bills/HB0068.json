@@ -1,6 +1,6 @@
 {
   "bill_id": 2060750,
-  "change_hash": "1caa3c67591ad0649e81aa486ab2dc7e",
+  "change_hash": "fb5f112a9ea7b033974fdc17a083e4cd",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0068/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0068.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2026-02-13",
   "progress": [
     {
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-13",
       "event": 2
+    },
+    {
+      "date": "2026-02-18",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,8 +53,13 @@
   "current_body_id": 94,
   "title": "Housing and Community Development Amendments",
   "description": "Housing and Community Development Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2861,
+  "committee": {
+    "committee_id": 2861,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Economic Development and Workforce Services"
+  },
   "referrals": [
     {
       "date": "2026-01-20",
@@ -64,6 +73,20 @@
       "committee_id": 2860,
       "chamber": "H",
       "chamber_id": 93,
+      "name": "Economic Development and Workforce Services"
+    },
+    {
+      "date": "2026-02-17",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-18",
+      "committee_id": 2861,
+      "chamber": "S",
+      "chamber_id": 94,
       "name": "Economic Development and Workforce Services"
     }
   ],
@@ -270,6 +293,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate/ to standing committee in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -815,6 +852,15 @@
       "time": "15:40",
       "location": "",
       "description": "House Economic Development and Workforce Services Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "824fcc5f",
+      "type": "Hearing",
+      "date": "2026-02-23",
+      "time": "08:30",
+      "location": "",
+      "description": "Senate Economic Development and Workforce Services Hearing"
     }
   ],
   "general_provisions": "This bill creates the Division of Housing and Community Development within the Governor's Office of Economic Opportunity.",
@@ -844,9 +890,9 @@
       "markerID": "293869"
     }
   ],
-  "last_action": "Senate/ received from House",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/13/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Economic Development and Workforce Services Committee",
+  "last_action_time": "2/18/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1222,6 +1268,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-17 10:28:10.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "2026-02-18 14:28:14.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

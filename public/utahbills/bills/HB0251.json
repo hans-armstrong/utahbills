@@ -1,6 +1,6 @@
 {
   "bill_id": 2079433,
-  "change_hash": "e0237c872566db32a68dc55aa16c07d1",
+  "change_hash": "5342c26a26dd16d71e2f59b7772710a3",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0251/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0251.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2026-02-12",
   "progress": [
     {
@@ -36,6 +36,14 @@
     {
       "date": "2026-02-12",
       "event": 2
+    },
+    {
+      "date": "2026-02-17",
+      "event": 9
+    },
+    {
+      "date": "2026-02-19",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -64,6 +72,20 @@
       "committee_id": 2111,
       "chamber": "H",
       "chamber_id": 93,
+      "name": "Natural Resources, Agriculture, and Environment"
+    },
+    {
+      "date": "2026-02-17",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-17",
+      "committee_id": 2125,
+      "chamber": "S",
+      "chamber_id": 94,
       "name": "Natural Resources, Agriculture, and Environment"
     }
   ],
@@ -221,6 +243,41 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "Senate/ to standing committee in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-18",
+      "action": "Senate Comm - Favorable Recommendation in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "Senate/ committee report favorable in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-19",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -475,6 +532,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0251/id/1631636",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=398&house=H"
+    },
+    {
+      "roll_call_id": 1637295,
+      "date": "2026-02-18",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0251/id/1637295",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40481"
     }
   ],
   "amendments": [],
@@ -558,6 +630,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 674605,
+      "date": "2026-02-18",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0251",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0251/id/674605",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0251S02.pdf",
+      "supplement_size": 18326,
+      "supplement_hash": "e00bbf14512d3011c9595ea4a4d2ed26",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -569,6 +661,15 @@
       "time": "14:00",
       "location": "",
       "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "ad1e7990",
+      "type": "Hearing",
+      "date": "2026-02-18",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Natural Resources, Agriculture, and Environment Hearing"
     }
   ],
   "general_provisions": "This bill addresses use of water related to diligence claims.",
@@ -591,11 +692,24 @@
       "agendaURL": "/~2026/agenda/HNAE0202.ag.htm",
       "billSession": "2026GS",
       "markerID": "292569"
+    },
+    {
+      "mtgID": "20529",
+      "committeeID": "SSTNAE",
+      "mtgDate": "2026-02-18 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SNAE0218.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "298419"
     }
   ],
-  "last_action": "Senate/ received from House",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/12/2026",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/19/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -880,6 +994,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-17 10:26:53.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-17 14:25:08.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-18 16:17:54.897",
+      "actionClass": "A",
+      "voteID": "40481",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-19 10:24:12.877",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-19 10:24:13.877",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2101638,
-  "change_hash": "caf6b7110653d36020d49a06c56b0722",
+  "change_hash": "4ab699d063043fef4c764d4407e8a6ec",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-05",
       "event": 9
+    },
+    {
+      "date": "2026-02-19",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -156,6 +160,41 @@
       "action": "LFA/ fiscal note publicly available for HB0426S01 in Released",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-17",
+      "action": "House Comm - Not Considered in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House Comm - Substitute Recommendation in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-18",
+      "action": "House Comm - Favorable Recommendation in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ comm rpt/ substituted in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-19",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -294,7 +333,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1637885,
+      "date": "2026-02-18",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 15,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0426/id/1637885",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40494"
+    },
+    {
+      "roll_call_id": 1637886,
+      "date": "2026-02-18",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 15,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0426/id/1637886",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40495"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -356,6 +426,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 675256,
+      "date": "2026-02-18",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0426",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0426/id/675256",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0426H01.pdf",
+      "supplement_size": 17566,
+      "supplement_hash": "358697f9603e486c138ce7f79bcd7e09",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -367,19 +457,55 @@
       "time": "08:00",
       "location": "",
       "description": "House Education Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "74631610",
+      "type": "Hearing",
+      "date": "2026-02-18",
+      "time": "16:00",
+      "location": "",
+      "description": "House Education Hearing"
     }
   ],
   "general_provisions": "This bill establishes accountability requirements for learner validated programs.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>requires local education agencies operating learner validated programs to maintain comprehensive accountability standards;<hr><ltbullet>establishes minimum standards for teacher of record oversight and student progress monitoring;<hr><ltbullet>requires documented pacing, proctored assessments, and sequential completion of coursework;<hr><ltbullet>establishes student-to-teacher ratio requirements for learner validated programs;<hr><ltbullet>requires state core standards alignment and accreditation;<hr><ltbullet>provides for proficiency-based waivers for advanced students;<hr><ltbullet>assigns State Board of Education oversight and enforcement authority; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>requires a local education agency (LEA) operating a learner validated programs to maintain accountability for a participating student;<hr><ltbullet>establishes standards for teacher of record oversight and student progress monitoring;<hr><ltbullet>requires documented pacing, proctored assessments, and sequential completion of coursework;<hr><ltbullet>establishes student-to-teacher ratio requirements for learner validated programs;<hr><ltbullet>provides for proficiency-based waivers for advanced students;<hr><ltbullet>assigns State Board of Education oversight and enforcement authority; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Jeff Van Hulten",
   "fiscal_analyst": "Kiki Hudson",
   "gov_tracking_id": "MBKCWPPPVQ",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Education Committee",
-  "last_action_time": "2/5/2026",
+  "agendas": [
+    {
+      "mtgID": "20511",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-02-17 08:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001693.htm",
+      "agendaURL": "/~2026/agenda/HEDU0217.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
+    },
+    {
+      "mtgID": "20513",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-02-18 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HEDU0218.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "298448"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/19/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -560,6 +686,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Education Committee",
+      "actionDate": "2026-02-17 08:00:00.000",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Education Committee",
+      "actionDate": "2026-02-18 16:45:48.180",
+      "actionClass": "A",
+      "voteID": "40494",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-4",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Education Committee",
+      "actionDate": "2026-02-18 16:46:20.970",
+      "actionClass": "A",
+      "voteID": "40495",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-4",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Education Committee",
+      "actionDate": "2026-02-19 10:27:03.360",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-19 10:27:04.360",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }
