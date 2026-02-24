@@ -231,7 +231,7 @@
                             href="https://www.ncsl.org/about-state-legislatures/inside-the-legislative-process#PublishedSections"
                             target="_blank">The National Conference for State Legislators provides detailed comparisons
                             of all the states</a>
-                        and is a great resource to dive deeper into legislative minutia.
+                        and is a great resource to dive deeper into legislative minutia.<br> Check out <a class="link" target="_blank" href="https://youtu.be/P4cB2l1f5GU?si=r8G7DBausU8D_w4K">this podcast from the NCSL about legislative oversight with Utah guest speakers.</a> 
                     </p>
                 </div>
                 <div class="text-2xl mt-6">
