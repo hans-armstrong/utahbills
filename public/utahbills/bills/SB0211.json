@@ -1,6 +1,6 @@
 {
   "bill_id": 2095648,
-  "change_hash": "f110d789c215bb5f325bec608e6e70ca",
+  "change_hash": "543925f63b82cb5c37458716749d7fa1",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -182,6 +182,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ uncircled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -341,6 +355,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0211/id/1620170",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39261"
+    },
+    {
+      "roll_call_id": 1641313,
+      "date": "2026-02-23",
+      "desc": "Senate/ passed 2nd reading",
+      "yea": 16,
+      "nay": 10,
+      "nv": 0,
+      "absent": 3,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0211/id/1641313",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=935&house=S"
     }
   ],
   "amendments": [],
@@ -439,9 +468,9 @@
       "markerID": "291974"
     }
   ],
-  "last_action": "Senate/ circled",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/20/2026",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -661,6 +690,32 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-23 15:10:18.583",
+      "actionClass": "S",
+      "voteID": "934",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-23 15:17:06.970",
+      "actionClass": "S",
+      "voteID": "935",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "16-10-3",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

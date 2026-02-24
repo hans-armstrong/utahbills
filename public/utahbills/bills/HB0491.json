@@ -1,6 +1,6 @@
 {
   "bill_id": 2107472,
-  "change_hash": "08d52f5cab4426e4189309c09c4d2b7c",
+  "change_hash": "c6022dc219503d1b57fd1d7ce2bbb22c",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-04",
       "event": 1
+    },
+    {
+      "date": "2026-02-23",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,8 +41,13 @@
   "current_body_id": 93,
   "title": "State Highway Designation Amendments",
   "description": "State Highway Designation Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2117,
+  "committee": {
+    "committee_id": 2117,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Transportation"
+  },
   "referrals": [
     {
       "date": "2026-02-04",
@@ -46,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-23",
+      "committee_id": 2117,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Transportation"
     }
   ],
   "history": [
@@ -104,6 +120,34 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0491S01 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0491S01 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Bill Substituted by Sponsor in House Rules Comm in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "House/ to standing committee in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -181,14 +225,6 @@
     {
       "subject_id": 11875,
       "subject_name": "Transportation"
-    },
-    {
-      "subject_id": 332742,
-      "subject_name": "Roads/Highways"
-    },
-    {
-      "subject_id": 11928,
-      "subject_name": "Department of Transportation"
     }
   ],
   "texts": [
@@ -203,6 +239,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0491.pdf",
       "text_size": 20414,
       "text_hash": "e1efe75d23e3bad3f528fd04bbed9399",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3372670,
+      "date": "2026-02-23",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0491/id/3372670",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0491S01.pdf",
+      "text_size": 33997,
+      "text_hash": "617edfcba648b75e673f64e0cca54b92",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -233,20 +287,50 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 678915,
+      "date": "2026-02-23",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0491/id/678915",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0491%20To%20HB0491S01.pdf",
+      "supplement_size": 42156,
+      "supplement_hash": "60d46ea56e67fadc068c3c2b64a109b7",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
-  "general_provisions": "This bill designates a portion of SR-92 as Robert Redford Highway.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>designates SR-92 through American Fork Canyon as Robert Redford Highway.",
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "8808ab06",
+      "type": "Hearing",
+      "date": "2026-02-25",
+      "time": "08:00",
+      "location": "",
+      "description": "House Transportation Hearing"
+    }
+  ],
+  "general_provisions": "This bill creates a process and standards for the special designation of state highways.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>provides standards and a process for the proposal of a special designation of a highway;<hr><ltbullet>provides limitations on multiple designations for the same individual, or multiple designations on the same highway;<hr><ltbullet>allows special designations by the Legislature to apply only to state highways;<hr><ltbullet>limits designations to proposals to honor an individual who has been deceased for at least five years;<hr><ltbullet>creates a committee for review of the special designation proposals;<hr><ltbullet>limits special designations to one per year; and<hr><ltbullet>provides standards for the highway signage for a special designation. ",
   "monies": "None",
   "attorney": "Kurt P. Gasser",
   "fiscal_analyst": "Rachel Boe",
   "gov_tracking_id": "WVWKQVMELX",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/4/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Transportation Committee",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -349,6 +433,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0491S01",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-23 11:03:27.207",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0491S01",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-23 11:03:27.207",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Substituted by Sponsor in House Rules Comm",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-23 16:32:00.000",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRULSUBH",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Transportation Committee",
+      "actionDate": "2026-02-23 16:53:13.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

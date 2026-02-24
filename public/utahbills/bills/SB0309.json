@@ -1,6 +1,6 @@
 {
   "bill_id": 2119767,
-  "change_hash": "de1b648225c3589af1995d8587987b24",
+  "change_hash": "3f70de827454b8e31adc7cf1d34e6f57",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 94,
   "title": "Single-family Home Rental Modifications",
   "description": "Single-family Home Rental Modifications",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-19",
@@ -113,6 +108,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate Comm - Held in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -236,7 +238,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1640856,
+      "date": "2026-02-23",
+      "desc": "Senate Comm - Held",
+      "yea": 4,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0309/id/1640856",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40755"
+    }
+  ],
   "amendments": [],
   "supplements": [],
   "calendar": [
@@ -257,10 +275,24 @@
   "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "YQAPNBJDSP",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "Senate/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20471",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-02-23 08:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SREV0223.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299406"
+    }
+  ],
+  "last_action": "Senate Comm - Held",
   "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "2/20/2026",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -350,6 +382,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Held",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2026-02-23 08:57:47.180",
+      "actionClass": "A",
+      "voteID": "40755",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCAHELD",
       "parm1": "",
       "parm2": ""
     }

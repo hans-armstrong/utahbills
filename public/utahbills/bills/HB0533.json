@@ -1,6 +1,6 @@
 {
   "bill_id": 2113132,
-  "change_hash": "f9a4afd518bc01170740f75c05447b1a",
+  "change_hash": "64e89bc8cdd4d097009227c10cfd9e24",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Groundwater Amendments",
   "description": "Groundwater Amendments",
-  "pending_committee_id": 2111,
-  "committee": {
-    "committee_id": 2111,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Natural Resources, Agriculture, and Environment"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-10",
@@ -197,6 +192,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-23",
+      "action": "House Comm - Held in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -356,7 +358,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1640990,
+      "date": "2026-02-23",
+      "desc": "House Comm - Held",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 6,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0533/id/1640990",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40742"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -498,10 +516,24 @@
   "fiscal_analyst": "Kiki Hudson",
   "gov_tracking_id": "EIGJNNGTEM",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20430",
+      "committeeID": "HSTNAE",
+      "mtgDate": "2026-02-23 08:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HNAE0223.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299413"
+    }
+  ],
+  "last_action": "House Comm - Held",
   "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "2/19/2026",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -747,6 +779,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-23 08:40:42.927",
+      "actionClass": "A",
+      "voteID": "40742",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-6",
+      "actionCode": "HCAHELD",
       "parm1": "",
       "parm2": ""
     }

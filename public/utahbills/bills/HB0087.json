@@ -1,6 +1,6 @@
 {
   "bill_id": 2060976,
-  "change_hash": "32476437aac632eb8b90f6a20fa13cad",
+  "change_hash": "4a1e14209c7c3a36c42e60a3bab72267",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -352,6 +352,13 @@
     {
       "date": "2026-02-20",
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ circled in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -879,9 +886,9 @@
       "markerID": "292659"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action": "Senate/ circled",
   "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/20/2026",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "LFA/ bill assigned to staff for fiscal analysis for HB0087",
@@ -1374,6 +1381,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-23 11:45:35.803",
+      "actionClass": "S",
+      "voteID": "907",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0087S02",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-23 18:49:56.132",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0087S02",
+      "owner": "Released",
+      "actionDate": "2026-02-23 18:49:57.009",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
       "parm1": "",
       "parm2": ""
     }

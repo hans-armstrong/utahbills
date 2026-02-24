@@ -1,6 +1,6 @@
 {
   "bill_id": 2121100,
-  "change_hash": "ce0e1ebed1af1894c88c32caed186f17",
+  "change_hash": "e8a763d21c9500faf3d49cca81db7306",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,9 +18,18 @@
   "url": "https://legiscan.com/UT/bill/SB0315/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0315.html",
   "completed": 0,
-  "status": 0,
-  "status_date": null,
-  "progress": [],
+  "status": 1,
+  "status_date": "2026-02-23",
+  "progress": [
+    {
+      "date": "2026-02-23",
+      "event": 1
+    },
+    {
+      "date": "2026-02-23",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0315",
@@ -32,9 +41,29 @@
   "current_body_id": 94,
   "title": "Tax Credit Modifications",
   "description": "Tax Credit Modifications",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2127,
+  "committee": {
+    "committee_id": 2127,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Revenue and Taxation"
+  },
+  "referrals": [
+    {
+      "date": "2026-02-23",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-23",
+      "committee_id": 2127,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Revenue and Taxation"
+    }
+  ],
   "history": [
     {
       "date": "2026-02-20",
@@ -70,6 +99,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ to standing committee in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -184,7 +227,17 @@
   "votes": [],
   "amendments": [],
   "supplements": [],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "8842cf41",
+      "type": "Hearing",
+      "date": "2026-02-25",
+      "time": "08:00",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies income tax credits for donations to the Carson Smith Opportunity Scholarship Program.",
   "hilighted_provisions": "This bill:<hr><ltbullet>allows claimants for the nonrefundable corporate and individual income tax credits for donations to the Carson Smith Opportunity Scholarship Program to:<hr><ltbullet1>claim any portion of the tax credit amount listed on the tax credit certificate for a taxable year; and<hr><ltbullet1>carry forward or carry back the amount of the tax credit that is unclaimed; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -193,9 +246,9 @@
   "gov_tracking_id": "NNTLTRACQV",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ received bill from Legislative Research",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/20/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Revenue and Taxation Committee",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -259,6 +312,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-23 10:17:01.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2026-02-23 14:31:06.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2117423,
-  "change_hash": "22dc92a0ece9cfce9ddd34f7defa5673",
+  "change_hash": "69d60f297946e05eeb04dce6d4bd5c9d",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-20",
       "event": 9
+    },
+    {
+      "date": "2026-02-23",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Outdoor Recreational Infrastructure Grant Program Amendments",
   "description": "Outdoor Recreational Infrastructure Grant Program Amendments",
-  "pending_committee_id": 2111,
-  "committee": {
-    "committee_id": 2111,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Natural Resources, Agriculture, and Environment"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-17",
@@ -134,6 +133,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-23",
+      "action": "House Comm - Favorable Recommendation in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "House/ committee report favorable in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-23",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -269,7 +289,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1640800,
+      "date": "2026-02-23",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0567/id/1640800",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40759"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -285,6 +321,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0567.fn.pdf",
       "supplement_size": 1608372,
       "supplement_hash": "d56f1b71b71c6620ae6e641571f9fe80",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 678651,
+      "date": "2026-02-23",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0567",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0567/id/678651",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0567H01.pdf",
+      "supplement_size": 17578,
+      "supplement_hash": "67cca742dd86c9fbf633111527980fa8",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -311,10 +367,24 @@
   "fiscal_analyst": "Timothy Kevin Bereece",
   "gov_tracking_id": "YXHKWYJFGH",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
-  "last_action_time": "2/20/2026",
+  "agendas": [
+    {
+      "mtgID": "20430",
+      "committeeID": "HSTNAE",
+      "mtgDate": "2026-02-23 08:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HNAE0223.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299517"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -443,6 +513,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-23 09:01:52.987",
+      "actionClass": "A",
+      "voteID": "40759",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-4",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-23 14:14:46.857",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-23 14:14:47.857",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

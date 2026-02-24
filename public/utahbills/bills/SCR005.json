@@ -1,6 +1,6 @@
 {
   "bill_id": 2085836,
-  "change_hash": "d57931220a006c6da3b77938c5041112",
+  "change_hash": "2f268c86106d8a938797163a98596434",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,8 +41,8 @@
   "bill_type_id": "3",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Concurrent Resolution Directing PEHP Regarding Pain Medication",
   "description": "Concurrent Resolution Directing PEHP Regarding Pain Medication",
   "pending_committee_id": 0,
@@ -188,6 +188,27 @@
       "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ passed 3rd reading in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -397,6 +418,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SCR005/id/1640294",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=800&house=S"
+    },
+    {
+      "roll_call_id": 1641483,
+      "date": "2026-02-23",
+      "desc": "Senate/ passed 3rd reading",
+      "yea": 26,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SCR005/id/1641483",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=879&house=S"
     }
   ],
   "amendments": [
@@ -540,9 +576,9 @@
       "markerID": "293087"
     }
   ],
-  "last_action": "Senate/ passed 2nd reading",
-  "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/20/2026",
+  "last_action": "Senate/ to House",
+  "last_action_owner": "Clerk of the House",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -775,6 +811,45 @@
       "voteHouse": "S",
       "voteStr": "23-0-6",
       "actionCode": "SPASS2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-23 10:50:08.470",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-23 10:51:45.387",
+      "actionClass": "S",
+      "voteID": "879",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "26-0-3",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-23 10:51:46.387",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
       "parm1": "",
       "parm2": ""
     }

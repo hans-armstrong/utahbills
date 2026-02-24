@@ -1,6 +1,6 @@
 {
   "bill_id": 2095629,
-  "change_hash": "c6ad894be58adc6ee02f5223258b1d75",
+  "change_hash": "ee42db562ace2ff22132285afe814586",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -259,6 +259,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "LFA/ fiscal note publicly available for SB0210S03 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ uncircled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -336,6 +357,42 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 332736,
+      "subject_name": "Crimes"
+    },
+    {
+      "subject_id": 16547,
+      "subject_name": "Department of Public Safety"
+    },
+    {
+      "subject_id": 11917,
+      "subject_name": "State Tax Commission"
+    },
+    {
+      "subject_id": 11888,
+      "subject_name": "Revenue and Taxation"
+    },
+    {
+      "subject_id": 332536,
+      "subject_name": "Tobacco and Other Nicotine Products"
+    },
+    {
+      "subject_id": 12082,
+      "subject_name": "Local Health Departments"
+    },
+    {
+      "subject_id": 383611,
+      "subject_name": "Local Education Agencies (LEAs)"
+    },
+    {
+      "subject_id": 335072,
+      "subject_name": "Electronic Cigarettes"
+    },
+    {
+      "subject_id": 375054,
+      "subject_name": "Division of Finance"
     }
   ],
   "texts": [
@@ -442,6 +499,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0210/id/1625871",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39667"
+    },
+    {
+      "roll_call_id": 1641738,
+      "date": "2026-02-23",
+      "desc": "Senate/ passed 2nd reading",
+      "yea": 25,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0210/id/1641738",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=940&house=S"
     }
   ],
   "amendments": [],
@@ -645,6 +717,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 678636,
+      "date": "2026-02-23",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0210S03",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0210/id/678636",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0210S03.fn.pdf",
+      "supplement_size": 1610772,
+      "supplement_hash": "61367eb608009b43e052dbcc3539b906",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -680,9 +772,9 @@
       "markerID": "294945"
     }
   ],
-  "last_action": "Senate/ circled",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/20/2026",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1045,6 +1137,45 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for SB0210S03",
+      "owner": "Released",
+      "actionDate": "2026-02-23 09:23:52.896",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-23 15:24:26.343",
+      "actionClass": "S",
+      "voteID": "939",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-23 15:30:02.093",
+      "actionClass": "S",
+      "voteID": "940",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "25-0-4",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2104658,
-  "change_hash": "e3343a6b72534cf6e9d0e3584f2090e1",
+  "change_hash": "88ab6e26766b6522b77be0931ddec969",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-19",
       "event": 2
+    },
+    {
+      "date": "2026-02-23",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,13 +53,8 @@
   "current_body_id": 94,
   "title": "Juvenile Court Amendments",
   "description": "Juvenile Court Amendments",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-03",
@@ -77,6 +76,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-23",
+      "committee_id": 2124,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Judiciary, Law Enforcement, and Criminal Justice"
     }
   ],
   "history": [
@@ -204,6 +210,27 @@
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ to standing committee in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-23",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0465S01 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0465S01 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     }
   ],
@@ -358,6 +385,10 @@
     {
       "subject_id": 340447,
       "subject_name": "Juvenile Justice"
+    },
+    {
+      "subject_id": 334485,
+      "subject_name": "Arrest and Detention"
     }
   ],
   "texts": [
@@ -372,6 +403,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0465.pdf",
       "text_size": 28220,
       "text_hash": "2b9dbd20b31d0ae8a7249327fa0a2f91",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3372936,
+      "date": "2026-02-23",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0465/id/3372936",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0465S01.pdf",
+      "text_size": 27511,
+      "text_hash": "2be5f025fbe171d06492de55ad98644e",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -453,6 +502,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 679223,
+      "date": "2026-02-23",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0465/id/679223",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0465%20To%20HB0465S01.pdf",
+      "supplement_size": 31696,
+      "supplement_hash": "0a0c4d65a89d2985c235ceb28746e1ea",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -488,9 +557,9 @@
       "markerID": "296152"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/20/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -723,6 +792,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2026-02-23 14:31:06.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0465S01",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-23 16:03:59.837",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0465S01",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-23 16:03:59.837",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
       "parm1": "",
       "parm2": ""
     }

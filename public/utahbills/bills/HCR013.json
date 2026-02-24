@@ -1,6 +1,6 @@
 {
   "bill_id": 2111049,
-  "change_hash": "c1956e4bb1b09be0a17c11fff72d84b1",
+  "change_hash": "5dae0d258b2a79382b9aa117fb4ded8c",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/HCR013/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HCR013.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2026-02-06",
+  "status": 2,
+  "status_date": "2026-02-23",
   "progress": [
     {
       "date": "2026-02-06",
@@ -32,6 +32,10 @@
     {
       "date": "2026-02-20",
       "event": 10
+    },
+    {
+      "date": "2026-02-23",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -41,12 +45,17 @@
   "bill_type_id": "3",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Concurrent Resolution Regarding Technical Education",
   "description": "Concurrent Resolution Regarding Technical Education",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2026-02-06",
@@ -61,6 +70,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Education"
+    },
+    {
+      "date": "2026-02-23",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -153,6 +169,41 @@
       "action": "House/ 2nd reading in House Consent Calendar",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "House/ 3rd reading in House Consent Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -344,6 +395,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HCR013/id/1639859",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40659"
+    },
+    {
+      "roll_call_id": 1641051,
+      "date": "2026-02-23",
+      "desc": "House/ passed 3rd reading",
+      "yea": 62,
+      "nay": 0,
+      "nv": 0,
+      "absent": 13,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HCR013/id/1641051",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=689&house=H"
     }
   ],
   "amendments": [],
@@ -422,9 +488,9 @@
       "markerID": "299173"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House Consent Calendar",
-  "last_action_time": "2/20/2026",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -592,6 +658,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House Consent Calendar",
+      "actionDate": "2026-02-23 10:26:51.627",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-23 10:28:25.783",
+      "actionClass": "H",
+      "voteID": "689",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "62-0-13",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-23 10:28:27.783",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "2026-02-23 12:22:32.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-23 14:41:37.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }

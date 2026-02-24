@@ -1,6 +1,6 @@
 {
   "bill_id": 2101207,
-  "change_hash": "ff160aa4e698684da066a18f181d153b",
+  "change_hash": "f9e88b8306dab086d882879755646300",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0423/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0423.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2026-02-20",
   "progress": [
     {
@@ -49,8 +49,13 @@
   "current_body_id": 94,
   "title": "Hit and Run and DUI Offense Amendments",
   "description": "Hit and Run and DUI Offense Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2026-01-29",
@@ -65,6 +70,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Revenue and Taxation"
+    },
+    {
+      "date": "2026-02-23",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -235,6 +247,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -380,6 +399,50 @@
     {
       "subject_id": 332528,
       "subject_name": "Judicial Operations"
+    },
+    {
+      "subject_id": 11865,
+      "subject_name": "Controlled Substances"
+    },
+    {
+      "subject_id": 332736,
+      "subject_name": "Crimes"
+    },
+    {
+      "subject_id": 11866,
+      "subject_name": "Law Enforcement and Criminal Justice"
+    },
+    {
+      "subject_id": 11914,
+      "subject_name": "Board of Pardons and Parole"
+    },
+    {
+      "subject_id": 12020,
+      "subject_name": "Driver License"
+    },
+    {
+      "subject_id": 11903,
+      "subject_name": "Driving Under the Influence (DUI)"
+    },
+    {
+      "subject_id": 332742,
+      "subject_name": "Roads/Highways"
+    },
+    {
+      "subject_id": 11874,
+      "subject_name": "Motor Vehicles"
+    },
+    {
+      "subject_id": 11875,
+      "subject_name": "Transportation"
+    },
+    {
+      "subject_id": 332529,
+      "subject_name": "Punishment"
+    },
+    {
+      "subject_id": 376618,
+      "subject_name": "Sentencing"
     }
   ],
   "texts": [
@@ -663,9 +726,9 @@
       "markerID": "296466"
     }
   ],
-  "last_action": "Senate/ received from House",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/20/2026",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -976,6 +1039,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-23 10:16:37.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }

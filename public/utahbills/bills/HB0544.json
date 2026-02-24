@@ -1,6 +1,6 @@
 {
   "bill_id": 2114044,
-  "change_hash": "021dd05352b451024c4a2ad104623bec",
+  "change_hash": "6b0d41580bc4875cd22095802bc1160d",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-11",
       "event": 1
+    },
+    {
+      "date": "2026-02-23",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,8 +41,13 @@
   "current_body_id": 93,
   "title": "County Land Use Authority Amendments",
   "description": "County Land Use Authority Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2112,
+  "committee": {
+    "committee_id": 2112,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Political Subdivisions"
+  },
   "referrals": [
     {
       "date": "2026-02-11",
@@ -46,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-23",
+      "committee_id": 2112,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Political Subdivisions"
     }
   ],
   "history": [
@@ -111,6 +127,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "House/ to standing committee in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -259,9 +282,9 @@
   "gov_tracking_id": "IXFACGNGGR",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/13/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Political Subdivisions Committee",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -377,6 +400,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2026-02-23 11:03:14.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

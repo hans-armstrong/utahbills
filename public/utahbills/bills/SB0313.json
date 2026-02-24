@@ -1,6 +1,6 @@
 {
   "bill_id": 2121098,
-  "change_hash": "3441ce8a255a5d32269feb03002db281",
+  "change_hash": "21d66285f65a0140f5a7dbcfff644033",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-20",
       "event": 1
+    },
+    {
+      "date": "2026-02-23",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Recidivism Amendments",
   "description": "Recidivism Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2124,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2124,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Judiciary, Law Enforcement, and Criminal Justice"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-23",
+      "committee_id": 2124,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Judiciary, Law Enforcement, and Criminal Justice"
     }
   ],
   "history": [
@@ -92,6 +103,34 @@
     {
       "date": "2026-02-20",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-23",
+      "action": "LFA/ fiscal note sent to sponsor for SB0313 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "LFA/ fiscal note publicly available for SB0313 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ to standing committee in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -172,6 +211,30 @@
     {
       "subject_id": 332528,
       "subject_name": "Judicial Operations"
+    },
+    {
+      "subject_id": 11966,
+      "subject_name": "Public Funds and Accounts"
+    },
+    {
+      "subject_id": 11866,
+      "subject_name": "Law Enforcement and Criminal Justice"
+    },
+    {
+      "subject_id": 16606,
+      "subject_name": "Probation"
+    },
+    {
+      "subject_id": 332529,
+      "subject_name": "Punishment"
+    },
+    {
+      "subject_id": 404629,
+      "subject_name": "Recidivism"
+    },
+    {
+      "subject_id": 336441,
+      "subject_name": "Parole"
     }
   ],
   "texts": [
@@ -196,8 +259,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 678751,
+      "date": "2026-02-23",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0313",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0313/id/678751",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0313.fn.pdf",
+      "supplement_size": 1608333,
+      "supplement_hash": "9178421576bba30cecb3dfa5a7906089",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "e8b578cf",
+      "type": "Hearing",
+      "date": "2026-02-24",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
+    }
+  ],
   "general_provisions": "This bill amends the Adult Probation and Parole Employment Incentive Program.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>modifies distribution of Adult Probation and Parole Employment Incentive Program funds; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -206,9 +300,9 @@
   "gov_tracking_id": "TFCEVGWKKM",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/20/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -285,6 +379,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for SB0313",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-23 12:14:56.917",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for SB0313",
+      "owner": "Released",
+      "actionDate": "2026-02-23 12:14:57.765",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-23 13:20:26.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2026-02-23 14:31:06.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

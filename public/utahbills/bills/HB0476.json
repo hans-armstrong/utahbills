@@ -1,6 +1,6 @@
 {
   "bill_id": 2107282,
-  "change_hash": "ce134a63c11bb059c954b1f591b1e450",
+  "change_hash": "38eb62075341b7f7764b1ceffa7d029c",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-04",
       "event": 1
+    },
+    {
+      "date": "2026-02-23",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,8 +41,13 @@
   "current_body_id": 93,
   "title": "Insanity Defense Amendments",
   "description": "Insanity Defense Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2110,
+  "committee": {
+    "committee_id": 2110,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Law Enforcement and Criminal Justice"
+  },
   "referrals": [
     {
       "date": "2026-02-04",
@@ -46,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-23",
+      "committee_id": 2110,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Law Enforcement and Criminal Justice"
     }
   ],
   "history": [
@@ -111,6 +127,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "House/ to standing committee in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -266,7 +289,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "3fca8415",
+      "type": "Hearing",
+      "date": "2026-02-25",
+      "time": "08:00",
+      "location": "",
+      "description": "House Law Enforcement and Criminal Justice Hearing"
+    }
+  ],
   "general_provisions": "This bill modifies provisions relating to the criminal defense of not guilty by reason of insanity.",
   "hilighted_provisions": "This bill:<hr><ltbullet>modifies the circumstances under which a defendant may plead not guilty to a first degree or capital felony by reason of insanity;<hr><ltbullet>places the burden of proof on a defendant asserting a defense of not guilty by reason of insanity to a first degree or capital felony charge;<hr><ltbullet>modifies provisions relating to supervision, assessment, and release of a defendant committed to the Department of Health and Human Services after being found not guilty of a criminal offense by reason of insanity;<hr><ltbullet>provides that a judge presiding over the prosecution of an individual asserting the defense of not guilty by reason of insanity may exercise discretion in ordering the Department of Health and Human Services to conduct a mental examination of the defendant under certain circumstances; <hr><ltbullet>defines terms; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
@@ -275,9 +308,9 @@
   "gov_tracking_id": "QFQQVYGEVE",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/20/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Law Enforcement and Criminal Justice Committee",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -393,6 +426,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-02-23 11:03:07.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

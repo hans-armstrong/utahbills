@@ -1,6 +1,6 @@
 {
   "bill_id": 2067915,
-  "change_hash": "f16aa01f41871f6a0fc808a842269ab6",
+  "change_hash": "e72d4b4588cc1cd7e9d821f656f7cf84",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -45,13 +45,8 @@
   "current_body_id": 94,
   "title": "Joint Rules Resolution - Sponsor's Supporting Information",
   "description": "Joint Rules Resolution - Sponsor's Supporting Information",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -184,6 +179,13 @@
     {
       "date": "2026-02-09",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate Comm - Favorable Recommendation in Senate Rules Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -392,6 +394,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HJR010/id/1626682",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=268&house=H"
+    },
+    {
+      "roll_call_id": 1640937,
+      "date": "2026-02-23",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 1,
+      "nv": 0,
+      "absent": 1,
+      "total": 9,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HJR010/id/1640937",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40797"
     }
   ],
   "amendments": [],
@@ -429,6 +446,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HJR010H02.pdf",
       "supplement_size": 17545,
       "supplement_hash": "cc9abec8e0007f6a5996045c282a4000",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 678747,
+      "date": "2026-02-23",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HJR010",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HJR010/id/678747",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HJR010S02.pdf",
+      "supplement_size": 18311,
+      "supplement_hash": "a8022a60fffdfb72fc135c32cef6b6b4",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -477,11 +514,24 @@
       "agendaURL": "/~2026/agenda/HRUL0128.ag.htm",
       "billSession": "2026GS",
       "markerID": "290490"
+    },
+    {
+      "mtgID": "20562",
+      "committeeID": "SSTRUL",
+      "mtgDate": "2026-02-23 12:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "Senate Rules Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SRUL0223.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299659"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/9/2026",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -701,6 +751,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-23 12:31:54.980",
+      "actionClass": "A",
+      "voteID": "40797",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-1-1",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-23 14:36:35.487",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-23 14:36:36.487",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

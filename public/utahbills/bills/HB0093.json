@@ -1,6 +1,6 @@
 {
   "bill_id": 2061174,
-  "change_hash": "6b35bc52a3735da26164a5f8bdd08904",
+  "change_hash": "30c0243f84a5a6237a6aada42d679278",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -295,13 +295,55 @@
     },
     {
       "date": "2026-02-19",
+      "action": "Senate/ to House with amendments in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "House/ placed on Concurrence Calendar in House Concurrence Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "House/ concurs with Senate amendment in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "House/ to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ received from House in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
       "action": "Senate/ signed by President/ returned to House in House Speaker",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
     },
     {
-      "date": "2026-02-19",
+      "date": "2026-02-23",
       "action": "Senate/ to House in House Speaker",
       "chamber": "H",
       "chamber_id": 93,
@@ -590,6 +632,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/HB0093/id/1638367",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=663&house=S"
+    },
+    {
+      "roll_call_id": 1640678,
+      "date": "2026-02-23",
+      "desc": "House/ concurs with Senate amendment",
+      "yea": 63,
+      "nay": 0,
+      "nv": 0,
+      "absent": 12,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0093/id/1640678",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=693&house=H"
     }
   ],
   "amendments": [
@@ -734,7 +791,7 @@
   ],
   "last_action": "Senate/ to House",
   "last_action_owner": "House Speaker",
-  "last_action_time": "2/19/2026",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "LFA/ bill assigned to staff for fiscal analysis for HB0093",
@@ -1114,9 +1171,87 @@
       "parm2": ""
     },
     {
+      "description": "Senate/ to House with amendments",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-19 11:03:51.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-20 14:07:38.600",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ placed on Concurrence Calendar",
+      "owner": "House Concurrence Calendar",
+      "actionDate": "2026-02-20 14:07:39.600",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HONCURCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ concurs with Senate amendment",
+      "owner": "Senate President",
+      "actionDate": "2026-02-23 10:34:27.903",
+      "actionClass": "H",
+      "voteID": "693",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "63-0-12",
+      "actionCode": "HCONCUR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "2026-02-23 10:34:28.903",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate President",
+      "actionDate": "2026-02-23 14:38:28.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
       "description": "Senate/ signed by President/ returned to House",
       "owner": "House Speaker",
-      "actionDate": "2026-02-19 11:03:51.123",
+      "actionDate": "2026-02-23 14:38:29.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
@@ -1129,7 +1264,7 @@
     {
       "description": "Senate/ to House",
       "owner": "House Speaker",
-      "actionDate": "2026-02-19 11:03:52.123",
+      "actionDate": "2026-02-23 14:38:30.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",

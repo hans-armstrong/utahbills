@@ -1,6 +1,6 @@
 {
   "bill_id": 2087341,
-  "change_hash": "97e21d726317a72b4681555b718a38a7",
+  "change_hash": "efa19bff91d4cfa270bd0bc72ad5a21e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-18",
       "event": 9
+    },
+    {
+      "date": "2026-02-23",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 93,
   "title": "Line-of-Duty Death Benefit Amendments",
   "description": "Line-of-Duty Death Benefit Amendments",
-  "pending_committee_id": 2110,
-  "committee": {
-    "committee_id": 2110,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Law Enforcement and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-21",
@@ -230,6 +229,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-23",
+      "action": "House Comm - Favorable Recommendation in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "House Comm - Consent Calendar Recommendation in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "House/ comm rpt/ placed on Consent Calendar in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-23",
+      "action": "House/ 2nd reading in House Consent Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -467,6 +494,36 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0166/id/1635435",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=526&house=S"
+    },
+    {
+      "roll_call_id": 1640554,
+      "date": "2026-02-23",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0166/id/1640554",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40770"
+    },
+    {
+      "roll_call_id": 1640555,
+      "date": "2026-02-23",
+      "desc": "House Comm - Consent Calendar Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0166/id/1640555",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40771"
     }
   ],
   "amendments": [],
@@ -504,6 +561,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0166S02.pdf",
       "supplement_size": 18323,
       "supplement_hash": "e5956ee13037178145929987d78d180e",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 678427,
+      "date": "2026-02-23",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0166",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0166/id/678427",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0166H02.pdf",
+      "supplement_size": 17591,
+      "supplement_hash": "5c568d6b333ad69e17ae749c40275356",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -552,11 +629,24 @@
       "agendaURL": "/~2026/agenda/SGOP0128.ag.htm",
       "billSession": "2026GS",
       "markerID": "290610"
+    },
+    {
+      "mtgID": "20512",
+      "committeeID": "HSTLAW",
+      "mtgDate": "2026-02-23 08:00:00.0",
+      "agendaItem": "7",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Law Enforcement and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HLAW0223.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299563"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Law Enforcement and Criminal Justice Committee",
-  "last_action_time": "2/18/2026",
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House Consent Calendar",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -815,6 +905,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-02-23 09:19:35.457",
+      "actionClass": "A",
+      "voteID": "40770",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-4",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Consent Calendar Recommendation",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-02-23 09:20:04.043",
+      "actionClass": "A",
+      "voteID": "40771",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-3",
+      "actionCode": "HCACONCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ placed on Consent Calendar",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-02-23 14:12:53.887",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRCON",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House Consent Calendar",
+      "actionDate": "2026-02-23 14:12:54.887",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

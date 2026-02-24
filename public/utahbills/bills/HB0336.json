@@ -1,6 +1,6 @@
 {
   "bill_id": 2091072,
-  "change_hash": "49b05447e10e8ef59c5dacf08aa5374c",
+  "change_hash": "35bec30b649c6fa07574100706fa5da6",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0336/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0336.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2026-02-20",
   "progress": [
     {
@@ -49,8 +49,13 @@
   "current_body_id": 94,
   "title": "Recovery Operations Amendments",
   "description": "Recovery Operations Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2026-01-23",
@@ -65,6 +70,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Transportation"
+    },
+    {
+      "date": "2026-02-23",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -263,6 +275,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -408,6 +427,46 @@
     {
       "subject_id": 11875,
       "subject_name": "Transportation"
+    },
+    {
+      "subject_id": 11904,
+      "subject_name": "Motor Vehicle Insurance"
+    },
+    {
+      "subject_id": 358711,
+      "subject_name": "Dispute Resolution"
+    },
+    {
+      "subject_id": 332528,
+      "subject_name": "Judicial Operations"
+    },
+    {
+      "subject_id": 11866,
+      "subject_name": "Law Enforcement and Criminal Justice"
+    },
+    {
+      "subject_id": 14885,
+      "subject_name": "Motor Carrier Regulation"
+    },
+    {
+      "subject_id": 11874,
+      "subject_name": "Motor Vehicles"
+    },
+    {
+      "subject_id": 11928,
+      "subject_name": "Department of Transportation"
+    },
+    {
+      "subject_id": 332732,
+      "subject_name": "Towing"
+    },
+    {
+      "subject_id": 340812,
+      "subject_name": "Commercial Motor Vehicle Regulation"
+    },
+    {
+      "subject_id": 367573,
+      "subject_name": "Civil Procedure"
     }
   ],
   "texts": [
@@ -691,9 +750,9 @@
       "markerID": ""
     }
   ],
-  "last_action": "Senate/ received from House",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/20/2026",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1056,6 +1115,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-23 10:16:37.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }

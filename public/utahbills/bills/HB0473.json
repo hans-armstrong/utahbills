@@ -1,6 +1,6 @@
 {
   "bill_id": 2106504,
-  "change_hash": "108f287fb2aaad4f86e120765c4bc05d",
+  "change_hash": "c529f2342cbd402b10cfced4954d8fd0",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-19",
       "event": 2
+    },
+    {
+      "date": "2026-02-23",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,8 +53,13 @@
   "current_body_id": 94,
   "title": "Colorado River Authority Amendments",
   "description": "Colorado River Authority Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2125,
+  "committee": {
+    "committee_id": 2125,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Natural Resources, Agriculture, and Environment"
+  },
   "referrals": [
     {
       "date": "2026-02-04",
@@ -72,6 +81,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-23",
+      "committee_id": 2125,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Natural Resources, Agriculture, and Environment"
     }
   ],
   "history": [
@@ -277,6 +293,13 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ to standing committee in Senate Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -687,6 +710,15 @@
       "time": "14:00",
       "location": "",
       "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "d3a9b797",
+      "type": "Hearing",
+      "date": "2026-02-24",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Natural Resources, Agriculture, and Environment Hearing"
     }
   ],
   "general_provisions": "This bill addresses the Colorado River Authority of Utah.",
@@ -711,9 +743,9 @@
       "markerID": "296301"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/20/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+  "last_action_time": "2/23/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1089,6 +1121,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-23 14:31:06.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }
