@@ -1,6 +1,6 @@
 {
   "bill_id": 2056893,
-  "change_hash": "3fab252431191a4345f2457d66bc0e6f",
+  "change_hash": "07db657e689d26056d42317f180b6e54",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SB0017/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0017.html",
   "completed": 0,
-  "status": 2,
+  "status": 6,
   "status_date": "2026-01-28",
   "progress": [
     {
@@ -282,6 +282,13 @@
     {
       "date": "2026-02-05",
       "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-05",
+      "action": "Senate/ filed in Senate Secretary",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -704,7 +711,7 @@
       "markerID": "293114"
     }
   ],
-  "last_action": "House/ to Senate",
+  "last_action": "Senate/ filed",
   "last_action_owner": "Senate Secretary",
   "last_action_time": "2/5/2026",
   "action_history": [
@@ -1069,6 +1076,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ filed",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-05 16:48:48.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SFILED",
       "parm1": "",
       "parm2": ""
     }

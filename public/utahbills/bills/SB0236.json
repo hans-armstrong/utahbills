@@ -1,6 +1,6 @@
 {
   "bill_id": 2103705,
-  "change_hash": "f77cae18ec14e26d7d7cdb97ddc1719e",
+  "change_hash": "8aad375c1b90c015b9de4fbb6141703c",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SB0236/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0236.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2026-02-03",
+  "status": 2,
+  "status_date": "2026-02-23",
   "progress": [
     {
       "date": "2026-02-03",
@@ -32,6 +32,10 @@
     {
       "date": "2026-02-06",
       "event": 10
+    },
+    {
+      "date": "2026-02-23",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -45,8 +49,13 @@
   "current_body_id": 93,
   "title": "Property Tax Exemption Process Amendments",
   "description": "Property Tax Exemption Process Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2116,
+  "committee": {
+    "committee_id": 2116,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2026-02-03",
@@ -61,6 +70,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Revenue and Taxation"
+    },
+    {
+      "date": "2026-02-23",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -221,6 +237,20 @@
     {
       "date": "2026-02-23",
       "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-23",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -603,8 +633,8 @@
       "markerID": "294386"
     }
   ],
-  "last_action": "Senate/ to House",
-  "last_action_owner": "Clerk of the House",
+  "last_action": "House/ 1st reading (Introduced)",
+  "last_action_owner": "House Rules Committee",
   "last_action_time": "2/23/2026",
   "action_history": [
     {
@@ -903,6 +933,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-23 12:23:55.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-23 14:07:32.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
       "parm1": "",
       "parm2": ""
     }

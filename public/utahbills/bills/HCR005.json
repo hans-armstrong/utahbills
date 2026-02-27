@@ -1,6 +1,6 @@
 {
   "bill_id": 2065936,
-  "change_hash": "3295f8d7ef4c3998b176abe66f5108d8",
+  "change_hash": "6d8b6d9ec2725e76b73219ac6181e9a2",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-02-26",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "House Concurrent Resolution on State Management of Federal Public Lands",
   "description": "House Concurrent Resolution on State Management of Federal Public Lands",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2111,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2111,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Natural Resources, Agriculture, and Environment"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-26",
+      "committee_id": 2111,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Natural Resources, Agriculture, and Environment"
     }
   ],
   "history": [
@@ -113,6 +124,13 @@
     {
       "date": "2026-01-20",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-26",
+      "action": "House/ to standing committee in House Natural Resources, Agriculture, and Environment Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -294,9 +312,9 @@
   "gov_tracking_id": "BYMSFKYFSV",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/20/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
+  "last_action_time": "2/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -412,6 +430,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-26 11:23:56.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

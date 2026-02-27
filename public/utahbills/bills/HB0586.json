@@ -1,6 +1,6 @@
 {
   "bill_id": 2118874,
-  "change_hash": "52436c9b93b5b7ce57d84e058c4e8f1a",
+  "change_hash": "2c8de640f3f27336923762812744a6b7",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Transportation Funding Amendments",
   "description": "Transportation Funding Amendments",
-  "pending_committee_id": 2115,
-  "committee": {
-    "committee_id": 2115,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-18",
@@ -134,6 +129,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-25",
+      "action": "House Comm - Not Considered in House Revenue and Taxation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -271,6 +273,27 @@
       "alt_state_link": "",
       "alt_amendment_size": 0,
       "alt_amendment_hash": ""
+    },
+    {
+      "amendment_id": 279184,
+      "adopted": 0,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2026-02-25",
+      "title": "House Amendment 2",
+      "description": "House Amendment 2",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0586/id/279184",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0586.Hamd.2.pdf",
+      "amendment_size": 7333,
+      "amendment_hash": "4ba39390c4e5c1fbdbe511175b794d50",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
     }
   ],
   "supplements": [
@@ -295,7 +318,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "81bd8c6a",
+      "type": "Hearing",
+      "date": "2026-02-25",
+      "time": "16:00",
+      "location": "",
+      "description": "House Revenue and Taxation Hearing"
+    }
+  ],
   "general_provisions": "This bill addresses transportation funding.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms; and<hr><ltbullet>requires the State Tax Commission, beginning in fiscal year 2028, to annually deposit a certain amount of new growth derived from state sales and use taxes into the Transit Transportation Investment Fund.",
   "monies": "None",
@@ -303,10 +336,24 @@
   "fiscal_analyst": "Andrea Wilko",
   "gov_tracking_id": "BAVSWQRWGI",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20479",
+      "committeeID": "HSTREV",
+      "mtgDate": "2026-02-25 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HREV0225.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
+    }
+  ],
+  "last_action": "House Comm - Not Considered",
   "last_action_owner": "House Revenue and Taxation Committee",
-  "last_action_time": "2/23/2026",
+  "last_action_time": "2/25/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -435,6 +482,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Not Considered",
+      "owner": "House Revenue and Taxation Committee",
+      "actionDate": "2026-02-25 16:00:00.000",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCANOCNSDR",
       "parm1": "",
       "parm2": ""
     }

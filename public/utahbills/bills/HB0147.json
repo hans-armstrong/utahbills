@@ -1,6 +1,6 @@
 {
   "bill_id": 2065321,
-  "change_hash": "8c30d90c0ed7bf9e576bd30f23a3e05a",
+  "change_hash": "a6db2953e157e19db648b302e4ae506b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-23",
       "event": 2
+    },
+    {
+      "date": "2026-02-25",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,13 +53,8 @@
   "current_body_id": 94,
   "title": "Government Form Submission Amendments",
   "description": "Government Form Submission Amendments",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -77,6 +76,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-25",
+      "committee_id": 2122,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Government Operations and Political Subdivisions"
     }
   ],
   "history": [
@@ -328,6 +334,20 @@
     {
       "date": "2026-02-23",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "Senate/ to standing committee in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Government Operations and Political Subdivisions Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -628,6 +648,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0147/id/1640854",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=686&house=H"
+    },
+    {
+      "roll_call_id": 1647122,
+      "date": "2026-02-26",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0147/id/1647122",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41199"
     }
   ],
   "amendments": [],
@@ -831,6 +866,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 683379,
+      "date": "2026-02-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0147",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0147/id/683379",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0147S02.pdf",
+      "supplement_size": 18338,
+      "supplement_hash": "1a9f1cc1d22b8ede8f8594bbe984d5d2",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -842,6 +897,15 @@
       "time": "16:00",
       "location": "",
       "description": "House Government Operations Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "e2f220bc",
+      "type": "Hearing",
+      "date": "2026-02-26",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Government Operations and Political Subdivisions Hearing"
     }
   ],
   "general_provisions": "This bill addresses when a government entity is required to provide an electronic filing option to a person submitting information to the government entity.",
@@ -864,11 +928,24 @@
       "agendaURL": "/~2026/agenda/HGOC0219.ag.htm",
       "billSession": "2026GS",
       "markerID": "299049"
+    },
+    {
+      "mtgID": "20440",
+      "committeeID": "SSTGOP",
+      "mtgDate": "2026-02-26 16:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Government Operations and Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SGOP0226.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "301198"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/23/2026",
+  "last_action": "Senate Comm - Favorable Recommendation",
+  "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
+  "last_action_time": "2/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1335,6 +1412,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2026-02-25 14:16:34.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2026-02-26 16:52:33.507",
+      "actionClass": "A",
+      "voteID": "41199",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-2",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2093727,
-  "change_hash": "dee674c1856c70a7099c2250c62248fb",
+  "change_hash": "0299a6200a270c7b3afd415988e3ade0",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,14 @@
     {
       "date": "2026-01-27",
       "event": 1
+    },
+    {
+      "date": "2026-02-24",
+      "event": 9
+    },
+    {
+      "date": "2026-02-26",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -46,6 +54,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-24",
+      "committee_id": 5042,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Business, Labor, and Commerce"
     }
   ],
   "history": [
@@ -129,6 +144,41 @@
     {
       "date": "2026-02-13",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "Bill Substituted by Sponsor in House Rules Comm in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "House/ to standing committee in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-26",
+      "action": "House Comm - Favorable Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "House/ committee report favorable in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-26",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -265,7 +315,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1645984,
+      "date": "2026-02-26",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 7,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0386/id/1645984",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41121"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -327,20 +393,64 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 682466,
+      "date": "2026-02-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0386",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0386/id/682466",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0386H01.pdf",
+      "supplement_size": 17530,
+      "supplement_hash": "0aac2678b1bf82e03b2ef83896397eee",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "4221a6d6",
+      "type": "Hearing",
+      "date": "2026-02-26",
+      "time": "08:00",
+      "location": "",
+      "description": "House Business, Labor, and Commerce Hearing"
+    }
+  ],
   "general_provisions": "This bill amends provisions relating to immigration.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>repeals:<hr><ltbullet1>the Guest Worker Program and related employee verification provisions; and<hr><ltbullet1>the Utah Pilot Sponsored Resident Immigrant Program Act; <hr><ltbullet>eliminates the repeal of the Private Employer Verification Act that is scheduled to occur on the Guest Worker Program start date;<hr><ltbullet>causes the Identity Theft Victims Restricted Account (account) to go into effect by removing the requirement that the account go into operation on the Guest Worker Program start date; and<hr><ltbullet>makes technical and conforming changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>repeals:<hr><ltbullet1>the Guest Worker Program and related employee verification provisions; and<hr><ltbullet1>the Utah Pilot Sponsored Resident Immigrant Program Act; <hr><ltbullet>eliminates the repeal of the Private Employer Verification Act that is scheduled to occur on the Guest Worker Program start date;<hr><ltbullet>repeals the Identity Theft Victims Restricted Account that would have gone into effect on the Guest Worker Program start date; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
   "attorney": "Jackie Rogers",
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "MKRNWJGQJJ",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/13/2026",
+  "agendas": [
+    {
+      "mtgID": "20499",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2026-02-26 08:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HBUS0226.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "300872"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -495,6 +605,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Substituted by Sponsor in House Rules Comm",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-24 11:38:00.000",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRULSUBH",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-24 11:54:40.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-26 08:24:54.643",
+      "actionClass": "A",
+      "voteID": "41121",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-7",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-26 14:34:11.803",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-26 14:34:12.803",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

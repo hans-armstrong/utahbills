@@ -1,6 +1,6 @@
 {
   "bill_id": 2101902,
-  "change_hash": "957829fa5cf91f47ab40991fe6b0a6f3",
+  "change_hash": "70c4084471df83eb4bbdd6ceebc740a3",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-23",
       "event": 2
+    },
+    {
+      "date": "2026-02-24",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,13 +53,8 @@
   "current_body_id": 93,
   "title": "Sales and Use Tax Exemptions Modifications",
   "description": "Sales and Use Tax Exemptions Modifications",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-30",
@@ -77,6 +76,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-24",
+      "committee_id": 5049,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Public Utilities and Energy"
     }
   ],
   "history": [
@@ -237,6 +243,20 @@
     {
       "date": "2026-02-23",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "House/ to standing committee in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-25",
+      "action": "House Comm - Held in House Public Utilities and Energy Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -490,9 +510,46 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0223/id/1640647",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=872&house=S"
+    },
+    {
+      "roll_call_id": 1645562,
+      "date": "2026-02-25",
+      "desc": "House Comm - Held",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0223/id/1645562",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41086"
     }
   ],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 279271,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2026-02-25",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/SB0223/id/279271",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/SB0223S01.Hamd.1.pdf",
+      "amendment_size": 6597,
+      "amendment_hash": "9414144f2d9672442caa273621132564",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 649904,
@@ -564,6 +621,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Revenue and Taxation Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "59796089",
+      "type": "Hearing",
+      "date": "2026-02-25",
+      "time": "16:00",
+      "location": "",
+      "description": "House Public Utilities and Energy Hearing"
     }
   ],
   "general_provisions": "This bill addresses sales and use tax exemptions.",
@@ -586,11 +652,24 @@
       "agendaURL": "/~2026/agenda/SREV0202.ag.htm",
       "billSession": "2026GS",
       "markerID": "292497"
+    },
+    {
+      "mtgID": "20528",
+      "committeeID": "HSTPUT",
+      "mtgDate": "2026-02-25 16:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Public Utilities and Energy Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HPUT0225.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "300703"
     }
   ],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/23/2026",
+  "last_action": "House Comm - Held",
+  "last_action_owner": "House Public Utilities and Energy Committee",
+  "last_action_time": "2/25/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -888,6 +967,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "2026-02-24 11:55:40.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "2026-02-25 17:38:37.647",
+      "actionClass": "A",
+      "voteID": "41086",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-2",
+      "actionCode": "HCAHELD",
       "parm1": "",
       "parm2": ""
     }

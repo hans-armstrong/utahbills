@@ -1,6 +1,6 @@
 {
   "bill_id": 2102533,
-  "change_hash": "a4aa3fec751d19b834e0f2e548d27a66",
+  "change_hash": "018b259d253e8d53fcef739f405bfdf5",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-19",
       "event": 2
+    },
+    {
+      "date": "2026-02-24",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,13 +53,8 @@
   "current_body_id": 94,
   "title": "Wildlife Crossing Amendments",
   "description": "Wildlife Crossing Amendments",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-30",
@@ -77,6 +76,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-24",
+      "committee_id": 2127,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -244,6 +250,20 @@
     {
       "date": "2026-02-20",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "Senate/ to standing committee in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate Comm - Motion to Recommend Failed in Senate Revenue and Taxation Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -955,6 +975,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0431/id/1638966",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=605&house=H"
+    },
+    {
+      "roll_call_id": 1646976,
+      "date": "2026-02-26",
+      "desc": "Senate Comm - Motion to Recommend Failed",
+      "yea": 3,
+      "nay": 3,
+      "nv": 0,
+      "absent": 1,
+      "total": 7,
+      "passed": 0,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0431/id/1646976",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41220"
     }
   ],
   "amendments": [
@@ -1071,6 +1106,15 @@
       "time": "14:00",
       "location": "",
       "description": "House Transportation Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "73b8c76e",
+      "type": "Hearing",
+      "date": "2026-02-26",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
     }
   ],
   "general_provisions": "This bill creates an account and provides funding for wildlife connectivity and livestock protection projects.",
@@ -1093,11 +1137,24 @@
       "agendaURL": "/~2026/agenda/HTRA0211.ag.htm",
       "billSession": "2026GS",
       "markerID": "296171"
+    },
+    {
+      "mtgID": "20473",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-02-26 16:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SREV0226.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "301237"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/20/2026",
+  "last_action": "Senate Comm - Motion to Recommend Failed",
+  "last_action_owner": "Senate Revenue and Taxation Committee",
+  "last_action_time": "2/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1408,6 +1465,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2026-02-24 14:12:36.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Motion to Recommend Failed",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2026-02-26 17:29:14.790",
+      "actionClass": "A",
+      "voteID": "41220",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-3-1",
+      "actionCode": "SCAFAVFAIL",
       "parm1": "",
       "parm2": ""
     }

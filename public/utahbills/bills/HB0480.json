@@ -1,6 +1,6 @@
 {
   "bill_id": 2107171,
-  "change_hash": "1b4e4eba01597ca86f6d61fe92f3c0a7",
+  "change_hash": "7f152705e1d0ad3ad4712ee6b7e4b502",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0480/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0480.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2026-02-23",
   "progress": [
     {
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-23",
       "event": 2
+    },
+    {
+      "date": "2026-02-25",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -65,6 +69,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Judiciary"
+    },
+    {
+      "date": "2026-02-24",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-25",
+      "committee_id": 2123,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Health and Human Services"
     }
   ],
   "history": [
@@ -235,6 +253,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-24",
+      "action": "LFA/ fiscal note sent to sponsor for HB0480S02 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "Senate/ to standing committee in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-25",
+      "action": "LFA/ fiscal note publicly available for HB0480S02 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -380,6 +426,26 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 11861,
+      "subject_name": "Abortion"
+    },
+    {
+      "subject_id": 11893,
+      "subject_name": "Health Care"
+    },
+    {
+      "subject_id": 12052,
+      "subject_name": "Health Care Facilities"
+    },
+    {
+      "subject_id": 14877,
+      "subject_name": "Medical Records"
+    },
+    {
+      "subject_id": 362639,
+      "subject_name": "Department of Health and Human Services"
     }
   ],
   "texts": [
@@ -606,6 +672,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 681778,
+      "date": "2026-02-25",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0480S02",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0480/id/681778",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0480S02.fn.pdf",
+      "supplement_size": 1609083,
+      "supplement_hash": "6f47bd74cca19928f0f9d4724448f9a0",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -641,9 +727,9 @@
       "markerID": "297974"
     }
   ],
-  "last_action": "Senate/ received from House",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/23/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Health and Human Services Committee",
+  "last_action_time": "2/25/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -954,6 +1040,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0480S02",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-24 10:12:49.905",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-24 10:16:47.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "2026-02-25 14:16:34.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0480S02",
+      "owner": "Released",
+      "actionDate": "2026-02-25 16:10:26.193",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2103680,
-  "change_hash": "821b0a9970bc987aab3589d0fdafc484",
+  "change_hash": "39b432352d04108544cc81f01144efd5",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0453/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0453.html",
-  "completed": 0,
-  "status": 1,
-  "status_date": "2026-02-03",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-02-24",
   "progress": [
     {
       "date": "2026-02-03",
@@ -32,6 +32,10 @@
     {
       "date": "2026-02-18",
       "event": 10
+    },
+    {
+      "date": "2026-02-24",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -210,6 +214,34 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "House/ substituted in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "House/ failed in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "House/ filed in House file for bills not passed",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -467,6 +499,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0453/id/1636773",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40432"
+    },
+    {
+      "roll_call_id": 1643071,
+      "date": "2026-02-24",
+      "desc": "House/ failed",
+      "yea": 23,
+      "nay": 42,
+      "nv": 0,
+      "absent": 10,
+      "total": 75,
+      "passed": 0,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0453/id/1643071",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=764&house=H"
     }
   ],
   "amendments": [],
@@ -647,9 +694,9 @@
       "markerID": "298220"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "2/18/2026",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "2/24/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -921,6 +968,84 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-24 10:31:00.500",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ substituted",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-24 10:31:53.493",
+      "actionClass": "H",
+      "voteID": "763",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HSUB",
+      "parm1": "2",
+      "parm2": "1"
+    },
+    {
+      "description": "House/ failed",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-24 10:38:35.360",
+      "actionClass": "H",
+      "voteID": "764",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "23-42-10",
+      "actionCode": "HFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-02-24 10:38:38.360",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0453S02",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-25 12:08:46.781",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0453S02",
+      "owner": "Released",
+      "actionDate": "2026-02-26 09:39:19.959",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
       "parm1": "",
       "parm2": ""
     }

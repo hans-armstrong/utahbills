@@ -1,6 +1,6 @@
 {
   "bill_id": 2087273,
-  "change_hash": "8bc1bc6d6e8bef2ced14623856afd83a",
+  "change_hash": "bfb7500e2c4936f7e0d09d2e5383600a",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-18",
       "event": 2
+    },
+    {
+      "date": "2026-02-26",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,12 +53,12 @@
   "current_body_id": 93,
   "title": "Joint Resolution to Initiate a Law School at Utah Valley University",
   "description": "Joint Resolution to Initiate a Law School at Utah Valley University",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2860,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2860,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Economic Development and Workforce Services"
   },
   "referrals": [
     {
@@ -77,6 +81,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-26",
+      "committee_id": 2860,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Economic Development and Workforce Services"
     }
   ],
   "history": [
@@ -219,6 +230,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "House/ to standing committee in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -505,6 +523,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Education Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "9d19e687",
+      "type": "Hearing",
+      "date": "2026-02-27",
+      "time": "16:00",
+      "location": "",
+      "description": "House Economic Development and Workforce Services Hearing"
     }
   ],
   "general_provisions": "This resolution directs Utah Valley University to conduct a feasibility study for establishing a law school.",
@@ -529,9 +556,9 @@
       "markerID": "291368"
     }
   ],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/18/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Economic Development and Workforce Services Committee",
+  "last_action_time": "2/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -790,6 +817,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "2026-02-26 16:00:26.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

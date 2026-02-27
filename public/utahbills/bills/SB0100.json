@@ -1,6 +1,6 @@
 {
   "bill_id": 2067891,
-  "change_hash": "4f3cd6fda0717a33779ac2cd69ebd639",
+  "change_hash": "20a288da26163cb6aa35345c7db298a4",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-20",
       "event": 9
+    },
+    {
+      "date": "2026-02-26",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 93,
   "title": "Federalism Revisions",
   "description": "Federalism Revisions",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -384,6 +383,48 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-25",
+      "action": "House Comm - Favorable Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "House Comm - Consent Calendar Recommendation in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "House/ comm rpt/ placed on Consent Calendar in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-26",
+      "action": "House/ 2nd reading in House Consent Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "House/ placed back on 3rd Reading Calendar in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "House/ 3rd Reading Calendar to Rules in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -714,6 +755,36 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0100/id/1635487",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=551&house=S"
+    },
+    {
+      "roll_call_id": 1645505,
+      "date": "2026-02-25",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0100/id/1645505",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41031"
+    },
+    {
+      "roll_call_id": 1645506,
+      "date": "2026-02-25",
+      "desc": "House Comm - Consent Calendar Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0100/id/1645506",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41033"
     }
   ],
   "amendments": [
@@ -959,6 +1030,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 682060,
+      "date": "2026-02-25",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0100",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0100/id/682060",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0100H02.pdf",
+      "supplement_size": 17569,
+      "supplement_hash": "245be3d6dc78f8527990d617b9bbd169",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -970,6 +1061,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Government Operations and Political Subdivisions Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "30e4241a",
+      "type": "Hearing",
+      "date": "2026-02-25",
+      "time": "16:10",
+      "location": "",
+      "description": "House Government Operations Hearing"
     }
   ],
   "general_provisions": "This bill modifies provisions related to federalism.",
@@ -992,11 +1092,24 @@
       "agendaURL": "/~2026/agenda/SGOP0123.ag.htm",
       "billSession": "2026GS",
       "markerID": "288671"
+    },
+    {
+      "mtgID": "20553",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2026-02-25 16:10:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HGOC0225.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "300538"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "2/20/2026",
+  "last_action": "House/ 3rd Reading Calendar to Rules",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "2/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1541,6 +1654,84 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2026-02-25 16:28:51.000",
+      "actionClass": "A",
+      "voteID": "41031",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-3",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Consent Calendar Recommendation",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2026-02-25 16:30:41.723",
+      "actionClass": "A",
+      "voteID": "41033",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-3",
+      "actionCode": "HCACONCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ placed on Consent Calendar",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2026-02-26 10:15:11.263",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRCON",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House Consent Calendar",
+      "actionDate": "2026-02-26 10:15:12.263",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ placed back on 3rd Reading Calendar",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2026-02-26 10:40:12.387",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HMOVE3RD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd Reading Calendar to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-26 14:38:56.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "H3RDTORUL",
       "parm1": "",
       "parm2": ""
     }

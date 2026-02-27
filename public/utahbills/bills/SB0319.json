@@ -1,6 +1,6 @@
 {
   "bill_id": 2122388,
-  "change_hash": "80093d86844a80b4a36f5485e27bc0de",
+  "change_hash": "de3ad81cf850df7edad30c764ca31cc1",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -19,8 +19,17 @@
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0319.html",
   "completed": 0,
   "status": 1,
-  "status_date": null,
-  "progress": [],
+  "status_date": "2026-02-23",
+  "progress": [
+    {
+      "date": "2026-02-23",
+      "event": 1
+    },
+    {
+      "date": "2026-02-25",
+      "event": 9
+    }
+  ],
   "state": "UT",
   "state_id": 44,
   "bill_number": "SB0319",
@@ -32,9 +41,29 @@
   "current_body_id": 94,
   "title": "Health Insurance Preauthorization Amendments",
   "description": "Health Insurance Preauthorization Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
-  "referrals": [],
+  "pending_committee_id": 2119,
+  "committee": {
+    "committee_id": 2119,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Business and Labor"
+  },
+  "referrals": [
+    {
+      "date": "2026-02-23",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-25",
+      "committee_id": 2119,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Business and Labor"
+    }
+  ],
   "history": [
     {
       "date": "2026-02-23",
@@ -70,6 +99,41 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-25",
+      "action": "LFA/ fiscal note sent to sponsor for SB0319 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "LFA/ fiscal note publicly available for SB0319 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "Senate/ to standing committee in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -147,6 +211,30 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 334430,
+      "subject_name": "Health Insurance"
+    },
+    {
+      "subject_id": 11907,
+      "subject_name": "Insurance"
+    },
+    {
+      "subject_id": 11905,
+      "subject_name": "Insurance Department"
+    },
+    {
+      "subject_id": 11871,
+      "subject_name": "Business"
+    },
+    {
+      "subject_id": 332653,
+      "subject_name": "Health Benefits and Claims"
+    },
+    {
+      "subject_id": 334594,
+      "subject_name": "Commercial Health Insurance\\Managed Care Contracts"
     }
   ],
   "texts": [
@@ -171,8 +259,39 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
-  "calendar": [],
+  "supplements": [
+    {
+      "supplement_id": 681154,
+      "date": "2026-02-25",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0319",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0319/id/681154",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0319.fn.pdf",
+      "supplement_size": 1609648,
+      "supplement_hash": "0e078344c30c42421815c49c805a2aaa",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "6acc8768",
+      "type": "Hearing",
+      "date": "2026-02-27",
+      "time": "08:00",
+      "location": "",
+      "description": "Senate Business and Labor Hearing"
+    }
+  ],
   "general_provisions": "This bill amends requirements for health insurance preauthorization.",
   "hilighted_provisions": "This bill:<hr><ltbullet>requires an insurer to post certain information regarding preauthorizations and preauthorization requirements on the insurer's website;<hr><ltbullet>requires an insurer to disclose whether the insurer uses artificial intelligence in the process of reviewing a request for authorization;<hr><ltbullet>defines a maximum time in which an insurer is required to make an authorization or adverse preauthorization determination;<hr><ltbullet>provides minimum periods that an authorization must be valid for health care services to treat chronic or long-term care conditions;<hr><ltbullet>amends requirements for reporting to the Insurance Department related to preauthorization statistics, including information related to prescription drugs;<hr><ltbullet>requires an individual reviewing an adverse preauthorization determination to use independent medical judgment and not rely solely on recommendations from any other source;<hr><ltbullet>requires an insurer to provide certain information in a notice regarding an adverse preauthorization determination;<hr><ltbullet>defines terms; and<hr><ltbullet>makes technical and conforming changes.",
   "monies": "None",
@@ -181,9 +300,9 @@
   "gov_tracking_id": "THDCPNYMVI",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/23/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Business and Labor Committee",
+  "last_action_time": "2/25/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -260,6 +379,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for SB0319",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-25 05:27:16.803",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for SB0319",
+      "owner": "Released",
+      "actionDate": "2026-02-25 10:13:23.295",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-25 11:44:39.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2026-02-25 14:16:34.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2094581,
-  "change_hash": "75fbd137ed7f58bb8579699d980815eb",
+  "change_hash": "4d3e2e1ebca46dbec32aad630b765844",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-06",
       "event": 9
+    },
+    {
+      "date": "2026-02-25",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -156,6 +160,34 @@
       "action": "LFA/ fiscal note publicly available for HB0394S01 in Released",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "House Comm - Substitute Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "House Comm - Favorable Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "House/ comm rpt/ substituted in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-25",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -302,6 +334,26 @@
     {
       "subject_id": 374638,
       "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 11871,
+      "subject_name": "Business"
+    },
+    {
+      "subject_id": 128952,
+      "subject_name": "Animals"
+    },
+    {
+      "subject_id": 334440,
+      "subject_name": "Agriculture & Food"
+    },
+    {
+      "subject_id": 336202,
+      "subject_name": "Veterinary Care"
+    },
+    {
+      "subject_id": 81259,
+      "subject_name": "Occupational and Professional Licensing"
     }
   ],
   "texts": [
@@ -342,7 +394,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1643580,
+      "date": "2026-02-24",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 12,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0394/id/1643580",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40871"
+    },
+    {
+      "roll_call_id": 1643581,
+      "date": "2026-02-24",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 12,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0394/id/1643581",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40872"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -404,6 +487,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 680527,
+      "date": "2026-02-24",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0394",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0394/id/680527",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0394H02.pdf",
+      "supplement_size": 17572,
+      "supplement_hash": "af9df0c96e815e7b5c24467c78dc9baa",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -417,17 +520,31 @@
       "description": "House Business, Labor, and Commerce Hearing"
     }
   ],
-  "general_provisions": "This bill amends the Veterinary Practice Act.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>enacts and modifies definitions; and<hr><ltbullet>clarifies provisions related to veterinary services.",
+  "general_provisions": "This bill amends provisions related to veterinarians.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>amends provisions regarding veterinarian licenses.",
   "monies": "None",
   "attorney": "Christopher Williams",
   "fiscal_analyst": "Noah Matthew Hansen",
   "gov_tracking_id": "UFYKYXEDWK",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Business, Labor, and Commerce Committee",
-  "last_action_time": "2/6/2026",
+  "agendas": [
+    {
+      "mtgID": "20498",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2026-02-24 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HBUS0224.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299943"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/25/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -608,6 +725,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-24 16:19:35.447",
+      "actionClass": "A",
+      "voteID": "40871",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-0-4",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-24 16:19:56.403",
+      "actionClass": "A",
+      "voteID": "40872",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-0-4",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-25 10:06:31.840",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-25 10:06:32.840",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

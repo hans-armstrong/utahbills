@@ -1,6 +1,6 @@
 {
   "bill_id": 2120999,
-  "change_hash": "43d071d0e4883e44d857bab36ad1110c",
+  "change_hash": "7e0b075ccd372c4c388bae98a59054fa",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-20",
       "event": 1
+    },
+    {
+      "date": "2026-02-26",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Murdered and Missing Indigenous Relatives Amendments",
   "description": "Murdered and Missing Indigenous Relatives Amendments",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2110,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2110,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Law Enforcement and Criminal Justice"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-26",
+      "committee_id": 2110,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Law Enforcement and Criminal Justice"
     }
   ],
   "history": [
@@ -92,6 +103,34 @@
     {
       "date": "2026-02-20",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-24",
+      "action": "LFA/ fiscal note sent to sponsor for HB0588 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "LFA/ fiscal note publicly available for HB0588 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "House/ to standing committee in House Law Enforcement and Criminal Justice Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -172,6 +211,38 @@
     {
       "subject_id": 11871,
       "subject_name": "Business"
+    },
+    {
+      "subject_id": 374638,
+      "subject_name": "Health and Human Services"
+    },
+    {
+      "subject_id": 12069,
+      "subject_name": "Indian Affairs"
+    },
+    {
+      "subject_id": 332709,
+      "subject_name": "Peace Officers"
+    },
+    {
+      "subject_id": 332736,
+      "subject_name": "Crimes"
+    },
+    {
+      "subject_id": 11866,
+      "subject_name": "Law Enforcement and Criminal Justice"
+    },
+    {
+      "subject_id": 11881,
+      "subject_name": "Public Safety"
+    },
+    {
+      "subject_id": 362639,
+      "subject_name": "Department of Health and Human Services"
+    },
+    {
+      "subject_id": 347838,
+      "subject_name": "Homicide"
     }
   ],
   "texts": [
@@ -196,7 +267,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 681371,
+      "date": "2026-02-25",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0588",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0588/id/681371",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0588.fn.pdf",
+      "supplement_size": 1609828,
+      "supplement_hash": "5eb0c8f4d9602a2daa65724385171b26",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill enacts provisions for the training for resources related to the murder and disappearance of an indigenous individual.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>requires that the Office of American Indian-Alaska Native Health and Family Services (office) create a curriculum for training related to the investigation of a murder or disappearance of an indigenous individual;<hr><ltbullet>provides the requirements for what the curriculum the office develops shall contain;<hr><ltbullet>provides that the office may coordinate with certain persons when developing the curriculum; and<hr><ltbullet>makes technical changes.",
@@ -206,9 +298,9 @@
   "gov_tracking_id": "BXCCDVCMYT",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/20/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Law Enforcement and Criminal Justice Committee",
+  "last_action_time": "2/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -285,6 +377,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0588",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-24 13:55:49.175",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0588",
+      "owner": "Released",
+      "actionDate": "2026-02-25 10:21:30.902",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-25 10:39:13.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-02-26 11:23:51.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

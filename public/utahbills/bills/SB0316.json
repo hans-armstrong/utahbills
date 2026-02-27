@@ -1,6 +1,6 @@
 {
   "bill_id": 2122149,
-  "change_hash": "c02d48c7be64f8a087e954318fbb73dd",
+  "change_hash": "d103fa44f12d1771db34e8cdc87b31a2",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-23",
       "event": 1
+    },
+    {
+      "date": "2026-02-25",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 94,
   "title": "Public Employee Attorney Fee Recovery Amendments",
   "description": "Public Employee Attorney Fee Recovery Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2127,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2127,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Revenue and Taxation"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-25",
+      "committee_id": 2127,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -92,6 +103,34 @@
     {
       "date": "2026-02-23",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-25",
+      "action": "LFA/ fiscal note sent to sponsor for SB0316 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "LFA/ fiscal note publicly available for SB0316 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "Senate/ to standing committee in Senate Revenue and Taxation Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -228,7 +267,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 680915,
+      "date": "2026-02-25",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0316",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0316/id/680915",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0316.fn.pdf",
+      "supplement_size": 1608361,
+      "supplement_hash": "888d4e32452c4a95bb46c59b6dc77819",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill amends a provision of law relating to the recovery of reasonable attorney fees and court costs incurred by an officer or employee of a public entity, under certain circumstances, to defend against criminal charges brought against the officer or employee in relation to the officer's or employee's public employment.   ",
   "hilighted_provisions": "This bill:<hr><ltbullet>clarifies and restates an existing provision of law entitling an officer or employee of a public entity to recover reasonable attorney fees and courts costs, under certain circumstances, for defending against criminal charges arising out of the officer's or employee's service or employment;<hr><ltbullet>modifies an exception under current law that prohibits the recovery of attorney fees and court costs described in the preceding paragraph if the charges are quashed or dismissed upon application or motion of the prosecuting attorney, by limiting the exception to circumstances where the quashing or dismissal occurs more than 45 days after the day on which the charges are bound over for trial as a result of a preliminary hearing;<hr><ltbullet>makes the modification described in the preceding paragraph only in relation to charges brought by filing an information; and<hr><ltbullet>makes technical changes. ",
@@ -238,9 +298,9 @@
   "gov_tracking_id": "BYHDIUMLJI",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/23/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Revenue and Taxation Committee",
+  "last_action_time": "2/25/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -317,6 +377,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for SB0316",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-25 05:25:46.258",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for SB0316",
+      "owner": "Released",
+      "actionDate": "2026-02-25 05:25:47.107",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-25 09:17:07.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2026-02-25 14:16:34.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

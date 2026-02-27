@@ -1,6 +1,6 @@
 {
   "bill_id": 2117566,
-  "change_hash": "ae0eba60b23a4755c022c481db18e680",
+  "change_hash": "702c040acc77c350a7f3897c761457e6",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -189,6 +189,34 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate/ circled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate/ uncircled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -334,6 +362,34 @@
     {
       "subject_id": 11851,
       "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 11846,
+      "subject_name": "Education"
+    },
+    {
+      "subject_id": 332526,
+      "subject_name": "K-12 Education"
+    },
+    {
+      "subject_id": 11848,
+      "subject_name": "School Finance"
+    },
+    {
+      "subject_id": 11911,
+      "subject_name": "School Personnel"
+    },
+    {
+      "subject_id": 12044,
+      "subject_name": "State Board of Education"
+    },
+    {
+      "subject_id": 383611,
+      "subject_name": "Local Education Agencies (LEAs)"
+    },
+    {
+      "subject_id": 334501,
+      "subject_name": "School Districts"
     }
   ],
   "texts": [
@@ -404,6 +460,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0297/id/1639310",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40636"
+    },
+    {
+      "roll_call_id": 1647185,
+      "date": "2026-02-26",
+      "desc": "Senate/ passed 2nd reading",
+      "yea": 29,
+      "nay": 0,
+      "nv": 0,
+      "absent": 0,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0297/id/1647185",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1336&house=S"
     }
   ],
   "amendments": [
@@ -538,15 +609,15 @@
       "mtgPlace": "210 Senate Building",
       "committeeName": "Senate Education Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00001817.htm",
       "agendaURL": "/~2026/agenda/SEDU0219.ag.htm",
       "billSession": "2026GS",
       "markerID": "299066"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/20/2026",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -779,6 +850,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-26 19:04:06.603",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-26 19:04:25.353",
+      "actionClass": "S",
+      "voteID": "1327",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-26 19:25:34.420",
+      "actionClass": "S",
+      "voteID": "1335",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-26 19:27:27.917",
+      "actionClass": "S",
+      "voteID": "1336",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "29-0-0",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

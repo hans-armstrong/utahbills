@@ -1,6 +1,6 @@
 {
   "bill_id": 2060693,
-  "change_hash": "8e481a51c56c5003ba6734d9a0ac5663",
+  "change_hash": "e0a9d336004bd15072b300d546e9b764",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0064/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0064.html",
-  "completed": 0,
-  "status": 2,
-  "status_date": "2026-02-03",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-02-24",
   "progress": [
     {
       "date": "2026-01-20",
@@ -44,6 +44,10 @@
     {
       "date": "2026-02-17",
       "event": 10
+    },
+    {
+      "date": "2026-02-24",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -53,8 +57,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "School and Institutional Trust Lands Amendments",
   "description": "School and Institutional Trust Lands Amendments",
   "pending_committee_id": 0,
@@ -271,6 +275,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-20",
+      "action": "Senate/ strike enacting clause in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "House/ received from Senate in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "House/ filed in House file for bills not passed",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -679,9 +711,9 @@
       "markerID": "296768"
     }
   ],
-  "last_action": "Senate/ to House",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/23/2026",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "2/24/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1044,6 +1076,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "House Speaker",
+      "actionDate": "2026-02-24 10:24:37.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-02-24 10:25:02.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

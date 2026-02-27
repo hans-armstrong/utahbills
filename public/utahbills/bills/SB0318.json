@@ -1,6 +1,6 @@
 {
   "bill_id": 2122163,
-  "change_hash": "f562b8f3a4b52f61d03220583c858408",
+  "change_hash": "14fbb20b6ebfbf558fc0d7bdcea338d3",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -37,13 +37,8 @@
   "current_body_id": 94,
   "title": "Data Center Non Disclosure Amendments",
   "description": "Data Center Non Disclosure Amendments",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-23",
@@ -95,6 +90,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-23",
+      "action": "LFA/ fiscal note sent to sponsor for SB0318 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "LFA/ fiscal note publicly available for SB0318 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -172,6 +188,38 @@
     {
       "subject_id": 360912,
       "subject_name": "Public Utilities and Technology"
+    },
+    {
+      "subject_id": 11909,
+      "subject_name": "Counties"
+    },
+    {
+      "subject_id": 14879,
+      "subject_name": "Technology"
+    },
+    {
+      "subject_id": 11930,
+      "subject_name": "Energy"
+    },
+    {
+      "subject_id": 11982,
+      "subject_name": "Government Records"
+    },
+    {
+      "subject_id": 332649,
+      "subject_name": "Municipalities"
+    },
+    {
+      "subject_id": 11910,
+      "subject_name": "Political Subdivisions (Local Issues)"
+    },
+    {
+      "subject_id": 383725,
+      "subject_name": "Artificial Intelligence"
+    },
+    {
+      "subject_id": 334139,
+      "subject_name": "Water"
     }
   ],
   "texts": [
@@ -196,7 +244,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 679678,
+      "date": "2026-02-24",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0318",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0318/id/679678",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0318.fn.pdf",
+      "supplement_size": 1608356,
+      "supplement_hash": "06930843e464b62de56810bb9a8aa6cc",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill prohibits certain non-disclosure agreements between prospective data centers and state and local governments.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms;<hr><ltbullet>prohibits state agencies, cities, towns, and counties from entering into non-disclosure agreements with prospective data centers;<hr><ltbullet>provides that prohibited non-disclosure agreements are void and unenforceable;<hr><ltbullet>requires severability of void provisions from other contract terms; and<hr><ltbullet>requires public disclosure of prohibited non-disclosure agreements.",
@@ -206,9 +275,9 @@
   "gov_tracking_id": "HWWLHFGNQU",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/23/2026",
+  "last_action_time": "2/24/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -285,6 +354,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for SB0318",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-23 17:59:05.031",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for SB0318",
+      "owner": "Released",
+      "actionDate": "2026-02-24 08:37:59.301",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-24 09:50:11.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

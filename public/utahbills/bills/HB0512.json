@@ -1,6 +1,6 @@
 {
   "bill_id": 2111704,
-  "change_hash": "4e502fcc9c6d83cb989f0fdf7f0190fd",
+  "change_hash": "5d0c004a40985ac9b0f483e2e26ade65",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-23",
       "event": 2
+    },
+    {
+      "date": "2026-02-25",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,12 +53,12 @@
   "current_body_id": 94,
   "title": "Land Surveyors Licensing Amendments",
   "description": "Land Surveyors Licensing Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2119,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2119,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Business and Labor"
   },
   "referrals": [
     {
@@ -77,6 +81,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-25",
+      "committee_id": 2119,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Business and Labor"
     }
   ],
   "history": [
@@ -219,6 +230,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "Senate/ to standing committee in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -548,6 +566,15 @@
       "time": "08:00",
       "location": "",
       "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "6acc8768",
+      "type": "Hearing",
+      "date": "2026-02-27",
+      "time": "08:00",
+      "location": "",
+      "description": "Senate Business and Labor Hearing"
     }
   ],
   "general_provisions": "This bill modifies provisions involving land surveyors.",
@@ -572,9 +599,9 @@
       "markerID": "298757"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/23/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Business and Labor Committee",
+  "last_action_time": "2/25/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -833,6 +860,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2026-02-25 14:16:34.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

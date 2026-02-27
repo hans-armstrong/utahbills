@@ -1,6 +1,6 @@
 {
   "bill_id": 2064978,
-  "change_hash": "641b9371c36b039cfc49c2c2542fe570",
+  "change_hash": "b8103dd23d404ffa4941aa7190e8273b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-02-24",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,12 +41,12 @@
   "current_body_id": 93,
   "title": "Resolution Regarding Prison Security and Successful Inmate Reentry",
   "description": "Resolution Regarding Prison Security and Successful Inmate Reentry",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2110,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2110,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Law Enforcement and Criminal Justice"
   },
   "referrals": [
     {
@@ -51,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-24",
+      "committee_id": 2110,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Law Enforcement and Criminal Justice"
     }
   ],
   "history": [
@@ -113,6 +124,13 @@
     {
       "date": "2026-01-20",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-24",
+      "action": "House/ to standing committee in House Law Enforcement and Criminal Justice Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -327,7 +345,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "6335e5ed",
+      "type": "Hearing",
+      "date": "2026-02-26",
+      "time": "16:15",
+      "location": "",
+      "description": "House Law Enforcement and Criminal Justice Hearing"
+    }
+  ],
   "general_provisions": "This joint resolution encourages Congress to support policies or programs that assist with successful inmate reentry and enhance security within correctional facilities.",
   "hilighted_provisions": "This resolution:<hr><ltbullet>calls upon Congress to vote in favor of the 2025 Second Chance Reauthorization Act and restore eliminated funding of the Act;<hr><ltbullet>encourages Congress to support policies and programs that provide inmates with affordable health care prior to reentry;<hr><ltbullet>urges Congress to vote in favor of the 2025 Cell Phone Jamming Reform Act;<hr><ltbullet>requests that Congress criminalize the flying of drones over correctional facilities; and<hr><ltbullet>asks Congress to allow law enforcement and correctional agencies to implement a pilot program to mitigate drones that fly over critical infrastructure.",
   "monies": "None",
@@ -335,10 +363,24 @@
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "LXVKLABYCF",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/20/2026",
+  "agendas": [
+    {
+      "mtgID": "20518",
+      "committeeID": "HSTLAW",
+      "mtgDate": "2026-02-26 16:15:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Law Enforcement and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HLAW0226.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "301148"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -454,6 +496,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-02-24 11:55:27.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-02-26 16:41:46.730",
+      "actionClass": "A",
+      "voteID": "41192",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-4",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-02-26 19:50:16.723",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-26 19:50:17.723",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

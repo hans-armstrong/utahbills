@@ -1,6 +1,6 @@
 {
   "bill_id": 2079078,
-  "change_hash": "6583359d42dd17a1a35eafc34b653a19",
+  "change_hash": "4879b65f53e3251a1fdfbdfd1562d6ee",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-23",
       "event": 9
+    },
+    {
+      "date": "2026-02-26",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Unauthorized Practice of Law Amendments",
   "description": "Unauthorized Practice of Law Amendments",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -258,6 +257,48 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-25",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0260S02 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0260S02 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "Senate Comm - Substitute Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate/ comm rpt/ substituted in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -403,30 +444,6 @@
     {
       "subject_id": 332528,
       "subject_name": "Judicial Operations"
-    },
-    {
-      "subject_id": 12074,
-      "subject_name": "Attorneys"
-    },
-    {
-      "subject_id": 11880,
-      "subject_name": "Judicial Administration"
-    },
-    {
-      "subject_id": 332736,
-      "subject_name": "Crimes"
-    },
-    {
-      "subject_id": 11866,
-      "subject_name": "Law Enforcement and Criminal Justice"
-    },
-    {
-      "subject_id": 340620,
-      "subject_name": "Statute of Limitations"
-    },
-    {
-      "subject_id": 367572,
-      "subject_name": "Civil Litigation"
     }
   ],
   "texts": [
@@ -459,6 +476,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0260S01.pdf",
       "text_size": 33285,
       "text_hash": "001b6ca66f36a518a9f51d08b90ddd81",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3376643,
+      "date": "2026-02-25",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0260/id/3376643",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0260S02.pdf",
+      "text_size": 34530,
+      "text_hash": "dc51c54f2dee7a4e3207d5eff194cd0d",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -512,6 +547,36 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0260/id/1625587",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=247&house=H"
+    },
+    {
+      "roll_call_id": 1645374,
+      "date": "2026-02-25",
+      "desc": "Senate Comm - Substitute Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0260/id/1645374",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41071"
+    },
+    {
+      "roll_call_id": 1645375,
+      "date": "2026-02-25",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0260/id/1645375",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41073"
     }
   ],
   "amendments": [],
@@ -595,6 +660,66 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 681935,
+      "date": "2026-02-25",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0260/id/681935",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0260%20To%20HB0260S02.pdf",
+      "supplement_size": 43111,
+      "supplement_hash": "32dacecaf99e645cabafd9aa34687c2e",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 681936,
+      "date": "2026-02-25",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0260/id/681936",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0260S01%20To%20HB0260S02.pdf",
+      "supplement_size": 35110,
+      "supplement_hash": "8b5c38144b00d66a8d7ad22e3ea335ad",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 681937,
+      "date": "2026-02-25",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0260",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0260/id/681937",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0260S02.pdf",
+      "supplement_size": 18358,
+      "supplement_hash": "d6505d8bf63082fcc72c67a2b4559834",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -606,6 +731,15 @@
       "time": "14:00",
       "location": "",
       "description": "House Judiciary Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "a1b2c5ca",
+      "type": "Hearing",
+      "date": "2026-02-25",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Business and Labor Hearing"
     }
   ],
   "general_provisions": "This bill addresses the unauthorized practice of law.",
@@ -628,11 +762,24 @@
       "agendaURL": "/~2026/agenda/HJUD0128.ag.htm",
       "billSession": "2026GS",
       "markerID": "290745"
+    },
+    {
+      "mtgID": "20505",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2026-02-25 16:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SBUS0225.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "300654"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/23/2026",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -943,6 +1090,84 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0260S02",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-25 15:02:49.933",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0260S02",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-25 15:02:49.933",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Substitute Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2026-02-25 17:20:08.947",
+      "actionClass": "A",
+      "voteID": "41071",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-3",
+      "actionCode": "SCASUB",
+      "parm1": "2",
+      "parm2": "1"
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2026-02-25 17:20:34.330",
+      "actionClass": "A",
+      "voteID": "41073",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-3",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ comm rpt/ substituted",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2026-02-26 10:24:40.320",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-26 10:24:41.320",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

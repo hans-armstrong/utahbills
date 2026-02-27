@@ -1,6 +1,6 @@
 {
   "bill_id": 2107682,
-  "change_hash": "e31da25947a24afe27551c297a879b48",
+  "change_hash": "ad14ceefd06131550ed6210338b3b0be",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/HB0493/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0493.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2026-02-05",
+  "status": 2,
+  "status_date": "2026-02-24",
   "progress": [
     {
       "date": "2026-02-05",
@@ -32,6 +32,14 @@
     {
       "date": "2026-02-18",
       "event": 10
+    },
+    {
+      "date": "2026-02-24",
+      "event": 2
+    },
+    {
+      "date": "2026-02-26",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -41,12 +49,17 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Pricing Protection Amendments",
   "description": "Pricing Protection Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2119,
+  "committee": {
+    "committee_id": 2119,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Business and Labor"
+  },
   "referrals": [
     {
       "date": "2026-02-05",
@@ -61,6 +74,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Government Operations"
+    },
+    {
+      "date": "2026-02-25",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-26",
+      "committee_id": 2119,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Business and Labor"
     }
   ],
   "history": [
@@ -154,6 +181,48 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-25",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate/ to standing committee in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -344,6 +413,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0493/id/1636942",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40416"
+    },
+    {
+      "roll_call_id": 1642523,
+      "date": "2026-02-24",
+      "desc": "House/ passed 3rd reading",
+      "yea": 65,
+      "nay": 1,
+      "nv": 0,
+      "absent": 9,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0493/id/1642523",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=765&house=H"
     }
   ],
   "amendments": [],
@@ -422,9 +506,9 @@
       "markerID": "298184"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "2/18/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Business and Labor Committee",
+  "last_action_time": "2/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -592,6 +676,84 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-24 10:38:38.767",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-24 10:42:45.137",
+      "actionClass": "H",
+      "voteID": "765",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "65-1-9",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-24 10:42:47.137",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "2026-02-24 12:01:22.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-25 10:11:53.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2026-02-26 14:30:34.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

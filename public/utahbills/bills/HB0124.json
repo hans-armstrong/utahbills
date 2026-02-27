@@ -1,6 +1,6 @@
 {
   "bill_id": 2061404,
-  "change_hash": "cde84589930710352d14536065fa0dec",
+  "change_hash": "c5e155dc53b1929c97be6dc6de8e72ec",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-20",
       "event": 2
+    },
+    {
+      "date": "2026-02-24",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,13 +53,8 @@
   "current_body_id": 94,
   "title": "Veteran Armed Forces Property Tax Exemption Amendments",
   "description": "Veteran Armed Forces Property Tax Exemption Amendments",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -77,6 +76,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-24",
+      "committee_id": 2127,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Revenue and Taxation"
     }
   ],
   "history": [
@@ -216,6 +222,20 @@
     {
       "date": "2026-02-20",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "Senate/ to standing committee in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Revenue and Taxation Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -447,6 +467,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0124/id/1640069",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=612&house=H"
+    },
+    {
+      "roll_call_id": 1647260,
+      "date": "2026-02-26",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0124/id/1647260",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41198"
     }
   ],
   "amendments": [],
@@ -490,6 +525,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 683481,
+      "date": "2026-02-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0124",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0124/id/683481",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0124S02.pdf",
+      "supplement_size": 18313,
+      "supplement_hash": "46543ea3537b66ee651dd9043f1fb228",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -510,6 +565,15 @@
       "time": "08:00",
       "location": "",
       "description": "House Revenue and Taxation Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "73b8c76e",
+      "type": "Hearing",
+      "date": "2026-02-26",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
     }
   ],
   "general_provisions": "This bill amends the application requirements for claiming a property tax exemption available to military members who are disabled or killed in the line of duty or their surviving family members.",
@@ -545,11 +609,24 @@
       "agendaURL": "/~2026/agenda/HREV0218.ag.htm",
       "billSession": "2026GS",
       "markerID": "298226"
+    },
+    {
+      "mtgID": "20473",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-02-26 16:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SREV0226.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "301193"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/20/2026",
+  "last_action": "Senate Comm - Favorable Recommendation",
+  "last_action_owner": "Senate Revenue and Taxation Committee",
+  "last_action_time": "2/26/2026",
   "action_history": [
     {
       "description": "LFA/ bill assigned to staff for fiscal analysis for HB0124",
@@ -808,6 +885,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2026-02-24 14:12:36.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2026-02-26 16:48:38.603",
+      "actionClass": "A",
+      "voteID": "41198",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

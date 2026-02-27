@@ -1,6 +1,6 @@
 {
   "bill_id": 2119767,
-  "change_hash": "3f70de827454b8e31adc7cf1d34e6f57",
+  "change_hash": "052a0b52a4e4e0627bd48982a0700a48",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -112,6 +112,27 @@
     {
       "date": "2026-02-23",
       "action": "Senate Comm - Held in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "LFA/ fiscal note sent to sponsor for SB0309 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "LFA/ fiscal note publicly available for SB0309 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "Senate/ received fiscal note from Fiscal Analyst in Senate Revenue and Taxation Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -256,7 +277,28 @@
     }
   ],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 681145,
+      "date": "2026-02-25",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0309",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0309/id/681145",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0309.fn.pdf",
+      "supplement_size": 1611131,
+      "supplement_hash": "448575824deee0758e35dbd34b41410c",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [
     {
       "type_id": 1,
@@ -284,15 +326,15 @@
       "mtgPlace": "210 Senate Building",
       "committeeName": "Senate Revenue and Taxation Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00001851.htm",
       "agendaURL": "/~2026/agenda/SREV0223.ag.htm",
       "billSession": "2026GS",
       "markerID": "299406"
     }
   ],
-  "last_action": "Senate Comm - Held",
+  "last_action": "Senate/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "2/23/2026",
+  "last_action_time": "2/25/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -395,6 +437,45 @@
       "voteHouse": "",
       "voteStr": "4-0-3",
       "actionCode": "SCAHELD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for SB0309",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-24 16:03:14.423",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for SB0309",
+      "owner": "Released",
+      "actionDate": "2026-02-25 10:12:50.285",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received fiscal note from Fiscal Analyst",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2026-02-25 11:44:39.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECLFA",
       "parm1": "",
       "parm2": ""
     }

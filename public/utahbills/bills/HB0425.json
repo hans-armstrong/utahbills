@@ -1,6 +1,6 @@
 {
   "bill_id": 2101768,
-  "change_hash": "c2961ff5fe7eefb01d2cdf35c3e0190e",
+  "change_hash": "95c51f5129610e7d03946a5e1b0e84ec",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -240,6 +240,20 @@
     {
       "date": "2026-02-23",
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -503,6 +517,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/HB0425/id/1640775",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40762"
+    },
+    {
+      "roll_call_id": 1646231,
+      "date": "2026-02-26",
+      "desc": "Senate/ passed 2nd reading",
+      "yea": 20,
+      "nay": 0,
+      "nv": 0,
+      "absent": 9,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0425/id/1646231",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1243&house=S"
     }
   ],
   "amendments": [],
@@ -597,6 +626,19 @@
   "comrecommend": [],
   "agendas": [
     {
+      "mtgID": "20471",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-02-23 08:00:00.0",
+      "agendaItem": "7",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001851.htm",
+      "agendaURL": "/~2026/agenda/SREV0223.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299528"
+    },
+    {
       "mtgID": "20296",
       "committeeID": "HSTPOL",
       "mtgDate": "2026-02-06 15:40:00.0",
@@ -608,24 +650,11 @@
       "agendaURL": "/~2026/agenda/HPOL0206.ag.htm",
       "billSession": "2026GS",
       "markerID": "294764"
-    },
-    {
-      "mtgID": "20471",
-      "committeeID": "SSTREV",
-      "mtgDate": "2026-02-23 08:00:00.0",
-      "agendaItem": "7",
-      "mtgPlace": "210 Senate Building",
-      "committeeName": "Senate Revenue and Taxation Committee",
-      "upcomming": false,
-      "minutesURL": "/",
-      "agendaURL": "/~2026/agenda/SREV0223.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "299528"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/23/2026",
+  "last_action": "Senate/ passed 2nd reading",
+  "last_action_owner": "Senate 3rd Reading Calendar",
+  "last_action_time": "2/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -910,6 +939,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-26 11:33:46.377",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-26 11:36:19.187",
+      "actionClass": "S",
+      "voteID": "1243",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "20-0-9",
+      "actionCode": "SPASS2",
       "parm1": "",
       "parm2": ""
     }

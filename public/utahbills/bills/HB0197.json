@@ -1,6 +1,6 @@
 {
   "bill_id": 2068899,
-  "change_hash": "8f24e3c8c107c11f697a8a87452ef3d4",
+  "change_hash": "f7bc8cdeee601f6b673d13a7a219c9e7",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-20",
       "event": 2
+    },
+    {
+      "date": "2026-02-25",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,13 +53,8 @@
   "current_body_id": 94,
   "title": "School Materials Amendments",
   "description": "School Materials Amendments",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -77,6 +76,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-25",
+      "committee_id": 2122,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Government Operations and Political Subdivisions"
     }
   ],
   "history": [
@@ -335,6 +341,20 @@
     {
       "date": "2026-02-23",
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "Senate/ to standing committee in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate Comm - Not Considered in Senate Government Operations and Political Subdivisions Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -640,7 +660,29 @@
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=678&house=H"
     }
   ],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 278602,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2026-02-24",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0197/id/278602",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0197S04.Hamd.1.pdf",
+      "amendment_size": 7108,
+      "amendment_hash": "460315db5b19bfed429cc91df6e8fbbc",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 643453,
@@ -981,6 +1023,15 @@
       "time": "14:00",
       "location": "",
       "description": "House Education Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "e2f220bc",
+      "type": "Hearing",
+      "date": "2026-02-26",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Government Operations and Political Subdivisions Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions regarding the accessibility of sensitive material through digital instructional material in a school setting.",
@@ -1016,11 +1067,24 @@
       "agendaURL": "/~2026/agenda/HEDU0204.ag.htm",
       "billSession": "2026GS",
       "markerID": ""
+    },
+    {
+      "mtgID": "20440",
+      "committeeID": "SSTGOP",
+      "mtgDate": "2026-02-26 16:00:00.0",
+      "agendaItem": "9",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Government Operations and Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SGOP0226.ag.htm",
+      "billSession": "2026GS",
+      "markerID": ""
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/23/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
+  "last_action_time": "2/25/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1500,6 +1564,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2026-02-25 14:16:34.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Not Considered",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2026-02-26 16:00:00.000",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCANOCNSDR",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2114145,
-  "change_hash": "ba6ac34235442771b57a40d612edd8bd",
+  "change_hash": "850eec3424512b3ebad0c72b1381d53a",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,14 @@
     {
       "date": "2026-02-11",
       "event": 1
+    },
+    {
+      "date": "2026-02-24",
+      "event": 9
+    },
+    {
+      "date": "2026-02-26",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -46,6 +54,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-24",
+      "committee_id": 5042,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Business, Labor, and Commerce"
     }
   ],
   "history": [
@@ -108,6 +123,69 @@
     {
       "date": "2026-02-17",
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HB0543S01 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "LFA/ bill sent to agencies for fiscal input for HB0543S01 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "House/ to standing committee in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-26",
+      "action": "LFA/ fiscal note sent to sponsor for HB0543S01 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "House Comm - Substitute Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "House Comm - Favorable Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "LFA/ fiscal note publicly available for HB0543S01 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "House/ comm rpt/ substituted in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-26",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -188,18 +266,6 @@
     {
       "subject_id": 11871,
       "subject_name": "Business"
-    },
-    {
-      "subject_id": 11935,
-      "subject_name": "Commerce and Trade"
-    },
-    {
-      "subject_id": 332524,
-      "subject_name": "Legislative Operations"
-    },
-    {
-      "subject_id": 12018,
-      "subject_name": "Uniform Laws"
     }
   ],
   "texts": [
@@ -220,9 +286,58 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3374064,
+      "date": "2026-02-24",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0543/id/3374064",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HB0543S01.pdf",
+      "text_size": 21883,
+      "text_hash": "0acf9c7eb57f5f72611d1863b4b45c98",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1646223,
+      "date": "2026-02-26",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 8,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0543/id/1646223",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41127"
+    },
+    {
+      "roll_call_id": 1646224,
+      "date": "2026-02-26",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 8,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0543/id/1646224",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41128"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -244,20 +359,104 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 680144,
+      "date": "2026-02-24",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0543/id/680144",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HB0543%20To%20HB0543S01.pdf",
+      "supplement_size": 39218,
+      "supplement_hash": "36095b8dd92e326ce48716215d25ec2e",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 682606,
+      "date": "2026-02-26",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0543S01",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0543/id/682606",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0543S01.fn.pdf",
+      "supplement_size": 1608376,
+      "supplement_hash": "8acb99db30dc3f4e20aea40587660dfc",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 682607,
+      "date": "2026-02-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0543",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0543/id/682607",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0543H01.pdf",
+      "supplement_size": 17570,
+      "supplement_hash": "129ce79f23d7909ba21dd3ef8b74c283",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
-  "general_provisions": "This bill amends and repeals provisions of the Uniform Commercial Code.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>amends the statutory provisions that guide which jurisdiction's law applies to actions involving a securities intermediary;<hr><ltbullet>removes exceptions related to priority of creditors over entitlement holders in security interests;<hr><ltbullet>amends rules relating to the perfection and priority of a security interest; and<hr><ltbullet>makes technical and conforming changes.",
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "4221a6d6",
+      "type": "Hearing",
+      "date": "2026-02-26",
+      "time": "08:00",
+      "location": "",
+      "description": "House Business, Labor, and Commerce Hearing"
+    }
+  ],
+  "general_provisions": "This bill amends the Uniform Commercial Code.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>provides that a securities intermediary shall provide a disclosure when a financial asset held by the securities intermediary is subject to certain conditions.",
   "monies": "None",
   "attorney": "Austin Weenig",
   "fiscal_analyst": "Alejandra G Rodriguez",
   "gov_tracking_id": "XYJTGJGKHX",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/17/2026",
+  "agendas": [
+    {
+      "mtgID": "20499",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2026-02-26 08:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HBUS0226.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "300889"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -373,6 +572,123 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HB0543S01",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-24 09:02:18.240",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HB0543S01",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-24 09:02:18.240",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-24 11:54:40.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0543S01",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-26 04:18:07.291",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-26 08:36:32.850",
+      "actionClass": "A",
+      "voteID": "41127",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-8",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-26 08:37:40.263",
+      "actionClass": "A",
+      "voteID": "41128",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-8",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0543S01",
+      "owner": "Released",
+      "actionDate": "2026-02-26 09:27:16.743",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-26 14:34:12.037",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-26 14:34:13.037",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

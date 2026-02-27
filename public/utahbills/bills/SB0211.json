@@ -1,6 +1,6 @@
 {
   "bill_id": 2095648,
-  "change_hash": "543925f63b82cb5c37458716749d7fa1",
+  "change_hash": "af45de49b00f09d502d77f77d28751a8",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -193,6 +193,20 @@
     {
       "date": "2026-02-23",
       "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "Senate/ circled in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -468,9 +482,9 @@
       "markerID": "291974"
     }
   ],
-  "last_action": "Senate/ passed 2nd reading",
+  "last_action": "Senate/ circled",
   "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/23/2026",
+  "last_action_time": "2/24/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -716,6 +730,32 @@
       "voteHouse": "S",
       "voteStr": "16-10-3",
       "actionCode": "SPASS2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-24 10:29:55.127",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-24 10:30:11.697",
+      "actionClass": "S",
+      "voteID": "1004",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
       "parm1": "",
       "parm2": ""
     }

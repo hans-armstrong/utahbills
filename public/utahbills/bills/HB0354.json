@@ -1,6 +1,6 @@
 {
   "bill_id": 2092017,
-  "change_hash": "169e7afff84ad211d94e31aabe654322",
+  "change_hash": "1ba76f0b806729ad1be54bd10b7847b3",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-23",
       "event": 9
+    },
+    {
+      "date": "2026-02-26",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Rescue Tracking Equipment Offense Amendments",
   "description": "Rescue Tracking Equipment Offense Amendments",
-  "pending_committee_id": 2124,
-  "committee": {
-    "committee_id": 2124,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Judiciary, Law Enforcement, and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-23",
@@ -237,6 +236,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate/ committee report favorable in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -858,6 +878,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0354/id/1639312",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=602&house=H"
+    },
+    {
+      "roll_call_id": 1646653,
+      "date": "2026-02-26",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 6,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 9,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0354/id/1646653",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41171"
     }
   ],
   "amendments": [],
@@ -901,6 +936,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 683034,
+      "date": "2026-02-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0354",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0354/id/683034",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0354S02.pdf",
+      "supplement_size": 18325,
+      "supplement_hash": "1d08fa7420f6a84ce4ef8709a6023ccb",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -921,6 +976,15 @@
       "time": "14:00",
       "location": "",
       "description": "House Law Enforcement and Criminal Justice Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "617c1265",
+      "type": "Hearing",
+      "date": "2026-02-26",
+      "time": "08:00",
+      "location": "",
+      "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
     }
   ],
   "general_provisions": "This bill creates a criminal offense concerning rescue tracking equipment.",
@@ -943,11 +1007,24 @@
       "agendaURL": "/~2026/agenda/HLAW0211.ag.htm",
       "billSession": "2026GS",
       "markerID": "296348"
+    },
+    {
+      "mtgID": "20492",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2026-02-26 08:00:00.0",
+      "agendaItem": "9",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SJLC0226.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "301075"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-  "last_action_time": "2/23/2026",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1219,6 +1296,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2026-02-26 09:58:42.667",
+      "actionClass": "A",
+      "voteID": "41171",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-3",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2026-02-26 15:59:40.407",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-26 15:59:41.407",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

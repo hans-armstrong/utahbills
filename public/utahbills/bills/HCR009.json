@@ -1,6 +1,6 @@
 {
   "bill_id": 2102884,
-  "change_hash": "48b9a18dabe83c5dbd403657f5e167ad",
+  "change_hash": "e01d92e67e3f5f64f18edd4c090171f0",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-02",
       "event": 1
+    },
+    {
+      "date": "2026-02-25",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -46,6 +50,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-25",
+      "committee_id": 2111,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Natural Resources, Agriculture, and Environment"
     }
   ],
   "history": [
@@ -110,6 +121,27 @@
       "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "House/ to standing committee in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-26",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for HCR009S01 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "LFA/ bill sent to agencies for fiscal input for HCR009S01 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     }
   ],
@@ -256,10 +288,6 @@
     {
       "subject_id": 81576,
       "subject_name": "Federalism"
-    },
-    {
-      "subject_id": 11987,
-      "subject_name": "Resolutions"
     }
   ],
   "texts": [
@@ -274,6 +302,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HCR009.pdf",
       "text_size": 22037,
       "text_hash": "dceea3678ad8c2ecb18ff37355213be3",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3378156,
+      "date": "2026-02-26",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HCR009/id/3378156",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/HCR009S01.pdf",
+      "text_size": 24377,
+      "text_hash": "15d1b36238159dacb2f88b1389928b5d",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -304,20 +350,64 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 683004,
+      "date": "2026-02-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HCR009/id/683004",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20HCR009%20To%20HCR009S01.pdf",
+      "supplement_size": 31624,
+      "supplement_hash": "2948ce1cf620c412a55cedfbbaa07a90",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
-  "general_provisions": "This resolution urges Congress to resolve the national debt.",
-  "hilighted_provisions": "This resolution:<hr><ltbullet>discusses the ongoing and cumulative rise of the national debt;<hr><ltbullet>highlights the adverse impacts on the economy and national security arising from the national debt, both now and in the future;<hr><ltbullet>recognizes the national debt as a threat to the prosperity of our nation; and<hr><ltbullet>urges Congress to take action towards balancing the federal budget.",
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "345aef52",
+      "type": "Hearing",
+      "date": "2026-02-26",
+      "time": "16:00",
+      "location": "",
+      "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    }
+  ],
+  "general_provisions": "This resolution urges federal assistance in stabilizing and restoring the Great Salt Lake.",
+  "hilighted_provisions": "This resolution:<hr><ltbullet>discusses the importance of the Great Salt Lake to Utah's economy and residents and explains the lake's decline;<hr><ltbullet>addresses Utah's efforts in restoring the Great Salt Lake; and<hr><ltbullet>urges the federal government to provide assistance in stabilizing and restoring the Great Salt Lake.",
   "monies": "None",
   "attorney": "Gus Harb",
   "fiscal_analyst": "Laurie Haupt",
   "gov_tracking_id": "BGQLUIFPXO",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/3/2026",
+  "agendas": [
+    {
+      "mtgID": "20433",
+      "committeeID": "HSTNAE",
+      "mtgDate": "2026-02-26 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HNAE0226.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "301108"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -433,6 +523,123 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-25 12:00:22.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for HCR009S01",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-26 15:41:14.880",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for HCR009S01",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-26 15:41:14.880",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-26 16:16:55.983",
+      "actionClass": "A",
+      "voteID": "41179",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-5",
+      "actionCode": "HCASUB",
+      "parm1": "1",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-26 16:17:48.600",
+      "actionClass": "A",
+      "voteID": "41180",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-5",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HCR009S01",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-26 18:43:04.992",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HCR009S01",
+      "owner": "Released",
+      "actionDate": "2026-02-26 18:43:05.827",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-26 19:51:03.357",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-26 19:51:04.357",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2057196,
-  "change_hash": "14002867672e37757c140d7761e1e07e",
+  "change_hash": "d81d42e0ec35caa718232b894cf4f8a8",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -355,6 +355,48 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate/ circled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate/ uncircled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate/ placed on 3rd Reading Calendar table in Senate 3rd Reading Calendar Table",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -671,6 +713,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/HB0032/id/1640710",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40791"
+    },
+    {
+      "roll_call_id": 1646522,
+      "date": "2026-02-26",
+      "desc": "Senate/ passed 2nd reading",
+      "yea": 20,
+      "nay": 0,
+      "nv": 0,
+      "absent": 9,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0032/id/1646522",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1253&house=S"
     }
   ],
   "amendments": [],
@@ -930,6 +987,19 @@
   ],
   "agendas": [
     {
+      "mtgID": "20471",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-02-23 08:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001851.htm",
+      "agendaURL": "/~2026/agenda/SREV0223.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299635"
+    },
+    {
       "mtgID": "20276",
       "committeeID": "HSTGOC",
       "mtgDate": "2026-02-03 15:40:00.0",
@@ -941,24 +1011,11 @@
       "agendaURL": "/~2026/agenda/HGOC0203.ag.htm",
       "billSession": "2026GS",
       "markerID": "293178"
-    },
-    {
-      "mtgID": "20471",
-      "committeeID": "SSTREV",
-      "mtgDate": "2026-02-23 08:00:00.0",
-      "agendaItem": "4",
-      "mtgPlace": "210 Senate Building",
-      "committeeName": "Senate Revenue and Taxation Committee",
-      "upcomming": false,
-      "minutesURL": "/",
-      "agendaURL": "/~2026/agenda/SREV0223.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "299635"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/23/2026",
+  "last_action": "Senate/ placed on 3rd Reading Calendar table",
+  "last_action_owner": "Senate 3rd Reading Calendar Table",
+  "last_action_time": "2/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1451,6 +1508,84 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-26 11:32:31.447",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-26 11:32:45.207",
+      "actionClass": "S",
+      "voteID": "1239",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-26 11:46:58.373",
+      "actionClass": "S",
+      "voteID": "1252",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-26 11:49:47.703",
+      "actionClass": "S",
+      "voteID": "1253",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "20-0-9",
+      "actionCode": "SPASS2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-26 11:49:53.217",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 3rd Reading Calendar table",
+      "owner": "Senate 3rd Reading Calendar Table",
+      "actionDate": "2026-02-26 11:50:01.377",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON3TBL",
       "parm1": "",
       "parm2": ""
     }

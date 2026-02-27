@@ -1,6 +1,6 @@
 {
   "bill_id": 2069939,
-  "change_hash": "fbac2ee9c681c2d6096ec8132a218e4f",
+  "change_hash": "9086f951c1344a931d552d5bef8fdd1b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -53,13 +53,8 @@
   "current_body_id": 94,
   "title": "Digital Skills Amendments",
   "description": "Digital Skills Amendments",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -279,6 +274,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-25",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -543,6 +545,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0218/id/1634987",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=465&house=H"
+    },
+    {
+      "roll_call_id": 1644986,
+      "date": "2026-02-25",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0218/id/1644986",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41091"
     }
   ],
   "amendments": [
@@ -648,6 +665,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 681721,
+      "date": "2026-02-25",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0218",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0218/id/681721",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0218S01.pdf",
+      "supplement_size": 18292,
+      "supplement_hash": "93d3af433e27aab3fe03c91f57297ec6",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -659,6 +696,15 @@
       "time": "15:40",
       "location": "",
       "description": "House Education Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "cc9dd40c",
+      "type": "Hearing",
+      "date": "2026-02-25",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Education Hearing"
     }
   ],
   "general_provisions": "This bill changes the requirements for the existing grades 7 and 8 required digital course.",
@@ -681,11 +727,24 @@
       "agendaURL": "/~2026/agenda/HEDU0204.ag.htm",
       "billSession": "2026GS",
       "markerID": "293644"
+    },
+    {
+      "mtgID": "20485",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-02-25 16:00:00.0",
+      "agendaItem": "8",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SEDU0225.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "300734"
     }
   ],
-  "last_action": "Senate/ to standing committee",
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/19/2026",
+  "last_action_time": "2/25/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1035,6 +1094,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-02-25 17:49:24.443",
+      "actionClass": "A",
+      "voteID": "41091",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-0-3",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

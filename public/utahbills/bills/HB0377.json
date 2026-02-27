@@ -1,6 +1,6 @@
 {
   "bill_id": 2093495,
-  "change_hash": "e504db9039eab784c71352dffb94b1ab",
+  "change_hash": "1f5bcad1d478832ddb491c259fbbc121",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0377/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0377.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2026-02-23",
   "progress": [
     {
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-23",
       "event": 2
+    },
+    {
+      "date": "2026-02-25",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -65,6 +69,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Business, Labor, and Commerce"
+    },
+    {
+      "date": "2026-02-24",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-25",
+      "committee_id": 2119,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Business and Labor"
     }
   ],
   "history": [
@@ -249,6 +267,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-24",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "Senate/ to standing committee in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-25",
+      "action": "LFA/ fiscal note sent to sponsor for HB0377S02 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -394,6 +433,14 @@
     {
       "subject_id": 11871,
       "subject_name": "Business"
+    },
+    {
+      "subject_id": 11922,
+      "subject_name": "Real Estate"
+    },
+    {
+      "subject_id": 334516,
+      "subject_name": "Real Property"
     }
   ],
   "texts": [
@@ -499,7 +546,50 @@
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=726&house=H"
     }
   ],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 278437,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2026-02-24",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0377/id/278437",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0377S02.Hamd.1.pdf",
+      "amendment_size": 7325,
+      "amendment_hash": "fd938da5baf4ffbd61023614d45a3826",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    },
+    {
+      "amendment_id": 278438,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2026-02-24",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0377/id/278438",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0377S01.Hamd.1.pdf",
+      "amendment_size": 11629,
+      "amendment_hash": "740964b312176feb158022fdedb09c29",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 658853,
@@ -640,6 +730,15 @@
       "time": "08:00",
       "location": "",
       "description": "House Business, Labor, and Commerce Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "6acc8768",
+      "type": "Hearing",
+      "date": "2026-02-27",
+      "time": "08:00",
+      "location": "",
+      "description": "Senate Business and Labor Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions relating to real estate.",
@@ -677,9 +776,9 @@
       "markerID": "297651"
     }
   ],
-  "last_action": "Senate/ received from House",
-  "last_action_owner": "Waiting for Introduction in the Senate",
-  "last_action_time": "2/23/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Business and Labor Committee",
+  "last_action_time": "2/25/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1016,6 +1115,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-02-24 10:16:47.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2026-02-25 14:16:34.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0377S02",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-25 17:30:30.057",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
       "parm1": "",
       "parm2": ""
     }

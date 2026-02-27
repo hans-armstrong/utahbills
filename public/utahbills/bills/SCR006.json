@@ -1,6 +1,6 @@
 {
   "bill_id": 2085747,
-  "change_hash": "7c36674823b82e250ffb9a9c0a98a1cd",
+  "change_hash": "4eb981d67b27e881cf71f80f8eacf5b9",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-17",
       "event": 2
+    },
+    {
+      "date": "2026-02-25",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,12 +53,12 @@
   "current_body_id": 93,
   "title": "Concurrent Resolution Regarding Pediatric Care for Autonomic Disorders",
   "description": "Concurrent Resolution Regarding Pediatric Care for Autonomic Disorders",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2108,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2108,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Health and Human Services"
   },
   "referrals": [
     {
@@ -77,6 +81,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-25",
+      "committee_id": 2108,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Health and Human Services"
     }
   ],
   "history": [
@@ -233,6 +244,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "House/ to standing committee in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -587,6 +605,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Health and Human Services Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "ad0ee36b",
+      "type": "Hearing",
+      "date": "2026-02-27",
+      "time": "16:00",
+      "location": "",
+      "description": "House Health and Human Services Hearing"
     }
   ],
   "general_provisions": "This resolution addresses awareness and diagnosis of autonomic disorders.",
@@ -611,9 +638,9 @@
       "markerID": "289265"
     }
   ],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/17/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Health and Human Services Committee",
+  "last_action_time": "2/25/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -898,6 +925,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-25 12:00:02.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

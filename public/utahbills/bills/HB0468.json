@@ -1,6 +1,6 @@
 {
   "bill_id": 2104847,
-  "change_hash": "e2b84316b6280e140bece9beb36a0b8b",
+  "change_hash": "d1d9590c3063e6b6e90162845a4e3512",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-12",
       "event": 9
+    },
+    {
+      "date": "2026-02-25",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -39,8 +43,8 @@
   "body_id": 93,
   "current_body": "H",
   "current_body_id": 93,
-  "title": "Breast Cancer Prevention Amendments",
-  "description": "Breast Cancer Prevention Amendments",
+  "title": "Mobile Mammography Amendments",
+  "description": "Mobile Mammography Amendments",
   "pending_committee_id": 0,
   "committee": [],
   "referrals": [
@@ -170,6 +174,48 @@
       "action": "LFA/ fiscal note publicly available for HB0468S01 in Released",
       "chamber": "",
       "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-23",
+      "action": "LFA/ fiscal note sent to sponsor for HB0468S02 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "LFA/ fiscal note publicly available for HB0468S02 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "House Comm - Substitute Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "House Comm - Favorable Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-25",
+      "action": "House/ comm rpt/ substituted in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-25",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -322,7 +368,38 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1643655,
+      "date": "2026-02-24",
+      "desc": "House Comm - Substitute Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0468/id/1643655",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40874"
+    },
+    {
+      "roll_call_id": 1643656,
+      "date": "2026-02-24",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 11,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0468/id/1643656",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40875"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -424,6 +501,46 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 679888,
+      "date": "2026-02-24",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0468S02",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0468/id/679888",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0468S02.fn.pdf",
+      "supplement_size": 1608379,
+      "supplement_hash": "5f9e2348bcd09334ad54ed5cbaf848f8",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 680593,
+      "date": "2026-02-24",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0468",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0468/id/680593",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0468H02.pdf",
+      "supplement_size": 17601,
+      "supplement_hash": "03d6a22d6b154965e508173b9ae872ef",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -437,17 +554,31 @@
       "description": "House Health and Human Services Hearing"
     }
   ],
-  "general_provisions": "This bill amends provisions related to health insurance and breast examinations that detect breast cancer.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms; and<hr><ltbullet>prohibits a health benefit plan from implementing a cost-sharing requirement for certain breast examinations that detect breast cancer.",
+  "general_provisions": "This bill amends provisions related to mobile mammography insurance coverage.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>defines terms; and<hr><ltbullet>requires a health benefit plan to cover mobile mammography screenings in certain circumstances.",
   "monies": "None",
   "attorney": "Christopher Williams",
   "fiscal_analyst": "Alejandra G Rodriguez",
   "gov_tracking_id": "NRSDKIGWNT",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Health and Human Services Committee",
-  "last_action_time": "2/12/2026",
+  "agendas": [
+    {
+      "mtgID": "20424",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2026-02-24 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001893.htm",
+      "agendaURL": "/~2026/agenda/HHHS0224.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299942"
+    }
+  ],
+  "last_action": "House/ 2nd reading",
+  "last_action_owner": "House 3rd Reading Calendar for House bills",
+  "last_action_time": "2/25/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -654,6 +785,84 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0468S02",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-23 21:20:13.113",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0468S02",
+      "owner": "Released",
+      "actionDate": "2026-02-24 10:09:54.436",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Substitute Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-24 16:30:02.310",
+      "actionClass": "A",
+      "voteID": "40874",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-3",
+      "actionCode": "HCASUB",
+      "parm1": "2",
+      "parm2": "0"
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-24 16:30:56.557",
+      "actionClass": "A",
+      "voteID": "40875",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "11-0-3",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-25 10:12:44.173",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-25 10:12:45.173",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
       "parm1": "",
       "parm2": ""
     }

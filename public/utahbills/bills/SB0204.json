@@ -1,6 +1,6 @@
 {
   "bill_id": 2094516,
-  "change_hash": "957c370259849249111cfcdd9b9f4ba2",
+  "change_hash": "8da3306cb470f8e4cbb09b5c937ecad9",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/SB0204/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0204.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2026-01-28",
+  "status": 2,
+  "status_date": "2026-02-24",
   "progress": [
     {
       "date": "2026-01-28",
@@ -32,6 +32,14 @@
     {
       "date": "2026-02-09",
       "event": 10
+    },
+    {
+      "date": "2026-02-24",
+      "event": 2
+    },
+    {
+      "date": "2026-02-26",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -41,12 +49,17 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Physical Therapy Payment Amendments",
   "description": "Physical Therapy Payment Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2860,
+  "committee": {
+    "committee_id": 2860,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Economic Development and Workforce Services"
+  },
   "referrals": [
     {
       "date": "2026-01-28",
@@ -61,6 +74,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Business and Labor"
+    },
+    {
+      "date": "2026-02-25",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-02-26",
+      "committee_id": 2860,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Economic Development and Workforce Services"
     }
   ],
   "history": [
@@ -177,11 +204,32 @@
       "importance": 0
     },
     {
-      "date": "2026-02-23",
-      "action": "Senate / held in Senate Secretary",
-      "chamber": "S",
-      "chamber_id": 94,
+      "date": "2026-02-24",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-24",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-25",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "House/ to standing committee in House Economic Development and Workforce Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -472,6 +520,15 @@
       "time": "15:40",
       "location": "",
       "description": "Senate Business and Labor Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "9d19e687",
+      "type": "Hearing",
+      "date": "2026-02-27",
+      "time": "16:00",
+      "location": "",
+      "description": "House Economic Development and Workforce Services Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions related to health insurance cost sharing for physical therapists.",
@@ -496,9 +553,9 @@
       "markerID": "294848"
     }
   ],
-  "last_action": "Senate / held",
-  "last_action_owner": "Senate Secretary",
-  "last_action_time": "2/23/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Economic Development and Workforce Services Committee",
+  "last_action_time": "2/26/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -709,15 +766,54 @@
       "parm2": ""
     },
     {
-      "description": "Senate / held",
-      "owner": "Senate Secretary",
-      "actionDate": "2026-02-23 11:42:22.000",
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-24 14:37:22.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
-      "actionCode": "SHOLD",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-02-24 16:13:29.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-02-25 10:04:35.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Economic Development and Workforce Services Committee",
+      "actionDate": "2026-02-26 11:23:00.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }
