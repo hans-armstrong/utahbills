@@ -1,6 +1,6 @@
 {
   "bill_id": 2116686,
-  "change_hash": "aa7f493385399f9f5f16d7ceeaf5457a",
+  "change_hash": "d89f7c3882e74a7977e40142b8a04cf5",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -24,6 +24,10 @@
     {
       "date": "2026-02-13",
       "event": 1
+    },
+    {
+      "date": "2026-02-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -37,8 +41,13 @@
   "current_body_id": 93,
   "title": "Radon Amendments",
   "description": "Radon Amendments",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2111,
+  "committee": {
+    "committee_id": 2111,
+    "chamber": "H",
+    "chamber_id": 93,
+    "name": "Natural Resources, Agriculture, and Environment"
+  },
   "referrals": [
     {
       "date": "2026-02-13",
@@ -46,6 +55,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-27",
+      "committee_id": 2111,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Natural Resources, Agriculture, and Environment"
     }
   ],
   "history": [
@@ -111,6 +127,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House/ to standing committee in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -250,7 +273,17 @@
       "alt_supplement_hash": ""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "type_id": 1,
+      "event_hash": "15bde569",
+      "type": "Hearing",
+      "date": "2026-03-02",
+      "time": "08:10",
+      "location": "",
+      "description": "House Natural Resources, Agriculture, and Environment Hearing"
+    }
+  ],
   "general_provisions": "This bill creates a new section in the Utah Construction Trades Licensing Act governing radon mitigation.",
   "hilighted_provisions": "This bill:<hr><ltbullet>requires a person that installs, repairs, maintains, cleans, or replaces a radon mitigation system to complete training and certification;<hr><ltbullet>requires an individual who sells radon mitigation or vents a radon mitigation system to complete training and certification;<hr><ltbullet>requires an employer to ensure that an employee performing radon mitigation work obtains required training and certification before performing that work; and<hr><ltbullet>authorizes the division to exempt an individual from certification requirements if the individual works under direct one-to-one supervision of a certified professional.",
   "monies": "None",
@@ -259,9 +292,9 @@
   "gov_tracking_id": "QYUYBKMQRV",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ received fiscal note from Fiscal Analyst",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/20/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -377,6 +410,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECLFA",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-27 11:53:43.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

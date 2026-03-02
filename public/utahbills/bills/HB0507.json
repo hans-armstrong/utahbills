@@ -1,6 +1,6 @@
 {
   "bill_id": 2110384,
-  "change_hash": "605269c5c6157faf4389d48f0c07ef0a",
+  "change_hash": "516cc033c16d6d6386cbec90b52be9af",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-25",
       "event": 2
+    },
+    {
+      "date": "2026-02-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,13 +53,8 @@
   "current_body_id": 94,
   "title": "State Coordination of Regional and Local Economic Development Projects Amendments",
   "description": "State Coordination of Regional and Local Economic Development Projects Amendments",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-06",
@@ -77,6 +76,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-27",
+      "committee_id": 2861,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Economic Development and Workforce Services"
     }
   ],
   "history": [
@@ -281,6 +287,27 @@
       "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ to standing committee in Senate Economic Development and Workforce Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-28",
+      "action": "LFA/ fiscal note sent to sponsor for HB0507S02 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-01",
+      "action": "LFA/ fiscal note publicly available for HB0507S02 in Released",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     }
   ],
@@ -701,6 +728,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 685755,
+      "date": "2026-03-01",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0507S02",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0507/id/685755",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0507S02.fn.pdf",
+      "supplement_size": 1614297,
+      "supplement_hash": "d9aa714cbdcd637fb68a0dcab8a373eb",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -712,6 +759,15 @@
       "time": "16:00",
       "location": "",
       "description": "House Economic Development and Workforce Services Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "3d4381fb",
+      "type": "Hearing",
+      "date": "2026-03-02",
+      "time": "08:10",
+      "location": "",
+      "description": "Senate Economic Development and Workforce Services Hearing"
     }
   ],
   "general_provisions": "This bill addresses local and regional economic development projects and related provisions.",
@@ -736,9 +792,9 @@
       "markerID": "298544"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/26/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Economic Development and Workforce Services Committee",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1114,6 +1170,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Economic Development and Workforce Services Committee",
+      "actionDate": "2026-02-27 14:18:48.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0507S02",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-28 17:24:23.392",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0507S02",
+      "owner": "Released",
+      "actionDate": "2026-03-01 09:51:27.877",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
       "parm1": "",
       "parm2": ""
     }

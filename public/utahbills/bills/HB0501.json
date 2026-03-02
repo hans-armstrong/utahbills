@@ -1,6 +1,6 @@
 {
   "bill_id": 2109541,
-  "change_hash": "29ece84d4b4886c61c0361a9b6bffe04",
+  "change_hash": "8caa1d4430788e32b2d9b21cad60aa66",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-25",
       "event": 2
+    },
+    {
+      "date": "2026-02-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,8 +53,13 @@
   "current_body_id": 94,
   "title": "Water Modifications",
   "description": "Water Modifications",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2122,
+  "committee": {
+    "committee_id": 2122,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Government Operations and Political Subdivisions"
+  },
   "referrals": [
     {
       "date": "2026-02-05",
@@ -72,6 +81,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-27",
+      "committee_id": 2122,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Government Operations and Political Subdivisions"
     }
   ],
   "history": [
@@ -284,6 +300,13 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ to standing committee in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -719,9 +742,9 @@
       "markerID": "297962"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/26/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1110,6 +1133,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2026-02-27 14:18:48.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

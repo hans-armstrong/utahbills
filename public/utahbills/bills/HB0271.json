@@ -1,6 +1,6 @@
 {
   "bill_id": 2083837,
-  "change_hash": "0bb2635d4354f787a62f0fa2db4b7cd7",
+  "change_hash": "9b9b94385d1613bc92dd9ffa17fd5bae",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -331,6 +331,20 @@
     {
       "date": "2026-02-25",
       "action": "House/ signed by Speaker/ sent for enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Bill Received from House for Enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Draft of Enrolled Bill Prepared in Legislative Research and General Counsel / Enrolling",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -761,6 +775,19 @@
   "comrecommend": [],
   "agendas": [
     {
+      "mtgID": "20212",
+      "committeeID": "HSTLAW",
+      "mtgDate": "2026-02-02 14:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Law Enforcement and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001215.htm",
+      "agendaURL": "/~2026/agenda/HLAW0202.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "292592"
+    },
+    {
       "mtgID": "20489",
       "committeeID": "SSTJLC",
       "mtgDate": "2026-02-18 16:00:00.0",
@@ -785,24 +812,11 @@
       "agendaURL": "/~2026/agenda/SJLC0220.ag.htm",
       "billSession": "2026GS",
       "markerID": "299331"
-    },
-    {
-      "mtgID": "20212",
-      "committeeID": "HSTLAW",
-      "mtgDate": "2026-02-02 14:00:00.0",
-      "agendaItem": "5",
-      "mtgPlace": "30 House Building",
-      "committeeName": "House Law Enforcement and Criminal Justice Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001215.htm",
-      "agendaURL": "/~2026/agenda/HLAW0202.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "292592"
     }
   ],
-  "last_action": "House/ signed by Speaker/ sent for enrolling",
+  "last_action": "Draft of Enrolled Bill Prepared",
   "last_action_owner": "Legislative Research and General Counsel / Enrolling",
-  "last_action_time": "2/25/2026",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1256,6 +1270,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HSIGN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Received from House for Enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2026-02-27 08:17:46.453",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRGCRH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Draft of Enrolled Bill Prepared",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2026-02-27 08:17:47.593",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LENROLL",
       "parm1": "",
       "parm2": ""
     }

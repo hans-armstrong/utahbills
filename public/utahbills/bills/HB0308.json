@@ -1,6 +1,6 @@
 {
   "bill_id": 2088553,
-  "change_hash": "d4d9101c188fff0730a6b4d16a87e826",
+  "change_hash": "55911850bf3a199e4a926d5f0be5b9c4",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -261,6 +261,20 @@
     {
       "date": "2026-02-26",
       "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ circled in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -597,19 +611,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "20563",
-      "committeeID": "SSTEDW",
-      "mtgDate": "2026-02-23 08:30:00.0",
-      "agendaItem": "4",
-      "mtgPlace": "215 Senate Building",
-      "committeeName": "Senate Economic Development and Workforce Services Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001808.htm",
-      "agendaURL": "/~2026/agenda/SEDW0223.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "299584"
-    },
-    {
       "mtgID": "20308",
       "committeeID": "HSTEDW",
       "mtgDate": "2026-02-04 15:40:00.0",
@@ -621,11 +622,24 @@
       "agendaURL": "/~2026/agenda/HEDW0204.ag.htm",
       "billSession": "2026GS",
       "markerID": "293818"
+    },
+    {
+      "mtgID": "20563",
+      "committeeID": "SSTEDW",
+      "mtgDate": "2026-02-23 08:30:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Economic Development and Workforce Services Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001808.htm",
+      "agendaURL": "/~2026/agenda/SEDW0223.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299584"
     }
   ],
-  "last_action": "Senate/ passed 2nd reading",
+  "last_action": "Senate/ circled",
   "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/26/2026",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -949,6 +963,32 @@
       "voteHouse": "S",
       "voteStr": "23-0-6",
       "actionCode": "SPASS2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-27 10:41:38.767",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-27 10:41:45.533",
+      "actionClass": "S",
+      "voteID": "1370",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
       "parm1": "",
       "parm2": ""
     }

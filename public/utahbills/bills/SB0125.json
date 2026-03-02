@@ -1,6 +1,6 @@
 {
   "bill_id": 2073391,
-  "change_hash": "28c72e79eccb1347a93dcdbdf2daafce",
+  "change_hash": "fe3e9ac094ee587c7870ba70c76529ac",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -19,7 +19,7 @@
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0125.html",
   "completed": 0,
   "status": 3,
-  "status_date": "2026-02-18",
+  "status_date": "2026-02-27",
   "progress": [
     {
       "date": "2026-01-20",
@@ -44,6 +44,10 @@
     {
       "date": "2026-02-23",
       "event": 10
+    },
+    {
+      "date": "2026-02-27",
+      "event": 3
     }
   ],
   "state": "UT",
@@ -355,6 +359,34 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Bill Received from Senate for Enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Draft of Enrolled Bill Prepared in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Enrolled Bill Returned to House or Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ enrolled bill to Printing in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -552,6 +584,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0125S01.pdf",
       "text_size": 31997,
       "text_hash": "24b4e325b7db84162ca6315ee4d279e6",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3379366,
+      "date": "2026-02-27",
+      "type": "Enrolled",
+      "type_id": 5,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0125/id/3379366",
+      "state_link": "https://le.utah.gov/Session/2026/bills/enrolled/SB0125.pdf",
+      "text_size": 32119,
+      "text_hash": "ec6f3e7d0495e199d1097e552e4ecf4f",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -784,19 +834,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "20512",
-      "committeeID": "HSTLAW",
-      "mtgDate": "2026-02-23 08:00:00.0",
-      "agendaItem": "6",
-      "mtgPlace": "30 House Building",
-      "committeeName": "House Law Enforcement and Criminal Justice Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001822.htm",
-      "agendaURL": "/~2026/agenda/HLAW0223.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "299541"
-    },
-    {
       "mtgID": "20257",
       "committeeID": "SSTJLC",
       "mtgDate": "2026-01-30 14:00:00.0",
@@ -808,11 +845,24 @@
       "agendaURL": "/~2026/agenda/SJLC0130.ag.htm",
       "billSession": "2026GS",
       "markerID": "291889"
+    },
+    {
+      "mtgID": "20512",
+      "committeeID": "HSTLAW",
+      "mtgDate": "2026-02-23 08:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Law Enforcement and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001822.htm",
+      "agendaURL": "/~2026/agenda/HLAW0223.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299541"
     }
   ],
-  "last_action": "Senate/ signed by President/ sent for enrolling",
-  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
-  "last_action_time": "2/25/2026",
+  "last_action": "Senate/ enrolled bill to Printing",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1305,6 +1355,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SSIGN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Received from Senate for Enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2026-02-27 08:36:42.927",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRGCRS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Draft of Enrolled Bill Prepared",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2026-02-27 08:36:45.237",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LENROLL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Enrolled Bill Returned to House or Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-27 10:08:07.703",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LPASSREV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ enrolled bill to Printing",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-27 10:08:14.853",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOPRINTEN",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2121080,
-  "change_hash": "6253a51f13cc103be9f9db37ed1ff46e",
+  "change_hash": "fd5819934476c9296c97b6636926c17a",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,8 +41,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Nuisance Amendments",
   "description": "Nuisance Amendments",
   "pending_committee_id": 0,
@@ -153,6 +153,27 @@
       "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -344,6 +365,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0591/id/1645214",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41054"
+    },
+    {
+      "roll_call_id": 1647930,
+      "date": "2026-02-27",
+      "desc": "House/ passed 3rd reading",
+      "yea": 60,
+      "nay": 9,
+      "nv": 0,
+      "absent": 6,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0591/id/1647930",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1015&house=H"
     }
   ],
   "amendments": [],
@@ -416,15 +452,15 @@
       "mtgPlace": "110 Senate Building",
       "committeeName": "House Public Utilities and Energy Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00001937.htm",
       "agendaURL": "/~2026/agenda/HPUT0225.ag.htm",
       "billSession": "2026GS",
       "markerID": "300550"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "2/26/2026",
+  "last_action": "House/ to Senate",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -592,6 +628,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-27 15:10:55.943",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-27 15:20:35.330",
+      "actionClass": "H",
+      "voteID": "1015",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "60-9-6",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-27 15:20:37.330",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2064971,
-  "change_hash": "21530479889c78b854bbecb0f20cb186",
+  "change_hash": "d36ac48ec7259805829851d8dd672eee",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -303,6 +303,20 @@
     {
       "date": "2026-02-25",
       "action": "House/ signed by Speaker/ sent for enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Bill Received from House for Enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Draft of Enrolled Bill Prepared in Legislative Research and General Counsel / Enrolling",
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
@@ -781,19 +795,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "20503",
-      "committeeID": "SSTBUS",
-      "mtgDate": "2026-02-19 16:05:00.0",
-      "agendaItem": "4",
-      "mtgPlace": "120 Senate Building",
-      "committeeName": "Senate Business and Labor Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001823.htm",
-      "agendaURL": "/~2026/agenda/SBUS0219.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "298974"
-    },
-    {
       "mtgID": "20282",
       "committeeID": "HSTBUS",
       "mtgDate": "2026-02-04 15:40:00.0",
@@ -805,11 +806,24 @@
       "agendaURL": "/~2026/agenda/HBUS0204.ag.htm",
       "billSession": "2026GS",
       "markerID": "293702"
+    },
+    {
+      "mtgID": "20503",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2026-02-19 16:05:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001823.htm",
+      "agendaURL": "/~2026/agenda/SBUS0219.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "298974"
     }
   ],
-  "last_action": "House/ signed by Speaker/ sent for enrolling",
+  "last_action": "Draft of Enrolled Bill Prepared",
   "last_action_owner": "Legislative Research and General Counsel / Enrolling",
-  "last_action_time": "2/25/2026",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1211,6 +1225,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HSIGN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Received from House for Enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2026-02-27 08:26:48.040",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRGCRH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Draft of Enrolled Bill Prepared",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2026-02-27 08:26:49.243",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LENROLL",
       "parm1": "",
       "parm2": ""
     }

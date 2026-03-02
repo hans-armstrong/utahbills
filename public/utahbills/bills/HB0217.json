@@ -1,6 +1,6 @@
 {
   "bill_id": 2069987,
-  "change_hash": "9a09aa606594ea464582d6ad24219cc4",
+  "change_hash": "edb8a3c01858aa93c84256e2faf51de5",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0217/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0217.html",
   "completed": 0,
-  "status": 2,
+  "status": 3,
   "status_date": "2026-02-13",
   "progress": [
     {
@@ -53,8 +53,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Stolen Vehicle Amendments",
   "description": "Stolen Vehicle Amendments",
   "pending_committee_id": 0,
@@ -312,6 +312,48 @@
       "action": "Senate/ passed 2nd reading in Senate 3rd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ 3rd reading in Senate 3rd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ passed 3rd reading in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ signed by President/ returned to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House/ received from Senate in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House/ signed by Speaker/ sent for enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     }
   ],
@@ -613,6 +655,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/HB0217/id/1646940",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1270&house=S"
+    },
+    {
+      "roll_call_id": 1648106,
+      "date": "2026-02-27",
+      "desc": "Senate/ passed 3rd reading",
+      "yea": 25,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0217/id/1648106",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1378&house=S"
     }
   ],
   "amendments": [],
@@ -747,19 +804,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "20490",
-      "committeeID": "SSTJLC",
-      "mtgDate": "2026-02-20 08:00:00.0",
-      "agendaItem": "11",
-      "mtgPlace": "210 Senate Building",
-      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001796.htm",
-      "agendaURL": "/~2026/agenda/SJLC0220.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "299324"
-    },
-    {
       "mtgID": "20218",
       "committeeID": "HSTTRA",
       "mtgDate": "2026-02-02 14:00:00.0",
@@ -771,11 +815,24 @@
       "agendaURL": "/~2026/agenda/HTRA0202.ag.htm",
       "billSession": "2026GS",
       "markerID": "292560"
+    },
+    {
+      "mtgID": "20490",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2026-02-20 08:00:00.0",
+      "agendaItem": "11",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001796.htm",
+      "agendaURL": "/~2026/agenda/SJLC0220.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299324"
     }
   ],
-  "last_action": "Senate/ passed 2nd reading",
-  "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/26/2026",
+  "last_action": "House/ signed by Speaker/ sent for enrolling",
+  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1190,6 +1247,84 @@
       "voteHouse": "S",
       "voteStr": "23-0-6",
       "actionCode": "SPASS2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3rd reading",
+      "owner": "Senate 3rd Reading Calendar",
+      "actionDate": "2026-02-27 10:55:51.367",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 3rd reading",
+      "owner": "Senate President",
+      "actionDate": "2026-02-27 10:57:52.917",
+      "actionClass": "S",
+      "voteID": "1378",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "25-0-4",
+      "actionCode": "SPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ returned to House",
+      "owner": "House Speaker",
+      "actionDate": "2026-02-27 10:57:53.917",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGNH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "House Speaker",
+      "actionDate": "2026-02-27 10:57:54.917",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "House Speaker",
+      "actionDate": "2026-02-27 12:01:14.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ sent for enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2026-02-27 12:01:15.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGN",
       "parm1": "",
       "parm2": ""
     }

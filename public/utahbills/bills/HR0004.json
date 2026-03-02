@@ -1,6 +1,6 @@
 {
   "bill_id": 2084144,
-  "change_hash": "c95e2a52568d975f7c0a2e4a1cd36569",
+  "change_hash": "4a73899cd07aed4f61b04aaa2e70edae",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/HR0004/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HR0004.html",
   "completed": 0,
-  "status": 2,
-  "status_date": "2026-01-20",
+  "status": 3,
+  "status_date": "2026-03-02",
   "progress": [
     {
       "date": "2026-01-20",
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-26",
       "event": 10
+    },
+    {
+      "date": "2026-03-02",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -177,6 +181,41 @@
       "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House/ passed 3rd reading in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House/ signed by Speaker/ sent for enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "Bill Received from House for Enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-02",
+      "action": "Draft of Enrolled Bill Prepared in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     }
   ],
@@ -352,6 +391,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HR0004/id/1644620",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41007"
+    },
+    {
+      "roll_call_id": 1647919,
+      "date": "2026-02-27",
+      "desc": "House/ passed 3rd reading",
+      "yea": 62,
+      "nay": 0,
+      "nv": 0,
+      "absent": 13,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HR0004/id/1647919",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1016&house=H"
     }
   ],
   "amendments": [],
@@ -492,9 +546,9 @@
       "markerID": "300479"
     }
   ],
-  "last_action": "House/ 2nd reading",
-  "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "2/26/2026",
+  "last_action": "Draft of Enrolled Bill Prepared",
+  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
+  "last_action_time": "3/2/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -727,6 +781,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-02-27 15:20:41.130",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "House Speaker",
+      "actionDate": "2026-02-27 15:23:58.040",
+      "actionClass": "H",
+      "voteID": "1016",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "62-0-13",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ sent for enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2026-02-27 15:23:59.103",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Bill Received from House for Enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2026-03-02 07:27:38.457",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRGCRH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Draft of Enrolled Bill Prepared",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2026-03-02 07:27:42.787",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LENROLL",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2085836,
-  "change_hash": "156bb47141f8f84cfb3a2000dea30c99",
+  "change_hash": "1bd9afa61fe73f673e430e2c2ba2936b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-25",
       "event": 2
+    },
+    {
+      "date": "2026-02-26",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,13 +53,8 @@
   "current_body_id": 93,
   "title": "Concurrent Resolution Directing PEHP Regarding Pain Medication",
   "description": "Concurrent Resolution Directing PEHP Regarding Pain Medication",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -77,6 +76,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-26",
+      "committee_id": 2108,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Health and Human Services"
     }
   ],
   "history": [
@@ -237,6 +243,20 @@
     {
       "date": "2026-02-26",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-26",
+      "action": "House/ to standing committee in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House Comm - Favorable Recommendation in House Health and Human Services Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -531,6 +551,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SCR005/id/1641483",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=879&house=S"
+    },
+    {
+      "roll_call_id": 1647868,
+      "date": "2026-02-27",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 12,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SCR005/id/1647868",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41328"
     }
   ],
   "amendments": [
@@ -617,6 +652,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 684665,
+      "date": "2026-02-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SCR005",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SCR005/id/684665",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SCR005H03.pdf",
+      "supplement_size": 17617,
+      "supplement_hash": "7c9a99c709ae4e66a4d6a2331f37712c",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -681,11 +736,24 @@
       "agendaURL": "/~2026/agenda/SHHS0203.ag.htm",
       "billSession": "2026GS",
       "markerID": "293087"
+    },
+    {
+      "mtgID": "20427",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2026-02-27 16:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HHHS0227.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "301704"
     }
   ],
-  "last_action": "House/ to standing committee",
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Health and Human Services Committee",
-  "last_action_time": "2/26/2026",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -996,6 +1064,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-27 17:22:55.877",
+      "actionClass": "A",
+      "voteID": "41328",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-0-2",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

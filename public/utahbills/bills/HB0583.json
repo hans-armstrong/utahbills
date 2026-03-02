@@ -1,6 +1,6 @@
 {
   "bill_id": 2118845,
-  "change_hash": "047d97ee0e3f2a740dd523547f8521f7",
+  "change_hash": "4d21e17d45547f5b56f28e71b5a6c5bb",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -41,13 +41,8 @@
   "current_body_id": 93,
   "title": "Initiative and Referenda Signature Amendments",
   "description": "Initiative and Referenda Signature Amendments",
-  "pending_committee_id": 2107,
-  "committee": {
-    "committee_id": 2107,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Government Operations"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-18",
@@ -134,6 +129,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House Comm - Held in House Government Operations Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -273,7 +275,23 @@
       "alt_text_hash": ""
     }
   ],
-  "votes": [],
+  "votes": [
+    {
+      "roll_call_id": 1647674,
+      "date": "2026-02-27",
+      "desc": "House Comm - Held",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0583/id/1647674",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41241"
+    }
+  ],
   "amendments": [],
   "supplements": [
     {
@@ -315,10 +333,24 @@
   "fiscal_analyst": "Kiki Hudson",
   "gov_tracking_id": "YIPXSILBMK",
   "comrecommend": [],
-  "agendas": [],
-  "last_action": "House/ to standing committee",
+  "agendas": [
+    {
+      "mtgID": "20554",
+      "committeeID": "HSTGOC",
+      "mtgDate": "2026-02-27 08:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Government Operations Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001941.htm",
+      "agendaURL": "/~2026/agenda/HGOC0227.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "301382"
+    }
+  ],
+  "last_action": "House Comm - Held",
   "last_action_owner": "House Government Operations Committee",
-  "last_action_time": "2/25/2026",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -447,6 +479,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Government Operations Committee",
+      "actionDate": "2026-02-27 08:47:36.427",
+      "actionClass": "A",
+      "voteID": "41241",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-5",
+      "actionCode": "HCAHELD",
       "parm1": "",
       "parm2": ""
     }

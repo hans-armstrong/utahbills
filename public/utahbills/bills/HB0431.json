@@ -1,6 +1,6 @@
 {
   "bill_id": 2102533,
-  "change_hash": "018b259d253e8d53fcef739f405bfdf5",
+  "change_hash": "2003484dcae723aa6c26d5a1845969ed",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -264,6 +264,13 @@
     {
       "date": "2026-02-26",
       "action": "Senate Comm - Motion to Recommend Failed in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "Senate Comm - Held in Senate Revenue and Taxation Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -990,6 +997,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/HB0431/id/1646976",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41220"
+    },
+    {
+      "roll_call_id": 1648472,
+      "date": "2026-03-02",
+      "desc": "Senate Comm - Held",
+      "yea": 5,
+      "nay": 2,
+      "nv": 0,
+      "absent": 0,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0431/id/1648472",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41383"
     }
   ],
   "amendments": [
@@ -1115,6 +1137,15 @@
       "time": "16:00",
       "location": "",
       "description": "Senate Revenue and Taxation Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "72fe4d6f",
+      "type": "Hearing",
+      "date": "2026-03-02",
+      "time": "07:30",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
     }
   ],
   "general_provisions": "This bill creates an account and provides funding for wildlife connectivity and livestock protection projects.",
@@ -1150,11 +1181,24 @@
       "agendaURL": "/~2026/agenda/SREV0226.ag.htm",
       "billSession": "2026GS",
       "markerID": "301237"
+    },
+    {
+      "mtgID": "20474",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-03-02 07:30:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SREV0302.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "301914"
     }
   ],
-  "last_action": "Senate Comm - Motion to Recommend Failed",
+  "last_action": "Senate Comm - Held",
   "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "2/26/2026",
+  "last_action_time": "3/2/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1491,6 +1535,19 @@
       "voteHouse": "",
       "voteStr": "3-3-1",
       "actionCode": "SCAFAVFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Held",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2026-03-02 08:13:02.143",
+      "actionClass": "A",
+      "voteID": "41383",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-2-0",
+      "actionCode": "SCAHELD",
       "parm1": "",
       "parm2": ""
     }

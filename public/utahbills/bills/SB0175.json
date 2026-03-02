@@ -1,6 +1,6 @@
 {
   "bill_id": 2088489,
-  "change_hash": "21f436c2e9c22f7f6343e9bb8430ef94",
+  "change_hash": "0ef05cb23f7545499174c5e9eaf02979",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -53,13 +53,8 @@
   "current_body_id": 93,
   "title": "Health Insurance Revisions",
   "description": "Health Insurance Revisions",
-  "pending_committee_id": 5042,
-  "committee": {
-    "committee_id": 5042,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Business, Labor, and Commerce"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-22",
@@ -286,6 +281,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House Comm - Favorable Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House Comm - Consent Calendar Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -599,6 +608,36 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0175/id/1644343",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1108&house=S"
+    },
+    {
+      "roll_call_id": 1648054,
+      "date": "2026-02-27",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 12,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0175/id/1648054",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41324"
+    },
+    {
+      "roll_call_id": 1648055,
+      "date": "2026-02-27",
+      "desc": "House Comm - Consent Calendar Recommendation",
+      "yea": 12,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0175/id/1648055",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41325"
     }
   ],
   "amendments": [
@@ -724,6 +763,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 685073,
+      "date": "2026-02-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0175",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0175/id/685073",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0175H01.pdf",
+      "supplement_size": 17571,
+      "supplement_hash": "fbd19294a1bc9e99397695f679134596",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -766,11 +825,24 @@
       "agendaURL": "/~2026/agenda/SHHS0212.ag.htm",
       "billSession": "2026GS",
       "markerID": "296678"
+    },
+    {
+      "mtgID": "20500",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2026-02-27 16:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HBUS0227.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "301694"
     }
   ],
-  "last_action": "House/ to standing committee",
+  "last_action": "House Comm - Consent Calendar Recommendation",
   "last_action_owner": "House Business, Labor, and Commerce Committee",
-  "last_action_time": "2/26/2026",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1133,6 +1205,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-27 17:18:02.947",
+      "actionClass": "A",
+      "voteID": "41324",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-0-4",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Consent Calendar Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-27 17:19:43.893",
+      "actionClass": "A",
+      "voteID": "41325",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-0-4",
+      "actionCode": "HCACONCAL",
       "parm1": "",
       "parm2": ""
     }

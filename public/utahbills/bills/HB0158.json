@@ -1,6 +1,6 @@
 {
   "bill_id": 2066252,
-  "change_hash": "56d17ca86a889013bfbbc7d640810ea5",
+  "change_hash": "4927f2f5c20ecc70d9e31bab5be71303",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -53,13 +53,8 @@
   "current_body_id": 94,
   "title": "Unlawful Tracking Amendments",
   "description": "Unlawful Tracking Amendments",
-  "pending_committee_id": 2124,
-  "committee": {
-    "committee_id": 2124,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Judiciary, Law Enforcement, and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -286,6 +281,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate Comm - Favorable Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -539,6 +541,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0158/id/1633544",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=441&house=H"
+    },
+    {
+      "roll_call_id": 1648040,
+      "date": "2026-02-27",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 9,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0158/id/1648040",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41334"
     }
   ],
   "amendments": [
@@ -644,6 +661,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 685049,
+      "date": "2026-02-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0158",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0158/id/685049",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0158S02.pdf",
+      "supplement_size": 18324,
+      "supplement_hash": "6ec39ce1ab2cea80b38cf63c07ea7a7a",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -686,11 +723,24 @@
       "agendaURL": "/~2026/agenda/HLAW0202.ag.htm",
       "billSession": "2026GS",
       "markerID": "292644"
+    },
+    {
+      "mtgID": "20493",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2026-02-27 16:07:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SJLC0227.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "301748"
     }
   ],
-  "last_action": "Senate/ to standing committee",
+  "last_action": "Senate Comm - Favorable Recommendation",
   "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-  "last_action_time": "2/25/2026",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1053,6 +1103,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2026-02-27 17:35:38.957",
+      "actionClass": "A",
+      "voteID": "41334",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-4",
+      "actionCode": "SCAFAV",
       "parm1": "",
       "parm2": ""
     }

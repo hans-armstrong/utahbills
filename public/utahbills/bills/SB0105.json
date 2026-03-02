@@ -1,6 +1,6 @@
 {
   "bill_id": 2067554,
-  "change_hash": "d66ff6bff0fb00d40ba40f4652db905b",
+  "change_hash": "253327099eee96d43340de9f159921de",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SB0105/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0105.html",
   "completed": 0,
-  "status": 1,
+  "status": 6,
   "status_date": "2026-01-20",
   "progress": [
     {
@@ -203,6 +203,34 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ floor amendment in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ failed in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ filed in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -326,6 +354,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3380360,
+      "date": "2026-02-27",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0105/id/3380360",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_SB0105S01_2026-02-27_15-26-19.pdf",
+      "text_size": 42028,
+      "text_hash": "31bf8da1077089ddc94f90f33940c8be",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [
@@ -358,6 +404,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0105/id/1639846",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40688"
+    },
+    {
+      "roll_call_id": 1648076,
+      "date": "2026-02-27",
+      "desc": "Senate/ failed",
+      "yea": 13,
+      "nay": 12,
+      "nv": 0,
+      "absent": 4,
+      "total": 29,
+      "passed": 0,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/SB0105/id/1648076",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1437&house=S"
     }
   ],
   "amendments": [
@@ -542,9 +603,9 @@
       "markerID": "299244"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/20/2026",
+  "last_action": "Senate/ filed",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -803,6 +864,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-27 15:02:12.150",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ floor amendment",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-27 15:04:28.513",
+      "actionClass": "S",
+      "voteID": "1436",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SAMEND",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ failed",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-27 15:06:35.567",
+      "actionClass": "S",
+      "voteID": "1437",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "13-12-4",
+      "actionCode": "SFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ filed",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-02-27 15:06:38.567",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SFILED",
       "parm1": "",
       "parm2": ""
     }

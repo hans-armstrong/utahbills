@@ -1,6 +1,6 @@
 {
   "bill_id": 2089699,
-  "change_hash": "ede6f3e50268589c70a68562046c50ef",
+  "change_hash": "477b4cb6f63a154746a242bdbf33a980",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-25",
       "event": 2
+    },
+    {
+      "date": "2026-02-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,12 +53,12 @@
   "current_body_id": 94,
   "title": "Inmate Medical Treatment Rates Amendments",
   "description": "Inmate Medical Treatment Rates Amendments",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2123,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2123,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Health and Human Services"
   },
   "referrals": [
     {
@@ -77,6 +81,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-27",
+      "committee_id": 2123,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Health and Human Services"
     }
   ],
   "history": [
@@ -296,6 +307,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ to standing committee in Senate Health and Human Services Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -742,6 +760,15 @@
       "time": "08:00",
       "location": "",
       "description": "House Health and Human Services Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "a392b2b2",
+      "type": "Hearing",
+      "date": "2026-03-02",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Health and Human Services Hearing"
     }
   ],
   "general_provisions": "This bill addresses medical treatment rates for inmates.",
@@ -752,19 +779,6 @@
   "gov_tracking_id": "OGUGFXAUOB",
   "comrecommend": [],
   "agendas": [
-    {
-      "mtgID": "20419",
-      "committeeID": "HSTHHS",
-      "mtgDate": "2026-02-17 08:00:00.0",
-      "agendaItem": "1",
-      "mtgPlace": "30 House Building",
-      "committeeName": "House Health and Human Services Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001684.htm",
-      "agendaURL": "/~2026/agenda/HHHS0217.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "297660"
-    },
     {
       "mtgID": "20203",
       "committeeID": "HSTHHS",
@@ -777,11 +791,24 @@
       "agendaURL": "/~2026/agenda/HHHS0212.ag.htm",
       "billSession": "2026GS",
       "markerID": "296829"
+    },
+    {
+      "mtgID": "20419",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2026-02-17 08:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001684.htm",
+      "agendaURL": "/~2026/agenda/HHHS0217.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "297660"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/26/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Health and Human Services Committee",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1183,6 +1210,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Health and Human Services Committee",
+      "actionDate": "2026-02-27 14:18:48.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

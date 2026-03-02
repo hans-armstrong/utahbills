@@ -1,6 +1,6 @@
 {
   "bill_id": 2111784,
-  "change_hash": "3f7b98f5c2f5237128cba023a746dd44",
+  "change_hash": "d9e0f424243cb40e1705e2a64050cc75",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-24",
       "event": 9
+    },
+    {
+      "date": "2026-02-27",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -49,13 +53,8 @@
   "current_body_id": 94,
   "title": "Joint Rules Resolution - Policy Development and Impact",
   "description": "Joint Rules Resolution - Policy Development and Impact",
-  "pending_committee_id": 2122,
-  "committee": {
-    "committee_id": 2122,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Government Operations and Political Subdivisions"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-09",
@@ -212,6 +211,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-02-26",
+      "action": "Senate Comm - Favorable Recommendation in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ committee report favorable in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -450,6 +470,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HJR023/id/1640237",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=652&house=H"
+    },
+    {
+      "roll_call_id": 1647402,
+      "date": "2026-02-26",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 6,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HJR023/id/1647402",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41214"
     }
   ],
   "amendments": [
@@ -515,6 +550,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 683658,
+      "date": "2026-02-26",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HJR023",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HJR023/id/683658",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HJR023S01.pdf",
+      "supplement_size": 18333,
+      "supplement_hash": "1e057c9ff556d6ec9b284946cb7e7d7b",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -546,19 +601,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "20557",
-      "committeeID": "HSTRUL",
-      "mtgDate": "2026-02-12 12:30:00.0",
-      "agendaItem": "5",
-      "mtgPlace": "450 State Capitol",
-      "committeeName": "House Rules Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001654.htm",
-      "agendaURL": "/~2026/agenda/HRUL0212.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "296740"
-    },
-    {
       "mtgID": "20440",
       "committeeID": "SSTGOP",
       "mtgDate": "2026-02-26 16:00:00.0",
@@ -570,11 +612,24 @@
       "agendaURL": "/~2026/agenda/SGOP0226.ag.htm",
       "billSession": "2026GS",
       "markerID": "301263"
+    },
+    {
+      "mtgID": "20557",
+      "committeeID": "HSTRUL",
+      "mtgDate": "2026-02-12 12:30:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "450 State Capitol",
+      "committeeName": "House Rules Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001654.htm",
+      "agendaURL": "/~2026/agenda/HRUL0212.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "296740"
     }
   ],
-  "last_action": "Senate Comm - Favorable Recommendation",
-  "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
-  "last_action_time": "2/26/2026",
+  "last_action": "Senate/ placed on 2nd Reading Calendar",
+  "last_action_owner": "Senate 2nd Reading Calendar",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -833,6 +888,32 @@
       "voteHouse": "",
       "voteStr": "6-0-1",
       "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2026-02-27 10:20:34.943",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-02-27 10:20:35.943",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2067866,
-  "change_hash": "2fcce6e4c66dfc91c24cc9cfb52d716a",
+  "change_hash": "35fb3e48cc34e674c6046b6c7b6152a2",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -303,6 +303,41 @@
     {
       "date": "2026-02-26",
       "action": "House/ placed on Concurrence Calendar in House Concurrence Calendar",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House/ concurs with Senate amendment in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House/ to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ received from House in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ signed by President/ returned to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ to House in House Speaker",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -630,6 +665,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/HB0177/id/1646207",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1213&house=S"
+    },
+    {
+      "roll_call_id": 1647946,
+      "date": "2026-02-27",
+      "desc": "House/ concurs with Senate amendment",
+      "yea": 69,
+      "nay": 0,
+      "nv": 0,
+      "absent": 6,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0177/id/1647946",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=971&house=H"
     }
   ],
   "amendments": [
@@ -767,19 +817,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "20483",
-      "committeeID": "SSTEDU",
-      "mtgDate": "2026-02-19 16:00:00.0",
-      "agendaItem": "6",
-      "mtgPlace": "210 Senate Building",
-      "committeeName": "Senate Education Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001817.htm",
-      "agendaURL": "/~2026/agenda/SEDU0219.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "299105"
-    },
-    {
       "mtgID": "20315",
       "committeeID": "HSTEDU",
       "mtgDate": "2026-01-30 14:00:00.0",
@@ -791,11 +828,24 @@
       "agendaURL": "/~2026/agenda/HEDU0130.ag.htm",
       "billSession": "2026GS",
       "markerID": "291987"
+    },
+    {
+      "mtgID": "20483",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-02-19 16:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001817.htm",
+      "agendaURL": "/~2026/agenda/SEDU0219.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299105"
     }
   ],
-  "last_action": "House/ placed on Concurrence Calendar",
-  "last_action_owner": "House Concurrence Calendar",
-  "last_action_time": "2/26/2026",
+  "last_action": "Senate/ to House",
+  "last_action_owner": "House Speaker",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1197,6 +1247,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HONCURCAL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ concurs with Senate amendment",
+      "owner": "Senate President",
+      "actionDate": "2026-02-27 10:31:07.897",
+      "actionClass": "H",
+      "voteID": "971",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "69-0-6",
+      "actionCode": "HCONCUR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "2026-02-27 10:31:08.910",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate President",
+      "actionDate": "2026-02-27 14:19:42.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ returned to House",
+      "owner": "House Speaker",
+      "actionDate": "2026-02-27 14:19:43.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGNH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "House Speaker",
+      "actionDate": "2026-02-27 14:19:44.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
       "parm1": "",
       "parm2": ""
     }

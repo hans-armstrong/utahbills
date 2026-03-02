@@ -1,6 +1,6 @@
 {
   "bill_id": 2101832,
-  "change_hash": "d53241f8723c70d51aeea80fac6cdd02",
+  "change_hash": "4e976c4f5277eb399894d6c5a303e09c",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -53,13 +53,8 @@
   "current_body_id": 93,
   "title": "Right to Try Amendments",
   "description": "Right to Try Amendments",
-  "pending_committee_id": 2108,
-  "committee": {
-    "committee_id": 2108,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Health and Human Services"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-30",
@@ -321,6 +316,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House Comm - Favorable Recommendation in House Health and Human Services Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -573,6 +575,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0222/id/1641854",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=924&house=S"
+    },
+    {
+      "roll_call_id": 1647871,
+      "date": "2026-02-27",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 10,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 14,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0222/id/1647871",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41339"
     }
   ],
   "amendments": [],
@@ -716,6 +733,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 684666,
+      "date": "2026-02-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0222",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0222/id/684666",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0222H01.pdf",
+      "supplement_size": 17540,
+      "supplement_hash": "ffcd43bf62fd605635547ce284476ea6",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -758,11 +795,24 @@
       "agendaURL": "/~2026/agenda/SHHS0203.ag.htm",
       "billSession": "2026GS",
       "markerID": "293164"
+    },
+    {
+      "mtgID": "20427",
+      "committeeID": "HSTHHS",
+      "mtgDate": "2026-02-27 16:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Health and Human Services Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HHHS0227.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "301745"
     }
   ],
-  "last_action": "House/ to standing committee",
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Health and Human Services Committee",
-  "last_action_time": "2/25/2026",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1190,6 +1240,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Health and Human Services Committee",
+      "actionDate": "2026-02-27 17:40:41.313",
+      "actionClass": "A",
+      "voteID": "41339",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "10-0-4",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

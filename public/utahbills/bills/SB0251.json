@@ -1,6 +1,6 @@
 {
   "bill_id": 2107131,
-  "change_hash": "24ced9d1046667ab61f998861c8d8a51",
+  "change_hash": "158a0445bc50bf24f572c47284429418",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-25",
       "event": 2
+    },
+    {
+      "date": "2026-02-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,12 +53,12 @@
   "current_body_id": 93,
   "title": "Local Health Department and Department of Environmental Quality Coordination",
   "description": "Local Health Department and Department of Environmental Quality Coordination",
-  "pending_committee_id": 2116,
+  "pending_committee_id": 2111,
   "committee": {
-    "committee_id": 2116,
+    "committee_id": 2111,
     "chamber": "H",
     "chamber_id": 93,
-    "name": "Rules"
+    "name": "Natural Resources, Agriculture, and Environment"
   },
   "referrals": [
     {
@@ -77,6 +81,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-27",
+      "committee_id": 2111,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Natural Resources, Agriculture, and Environment"
     }
   ],
   "history": [
@@ -233,6 +244,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House/ to standing committee in House Natural Resources, Agriculture, and Environment Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -515,6 +533,15 @@
       "time": "14:05",
       "location": "",
       "description": "Senate Revenue and Taxation Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "15bde569",
+      "type": "Hearing",
+      "date": "2026-03-02",
+      "time": "08:10",
+      "location": "",
+      "description": "House Natural Resources, Agriculture, and Environment Hearing"
     }
   ],
   "general_provisions": "This bill addresses civil penalties and reporting related to public health and the environment.",
@@ -539,9 +566,9 @@
       "markerID": "296379"
     }
   ],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/25/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Natural Resources, Agriculture, and Environment Committee",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -826,6 +853,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Natural Resources, Agriculture, and Environment Committee",
+      "actionDate": "2026-02-27 11:53:43.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
       "parm1": "",
       "parm2": ""
     }

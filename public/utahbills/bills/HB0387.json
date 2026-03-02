@@ -1,6 +1,6 @@
 {
   "bill_id": 2093795,
-  "change_hash": "5302536000914299a3ec88b08bb7765f",
+  "change_hash": "38b21a630847993f43a48c15ae40f229",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-18",
       "event": 2
+    },
+    {
+      "date": "2026-02-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,12 +53,12 @@
   "current_body_id": 94,
   "title": "Kratom Modifications",
   "description": "Kratom Modifications",
-  "pending_committee_id": 2128,
+  "pending_committee_id": 2119,
   "committee": {
-    "committee_id": 2128,
+    "committee_id": 2119,
     "chamber": "S",
     "chamber_id": 94,
-    "name": "Rules"
+    "name": "Business and Labor"
   },
   "referrals": [
     {
@@ -77,6 +81,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-27",
+      "committee_id": 2119,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Business and Labor"
     }
   ],
   "history": [
@@ -205,6 +216,13 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Senate/ to standing committee in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -1148,6 +1166,15 @@
       "time": "15:40",
       "location": "",
       "description": "House Business, Labor, and Commerce Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "b637e317",
+      "type": "Hearing",
+      "date": "2026-03-02",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Business and Labor Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions related to kratom.",
@@ -1172,9 +1199,9 @@
       "markerID": "295389"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/18/2026",
+  "last_action": "Senate/ to standing committee",
+  "last_action_owner": "Senate Business and Labor Committee",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1407,6 +1434,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to standing committee",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2026-02-27 14:18:48.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOSTAND",
       "parm1": "",
       "parm2": ""
     }

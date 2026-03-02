@@ -1,6 +1,6 @@
 {
   "bill_id": 2105083,
-  "change_hash": "456188d28c9352ccd78879385fc23259",
+  "change_hash": "9ffb5ec5fb2c2063ac7618c28c5be886",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -53,13 +53,8 @@
   "current_body_id": 93,
   "title": "Higher Education Institutional Governance",
   "description": "Higher Education Institutional Governance",
-  "pending_committee_id": 2105,
-  "committee": {
-    "committee_id": 2105,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-03",
@@ -293,6 +288,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House Comm - Favorable Recommendation in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -596,6 +598,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0240/id/1642155",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1002&house=S"
+    },
+    {
+      "roll_call_id": 1647950,
+      "date": "2026-02-27",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 7,
+      "total": 15,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0240/id/1647950",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41326"
     }
   ],
   "amendments": [
@@ -701,6 +718,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 684927,
+      "date": "2026-02-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0240",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0240/id/684927",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0240H02.pdf",
+      "supplement_size": 17610,
+      "supplement_hash": "a43138358724a93148e331e00437b660",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -743,11 +780,24 @@
       "agendaURL": "/~2026/agenda/SEDU0206.ag.htm",
       "billSession": "2026GS",
       "markerID": "294792"
+    },
+    {
+      "mtgID": "20519",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-02-27 16:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HEDU0227.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "301690"
     }
   ],
-  "last_action": "House/ to standing committee",
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Education Committee",
-  "last_action_time": "2/25/2026",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1123,6 +1173,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Education Committee",
+      "actionDate": "2026-02-27 17:20:07.713",
+      "actionClass": "A",
+      "voteID": "41326",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-7",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

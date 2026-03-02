@@ -1,6 +1,6 @@
 {
   "bill_id": 2093458,
-  "change_hash": "0bac6bfb21341e1c9583431b04d06bba",
+  "change_hash": "028c7c621a8e1a4a32270b9358bf04f4",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-25",
       "event": 2
+    },
+    {
+      "date": "2026-02-27",
+      "event": 9
     }
   ],
   "state": "UT",
@@ -49,13 +53,8 @@
   "current_body_id": 93,
   "title": "Wrongful Lien Act Amendments",
   "description": "Wrongful Lien Act Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-26",
@@ -77,6 +76,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-02-27",
+      "committee_id": 2112,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Political Subdivisions"
     }
   ],
   "history": [
@@ -268,6 +274,41 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House/ to standing committee in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-27",
+      "action": "LFA/ bill assigned to staff for fiscal analysis for SB0196S02 in Legislative Fiscal Analyst",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "LFA/ bill sent to agencies for fiscal input for SB0196S02 in Legislative Fiscal Agency",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-28",
+      "action": "LFA/ fiscal note sent to sponsor for SB0196S02 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-02-28",
+      "action": "LFA/ fiscal note publicly available for SB0196S02 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -413,18 +454,6 @@
     {
       "subject_id": 11871,
       "subject_name": "Business"
-    },
-    {
-      "subject_id": 11874,
-      "subject_name": "Motor Vehicles"
-    },
-    {
-      "subject_id": 11875,
-      "subject_name": "Transportation"
-    },
-    {
-      "subject_id": 342054,
-      "subject_name": "Repair and Maintenance Services"
     }
   ],
   "texts": [
@@ -475,6 +504,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_SB0196S01_2026-02-13_10-59-00.pdf",
       "text_size": 61947,
       "text_hash": "2d446278c9d7e9c5116118f5b1994bb0",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3380300,
+      "date": "2026-02-27",
+      "type": "Substitute",
+      "type_id": 14,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0196/id/3380300",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0196S02.pdf",
+      "text_size": 43733,
+      "text_hash": "d859528676606ecfaff1758305d2d7cb",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -663,6 +710,66 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 685015,
+      "date": "2026-02-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Original Bill",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0196/id/685015",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0196%20To%20SB0196S02.pdf",
+      "supplement_size": 45245,
+      "supplement_hash": "c314352dc4c415ef7c805876d6684007",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 685016,
+      "date": "2026-02-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Comparison to Sub #1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0196/id/685016",
+      "state_link": "https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0196S01%20To%20SB0196S02.pdf",
+      "supplement_size": 65719,
+      "supplement_hash": "1104172b51f54fa4e98ce704094dc274",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 685673,
+      "date": "2026-02-28",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note SB0196S02",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0196/id/685673",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/SB0196S02.fn.pdf",
+      "supplement_size": 1608365,
+      "supplement_hash": "9581b0ebbef20a726fc14cb95d7d1303",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -683,6 +790,15 @@
       "time": "08:00",
       "location": "",
       "description": "Senate Business and Labor Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "8c0ca200",
+      "type": "Hearing",
+      "date": "2026-03-02",
+      "time": "16:00",
+      "location": "",
+      "description": "House Political Subdivisions Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions related to wrongful liens.",
@@ -693,19 +809,6 @@
   "gov_tracking_id": "FWMPPWIMLE",
   "comrecommend": [],
   "agendas": [
-    {
-      "mtgID": "20290",
-      "committeeID": "SSTBUS",
-      "mtgDate": "2026-02-12 08:00:00.0",
-      "agendaItem": "1",
-      "mtgPlace": "120 Senate Building",
-      "committeeName": "Senate Business and Labor Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001703.htm",
-      "agendaURL": "/~2026/agenda/SBUS0212.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "296450"
-    },
     {
       "mtgID": "20288",
       "committeeID": "SSTBUS",
@@ -718,11 +821,24 @@
       "agendaURL": "/~2026/agenda/SBUS0203.ag.htm",
       "billSession": "2026GS",
       "markerID": ""
+    },
+    {
+      "mtgID": "20290",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2026-02-12 08:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001703.htm",
+      "agendaURL": "/~2026/agenda/SBUS0212.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "296450"
     }
   ],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/25/2026",
+  "last_action": "House/ to standing committee",
+  "last_action_owner": "House Political Subdivisions Committee",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1072,6 +1188,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2026-02-27 11:53:51.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill assigned to staff for fiscal analysis for SB0196S02",
+      "owner": "Legislative Fiscal Analyst",
+      "actionDate": "2026-02-27 15:13:01.843",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ bill sent to agencies for fiscal input for SB0196S02",
+      "owner": "Legislative Fiscal Agency",
+      "actionDate": "2026-02-27 15:13:01.843",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for SB0196S02",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-28 09:56:57.047",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for SB0196S02",
+      "owner": "Released",
+      "actionDate": "2026-02-28 22:50:41.120",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2100938,
-  "change_hash": "8a347f1eff69bf182809f1e4a0e7681e",
+  "change_hash": "7f28c4f1b14ef68fdee4374b64dde84c",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -53,13 +53,8 @@
   "current_body_id": 93,
   "title": "Constable Modifications",
   "description": "Constable Modifications",
-  "pending_committee_id": 5042,
-  "committee": {
-    "committee_id": 5042,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Business, Labor, and Commerce"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-29",
@@ -328,6 +323,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-02-27",
+      "action": "House Comm - Favorable Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -623,6 +625,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0218/id/1644535",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1146&house=S"
+    },
+    {
+      "roll_call_id": 1648081,
+      "date": "2026-02-27",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 12,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0218/id/1648081",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41332"
     }
   ],
   "amendments": [],
@@ -726,6 +743,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 685097,
+      "date": "2026-02-27",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0218",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0218/id/685097",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0218H01.pdf",
+      "supplement_size": 17538,
+      "supplement_hash": "cf4970dd764a9b2be867af78b6d86042",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -768,11 +805,24 @@
       "agendaURL": "/~2026/agenda/SBUS0206.ag.htm",
       "billSession": "2026GS",
       "markerID": "294817"
+    },
+    {
+      "mtgID": "20500",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2026-02-27 16:00:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HBUS0227.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "301726"
     }
   ],
-  "last_action": "House/ to standing committee",
+  "last_action": "House Comm - Favorable Recommendation",
   "last_action_owner": "House Business, Labor, and Commerce Committee",
-  "last_action_time": "2/26/2026",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1213,6 +1263,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-02-27 17:30:58.607",
+      "actionClass": "A",
+      "voteID": "41332",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-0-4",
+      "actionCode": "HCAFAV",
       "parm1": "",
       "parm2": ""
     }

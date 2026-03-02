@@ -1,6 +1,6 @@
 {
   "bill_id": 2060943,
-  "change_hash": "2700d694a4fe4cd0132a07ce5e9d1fcf",
+  "change_hash": "1f7dcc76ef558bfd9ba44c7388b45498",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0075/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0075.html",
-  "completed": 0,
-  "status": 3,
-  "status_date": "2026-02-19",
+  "completed": 1,
+  "status": 4,
+  "status_date": "2026-02-27",
   "progress": [
     {
       "date": "2026-01-20",
@@ -48,6 +48,10 @@
     {
       "date": "2026-02-19",
       "event": 3
+    },
+    {
+      "date": "2026-02-27",
+      "event": 4
     }
   ],
   "state": "UT",
@@ -345,6 +349,13 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-02-27",
+      "action": "Governor Signed in Lieutenant Governor's office for filing",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -801,19 +812,6 @@
   ],
   "agendas": [
     {
-      "mtgID": "20313",
-      "committeeID": "HSTEDU",
-      "mtgDate": "2026-01-22 14:00:00.0",
-      "agendaItem": "6",
-      "mtgPlace": "120 Senate Building",
-      "committeeName": "House Education Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00000455.htm",
-      "agendaURL": "/~2026/agenda/HEDU0122.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "288185"
-    },
-    {
       "mtgID": "20270",
       "committeeID": "SSTEDU",
       "mtgDate": "2026-02-06 15:40:00.0",
@@ -825,11 +823,24 @@
       "agendaURL": "/~2026/agenda/SEDU0206.ag.htm",
       "billSession": "2026GS",
       "markerID": "295036"
+    },
+    {
+      "mtgID": "20313",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-01-22 14:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00000455.htm",
+      "agendaURL": "/~2026/agenda/HEDU0122.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "288185"
     }
   ],
-  "last_action": "House/ to Governor",
-  "last_action_owner": "Executive Branch - Governor",
-  "last_action_time": "2/20/2026",
+  "last_action": "Governor Signed",
+  "last_action_owner": "Lieutenant Governor's office for filing",
+  "last_action_time": "2/27/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1296,6 +1307,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOGOV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Governor Signed",
+      "owner": "Lieutenant Governor's office for filing",
+      "actionDate": "2026-02-27 14:55:00.940",
+      "actionClass": "G",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "GSIGN",
       "parm1": "",
       "parm2": ""
     }
