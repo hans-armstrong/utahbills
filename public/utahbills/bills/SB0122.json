@@ -1,6 +1,6 @@
 {
   "bill_id": 2071242,
-  "change_hash": "3db71c7af0f71ea288cc2a97f6650cdb",
+  "change_hash": "433a7defe651c7ee60bc43cbeb90aedf",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -53,8 +53,8 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "HOA Amendments",
   "description": "HOA Amendments",
   "pending_committee_id": 0,
@@ -404,6 +404,27 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "House/ uncircled in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -749,6 +770,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/SB0122/id/1639111",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40616"
+    },
+    {
+      "roll_call_id": 1655503,
+      "date": "2026-03-05",
+      "desc": "House/ passed 3rd reading",
+      "yea": 67,
+      "nay": 0,
+      "nv": 0,
+      "absent": 8,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0122/id/1655503",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1353&house=H"
     }
   ],
   "amendments": [
@@ -1063,19 +1099,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "20450",
-      "committeeID": "HSTPOL",
-      "mtgDate": "2026-02-19 16:00:00.0",
-      "agendaItem": "3",
-      "mtgPlace": "220 Senate Building",
-      "committeeName": "House Political Subdivisions Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001800.htm",
-      "agendaURL": "/~2026/agenda/HPOL0219.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "298954"
-    },
-    {
       "mtgID": "20262",
       "committeeID": "SSTEDW",
       "mtgDate": "2026-01-23 14:00:00.0",
@@ -1087,11 +1110,24 @@
       "agendaURL": "/~2026/agenda/SEDW0123.ag.htm",
       "billSession": "2026GS",
       "markerID": "288752"
+    },
+    {
+      "mtgID": "20450",
+      "committeeID": "HSTPOL",
+      "mtgDate": "2026-02-19 16:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "House Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001800.htm",
+      "agendaURL": "/~2026/agenda/HPOL0219.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "298954"
     }
   ],
-  "last_action": "House/ circled",
-  "last_action_owner": "House 3rd Reading Calendar for Senate bills",
-  "last_action_time": "2/26/2026",
+  "last_action": "House/ to Senate",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "3/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1675,6 +1711,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ uncircled",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2026-03-05 16:39:21.967",
+      "actionClass": "H",
+      "voteID": "1352",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-05 16:46:02.367",
+      "actionClass": "H",
+      "voteID": "1353",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "67-0-8",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-05 16:46:04.367",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2067477,
-  "change_hash": "c2c6b225ac624cc207c36c83b1f90c81",
+  "change_hash": "e8df8d50775cf2c21c3c30404d057624",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-25",
       "event": 9
+    },
+    {
+      "date": "2026-03-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Joint Resolution Regarding LEA Reporting Requirements",
   "description": "Joint Resolution Regarding LEA Reporting Requirements",
-  "pending_committee_id": 2120,
-  "committee": {
-    "committee_id": 2120,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -223,6 +222,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-03-02",
+      "action": "Senate Comm - Favorable Recommendation in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "Senate/ committee report favorable in Senate Education Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-03",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ 2nd Reading Calendar to Rules in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -440,6 +467,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HJR008/id/1640679",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=684&house=H"
+    },
+    {
+      "roll_call_id": 1650082,
+      "date": "2026-03-02",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 3,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HJR008/id/1650082",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41554"
     }
   ],
   "amendments": [],
@@ -483,6 +525,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 687197,
+      "date": "2026-03-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HJR008",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HJR008/id/687197",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HJR008S01.pdf",
+      "supplement_size": 18295,
+      "supplement_hash": "db9696b2d731b6e9b67831534c1dc6ea",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -514,6 +576,19 @@
   "comrecommend": [],
   "agendas": [
     {
+      "mtgID": "20487",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-03-02 16:00:00.0",
+      "agendaItem": "9",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00002035.htm",
+      "agendaURL": "/~2026/agenda/SEDU0302.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "302530"
+    },
+    {
       "mtgID": "20513",
       "committeeID": "HSTEDU",
       "mtgDate": "2026-02-18 16:00:00.0",
@@ -527,9 +602,9 @@
       "markerID": "298673"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Education Committee",
-  "last_action_time": "2/25/2026",
+  "last_action": "Senate/ 2nd Reading Calendar to Rules",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "3/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -775,6 +850,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-03-02 18:13:44.927",
+      "actionClass": "A",
+      "voteID": "41554",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-0-4",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Education Committee",
+      "actionDate": "2026-03-03 09:33:04.387",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-03 09:33:05.387",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd Reading Calendar to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-03-04 17:03:14.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "S2NDTORUL",
       "parm1": "",
       "parm2": ""
     }

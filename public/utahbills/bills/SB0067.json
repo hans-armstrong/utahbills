@@ -1,6 +1,6 @@
 {
   "bill_id": 2064975,
-  "change_hash": "f3c5b1f26fa49424ac39955d2dd56055",
+  "change_hash": "f49427db18ac48ba484e9d260dd84c17",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SB0067/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0067.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2026-02-27",
   "progress": [
     {
@@ -36,6 +36,14 @@
     {
       "date": "2026-02-27",
       "event": 2
+    },
+    {
+      "date": "2026-03-02",
+      "event": 9
+    },
+    {
+      "date": "2026-03-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -65,6 +73,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Judiciary, Law Enforcement, and Criminal Justice"
+    },
+    {
+      "date": "2026-03-02",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-03-02",
+      "committee_id": 5049,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Public Utilities and Energy"
     }
   ],
   "history": [
@@ -214,6 +236,48 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ to standing committee in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House Comm - Favorable Recommendation in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ committee report favorable in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ 3rd Reading Calendar to Rules in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -434,6 +498,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0067/id/1648126",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1419&house=S"
+    },
+    {
+      "roll_call_id": 1649270,
+      "date": "2026-03-02",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 8,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0067/id/1649270",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41490"
     }
   ],
   "amendments": [],
@@ -471,6 +550,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0067S02.pdf",
       "supplement_size": 18304,
       "supplement_hash": "23cb2547f229e801f7eaf5875d1375f2",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 686604,
+      "date": "2026-03-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0067",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0067/id/686604",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0067H02.pdf",
+      "supplement_size": 17535,
+      "supplement_hash": "b72d22fdddcca8e7cc654ce2c6698157",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -563,11 +662,24 @@
       "agendaURL": "/~2026/agenda/SJLC0220.ag.htm",
       "billSession": "2026GS",
       "markerID": "299176"
+    },
+    {
+      "mtgID": "20530",
+      "committeeID": "HSTPUT",
+      "mtgDate": "2026-03-02 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Public Utilities and Energy Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HPUT0302.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "302300"
     }
   ],
-  "last_action": "House/ received from Senate",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/27/2026",
+  "last_action": "House/ 3rd Reading Calendar to Rules",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "3/3/2026",
   "action_history": [
     {
       "description": "LFA/ bill assigned to staff for fiscal analysis for SB0067",
@@ -839,6 +951,84 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-03-02 10:19:05.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "2026-03-02 12:11:53.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "2026-03-02 16:25:07.690",
+      "actionClass": "A",
+      "voteID": "41490",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-0-4",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "2026-03-03 09:22:39.433",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2026-03-03 09:22:40.433",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd Reading Calendar to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-03-03 19:57:36.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "H3RDTORUL",
       "parm1": "",
       "parm2": ""
     }

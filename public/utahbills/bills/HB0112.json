@@ -1,6 +1,6 @@
 {
   "bill_id": 2061192,
-  "change_hash": "fd1cee504e694be92da28408f6d165e2",
+  "change_hash": "4dc3e059d4724bfa355553791c506f58",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -53,13 +53,8 @@
   "current_body_id": 94,
   "title": "Political Advertising Amendments",
   "description": "Political Advertising Amendments",
-  "pending_committee_id": 2127,
-  "committee": {
-    "committee_id": 2127,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Revenue and Taxation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -335,6 +330,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-03-03",
+      "action": "Senate Comm - Motion to Recommend Failed in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate Comm - Recommends Returned to Rules in Senate Revenue and Taxation Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -636,6 +645,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0112/id/1644888",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=844&house=H"
+    },
+    {
+      "roll_call_id": 1651591,
+      "date": "2026-03-03",
+      "desc": "Senate Comm - Motion to Recommend Failed",
+      "yea": 2,
+      "nay": 3,
+      "nv": 0,
+      "absent": 2,
+      "total": 7,
+      "passed": 0,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0112/id/1651591",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41707"
     }
   ],
   "amendments": [],
@@ -859,6 +883,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 689412,
+      "date": "2026-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0112",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0112/id/689412",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0112S02.pdf",
+      "supplement_size": 18374,
+      "supplement_hash": "d07d1809cc40a844b5a53d1d0f79d00f",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -879,6 +923,15 @@
       "time": "16:00",
       "location": "",
       "description": "House Government Operations Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "aa80b391",
+      "type": "Hearing",
+      "date": "2026-03-03",
+      "time": "16:00",
+      "location": "",
+      "description": "Senate Revenue and Taxation Hearing"
     }
   ],
   "general_provisions": "This bill amends provisions related to political advertising.",
@@ -903,6 +956,19 @@
       "markerID": "293257"
     },
     {
+      "mtgID": "20475",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-03-03 16:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SREV0303.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "303101"
+    },
+    {
       "mtgID": "20551",
       "committeeID": "HSTGOC",
       "mtgDate": "2026-02-19 16:00:00.0",
@@ -916,9 +982,9 @@
       "markerID": "299075"
     }
   ],
-  "last_action": "Senate/ to standing committee",
+  "last_action": "Senate Comm - Recommends Returned to Rules",
   "last_action_owner": "Senate Revenue and Taxation Committee",
-  "last_action_time": "2/27/2026",
+  "last_action_time": "3/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1372,6 +1438,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Motion to Recommend Failed",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2026-03-03 17:57:37.143",
+      "actionClass": "A",
+      "voteID": "41707",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "2-3-2",
+      "actionCode": "SCAFAVFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Recommends Returned to Rules",
+      "owner": "Senate Revenue and Taxation Committee",
+      "actionDate": "2026-03-04 14:22:44.503",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCARUL",
       "parm1": "",
       "parm2": ""
     }

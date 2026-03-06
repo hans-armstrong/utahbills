@@ -1,6 +1,6 @@
 {
   "bill_id": 2086824,
-  "change_hash": "4f2a677caae6c5725a96b228a47f9294",
+  "change_hash": "dc4b0d00a0d4f8bf08ecf870697ea365",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -19,7 +19,7 @@
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0164.html",
   "completed": 0,
   "status": 3,
-  "status_date": "2026-02-18",
+  "status_date": "2026-03-05",
   "progress": [
     {
       "date": "2026-01-21",
@@ -44,6 +44,10 @@
     {
       "date": "2026-02-25",
       "event": 10
+    },
+    {
+      "date": "2026-03-05",
+      "event": 3
     }
   ],
   "state": "UT",
@@ -404,6 +408,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "Enrolled Bill Returned to House or Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "Senate/ enrolled bill to Printing in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -627,6 +645,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0164S02.pdf",
       "text_size": 169133,
       "text_hash": "8433c80f1f61f7528741e9d7775211d6",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3386518,
+      "date": "2026-03-05",
+      "type": "Enrolled",
+      "type_id": 5,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0164/id/3386518",
+      "state_link": "https://le.utah.gov/Session/2026/bills/enrolled/SB0164.pdf",
+      "text_size": 168933,
+      "text_hash": "96f33495004113b02e65f3fef5d648f5",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -930,9 +966,9 @@
       "markerID": "299948"
     }
   ],
-  "last_action": "Draft of Enrolled Bill Prepared",
-  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
-  "last_action_time": "3/2/2026",
+  "last_action": "Senate/ enrolled bill to Printing",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "3/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1516,6 +1552,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LENROLL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Enrolled Bill Returned to House or Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-05 17:56:04.820",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LPASSREV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ enrolled bill to Printing",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-05 17:56:11.503",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOPRINTEN",
       "parm1": "",
       "parm2": ""
     }

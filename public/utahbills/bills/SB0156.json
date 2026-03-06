@@ -1,6 +1,6 @@
 {
   "bill_id": 2085904,
-  "change_hash": "43f9d56d223e7c30486d56a323f6de83",
+  "change_hash": "d2541176bca9b0dc4a5ff57fa5356b89",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-23",
       "event": 9
+    },
+    {
+      "date": "2026-03-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 93,
   "title": "Constable Amendments",
   "description": "Constable Amendments",
-  "pending_committee_id": 2109,
-  "committee": {
-    "committee_id": 2109,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Judiciary"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -272,6 +271,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House Comm - Favorable Recommendation in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ committee report favorable in House Judiciary Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ 3rd Reading Calendar to Rules in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -510,6 +537,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0156/id/1635144",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=517&house=S"
+    },
+    {
+      "roll_call_id": 1651886,
+      "date": "2026-03-03",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0156/id/1651886",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41656"
     }
   ],
   "amendments": [],
@@ -593,6 +635,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 688534,
+      "date": "2026-03-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0156",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0156/id/688534",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0156H01.pdf",
+      "supplement_size": 17527,
+      "supplement_hash": "583e7328452c0120101debd5cc734f28",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -604,6 +666,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "f94ca1d8",
+      "type": "Hearing",
+      "date": "2026-03-03",
+      "time": "16:00",
+      "location": "",
+      "description": "House Judiciary Hearing"
     }
   ],
   "general_provisions": "This bill allows a constable to establish a payment schedule with an individual instead of seizing the individual's property, under certain circumstances. ",
@@ -626,11 +697,24 @@
       "agendaURL": "/~2026/agenda/SJLC0127.ag.htm",
       "billSession": "2026GS",
       "markerID": "290014"
+    },
+    {
+      "mtgID": "20549",
+      "committeeID": "HSTJUD",
+      "mtgDate": "2026-03-03 16:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Judiciary Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HJUD0303.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "302923"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Judiciary Committee",
-  "last_action_time": "2/23/2026",
+  "last_action": "House/ 3rd Reading Calendar to Rules",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "3/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -967,6 +1051,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2026-03-03 16:26:49.083",
+      "actionClass": "A",
+      "voteID": "41656",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-2",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Judiciary Committee",
+      "actionDate": "2026-03-03 19:32:54.810",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2026-03-03 19:32:55.810",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd Reading Calendar to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-03-03 19:57:36.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "H3RDTORUL",
       "parm1": "",
       "parm2": ""
     }

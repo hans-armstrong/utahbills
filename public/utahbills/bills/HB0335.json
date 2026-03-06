@@ -1,6 +1,6 @@
 {
   "bill_id": 2090880,
-  "change_hash": "9d67ff0399ec90220331650df5a522a8",
+  "change_hash": "313b5d9ec60e15e4b55d9099044697da",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-04",
       "event": 9
+    },
+    {
+      "date": "2026-03-05",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -213,6 +217,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House Comm - Recommends Returned to Rules in House Political Subdivisions Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "House/ comm rpt/ sent to Rules/ substituted in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -551,6 +569,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 686778,
+      "date": "2026-03-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0335",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0335/id/686778",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0335H02.pdf",
+      "supplement_size": 17689,
+      "supplement_hash": "ba8fd8d7f953ba4621fbfba1926ec276",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -582,19 +620,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "20298",
-      "committeeID": "HSTPOL",
-      "mtgDate": "2026-02-13 14:00:00.0",
-      "agendaItem": "1",
-      "mtgPlace": "220 Senate Building",
-      "committeeName": "House Political Subdivisions Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001683.htm",
-      "agendaURL": "/~2026/agenda/HPOL0213.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "297517"
-    },
-    {
       "mtgID": "20297",
       "committeeID": "HSTPOL",
       "mtgDate": "2026-02-12 08:00:00.0",
@@ -606,11 +631,24 @@
       "agendaURL": "/~2026/agenda/HPOL0212.ag.htm",
       "billSession": "2026GS",
       "markerID": "296531"
+    },
+    {
+      "mtgID": "20298",
+      "committeeID": "HSTPOL",
+      "mtgDate": "2026-02-13 14:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "House Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001683.htm",
+      "agendaURL": "/~2026/agenda/HPOL0213.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "297517"
     }
   ],
-  "last_action": "House Comm - Motion to Recommend Failed",
-  "last_action_owner": "House Political Subdivisions Committee",
-  "last_action_time": "2/13/2026",
+  "last_action": "House/ comm rpt/ sent to Rules/ substituted",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "3/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -895,6 +933,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Recommends Returned to Rules",
+      "owner": "House Political Subdivisions Committee",
+      "actionDate": "2026-03-02 17:24:02.457",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCARUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ sent to Rules/ substituted",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-03-05 10:14:26.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRRULSUB",
       "parm1": "",
       "parm2": ""
     }

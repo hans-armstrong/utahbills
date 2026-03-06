@@ -1,6 +1,6 @@
 {
   "bill_id": 2066094,
-  "change_hash": "a8566dd719ff5fa66f49b1e05afb0d06",
+  "change_hash": "cc9f12d0136ed7efe79e2e414a54dab5",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -317,6 +317,13 @@
     {
       "date": "2026-02-26",
       "action": "Senate/ circled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ 2nd Reading Calendar to Rules in Senate Rules Committee",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -774,19 +781,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "20484",
-      "committeeID": "SSTEDU",
-      "mtgDate": "2026-02-24 08:00:00.0",
-      "agendaItem": "3",
-      "mtgPlace": "210 Senate Building",
-      "committeeName": "Senate Education Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001876.htm",
-      "agendaURL": "/~2026/agenda/SEDU0224.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "299735"
-    },
-    {
       "mtgID": "20315",
       "committeeID": "HSTEDU",
       "mtgDate": "2026-01-30 14:00:00.0",
@@ -798,11 +792,24 @@
       "agendaURL": "/~2026/agenda/HEDU0130.ag.htm",
       "billSession": "2026GS",
       "markerID": "291927"
+    },
+    {
+      "mtgID": "20484",
+      "committeeID": "SSTEDU",
+      "mtgDate": "2026-02-24 08:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Education Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001876.htm",
+      "agendaURL": "/~2026/agenda/SEDU0224.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "299735"
     }
   ],
-  "last_action": "Senate/ circled",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/26/2026",
+  "last_action": "Senate/ 2nd Reading Calendar to Rules",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "3/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1230,6 +1237,19 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd Reading Calendar to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-03-04 17:03:05.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "S2NDTORUL",
       "parm1": "",
       "parm2": ""
     }

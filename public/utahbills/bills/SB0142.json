@@ -1,6 +1,6 @@
 {
   "bill_id": 2082469,
-  "change_hash": "4bede1d1cf9c31266968afe8f9cbe74e",
+  "change_hash": "1e3fbf8f88811dddc6c5c82f00cc114c",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -36,6 +36,14 @@
     {
       "date": "2026-02-24",
       "event": 2
+    },
+    {
+      "date": "2026-03-02",
+      "event": 9
+    },
+    {
+      "date": "2026-03-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -49,13 +57,8 @@
   "current_body_id": 93,
   "title": "Private Probation and Court Ordered Services Amendments",
   "description": "Private Probation and Court Ordered Services Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -77,6 +80,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Rules"
+    },
+    {
+      "date": "2026-03-02",
+      "committee_id": 2110,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Law Enforcement and Criminal Justice"
     }
   ],
   "history": [
@@ -251,6 +261,41 @@
     {
       "date": "2026-02-24",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ to standing committee in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House Comm - Favorable Recommendation in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ committee report favorable in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ 3rd Reading Calendar to Rules in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
@@ -515,6 +560,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0142/id/1642156",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1016&house=S"
+    },
+    {
+      "roll_call_id": 1651331,
+      "date": "2026-03-03",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0142/id/1651331",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41647"
     }
   ],
   "amendments": [
@@ -580,6 +640,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 688236,
+      "date": "2026-03-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0142",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0142/id/688236",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0142H02.pdf",
+      "supplement_size": 17557,
+      "supplement_hash": "cab93f1abe2dba290bd9763fbac2f0b1",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -591,6 +671,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Health and Human Services Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "a5e7aaf7",
+      "type": "Hearing",
+      "date": "2026-03-03",
+      "time": "16:00",
+      "location": "",
+      "description": "House Law Enforcement and Criminal Justice Hearing"
     }
   ],
   "general_provisions": "This bill modifies the Private Probation Provider Licensing Act.",
@@ -613,11 +702,24 @@
       "agendaURL": "/~2026/agenda/SHHS0126.ag.htm",
       "billSession": "2026GS",
       "markerID": "289350"
+    },
+    {
+      "mtgID": "20525",
+      "committeeID": "HSTLAW",
+      "mtgDate": "2026-03-03 16:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Law Enforcement and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HLAW0303.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "302898"
     }
   ],
-  "last_action": "House/ 1st reading (Introduced)",
+  "last_action": "House/ 3rd Reading Calendar to Rules",
   "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/24/2026",
+  "last_action_time": "3/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -941,6 +1043,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-03-02 16:00:46.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-03-03 16:21:14.853",
+      "actionClass": "A",
+      "voteID": "41647",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-4",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-03-03 19:34:26.260",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2026-03-03 19:34:27.260",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd Reading Calendar to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-03-03 19:57:36.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "H3RDTORUL",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2093795,
-  "change_hash": "38b21a630847993f43a48c15ae40f229",
+  "change_hash": "326eb3d00a40cd6a6b89107904f4564f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-27",
       "event": 9
+    },
+    {
+      "date": "2026-03-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Kratom Modifications",
   "description": "Kratom Modifications",
-  "pending_committee_id": 2119,
-  "committee": {
-    "committee_id": 2119,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Business and Labor"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-27",
@@ -223,6 +222,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-03-02",
+      "action": "Senate Comm - Favorable Recommendation in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "Senate/ committee report favorable in Senate Business and Labor Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-03",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ 2nd Reading Calendar to Rules in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -1112,6 +1139,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0387/id/1637061",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=524&house=H"
+    },
+    {
+      "roll_call_id": 1649979,
+      "date": "2026-03-02",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 1,
+      "nv": 0,
+      "absent": 2,
+      "total": 8,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0387/id/1649979",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41564"
     }
   ],
   "amendments": [],
@@ -1149,6 +1191,26 @@
       "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0387H02.pdf",
       "supplement_size": 17532,
       "supplement_hash": "3ff9209145edb3255f5239ce588460e5",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 687071,
+      "date": "2026-03-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0387",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0387/id/687071",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0387S01.pdf",
+      "supplement_size": 18296,
+      "supplement_hash": "ddca3d20b2b0267a15ed3b7406d64474",
       "alt_supplement": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -1197,11 +1259,24 @@
       "agendaURL": "/~2026/agenda/HBUS0209.ag.htm",
       "billSession": "2026GS",
       "markerID": "295389"
+    },
+    {
+      "mtgID": "20507",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2026-03-02 16:00:00.0",
+      "agendaItem": "8",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SBUS0302.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "302564"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Business and Labor Committee",
-  "last_action_time": "2/27/2026",
+  "last_action": "Senate/ 2nd Reading Calendar to Rules",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "3/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1447,6 +1522,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2026-03-02 19:03:34.833",
+      "actionClass": "A",
+      "voteID": "41564",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-1-2",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Business and Labor Committee",
+      "actionDate": "2026-03-03 09:33:02.183",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-03 09:33:03.183",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd Reading Calendar to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-03-04 17:03:14.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "S2NDTORUL",
       "parm1": "",
       "parm2": ""
     }

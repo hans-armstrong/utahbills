@@ -1,6 +1,6 @@
 {
   "bill_id": 2125091,
-  "change_hash": "9fac85ccbdb048e6f8da6c82f8b7c520",
+  "change_hash": "4c81dc186966e97beb0bb9b7903a04df",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -37,13 +37,8 @@
   "current_body_id": 93,
   "title": "Utah Supreme Court Referendum Amendments",
   "description": "Utah Supreme Court Referendum Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-26",
@@ -95,6 +90,27 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-03-02",
+      "action": "LFA/ fiscal note sent to sponsor for HB0600 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "LFA/ fiscal note publicly available for HB0600 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ received fiscal note from Fiscal Analyst in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -208,7 +224,28 @@
   ],
   "votes": [],
   "amendments": [],
-  "supplements": [],
+  "supplements": [
+    {
+      "supplement_id": 687204,
+      "date": "2026-03-02",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0600",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0600/id/687204",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0600.fn.pdf",
+      "supplement_size": 1609032,
+      "supplement_hash": "992b086084eafff147e405860633e11f",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
+    }
+  ],
   "calendar": [],
   "general_provisions": "This bill creates a referendum process for an opinion by the Utah Supreme Court.",
   "hilighted_provisions": "This bill:<hr><ltbullet>defines terms related to a referendum;<hr><ltbullet>creates a process by which an opinion by the Supreme Court is submitted or referred to the voters of Utah for their approval or rejection of the Supreme Court's determination that a state law is unconstitutional; and<hr><ltbullet>makes technical and conforming changes.",
@@ -218,9 +255,9 @@
   "gov_tracking_id": "OOKUJETBCQ",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
+  "last_action": "House/ received fiscal note from Fiscal Analyst",
   "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/26/2026",
+  "last_action_time": "3/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -297,6 +334,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0600",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-03-02 17:42:18.367",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0600",
+      "owner": "Released",
+      "actionDate": "2026-03-02 18:14:57.045",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received fiscal note from Fiscal Analyst",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-03-03 07:36:33.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECLFA",
       "parm1": "",
       "parm2": ""
     }

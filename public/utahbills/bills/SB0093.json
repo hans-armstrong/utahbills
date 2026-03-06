@@ -1,6 +1,6 @@
 {
   "bill_id": 2066527,
-  "change_hash": "8bc7c477728e50cc2fee534fb1eb1b10",
+  "change_hash": "33e75178c28d4ab7b08f39a08877fd9b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SB0093/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0093.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2026-02-27",
   "progress": [
     {
@@ -36,6 +36,14 @@
     {
       "date": "2026-02-27",
       "event": 2
+    },
+    {
+      "date": "2026-03-02",
+      "event": 9
+    },
+    {
+      "date": "2026-03-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -65,6 +73,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Judiciary, Law Enforcement, and Criminal Justice"
+    },
+    {
+      "date": "2026-03-02",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-03-02",
+      "committee_id": 2110,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Law Enforcement and Criminal Justice"
     }
   ],
   "history": [
@@ -207,6 +229,55 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ to standing committee in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House Comm - Favorable Recommendation in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ committee report favorable in House Law Enforcement and Criminal Justice Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ 3rd Reading Calendar to Rules in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "House/ Rules to 3rd Reading Calendar in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -472,6 +543,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0093/id/1644153",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1109&house=S"
+    },
+    {
+      "roll_call_id": 1651382,
+      "date": "2026-03-03",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 9,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 11,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0093/id/1651382",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41643"
     }
   ],
   "amendments": [
@@ -537,6 +623,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 688270,
+      "date": "2026-03-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0093",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0093/id/688270",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0093H02.pdf",
+      "supplement_size": 17538,
+      "supplement_hash": "a674ac316d2ff97d9187592235dbaf57",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -548,6 +654,15 @@
       "time": "14:00",
       "location": "",
       "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "a5e7aaf7",
+      "type": "Hearing",
+      "date": "2026-03-03",
+      "time": "16:00",
+      "location": "",
+      "description": "House Law Enforcement and Criminal Justice Hearing"
     }
   ],
   "general_provisions": "This bill addresses provisions related to correctional facilities.",
@@ -570,11 +685,24 @@
       "agendaURL": "/~2026/agenda/SJLC0212.ag.htm",
       "billSession": "2026GS",
       "markerID": "296842"
+    },
+    {
+      "mtgID": "20525",
+      "committeeID": "HSTLAW",
+      "mtgDate": "2026-03-03 16:00:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "30 House Building",
+      "committeeName": "House Law Enforcement and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00002038.htm",
+      "agendaURL": "/~2026/agenda/HLAW0303.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "302879"
     }
   ],
-  "last_action": "House/ received from Senate",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/27/2026",
+  "last_action": "House/ Rules to 3rd Reading Calendar",
+  "last_action_owner": "House 3rd Reading Calendar for Senate bills",
+  "last_action_time": "3/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -833,6 +961,97 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-03-02 10:19:05.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-03-02 12:11:47.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-03-03 16:17:32.370",
+      "actionClass": "A",
+      "voteID": "41643",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "9-0-2",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Law Enforcement and Criminal Justice Committee",
+      "actionDate": "2026-03-03 19:34:26.043",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2026-03-03 19:34:27.043",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd Reading Calendar to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-03-03 19:57:36.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "H3RDTORUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ Rules to 3rd Reading Calendar",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2026-03-05 12:31:56.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRUL3RD",
       "parm1": "",
       "parm2": ""
     }

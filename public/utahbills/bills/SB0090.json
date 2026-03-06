@@ -1,6 +1,6 @@
 {
   "bill_id": 2066228,
-  "change_hash": "2e7a4ff0d5dbda6c55723314089d5522",
+  "change_hash": "24306886840d24eb9e6de5a3db6a9c75",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SB0090/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0090.html",
   "completed": 0,
-  "status": 2,
+  "status": 3,
   "status_date": "2026-01-26",
   "progress": [
     {
@@ -53,8 +53,8 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Occupational Licenses for Veterans and Service Members",
   "description": "Occupational Licenses for Veterans and Service Members",
   "pending_committee_id": 0,
@@ -263,6 +263,55 @@
       "action": "House/ return to Rules due to fiscal impact in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ Rules to 3rd Reading Calendar in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "House/ passed 3rd reading in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "House/ signed by Speaker/ returned to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "House/ to Senate in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ received from House in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ signed by President/ sent for enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
       "importance": 0
     }
   ],
@@ -503,6 +552,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/SB0090/id/1625880",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39631"
+    },
+    {
+      "roll_call_id": 1652607,
+      "date": "2026-03-04",
+      "desc": "House/ passed 3rd reading",
+      "yea": 73,
+      "nay": 0,
+      "nv": 0,
+      "absent": 2,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0090/id/1652607",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1155&house=H"
     }
   ],
   "amendments": [],
@@ -597,19 +661,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "20285",
-      "committeeID": "SSTBUS",
-      "mtgDate": "2026-01-21 14:00:00.0",
-      "agendaItem": "9",
-      "mtgPlace": "220 Senate Building",
-      "committeeName": "Senate Business and Labor Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00000463.htm",
-      "agendaURL": "/~2026/agenda/SBUS0121.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "287556"
-    },
-    {
       "mtgID": "20277",
       "committeeID": "HSTGOC",
       "mtgDate": "2026-02-06 15:40:00.0",
@@ -621,11 +672,24 @@
       "agendaURL": "/~2026/agenda/HGOC0206.ag.htm",
       "billSession": "2026GS",
       "markerID": "294771"
+    },
+    {
+      "mtgID": "20285",
+      "committeeID": "SSTBUS",
+      "mtgDate": "2026-01-21 14:00:00.0",
+      "agendaItem": "9",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Business and Labor Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00000463.htm",
+      "agendaURL": "/~2026/agenda/SBUS0121.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "287556"
     }
   ],
-  "last_action": "House/ return to Rules due to fiscal impact",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/11/2026",
+  "last_action": "Senate/ signed by President/ sent for enrolling",
+  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
+  "last_action_time": "3/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -949,6 +1013,97 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRETRULFIS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ Rules to 3rd Reading Calendar",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2026-03-03 20:02:14.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRUL3RD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2026-03-04 10:42:14.770",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "House Speaker",
+      "actionDate": "2026-03-04 10:45:37.307",
+      "actionClass": "H",
+      "voteID": "1155",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "73-0-2",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ returned to Senate",
+      "owner": "Senate President",
+      "actionDate": "2026-03-04 10:45:38.307",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGNS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate President",
+      "actionDate": "2026-03-04 10:45:39.307",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate President",
+      "actionDate": "2026-03-04 17:25:00.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ sent for enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2026-03-04 17:25:01.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGN",
       "parm1": "",
       "parm2": ""
     }

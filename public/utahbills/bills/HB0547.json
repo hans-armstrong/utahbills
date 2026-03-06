@@ -1,6 +1,6 @@
 {
   "bill_id": 2114117,
-  "change_hash": "67539185c8dffed549a7fcea64f7cd59",
+  "change_hash": "ecdbd9c7fcf0945a2fe37f82cfac3f7e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-27",
       "event": 9
+    },
+    {
+      "date": "2026-03-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Transnational Repression Amendments",
   "description": "Transnational Repression Amendments",
-  "pending_committee_id": 2124,
-  "committee": {
-    "committee_id": 2124,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Judiciary, Law Enforcement, and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-11",
@@ -265,6 +264,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate Comm - Favorable Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ committee report favorable in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ 2nd Reading Calendar to Rules in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -594,9 +621,46 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0547/id/1644281",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=821&house=H"
+    },
+    {
+      "roll_call_id": 1653745,
+      "date": "2026-03-04",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 6,
+      "nay": 0,
+      "nv": 0,
+      "absent": 3,
+      "total": 9,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0547/id/1653745",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41756"
     }
   ],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 282000,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2026-03-04",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0547/id/282000",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0547S01.Hamd.1.pdf",
+      "amendment_size": 6565,
+      "amendment_hash": "da8a411d3c1bf9d4115f859cc433d9c0",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 669339,
@@ -677,6 +741,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 689969,
+      "date": "2026-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0547",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0547/id/689969",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0547S01.pdf",
+      "supplement_size": 18325,
+      "supplement_hash": "9ecd6a074ab2c98f59f1b2ba8691ed3d",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -688,6 +772,15 @@
       "time": "08:00",
       "location": "",
       "description": "House Judiciary Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "d0893586",
+      "type": "Hearing",
+      "date": "2026-03-04",
+      "time": "13:30",
+      "location": "",
+      "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
     }
   ],
   "general_provisions": "This bill addresses transnational repression by foreign governments and foreign terrorist organizations against individuals in this state.",
@@ -710,11 +803,24 @@
       "agendaURL": "/~2026/agenda/HJUD0223.ag.htm",
       "billSession": "2026GS",
       "markerID": "299383"
+    },
+    {
+      "mtgID": "20570",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2026-03-04 13:30:00.0",
+      "agendaItem": "9",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SJLC0304.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "303288"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-  "last_action_time": "2/27/2026",
+  "last_action": "Senate/ 2nd Reading Calendar to Rules",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "3/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1038,6 +1144,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2026-03-04 14:30:18.100",
+      "actionClass": "A",
+      "voteID": "41756",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "6-0-3",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2026-03-04 17:01:07.117",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-04 17:01:08.117",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd Reading Calendar to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-03-04 17:03:14.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "S2NDTORUL",
       "parm1": "",
       "parm2": ""
     }

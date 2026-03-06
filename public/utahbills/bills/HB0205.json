@@ -1,6 +1,6 @@
 {
   "bill_id": 2069152,
-  "change_hash": "0a7c1d95c9663d994fde578ee8cf333c",
+  "change_hash": "a8afed70772bd2b654d5c3bed9418ba8",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -282,6 +282,20 @@
     {
       "date": "2026-02-26",
       "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ 2nd Reading Calendar to Rules in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "Senate/ Rules to 2nd Reading Calendar in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -616,7 +630,29 @@
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41150"
     }
   ],
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": 281599,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2026-03-03",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0205/id/281599",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0205S01.Samd.1.pdf",
+      "amendment_size": 6738,
+      "amendment_hash": "b46a2a94f6d1665cec0d64c070d3d052",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    }
+  ],
   "supplements": [
     {
       "supplement_id": 646368,
@@ -748,19 +784,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "20492",
-      "committeeID": "SSTJLC",
-      "mtgDate": "2026-02-26 08:00:00.0",
-      "agendaItem": "5",
-      "mtgPlace": "210 Senate Building",
-      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001920.htm",
-      "agendaURL": "/~2026/agenda/SJLC0226.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "300973"
-    },
-    {
       "mtgID": "20212",
       "committeeID": "HSTLAW",
       "mtgDate": "2026-02-02 14:00:00.0",
@@ -772,11 +795,24 @@
       "agendaURL": "/~2026/agenda/HLAW0202.ag.htm",
       "billSession": "2026GS",
       "markerID": "292685"
+    },
+    {
+      "mtgID": "20492",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2026-02-26 08:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001920.htm",
+      "agendaURL": "/~2026/agenda/SJLC0226.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "300973"
     }
   ],
-  "last_action": "Senate/ placed on 2nd Reading Calendar",
-  "last_action_owner": "Senate 2nd Reading Calendar",
-  "last_action_time": "2/26/2026",
+  "last_action": "House/ placed on Concurrence Calendar",
+  "last_action_owner": "House Concurrence Calendar",
+  "last_action_time": "3/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1139,6 +1175,201 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd Reading Calendar to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-03-04 17:03:05.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "S2NDTORUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ Rules to 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-05 15:29:59.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRUL2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd & 3rd readings/ suspension",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-05 19:26:05.507",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD23SP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-05 19:26:18.450",
+      "actionClass": "S",
+      "voteID": "1950",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ uncircled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-05 20:02:57.937",
+      "actionClass": "S",
+      "voteID": "1963",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd & 3rd readings/ suspension",
+      "owner": "Senate President",
+      "actionDate": "2026-03-05 20:05:56.193",
+      "actionClass": "S",
+      "voteID": "1964",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "28-0-1",
+      "actionCode": "SPASS23SP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ returned to House",
+      "owner": "House Speaker",
+      "actionDate": "2026-03-05 20:05:57.193",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGNH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "House Speaker",
+      "actionDate": "2026-03-05 20:05:58.193",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ motion to reconsider",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-05 20:09:49.937",
+      "actionClass": "S",
+      "voteID": "1965",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SMOTREC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd & 3rd readings/ suspension",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-05 20:10:07.660",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD23SP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ floor amendment",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-05 20:10:39.450",
+      "actionClass": "S",
+      "voteID": "1966",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SAMEND",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd & 3rd readings/ suspension",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-05 20:12:25.147",
+      "actionClass": "S",
+      "voteID": "1967",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "28-0-1",
+      "actionCode": "SPASS23SP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House with amendments",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-05 20:12:26.147",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-05 20:34:56.283",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ placed on Concurrence Calendar",
+      "owner": "House Concurrence Calendar",
+      "actionDate": "2026-03-05 20:34:57.283",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HONCURCAL",
       "parm1": "",
       "parm2": ""
     }

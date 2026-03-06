@@ -1,6 +1,6 @@
 {
   "bill_id": 2082137,
-  "change_hash": "f14e5b037f67a42d8773d5fe3124df0a",
+  "change_hash": "7c1f16a62087bba07de643e3d2a45e35",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-27",
       "event": 9
+    },
+    {
+      "date": "2026-03-02",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 93,
   "title": "Utah Exemptions Act Amendments",
   "description": "Utah Exemptions Act Amendments",
-  "pending_committee_id": 2117,
-  "committee": {
-    "committee_id": 2117,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Transportation"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -244,6 +243,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House Comm - Favorable Recommendation in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ committee report favorable in House Transportation Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ 3rd Reading Calendar to Rules in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -494,6 +521,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0143/id/1644129",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1110&house=S"
+    },
+    {
+      "roll_call_id": 1648596,
+      "date": "2026-03-02",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 7,
+      "nay": 0,
+      "nv": 0,
+      "absent": 5,
+      "total": 12,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0143/id/1648596",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41392"
     }
   ],
   "amendments": [
@@ -559,6 +601,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 686147,
+      "date": "2026-03-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0143",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0143/id/686147",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0143H02.pdf",
+      "supplement_size": 17522,
+      "supplement_hash": "72a077703065a16ea16fc9373d77acf3",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -601,11 +663,24 @@
       "agendaURL": "/~2026/agenda/SJLC0212.ag.htm",
       "billSession": "2026GS",
       "markerID": "296870"
+    },
+    {
+      "mtgID": "20467",
+      "committeeID": "HSTTRA",
+      "mtgDate": "2026-03-02 08:10:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Transportation Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001982.htm",
+      "agendaURL": "/~2026/agenda/HTRA0302.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "301970"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Transportation Committee",
-  "last_action_time": "2/27/2026",
+  "last_action": "House/ 3rd Reading Calendar to Rules",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "3/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -890,6 +965,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Transportation Committee",
+      "actionDate": "2026-03-02 08:36:53.927",
+      "actionClass": "A",
+      "voteID": "41392",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "7-0-5",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Transportation Committee",
+      "actionDate": "2026-03-02 14:21:34.207",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2026-03-02 14:21:35.207",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd Reading Calendar to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-03-03 19:57:36.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "H3RDTORUL",
       "parm1": "",
       "parm2": ""
     }

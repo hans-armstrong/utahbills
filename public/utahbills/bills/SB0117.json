@@ -1,6 +1,6 @@
 {
   "bill_id": 2070080,
-  "change_hash": "01f96c98e11697a0dc852418681babe1",
+  "change_hash": "8604ed771fb5f66e0468f7b051178f28",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -19,7 +19,7 @@
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0117.html",
   "completed": 0,
   "status": 3,
-  "status_date": "2026-01-26",
+  "status_date": "2026-03-02",
   "progress": [
     {
       "date": "2026-01-20",
@@ -44,6 +44,10 @@
     {
       "date": "2026-02-05",
       "event": 10
+    },
+    {
+      "date": "2026-03-02",
+      "event": 3
     }
   ],
   "state": "UT",
@@ -383,6 +387,34 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "Enrolled Bill Returned to House or Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "Senate/ enrolled bill to Printing in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-03",
+      "action": "Senate/ received enrolled bill from Printing in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "Senate/ to Governor in Executive Branch - Governor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -586,6 +618,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SB0117S02.pdf",
       "text_size": 477570,
       "text_hash": "d9c7c16dab385e2d6e0dd1bfd2158462",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3381046,
+      "date": "2026-03-02",
+      "type": "Enrolled",
+      "type_id": 5,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0117/id/3381046",
+      "state_link": "https://le.utah.gov/Session/2026/bills/enrolled/SB0117.pdf",
+      "text_size": 477357,
+      "text_hash": "1f54cd9221427113277c83d51555ee4e",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -904,9 +954,9 @@
       "markerID": "287788"
     }
   ],
-  "last_action": "Draft of Enrolled Bill Prepared",
-  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
-  "last_action_time": "2/13/2026",
+  "last_action": "Senate/ to Governor",
+  "last_action_owner": "Executive Branch - Governor",
+  "last_action_time": "3/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1451,6 +1501,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LENROLL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Enrolled Bill Returned to House or Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-02 10:39:25.913",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LPASSREV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ enrolled bill to Printing",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-02 10:39:37.600",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOPRINTEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received enrolled bill from Printing",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-03 15:36:12.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECENRP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to Governor",
+      "owner": "Executive Branch - Governor",
+      "actionDate": "2026-03-03 15:36:14.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOGOV",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2111097,
-  "change_hash": "c437c104c2a9e68ca211bb448367d8d4",
+  "change_hash": "8b13a80a0fcdf6abe75e7326cb533091",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-26",
       "event": 9
+    },
+    {
+      "date": "2026-03-02",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -260,6 +264,20 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ comm rpt/ amended in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -471,6 +489,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_SB0268_2026-02-25_11-40-02.pdf",
       "text_size": 50470,
       "text_hash": "e8293ce4c673a8ca70000a08605006e8",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3381098,
+      "date": "2026-03-02",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0268/id/3381098",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_SB0268_2026-03-02_09-42-18.pdf",
+      "text_size": 51931,
+      "text_hash": "86fe76e63eb039f9c46bf5791e9ca056",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -789,15 +825,15 @@
       "mtgPlace": "120 Senate Building",
       "committeeName": "House Education Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00002001.htm",
       "agendaURL": "/~2026/agenda/HEDU0227.ag.htm",
       "billSession": "2026GS",
       "markerID": "301834"
     }
   ],
-  "last_action": "House Comm - Favorable Recommendation",
-  "last_action_owner": "House Education Committee",
-  "last_action_time": "2/27/2026",
+  "last_action": "House/ to Senate",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "3/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1121,6 +1157,71 @@
       "voteHouse": "",
       "voteStr": "10-0-5",
       "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ amended",
+      "owner": "House Education Committee",
+      "actionDate": "2026-03-02 10:27:45.773",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRAMD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2026-03-02 10:27:46.773",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2026-03-05 19:43:02.637",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-05 19:46:57.207",
+      "actionClass": "H",
+      "voteID": "1394",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "57-15-3",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-05 19:46:59.207",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
       "parm1": "",
       "parm2": ""
     }

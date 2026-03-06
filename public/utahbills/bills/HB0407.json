@@ -1,6 +1,6 @@
 {
   "bill_id": 2095693,
-  "change_hash": "04d4971870abc36e2eeaba287c81d8b0",
+  "change_hash": "3d2f39639d80cdd20048917298dc7c9e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,8 +18,8 @@
   "url": "https://legiscan.com/UT/bill/HB0407/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0407.html",
   "completed": 0,
-  "status": 1,
-  "status_date": "2026-01-28",
+  "status": 2,
+  "status_date": "2026-03-04",
   "progress": [
     {
       "date": "2026-01-28",
@@ -28,6 +28,14 @@
     {
       "date": "2026-02-25",
       "event": 9
+    },
+    {
+      "date": "2026-03-02",
+      "event": 10
+    },
+    {
+      "date": "2026-03-04",
+      "event": 2
     }
   ],
   "state": "UT",
@@ -37,12 +45,17 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Public Education Information System",
   "description": "Public Education Information System",
-  "pending_committee_id": 0,
-  "committee": [],
+  "pending_committee_id": 2128,
+  "committee": {
+    "committee_id": 2128,
+    "chamber": "S",
+    "chamber_id": 94,
+    "name": "Rules"
+  },
   "referrals": [
     {
       "date": "2026-01-28",
@@ -57,6 +70,13 @@
       "chamber": "H",
       "chamber_id": 93,
       "name": "Education"
+    },
+    {
+      "date": "2026-03-04",
+      "committee_id": 2128,
+      "chamber": "S",
+      "chamber_id": 94,
+      "name": "Rules"
     }
   ],
   "history": [
@@ -191,6 +211,90 @@
       "action": "House Comm - Favorable Recommendation in House Education Committee",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ comm rpt/ substituted in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ 3rd reading in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ circled in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "LFA/ fiscal note sent to sponsor for HB0407S02 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "LFA/ fiscal note publicly available for HB0407S02 in Released",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ uncircled in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ floor amendment in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ received from House in Waiting for Introduction in the Senate",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ 1st reading (Introduced) in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -337,6 +441,22 @@
     {
       "subject_id": 11846,
       "subject_name": "Education"
+    },
+    {
+      "subject_id": 332526,
+      "subject_name": "K-12 Education"
+    },
+    {
+      "subject_id": 12044,
+      "subject_name": "State Board of Education"
+    },
+    {
+      "subject_id": 383611,
+      "subject_name": "Local Education Agencies (LEAs)"
+    },
+    {
+      "subject_id": 335139,
+      "subject_name": "Public Education Data and Reporting"
     }
   ],
   "texts": [
@@ -393,6 +513,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3383477,
+      "date": "2026-03-03",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0407/id/3383477",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_HB0407S02_2026-03-03_19-05-42.pdf",
+      "text_size": 119220,
+      "text_hash": "f1f8a1ae4227d77512ae3ef8cc46b390",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [
@@ -425,6 +563,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0407/id/1648213",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41370"
+    },
+    {
+      "roll_call_id": 1651930,
+      "date": "2026-03-03",
+      "desc": "House/ passed 3rd reading",
+      "yea": 72,
+      "nay": 1,
+      "nv": 0,
+      "absent": 2,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0407/id/1651930",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1112&house=H"
     }
   ],
   "amendments": [
@@ -442,6 +595,27 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0407S01.Hamd.1.pdf",
       "amendment_size": 19633,
       "amendment_hash": "30db859ef616825957aa5ddd90d54a84",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    },
+    {
+      "amendment_id": 280730,
+      "adopted": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "date": "2026-03-02",
+      "title": "House Amendment 1",
+      "description": "House Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0407/id/280730",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0407S02.Hamd.1.pdf",
+      "amendment_size": 7200,
+      "amendment_hash": "85f26e79ffa9dca8550dcd16acc4e725",
       "alt_amendment": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -570,6 +744,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 687972,
+      "date": "2026-03-03",
+      "type": "Fiscal Note",
+      "type_id": 1,
+      "title": "Fiscal Note",
+      "description": "Fiscal Note HB0407S02",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0407/id/687972",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0407S02.fn.pdf",
+      "supplement_size": 1609694,
+      "supplement_hash": "1a0fd0b7f1b8875b058965bdf2a28d86",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -599,15 +793,15 @@
       "mtgPlace": "120 Senate Building",
       "committeeName": "House Education Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00002001.htm",
       "agendaURL": "/~2026/agenda/HEDU0227.ag.htm",
       "billSession": "2026GS",
       "markerID": "301882"
     }
   ],
-  "last_action": "House Comm - Favorable Recommendation",
-  "last_action_owner": "House Education Committee",
-  "last_action_time": "2/27/2026",
+  "last_action": "Senate/ 1st reading (Introduced)",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "3/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -853,6 +1047,162 @@
       "voteHouse": "",
       "voteStr": "9-0-6",
       "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ substituted",
+      "owner": "House Education Committee",
+      "actionDate": "2026-03-02 10:27:38.550",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-03-02 10:27:39.550",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd reading",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-03-03 10:18:38.310",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ circled",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-03-03 10:19:02.733",
+      "actionClass": "H",
+      "voteID": "1096",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0407S02",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-03-03 10:19:40.266",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note publicly available for HB0407S02",
+      "owner": "Released",
+      "actionDate": "2026-03-03 10:54:25.706",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ uncircled",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-03-03 18:47:17.843",
+      "actionClass": "H",
+      "voteID": "1110",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ floor amendment",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-03-03 18:51:05.087",
+      "actionClass": "H",
+      "voteID": "1111",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HAMEND",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-03 18:55:36.087",
+      "actionClass": "H",
+      "voteID": "1112",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "72-1-2",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-03 18:55:38.087",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Waiting for Introduction in the Senate",
+      "actionDate": "2026-03-04 07:03:31.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 1st reading (Introduced)",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-03-04 09:33:40.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD1",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2060754,
-  "change_hash": "f4bcb3cba7c1d1e9c2bb601c33f80ddf",
+  "change_hash": "869982f7b49ba9797e4df9f87aada346",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -288,6 +288,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-03-03",
+      "action": "Senate/ received enrolled bill from Printing in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "Senate/ to Governor in Executive Branch - Governor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -629,19 +643,6 @@
   ],
   "agendas": [
     {
-      "mtgID": "20322",
-      "committeeID": "HSTNAE",
-      "mtgDate": "2026-02-05 15:40:00.0",
-      "agendaItem": "6",
-      "mtgPlace": "120 Senate Building",
-      "committeeName": "House Natural Resources, Agriculture, and Environment Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001556.htm",
-      "agendaURL": "/~2026/agenda/HNAE0205.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "294462"
-    },
-    {
       "mtgID": "20321",
       "committeeID": "HSTNAE",
       "mtgDate": "2026-02-02 14:00:00.0",
@@ -653,11 +654,24 @@
       "agendaURL": "/~2026/agenda/HNAE0202.ag.htm",
       "billSession": "2026GS",
       "markerID": ""
+    },
+    {
+      "mtgID": "20322",
+      "committeeID": "HSTNAE",
+      "mtgDate": "2026-02-05 15:40:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Natural Resources, Agriculture, and Environment Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001556.htm",
+      "agendaURL": "/~2026/agenda/HNAE0205.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294462"
     }
   ],
-  "last_action": "Senate/ enrolled bill to Printing",
-  "last_action_owner": "Senate Secretary",
-  "last_action_time": "2/19/2026",
+  "last_action": "Senate/ to Governor",
+  "last_action_owner": "Executive Branch - Governor",
+  "last_action_time": "3/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1046,6 +1060,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOPRINTEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received enrolled bill from Printing",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-03 15:36:12.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECENRP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to Governor",
+      "owner": "Executive Branch - Governor",
+      "actionDate": "2026-03-03 15:36:14.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOGOV",
       "parm1": "",
       "parm2": ""
     }

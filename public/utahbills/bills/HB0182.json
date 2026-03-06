@@ -1,6 +1,6 @@
 {
   "bill_id": 2067847,
-  "change_hash": "fb4fe4e086c032a89efa24be36c0992a",
+  "change_hash": "a342473934cbbd0e7d629eef92c14da3",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -19,7 +19,7 @@
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0182.html",
   "completed": 0,
   "status": 3,
-  "status_date": "2026-01-29",
+  "status_date": "2026-03-03",
   "progress": [
     {
       "date": "2026-01-20",
@@ -44,6 +44,10 @@
     {
       "date": "2026-02-04",
       "event": 10
+    },
+    {
+      "date": "2026-03-03",
+      "event": 3
     }
   ],
   "state": "UT",
@@ -551,6 +555,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "Enrolled Bill Returned to House or Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ enrolled bill to Printing in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -842,6 +860,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_HB0182S05_2026-02-19_11-33-07.pdf",
       "text_size": 41035,
       "text_hash": "e536ac4002751b71b6f963c67d28252e",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3382260,
+      "date": "2026-03-03",
+      "type": "Enrolled",
+      "type_id": 5,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0182/id/3382260",
+      "state_link": "https://le.utah.gov/Session/2026/bills/enrolled/HB0182.pdf",
+      "text_size": 29718,
+      "text_hash": "b3611c99460c24752f56905a0e8e8ddc",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -1466,19 +1502,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "20261",
-      "committeeID": "HSTEDW",
-      "mtgDate": "2026-01-22 14:00:00.0",
-      "agendaItem": "2",
-      "mtgPlace": "110 Senate Building",
-      "committeeName": "House Economic Development and Workforce Services Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00000393.htm",
-      "agendaURL": "/~2026/agenda/HEDW0122.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "288200"
-    },
-    {
       "mtgID": "20231",
       "committeeID": "SSTHHS",
       "mtgDate": "2026-02-03 15:40:00.0",
@@ -1490,11 +1513,24 @@
       "agendaURL": "/~2026/agenda/SHHS0203.ag.htm",
       "billSession": "2026GS",
       "markerID": "293220"
+    },
+    {
+      "mtgID": "20261",
+      "committeeID": "HSTEDW",
+      "mtgDate": "2026-01-22 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Economic Development and Workforce Services Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00000393.htm",
+      "agendaURL": "/~2026/agenda/HEDW0122.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "288200"
     }
   ],
-  "last_action": "Draft of Enrolled Bill Prepared",
-  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
-  "last_action_time": "2/24/2026",
+  "last_action": "House/ enrolled bill to Printing",
+  "last_action_owner": "Clerk of the House",
+  "last_action_time": "3/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -2351,6 +2387,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LENROLL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Enrolled Bill Returned to House or Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-03 09:50:28.290",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LPASSREV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ enrolled bill to Printing",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-03 09:50:34.513",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOPRINTEN",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2065248,
-  "change_hash": "c4dac888292782fed3f024a6b2cbe99f",
+  "change_hash": "b5cea8dcf702ba4e11238d650d82e4d5",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-26",
       "event": 9
+    },
+    {
+      "date": "2026-03-04",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 94,
   "title": "Child Abuse Homicide Amendments",
   "description": "Child Abuse Homicide Amendments",
-  "pending_committee_id": 2124,
-  "committee": {
-    "committee_id": 2124,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Judiciary, Law Enforcement, and Criminal Justice"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -286,6 +285,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate Comm - Favorable Recommendation in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ committee report favorable in Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ 2nd Reading Calendar to Rules in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -539,6 +566,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0138/id/1640671",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=709&house=H"
+    },
+    {
+      "roll_call_id": 1652963,
+      "date": "2026-03-04",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 5,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 9,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0138/id/1652963",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41743"
     }
   ],
   "amendments": [],
@@ -702,6 +744,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 689511,
+      "date": "2026-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0138",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0138/id/689511",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0138S02.pdf",
+      "supplement_size": 18323,
+      "supplement_hash": "4433622ceb1070362df0433a92fd6e37",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -713,6 +775,15 @@
       "time": "08:00",
       "location": "",
       "description": "House Law Enforcement and Criminal Justice Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "d0893586",
+      "type": "Hearing",
+      "date": "2026-03-04",
+      "time": "13:30",
+      "location": "",
+      "description": "Senate Judiciary, Law Enforcement, and Criminal Justice Hearing"
     }
   ],
   "general_provisions": "This bill addresses the offense of child abuse homicide.",
@@ -735,11 +806,24 @@
       "agendaURL": "/~2026/agenda/HLAW0213.ag.htm",
       "billSession": "2026GS",
       "markerID": "297302"
+    },
+    {
+      "mtgID": "20570",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2026-03-04 13:30:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "215 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/SJLC0304.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "303257"
     }
   ],
-  "last_action": "Senate/ to standing committee",
-  "last_action_owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-  "last_action_time": "2/26/2026",
+  "last_action": "Senate/ 2nd Reading Calendar to Rules",
+  "last_action_owner": "Senate Rules Committee",
+  "last_action_time": "3/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1102,6 +1186,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2026-03-04 14:18:47.503",
+      "actionClass": "A",
+      "voteID": "41743",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "5-0-4",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "actionDate": "2026-03-04 17:01:06.333",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-04 17:01:07.333",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd Reading Calendar to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-03-04 17:03:14.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "S2NDTORUL",
       "parm1": "",
       "parm2": ""
     }

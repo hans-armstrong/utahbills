@@ -1,6 +1,6 @@
 {
   "bill_id": 2068912,
-  "change_hash": "d0a6aad8f2f82c9caed61e67df722175",
+  "change_hash": "9518430b3159a3aa5a188969aff3e441",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/HB0195/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0195.html",
   "completed": 0,
-  "status": 2,
+  "status": 3,
   "status_date": "2026-02-10",
   "progress": [
     {
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-17",
       "event": 9
+    },
+    {
+      "date": "2026-03-02",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -49,8 +53,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Precious Metals Amendments",
   "description": "Precious Metals Amendments",
   "pending_committee_id": 0,
@@ -266,6 +270,62 @@
       "action": "Senate Comm - Motion to Recommend Failed in Senate Government Operations and Political Subdivisions Committee",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "Senate Comm - Favorable Recommendation in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "Senate/ committee report favorable in Senate Government Operations and Political Subdivisions Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-02",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ 2nd Reading Calendar to Rules in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "Senate/ Rules to 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "Senate/ failed in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -2147,6 +2207,36 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/HB0195/id/1636271",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40370"
+    },
+    {
+      "roll_call_id": 1648518,
+      "date": "2026-03-02",
+      "desc": "Senate Comm - Favorable Recommendation",
+      "yea": 4,
+      "nay": 2,
+      "nv": 0,
+      "absent": 1,
+      "total": 7,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0195/id/1648518",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41385"
+    },
+    {
+      "roll_call_id": 1655027,
+      "date": "2026-03-05",
+      "desc": "Senate/ failed",
+      "yea": 14,
+      "nay": 7,
+      "nv": 0,
+      "absent": 8,
+      "total": 29,
+      "passed": 0,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0195/id/1655027",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1854&house=S"
     }
   ],
   "amendments": [
@@ -2252,6 +2342,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 685984,
+      "date": "2026-03-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "Senate Committee Report HB0195",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0195/id/685984",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0195S02.pdf",
+      "supplement_size": 18318,
+      "supplement_hash": "dd413ca13ca16a4f96e5d537bed91aa6",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -2316,11 +2426,24 @@
       "agendaURL": "/~2026/agenda/SGOP0217.ag.htm",
       "billSession": "2026GS",
       "markerID": "297923"
+    },
+    {
+      "mtgID": "20441",
+      "committeeID": "SSTGOP",
+      "mtgDate": "2026-03-02 08:10:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Government Operations and Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00002008.htm",
+      "agendaURL": "/~2026/agenda/SGOP0302.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "301925"
     }
   ],
-  "last_action": "Senate Comm - Motion to Recommend Failed",
-  "last_action_owner": "Senate Government Operations and Political Subdivisions Committee",
-  "last_action_time": "2/17/2026",
+  "last_action": "House/ signed by Speaker/ sent for enrolling",
+  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
+  "last_action_time": "3/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -2657,6 +2780,175 @@
       "voteHouse": "",
       "voteStr": "3-3-1",
       "actionCode": "SCAFAVFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate Comm - Favorable Recommendation",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2026-03-02 08:18:26.503",
+      "actionClass": "A",
+      "voteID": "41385",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "4-2-1",
+      "actionCode": "SCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ committee report favorable",
+      "owner": "Senate Government Operations and Political Subdivisions Committee",
+      "actionDate": "2026-03-02 14:52:56.320",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-02 14:52:57.320",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd Reading Calendar to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-03-04 17:03:14.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "S2NDTORUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ Rules to 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-05 10:56:34.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRUL2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd & 3rd readings/ suspension",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-05 11:34:35.913",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD23SP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ failed",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-05 11:45:02.323",
+      "actionClass": "S",
+      "voteID": "1854",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "14-7-8",
+      "actionCode": "SFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ motion to reconsider",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-05 16:04:21.833",
+      "actionClass": "S",
+      "voteID": "1894",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SMOTREC",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd & 3rd readings/ suspension",
+      "owner": "Senate President",
+      "actionDate": "2026-03-05 16:06:58.093",
+      "actionClass": "S",
+      "voteID": "1895",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "22-6-1",
+      "actionCode": "SPASS23SP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ returned to House",
+      "owner": "House Speaker",
+      "actionDate": "2026-03-05 16:06:59.093",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGNH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "House Speaker",
+      "actionDate": "2026-03-05 16:07:00.093",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "House Speaker",
+      "actionDate": "2026-03-05 17:01:45.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ signed by Speaker/ sent for enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2026-03-05 17:01:47.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HSIGN",
       "parm1": "",
       "parm2": ""
     }

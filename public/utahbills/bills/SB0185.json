@@ -1,6 +1,6 @@
 {
   "bill_id": 2090849,
-  "change_hash": "c409fd4e5f746fb590cf7346cbd83831",
+  "change_hash": "c8ef4c975439bc5194253b07c0dc5072",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -324,6 +324,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
+    },
+    {
+      "date": "2026-03-03",
+      "action": "Senate/ received enrolled bill from Printing in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "Senate/ to Governor in Executive Branch - Governor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -720,9 +734,9 @@
       "markerID": "297959"
     }
   ],
-  "last_action": "Senate/ enrolled bill to Printing",
-  "last_action_owner": "Senate Secretary",
-  "last_action_time": "2/25/2026",
+  "last_action": "Senate/ to Governor",
+  "last_action_owner": "Executive Branch - Governor",
+  "last_action_time": "3/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1150,6 +1164,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOPRINTEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received enrolled bill from Printing",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-03 15:43:52.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECENRP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to Governor",
+      "owner": "Executive Branch - Governor",
+      "actionDate": "2026-03-03 15:43:54.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOGOV",
       "parm1": "",
       "parm2": ""
     }

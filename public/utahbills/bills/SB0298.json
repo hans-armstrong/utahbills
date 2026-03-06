@@ -1,6 +1,6 @@
 {
   "bill_id": 2117456,
-  "change_hash": "5f3c469b43d2d436faadb771da9f200f",
+  "change_hash": "8363df14d25488eea7656a58c7d4876a",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SB0298/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0298.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2026-02-27",
   "progress": [
     {
@@ -36,6 +36,14 @@
     {
       "date": "2026-02-27",
       "event": 2
+    },
+    {
+      "date": "2026-03-02",
+      "event": 9
+    },
+    {
+      "date": "2026-03-03",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -65,6 +73,20 @@
       "chamber": "S",
       "chamber_id": 94,
       "name": "Business and Labor"
+    },
+    {
+      "date": "2026-03-02",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-03-02",
+      "committee_id": 5042,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Business, Labor, and Commerce"
     }
   ],
   "history": [
@@ -284,6 +306,55 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ to standing committee in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House Comm - Favorable Recommendation in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ committee report favorable in House Business, Labor, and Commerce Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ 2nd reading in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House/ 3rd Reading Calendar to Rules in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "House/ Rules to 3rd Reading Calendar in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -429,6 +500,10 @@
     {
       "subject_id": 11871,
       "subject_name": "Business"
+    },
+    {
+      "subject_id": 11935,
+      "subject_name": "Commerce and Trade"
     }
   ],
   "texts": [
@@ -547,6 +622,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0298/id/1648124",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1413&house=S"
+    },
+    {
+      "roll_call_id": 1651103,
+      "date": "2026-03-03",
+      "desc": "House Comm - Favorable Recommendation",
+      "yea": 13,
+      "nay": 2,
+      "nv": 0,
+      "absent": 1,
+      "total": 16,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0298/id/1651103",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41621"
     }
   ],
   "amendments": [],
@@ -690,6 +780,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 688094,
+      "date": "2026-03-03",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0298",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0298/id/688094",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0298H02.pdf",
+      "supplement_size": 17535,
+      "supplement_hash": "eb1e26b01ef904780eb2ae162bf30ff9",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -701,6 +811,15 @@
       "time": "16:05",
       "location": "",
       "description": "Senate Business and Labor Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "08d372c9",
+      "type": "Hearing",
+      "date": "2026-03-03",
+      "time": "14:40",
+      "location": "",
+      "description": "House Business, Labor, and Commerce Hearing"
     }
   ],
   "general_provisions": "This bill modifies the Uniform Commercial Code.",
@@ -723,11 +842,24 @@
       "agendaURL": "/~2026/agenda/SBUS0219.ag.htm",
       "billSession": "2026GS",
       "markerID": "298985"
+    },
+    {
+      "mtgID": "20577",
+      "committeeID": "HSTBUS",
+      "mtgDate": "2026-03-03 14:40:00.0",
+      "agendaItem": "4",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Business, Labor, and Commerce Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00002040.htm",
+      "agendaURL": "/~2026/agenda/HBUS0303.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "302782"
     }
   ],
-  "last_action": "House/ received from Senate",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/27/2026",
+  "last_action": "House/ Rules to 3rd Reading Calendar",
+  "last_action_owner": "House 3rd Reading Calendar for Senate bills",
+  "last_action_time": "3/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1129,6 +1261,97 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-03-02 10:19:05.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-03-02 12:11:14.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Favorable Recommendation",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-03-03 15:39:03.120",
+      "actionClass": "A",
+      "voteID": "41621",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "13-2-1",
+      "actionCode": "HCAFAV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ committee report favorable",
+      "owner": "House Business, Labor, and Commerce Committee",
+      "actionDate": "2026-03-03 19:25:19.427",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCR",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 2nd reading",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2026-03-03 19:25:20.427",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 3rd Reading Calendar to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-03-03 19:57:36.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "H3RDTORUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ Rules to 3rd Reading Calendar",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2026-03-05 18:41:39.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRUL3RD",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2107228,
-  "change_hash": "4659f3ade7ca0fde797706f5b23fa188",
+  "change_hash": "7f0f954b3476b3bce4e568a6230f1ac0",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -19,7 +19,7 @@
   "state_link": "https://le.utah.gov/~2026/bills/static/SR0004.html",
   "completed": 0,
   "status": 3,
-  "status_date": "2026-02-04",
+  "status_date": "2026-03-02",
   "progress": [
     {
       "date": "2026-02-04",
@@ -32,6 +32,14 @@
     {
       "date": "2026-02-17",
       "event": 10
+    },
+    {
+      "date": "2026-03-02",
+      "event": 2
+    },
+    {
+      "date": "2026-03-02",
+      "event": 3
     }
   ],
   "state": "UT",
@@ -217,6 +225,48 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "Bill Received from Senate for Enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-02",
+      "action": "Draft of Enrolled Bill Prepared in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "Enrolled Bill Returned to House or Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "Senate/ enrolled bill to Printing in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-03",
+      "action": "Senate/ received enrolled bill from Printing in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "Senate/ to Lieutenant Governor in Lieutenant Governor's office for filing",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -340,6 +390,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/introduced/SR0004.pdf",
       "text_size": 23438,
       "text_hash": "272af3ea93f476c290a24ff63e3a7525",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3381360,
+      "date": "2026-03-02",
+      "type": "Enrolled",
+      "type_id": 5,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SR0004/id/3381360",
+      "state_link": "https://le.utah.gov/Session/2026/bills/enrolled/SR0004.pdf",
+      "text_size": 23717,
+      "text_hash": "26ce36b163a802f8006b1bd3dffcfaf8",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -471,9 +539,9 @@
       "markerID": "296765"
     }
   ],
-  "last_action": "Draft of Enrolled Bill Prepared",
-  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
-  "last_action_time": "3/2/2026",
+  "last_action": "Senate/ to Lieutenant Governor",
+  "last_action_owner": "Lieutenant Governor's office for filing",
+  "last_action_time": "3/3/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -784,6 +852,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LENROLL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Enrolled Bill Returned to House or Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-02 10:45:43.667",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LPASSREV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ enrolled bill to Printing",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-02 10:45:47.300",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOPRINTEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received enrolled bill from Printing",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-03 15:50:06.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECENRP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to Lieutenant Governor",
+      "owner": "Lieutenant Governor's office for filing",
+      "actionDate": "2026-03-03 15:50:07.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOLTGOV",
       "parm1": "",
       "parm2": ""
     }

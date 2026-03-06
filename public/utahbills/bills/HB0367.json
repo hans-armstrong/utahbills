@@ -1,6 +1,6 @@
 {
   "bill_id": 2093445,
-  "change_hash": "63579269725b47e2b16094c344ad3f49",
+  "change_hash": "e6827f0b6661bfef37bc275b5f8ea839",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -28,6 +28,10 @@
     {
       "date": "2026-02-05",
       "event": 9
+    },
+    {
+      "date": "2026-03-05",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -41,13 +45,8 @@
   "current_body_id": 93,
   "title": "Solar Power Utility Amendments",
   "description": "Solar Power Utility Amendments",
-  "pending_committee_id": 5049,
-  "committee": {
-    "committee_id": 5049,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Public Utilities and Energy"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-26",
@@ -166,6 +165,20 @@
     {
       "date": "2026-02-05",
       "action": "House/ to standing committee in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House Comm - Recommends Returned to Rules in House Public Utilities and Energy Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "House/ comm rpt/ sent to Rules in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -372,6 +385,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 686838,
+      "date": "2026-03-02",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report HB0367",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/HB0367/id/686838",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/HB0367H01.pdf",
+      "supplement_size": 17613,
+      "supplement_hash": "8e41f07781a67dba5e9f0c54ca0742f7",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -393,9 +426,9 @@
   "gov_tracking_id": "OQLVTAVCNP",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Public Utilities and Energy Committee",
-  "last_action_time": "2/5/2026",
+  "last_action": "House/ comm rpt/ sent to Rules",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "3/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -589,6 +622,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Recommends Returned to Rules",
+      "owner": "House Public Utilities and Energy Committee",
+      "actionDate": "2026-03-02 16:30:33.233",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCARUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ sent to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-03-05 10:14:47.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRRUL",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2066119,
-  "change_hash": "e12e53fd5b2804985947f07958dcc5ed",
+  "change_hash": "7aebbf60f727ea009d27c52c807f9652",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -18,7 +18,7 @@
   "url": "https://legiscan.com/UT/bill/SB0085/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0085.html",
   "completed": 0,
-  "status": 1,
+  "status": 2,
   "status_date": "2026-02-27",
   "progress": [
     {
@@ -36,6 +36,14 @@
     {
       "date": "2026-02-27",
       "event": 2
+    },
+    {
+      "date": "2026-03-02",
+      "event": 9
+    },
+    {
+      "date": "2026-03-05",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -64,6 +72,20 @@
       "committee_id": 2120,
       "chamber": "S",
       "chamber_id": 94,
+      "name": "Education"
+    },
+    {
+      "date": "2026-03-02",
+      "committee_id": 2116,
+      "chamber": "H",
+      "chamber_id": 93,
+      "name": "Rules"
+    },
+    {
+      "date": "2026-03-02",
+      "committee_id": 2105,
+      "chamber": "H",
+      "chamber_id": 93,
       "name": "Education"
     }
   ],
@@ -260,6 +282,41 @@
     {
       "date": "2026-02-27",
       "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ to standing committee in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House Comm - Held in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "House Comm - Recommends Returned to Rules in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "House/ comm rpt/ sent to Rules in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -528,6 +585,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0085/id/1647394",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1344&house=S"
+    },
+    {
+      "roll_call_id": 1650954,
+      "date": "2026-03-03",
+      "desc": "House Comm - Held",
+      "yea": 12,
+      "nay": 1,
+      "nv": 0,
+      "absent": 2,
+      "total": 15,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0085/id/1650954",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41628"
     }
   ],
   "amendments": [],
@@ -611,6 +683,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 689448,
+      "date": "2026-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0085",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0085/id/689448",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0085H01.pdf",
+      "supplement_size": 17620,
+      "supplement_hash": "4eadea6f95ef4d5b402104910ad42094",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -622,6 +714,15 @@
       "time": "15:40",
       "location": "",
       "description": "Senate Education Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "a4bf079e",
+      "type": "Hearing",
+      "date": "2026-03-03",
+      "time": "14:00",
+      "location": "",
+      "description": "House Education Hearing"
     }
   ],
   "general_provisions": "This bill amends the Excellence in Education and Leadership Supplement to expand access to the performance-based teacher award program.",
@@ -644,11 +745,24 @@
       "agendaURL": "/~2026/agenda/SEDU0203.ag.htm",
       "billSession": "2026GS",
       "markerID": "293157"
+    },
+    {
+      "mtgID": "20522",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-03-03 14:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HEDU0303.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "302814"
     }
   ],
-  "last_action": "House/ received from Senate",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "2/27/2026",
+  "last_action": "House/ comm rpt/ sent to Rules",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "3/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1011,6 +1125,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ 1st reading (Introduced)",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-03-02 10:19:05.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to standing committee",
+      "owner": "House Education Committee",
+      "actionDate": "2026-03-02 12:11:27.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Education Committee",
+      "actionDate": "2026-03-03 15:45:40.557",
+      "actionClass": "A",
+      "voteID": "41628",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "12-1-2",
+      "actionCode": "HCAHELD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Recommends Returned to Rules",
+      "owner": "House Education Committee",
+      "actionDate": "2026-03-04 15:42:51.310",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCARUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ sent to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-03-05 10:16:42.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRRUL",
       "parm1": "",
       "parm2": ""
     }

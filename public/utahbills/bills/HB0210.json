@@ -1,6 +1,6 @@
 {
   "bill_id": 2069918,
-  "change_hash": "edab7259594ef90f531895b428597d9d",
+  "change_hash": "23ff7b1e486a07ceb7989c44b2b5d66b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0210/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0210.html",
-  "completed": 0,
-  "status": 1,
-  "status_date": "2026-01-20",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-03-02",
   "progress": [
     {
       "date": "2026-01-20",
@@ -32,6 +32,10 @@
     {
       "date": "2026-02-09",
       "event": 10
+    },
+    {
+      "date": "2026-03-02",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -329,6 +333,34 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ uncircled in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ substituted in House 3rd Reading Calendar for House bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ failed in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-02",
+      "action": "House/ filed in House file for bills not passed",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -632,6 +664,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0210/id/1625861",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=39634"
+    },
+    {
+      "roll_call_id": 1648833,
+      "date": "2026-03-02",
+      "desc": "House/ failed",
+      "yea": 31,
+      "nay": 42,
+      "nv": 0,
+      "absent": 2,
+      "total": 75,
+      "passed": 0,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/HB0210/id/1648833",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1043&house=H"
     }
   ],
   "amendments": [
@@ -1100,7 +1147,7 @@
     }
   ],
   "general_provisions": "This bill addresses tax penalties within the Individual Income Tax Act.",
-  "hilighted_provisions": "This bill:<hr><ltbullet>removes marriage penalties from certain individual income tax credits and exemptions by setting income phaseout amounts for filers who have single, head of household, or married filing separately status to be half of the amount for filers who have joint filing status;<hr><ltbullet>enacts a nonrefundable individual income tax credit available for married filers; and<hr><ltbullet>makes technical changes.",
+  "hilighted_provisions": "This bill:<hr><ltbullet>removes marriage penalties from certain individual income tax credits over a five-year period, resulting in the income phaseout amounts for filers who have single, head of household, or married filing separately status, beginning in 2030, to be half of the amount for filers who have joint filing status; and<hr><ltbullet>makes technical changes.",
   "monies": "None",
   "attorney": "Gus Harb",
   "fiscal_analyst": "Jared Gibbs",
@@ -1134,9 +1181,9 @@
       "markerID": "294759"
     }
   ],
-  "last_action": "House/ circled",
-  "last_action_owner": "House 3rd Reading Calendar for House bills",
-  "last_action_time": "2/20/2026",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/2/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1629,6 +1676,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ uncircled",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-03-02 10:55:18.040",
+      "actionClass": "H",
+      "voteID": "1041",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ substituted",
+      "owner": "House 3rd Reading Calendar for House bills",
+      "actionDate": "2026-03-02 10:56:06.493",
+      "actionClass": "H",
+      "voteID": "1042",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HSUB",
+      "parm1": "5",
+      "parm2": "2"
+    },
+    {
+      "description": "House/ failed",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-02 11:03:51.007",
+      "actionClass": "H",
+      "voteID": "1043",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "31-42-2",
+      "actionCode": "HFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-03-02 11:03:54.007",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2071472,
-  "change_hash": "f598d3b41b78963acb33ca0ebf2f1482",
+  "change_hash": "8fcf6d35f97f90bff890885974ece8d7",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -53,8 +53,8 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Privacy and Cybersecurity Amendments",
   "description": "Privacy and Cybersecurity Amendments",
   "pending_committee_id": 0,
@@ -341,6 +341,48 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "House/ uncircled in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "House/ floor amendment in House 3rd Reading Calendar for Senate bills",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "House/ passed 3rd reading in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "Senate/ received from House in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "Senate/ placed on Concurrence Calendar in Senate Concurrence Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
     }
   ],
   "sponsors": [
@@ -578,6 +620,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3386516,
+      "date": "2026-03-05",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0123/id/3386516",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_SB0123S02_2026-03-05_19-11-50.pdf",
+      "text_size": 57873,
+      "text_hash": "73fa5964881eac1407b21c657d0b4e6b",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [
@@ -655,6 +715,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/SB0123/id/1643047",
       "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=40896"
+    },
+    {
+      "roll_call_id": 1655553,
+      "date": "2026-03-05",
+      "desc": "House/ passed 3rd reading",
+      "yea": 71,
+      "nay": 0,
+      "nv": 0,
+      "absent": 4,
+      "total": 75,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0123/id/1655553",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1380&house=H"
     }
   ],
   "amendments": [
@@ -897,9 +972,9 @@
       "markerID": "300040"
     }
   ],
-  "last_action": "House/ circled",
-  "last_action_owner": "House 3rd Reading Calendar for Senate bills",
-  "last_action_time": "2/26/2026",
+  "last_action": "Senate/ placed on Concurrence Calendar",
+  "last_action_owner": "Senate Concurrence Calendar",
+  "last_action_time": "3/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1366,6 +1441,84 @@
       "voteHouse": "H",
       "voteStr": "0-0-75",
       "actionCode": "HCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ uncircled",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2026-03-05 18:52:03.147",
+      "actionClass": "H",
+      "voteID": "1378",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HUNCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ floor amendment",
+      "owner": "House 3rd Reading Calendar for Senate bills",
+      "actionDate": "2026-03-05 18:52:58.683",
+      "actionClass": "H",
+      "voteID": "1379",
+      "voiceVote": "1",
+      "voteHouse": "H",
+      "voteStr": "0-0-75",
+      "actionCode": "HAMEND",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "House/ passed 3rd reading",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-05 18:55:47.773",
+      "actionClass": "H",
+      "voteID": "1380",
+      "voiceVote": "0",
+      "voteHouse": "H",
+      "voteStr": "71-0-4",
+      "actionCode": "HPASS3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-05 18:55:49.773",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-05 19:19:06.890",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on Concurrence Calendar",
+      "owner": "Senate Concurrence Calendar",
+      "actionDate": "2026-03-05 19:19:07.890",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SONCURCAL",
       "parm1": "",
       "parm2": ""
     }

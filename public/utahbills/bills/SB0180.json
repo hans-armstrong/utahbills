@@ -1,6 +1,6 @@
 {
   "bill_id": 2089883,
-  "change_hash": "f085142e63f9bb6bd41718a6e2b30119",
+  "change_hash": "8b04bd5daeb0c1193561d106ed57bdee",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-26",
       "event": 9
+    },
+    {
+      "date": "2026-03-05",
+      "event": 10
     }
   ],
   "state": "UT",
@@ -53,13 +57,8 @@
   "current_body_id": 93,
   "title": "School Nutrition Amendments",
   "description": "School Nutrition Amendments",
-  "pending_committee_id": 2105,
-  "committee": {
-    "committee_id": 2105,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Education"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-22",
@@ -304,6 +303,34 @@
     {
       "date": "2026-02-26",
       "action": "House/ to standing committee in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House Comm - Held in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-03",
+      "action": "House Comm - Motion to Recommend Failed in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "House Comm - Recommends Returned to Rules in House Education Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-05",
+      "action": "House/ comm rpt/ sent to Rules in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -594,6 +621,36 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/SB0180/id/1646319",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1222&house=S"
+    },
+    {
+      "roll_call_id": 1650911,
+      "date": "2026-03-03",
+      "desc": "House Comm - Motion to Recommend Failed",
+      "yea": 3,
+      "nay": 6,
+      "nv": 0,
+      "absent": 6,
+      "total": 15,
+      "passed": 0,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0180/id/1650911",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41573"
+    },
+    {
+      "roll_call_id": 1650912,
+      "date": "2026-03-03",
+      "desc": "House Comm - Held",
+      "yea": 8,
+      "nay": 1,
+      "nv": 0,
+      "absent": 6,
+      "total": 15,
+      "passed": 1,
+      "chamber": "H",
+      "chamber_id": 93,
+      "url": "https://legiscan.com/UT/rollcall/SB0180/id/1650912",
+      "state_link": "https://le.utah.gov/mtgvotes.jsp?voteid=41572"
     }
   ],
   "amendments": [
@@ -699,6 +756,26 @@
       "alt_state_link": "",
       "alt_supplement_size": 0,
       "alt_supplement_hash": ""
+    },
+    {
+      "supplement_id": 690165,
+      "date": "2026-03-04",
+      "type": "Misc",
+      "type_id": 7,
+      "title": "Misc",
+      "description": "House Committee Report SB0180",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/supplement/SB0180/id/690165",
+      "state_link": "https://pf.utleg.gov/public-web/sessions/2026GS/comreport/SB0180H02.pdf",
+      "supplement_size": 17594,
+      "supplement_hash": "9d6f5ec7367851ec4ec757decd326b68",
+      "alt_supplement": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_supplement_size": 0,
+      "alt_supplement_hash": ""
     }
   ],
   "calendar": [
@@ -710,6 +787,15 @@
       "time": "08:00",
       "location": "",
       "description": "Senate Education Hearing"
+    },
+    {
+      "type_id": 1,
+      "event_hash": "a4bf079e",
+      "type": "Hearing",
+      "date": "2026-03-03",
+      "time": "14:00",
+      "location": "",
+      "description": "House Education Hearing"
     }
   ],
   "general_provisions": "This bill amends funding and eligibility regarding the school lunch program.",
@@ -732,11 +818,24 @@
       "agendaURL": "/~2026/agenda/SEDU0212.ag.htm",
       "billSession": "2026GS",
       "markerID": "296534"
+    },
+    {
+      "mtgID": "20522",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-03-03 14:00:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/",
+      "agendaURL": "/~2026/agenda/HEDU0303.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "302598"
     }
   ],
-  "last_action": "House/ to standing committee",
-  "last_action_owner": "House Education Committee",
-  "last_action_time": "2/26/2026",
+  "last_action": "House/ comm rpt/ sent to Rules",
+  "last_action_owner": "House Rules Committee",
+  "last_action_time": "3/5/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1138,6 +1237,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Held",
+      "owner": "House Education Committee",
+      "actionDate": "2026-03-03 14:13:12.500",
+      "actionClass": "A",
+      "voteID": "41572",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "8-1-6",
+      "actionCode": "HCAHELD",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Motion to Recommend Failed",
+      "owner": "House Education Committee",
+      "actionDate": "2026-03-03 14:15:03.000",
+      "actionClass": "A",
+      "voteID": "41573",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "3-6-6",
+      "actionCode": "HCAFAVFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House Comm - Recommends Returned to Rules",
+      "owner": "House Education Committee",
+      "actionDate": "2026-03-04 15:42:51.310",
+      "actionClass": "A",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCARUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ comm rpt/ sent to Rules",
+      "owner": "House Rules Committee",
+      "actionDate": "2026-03-05 10:16:42.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HCRRUL",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2071770,
-  "change_hash": "f577f9ad3ce17270848b767dbaf12a40",
+  "change_hash": "f35c75f5f810e300bbc2c762ea5c3386",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -53,8 +53,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Offender Amendments",
   "description": "Offender Amendments",
   "pending_committee_id": 0,
@@ -351,7 +351,7 @@
     },
     {
       "date": "2026-02-19",
-      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "action": "Senate/ 2nd & 3rd readings/ suspension in Senate 2nd Reading Calendar",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
@@ -389,6 +389,34 @@
       "action": "Senate/ placed on 3rd Reading Calendar table in Senate 3rd Reading Calendar Table",
       "chamber": "S",
       "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ passed 2nd & 3rd readings/ suspension in Senate President",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ signed by President/ returned to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-04",
+      "action": "Senate/ to House in House Speaker",
+      "chamber": "H",
+      "chamber_id": 93,
       "importance": 0
     }
   ],
@@ -1078,6 +1106,21 @@
       "chamber_id": 94,
       "url": "https://legiscan.com/UT/rollcall/HB0230/id/1638821",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=688&house=S"
+    },
+    {
+      "roll_call_id": 1653605,
+      "date": "2026-03-04",
+      "desc": "Senate/ passed 2nd & 3rd readings/ suspension",
+      "yea": 28,
+      "nay": 0,
+      "nv": 0,
+      "absent": 1,
+      "total": 29,
+      "passed": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0230/id/1653605",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=1727&house=S"
     }
   ],
   "amendments": [],
@@ -1352,19 +1395,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "20227",
-      "committeeID": "SSTTPT",
-      "mtgDate": "2026-02-12 14:00:00.0",
-      "agendaItem": "6",
-      "mtgPlace": "220 Senate Building",
-      "committeeName": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001649.htm",
-      "agendaURL": "/~2026/agenda/STPT0212.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "296813"
-    },
-    {
       "mtgID": "20211",
       "committeeID": "HSTLAW",
       "mtgDate": "2026-01-28 14:00:00.0",
@@ -1376,11 +1406,24 @@
       "agendaURL": "/~2026/agenda/HLAW0128.ag.htm",
       "billSession": "2026GS",
       "markerID": "290565"
+    },
+    {
+      "mtgID": "20227",
+      "committeeID": "SSTTPT",
+      "mtgDate": "2026-02-12 14:00:00.0",
+      "agendaItem": "6",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001649.htm",
+      "agendaURL": "/~2026/agenda/STPT0212.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "296813"
     }
   ],
-  "last_action": "Senate/ placed on 3rd Reading Calendar table",
-  "last_action_owner": "Senate 3rd Reading Calendar Table",
-  "last_action_time": "2/19/2026",
+  "last_action": "Senate/ to House",
+  "last_action_owner": "House Speaker",
+  "last_action_time": "3/4/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1864,7 +1907,7 @@
       "parm2": ""
     },
     {
-      "description": "Senate/ 2nd reading",
+      "description": "Senate/ 2nd & 3rd readings/ suspension",
       "owner": "Senate 2nd Reading Calendar",
       "actionDate": "2026-02-19 11:31:11.027",
       "actionClass": "S",
@@ -1872,7 +1915,7 @@
       "voiceVote": "",
       "voteHouse": "",
       "voteStr": "",
-      "actionCode": "SREAD2",
+      "actionCode": "SREAD23SP",
       "parm1": "",
       "parm2": ""
     },
@@ -1938,6 +1981,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON3TBL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ placed on 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-04 11:47:47.740",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SON2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ passed 2nd & 3rd readings/ suspension",
+      "owner": "Senate President",
+      "actionDate": "2026-03-04 17:30:15.313",
+      "actionClass": "S",
+      "voteID": "1727",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "28-0-1",
+      "actionCode": "SPASS23SP",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ signed by President/ returned to House",
+      "owner": "House Speaker",
+      "actionDate": "2026-03-04 17:30:16.313",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SSIGNH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "House Speaker",
+      "actionDate": "2026-03-04 17:30:17.313",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
       "parm1": "",
       "parm2": ""
     }
