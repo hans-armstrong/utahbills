@@ -1,6 +1,6 @@
 {
   "bill_id": 2114966,
-  "change_hash": "8a430a8264cac36d426df49e19708308",
+  "change_hash": "5485d4d0e1762fe2169880b3f99f926b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,13 +17,17 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0551/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0551.html",
-  "completed": 0,
-  "status": 1,
-  "status_date": "2026-02-12",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-03-06",
   "progress": [
     {
       "date": "2026-02-12",
       "event": 1
+    },
+    {
+      "date": "2026-03-06",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Government Records Access Amendments",
   "description": "Government Records Access Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-12",
@@ -92,6 +91,27 @@
     {
       "date": "2026-02-12",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-02-17",
+      "action": "LFA/ fiscal note sent to sponsor for HB0551 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ strike enacting clause in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ filed in House file for bills not passed",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -218,9 +238,9 @@
   "gov_tracking_id": "GYSJFWSSPU",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/12/2026",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -297,6 +317,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0551",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-02-17 14:02:46.320",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ strike enacting clause",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:55.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-03-06 23:59:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

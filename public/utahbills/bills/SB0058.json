@@ -1,6 +1,6 @@
 {
   "bill_id": 2061218,
-  "change_hash": "a39067ecbfb5e7e064333462c9bddcf6",
+  "change_hash": "22a55b0e02322e0548a0d62d3db7efa5",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/SB0058/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0058.html",
-  "completed": 0,
-  "status": 3,
-  "status_date": "2026-01-28",
+  "completed": 1,
+  "status": 4,
+  "status_date": "2026-03-19",
   "progress": [
     {
       "date": "2026-01-20",
@@ -44,6 +44,14 @@
     {
       "date": "2026-02-10",
       "event": 10
+    },
+    {
+      "date": "2026-03-06",
+      "event": 3
+    },
+    {
+      "date": "2026-03-19",
+      "event": 4
     }
   ],
   "state": "UT",
@@ -544,6 +552,55 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Bill Received from Senate for Enrolling in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Draft of Enrolled Bill Prepared in Legislative Research and General Counsel / Enrolling",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Enrolled Bill Returned to House or Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ enrolled bill to Printing in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-11",
+      "action": "Senate/ received enrolled bill from Printing in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-11",
+      "action": "Senate/ to Governor in Executive Branch - Governor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-19",
+      "action": "Governor Signed in Lieutenant Governor's office for filing",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -845,6 +902,24 @@
       "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_SB0058S05_2026-03-05_16-33-48.pdf",
       "text_size": 81760,
       "text_hash": "dba64ecb55bf945d3279790047e5af7d",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3387998,
+      "date": "2026-03-07",
+      "type": "Enrolled",
+      "type_id": 5,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/SB0058/id/3387998",
+      "state_link": "https://le.utah.gov/Session/2026/bills/enrolled/SB0058.pdf",
+      "text_size": 70611,
+      "text_hash": "1f2e552b5022514875024c2f5cd39eaf",
       "alt_bill_text": 0,
       "alt_mime": "",
       "alt_mime_id": 0,
@@ -1519,6 +1594,19 @@
   "comrecommend": [],
   "agendas": [
     {
+      "mtgID": "20317",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-02-09 15:40:00.0",
+      "agendaItem": "2",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001606.htm",
+      "agendaURL": "/~2026/agenda/HEDU0209.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "295403"
+    },
+    {
       "mtgID": "20266",
       "committeeID": "SSTEDU",
       "mtgDate": "2026-01-21 14:00:00.0",
@@ -1543,24 +1631,11 @@
       "agendaURL": "/~2026/agenda/HEDU0204.ag.htm",
       "billSession": "2026GS",
       "markerID": ""
-    },
-    {
-      "mtgID": "20317",
-      "committeeID": "HSTEDU",
-      "mtgDate": "2026-02-09 15:40:00.0",
-      "agendaItem": "2",
-      "mtgPlace": "120 Senate Building",
-      "committeeName": "House Education Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001606.htm",
-      "agendaURL": "/~2026/agenda/HEDU0209.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "295403"
     }
   ],
-  "last_action": "Senate/ signed by President/ sent for enrolling",
-  "last_action_owner": "Legislative Research and General Counsel / Enrolling",
-  "last_action_time": "3/5/2026",
+  "last_action": "Governor Signed",
+  "last_action_owner": "Lieutenant Governor's office for filing",
+  "last_action_time": "3/19/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1572,8 +1647,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LNUMBER",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Numbered Bill Publicly Distributed",
@@ -1585,8 +1660,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ bill assigned to staff for fiscal analysis for SB0058",
@@ -1598,8 +1673,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ bill sent to agencies for fiscal input for SB0058",
@@ -1611,8 +1686,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received bill from Legislative Research",
@@ -1624,8 +1699,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLRGC",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ fiscal note sent to sponsor for SB0058",
@@ -1637,8 +1712,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ fiscal note publicly available for SB0058",
@@ -1650,8 +1725,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received fiscal note from Fiscal Analyst",
@@ -1663,8 +1738,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECLFA",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 1st reading (Introduced)",
@@ -1676,8 +1751,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ to standing committee",
@@ -1689,8 +1764,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate Comm - Amendment Recommendation",
@@ -1702,8 +1777,8 @@
       "voteHouse": "",
       "voteStr": "4-0-3",
       "actionCode": "SCAAMD",
-      "parm1": "1",
-      "parm2": ""
+      "parm2": "",
+      "parm1": "1"
     },
     {
       "description": "Senate Comm - Favorable Recommendation",
@@ -1715,8 +1790,8 @@
       "voteHouse": "",
       "voteStr": "3-1-3",
       "actionCode": "SCAFAV",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ comm rpt/ amended",
@@ -1728,8 +1803,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCRAMD",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ placed on 2nd Reading Calendar",
@@ -1741,8 +1816,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SON2ND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 2nd reading",
@@ -1754,8 +1829,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ circled",
@@ -1767,8 +1842,8 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SCIRCLED",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ uncircled",
@@ -1780,8 +1855,8 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SUNCIRCLED",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ passed 2nd reading",
@@ -1793,8 +1868,8 @@
       "voteHouse": "S",
       "voteStr": "26-0-3",
       "actionCode": "SPASS2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ 3rd reading",
@@ -1806,8 +1881,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ passed 3rd reading",
@@ -1819,8 +1894,8 @@
       "voteHouse": "S",
       "voteStr": "29-0-0",
       "actionCode": "SPASS3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ to House",
@@ -1832,8 +1907,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOHOU",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received from Senate",
@@ -1845,8 +1920,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 1st reading (Introduced)",
@@ -1858,8 +1933,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ to standing committee",
@@ -1871,8 +1946,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSTAND",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House Comm - Not Considered",
@@ -1884,8 +1959,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCANOCNSDR",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ bill assigned to staff for fiscal analysis for SB0058S01",
@@ -1897,8 +1972,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ bill sent to agencies for fiscal input for SB0058S01",
@@ -1910,8 +1985,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ fiscal note sent to sponsor for SB0058S01",
@@ -1923,8 +1998,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ fiscal note publicly available for SB0058S01",
@@ -1936,8 +2011,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ bill assigned to staff for fiscal analysis for SB0058S02",
@@ -1949,8 +2024,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ bill sent to agencies for fiscal input for SB0058S02",
@@ -1962,8 +2037,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ bill assigned to staff for fiscal analysis for SB0058S03",
@@ -1975,8 +2050,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ bill sent to agencies for fiscal input for SB0058S03",
@@ -1988,8 +2063,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ bill assigned to staff for fiscal analysis for SB0058S04",
@@ -2001,8 +2076,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ bill sent to agencies for fiscal input for SB0058S04",
@@ -2014,8 +2089,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House Comm - Substitute Recommendation",
@@ -2027,8 +2102,8 @@
       "voteHouse": "",
       "voteStr": "12-0-3",
       "actionCode": "HCASUB",
-      "parm1": "4",
-      "parm2": "0"
+      "parm2": "0",
+      "parm1": "4"
     },
     {
       "description": "House Comm - Favorable Recommendation",
@@ -2040,8 +2115,8 @@
       "voteHouse": "",
       "voteStr": "12-0-3",
       "actionCode": "HCAFAV",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ comm rpt/ substituted",
@@ -2053,8 +2128,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCRSUB",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ return to Rules due to fiscal impact",
@@ -2066,8 +2141,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRETRULFIS",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ fiscal note sent to sponsor for SB0058S02",
@@ -2079,8 +2154,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ fiscal note sent to sponsor for SB0058S03",
@@ -2092,8 +2167,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ fiscal note sent to sponsor for SB0058S04",
@@ -2105,8 +2180,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ fiscal note publicly available for SB0058S03",
@@ -2118,8 +2193,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ fiscal note publicly available for SB0058S02",
@@ -2131,8 +2206,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ fiscal note publicly available for SB0058S04",
@@ -2144,8 +2219,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ bill assigned to staff for fiscal analysis for SB0058S05",
@@ -2157,8 +2232,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA1",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ bill sent to agencies for fiscal input for SB0058S05",
@@ -2170,8 +2245,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Bill Substituted by Sponsor in House Rules Comm",
@@ -2183,8 +2258,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LRULSUBH",
-      "parm1": "5",
-      "parm2": "4"
+      "parm2": "4",
+      "parm1": "5"
     },
     {
       "description": "LFA/ fiscal note sent to sponsor for SB0058S05",
@@ -2196,8 +2271,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "LFA/ fiscal note publicly available for SB0058S05",
@@ -2209,8 +2284,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ Rules to 3rd Reading Calendar",
@@ -2222,8 +2297,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRUL3RD",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 2nd reading",
@@ -2235,8 +2310,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD2",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ 3rd reading",
@@ -2248,8 +2323,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ floor amendment",
@@ -2261,8 +2336,8 @@
       "voteHouse": "H",
       "voteStr": "0-0-75",
       "actionCode": "HAMEND",
-      "parm1": "1",
-      "parm2": ""
+      "parm2": "",
+      "parm1": "1"
     },
     {
       "description": "House/ passed 3rd reading",
@@ -2274,8 +2349,8 @@
       "voteHouse": "H",
       "voteStr": "48-22-5",
       "actionCode": "HPASS3",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ to Senate",
@@ -2287,8 +2362,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSEN",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received from House",
@@ -2300,8 +2375,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ placed on Concurrence Calendar",
@@ -2313,8 +2388,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SONCURCAL",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ concurs with House amendment",
@@ -2326,8 +2401,8 @@
       "voteHouse": "S",
       "voteStr": "26-0-3",
       "actionCode": "SCONCUR",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ to House",
@@ -2339,8 +2414,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOHOU",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ received from Senate",
@@ -2352,8 +2427,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRECS",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ signed by Speaker/ returned to Senate",
@@ -2365,8 +2440,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HSIGNS",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "House/ to Senate",
@@ -2378,8 +2453,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HTOSEN",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ received from House",
@@ -2391,8 +2466,8 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SRECH",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
     },
     {
       "description": "Senate/ signed by President/ sent for enrolling",
@@ -2404,8 +2479,99 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SSIGN",
-      "parm1": "",
-      "parm2": ""
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Bill Received from Senate for Enrolling",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2026-03-06 09:23:20.903",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LRGCRS",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Draft of Enrolled Bill Prepared",
+      "owner": "Legislative Research and General Counsel / Enrolling",
+      "actionDate": "2026-03-06 09:23:22.950",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LENROLL",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Enrolled Bill Returned to House or Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-06 22:03:55.327",
+      "actionClass": "L",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LPASSREV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ enrolled bill to Printing",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-06 22:03:58.073",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOPRINTEN",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ received enrolled bill from Printing",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-11 10:58:18.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECENRP",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Senate/ to Governor",
+      "owner": "Executive Branch - Governor",
+      "actionDate": "2026-03-11 10:58:20.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOGOV",
+      "parm2": "",
+      "parm1": ""
+    },
+    {
+      "description": "Governor Signed",
+      "owner": "Lieutenant Governor's office for filing",
+      "actionDate": "2026-03-19 17:15:01.383",
+      "actionClass": "G",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "GSIGN",
+      "parm2": "",
+      "parm1": ""
     }
   ]
 }

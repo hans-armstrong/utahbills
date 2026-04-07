@@ -1,6 +1,6 @@
 {
   "bill_id": 2102939,
-  "change_hash": "2f69cd13341a174e3f10cda0f35b60d0",
+  "change_hash": "35a8bc9756b3415bbc492eee42634f44",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0439/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0439.html",
-  "completed": 0,
-  "status": 2,
-  "status_date": "2026-02-24",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-03-06",
   "progress": [
     {
       "date": "2026-02-02",
@@ -44,6 +44,10 @@
     {
       "date": "2026-03-04",
       "event": 10
+    },
+    {
+      "date": "2026-03-06",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -316,6 +320,62 @@
     },
     {
       "date": "2026-03-04",
+      "action": "Senate/ 2nd Reading Calendar to Rules in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ Rules to 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ circled in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ strike enacting clause in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ filed in House file for bills not passed",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-07",
       "action": "Senate/ 2nd Reading Calendar to Rules in Senate Rules Committee",
       "chamber": "S",
       "chamber_id": 94,
@@ -896,7 +956,7 @@
   ],
   "last_action": "Senate/ 2nd Reading Calendar to Rules",
   "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "3/4/2026",
+  "last_action_time": "3/7/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1318,6 +1378,110 @@
       "description": "Senate/ 2nd Reading Calendar to Rules",
       "owner": "Senate Rules Committee",
       "actionDate": "2026-03-04 17:03:14.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "S2NDTORUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ Rules to 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-06 21:45:32.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRUL2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-06 23:17:31.533",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ circled",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-06 23:18:02.117",
+      "actionClass": "S",
+      "voteID": "2232",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ strike enacting clause",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-06 23:59:55.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:56.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:58.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-03-06 23:59:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd Reading Calendar to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-03-07 00:11:34.000",
       "actionClass": "S",
       "voteID": "",
       "voiceVote": "",

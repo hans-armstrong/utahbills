@@ -1,6 +1,6 @@
 {
   "bill_id": 2102730,
-  "change_hash": "e42ed05e1c5f1d567f8b267bfd91b68b",
+  "change_hash": "2e2631ccf5199f0b2aee9354cdca8ec5",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0432/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0432.html",
-  "completed": 0,
-  "status": 2,
-  "status_date": "2026-02-23",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-03-06",
   "progress": [
     {
       "date": "2026-01-30",
@@ -44,6 +44,10 @@
     {
       "date": "2026-02-27",
       "event": 10
+    },
+    {
+      "date": "2026-03-06",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -53,8 +57,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Egg Amendments",
   "description": "Egg Amendments",
   "pending_committee_id": 0,
@@ -271,6 +275,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ strike enacting clause in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ filed in House file for bills not passed",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -667,9 +699,9 @@
       "markerID": "301421"
     }
   ],
-  "last_action": "Senate/ 2nd Reading Calendar to Rules",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "3/4/2026",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1006,6 +1038,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "S2NDTORUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ strike enacting clause",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-06 23:59:55.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:56.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:58.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-03-06 23:59:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

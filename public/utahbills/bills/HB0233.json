@@ -1,6 +1,6 @@
 {
   "bill_id": 2071666,
-  "change_hash": "27f89ab3c1623d59dc18a930150fcea5",
+  "change_hash": "0800253e96985b850122cb038fb93ea9",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,13 +17,17 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0233/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0233.html",
-  "completed": 0,
-  "status": 1,
-  "status_date": "2026-01-20",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-03-06",
   "progress": [
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-03-06",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Education Definition Amendments",
   "description": "Education Definition Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-20",
@@ -113,6 +112,20 @@
     {
       "date": "2026-01-20",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ strike enacting clause in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ filed in House file for bills not passed",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -256,9 +269,9 @@
   "gov_tracking_id": "IBIJIUCCKP",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "1/20/2026",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -374,6 +387,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ strike enacting clause",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:55.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-03-06 23:59:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

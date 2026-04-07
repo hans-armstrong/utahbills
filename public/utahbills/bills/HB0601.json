@@ -1,6 +1,6 @@
 {
   "bill_id": 2125000,
-  "change_hash": "693d55fa4483d4f30ff1578337d91bcc",
+  "change_hash": "9d96be2b6f0e363b6fe8f831e6d625bf",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,13 +17,17 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0601/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0601.html",
-  "completed": 0,
-  "status": 1,
-  "status_date": "2026-02-26",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-03-06",
   "progress": [
     {
       "date": "2026-02-26",
       "event": 1
+    },
+    {
+      "date": "2026-03-06",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -37,13 +41,8 @@
   "current_body_id": 93,
   "title": "Flavored Alcohol Amendments",
   "description": "Flavored Alcohol Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-26",
@@ -92,6 +91,27 @@
     {
       "date": "2026-02-26",
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-02",
+      "action": "LFA/ fiscal note sent to sponsor for HB0601 in Version Sponsor",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ strike enacting clause in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ filed in House file for bills not passed",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -210,9 +230,9 @@
   "gov_tracking_id": "QDLPDHTSOQ",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/26/2026",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -289,6 +309,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "LFA/ fiscal note sent to sponsor for HB0601",
+      "owner": "Version Sponsor",
+      "actionDate": "2026-03-02 13:22:32.056",
+      "actionClass": "F",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "LFA3",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ strike enacting clause",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:55.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-03-06 23:59:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

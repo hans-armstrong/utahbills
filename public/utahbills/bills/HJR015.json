@@ -1,6 +1,6 @@
 {
   "bill_id": 2088893,
-  "change_hash": "d7eeb566c7e531ac376104de4ec18ef5",
+  "change_hash": "4bd740dc50960c20c40dc81f801f5242",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HJR015/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HJR015.html",
-  "completed": 0,
-  "status": 2,
-  "status_date": "2026-02-20",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-03-06",
   "progress": [
     {
       "date": "2026-01-22",
@@ -40,6 +40,10 @@
     {
       "date": "2026-02-26",
       "event": 10
+    },
+    {
+      "date": "2026-03-06",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -49,8 +53,8 @@
   "bill_type_id": "4",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Joint Resolution Amending Court Rules to Address Sanctions and Dismissals",
   "description": "Joint Resolution Amending Court Rules to Address Sanctions and Dismissals",
   "pending_committee_id": 0,
@@ -267,6 +271,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ strike enacting clause in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ filed in House file for bills not passed",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -670,19 +702,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "20492",
-      "committeeID": "SSTJLC",
-      "mtgDate": "2026-02-26 08:00:00.0",
-      "agendaItem": "12",
-      "mtgPlace": "210 Senate Building",
-      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001920.htm",
-      "agendaURL": "/~2026/agenda/SJLC0226.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "301078"
-    },
-    {
       "mtgID": "20557",
       "committeeID": "HSTRUL",
       "mtgDate": "2026-02-12 12:30:00.0",
@@ -694,11 +713,24 @@
       "agendaURL": "/~2026/agenda/HRUL0212.ag.htm",
       "billSession": "2026GS",
       "markerID": "296716"
+    },
+    {
+      "mtgID": "20492",
+      "committeeID": "SSTJLC",
+      "mtgDate": "2026-02-26 08:00:00.0",
+      "agendaItem": "12",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001920.htm",
+      "agendaURL": "/~2026/agenda/SJLC0226.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "301078"
     }
   ],
-  "last_action": "Senate/ 2nd Reading Calendar to Rules",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "3/4/2026",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1048,6 +1080,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "S2NDTORUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ strike enacting clause",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-06 23:59:55.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:56.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:58.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-03-06 23:59:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

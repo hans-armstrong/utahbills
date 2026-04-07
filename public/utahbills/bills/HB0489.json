@@ -1,6 +1,6 @@
 {
   "bill_id": 2107767,
-  "change_hash": "da2e30f973d261f312dce974bd68df40",
+  "change_hash": "d52a0e2808f67cb4f29ed0db0dc99368",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0489/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0489.html",
-  "completed": 0,
-  "status": 2,
-  "status_date": "2026-02-26",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-03-06",
   "progress": [
     {
       "date": "2026-02-04",
@@ -44,6 +44,10 @@
     {
       "date": "2026-03-02",
       "event": 10
+    },
+    {
+      "date": "2026-03-06",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -53,8 +57,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Water Infrastructure Amendments",
   "description": "Water Infrastructure Amendments",
   "pending_committee_id": 0,
@@ -278,6 +282,41 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ Rules to 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ strike enacting clause in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ filed in House file for bills not passed",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -547,6 +586,27 @@
       "alt_state_link": "",
       "alt_amendment_size": 0,
       "alt_amendment_hash": ""
+    },
+    {
+      "amendment_id": 283413,
+      "adopted": 0,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2026-03-06",
+      "title": "Senate Amendment 2",
+      "description": "Senate Amendment 2",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0489/id/283413",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0489.Samd.2.pdf",
+      "amendment_size": 32089,
+      "amendment_hash": "3dc72e5c906eb6ff1ed6b8d646ae9b59",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
     }
   ],
   "supplements": [
@@ -640,19 +700,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "20474",
-      "committeeID": "SSTREV",
-      "mtgDate": "2026-03-02 07:30:00.0",
-      "agendaItem": "9",
-      "mtgPlace": "210 Senate Building",
-      "committeeName": "Senate Revenue and Taxation Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001999.htm",
-      "agendaURL": "/~2026/agenda/SREV0302.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "302064"
-    },
-    {
       "mtgID": "20520",
       "committeeID": "HSTPUT",
       "mtgDate": "2026-02-18 08:00:00.0",
@@ -664,11 +711,24 @@
       "agendaURL": "/~2026/agenda/HPUT0218.ag.htm",
       "billSession": "2026GS",
       "markerID": "298189"
+    },
+    {
+      "mtgID": "20474",
+      "committeeID": "SSTREV",
+      "mtgDate": "2026-03-02 07:30:00.0",
+      "agendaItem": "9",
+      "mtgPlace": "210 Senate Building",
+      "committeeName": "Senate Revenue and Taxation Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001999.htm",
+      "agendaURL": "/~2026/agenda/SREV0302.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "302064"
     }
   ],
-  "last_action": "Senate/ 2nd Reading Calendar to Rules",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "3/4/2026",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1018,6 +1078,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "S2NDTORUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ Rules to 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-06 21:45:32.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRUL2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ strike enacting clause",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-06 23:59:55.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:56.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:58.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-03-06 23:59:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

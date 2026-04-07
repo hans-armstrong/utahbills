@@ -1,6 +1,6 @@
 {
   "bill_id": 2084578,
-  "change_hash": "ac1e8615fd146d24674d262f73eab1e6",
+  "change_hash": "913fa691a93aa6c00e8db7b2c5af5f45",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,13 +17,17 @@
   },
   "url": "https://legiscan.com/UT/bill/HR0005/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HR0005.html",
-  "completed": 0,
-  "status": 2,
-  "status_date": "2026-01-20",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-03-06",
   "progress": [
     {
       "date": "2026-01-20",
       "event": 1
+    },
+    {
+      "date": "2026-03-06",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -174,6 +178,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ strike enacting clause in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ filed in House file for bills not passed",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -498,9 +516,9 @@
       "markerID": "293593"
     }
   ],
-  "last_action": "House Comm - Held",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/4/2026",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -733,6 +751,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ strike enacting clause",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:55.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-03-06 23:59:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

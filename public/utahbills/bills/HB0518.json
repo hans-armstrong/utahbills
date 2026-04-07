@@ -1,6 +1,6 @@
 {
   "bill_id": 2111591,
-  "change_hash": "3f58edd03e55ddddbcf511bae10c39f0",
+  "change_hash": "108e407f33c311361a4d0ec1d919f3dd",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0518/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0518.html",
-  "completed": 0,
-  "status": 0,
-  "status_date": "2026-03-04",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-03-06",
   "progress": [
     {
       "date": "2026-02-09",
@@ -36,6 +36,10 @@
     {
       "date": "2026-03-04",
       "event": 2
+    },
+    {
+      "date": "2026-03-06",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -45,17 +49,12 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "School Curriculum Amendments",
   "description": "School Curriculum Amendments",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-09",
@@ -254,6 +253,34 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ strike enacting clause in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ filed in House file for bills not passed",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -603,9 +630,9 @@
       "markerID": "301886"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "3/4/2026",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -929,6 +956,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ strike enacting clause",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-06 23:59:55.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:56.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:58.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-03-06 23:59:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

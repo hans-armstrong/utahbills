@@ -1,6 +1,6 @@
 {
   "bill_id": 2088391,
-  "change_hash": "4f766122210b5b1f32fc9e4ea18cd44d",
+  "change_hash": "8322860786371dc88aca22ba89d0fe17",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0315/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0315.html",
-  "completed": 0,
-  "status": 2,
-  "status_date": "2026-03-02",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-03-06",
   "progress": [
     {
       "date": "2026-01-22",
@@ -44,6 +44,10 @@
     {
       "date": "2026-03-04",
       "event": 10
+    },
+    {
+      "date": "2026-03-06",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -53,8 +57,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Human Development Instruction",
   "description": "Human Development Instruction",
   "pending_committee_id": 0,
@@ -341,6 +345,41 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ Rules to 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ strike enacting clause in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ filed in House file for bills not passed",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -705,6 +744,48 @@
       "alt_state_link": "",
       "alt_amendment_size": 0,
       "alt_amendment_hash": ""
+    },
+    {
+      "amendment_id": 283453,
+      "adopted": 0,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2026-03-06",
+      "title": "Senate Amendment 2",
+      "description": "Senate Amendment 2",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0315/id/283453",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0315S02.Samd.2.pdf",
+      "amendment_size": 7086,
+      "amendment_hash": "c7e648fe324e468edc34de2f2fbcc2a5",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
+    },
+    {
+      "amendment_id": 283454,
+      "adopted": 1,
+      "chamber": "S",
+      "chamber_id": 94,
+      "date": "2026-03-06",
+      "title": "Senate Amendment 1",
+      "description": "Senate Amendment 1",
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/amendment/HB0315/id/283454",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/HB0315S02.Samd.1.pdf",
+      "amendment_size": 7082,
+      "amendment_hash": "1c9c0bc5fff94e3b51dcd24336cb7ec8",
+      "alt_amendment": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_amendment_size": 0,
+      "alt_amendment_hash": ""
     }
   ],
   "supplements": [
@@ -918,15 +999,15 @@
       "mtgPlace": "215 Senate Building",
       "committeeName": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
       "upcomming": false,
-      "minutesURL": "/",
+      "minutesURL": "/interim/2026/html/00002065.htm",
       "agendaURL": "/~2026/agenda/SJLC0304.ag.htm",
       "billSession": "2026GS",
       "markerID": "303351"
     }
   ],
-  "last_action": "Senate/ 2nd Reading Calendar to Rules",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "3/4/2026",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1393,6 +1474,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "S2NDTORUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ Rules to 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-06 21:45:32.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRUL2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ strike enacting clause",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-06 23:59:55.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:56.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:58.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-03-06 23:59:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

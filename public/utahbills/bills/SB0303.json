@@ -1,6 +1,6 @@
 {
   "bill_id": 2118113,
-  "change_hash": "bc7521d45ca1b2d86339ab499aa194c5",
+  "change_hash": "7f60f7d5fa89467be771bcf82379e521",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -45,17 +45,12 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Expungement Amendments",
   "description": "Expungement Amendments",
-  "pending_committee_id": 2116,
-  "committee": {
-    "committee_id": 2116,
-    "chamber": "H",
-    "chamber_id": 93,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-02-17",
@@ -253,6 +248,27 @@
       "action": "House/ 1st reading (Introduced) in House Rules Committee",
       "chamber": "H",
       "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ strike enacting clause in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ received from House in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
       "importance": 0
     }
   ],
@@ -629,9 +645,9 @@
       "markerID": "300203"
     }
   ],
-  "last_action": "House/ 1st reading (Introduced)",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "3/3/2026",
+  "last_action": "Senate/ received from House",
+  "last_action_owner": "Senate Secretary",
+  "last_action_time": "3/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -955,6 +971,45 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ strike enacting clause",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:55.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-06 23:59:56.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-06 23:59:58.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
       "parm1": "",
       "parm2": ""
     }

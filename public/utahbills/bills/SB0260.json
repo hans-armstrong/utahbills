@@ -1,6 +1,6 @@
 {
   "bill_id": 2109211,
-  "change_hash": "117d3b01db9aeffc822c734770c3b04f",
+  "change_hash": "67711d4ae83c02dc0b2914343dd9fa34",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/SB0260/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0260.html",
-  "completed": 0,
-  "status": 1,
-  "status_date": "2026-02-06",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-03-06",
   "progress": [
     {
       "date": "2026-02-06",
@@ -32,6 +32,10 @@
     {
       "date": "2026-03-03",
       "event": 10
+    },
+    {
+      "date": "2026-03-06",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -144,6 +148,20 @@
     {
       "date": "2026-03-03",
       "action": "Senate/ comm rpt/ sent to Rules in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ strike enacting clause in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ filed in Senate file for bills not passed",
       "chamber": "S",
       "chamber_id": 94,
       "importance": 1
@@ -323,9 +341,9 @@
   "gov_tracking_id": "OOTNKSXXEI",
   "comrecommend": [],
   "agendas": [],
-  "last_action": "Senate/ comm rpt/ sent to Rules",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "3/3/2026",
+  "last_action": "Senate/ filed",
+  "last_action_owner": "Senate file for bills not passed",
+  "last_action_time": "3/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -480,6 +498,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SCRRUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ strike enacting clause",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-06 23:59:55.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ filed",
+      "owner": "Senate file for bills not passed",
+      "actionDate": "2026-03-06 23:59:59.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SFILED",
       "parm1": "",
       "parm2": ""
     }

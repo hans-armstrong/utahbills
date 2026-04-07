@@ -1,6 +1,6 @@
 {
   "bill_id": 2091198,
-  "change_hash": "0337e4bdb3d921f6c7c375eae7548810",
+  "change_hash": "b1ccd08858f072b155d491b8f892e06b",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0334/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0334.html",
-  "completed": 0,
-  "status": 2,
-  "status_date": "2026-02-27",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-03-06",
   "progress": [
     {
       "date": "2026-01-23",
@@ -36,6 +36,10 @@
     {
       "date": "2026-02-27",
       "event": 2
+    },
+    {
+      "date": "2026-03-06",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -45,17 +49,12 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Educator Organization Amendments",
   "description": "Educator Organization Amendments",
-  "pending_committee_id": 2128,
-  "committee": {
-    "committee_id": 2128,
-    "chamber": "S",
-    "chamber_id": 94,
-    "name": "Rules"
-  },
+  "pending_committee_id": 0,
+  "committee": [],
   "referrals": [
     {
       "date": "2026-01-23",
@@ -226,6 +225,55 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ Rules to 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ 2nd reading in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ floor amendment in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ failed in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ strike enacting clause in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ filed in House file for bills not passed",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -429,6 +477,24 @@
       "alt_state_link": "",
       "alt_text_size": 0,
       "alt_text_hash": ""
+    },
+    {
+      "doc_id": 3388066,
+      "date": "2026-03-07",
+      "type": "Amended",
+      "type_id": 3,
+      "mime": "application/pdf",
+      "mime_id": 2,
+      "url": "https://legiscan.com/UT/text/HB0334/id/3388066",
+      "state_link": "https://le.utah.gov/Session/2026/bills/amended/AV_HB0334S01_2026-03-06_23-07-09.pdf",
+      "text_size": 46774,
+      "text_hash": "433748fb78437ddc88c3fccf86acd026",
+      "alt_bill_text": 0,
+      "alt_mime": "",
+      "alt_mime_id": 0,
+      "alt_state_link": "",
+      "alt_text_size": 0,
+      "alt_text_hash": ""
     }
   ],
   "votes": [
@@ -461,6 +527,21 @@
       "chamber_id": 93,
       "url": "https://legiscan.com/UT/rollcall/HB0334/id/1647381",
       "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=927&house=H"
+    },
+    {
+      "roll_call_id": 1656788,
+      "date": "2026-03-06",
+      "desc": "Senate/ failed",
+      "yea": 8,
+      "nay": 20,
+      "nv": 0,
+      "absent": 1,
+      "total": 29,
+      "passed": 0,
+      "chamber": "S",
+      "chamber_id": 94,
+      "url": "https://legiscan.com/UT/rollcall/HB0334/id/1656788",
+      "state_link": "https://le.utah.gov/DynaBill/svotes.jsp?sessionid=2026GS&voteid=2191&house=S"
     }
   ],
   "amendments": [
@@ -581,9 +662,9 @@
       "markerID": "299275"
     }
   ],
-  "last_action": "Senate/ 1st reading (Introduced)",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "2/27/2026",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -855,6 +936,97 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "SREAD1",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ Rules to 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-06 16:39:50.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRUL2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 2nd reading",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-06 21:13:58.813",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SREAD2",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ floor amendment",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-06 21:17:33.967",
+      "actionClass": "S",
+      "voteID": "2190",
+      "voiceVote": "1",
+      "voteHouse": "S",
+      "voteStr": "0-0-29",
+      "actionCode": "SAMEND",
+      "parm1": "1",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ failed",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-06 21:23:31.750",
+      "actionClass": "S",
+      "voteID": "2191",
+      "voiceVote": "0",
+      "voteHouse": "S",
+      "voteStr": "8-20-1",
+      "actionCode": "SFAIL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 21:23:34.750",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ strike enacting clause",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:55.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-03-06 23:59:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

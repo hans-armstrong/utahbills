@@ -1,6 +1,6 @@
 {
   "bill_id": 2071009,
-  "change_hash": "66c040e1c6d82225a5be350a666a069d",
+  "change_hash": "0cfb7d6e9020d4ae635881f678f4059f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0223/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0223.html",
-  "completed": 0,
-  "status": 2,
-  "status_date": "2026-02-09",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-03-06",
   "progress": [
     {
       "date": "2026-01-20",
@@ -44,6 +44,10 @@
     {
       "date": "2026-02-18",
       "event": 10
+    },
+    {
+      "date": "2026-03-06",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -432,6 +436,20 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ strike enacting clause in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ filed in House file for bills not passed",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -577,6 +595,22 @@
     {
       "subject_id": 11851,
       "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 332627,
+      "subject_name": "Election Law"
+    },
+    {
+      "subject_id": 332731,
+      "subject_name": "Initiatives"
+    },
+    {
+      "subject_id": 334143,
+      "subject_name": "Lieutenant Governor"
+    },
+    {
+      "subject_id": 335120,
+      "subject_name": "Referenda"
     }
   ],
   "texts": [
@@ -1131,9 +1165,9 @@
       "markerID": "298017"
     }
   ],
-  "last_action": "Senate/ to House",
-  "last_action_owner": "Clerk of the House",
-  "last_action_time": "3/5/2026",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1769,6 +1803,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "LFA4",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ strike enacting clause",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:55.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-03-06 23:59:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

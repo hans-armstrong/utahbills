@@ -1,6 +1,6 @@
 {
   "bill_id": 2067723,
-  "change_hash": "111b1ed47b76fd9bf5093211f105f2c2",
+  "change_hash": "9b8dd6c6530a7bef72371ca285999918",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0184/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0184.html",
-  "completed": 0,
-  "status": 1,
-  "status_date": "2026-01-20",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-03-06",
   "progress": [
     {
       "date": "2026-01-20",
@@ -32,6 +32,10 @@
     {
       "date": "2026-03-05",
       "event": 10
+    },
+    {
+      "date": "2026-03-06",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -256,6 +260,20 @@
     {
       "date": "2026-03-05",
       "action": "House/ comm rpt/ sent to Rules/ substituted in House Rules Committee",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ strike enacting clause in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ filed in House file for bills not passed",
       "chamber": "H",
       "chamber_id": 93,
       "importance": 1
@@ -799,19 +817,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "20309",
-      "committeeID": "HSTEDW",
-      "mtgDate": "2026-02-09 15:40:00.0",
-      "agendaItem": "1",
-      "mtgPlace": "110 Senate Building",
-      "committeeName": "House Economic Development and Workforce Services Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001597.htm",
-      "agendaURL": "/~2026/agenda/HEDW0209.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "295371"
-    },
-    {
       "mtgID": "20414",
       "committeeID": "HSTEDW",
       "mtgDate": "2026-02-18 16:00:00.0",
@@ -823,11 +828,24 @@
       "agendaURL": "/~2026/agenda/HEDW0218.ag.htm",
       "billSession": "2026GS",
       "markerID": "298630"
+    },
+    {
+      "mtgID": "20309",
+      "committeeID": "HSTEDW",
+      "mtgDate": "2026-02-09 15:40:00.0",
+      "agendaItem": "1",
+      "mtgPlace": "110 Senate Building",
+      "committeeName": "House Economic Development and Workforce Services Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001597.htm",
+      "agendaURL": "/~2026/agenda/HEDW0209.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "295371"
     }
   ],
-  "last_action": "House/ comm rpt/ sent to Rules/ substituted",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "3/5/2026",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1190,6 +1208,32 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HCRRULSUB",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ strike enacting clause",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:55.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-03-06 23:59:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

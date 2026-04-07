@@ -1,6 +1,6 @@
 {
   "bill_id": 2095648,
-  "change_hash": "af45de49b00f09d502d77f77d28751a8",
+  "change_hash": "b28d4a1fe671b017aa8c25970902f5b8",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/SB0211/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0211.html",
-  "completed": 0,
-  "status": 1,
-  "status_date": "2026-01-29",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-03-06",
   "progress": [
     {
       "date": "2026-01-29",
@@ -32,6 +32,10 @@
     {
       "date": "2026-02-02",
       "event": 10
+    },
+    {
+      "date": "2026-03-06",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -210,6 +214,27 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ 3nd Reading Calendar to Rules in Senate Rules Committee",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ strike enacting clause in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ filed in Senate file for bills not passed",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -482,9 +507,9 @@
       "markerID": "291974"
     }
   ],
-  "last_action": "Senate/ circled",
-  "last_action_owner": "Senate 3rd Reading Calendar",
-  "last_action_time": "2/24/2026",
+  "last_action": "Senate/ filed",
+  "last_action_owner": "Senate file for bills not passed",
+  "last_action_time": "3/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -756,6 +781,45 @@
       "voteHouse": "S",
       "voteStr": "0-0-29",
       "actionCode": "SCIRCLED",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ 3nd Reading Calendar to Rules",
+      "owner": "Senate Rules Committee",
+      "actionDate": "2026-03-06 10:23:57.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "S3RDTORUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ strike enacting clause",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-06 23:59:55.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ filed",
+      "owner": "Senate file for bills not passed",
+      "actionDate": "2026-03-06 23:59:59.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SFILED",
       "parm1": "",
       "parm2": ""
     }

@@ -1,6 +1,6 @@
 {
   "bill_id": 2084372,
-  "change_hash": "2d63c60844515ff17e8e4f7163f59a19",
+  "change_hash": "2c06dd2a3fffaec25b54a9210b63b68e",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/SB0146/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0146.html",
-  "completed": 0,
-  "status": 3,
-  "status_date": "2026-02-20",
+  "completed": 1,
+  "status": 4,
+  "status_date": "2026-03-07",
   "progress": [
     {
       "date": "2026-01-20",
@@ -48,6 +48,10 @@
     {
       "date": "2026-02-20",
       "event": 3
+    },
+    {
+      "date": "2026-03-07",
+      "event": 4
     }
   ],
   "state": "UT",
@@ -387,6 +391,13 @@
       "chamber": "",
       "chamber_id": 0,
       "importance": 0
+    },
+    {
+      "date": "2026-03-07",
+      "action": "Governor Signed in Lieutenant Governor's office for filing",
+      "chamber": "",
+      "chamber_id": 0,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -827,19 +838,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "20219",
-      "committeeID": "HSTTRA",
-      "mtgDate": "2026-02-05 15:40:00.0",
-      "agendaItem": "5",
-      "mtgPlace": "445 State Capitol",
-      "committeeName": "House Transportation Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00001513.htm",
-      "agendaURL": "/~2026/agenda/HTRA0205.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "294562"
-    },
-    {
       "mtgID": "20222",
       "committeeID": "SSTTPT",
       "mtgDate": "2026-01-22 14:00:00.0",
@@ -851,11 +849,24 @@
       "agendaURL": "/~2026/agenda/STPT0122.ag.htm",
       "billSession": "2026GS",
       "markerID": "288079"
+    },
+    {
+      "mtgID": "20219",
+      "committeeID": "HSTTRA",
+      "mtgDate": "2026-02-05 15:40:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "445 State Capitol",
+      "committeeName": "House Transportation Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001513.htm",
+      "agendaURL": "/~2026/agenda/HTRA0205.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "294562"
     }
   ],
-  "last_action": "Senate/ to Governor",
-  "last_action_owner": "Executive Branch - Governor",
-  "last_action_time": "3/3/2026",
+  "last_action": "Governor Signed",
+  "last_action_owner": "Lieutenant Governor's office for filing",
+  "last_action_time": "3/7/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1400,6 +1411,19 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "STOGOV",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Governor Signed",
+      "owner": "Lieutenant Governor's office for filing",
+      "actionDate": "2026-03-07 08:00:00.000",
+      "actionClass": "G",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "GSIGN",
       "parm1": "",
       "parm2": ""
     }

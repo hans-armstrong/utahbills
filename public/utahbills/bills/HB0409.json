@@ -1,6 +1,6 @@
 {
   "bill_id": 2095605,
-  "change_hash": "4f260527f8c0d4ee1035a44298bfbb7f",
+  "change_hash": "1e08bca14ee5ea8c15a814ad5fb17ed7",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/HB0409/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/HB0409.html",
-  "completed": 0,
-  "status": 2,
-  "status_date": "2026-02-27",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-03-06",
   "progress": [
     {
       "date": "2026-01-28",
@@ -44,6 +44,10 @@
     {
       "date": "2026-03-04",
       "event": 10
+    },
+    {
+      "date": "2026-03-06",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -53,8 +57,8 @@
   "bill_type_id": "1",
   "body": "H",
   "body_id": 93,
-  "current_body": "S",
-  "current_body_id": 94,
+  "current_body": "H",
+  "current_body_id": 93,
   "title": "Legislator Leave Amendments",
   "description": "Legislator Leave Amendments",
   "pending_committee_id": 0,
@@ -327,6 +331,41 @@
       "chamber": "S",
       "chamber_id": 94,
       "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ Rules to 2nd Reading Calendar in Senate 2nd Reading Calendar",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ strike enacting clause in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ to House in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ received from Senate in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ filed in House file for bills not passed",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -472,6 +511,54 @@
     {
       "subject_id": 332524,
       "subject_name": "Legislative Operations"
+    },
+    {
+      "subject_id": 332533,
+      "subject_name": "Public Retirement and Insurance"
+    },
+    {
+      "subject_id": 334432,
+      "subject_name": "Legislative Employees and Compensation"
+    },
+    {
+      "subject_id": 11851,
+      "subject_name": "Government Operations (State Issues)"
+    },
+    {
+      "subject_id": 11853,
+      "subject_name": "State Officers and Employees"
+    },
+    {
+      "subject_id": 383611,
+      "subject_name": "Local Education Agencies (LEAs)"
+    },
+    {
+      "subject_id": 358599,
+      "subject_name": "Constitutional Officer and Legislator Retirement"
+    },
+    {
+      "subject_id": 340569,
+      "subject_name": "Local Government Employees"
+    },
+    {
+      "subject_id": 334530,
+      "subject_name": "Public Employees Insurance and Benefits"
+    },
+    {
+      "subject_id": 334531,
+      "subject_name": "Public Employees Retirement"
+    },
+    {
+      "subject_id": 383628,
+      "subject_name": "Utah Retirement Systems (URS)"
+    },
+    {
+      "subject_id": 371190,
+      "subject_name": "Tier 1 Retirement"
+    },
+    {
+      "subject_id": 367264,
+      "subject_name": "Tier 2 Retirement"
     }
   ],
   "texts": [
@@ -784,19 +871,6 @@
   "comrecommend": [],
   "agendas": [
     {
-      "mtgID": "20442",
-      "committeeID": "SSTGOP",
-      "mtgDate": "2026-03-03 16:00:00.0",
-      "agendaItem": "5",
-      "mtgPlace": "220 Senate Building",
-      "committeeName": "Senate Government Operations and Political Subdivisions Committee",
-      "upcomming": false,
-      "minutesURL": "/interim/2026/html/00002041.htm",
-      "agendaURL": "/~2026/agenda/SGOP0303.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "302921"
-    },
-    {
       "mtgID": "20551",
       "committeeID": "HSTGOC",
       "mtgDate": "2026-02-19 16:00:00.0",
@@ -808,11 +882,24 @@
       "agendaURL": "/~2026/agenda/HGOC0219.ag.htm",
       "billSession": "2026GS",
       "markerID": "299002"
+    },
+    {
+      "mtgID": "20442",
+      "committeeID": "SSTGOP",
+      "mtgDate": "2026-03-03 16:00:00.0",
+      "agendaItem": "5",
+      "mtgPlace": "220 Senate Building",
+      "committeeName": "Senate Government Operations and Political Subdivisions Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00002041.htm",
+      "agendaURL": "/~2026/agenda/SGOP0303.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "302921"
     }
   ],
-  "last_action": "Senate/ 2nd Reading Calendar to Rules",
-  "last_action_owner": "Senate Rules Committee",
-  "last_action_time": "3/4/2026",
+  "last_action": "House/ filed",
+  "last_action_owner": "House file for bills not passed",
+  "last_action_time": "3/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1253,6 +1340,71 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "S2NDTORUL",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ Rules to 2nd Reading Calendar",
+      "owner": "Senate 2nd Reading Calendar",
+      "actionDate": "2026-03-06 21:45:32.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRUL2ND",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ strike enacting clause",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-06 23:59:55.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ to House",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:56.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "STOHOU",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ received from Senate",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:58.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HRECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ filed",
+      "owner": "House file for bills not passed",
+      "actionDate": "2026-03-06 23:59:59.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HFILED",
       "parm1": "",
       "parm2": ""
     }

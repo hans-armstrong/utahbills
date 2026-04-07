@@ -1,6 +1,6 @@
 {
   "bill_id": 2065316,
-  "change_hash": "7353543dfe08ac691293a8ef0dfcee8c",
+  "change_hash": "910b7732359b7df5eb72a45b829f182f",
   "session_id": 2214,
   "session": {
     "session_id": 2214,
@@ -17,9 +17,9 @@
   },
   "url": "https://legiscan.com/UT/bill/SB0075/2026",
   "state_link": "https://le.utah.gov/~2026/bills/static/SB0075.html",
-  "completed": 0,
-  "status": 2,
-  "status_date": "2026-02-06",
+  "completed": 1,
+  "status": 6,
+  "status_date": "2026-03-06",
   "progress": [
     {
       "date": "2026-01-20",
@@ -44,6 +44,10 @@
     {
       "date": "2026-02-19",
       "event": 10
+    },
+    {
+      "date": "2026-03-06",
+      "event": 6
     }
   ],
   "state": "UT",
@@ -53,8 +57,8 @@
   "bill_type_id": "1",
   "body": "S",
   "body_id": 94,
-  "current_body": "H",
-  "current_body_id": 93,
+  "current_body": "S",
+  "current_body_id": 94,
   "title": "Educator Salary Adjustment Eligibility",
   "description": "Educator Salary Adjustment Eligibility",
   "pending_committee_id": 0,
@@ -292,6 +296,34 @@
       "chamber": "H",
       "chamber_id": 93,
       "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ strike enacting clause in Clerk of the House",
+      "chamber": "H",
+      "chamber_id": 93,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "House/ to Senate in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ received from House in Senate Secretary",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 0
+    },
+    {
+      "date": "2026-03-06",
+      "action": "Senate/ filed in Senate file for bills not passed",
+      "chamber": "S",
+      "chamber_id": 94,
+      "importance": 1
     }
   ],
   "sponsors": [
@@ -692,6 +724,19 @@
   "comrecommend": [],
   "agendas": [
     {
+      "mtgID": "20513",
+      "committeeID": "HSTEDU",
+      "mtgDate": "2026-02-18 16:00:00.0",
+      "agendaItem": "3",
+      "mtgPlace": "120 Senate Building",
+      "committeeName": "House Education Committee",
+      "upcomming": false,
+      "minutesURL": "/interim/2026/html/00001779.htm",
+      "agendaURL": "/~2026/agenda/HEDU0218.ag.htm",
+      "billSession": "2026GS",
+      "markerID": "298539"
+    },
+    {
       "mtgID": "20266",
       "committeeID": "SSTEDU",
       "mtgDate": "2026-01-21 14:00:00.0",
@@ -703,24 +748,11 @@
       "agendaURL": "/~2026/agenda/SEDU0121.ag.htm",
       "billSession": "2026GS",
       "markerID": "287714"
-    },
-    {
-      "mtgID": "20513",
-      "committeeID": "HSTEDU",
-      "mtgDate": "2026-02-18 16:00:00.0",
-      "agendaItem": "3",
-      "mtgPlace": "120 Senate Building",
-      "committeeName": "House Education Committee",
-      "upcomming": false,
-      "minutesURL": "/",
-      "agendaURL": "/~2026/agenda/HEDU0218.ag.htm",
-      "billSession": "2026GS",
-      "markerID": "298539"
     }
   ],
-  "last_action": "House/ return to Rules due to fiscal impact",
-  "last_action_owner": "House Rules Committee",
-  "last_action_time": "2/19/2026",
+  "last_action": "Senate/ filed",
+  "last_action_owner": "Senate file for bills not passed",
+  "last_action_time": "3/6/2026",
   "action_history": [
     {
       "description": "Bill Numbered but not Distributed",
@@ -1096,6 +1128,58 @@
       "voteHouse": "",
       "voteStr": "",
       "actionCode": "HRETRULFIS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ strike enacting clause",
+      "owner": "Clerk of the House",
+      "actionDate": "2026-03-06 23:59:55.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HECS",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "House/ to Senate",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-06 23:59:56.000",
+      "actionClass": "H",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "HTOSEN",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ received from House",
+      "owner": "Senate Secretary",
+      "actionDate": "2026-03-06 23:59:58.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SRECH",
+      "parm1": "",
+      "parm2": ""
+    },
+    {
+      "description": "Senate/ filed",
+      "owner": "Senate file for bills not passed",
+      "actionDate": "2026-03-06 23:59:59.000",
+      "actionClass": "S",
+      "voteID": "",
+      "voiceVote": "",
+      "voteHouse": "",
+      "voteStr": "",
+      "actionCode": "SFILED",
       "parm1": "",
       "parm2": ""
     }
